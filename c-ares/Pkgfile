@@ -1,0 +1,24 @@
+# Description:	Asynchronous C DNS library.
+# URL:		https://c-ares.haxx.se/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=c-ares
+version=1.17.2
+release=0
+source=(https://c-ares.haxx.se/download/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-Wno-dev
+
+	make
+
+	make DESTDIR=$PKG install
+}
