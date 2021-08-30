@@ -1,0 +1,24 @@
+# Description:	Library for parsing Interface Definition Language (IDL) files
+# URL:		https://www.gnome.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	glib
+
+name=libidl
+_realname=libIDL
+version=0.8.14
+release=0
+source=(https://download.gnome.org/sources/${_realname}/${version%.*}/${_realname}-${version}.tar.bz2)
+
+build() {
+	cd ${_realname}-${version}
+
+	./configure \
+		--build=$CHOST \
+		--prefix=/usr
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share
+}
