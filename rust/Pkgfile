@@ -1,0 +1,74 @@
+# Description:	The Rust language with Cargo included.
+# URL:		http://www.rust-lang.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	llvm-toolchain
+
+name=rust
+version=1.54.0
+release=0
+
+source=(https://static.rust-lang.org/dist/${name}c-${version}-src.tar.gz \
+	libexec.patch)
+
+build() {
+	cd "${name}c-${version}-src"
+
+	# Patch cargo so credential helpers are in /usr/lib instead of /usr/libexec
+	patch -p1 -i $SRC/libexec.patch
+
+cat <<- EOF > $SRC/config.toml
+	changelog-seen = 2
+	profile = "user"
+
+	[llvm]
+	ninja = true
+	link-shared = true
+
+	[install]
+	prefix = "/usr"
+
+	[rust]
+	channel = "stable"
+	rpath = false
+
+	[build]
+	target = ["$CHOST"]
+	extended = true
+	profiler = true
+	vendor = true
+	sanitizers = false
+	docs = false
+	python = "/usr/bin/python3"
+	tools = ["cargo", "rls", "clippy", "miri", "rustfmt", "analysis", "src"]
+
+	[target.$CHOST]
+	llvm-config = "/usr/bin/llvm-config"
+EOF
+
+	cat $SRC/config.toml
+
+	mkdir "$PKGMK_SOURCE_DIR/rust" || true
+	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
+
+	export RUST_BACKTRACE=full
+
+	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml ${JOBS:+-j ${JOBS}}
+
+	DESTDIR=$PKG /usr/bin/python3 ./x.py --config="${SRC}"/config.toml install
+
+	# Cleanup
+	rm -r $PKG/usr/share/doc
+	rm -r $PKG/usr/share/zsh
+	rm -r $PKG/etc
+	rm $PKG/usr/lib/rustlib/{components,manifest-rustc,rust-installer-version,uninstall.sh}
+
+	rm $PKG/usr/lib/{libstd-*,libtest-*}
+	ln -srft $PKG/usr/lib $PKG/usr/lib/rustlib/$CHOST/lib/*.so
+
+	# Not necessary
+	find $PKG -name "LICENSE*" -o \
+		-name "README*" -o \
+		-name "CONTRIBUTING*" -o \
+		-name "*.log" -o \
+		-name "manifest-*" | xargs rm
+}
