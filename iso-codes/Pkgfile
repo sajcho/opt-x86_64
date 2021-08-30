@@ -1,0 +1,22 @@
+# Description:	ISO codes and their translations
+# URL:		https://salsa.debian.org/iso-codes-team/iso-codes
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gettext python3
+
+name=iso-codes
+version=4.6.0
+release=0
+source=(https://salsa.debian.org/${name}-team/${name}/-/archive/${name}-${version}/${name}-${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${name}-${version}
+
+	./configure \
+		--prefix=/usr
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/locale
+}
