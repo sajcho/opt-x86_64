@@ -1,0 +1,27 @@
+# Description:	A JSON implementation in C
+# URL:		https://github.com/json-c/json-c/wiki
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake
+
+name=json-c
+version=0.15
+release=0
+source=(https://s3.amazonaws.com/json-c_releases/releases/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=True \
+		-DBUILD_STATIC_LIBS=False
+
+	make
+
+	make DESTDIR=$PKG install
+}
