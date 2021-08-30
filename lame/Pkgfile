@@ -1,0 +1,27 @@
+# Description:	An MP3 encoder and graphical frame analyzer
+# URL:		http://lame.sourceforge.net/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	ncurses nasm
+
+name=lame
+version=3.100
+release=0
+source=(http://downloads.sourceforge.net/project/${name}/${name}/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-nasm \
+		--disable-analyzer-hooks \
+		--disable-gtktest \
+		--disable-mp3x \
+		--with-pic
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}
