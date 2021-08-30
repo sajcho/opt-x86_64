@@ -1,0 +1,27 @@
+# Description:	A perl module for parsing XML documents
+# URL:		https://metacpan.org/release/XML-Parser
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	expat perl
+
+name=perl-xml-parser
+_realname=XML-Parser
+version=2.46
+release=1
+source=(https://cpan.metacpan.org/authors/id/T/TO/TODDR/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	export CFLAGS=$(perl -MConfig -E 'say $Config{ccflags}')
+	PERL_MM_USE_DEFAULT=1 perl Makefile.PL INSTALLDIRS=vendor
+
+	make
+
+	#make test
+
+	make DESTDIR=$PKG install
+
+	find $PKG -name 'perllocal.pod' -or \
+		-name '.packlist' -or \
+		-name 'README' | xargs rm
+}
