@@ -1,0 +1,37 @@
+# Description:	The GTK+ Toolkit (v3)
+# URL:		https://www.gtk.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	at-spi2-atk gdk-pixbuf libepoxy libxkbcommon pango
+
+name=gtk3
+version=3.24.30
+release=0
+source=(https://download.gnome.org/sources/gtk+/${version%.*}/gtk+-${version}.tar.xz \
+	gtk+-3.24.30-fix-gcc11-array-bounds.patch)
+
+build() {
+	cd gtk+-${version}
+
+	# Resolve "gtk-3-24 build failure with GCC 11 [-Werror=array-bounds]"
+	# https://gitlab.gnome.org/GNOME/gtk/-/merge_requests/3382
+	patch -p1 -i $SRC/gtk+-3.24.30-fix-gcc11-array-bounds.patch
+
+	build-meson \
+		-Dman=true \
+		-Dgtk_doc=false \
+		-Dtests=false \
+		-Dx11_backend=true \
+		-Dbroadway_backend=true \
+		-Dwayland_backend=true \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/usr/share/{gtk-3.0,locale}
+
+	# use gtk-update-icon-cache from gtk+2.0 for now
+	rm $PKG/usr/bin/gtk-update-icon-cache
+	rm $PKG/usr/share/man/man1/gtk-update-icon-cache.1
+}

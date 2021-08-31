@@ -1,0 +1,28 @@
+--- gtk+-3.24.30/gtk/gtktextchild.c.orig	2021-07-16 09:22:14.498892246 +0200
++++ gtk+-3.24.30/gtk/gtktextchild.c	2021-07-16 09:03:06.000000000 +0200
+@@ -73,11 +73,8 @@
+       }                                                                 \
+   } G_STMT_END
+ 
+-#define PIXBUF_SEG_SIZE ((unsigned) (G_STRUCT_OFFSET (GtkTextLineSegment, body) \
+-        + sizeof (GtkTextPixbuf)))
+-
+-#define WIDGET_SEG_SIZE ((unsigned) (G_STRUCT_OFFSET (GtkTextLineSegment, body) \
+-        + sizeof (GtkTextChildBody)))
++#define PIXBUF_SEG_SIZE ((unsigned) (sizeof (GtkTextLineSegment)))
++#define WIDGET_SEG_SIZE ((unsigned) (sizeof (GtkTextLineSegment)))
+ 
+ static GtkTextLineSegment *
+ pixbuf_segment_cleanup_func (GtkTextLineSegment *seg,
+--- gtk+-3.24.30/gtk/gtktextsegment.c.orig	2021-07-16 09:23:55.975433404 +0200
++++ gtk+-3.24.30/gtk/gtktextsegment.c	2021-07-16 09:04:06.000000000 +0200
+@@ -155,8 +155,7 @@
+ 
+ #define CSEG_SIZE(chars) ((unsigned) (G_STRUCT_OFFSET (GtkTextLineSegment, body) \
+         + 1 + (chars)))
+-#define TSEG_SIZE ((unsigned) (G_STRUCT_OFFSET (GtkTextLineSegment, body) \
+-        + sizeof (GtkTextToggleBody)))
++#define TSEG_SIZE ((unsigned) (sizeof (GtkTextLineSegment)))
+ 
+ /*
+  * Type functions
