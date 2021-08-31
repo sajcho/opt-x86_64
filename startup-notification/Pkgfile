@@ -1,0 +1,21 @@
+# Description:	Monitor and display application startup
+# URL:		https://www.freedesktop.org/wiki/Software/startup-notification
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libsm libx11 xcb-util
+
+name=startup-notification
+version=0.12
+release=0
+source=(https://www.freedesktop.org/software/${name}/releases/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--build=aarch64-unknown-linux-gnu
+
+	make
+
+	make DESTDIR=$PKG install
+}
