@@ -1,0 +1,4 @@
+76ed4e6da9c07bd168b2acd9bfefab1b  SDL2-2.0.14.tar.gz
+6c2ed10f034d980743a3989cc64cb09c  directfb-cflags.patch
+04c9d39066b0e2729f978159679db378  khronos.patch
+77d751fcca0af36e400fe31714ed11da  wayland-fix-keyboard.patch

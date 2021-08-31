@@ -1,0 +1,48 @@
+# Description:	Development library designed to provide low level access to audio, keyboard, mouse, joystick and graphics
+# URL:		https://www.libsdl.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	alsa-lib cmake libusb libxcursor libxi libxkbcommon libxrand
+
+name=sdl2
+version=2.0.14
+release=0
+source=(https://www.libsdl.org/release/SDL2-${version}.tar.gz \
+	directfb-cflags.patch \
+	khronos.patch \
+	wayland-fix-keyboard.patch)
+
+build() {
+	cd SDL2-${version}
+
+	patch -p1 -i $SRC/directfb-cflags.patch
+	patch -p1 -i $SRC/khronos.patch
+	patch -p1 -i $SRC/wayland-fix-keyboard.patch
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DSDL_TEST=OFF \
+		-DALSA=ON \
+		-DJACK=OFF \
+		-DCLOCK_GETTIME=ON \
+		-DARTS=OFF \
+		-DESD=OFF \
+		-DNAS=OFF \
+		-DRPATH=OFF \
+		-DVIDEO_X11=ON \
+		-DVIDEO_DIRECTFB=On \
+		-DVIDEO_WAYLAND=ON \
+		-DCMAKE_C_FLAGS="$CFLAGS" \
+		-DSDL_STATIC=ON \
+		-DSDL_SHARED=ON \
+		-DPULSEAUDIO_SHARED=OFF
+
+	make
+
+	make DESTDIR=$PKG install
+}
