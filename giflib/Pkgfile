@@ -1,0 +1,17 @@
+# Description:	A library for reading and writing GIF images
+# URL:		http://giflib.sourceforge.net
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	xmlto
+
+name=giflib
+version=5.2.1
+release=0
+source=(http://download.sourceforge.net/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	make
+
+	make PREFIX=$PKG/usr install
+}
