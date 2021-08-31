@@ -1,0 +1,21 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/srt-ffplay
+-rwxr-xr-x	root/root	usr/bin/srt-file-transmit
+-rwxr-xr-x	root/root	usr/bin/srt-live-transmit
+-rwxr-xr-x	root/root	usr/bin/srt-tunnel
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/srt/
+-rw-r--r--	root/root	usr/include/srt/access_control.h
+-rw-r--r--	root/root	usr/include/srt/logging_api.h
+-rw-r--r--	root/root	usr/include/srt/platform_sys.h
+-rw-r--r--	root/root	usr/include/srt/srt.h
+-rw-r--r--	root/root	usr/include/srt/udt.h
+-rw-r--r--	root/root	usr/include/srt/version.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libsrt.so -> libsrt.so.1.4
+lrwxrwxrwx	root/root	usr/lib/libsrt.so.1.4 -> libsrt.so.1.4.3
+-rwxr-xr-x	root/root	usr/lib/libsrt.so.1.4.3
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/haisrt.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/srt.pc
