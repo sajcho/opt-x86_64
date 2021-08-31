@@ -1,0 +1,30 @@
+# Description:	Commandline MP3 player
+# URL:		https://www.mpg123.de
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	alsa-lib
+
+name=mpg123
+version=1.28.2
+release=0
+source=(https://www.mpg123.de/download/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-int-quality \
+		--disable-dependency-tracking \
+		--with-pic \
+		--with-audio="alsa" \
+		--with-cpu="aarch64"
+
+	sed -i 's/ -shared / -Wl,--as-needed\0/g' libtool
+	make
+
+	#make check
+
+	make DESTDIR=$PKG install
+
+	install -m 0755 scripts/conplay $PKG/usr/bin/conplay
+}
