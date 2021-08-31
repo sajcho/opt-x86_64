@@ -1,0 +1,74 @@
+# Description:	Network Authentication Protocol
+# URL:		https://web.mit.edu/kerberos
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	e2fsprogs keyutils
+
+name=krb5
+version=1.19.1
+release=1
+source=(https://kerberos.org/dist/${name}/${version::4}/${name}-${version}.tar.gz \
+	krb5.conf \
+	kadmind.run \
+	kpropd.run \
+	krb5kdc.run)
+
+build() {
+	cd ${name}-${version}/src
+
+	sed -i -e 's@\^u}@^u cols 300}@' tests/dejagnu/config/default.exp
+	sed -i -e '/eq 0/{N;s/12 //}' plugins/kdb/db2/libdb2/test/run.test
+	sed -i '/t_iprop.py/d' tests/Makefile.in
+
+	./configure \
+		--prefix=/usr \
+		--localstatedir=/var/lib \
+		--runstatedir=/run \
+		--enable-shared \
+		--enable-dns-for-realm \
+		--disable-rpath \
+		--disable-nls \
+		--with-system-et \
+		--with-system-ss \
+		--without-tcl \
+		--without-ldap \
+		--without-system-verto
+
+	make
+
+	#make -j1 check
+
+	make DESTDIR=$PKG install
+
+
+	# move essential libs and the ksu binary to /lib resp. /bin
+	install -d $PKG/{bin,lib}
+
+	mv $PKG/usr/bin/ksu $PKG/bin
+
+	mv $PKG/usr/lib/libkrb5.so.3* $PKG/lib
+	mv $PKG/usr/lib/libk5crypto.so.3* $PKG/lib
+	mv $PKG/usr/lib/libkrb5support.so.0* $PKG/lib
+
+	ln -sf ../../lib/$(readlink $PKG/usr/lib/libkrb5.so) $PKG/usr/lib/libkrb5.so
+	ln -sf ../../lib/$(readlink $PKG/usr/lib/libk5crypto.so) $PKG/usr/lib/libk5crypto.so
+	ln -sf ../../lib/$(readlink $PKG/usr/lib/libkrb5support.so) $PKG/usr/lib/libkrb5support.so
+
+	install -d $PKG/etc/sv/{kadmind,kpropd,krb5kdc}
+
+	# runit krb5kdc service
+	install -m 0755 $SRC/krb5kdc.run $PKG/etc/sv/krb5kdc/run
+	ln -s /run/runit/supervise.krb5kdc $PKG/etc/sv/krb5kdc/supervise
+	# runit kadmind service
+	install -m 0755 $SRC/kadmind.run $PKG/etc/sv/kadmind/run
+	ln -s /run/runit/supervise.kadmind $PKG/etc/sv/kadmind/supervise
+	# runit kpropd service
+	install -m 0755 $SRC/kpropd.run $PKG/etc/sv/kpropd/run
+	ln -s /run/runit/supervise.kpropd $PKG/etc/sv/kpropd/supervise
+
+	#mkdir -p $PKG/var/lib/krb5kdc/
+	touch $PKG/var/lib/krb5kdc/kadm5.acl
+	install -m 0644 $SRC/krb5.conf $PKG/etc
+
+	# cleanup
+	rm -r $PKG/usr/share/{examples,man/cat*}
+}
