@@ -1,0 +1,26 @@
+# Description:	Freedesktop.org Shared MIME Info
+# URL:		http://freedesktop.org/Software/shared-mime-info
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	glib intltool itstool xmlto
+
+name=shared-mime-info
+version=2.1
+release=0
+source=(https://gitlab.freedesktop.org/xdg/${name}/-/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dupdate-mimedb=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	# Builds the initial database
+	/usr/bin/env PKGSYSTEM_ENABLE_FSYNC=0 $PKG/usr/bin/update-mime-database $PKG/usr/share/mime
+
+	rm -r $PKG/usr/share/locale
+}
