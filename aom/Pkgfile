@@ -1,0 +1,29 @@
+# Description:	Alliance for Open Media (AOM) AV1 codec SDK
+# URL:		https://aomedia.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake yasm
+
+name=aom
+_realname=libaom
+version=3.1.2
+release=0
+source=(https://storage.googleapis.com/aom-releases/${_realname}-${version}.tar.gz)
+
+build() {
+	cd $SRC/build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DCMAKE_C_FLAGS="$CFLAGS" \
+		-DCMAKE_CXX_FLAGS="$CXXFLAGS" \
+		-DENABLE_NASM=OFF \
+		-DENABLE_TESTS=OFF \
+		-Wno-dev
+
+	make
+
+	make DESTDIR=$PKG install
+}
