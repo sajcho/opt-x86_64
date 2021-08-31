@@ -1,0 +1,30 @@
+# Description:	Text shaping library
+# URL:		https://freedesktop.org/wiki/Software/HarfBuzz
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cairo gobject-introspection graphite2 icu
+
+name=harfbuzz
+version=2.9.0
+release=0
+source=(https://github.com/harfbuzz/harfbuzz/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		--default-library=both \
+		-Dglib=enabled \
+		-Dgobject=enabled \
+		-Dintrospection=enabled \
+		-Dicu=enabled \
+		-Dfreetype=enabled \
+		-Dcairo=enabled \
+		-Dgraphite=enabled \
+		-Dbenchmark=disabled \
+		-Ddocs=disabled \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
