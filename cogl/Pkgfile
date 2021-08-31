@@ -1,0 +1,33 @@
+# Description:	An object oriented GL/GLES Abstraction/Utility Layer
+# URL:		https://gitlab.gnome.org/GNOME/cogl
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	automake gdk-pixbuf libtool libxcomposite mesa pango
+
+name=cogl
+version=1.22.8
+release=0
+source=(https://download.gnome.org/sources/${name}/${version%.*}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	autoreconf -fv
+
+	./configure \
+		--prefix=/usr \
+		--enable-gles2 \
+		--enable-kms-egl-platform \
+		--enable-gl \
+		--enable-gdk-pixbuf \
+		--enable-introspection \
+		--enable-cairo \
+		--enable-wayland-egl-platform \
+		--enable-wayland-egl-server \
+		--disable-gles1
+
+	make -j1 # fails to link cogl-gst into itself otherwise...
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{cogl,locale}
+}
