@@ -1,0 +1,24 @@
+# Description:	A library to parse an EXIF file and read the data from those tags
+# URL:		https://sourceforge.net/projects/libexif
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=libexif
+version=0.6.22
+release=0
+source=(https://github.com/${name}/${name}/releases/download/${name}-${version//./_}-release/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	grep -l '^#!/usr/bin/sh' -r . | xargs sed -i 's|^#!/usr/bin/sh|#!/bin/sh|g'
+
+	./configure \
+		--prefix=/usr \
+		--disable-nls
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}
