@@ -1,0 +1,5 @@
+4f9df4011e6a8c23240fff5de2d05f6e  10_utf16.diff
+3ca856b97924d48a0fdfeff0bd83ce7d  11_unknown_encoding.diff
+c51822ea6301b1ca469975f0c9ee8e34  CVE-2008-2109.patch
+e5808ad997ba32c498803822078748c3  libid3tag-0.15.1b.tar.gz
+85502349069e61eaeea4610b1ea6cb56  libid3tag-gperf.patch
