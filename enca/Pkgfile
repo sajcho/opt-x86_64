@@ -1,0 +1,28 @@
+# Description:	Charset analyser and converter
+# URL:		http://freshmeat.net/projects/enca/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	recode
+
+name=enca
+version=1.19
+release=0
+source=(http://dl.cihar.com/${name}/${name}-${version}.tar.xz \
+	enca-bad-file-descriptor.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/enca-bad-file-descriptor.patch
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--enable-external \
+		--with-librecode=/usr
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/gtk-doc
+}
