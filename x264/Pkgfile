@@ -1,0 +1,28 @@
+# Description:	Free library for encoding H264/AVC video streams.
+# URL:		http://www.videolan.org/developers/x264.html
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	nasm
+
+name=x264
+version=20210814
+release=0
+source=(http://anduin.linuxfromscratch.org/BLFS/${name}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-shared \
+		--enable-pic \
+		--disable-cli \
+		--disable-lsmash \
+		--extra-cflags=-fno-aggressive-loop-optimizations
+
+	make
+
+	make DESTDIR=$PKG \
+		bindir=/usr/bin \
+		libdir=/usr/lib \
+		includedir=/usr/include install
+}
