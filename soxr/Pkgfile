@@ -1,0 +1,47 @@
+# Description:	High quality, one-dimensional sample-rate conversion library
+# URL:		https://sourceforge.net/projects/soxr
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake
+
+name=soxr
+version=0.1.3
+release=0
+source=(https://downloads.sourceforge.net/project/${name}/${name}-${version}-Source.tar.xz)
+
+build() {
+	cd ${name}-${version}-Source
+
+	mkdir static shared
+
+	cd static
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX:PATH=/usr \
+		-DBUILD_SHARED_LIBS=False \
+		-DBUILD_TESTS=ON \
+		-Wno-dev
+
+	make
+
+	cd ../shared
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX:PATH=/usr \
+		-DBUILD_SHARED_LIBS=True \
+		-DBUILD_TESTS=ON \
+		-Wno-dev
+
+	make
+
+	#cd ../static
+	#make test
+	#cd ../shared
+	#make test
+
+	cd ../static
+	make DESTDIR=$PKG install
+	cd ../shared
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}
