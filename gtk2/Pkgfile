@@ -1,0 +1,26 @@
+# Description:	The GTK+ Toolkit (v2)
+# URL:		http://www.gtk.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	atk hicolor-icon-theme gdk-pixbuf pango libxcursor libxinerama libxrandr libxcomposite
+
+name=gtk2
+version=2.24.33
+release=0
+source=(https://download.gnome.org/sources/gtk+/${version%.*}/gtk+-${version}.tar.xz)
+
+build() {
+	cd gtk+-${version}
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc
+
+	# https://bugzilla.gnome.org/show_bug.cgi?id=655517
+	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{locale,gtk-doc,gtk-2.0} $PKG/usr/bin/gtk-demo
+}
