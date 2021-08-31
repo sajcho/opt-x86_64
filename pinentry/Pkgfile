@@ -1,0 +1,33 @@
+# Description:	Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+# URL:		https://gnupg.org/related_software/pinentry/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libassuan libcap util-linux
+
+name=pinentry
+version=1.1.1
+release=0
+source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2 \
+	pinentry)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-pinentry-curses \
+		--enable-fallback-curses \
+		--disable-pinentry-{gnome3,gtk2,qt,qt5} \
+		--disable-libsecret
+
+	make
+
+	#make check
+
+	make DESTDIR=$PKG install
+
+	# We use pinentry wrapper
+	rm $PKG/usr/bin/pinentry
+	install -m 0755 $SRC/pinentry $PKG/usr/bin/pinentry
+
+	rm -r $PKG/usr/share
+}
