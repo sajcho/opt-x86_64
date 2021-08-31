@@ -1,0 +1,28 @@
+# Description:	An open source JPEG 2000 codec
+# URL:		https://github.com/uclouvain/openjpeg
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	lcms2 libpng samurai
+
+name=openjpeg2
+_realname=openjpeg
+version=2.4.0
+release=0
+source=(https://github.com/uclouvain/${_realname}/archive/v${version}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+		-Wno-dev
+
+	ninja
+
+	DESTDIR=$PKG ninja install
+}
