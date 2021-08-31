@@ -1,0 +1,4 @@
+44f90200e583beb579bb3109a22df62a  dont-run-pngtest.patch
+6c7519f6c75939efa0ed3053197abd54  libpng-1.6.37.tar.gz
+3820297122960161657a9e7db4bfcd11  libpng-apng.patch
+112d7a0a90030aa97925f6eb3e4f9c52  libpng-fix-arm-neon.patch
