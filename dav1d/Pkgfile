@@ -1,0 +1,27 @@
+# Description:	Small and fast AV1 Decoder
+# URL:		https://code.videolan.org/videolan/dav1d
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	meson nasm
+
+name=dav1d
+version=0.9.1
+release=0
+source=(https://code.videolan.org/videolan/${name}/-/archive/${version}/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Denable_tests=true \
+		-Denable_tools=true \
+		-Dfuzzing_engine=none \
+		-Dtestdata_tests=false \
+		-Denable_asm=true \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	#meson test --no-rebuild -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
