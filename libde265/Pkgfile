@@ -1,0 +1,22 @@
+# Description:	Open h.265 video codec implementation
+# URL:		https://github.com/strukturag/libde265
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	automake libtool
+
+name=libde265
+version=1.0.8
+release=0
+source=(https://github.com/strukturag/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/share/man \
+		--disable-sherlock265
+
+	make
+
+	make DESTDIR=$PKG install
+}
