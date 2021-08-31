@@ -1,0 +1,24 @@
+# Description:	An interactive process viewer
+# URL:		https://github.com/htop-dev/htop
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	ncurses
+
+name=htop
+version=3.0.5
+release=0
+source=(https://github.com/htop-dev/${name}/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./autogen.sh
+
+	./configure \
+		--prefix=/usr \
+		--enable-cgroup \
+		--enable-taskstats
+
+	make
+
+	make DESTDIR=$PKG install
+}
