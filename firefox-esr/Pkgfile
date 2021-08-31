@@ -1,0 +1,88 @@
+# Description:	The Mozilla Firefox browser with Alsa support
+# URL:		https://www.mozilla.com/firefox/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxt zip
+
+name=firefox-esr
+_realname=firefox
+version=91.0.1esr
+_realversion=91.0.1
+release=0
+source=(https://archive.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
+	firefox-91.0.1esr-glibc234-1.patch \
+	firefox-91.0.1esr-disable_rust_test-1.patch \
+	firefox.desktop)
+
+build() {
+	cd ${_realname}-${_realversion}
+
+	patch -Np1 -i $SRC/firefox-91.0.1esr-glibc234-1.patch
+	patch -Np1 -i $SRC/firefox-91.0.1esr-disable_rust_test-1.patch
+
+cat <<- EOF > .mozconfig
+	export CC=clang
+	export CXX=clang++
+	export AR=llvm-ar
+	export NM=llvm-nm
+	export RANLIB=llvm-ranlib
+	mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/firefox-shared
+	unset MOZ_TELEMETRY_REPORTING
+	ac_add_options --prefix=/usr
+	ac_add_options --enable-default-toolkit=cairo-gtk3-wayland
+	ac_add_options --enable-application=browser
+	ac_add_options --with-system-jpeg
+	ac_add_options --with-system-zlib
+	ac_add_options --with-system-png
+	ac_add_options --with-system-nspr
+	ac_add_options --with-system-nss
+	ac_add_options --with-system-icu
+	ac_add_options --with-system-webp
+	ac_add_options --with-system-libvpx
+	ac_add_options --enable-system-ffi
+	ac_add_options --enable-system-pixman
+	ac_add_options --enable-optimize="-g0 -O2"
+	ac_add_options --enable-hardening
+	ac_add_options --enable-ffmpeg
+	ac_add_options --enable-av1
+	ac_add_options --enable-alsa
+	ac_add_options --enable-official-branding
+	ac_add_options --disable-pulseaudio
+	ac_add_options --disable-jack
+	ac_add_options --disable-gold
+	ac_add_options --disable-debug-symbols
+	ac_add_options --disable-tests
+	ac_add_options --disable-debug
+	ac_add_options --disable-updater
+	ac_add_options --disable-crashreporter
+	ac_add_options --disable-necko-wifi
+	# AArch64 add
+	ac_add_options --enable-rust-simd
+	ac_add_options --enable-webrtc
+EOF
+
+	export MOZ_DEBUG_FLAGS=" "
+	export CFLAGS+=" -g0"
+	export CXXFLAGS+=" -g0"
+	export RUSTFLAGS="-Cdebuginfo=0"
+	export MOZ_MAKE_FLAGS="-j ${JOBS-1}"
+	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
+	export MACH_USE_SYSTEM_PYTHON=1
+
+	mkdir "$PKGMK_SOURCE_DIR/rust" || true
+	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
+
+	./mach build
+	#./mach build toolkit/library/rust
+	DESTDIR=$PKG ./mach install
+
+	install -d $PKG/usr/share/pixmaps
+	ln -s /usr/lib/firefox/browser/chrome/icons/default/default48.png $PKG/usr/share/pixmaps/firefox_default48.png
+	install -D -m 0644 $SRC/firefox.desktop $PKG/usr/share/applications/firefox.desktop
+
+	# Remove crap
+	rm -r $PKG/usr/lib/firefox/browser/features
+	rm $PKG/usr/lib/firefox/removed-files
+
+	install -d $PKG/etc/revdep.d
+	echo "/usr/lib/firefox" > $PKG/etc/revdep.d/firefox
+}
