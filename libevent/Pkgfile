@@ -1,0 +1,25 @@
+# Description:	An event notification library
+# URL:		https://libevent.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	openssl
+
+name=libevent
+version=2.1.12
+_realversion=$version-stable
+release=0
+source=(https://github.com/${name}/${name}/releases/download/release-${_realversion}/$name-${_realversion}.tar.gz)
+
+build() {
+	cd ${name}-${_realversion}
+
+	./configure \
+		--prefix=/usr
+
+	make
+
+	# Does not work with fakeroot
+	# must be root
+	make -j1 check
+
+	make -j1 DESTDIR=$PKG install
+}
