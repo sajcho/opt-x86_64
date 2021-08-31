@@ -1,0 +1,24 @@
+# Description:	An open video codec developed by the Xiph.org
+# URL:		https://www.xiph.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libvorbis
+
+name=libtheora
+version=1.1.1
+release=0
+source=(http://downloads.xiph.org/releases/theora/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--build=aarch64-unknown-linux-gnu \
+		--prefix=/usr \
+		--disable-examples
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share
+}
