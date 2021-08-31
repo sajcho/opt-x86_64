@@ -1,0 +1,27 @@
+# Description:	Charset converter tool and library
+# URL:		https://github.com/pinard/Recode
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libtool automake texinfo flex bison gettext python3
+
+name=recode
+version=3.7.9
+release=0
+source=(https://github.com/rrthomas/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	rm -f acinclude.m4 m4/libtool.m4
+	autoreconf -fiv
+
+	./configure \
+		--prefix=/usr \
+		--disable-nls \
+		--disable-static
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/info
+}
