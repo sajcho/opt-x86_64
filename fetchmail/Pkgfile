@@ -1,0 +1,34 @@
+# Description:	A remote-mail retrieval utility
+# URL:		http://www.fetchmail.info
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	openssl python3
+
+name=fetchmail
+version=6.4.21
+release=0
+source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-POP3 \
+		--enable-IMAP \
+		--enable-ETRN \
+		--enable-NTLM \
+		--enable-SDPS \
+		--enable-RPA \
+		--disable-nls \
+		--with-ssl \
+		--without-kerberos5 \
+		--without-gssapi \
+		--without-hesiod
+
+
+	make
+
+	make check
+
+	make DESTDIR=$PKG install
+}
