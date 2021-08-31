@@ -1,0 +1,20 @@
+# Description:	Adwaita icon theme
+# URL:		https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtk2 librsvg
+
+name=adwaita-icon-theme
+version=40.1.1
+release=0
+source=(https://download.gnome.org/sources/${name}/${version%.*.*}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr
+
+	make
+
+	make DESTDIR=$PKG install pkgconfigdir=/usr/lib/pkgconfig
+}
