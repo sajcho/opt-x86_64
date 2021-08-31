@@ -1,0 +1,24 @@
+# Description:	C/C++ implementation of a Sass compiler
+# URL:		https://sass-lang.com/libsass
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=libsass
+version=3.6.5
+release=0
+source=(https://github.com/sass/${name}/archive/${version}/${name}-${version}.tar.gz \
+	fix-pkgconfig-version.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/fix-pkgconfig-version.patch
+
+	autoreconf -fiv
+
+	./configure \
+		--prefix=/usr
+
+	make
+
+	make DESTDIR=$PKG install
+}
