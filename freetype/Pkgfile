@@ -1,0 +1,31 @@
+# Description:	TrueType font rendering library
+# URL:		https://www.freetype.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	brotli libpng
+
+name=freetype
+version=2.11.0
+release=0
+source=(https://download.savannah.gnu.org/releases/${name}/${name}-${version}.tar.xz \
+	0001-Enable-table-validation-modules.patch \
+	subpixel.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/0001-Enable-table-validation-modules.patch
+	patch -p1 -i $SRC/subpixel.patch
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--enable-freetype-config \
+		--with-harfbuzz=no \
+		--with-brotli \
+		--with-bzip2 \
+		--with-png
+
+	make
+
+	make DESTDIR=$PKG install
+}
