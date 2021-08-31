@@ -1,0 +1,125 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/acyclic
+-rwxr-xr-x	root/root	usr/bin/bcomps
+-rwxr-xr-x	root/root	usr/bin/ccomps
+lrwxrwxrwx	root/root	usr/bin/circo -> dot
+-rwxr-xr-x	root/root	usr/bin/dijkstra
+-rwxr-xr-x	root/root	usr/bin/dot
+lrwxrwxrwx	root/root	usr/bin/fdp -> dot
+-rwxr-xr-x	root/root	usr/bin/gc
+-rwxr-xr-x	root/root	usr/bin/gml2gv
+-rwxr-xr-x	root/root	usr/bin/graphml2gv
+lrwxrwxrwx	root/root	usr/bin/gv2gml -> gml2gv
+-rwxr-xr-x	root/root	usr/bin/gvcolor
+-rwxr-xr-x	root/root	usr/bin/gvgen
+-rwxr-xr-x	root/root	usr/bin/gvpack
+-rwxr-xr-x	root/root	usr/bin/gvpr
+-rwxr-xr-x	root/root	usr/bin/gxl2gv
+-rwxr-xr-x	root/root	usr/bin/mm2gv
+lrwxrwxrwx	root/root	usr/bin/neato -> dot
+-rwxr-xr-x	root/root	usr/bin/nop
+lrwxrwxrwx	root/root	usr/bin/osage -> dot
+lrwxrwxrwx	root/root	usr/bin/patchwork -> dot
+-rwxr-xr-x	root/root	usr/bin/sccmap
+lrwxrwxrwx	root/root	usr/bin/sfdp -> dot
+-rwxr-xr-x	root/root	usr/bin/tred
+lrwxrwxrwx	root/root	usr/bin/twopi -> dot
+-rwxr-xr-x	root/root	usr/bin/unflatten
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/graphviz/
+-rw-r--r--	root/root	usr/include/graphviz/arith.h
+-rw-r--r--	root/root	usr/include/graphviz/cdt.h
+-rw-r--r--	root/root	usr/include/graphviz/cgraph.h
+-rw-r--r--	root/root	usr/include/graphviz/color.h
+-rw-r--r--	root/root	usr/include/graphviz/geom.h
+-rw-r--r--	root/root	usr/include/graphviz/graphviz_version.h
+-rw-r--r--	root/root	usr/include/graphviz/gvc.h
+-rw-r--r--	root/root	usr/include/graphviz/gvcext.h
+-rw-r--r--	root/root	usr/include/graphviz/gvcjob.h
+-rw-r--r--	root/root	usr/include/graphviz/gvcommon.h
+-rw-r--r--	root/root	usr/include/graphviz/gvconfig.h
+-rw-r--r--	root/root	usr/include/graphviz/gvplugin.h
+-rw-r--r--	root/root	usr/include/graphviz/gvplugin_device.h
+-rw-r--r--	root/root	usr/include/graphviz/gvplugin_layout.h
+-rw-r--r--	root/root	usr/include/graphviz/gvplugin_loadimage.h
+-rw-r--r--	root/root	usr/include/graphviz/gvplugin_render.h
+-rw-r--r--	root/root	usr/include/graphviz/gvplugin_textlayout.h
+-rw-r--r--	root/root	usr/include/graphviz/pack.h
+-rw-r--r--	root/root	usr/include/graphviz/pathgeom.h
+-rw-r--r--	root/root	usr/include/graphviz/pathplan.h
+-rw-r--r--	root/root	usr/include/graphviz/textspan.h
+-rw-r--r--	root/root	usr/include/graphviz/types.h
+-rw-r--r--	root/root	usr/include/graphviz/usershape.h
+-rw-r--r--	root/root	usr/include/graphviz/xdot.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/graphviz/
+-rw-r--r--	root/root	usr/lib/graphviz/config6
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_core.so -> libgvplugin_core.so.6
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_core.so.6 -> libgvplugin_core.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_core.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_dot_layout.so -> libgvplugin_dot_layout.so.6
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_dot_layout.so.6 -> libgvplugin_dot_layout.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_dot_layout.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_gd.so -> libgvplugin_gd.so.6
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_gd.so.6 -> libgvplugin_gd.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_gd.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_neato_layout.so -> libgvplugin_neato_layout.so.6
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_neato_layout.so.6 -> libgvplugin_neato_layout.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_neato_layout.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_pango.so -> libgvplugin_pango.so.6
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_pango.so.6 -> libgvplugin_pango.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_pango.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libcdt.so -> libcdt.so.5
+lrwxrwxrwx	root/root	usr/lib/libcdt.so.5 -> libcdt.so.5.0.0
+-rwxr-xr-x	root/root	usr/lib/libcdt.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libcgraph.so -> libcgraph.so.6
+lrwxrwxrwx	root/root	usr/lib/libcgraph.so.6 -> libcgraph.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libcgraph.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libgvc.so -> libgvc.so.6
+lrwxrwxrwx	root/root	usr/lib/libgvc.so.6 -> libgvc.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libgvc.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libpathplan.so -> libpathplan.so.4
+lrwxrwxrwx	root/root	usr/lib/libpathplan.so.4 -> libpathplan.so.4.0.0
+-rwxr-xr-x	root/root	usr/lib/libpathplan.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libxdot.so -> libxdot.so.4
+lrwxrwxrwx	root/root	usr/lib/libxdot.so.4 -> libxdot.so.4.0.0
+-rwxr-xr-x	root/root	usr/lib/libxdot.so.4.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libcdt.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libcgraph.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libgvc.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libgvpr.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/liblab_gamut.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libpathplan.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libxdot.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/acyclic.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/bcomps.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/ccomps.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dijkstra.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dot.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gc.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gml2gv.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/graphml2gv.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gvcolor.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gvgen.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gvpack.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gvpr.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gxl2gv.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/mm2gv.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/nop.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/osage.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/patchwork.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sccmap.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/tred.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/unflatten.1.gz
+drwxr-xr-x	root/root	usr/share/man/man3/
+-rw-r--r--	root/root	usr/share/man/man3/cdt.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/cgraph.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/gvc.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/pack.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/pathplan.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/xdot.3.gz

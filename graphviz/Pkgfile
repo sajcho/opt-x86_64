@@ -1,0 +1,31 @@
+# Description:	Graph visualization software
+# URL:		https://www.graphviz.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libgd pango
+
+name=graphviz
+version=2.48.0
+release=0
+source=(https://gitlab.com/${name}/${name}/-/archive/${version}/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_C_FLAGS_NONE="${CFLAGS}" \
+		-DCMAKE_CXX_FLAGS_NONE="${CXXFLAGS}" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-Wno-dev
+
+	ninja
+
+	DESTDIR=$PKG ninja install
+
+	install -d $PKG/usr/share/man/man1
+	mv $PKG/usr/share/man/man3/*.1 \
+		$PKG/usr/share/man/man1/
+}
