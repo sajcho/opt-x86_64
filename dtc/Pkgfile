@@ -1,0 +1,26 @@
+# Description:	Device Tree Compiler
+# URL:		https://git.kernel.org/pub/scm/utils/dtc/dtc.git/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	bison flex
+
+name=dtc
+version=1.6.0
+release=0
+source=(https://kernel.org/pub/software/utils/${name}/${name}-${version}.tar.xz \
+	increase_max_srcfile_depth.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/increase_max_srcfile_depth.patch
+
+	sed -i 's|-Werror||g' Makefile
+
+	make -j1
+
+	make -j1 check
+
+	make -j1 DESTDIR=$PKG PREFIX=/usr install
+
+	rm $PKG/usr/lib/libfdt.a
+}
