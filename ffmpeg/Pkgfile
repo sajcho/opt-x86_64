@@ -1,0 +1,68 @@
+# Description:	Complete and free Internet live audio and video broadcasting solution for Linux/Unix
+# URL:		https://ffmpeg.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	aom dav1d fdk-aac flac gnutls lame libass libsdl libssh libtheora libvpx libwebp opus sdl2 soxr srt x264 x265
+
+name=ffmpeg
+version=4.4
+release=0
+source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz \
+	0001-ffbuild-libversion.sh-add-shebang.patch \
+	0001-libavutil-clean-up-unused-FF_SYMVER-macro.patch \
+	CVE-2021-33815.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/0001-ffbuild-libversion.sh-add-shebang.patch
+	patch -p1 -i $SRC/0001-libavutil-clean-up-unused-FF_SYMVER-macro.patch
+	patch -p1 -i $SRC/CVE-2021-33815.patch
+
+	./configure \
+		--prefix=/usr \
+		--enable-version3 \
+		--enable-avfilter \
+		--enable-ffplay \
+		--enable-gnutls \
+		--enable-gpl \
+		--enable-swresample \
+		--enable-avresample \
+		--enable-libass \
+		--enable-libmp3lame \
+		--enable-libvorbis \
+		--enable-libvpx \
+		--enable-libwebp \
+		--enable-libx264 \
+		--enable-libx265 \
+		--enable-libtheora \
+		--enable-libdav1d \
+		--enable-libfreetype \
+		--enable-libopus \
+		--enable-libfdk-aac \
+		--enable-postproc \
+		--enable-pic \
+		--enable-pthreads \
+		--enable-shared \
+		--enable-libxcb \
+		--enable-libsrt \
+		--enable-libssh \
+		--enable-vaapi \
+		--enable-vdpau \
+		--enable-libopus \
+		--enable-libsoxr \
+		--enable-nonfree \
+		--enable-libaom \
+		--disable-libjack \
+		--disable-libpulse \
+		--disable-librtmp \
+		--disable-vulkan \
+		--disable-static
+
+	make
+	${CC:-gcc} -o tools/qt-faststart $CFLAGS tools/qt-faststart.c
+
+	make DESTDIR=$PKG install install-man
+	install -D -m 0755 tools/qt-faststart $PKG/usr/bin/qt-faststart
+
+	rm -r $PKG/usr/share/doc
+}
