@@ -13,7 +13,7 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--build=aarch64-unknown-linux-gnu
+		--build=$CHOST
 
 	make
 
