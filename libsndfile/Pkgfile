@@ -1,0 +1,25 @@
+# Description:	A C library for reading and writing files containing sampled sound
+# URL:		http://www.mega-nerd.com/libsndfile
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	alsa-lib flac libvorbis sqlite3
+
+name=libsndfile
+version=1.0.31
+release=0
+source=(https://github.com/libsndfile/${name}/releases/download/${version}/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	ac_cv_sys_largefile_CFLAGS="-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64" \
+	./configure \
+		--prefix=/usr \
+		--enable-largefile \
+		--disable-static
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}
