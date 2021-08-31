@@ -13,7 +13,7 @@ build() {
 	cd ${_realname}-${version}
 
 	./configure \
-		--build=aarch64-unknown-linux-gnu \
+		--build=$CHOST \
 		--prefix=/usr
 
 	make
