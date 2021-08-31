@@ -1,0 +1,24 @@
+# Description:	Doing naughty things to good widgets.
+# URL:		https://blog.chipx86.com/tag/libsexy/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtk2 iso-codes
+
+name=libsexy
+version=0.1.11
+release=0
+source=(http://releases.chipx86.com/${name}/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--build=aarch64-unknown-linux-gnu \
+		--prefix=/usr \
+		--disable-static
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/gtk-doc
+}
