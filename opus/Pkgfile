@@ -1,0 +1,23 @@
+# Description:	Codec designed for interactive speech and audio transmission over the Internet
+# URL:		https://www.opus-codec.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=opus
+version=1.3.1
+release=0
+source=(https://archive.mozilla.org/pub/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-custom-modes \
+		--disable-doc
+
+	make
+
+	#make check
+
+	make DESTDIR=$PKG install
+}
