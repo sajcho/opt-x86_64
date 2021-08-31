@@ -1,0 +1,30 @@
+# Description:	Exif and Iptc metadata manipulation library and tools
+# URL:		https://exiv2.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake
+
+name=exiv2
+version=0.27.4
+release=0
+source=(https://exiv2.org/builds/${name}-${version}-Source.tar.gz)
+
+build() {
+	cd ${name}-${version}-Source
+
+	mkdir build
+	cd build
+
+	export CXXFLAGS+=" -Wno-deprecated-declarations -Wno-deprecated-copy"
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="Release" \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DEXIV2_BUILD_SAMPLES=OFF \
+		-Wno-dev
+
+	ninja
+
+	DESTDIR=$PKG ninja install
+}
