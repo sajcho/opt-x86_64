@@ -1,0 +1,22 @@
+# Description:	Parsing ELF and DWARF in Python
+# URL:		https://github.com/eliben/pyelftools
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-setuptools
+
+name=python3-elftools
+_realname=pyelftools
+version=0.27
+release=0
+source=(https://github.com/eliben/$_realname/archive/v${version}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+}
