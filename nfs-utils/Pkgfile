@@ -1,0 +1,63 @@
+# Description:	Network File System utilities
+# URL:		https://www.linux-nfs.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	keyutils libcap libdevmapper libevent rpcsvc-proto rpcbind sqlite3
+
+name=nfs-utils
+version=2.5.4
+release=1
+source=(https://www.kernel.org/pub/linux/utils/${name}/${version}/${name}-${version}.tar.xz \
+	exports \
+	idmapd.conf \
+	nfs-server.finish \
+	nfs-server.run \
+	rpcblkmapd.run \
+	rpcidmapd.run \
+	start-statd \
+	statd.run)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--enable-libmount-mount \
+		--disable-gss \
+		--with-statedir=/var/lib/nfs \
+		--without-tcp-wrappers
+
+	make
+
+	# Simple test, "make check" requires running nfsd
+	./utils/showmount/showmount -v
+
+	make DESTDIR=$PKG install
+
+	install -d $PKG/etc/sv/{nfs-server,rpcblkmapd,rpcidmapd,statd}
+
+	# runit service nfs-server
+	install -m 0755 $SRC/nfs-server.finish $PKG/etc/sv/nfs-server/finish
+	install -m 0755 $SRC/nfs-server.run $PKG/etc/sv/nfs-server/run
+	ln -s /run/runit/supervise.nfs-server $PKG/etc/sv/nfs-server/supervise
+	# runit service rpcblkmapd
+	install -m 0755 $SRC/rpcblkmapd.run $PKG/etc/sv/rpcblkmapd/run
+	ln -s /run/runit/supervise.rpcblkmapd $PKG/etc/sv/rpcblkmapd/supervise
+	# runit service rpcidmapd
+	install -m 0755 $SRC/rpcidmapd.run $PKG/etc/sv/rpcidmapd/run
+	ln -s /run/runit/supervise.rpcidmapd $PKG/etc/sv/rpcidmapd/supervise
+	# runit service statd
+	install -m 0755 $SRC/statd.run $PKG/etc/sv/statd/run
+	ln -s /run/runit/supervise.statd $PKG/etc/sv/statd/supervise
+
+	install -m 644 $SRC/{exports,idmapd.conf} $PKG/etc/
+	install -m 644 utils/mount/nfsmount.conf $PKG/etc/
+	install -m 644 nfs.conf $PKG/etc/
+
+	install -d $PKG/var/lib/nfs/{rpc_pipefs,v4recovery,nfsdcltrack,nfsdcld}
+	install -d $PKG/etc/exports.d
+	install -m 0755 $SRC/start-statd $PKG/sbin/
+
+	# force rpc.statd to run as user nobody
+	chown nobody $PKG/var/lib/nfs
+}
