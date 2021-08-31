@@ -17,7 +17,7 @@ build() {
 		--disable-dependency-tracking \
 		--with-pic \
 		--with-audio="alsa" \
-		--with-cpu="aarch64"
+		--with-cpu="x86-64"
 
 	sed -i 's/ -shared / -Wl,--as-needed\0/g' libtool
 	make
