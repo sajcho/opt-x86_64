@@ -1,0 +1,42 @@
+# Description:	Text-based email client that sucks less
+# URL:		http://www.mutt.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cyrus-sasl gpgme libidn2
+
+name=mutt
+version=2.1.2
+release=0
+source=(https://bitbucket.org/mutt/mutt/downloads/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--enable-compressed \
+		--enable-debug \
+		--enable-fcntl \
+		--enable-gpgme \
+		--enable-hcache \
+		--enable-sidebar \
+		--enable-pop \
+		--enable-imap \
+		--enable-smtp \
+		--disable-nls \
+		--with-ssl \
+		--with-sasl \
+		--with-idn2 \
+		--with-mailpath=/var/spool/mail
+
+	make
+
+	make DESTDIR=$PKG install
+
+	find $PKG/usr/share/doc/mutt/* ! -name manual.txt -delete
+	rm -r $PKG/usr/share/info
+	rm $PKG/usr/share/man/man5/{mmdf.5,mbox.5}
+	rm -f $PKG/etc/*.dist $PKG/etc/mime.types
+
+	install -D -m 0644 contrib/gpg.rc $PKG/etc/Muttrc.gpg.dist
+}
