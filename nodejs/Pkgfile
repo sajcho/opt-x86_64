@@ -1,0 +1,29 @@
+# Description:	JavaScript runtime built on V8 engine - LTS version
+# URL:		http://nodejs.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	brotli c-ares icu libnghttp2
+
+name=nodejs
+version=16.6.2
+release=0
+source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz \
+	system-c-ares.patch)
+
+build() {
+	cd node-v${version}
+
+	patch -Rp1 -i $SRC/system-c-ares.patch
+
+	./configure \
+		--prefix=/usr \
+		--shared-{cares,libuv,nghttp2,openssl,zlib} \
+		--with-intl=system-icu \
+		--without-npm \
+		--ninja
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}
