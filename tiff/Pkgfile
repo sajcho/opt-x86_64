@@ -1,0 +1,25 @@
+# Description:	Library for manipulation of TIFF (Tag Image File Format) images
+# URL:		http://www.simplesystems.org/libtiff
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libjpeg-turbo
+
+name=tiff
+version=4.3.0
+release=0
+source=(http://download.osgeo.org/libtiff/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-cxx
+
+	make
+
+	#make check
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/{bin,share/{doc,man/man1}}
+}
