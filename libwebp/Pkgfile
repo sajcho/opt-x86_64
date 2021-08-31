@@ -1,0 +1,22 @@
+# Description:	Libraries for working with WebP images
+# URL:		https://developers.google.com/speed/webp
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libpng tiff freeglut giflib
+
+name=libwebp
+version=1.2.0
+release=0
+source=(https://storage.googleapis.com/downloads.webmproject.org/releases/webp/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-swap-16bit-csp \
+		--enable-libwebp{mux,demux,decoder,extras}
+
+	make
+
+	make DESTDIR=$PKG install
+}
