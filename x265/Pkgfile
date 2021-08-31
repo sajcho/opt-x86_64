@@ -1,0 +1,26 @@
+# Description:	Open Source H265/HEVC video encoder
+# URL:		http://x265.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake nasm
+
+name=x265
+version=3.5
+release=0
+source=(http://anduin.linuxfromscratch.org/BLFS/${name}/${name}_${version}.tar.gz)
+
+build() {
+	cd ${name}_${version}/build/linux
+
+	cmake \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_VERBOSE_MAKEFILE=OFF \
+		-Wno-dev \
+		../../source
+
+	make
+
+	make DESTDIR=$PKG install
+
+	rm $PKG/usr/lib/libx265.a
+}
