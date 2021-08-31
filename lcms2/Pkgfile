@@ -1,0 +1,27 @@
+# Description:	Color Management Engine
+# URL:		http://www.littlecms.com/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	tiff
+
+name=lcms2
+version=2.12
+release=0
+source=(http://downloads.sourceforge.net/project/lcms/lcms/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-static \
+		--with-jpeg \
+		--with-tiff \
+		--with-zlib \
+		--with-threads
+
+	make
+
+	#make check
+
+	make DESTDIR=$PKG install
+}
