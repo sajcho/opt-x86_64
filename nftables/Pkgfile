@@ -1,0 +1,42 @@
+# Description:	Netfilter tables userspace tools
+# URL:		https://netfilter.org/projects/nftables
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	bison flex gmp jansson libnftnl readline
+
+name=nftables
+version=0.9.8
+release=1
+source=(https://netfilter.org/projects/${name}/files/${name}-${version}.tar.bz2 \
+	nftables.conf \
+	nftables.finish \
+	nftables.nft \
+	nftables.run)
+
+build() {
+	cd ${name}-${version}
+
+	sed -i '1i#include "config.h"' src/proto.c
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--disable-python \
+		--with-json
+
+	make
+
+	make check
+
+	make DESTDIR=$PKG install
+
+	install -D -m 0644 $SRC/nftables.conf $PKG/etc/nftables.conf
+	install -D -m 0644 $SRC/nftables.nft $PKG/etc/nftables.nft
+
+	# nftables runit service
+	install -d $PKG/etc/sv/nftables
+	install -m 0755 $SRC/nftables.run $PKG/etc/sv/nftables/run
+	install -m 0755 $SRC/nftables.finish $PKG/etc/sv/nftables/finish
+	ln -s /run/runit/supervise.nftables $PKG/etc/sv/nftables/supervise
+
+	rm -r $PKG/usr/share/doc
+}
