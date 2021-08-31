@@ -1,0 +1,35 @@
+# Description:	GNU privacy guard
+# URL:		http://www.gnupg.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libgcrypt libksba pinentry npth
+
+name=gnupg
+version=2.3.2
+release=0
+source=(https://gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib \
+		--localstatedir=/var \
+		--disable-nls \
+		--disable-ldap \
+		--disable-gnutls
+
+	make
+
+	#make check
+
+	make DESTDIR=$PKG install
+
+	# install compat symlink
+	ln -s gpg  $PKG/usr/bin/gpg2
+	ln -s gpgv $PKG/usr/bin/gpgv2
+
+	rm -r $PKG/usr/share/{info,doc}
+	rm $PKG/usr/share/gnupg/help*
+}
