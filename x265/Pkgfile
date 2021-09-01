@@ -5,22 +5,54 @@
 
 name=x265
 version=3.5
-release=0
-source=(http://anduin.linuxfromscratch.org/BLFS/${name}/${name}_${version}.tar.gz)
+release=1
+source=(https://bitbucket.org/multicoreware/${name}_git/downloads/${name}_${version}.tar.gz)
 
 build() {
-	cd ${name}_${version}/build/linux
-
-	cmake \
-		-DCMAKE_BUILD_TYPE=None \
+	cmake -S x265_3.5/source -B build-12 \
+		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_VERBOSE_MAKEFILE=OFF \
-		-Wno-dev \
-		../../source
+		-DHIGH_BIT_DEPTH=TRUE \
+		-DMAIN12=TRUE \
+		-DEXPORT_C_API=FALSE \
+		-DENABLE_CLI=FALSE \
+		-DENABLE_SHARED=FALSE \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
+		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
+		-Wno-dev
 
-	make
+	cmake --build build-12
 
-	make DESTDIR=$PKG install
+	cmake -S x265_3.5/source -B build-10 \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DHIGH_BIT_DEPTH=TRUE \
+		-DEXPORT_C_API=FALSE \
+		-DENABLE_CLI=FALSE \
+		-DENABLE_SHARED=FALSE \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
+		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
+		-Wno-dev
 
-	rm $PKG/usr/lib/libx265.a
+	cmake --build build-10
+
+	cmake -S x265_3.5/source -B build \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DENABLE_SHARED=TRUE \
+		-DENABLE_HDR10_PLUS=TRUE \
+		-DEXTRA_LIB='x265_main10.a;x265_main12.a' \
+		-DEXTRA_LINK_FLAGS='-L .' \
+		-DLINKED_10BIT=TRUE \
+		-DLINKED_12BIT=TRUE \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
+		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
+		-Wno-dev
+
+	ln -s ../build-10/libx265.a build/libx265_main10.a
+	ln -s ../build-12/libx265.a build/libx265_main12.a
+
+	cmake --build build
+
+	DESTDIR=$PKG cmake --install build
 }
