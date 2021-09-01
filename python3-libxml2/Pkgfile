@@ -1,0 +1,21 @@
+# Description:	Python bindings for the XML library version 2
+# URL:		http://xmlsoft.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-setuptools libxml2
+
+name=python3-libxml2
+version=2.9.12
+release=0
+source=(http://xmlsoft.org/sources/libxml2-${version}.tar.gz)
+
+build() {
+	cd libxml2-${version}/python
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+}
