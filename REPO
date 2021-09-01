@@ -160,6 +160,7 @@ d:soxr
 d:make-ca
 d:python3-attrs
 d:libid3tag
+d:python3-libxml2
 d:libpsl
 d:python3-six
 d:gnutls
@@ -419,7 +420,7 @@ f:6337c678693af52cacfcac1748833c42:icewm/.footprint
 f:803edf9ec179412a93deff3d78f6c263:icewm/Pkgfile
 f:5276adda4947bab6797c8af13a81ab13:itstool/.md5sum
 f:3fcccef151712aa244e8f2462e604fe6:itstool/.footprint
-f:de39721c60871715b9270c007d0dea2b:itstool/Pkgfile
+f:69d5318196121a1bf60dc12299bedd98:itstool/Pkgfile
 f:16a9167de621f07469bb8454062cacb7:zip/.md5sum
 f:24aa8c89371f67e6b31105844780dbc3:zip/20-zip-3.0-exec-stack.patch
 f:1395f053d2bcee85b96c94dfd7813b8d:zip/30-zip-3.0-pic.patch
@@ -782,6 +783,9 @@ f:9fdf7571a8ebb73c6b7795a6effc7bee:libid3tag/.footprint
 f:c51822ea6301b1ca469975f0c9ee8e34:libid3tag/CVE-2008-2109.patch
 f:3ca856b97924d48a0fdfeff0bd83ce7d:libid3tag/11_unknown_encoding.diff
 f:dfd5b0c697c4b2d93a5895605e821efd:libid3tag/Pkgfile
+f:db3e4aeae8f42eb555a907d9130900d4:python3-libxml2/.md5sum
+f:9d435e7fb87522da72ebe0591c246426:python3-libxml2/.footprint
+f:37a750bc029be816757bc555cd055425:python3-libxml2/Pkgfile
 f:f28a5999b802456767df99b67a512c03:libpsl/.md5sum
 f:d84de4f1556f6d8a999f368e9370f126:libpsl/.footprint
 f:4161d5bb2aaaa889aeb2a300569361f2:libpsl/Pkgfile
