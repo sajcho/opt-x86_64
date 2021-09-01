@@ -604,8 +604,8 @@ f:4feb7d476e3464b33174eb7b39286d4a:gimp/0001-no-check-update.patch
 f:3399a35654ec118f00db863b4602df48:gimp/.footprint
 f:2f331bbcf043d64b0750c635cd251f8a:gimp/Pkgfile
 f:c2e8a388c2b6e640cfa9e86eefe564eb:x265/.md5sum
-f:4a05384743aa18ae52d1af9944499d8f:x265/.footprint
-f:97dfc9f50c3aeda7ce1ff27309adcd02:x265/Pkgfile
+f:4d0236c37cedb3c0e2cfe02b7b9d3e81:x265/.footprint
+f:1b051a1c50531b0818a5f674573e68ef:x265/Pkgfile
 f:f45a6d3bd8d64682bcd5441bc451721c:dbus-glib/.md5sum
 f:34697fb9dc5b82d0c38f362b9775e522:dbus-glib/.footprint
 f:24c7213d46b4240a1f12be1af0149146:dbus-glib/Pkgfile
