@@ -6,7 +6,7 @@
 name=imagemagick
 _realname=ImageMagick
 version=7.1.0-4
-release=0
+release=1
 source=(https://www.imagemagick.org/download/releases/${_realname}-${version}.tar.xz)
 
 build() {
