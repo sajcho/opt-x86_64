@@ -747,7 +747,7 @@ f:6c2ed10f034d980743a3989cc64cb09c:sdl2/directfb-cflags.patch
 f:f0318383f7346641cdb45b5839d98282:sdl2/.footprint
 f:04c9d39066b0e2729f978159679db378:sdl2/khronos.patch
 f:77d751fcca0af36e400fe31714ed11da:sdl2/wayland-fix-keyboard.patch
-f:f4811bfb7a0dc02d9605903eeb3e0c66:sdl2/Pkgfile
+f:3a6d75f21bfaffa34b13a7db7851d141:sdl2/Pkgfile
 f:ff115b06ce596e6e4bb371871c07098a:python3-cffi/.md5sum
 f:d97b292ac23faf95477c4f0865007eb8:python3-cffi/.footprint
 f:45630f1023640e4510be94d062fdf7be:python3-cffi/Pkgfile
