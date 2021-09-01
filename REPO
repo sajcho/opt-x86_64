@@ -510,8 +510,8 @@ f:4d6455df38761c243260700027854e1b:mypaint-brushes/.md5sum
 f:26a456a306766d05e342b8560e8784f2:mypaint-brushes/.footprint
 f:308b7c9baaaaf886e187c571ccf0259e:mypaint-brushes/Pkgfile
 f:4a2590b805d2d959a93306b7b4077bff:imagemagick/.md5sum
-f:59c98a09d1fc9951a3ed78102e0f0343:imagemagick/.footprint
-f:8676eed304e1b8c630bfecdeae0413b0:imagemagick/Pkgfile
+f:01c7bfb334e1d447f8c46d50a783add9:imagemagick/.footprint
+f:f26a98c30d038459a95a9f5225146873:imagemagick/Pkgfile
 f:4981d37e956fb9ea1843336c067f3a7d:procmail/.md5sum
 f:8337a75e3864026e3d17cd82646965b0:procmail/.footprint
 f:6ff3fbbf6b31fe869a1312c3566eb52c:procmail/formisc.c.patch
