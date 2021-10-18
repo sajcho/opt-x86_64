@@ -162,7 +162,6 @@ d:python3-attrs
 d:libid3tag
 d:python3-libxml2
 d:libpsl
-d:python3-six
 d:gnutls
 d:libsoup
 d:libpng
@@ -177,7 +176,6 @@ d:atk
 d:dtc
 d:python3-mako
 d:speex
-d:swig
 d:glib-networking
 d:nfs-utils
 d:python3-chardet
@@ -789,9 +787,6 @@ f:37a750bc029be816757bc555cd055425:python3-libxml2/Pkgfile
 f:f28a5999b802456767df99b67a512c03:libpsl/.md5sum
 f:d84de4f1556f6d8a999f368e9370f126:libpsl/.footprint
 f:4161d5bb2aaaa889aeb2a300569361f2:libpsl/Pkgfile
-f:b60a703fa9203e30a5d7414787fe66b7:python3-six/.md5sum
-f:fa3f17b27ab47e2172c112d34c1fb06d:python3-six/.footprint
-f:1c7d27c0cbafcefd6b2d8a07102458a5:python3-six/Pkgfile
 f:2256d3e7d76f6c5ef8d12ca96731df68:gnutls/.md5sum
 f:baf78bc6529694bf0e39c4f0cec195d5:gnutls/.footprint
 f:2be4724138792276d52c3ced99c0cd28:gnutls/Pkgfile
@@ -838,9 +833,6 @@ f:a02cda73c19f569e0410830af8cd5e38:python3-mako/Pkgfile
 f:a2ee877fe1bcff56af27112b91aac460:speex/.md5sum
 f:aca96f97813ee7219968cbb1bfc4f402:speex/.footprint
 f:6bf95614f7963641b09ce3aecd45c188:speex/Pkgfile
-f:f775b9f6f9bc2f438ac919188bad4069:swig/.md5sum
-f:04d5da180e5b204334f8d9f924f97fe6:swig/.footprint
-f:9b0c361afac915db67fbdbc4247a460e:swig/Pkgfile
 f:f2243be62ecf6b59c9cd4e51a19b62be:glib-networking/README
 f:7d873598154cd652375781b506d3bdc8:glib-networking/.md5sum
 f:e350425c8e9295d0ba24e9db09eddcec:glib-networking/.footprint
