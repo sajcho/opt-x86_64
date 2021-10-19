@@ -1,10 +1,10 @@
 # Description:	The Rust language with Cargo included.
 # URL:		http://www.rust-lang.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	llvm-toolchain
+# Depends on:	llvm-toolchain libgit2
 
 name=rust
-version=1.54.0
+version=1.55.0
 release=0
 
 source=(https://static.rust-lang.org/dist/${name}c-${version}-src.tar.gz \
@@ -16,6 +16,10 @@ build() {
 	# Patch cargo so credential helpers are in /usr/lib instead of /usr/libexec
 	patch -p1 -i $SRC/libexec.patch
 
+        # Remove bundled dependencies.
+	rm -r src/llvm-project/{clang,clang-tools-extra,libunwind,lld,lldb,llvm}
+	install -d src/llvm-project/libunwind
+
 cat <<- EOF > $SRC/config.toml
 	changelog-seen = 2
 	profile = "user"
@@ -23,26 +27,38 @@ cat <<- EOF > $SRC/config.toml
 	[llvm]
 	ninja = true
 	link-shared = true
+	polly = true
 
 	[install]
 	prefix = "/usr"
 
 	[rust]
 	channel = "stable"
+	codegen-units-std = 1
+	debuginfo-level-std = 2
+	parallel-compiler = true
+	optimize = true
 	rpath = false
+	codegen-tests = false
+	deny-warnings = false
+	description = "SAUX x86_64"
 
 	[build]
 	target = ["$CHOST"]
 	extended = true
 	profiler = true
 	vendor = true
-	sanitizers = false
+	sanitizers = true
 	docs = false
 	python = "/usr/bin/python3"
-	tools = ["cargo", "rls", "clippy", "miri", "rustfmt", "analysis", "src"]
+	cargo = "/usr/bin/cargo"
+	rustc = "/usr/bin/rustc"
+	rustfmt = "/usr/bin/rustfmt"
+	tools = ["cargo", "rls", "clippy", "rustfmt", "analysis", "src", "rust-demangler"]
 
 	[target.$CHOST]
 	llvm-config = "/usr/bin/llvm-config"
+	llvm-filecheck = "/usr/bin/FileCheck"
 EOF
 
 	cat $SRC/config.toml
@@ -52,8 +68,10 @@ EOF
 
 	export RUST_BACKTRACE=full
 
+	# build
 	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml ${JOBS:+-j ${JOBS}}
 
+	# install
 	DESTDIR=$PKG /usr/bin/python3 ./x.py --config="${SRC}"/config.toml install
 
 	# Cleanup
