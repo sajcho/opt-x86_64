@@ -58,6 +58,7 @@ d:recode
 d:mpg123
 d:startup-notification
 d:icewm
+d:libpcre2
 d:itstool
 d:zip
 d:poppler
@@ -93,6 +94,7 @@ d:hicolor-icon-theme
 d:json-glib
 d:nss
 d:rust
+d:libgit2
 d:gsettings-desktop-schemas
 d:pinentry
 d:dbus
@@ -143,6 +145,7 @@ d:npth
 d:libheif
 d:chrpath
 d:nmap
+d:http-parser
 d:libksba
 d:yasm
 d:alsa-lib
@@ -416,6 +419,9 @@ f:cfa50bcde62bb9dfe6ee628dc58625f2:startup-notification/Pkgfile
 f:0b26a38813c4aa1bf7a2b9b4e1524b1b:icewm/.md5sum
 f:6337c678693af52cacfcac1748833c42:icewm/.footprint
 f:803edf9ec179412a93deff3d78f6c263:icewm/Pkgfile
+f:ddaa0c88d6e8e409abf988f3a9769061:libpcre2/.md5sum
+f:c0cdf4b53b071f7558281977b0c0080a:libpcre2/.footprint
+f:11413f2cfc4c0fa0ccd4b45c6badf9de:libpcre2/Pkgfile
 f:5276adda4947bab6797c8af13a81ab13:itstool/.md5sum
 f:3fcccef151712aa244e8f2462e604fe6:itstool/.footprint
 f:69d5318196121a1bf60dc12299bedd98:itstool/Pkgfile
@@ -543,9 +549,12 @@ f:26b8bbcbe2665487c4fe8401de0a2daf:nss/nss-3.54-standalone-2.patch
 f:c4900bc6d5e50780d06e92de53385a7a:nss/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:59041d2148f9ac01f0052bbd48253787:rust/libexec.patch
-f:008b08ce429f627fa71c897ff16eb330:rust/.md5sum
-f:f1ac913a9e0d081f3173c860079479c8:rust/.footprint
-f:3b15ce9ceecbcd8ffd56a7825e337ea6:rust/Pkgfile
+f:2e48a6704a905530feaac605dc12df62:rust/.md5sum
+f:fc13ce71527818f61e53d092978d928e:rust/.footprint
+f:49e8a9665a50a63cdc4724f40fee28ed:rust/Pkgfile
+f:cc6659717d34446e32f25d94249dce19:libgit2/.md5sum
+f:91de87bf7435e9b3f4190db815c43390:libgit2/.footprint
+f:22c18ab782e3526d3a4cc53e9ccfdefe:libgit2/Pkgfile
 f:7e7b796e6552477e8a025a98148b5712:gsettings-desktop-schemas/.md5sum
 f:92b9d8db37031d40e86893d299447c97:gsettings-desktop-schemas/.footprint
 f:e5f74be27525658dae59401455944186:gsettings-desktop-schemas/post-install
@@ -576,10 +585,9 @@ f:382ac07caf288c2bc6927e3ac623b5ca:materia-gtk-theme/Pkgfile
 f:ddaa0c88d6e8e409abf988f3a9769061:pcre2/.md5sum
 f:360ef483144032fef86222317cdc1b45:pcre2/.footprint
 f:9459a45c844720868d96ff76e729787c:pcre2/Pkgfile
-f:02fb8494093bcf3aca5abbea376ec390:libssh2/.md5sum
-f:acf157100fbe56fca4f199bbb4c9f574:libssh2/CVE-2019-17498.patch
+f:be479cf00068d4bda83d35c863bfd342:libssh2/.md5sum
 f:b2c5c5a1c81a2fb976d81532ffbee326:libssh2/.footprint
-f:78f3176ed9ad2d08b9a8e2600554676e:libssh2/Pkgfile
+f:df1fe1c64c426e0fc1f63969523e817d:libssh2/Pkgfile
 f:4670134174c0dd94624bfa4cab5434c4:libde265/.md5sum
 f:f4c332b383b3b51f245d8d23302c1110:libde265/.footprint
 f:5817dd4bd4b7e7dfc01ba74bc796a49a:libde265/Pkgfile
@@ -718,6 +726,9 @@ f:2c9f6b0bc295def032f51997b680c024:chrpath/Pkgfile
 f:f93b0b4a094141a8e19188b230234096:nmap/.md5sum
 f:c1446c3810fb3b3dd1707c228a93d407:nmap/.footprint
 f:f72baa409e07bf8a95c00e4df8bb2cf6:nmap/Pkgfile
+f:cf28d0b1bd1a65d157912d0db0faa48f:http-parser/.md5sum
+f:f09ae24e1d84463beb3a1285e79da4f1:http-parser/.footprint
+f:6189529b0610c3c3514375399dfd9c12:http-parser/Pkgfile
 f:6bba73612234edb735aca86003f72063:libksba/.md5sum
 f:2d08caa9c40e7e02a3510d8338313815:libksba/.footprint
 f:94bb2c33cc9ad48ad421cb42e49ce6c6:libksba/Pkgfile
