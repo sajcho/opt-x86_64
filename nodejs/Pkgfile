@@ -4,7 +4,7 @@
 # Depends on:	brotli c-ares icu libnghttp2
 
 name=nodejs
-version=16.6.2
+version=16.11.1
 release=0
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz \
 	system-c-ares.patch)
