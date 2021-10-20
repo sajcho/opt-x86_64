@@ -102,7 +102,6 @@ d:rpcbind
 d:lxappearance-gtk3
 d:dav1d
 d:materia-gtk-theme
-d:pcre2
 d:libssh2
 d:libde265
 d:libsndfile
@@ -582,9 +581,6 @@ f:3e3566facfaa6c4744ee129b1173fa5e:dav1d/Pkgfile
 f:3fc247eec125606ba8e4da9172c284fc:materia-gtk-theme/.md5sum
 f:130722664a47bd922099706a88572b06:materia-gtk-theme/.footprint
 f:382ac07caf288c2bc6927e3ac623b5ca:materia-gtk-theme/Pkgfile
-f:ddaa0c88d6e8e409abf988f3a9769061:pcre2/.md5sum
-f:360ef483144032fef86222317cdc1b45:pcre2/.footprint
-f:9459a45c844720868d96ff76e729787c:pcre2/Pkgfile
 f:be479cf00068d4bda83d35c863bfd342:libssh2/.md5sum
 f:b2c5c5a1c81a2fb976d81532ffbee326:libssh2/.footprint
 f:df1fe1c64c426e0fc1f63969523e817d:libssh2/Pkgfile
