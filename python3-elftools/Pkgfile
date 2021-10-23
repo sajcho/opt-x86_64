@@ -6,7 +6,7 @@
 name=python3-elftools
 _realname=pyelftools
 version=0.27
-release=0
+release=1
 source=(https://github.com/eliben/$_realname/archive/v${version}/${_realname}-${version}.tar.gz)
 
 build() {
