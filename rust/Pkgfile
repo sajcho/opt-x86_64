@@ -1,24 +1,23 @@
-# Description:	The Rust language with Cargo included.
-# URL:		http://www.rust-lang.org/
+# Description:	The Rust Programming Language
+# URL:		https://www.rust-lang.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	llvm-toolchain libgit2
+# Depends on:	llvm-toolchain libgit2 libssh2
 
 name=rust
-version=1.55.0
-release=1
-
-source=(https://static.rust-lang.org/dist/${name}c-${version}-src.tar.gz \
+_realname=rustc
+version=1.56.0
+release=0
+source=(https://static.rust-lang.org/dist/${_realname}-${version}-src.tar.xz \
 	libexec.patch)
 
 build() {
-	cd "${name}c-${version}-src"
+	cd ${_realname}-${version}-src
 
 	# Patch cargo so credential helpers are in /usr/lib instead of /usr/libexec
 	patch -p1 -i $SRC/libexec.patch
 
-        # Remove bundled dependencies.
 	rm -r src/llvm-project/{clang,clang-tools-extra,libunwind,lld,lldb,llvm}
-	install -d src/llvm-project/libunwind
+	mkdir -p src/llvm-project/libunwind/
 
 cat <<- EOF > $SRC/config.toml
 	changelog-seen = 2
@@ -27,6 +26,8 @@ cat <<- EOF > $SRC/config.toml
 	[llvm]
 	ninja = true
 	link-shared = true
+	optimize = true
+	thin-lto = true
 	polly = true
 
 	[install]
@@ -36,25 +37,26 @@ cat <<- EOF > $SRC/config.toml
 	channel = "stable"
 	codegen-units-std = 1
 	debuginfo-level-std = 2
-	parallel-compiler = true
 	optimize = true
+	use-lld = true
 	rpath = false
 	codegen-tests = false
-	deny-warnings = false
+	parallel-compiler = true
 	description = "SAUX x86_64"
 
 	[build]
 	target = ["$CHOST"]
 	extended = true
-	profiler = true
 	vendor = true
-	sanitizers = true
 	docs = false
+	profiler = true
+	sanitizers = false
+	verbose = 0
 	python = "/usr/bin/python3"
 	cargo = "/usr/bin/cargo"
 	rustc = "/usr/bin/rustc"
 	rustfmt = "/usr/bin/rustfmt"
-	tools = ["cargo", "rls", "clippy", "rustfmt", "analysis", "src", "rust-demangler"]
+	tools = ["analysis", "cargo", "clippy", "rls", "rustfmt", "rust-demangler", "src"]
 
 	[target.$CHOST]
 	llvm-config = "/usr/bin/llvm-config"
@@ -65,11 +67,7 @@ EOF
 
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
-
-	export RUST_BACKTRACE=full
-	export RUSTFLAGS="-Clink-arg=-Wl,-z,relro,-z,now"
-	export LIBGIT2_SYS_USE_PKG_CONFIG=1
-	export LIBSSH2_SYS_USE_PKG_CONFIG=1
+	export RUST_BACKTRACE="full"
 
 	# build
 	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml ${JOBS:+-j ${JOBS}}
@@ -85,11 +83,4 @@ EOF
 
 	rm $PKG/usr/lib/{libstd-*,libtest-*}
 	ln -srft $PKG/usr/lib $PKG/usr/lib/rustlib/$CHOST/lib/*.so
-
-	# Not necessary
-	find $PKG -name "LICENSE*" -o \
-		-name "README*" -o \
-		-name "CONTRIBUTING*" -o \
-		-name "*.log" -o \
-		-name "manifest-*" | xargs rm
 }
