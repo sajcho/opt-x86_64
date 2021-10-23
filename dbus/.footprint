@@ -12,8 +12,6 @@ drwxr-xr-x	root/root	etc/sv/dbus/
 -rwxr-xr-x	root/root	etc/sv/dbus/check
 -rwxr-xr-x	root/root	etc/sv/dbus/run
 lrwxrwxrwx	root/root	etc/sv/dbus/supervise -> /run/runit/supervise.dbus
-drwxr-xr-x	root/root	run/
-drwxr-xr-x	messagebus/messagebus	run/dbus/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/dbus-cleanup-sockets
@@ -46,6 +44,10 @@ drwxr-xr-x	root/root	usr/include/dbus-1.0/dbus/
 -rw-r--r--	root/root	usr/include/dbus-1.0/dbus/dbus-types.h
 -rw-r--r--	root/root	usr/include/dbus-1.0/dbus/dbus.h
 drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/DBus1/
+-rw-r--r--	root/root	usr/lib/cmake/DBus1/DBus1Config.cmake
+-rw-r--r--	root/root	usr/lib/cmake/DBus1/DBus1ConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/dbus-1.0/
 drwxr-xr-x	root/root	usr/lib/dbus-1.0/include/
 drwxr-xr-x	root/root	usr/lib/dbus-1.0/include/dbus/
@@ -69,6 +71,17 @@ drwxr-xr-x	root/root	usr/share/dbus-1/session.d/
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system.conf
 drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/dbus-cleanup-sockets.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dbus-daemon.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dbus-launch.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dbus-monitor.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dbus-run-session.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dbus-send.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dbus-test-tool.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dbus-update-activation-environment.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/dbus-uuidgen.1.gz
 drwxr-xr-x	root/root	var/
 drwxr-xr-x	root/root	var/lib/
 drwxr-xr-x	root/root	var/lib/dbus/

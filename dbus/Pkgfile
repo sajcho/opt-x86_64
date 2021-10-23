@@ -1,12 +1,14 @@
-# Description:	A message bus system - with elogind
+# Description:	A message bus system - with support elogind
 # URL:		https://freedesktop.org/wiki/Software/dbus
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	expat
+# Depends on:	autoconf-archive elogind xmlto
 
 name=dbus
 version=1.12.20
-release=0
+release=1
 source=(https://dbus.freedesktop.org/releases/dbus/${name}-${version}.tar.gz \
+	dbus-daemon-optional.patch \
+	dbus-enable-elogind.patch \
 	30-dbus.launch \
 	dbus.check \
 	dbus.run)
@@ -14,20 +16,32 @@ source=(https://dbus.freedesktop.org/releases/dbus/${name}-${version}.tar.gz \
 build() {
 	cd ${name}-${version}
 
+	patch -p1 -i $SRC/dbus-daemon-optional.patch
+	patch -p1 -i $SRC/dbus-enable-elogind.patch
+
+	autoreconf -fiv
+
 	./configure \
 		--prefix=/usr \
+		--with-dbus-daemondir=/usr/sbin \
+		--localstatedir=/var \
 		--sysconfdir=/etc \
 		--libexecdir=/usr/lib/dbus \
-		--localstatedir=/var \
-		--disable-xml-docs \
-		--with-dbus-daemondir=/usr/sbin \
+		--enable-elogind \
+		--disable-asserts \
+		--disable-systemd \
+		--disable-selinux \
+		--disable-user-session \
+		--disable-doxygen-docs \
 		--with-dbus-user=messagebus \
+		--with-init-scripts=none \
 		--with-console-auth-dir=/run/console \
 		--with-system-pid-file=/run/${name}/${name}.pid \
-		--with-system-socket=/run/${name}/system_bus_socket \
-		--without-x
+		--with-system-socket=/run/${name}/system_bus_socket
 
 	make
+
+	#make check
 
 	make DESTDIR=$PKG install
 
@@ -37,11 +51,10 @@ build() {
 	install -m 0755 $SRC/dbus.run $PKG/etc/sv/dbus/run
 	ln -s /run/runit/supervise.dbus $PKG/etc/sv/dbus/supervise
 
-	install -m 0755 -g 81 -o 81 -d $PKG/run/dbus
 	install -D -m 0755 $SRC/30-dbus.launch \
 		$PKG/etc/X11/xinit/xinitrc.d/30-dbus.launch.sh
 	ln -s /var/lib/dbus/machine-id $PKG/etc
 	ln -s /usr/sbin/dbus-daemon $PKG/usr/bin/dbus-daemon
 
-	rm -r $PKG/usr/{lib/cmake,share/{doc,xml}}
+	rm -r $PKG/usr/share/{doc,xml}
 }
