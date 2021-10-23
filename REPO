@@ -548,9 +548,9 @@ f:26b8bbcbe2665487c4fe8401de0a2daf:nss/nss-3.54-standalone-2.patch
 f:454b4c8e97cf59aeb7d6269fd96b0b7e:nss/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:59041d2148f9ac01f0052bbd48253787:rust/libexec.patch
-f:2e48a6704a905530feaac605dc12df62:rust/.md5sum
-f:fc13ce71527818f61e53d092978d928e:rust/.footprint
-f:f1bd617c62e3a13287295fbd64baa4a2:rust/Pkgfile
+f:96261560aeb83156afd298fc61168bd8:rust/.md5sum
+f:334e93e73a96aeb38c5c5fb2a5005a75:rust/.footprint
+f:1d547861e2ea68df1f341f9aef72e222:rust/Pkgfile
 f:cc6659717d34446e32f25d94249dce19:libgit2/.md5sum
 f:91de87bf7435e9b3f4190db815c43390:libgit2/.footprint
 f:22c18ab782e3526d3a4cc53e9ccfdefe:libgit2/Pkgfile
