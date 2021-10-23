@@ -6,7 +6,7 @@
 name=python3-attrs
 _realname=attrs
 version=20.3.0
-release=0
+release=1
 source=(https://github.com/python-attrs/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
 
 build() {
