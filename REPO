@@ -11,7 +11,6 @@ d:python3-cparser
 d:ffmpeg
 d:intltool
 d:python3-atomicwrites
-d:dbus-elogind
 d:git-lfs
 d:libvpx
 d:gdk-pixbuf-xlib
@@ -240,14 +239,6 @@ f:2e1d468076d468be8bc4471040ec6f86:intltool/Pkgfile
 f:9a6532935ec3f094cf8af85de1981ef3:python3-atomicwrites/.md5sum
 f:53f05e7dba71ed032f18136adab5fb5b:python3-atomicwrites/.footprint
 f:5c152783643107f7f14a40f34a3a22cd:python3-atomicwrites/Pkgfile
-f:637091409a1ec61420e337749fd2b0b1:dbus-elogind/.md5sum
-f:1d0de8dee1601f1f4e9360212e11cbe8:dbus-elogind/.footprint
-f:9fa2fe9767a6bb2bd194fb558fc3e3e8:dbus-elogind/dbus.check
-f:bf567c5e6650b609d4dd8e48efb18864:dbus-elogind/dbus-enable-elogind.patch
-f:76c4a419ab5c93362976908ec968ef93:dbus-elogind/dbus-daemon-optional.patch
-f:27f58277dc828be35913b54b04c985b0:dbus-elogind/dbus.run
-f:57237d3f2610dbf998eaa938992dceb6:dbus-elogind/30-dbus.launch
-f:42b7040d96c6c2bef234f48343e92cab:dbus-elogind/Pkgfile
 f:7704474ded23fcbfe8b77ffe2d3fb13b:git-lfs/.md5sum
 f:f0a41aabae871f5ecfd021a18922bec7:git-lfs/.footprint
 f:87a43d348014e9eff4c344fe3dfa864c:git-lfs/post-install
@@ -738,9 +729,9 @@ f:dbb16569bb38eda2752b4f05e4ddd0fb:alsa-lib/Pkgfile
 f:046932ddd1b42a381679729bda909139:elogind/elogind.run
 f:36590d629f57cc4d0b99bbc22a41e06b:elogind/.md5sum
 f:fd7037fcaaafe4959a53cccd12a193d6:elogind/elogind.wrapper
-f:7efc29e0c8bd4a4b1f0cefadbac78b51:elogind/.footprint
+f:8d79fccc10ee07c394966df48f958ba0:elogind/.footprint
 f:9f6ccc673cbdb66ad1ad4a4e18b99b61:elogind/elogind-246.10-revert-polkit-automagic.patch
-f:b2a7539f9a2191d27670628c9722aa07:elogind/Pkgfile
+f:bcbc6505d321fcbd28662ac3b733a4f6:elogind/Pkgfile
 f:85206659f2a1253da21a8a6dc2979ffa:libidl/.md5sum
 f:8cf5b2440e0713d5ab98cccf2ab3e9a6:libidl/.footprint
 f:bb28ef2555ad2b1dfafa0cb7abb19e0c:libidl/Pkgfile
