@@ -6,7 +6,7 @@
 name=python3-atomicwrites
 _realname=python-atomicwrites
 version=1.4.0
-release=0
+release=1
 source=(https://github.com/untitaker/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
 
 build() {
