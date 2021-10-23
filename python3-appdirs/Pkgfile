@@ -6,7 +6,7 @@
 name=python3-appdirs
 _realname=appdirs
 version=1.4.4
-release=0
+release=1
 source=(https://files.pythonhosted.org/packages/source/${name:8:1}/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
