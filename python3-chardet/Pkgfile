@@ -6,7 +6,7 @@
 name=python3-chardet
 _realname=chardet
 version=4.0.0
-release=0
+release=1
 source=(https://files.pythonhosted.org/packages/source/${_realname:0:1}/$_realname/${_realname}-${version}.tar.gz)
 
 build() {
