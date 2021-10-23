@@ -553,12 +553,14 @@ f:a708e7b7e3f2421a61df794ef48ce890:pinentry/.md5sum
 f:1fbfe9066a404b98181f6d93c4fcd30c:pinentry/.footprint
 f:b3f2692e792f14df7d0ccfcc19399f66:pinentry/pinentry
 f:e78031f5aca18b73bf2b59567d5e9492:pinentry/Pkgfile
-f:2181caec905511548141170426e6486e:dbus/.md5sum
-f:77ec5cac5eb954bbc319f19ee40148cc:dbus/.footprint
+f:637091409a1ec61420e337749fd2b0b1:dbus/.md5sum
+f:fc860d766738f35e9c9f06c18db06273:dbus/.footprint
 f:9fa2fe9767a6bb2bd194fb558fc3e3e8:dbus/dbus.check
+f:bf567c5e6650b609d4dd8e48efb18864:dbus/dbus-enable-elogind.patch
+f:76c4a419ab5c93362976908ec968ef93:dbus/dbus-daemon-optional.patch
 f:27f58277dc828be35913b54b04c985b0:dbus/dbus.run
 f:57237d3f2610dbf998eaa938992dceb6:dbus/30-dbus.launch
-f:0a10dfdd33e2249dc92a337fff974fd0:dbus/Pkgfile
+f:b8816d864aa4c55887e635c480171d60:dbus/Pkgfile
 f:50b5c2b06eb317a13ed5d6f5e56e0fff:rpcbind/.md5sum
 f:876298227919763865a7afbc01edc67a:rpcbind/rpcbind.run
 f:f6fe0aa771ab750ac9f690ddf09bc0b0:rpcbind/.footprint
