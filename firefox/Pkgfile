@@ -4,18 +4,13 @@
 # Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxt zip
 
 name=firefox
-version=91.0.2
+version=93.0
 release=0
 source=(https://archive.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
-	firefox-91.0.1esr-glibc234-1.patch \
-	firefox-91.0.1esr-disable_rust_test-1.patch \
 	firefox.desktop)
 
 build() {
 	cd ${name}-${version}
-
-	patch -Np1 -i $SRC/firefox-91.0.1esr-glibc234-1.patch
-	patch -Np1 -i $SRC/firefox-91.0.1esr-disable_rust_test-1.patch
 
 cat <<- EOF > .mozconfig
 	export CC=clang
@@ -28,6 +23,7 @@ cat <<- EOF > .mozconfig
 	ac_add_options --prefix=/usr
 	ac_add_options --enable-default-toolkit=cairo-gtk3-wayland
 	ac_add_options --enable-application=browser
+	ac_add_options --enable-official-branding
 	ac_add_options --with-system-jpeg
 	ac_add_options --with-system-zlib
 	ac_add_options --with-system-png
@@ -36,14 +32,19 @@ cat <<- EOF > .mozconfig
 	ac_add_options --with-system-icu
 	ac_add_options --with-system-webp
 	ac_add_options --with-system-libvpx
+
 	ac_add_options --enable-system-ffi
 	ac_add_options --enable-system-pixman
+	ac_add_options --enable-linker=lld
 	ac_add_options --enable-optimize="-g0 -O2"
 	ac_add_options --enable-hardening
 	ac_add_options --enable-ffmpeg
 	ac_add_options --enable-av1
 	ac_add_options --enable-alsa
-	ac_add_options --enable-official-branding
+	ac_add_options --enable-webrtc
+
+	ac_add_options --allow-addon-sideload
+
 	ac_add_options --disable-pulseaudio
 	ac_add_options --disable-jack
 	ac_add_options --disable-gold
@@ -53,9 +54,9 @@ cat <<- EOF > .mozconfig
 	ac_add_options --disable-updater
 	ac_add_options --disable-crashreporter
 	ac_add_options --disable-necko-wifi
-	# AArch64 add
-	ac_add_options --enable-rust-simd
-	ac_add_options --enable-webrtc
+	ac_add_options --disable-rust-simd
+	ac_add_options --disable-elf-hack
+	ac_add_options --disable-bootstrap
 EOF
 
 	export MOZ_DEBUG_FLAGS=" "
