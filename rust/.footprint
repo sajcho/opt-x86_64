@@ -1614,6 +1614,10 @@ drwxr-xr-x	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/
 -rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-1755472c356269ca.rlib
 -rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-01b4f9fad847066e.rlib
 -rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libprofiler_builtins-5f32db20703f4283.rlib
+-rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.asan.a
+-rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.lsan.a
+-rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.msan.a
+-rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.tsan.a
 -rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-7c6d40800e303357.rlib
 -rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-4d75757115fe6e3d.rlib
 -rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-5083cb21f27361a5.rlib
