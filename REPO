@@ -697,12 +697,10 @@ f:5d508920b1d99f11ac49448d5b95d2db:x264/Pkgfile
 f:99a59556470ba75a4300de9ed518e087:gpgme/.md5sum
 f:d2403d15334c06438e892e6aab31ff88:gpgme/.footprint
 f:3f526216143b0cf63bcf9e90760da75a:gpgme/Pkgfile
-f:5a35bd2578dc20e1d9b9152a96c5ef1c:firefox/firefox-91.0.1esr-disable_rust_test-1.patch
-f:1c7f84b1f70b83755cd1c364ed70668e:firefox/.md5sum
+f:963879cb4e9e45baf60beced79364a7e:firefox/.md5sum
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:261a8098047ca321cdd846cc9e4e7544:firefox/.footprint
-f:86a2e327cc26efe00b79311087f65896:firefox/firefox-91.0.1esr-glibc234-1.patch
-f:23a98d295dd43a06cf9958c432611cf9:firefox/Pkgfile
+f:01a63d5907ac637e024e3367af2f2de4:firefox/Pkgfile
 f:2dc9d626228874dbc79f33869eda7ed6:npth/.md5sum
 f:a1be58dc7c7c6c9b10dbedb471c05b33:npth/.footprint
 f:0ce6aae099777964fcc218467bf382bf:npth/Pkgfile
