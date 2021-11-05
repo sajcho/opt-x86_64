@@ -48,6 +48,8 @@ d:gnupg
 d:lsof
 d:shared-mime-info
 d:libwebp
+d:tree
+d:llvm-toolchain
 d:lcms2
 d:libass
 d:at-spi2-core
@@ -163,6 +165,7 @@ d:python3-attrs
 d:libid3tag
 d:python3-libxml2
 d:libpsl
+d:python3-six
 d:gnutls
 d:libsoup
 d:libpng
@@ -177,6 +180,7 @@ d:atk
 d:dtc
 d:python3-mako
 d:speex
+d:swig
 d:glib-networking
 d:nfs-utils
 d:python3-chardet
@@ -382,6 +386,12 @@ f:cd7370280e352fe50cd452f0875afec6:shared-mime-info/Pkgfile
 f:f91ea7b4417facc1d3d42b1f0d364292:libwebp/.md5sum
 f:9e344cee112ab164c0aa47e16e95d7c1:libwebp/.footprint
 f:78b28eabb6596b8572787f6345e65e0d:libwebp/Pkgfile
+f:ca5defc008d5381900e2a8d38a138443:tree/.md5sum
+f:558527f92dc2db471135adfa723ec3d1:tree/.footprint
+f:831579e36ffc2a16a48bec5fd6734d05:tree/Pkgfile
+f:c25295402bd1043a20d38bda50a70f73:llvm-toolchain/.md5sum
+f:48a014e4a8560052b8dfd7d1adf48214:llvm-toolchain/.footprint
+f:6f613f968e816156051885db68e5e0ad:llvm-toolchain/Pkgfile
 f:a933827f65a8d2a333ed87fcf62532d1:lcms2/.md5sum
 f:8740bb3088048a6264ba6167a710bc83:lcms2/.footprint
 f:9fba7ba3c1fec05fe0315fccb666d3bf:lcms2/Pkgfile
@@ -785,6 +795,9 @@ f:27c4815d7c1788e8b1170e16378261d8:python3-libxml2/Pkgfile
 f:f28a5999b802456767df99b67a512c03:libpsl/.md5sum
 f:d84de4f1556f6d8a999f368e9370f126:libpsl/.footprint
 f:4161d5bb2aaaa889aeb2a300569361f2:libpsl/Pkgfile
+f:2ae076d6e27bbfef90af3629e6e2f2b9:python3-six/.md5sum
+f:2e30ae2cb0d06a58ed664eef8656f78a:python3-six/.footprint
+f:98c6144827d585eff85fc53ae836ea2a:python3-six/Pkgfile
 f:2256d3e7d76f6c5ef8d12ca96731df68:gnutls/.md5sum
 f:baf78bc6529694bf0e39c4f0cec195d5:gnutls/.footprint
 f:2be4724138792276d52c3ced99c0cd28:gnutls/Pkgfile
@@ -831,6 +844,9 @@ f:f388560f98160ef89607da2dc4bcbaab:python3-mako/Pkgfile
 f:a2ee877fe1bcff56af27112b91aac460:speex/.md5sum
 f:aca96f97813ee7219968cbb1bfc4f402:speex/.footprint
 f:6bf95614f7963641b09ce3aecd45c188:speex/Pkgfile
+f:f775b9f6f9bc2f438ac919188bad4069:swig/.md5sum
+f:04d5da180e5b204334f8d9f924f97fe6:swig/.footprint
+f:9b0c361afac915db67fbdbc4247a460e:swig/Pkgfile
 f:f2243be62ecf6b59c9cd4e51a19b62be:glib-networking/README
 f:7d873598154cd652375781b506d3bdc8:glib-networking/.md5sum
 f:e350425c8e9295d0ba24e9db09eddcec:glib-networking/.footprint
