@@ -59,7 +59,6 @@ d:recode
 d:mpg123
 d:startup-notification
 d:icewm
-d:libpcre2
 d:itstool
 d:zip
 d:poppler
@@ -419,9 +418,6 @@ f:cfa50bcde62bb9dfe6ee628dc58625f2:startup-notification/Pkgfile
 f:0b26a38813c4aa1bf7a2b9b4e1524b1b:icewm/.md5sum
 f:6337c678693af52cacfcac1748833c42:icewm/.footprint
 f:803edf9ec179412a93deff3d78f6c263:icewm/Pkgfile
-f:ddaa0c88d6e8e409abf988f3a9769061:libpcre2/.md5sum
-f:c0cdf4b53b071f7558281977b0c0080a:libpcre2/.footprint
-f:11413f2cfc4c0fa0ccd4b45c6badf9de:libpcre2/Pkgfile
 f:5276adda4947bab6797c8af13a81ab13:itstool/.md5sum
 f:3fcccef151712aa244e8f2462e604fe6:itstool/.footprint
 f:69d5318196121a1bf60dc12299bedd98:itstool/Pkgfile
