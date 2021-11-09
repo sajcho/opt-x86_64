@@ -5,7 +5,7 @@
 
 name=rust
 _realname=rustc
-version=1.56.0
+version=1.56.1
 release=1
 source=(https://static.rust-lang.org/dist/${_realname}-${version}-src.tar.xz \
 	libexec.patch)
@@ -19,6 +19,9 @@ build() {
 	rm -r src/llvm-project/{clang,clang-tools-extra,libunwind,lld,lldb,llvm}
 	mkdir -p src/llvm-project/libunwind/
 
+	export CFLAGS="$(echo $CFLAGS | sed -e 's| -flto=auto -ffat-lto-objects||')"
+	export CXXFLAGS="$(echo $CXXFLAGS | sed -e 's| -flto=auto -ffat-lto-objects||')"
+
 cat <<- EOF > $SRC/config.toml
 	changelog-seen = 2
 	profile = "user"
@@ -28,7 +31,7 @@ cat <<- EOF > $SRC/config.toml
 	link-shared = true
 	optimize = true
 	thin-lto = true
-	polly = true
+	polly = false
 
 	[install]
 	prefix = "/usr"
@@ -68,6 +71,7 @@ EOF
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 	export RUST_BACKTRACE="full"
+	export RUSTFLAGS="-Clinker-plugin-lto -Clinker=clang -Clink-arg=-fuse-ld=lld -Cembed-bitcode=yes"
 
 	# prevention - if libgit2, libssh2 is installed
 	export LIBGIT2_NO_PKG_CONFIG=1
