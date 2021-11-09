@@ -49,7 +49,6 @@ d:lsof
 d:shared-mime-info
 d:libwebp
 d:tree
-d:llvm-toolchain
 d:lcms2
 d:libass
 d:at-spi2-core
@@ -388,9 +387,6 @@ f:78b28eabb6596b8572787f6345e65e0d:libwebp/Pkgfile
 f:ca5defc008d5381900e2a8d38a138443:tree/.md5sum
 f:558527f92dc2db471135adfa723ec3d1:tree/.footprint
 f:831579e36ffc2a16a48bec5fd6734d05:tree/Pkgfile
-f:c25295402bd1043a20d38bda50a70f73:llvm-toolchain/.md5sum
-f:48a014e4a8560052b8dfd7d1adf48214:llvm-toolchain/.footprint
-f:6f613f968e816156051885db68e5e0ad:llvm-toolchain/Pkgfile
 f:a933827f65a8d2a333ed87fcf62532d1:lcms2/.md5sum
 f:8740bb3088048a6264ba6167a710bc83:lcms2/.footprint
 f:9fba7ba3c1fec05fe0315fccb666d3bf:lcms2/Pkgfile
@@ -545,9 +541,9 @@ f:26b8bbcbe2665487c4fe8401de0a2daf:nss/nss-3.54-standalone-2.patch
 f:454b4c8e97cf59aeb7d6269fd96b0b7e:nss/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:59041d2148f9ac01f0052bbd48253787:rust/libexec.patch
-f:96261560aeb83156afd298fc61168bd8:rust/.md5sum
-f:7e60be4d0b15e52bea4bd5bf3f7a917e:rust/.footprint
-f:ab265b90a883335b2b31ea5ec48c005b:rust/Pkgfile
+f:9faba4b0756881127c49772b7847417e:rust/.md5sum
+f:2ee2802f2b304b5c0d94de99b1da24a4:rust/.footprint
+f:9b8ded8e216ae36e48eb3a906155b329:rust/Pkgfile
 f:cc6659717d34446e32f25d94249dce19:libgit2/.md5sum
 f:91de87bf7435e9b3f4190db815c43390:libgit2/.footprint
 f:22c18ab782e3526d3a4cc53e9ccfdefe:libgit2/Pkgfile
