@@ -5,7 +5,7 @@
 
 name=mc
 version=4.8.27
-release=0
+release=1
 source=(http://ftp.midnight-commander.org/${name}-${version}.tar.xz)
 
 build() {
@@ -18,7 +18,7 @@ build() {
 		--disable-nls \
 		--with-screen=ncurses
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
