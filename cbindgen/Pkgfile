@@ -5,7 +5,7 @@
 
 name=cbindgen
 version=0.20.0
-release=0
+release=1
 source=(https://github.com/eqrion/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
@@ -13,10 +13,12 @@ build() {
 
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
+	export CARGO_BUILD_RUSTFLAGS="-Clinker-plugin-lto -Clinker=clang -Clink-arg=-fuse-ld=lld -Cembed-bitcode=yes"
+	export RUSTFLAGS="-Clinker-plugin-lto -Clinker=clang -Clink-arg=-fuse-ld=lld -Cembed-bitcode=yes"
 
-	cargo fetch --locked --target $CHOST
+	cargo fetch --verbose --locked --target $CHOST
 
-	cargo build --release --frozen --all-targets
+	cargo build --verbose --release --frozen --all-targets
 
 	install -Dt $PKG/usr/bin target/release/cbindgen
 }
