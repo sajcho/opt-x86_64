@@ -5,7 +5,7 @@
 
 name=mpg123
 version=1.28.2
-release=0
+release=1
 source=(https://www.mpg123.de/download/${name}-${version}.tar.bz2)
 
 build() {
@@ -20,9 +20,8 @@ build() {
 		--with-cpu="x86-64"
 
 	sed -i 's/ -shared / -Wl,--as-needed\0/g' libtool
-	make
 
-	#make check
+	make
 
 	make DESTDIR=$PKG install
 
