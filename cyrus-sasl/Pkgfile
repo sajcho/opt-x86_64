@@ -1,11 +1,11 @@
 # Description:	Simple Authentication and Security Layer
 # URL:		https://www.cyrusimap.org/sasl/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	linux-pam openssl sqlite3
+# Depends on:	db linux-pam openssl3
 
 name=cyrus-sasl
 version=2.1.27
-release=1
+release=2
 source=(https://github.com/cyrusimap/${name}/releases/download/${name}-${version}/${name}-${version}.tar.gz \
 	cyrus-sasl-2.1.27-CVE-2019-19906.patch \
 	cyrus-sasl-2.1.27-doc_fixes-1.patch \
@@ -18,14 +18,15 @@ build() {
 	patch -p1 -i $SRC/cyrus-sasl-2.1.27-CVE-2019-19906.patch
 	patch -p1 -i $SRC/cyrus-sasl-2.1.27-doc_fixes-1.patch
 
+	CFLAGS+=" -fPIC"
+
 	./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc/sasl \
 		--with-plugindir=/usr/lib/sasl2 \
-		--with-saslauthd=/var/run/saslauthd \
+		--with-saslauthd=/run/saslauthd \
 		--with-dbpath=/etc/sasl/sasldb2 \
 		--with-dblib=berkeley \
-		--with-sqlite \
 		--with-bdb-incdir=/usr/include \
 		--with-bdb-libdir=/usr/lib \
 		--with-openssl=/usr \
@@ -35,17 +36,19 @@ build() {
 		--enable-digest \
 		--enable-shared
 
-	make CFLAGS="$CFLAGS -fPIC"
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	install -d \
 	$PKG/usr/lib/sasl2 \
-	$PKG/var/run/saslauthd
+	$PKG/run/saslauthd
 
 	# saslauthd runit service
 	install -d $PKG/etc/sv/saslauthd
 	install -m 0644 $SRC/saslauthd-sv.conf $PKG/etc/sv/saslauthd/conf
 	install -m 0755 $SRC/saslauthd.run $PKG/etc/sv/saslauthd/run
 	ln -s /run/runit/supervise.saslauthd $PKG/etc/sv/saslauthd/supervise
+
+	find $PKG -type f -name '*.la' -delete
 }
