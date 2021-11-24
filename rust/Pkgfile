@@ -1,26 +1,26 @@
-# Description:	The Rust Programming Language
-# URL:		https://www.rust-lang.org/
+# Description:	The Rust language with Cargo included.
+# URL:		http://www.rust-lang.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	curl llvm-toolchain
+# Depends on:	llvm-toolchain
 
 name=rust
 _realname=rustc
-version=1.56.1
+version=nightly-20211122
+_realversion=nightly
 release=1
-source=(https://static.rust-lang.org/dist/${_realname}-${version}-src.tar.xz \
+
+source=(https://static.rust-lang.org/dist/${_realname}-${_realversion}-src.tar.gz \
 	libexec.patch)
 
 build() {
-	cd ${_realname}-${version}-src
+	cd ${_realname}-${_realversion}-src
 
 	# Patch cargo so credential helpers are in /usr/lib instead of /usr/libexec
 	patch -p1 -i $SRC/libexec.patch
 
+	# Remove bundled dependencies.
 	rm -r src/llvm-project/{clang,clang-tools-extra,libunwind,lld,lldb,llvm}
-	mkdir -p src/llvm-project/libunwind/
-
-	export CFLAGS="$(echo $CFLAGS | sed -e 's| -flto=auto -ffat-lto-objects||')"
-	export CXXFLAGS="$(echo $CXXFLAGS | sed -e 's| -flto=auto -ffat-lto-objects||')"
+	install -d src/llvm-project/libunwind
 
 cat <<- EOF > $SRC/config.toml
 	changelog-seen = 2
@@ -39,7 +39,7 @@ cat <<- EOF > $SRC/config.toml
 	[rust]
 	channel = "stable"
 	codegen-units-std = 1
-	debuginfo-level-std = 2
+	debuginfo-level-std = 1
 	optimize = true
 	use-lld = true
 	rpath = false
@@ -49,17 +49,17 @@ cat <<- EOF > $SRC/config.toml
 
 	[build]
 	target = ["$CHOST"]
+	verbose = 0
 	extended = true
 	vendor = true
 	docs = false
-	profiler = true
-	sanitizers = true
-	verbose = 0
+	profiler = false
+	sanitizers = false
 	python = "/usr/bin/python3"
 	cargo = "/usr/bin/cargo"
 	rustc = "/usr/bin/rustc"
 	rustfmt = "/usr/bin/rustfmt"
-	tools = ["analysis", "cargo", "clippy", "rls", "rustfmt", "rust-demangler", "src"]
+	tools = ["analysis", "cargo", "clippy", "rls", "rustfmt", "src"]
 
 	[target.$CHOST]
 	llvm-config = "/usr/bin/llvm-config"
@@ -70,17 +70,15 @@ EOF
 
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
-	export RUST_BACKTRACE="full"
+	export RUST_BACKTRACE="1"
 	export RUSTFLAGS="-Clinker-plugin-lto -Clinker=clang -Clink-arg=-fuse-ld=lld -Cembed-bitcode=yes"
 
-	# prevention - if libgit2, libssh2 is installed
+	# prevent - if libgit2, libssh2 is installed
 	export LIBGIT2_NO_PKG_CONFIG=1
 	export LIBSSH2_NO_PKG_CONFIG=1
 
-	# build
 	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml ${JOBS:+-j ${JOBS}}
 
-	# install
 	DESTDIR=$PKG /usr/bin/python3 ./x.py --config="${SRC}"/config.toml install
 
 	# Cleanup
