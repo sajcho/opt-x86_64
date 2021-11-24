@@ -4,7 +4,7 @@
 
 name=alsa-lib
 version=1.2.5.1
-release=1
+release=2
 source=(https://github.com/alsa-project/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
@@ -12,13 +12,17 @@ build() {
 
 	autoreconf -fiv
 
+	CFLAGS+=" -flto-partition=none"
+
 	./configure \
 		--prefix=/usr \
 		--disable-python \
 		--with-plugindir=/usr/lib/alsa-lib \
 		--without-debug
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
