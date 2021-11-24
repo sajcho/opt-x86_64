@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gendict
 -rwxr-xr-x	root/root	usr/bin/genrb
 -rwxr-xr-x	root/root	usr/bin/icu-config
+-rwxr-xr-x	root/root	usr/bin/icuexportdata
 -rwxr-xr-x	root/root	usr/bin/icuinfo
 -rwxr-xr-x	root/root	usr/bin/makeconv
 -rwxr-xr-x	root/root	usr/bin/pkgdata
@@ -203,36 +204,30 @@ drwxr-xr-x	root/root	usr/include/unicode/
 -rw-r--r--	root/root	usr/include/unicode/vtzone.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/icu/
-drwxr-xr-x	root/root	usr/lib/icu/69.1/
--rw-r--r--	root/root	usr/lib/icu/69.1/Makefile.inc
--rw-r--r--	root/root	usr/lib/icu/69.1/pkgdata.inc
+drwxr-xr-x	root/root	usr/lib/icu/70.1/
+-rw-r--r--	root/root	usr/lib/icu/70.1/Makefile.inc
+-rw-r--r--	root/root	usr/lib/icu/70.1/pkgdata.inc
 lrwxrwxrwx	root/root	usr/lib/icu/Makefile.inc -> current/Makefile.inc
-lrwxrwxrwx	root/root	usr/lib/icu/current -> 69.1
+lrwxrwxrwx	root/root	usr/lib/icu/current -> 70.1
 lrwxrwxrwx	root/root	usr/lib/icu/pkgdata.inc -> current/pkgdata.inc
--rwxr-xr-x	root/root	usr/lib/libicudata.a
-lrwxrwxrwx	root/root	usr/lib/libicudata.so -> libicudata.so.69.1
-lrwxrwxrwx	root/root	usr/lib/libicudata.so.69 -> libicudata.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicudata.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicui18n.a
-lrwxrwxrwx	root/root	usr/lib/libicui18n.so -> libicui18n.so.69.1
-lrwxrwxrwx	root/root	usr/lib/libicui18n.so.69 -> libicui18n.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicui18n.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicuio.a
-lrwxrwxrwx	root/root	usr/lib/libicuio.so -> libicuio.so.69.1
-lrwxrwxrwx	root/root	usr/lib/libicuio.so.69 -> libicuio.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicuio.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicutest.a
-lrwxrwxrwx	root/root	usr/lib/libicutest.so -> libicutest.so.69.1
-lrwxrwxrwx	root/root	usr/lib/libicutest.so.69 -> libicutest.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicutest.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicutu.a
-lrwxrwxrwx	root/root	usr/lib/libicutu.so -> libicutu.so.69.1
-lrwxrwxrwx	root/root	usr/lib/libicutu.so.69 -> libicutu.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicutu.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicuuc.a
-lrwxrwxrwx	root/root	usr/lib/libicuuc.so -> libicuuc.so.69.1
-lrwxrwxrwx	root/root	usr/lib/libicuuc.so.69 -> libicuuc.so.69.1
--rwxr-xr-x	root/root	usr/lib/libicuuc.so.69.1
+lrwxrwxrwx	root/root	usr/lib/libicudata.so -> libicudata.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicudata.so.70 -> libicudata.so.70.1
+-rwxr-xr-x	root/root	usr/lib/libicudata.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicui18n.so -> libicui18n.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicui18n.so.70 -> libicui18n.so.70.1
+-rwxr-xr-x	root/root	usr/lib/libicui18n.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicuio.so -> libicuio.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicuio.so.70 -> libicuio.so.70.1
+-rwxr-xr-x	root/root	usr/lib/libicuio.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicutest.so -> libicutest.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicutest.so.70 -> libicutest.so.70.1
+-rwxr-xr-x	root/root	usr/lib/libicutest.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicutu.so -> libicutu.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicutu.so.70 -> libicutu.so.70.1
+-rwxr-xr-x	root/root	usr/lib/libicutu.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicuuc.so -> libicuuc.so.70.1
+lrwxrwxrwx	root/root	usr/lib/libicuuc.so.70 -> libicuuc.so.70.1
+-rwxr-xr-x	root/root	usr/lib/libicuuc.so.70.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/icu-i18n.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/icu-io.pc
@@ -246,11 +241,11 @@ drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/icupkg
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icu/
-drwxr-xr-x	root/root	usr/share/icu/69.1/
-drwxr-xr-x	root/root	usr/share/icu/69.1/config/
--rw-r--r--	root/root	usr/share/icu/69.1/config/mh-linux
--rwxr-xr-x	root/root	usr/share/icu/69.1/install-sh
--rwxr-xr-x	root/root	usr/share/icu/69.1/mkinstalldirs
+drwxr-xr-x	root/root	usr/share/icu/70.1/
+drwxr-xr-x	root/root	usr/share/icu/70.1/config/
+-rw-r--r--	root/root	usr/share/icu/70.1/config/mh-linux
+-rwxr-xr-x	root/root	usr/share/icu/70.1/install-sh
+-rwxr-xr-x	root/root	usr/share/icu/70.1/mkinstalldirs
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/derb.1.gz
@@ -260,6 +255,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gendict.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/genrb.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/icu-config.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/icuexportdata.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/makeconv.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pkgdata.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/uconv.1.gz
