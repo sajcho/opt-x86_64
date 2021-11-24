@@ -5,18 +5,19 @@
 
 name=yaml
 version=0.2.5
-release=0
-source=(http://pyyaml.org/download/libyaml/yaml-${version}.tar.gz)
+release=1
+source=(http://pyyaml.org/download/libyaml/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
-	make
-
-	#make check
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
