@@ -16,16 +16,20 @@ build() {
 	patch -p1 -i $SRC/deprecated-no-warn.patch
 
 	build-meson \
+		-Dglib_debug=disabled \
+		-Dselinux=disabled \
+		-Dnls=disabled \
 		-Dtests=false \
 		-Dgtk_doc=false \
-		-Dnls=disabled \
 		. build
+
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
-	install -m 0644 $SRC/gschemas.compiled $PKG/usr/share/glib-2.0/schemas/gschemas.compiled
+	install -m 0644 $SRC/gschemas.compiled \
+		$PKG/usr/share/glib-2.0/schemas/gschemas.compiled
 
 	rm -r $PKG/usr/share/bash-completion
 }
