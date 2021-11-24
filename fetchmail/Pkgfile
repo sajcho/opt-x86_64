@@ -1,24 +1,23 @@
 # Description:	A remote-mail retrieval utility
 # URL:		http://www.fetchmail.info
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	openssl python3
+# Depends on:	openssl3
 
 name=fetchmail
-version=6.4.21
-release=0
+version=6.4.22
+release=1
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
+	# don't build python stuff
+	sed -i '22,24s/^/#/' Makefile.am
+
+	autoreconf -vi
+
 	./configure \
 		--prefix=/usr \
-		--enable-POP3 \
-		--enable-IMAP \
-		--enable-ETRN \
-		--enable-NTLM \
-		--enable-SDPS \
-		--enable-RPA \
 		--disable-nls \
 		--with-ssl \
 		--without-kerberos5 \
@@ -26,9 +25,7 @@ build() {
 		--without-hesiod
 
 
-	make
-
-	make check
+	make V=1
 
 	make DESTDIR=$PKG install
 }
