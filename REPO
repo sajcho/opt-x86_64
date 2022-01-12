@@ -154,7 +154,6 @@ d:sdl2
 d:minicom
 d:python3-cffi
 d:gdk-pixbuf
-d:expect
 d:python3-markupsafe
 d:jansson
 d:fdk-aac
@@ -171,10 +170,8 @@ d:libsoup
 d:libpng
 d:gexiv2
 d:poppler-data
-d:dejagnu
 d:libpcap
 d:lame
-d:tcl
 d:libassuan
 d:atk
 d:dtc
@@ -759,9 +756,6 @@ f:e0e8b1467e4263913f97ef96c2c21a60:gdk-pixbuf/.md5sum
 f:27fb8cb24ba9dec9e33323282e400ac6:gdk-pixbuf/.footprint
 f:7028a27cfa648bbacf5890613fb91aef:gdk-pixbuf/post-install
 f:6ce3daf96d3b74a174a548ab140d5d73:gdk-pixbuf/Pkgfile
-f:2b4aa26e64d4c7202a2b40b8f387d9e7:expect/.md5sum
-f:09206503e97d5a6ab44037bd968b815d:expect/.footprint
-f:6f6a292c58a2e15ce321d7f4c9ae6b9b:expect/Pkgfile
 f:5445dfb2b8bc1531d7dd502e23e70b40:python3-markupsafe/.md5sum
 f:dc2cce55acc2941efc14e65051205d45:python3-markupsafe/.footprint
 f:7c22af05ba41b59a22441518ca345be0:python3-markupsafe/Pkgfile
@@ -826,18 +820,12 @@ f:d5887e0a077ba041cfea7cc9d05f1768:gexiv2/Pkgfile
 f:10b78a3ebfc0c40a6e7e242ed71d794e:poppler-data/.md5sum
 f:b612d2d718af9a513c4a9d0650abcaf0:poppler-data/.footprint
 f:1110d9e4c8e11ed7c9a5bbc41b8d0aa7:poppler-data/Pkgfile
-f:04c6f6c7d2ed33a24ce63145a7e011b6:dejagnu/.md5sum
-f:9b776704dcc3eb800c4009f8e89f0850:dejagnu/.footprint
-f:cb72b4569519682fdf8e4ad0a629db2e:dejagnu/Pkgfile
 f:2ba77c747983382585a8792ba9f8d595:libpcap/.md5sum
 f:d247a7fa81224b6a5a6a851d448b1173:libpcap/.footprint
 f:31d4f29a089f20ad34abc4cce443c56e:libpcap/Pkgfile
 f:5823720d5ed1f33ecfed4c95b9b0d2af:lame/.md5sum
 f:1cc2701f7267dad2c907ca304d22cc6c:lame/.footprint
 f:bcd4225abc71116619848881d5754e6c:lame/Pkgfile
-f:2a1799eee56ca50cf8031115ce62ec07:tcl/.md5sum
-f:13a13789164744e195286d5fa39f20dd:tcl/.footprint
-f:f73a776ce81e9c4330896c382c3d387b:tcl/Pkgfile
 f:9bc1bf692ca41ba0cda3a744b6ce2f08:libassuan/.md5sum
 f:d1d4a752e22920e8d1f438ae0920cbc7:libassuan/.footprint
 f:8c51876074b68a95d6da809d9538a7b0:libassuan/Pkgfile
