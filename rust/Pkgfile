@@ -4,22 +4,20 @@
 # Depends on:	llvm-toolchain
 
 name=rust
-_realname=rustc
-version=nightly-20211122
-_realversion=nightly
+version=1.57.0
 release=1
 
-source=(https://static.rust-lang.org/dist/${_realname}-${_realversion}-src.tar.gz \
+source=(https://static.rust-lang.org/dist/rustc-${version}-src.tar.gz \
 	libexec.patch)
 
 build() {
-	cd ${_realname}-${_realversion}-src
+	cd rustc-${version}-src
 
 	# Patch cargo so credential helpers are in /usr/lib instead of /usr/libexec
 	patch -p1 -i $SRC/libexec.patch
 
 	# Remove bundled dependencies.
-	rm -r src/llvm-project/{clang,clang-tools-extra,libunwind,lld,lldb,llvm}
+	rm -r src/llvm-project/*
 	install -d src/llvm-project/libunwind
 
 cat <<- EOF > $SRC/config.toml
@@ -27,11 +25,9 @@ cat <<- EOF > $SRC/config.toml
 	profile = "user"
 
 	[llvm]
+	targets = "x86"
 	ninja = true
 	link-shared = true
-	optimize = true
-	thin-lto = true
-	polly = false
 
 	[install]
 	prefix = "/usr"
@@ -39,26 +35,22 @@ cat <<- EOF > $SRC/config.toml
 	[rust]
 	channel = "stable"
 	codegen-units-std = 1
-	debuginfo-level-std = 1
-	optimize = true
-	use-lld = true
+	debuginfo-level-std = 2
 	rpath = false
 	codegen-tests = false
-	parallel-compiler = true
 	description = "SAUX x86_64"
 
 	[build]
 	target = ["$CHOST"]
-	verbose = 0
+	verbose = 2
 	extended = true
-	vendor = true
+	vendor = false
 	docs = false
 	profiler = false
 	sanitizers = false
 	python = "/usr/bin/python3"
-	cargo = "/usr/bin/cargo"
-	rustc = "/usr/bin/rustc"
-	rustfmt = "/usr/bin/rustfmt"
+	#cargo = "/usr/bin/cargo"
+	#rustc = "/usr/bin/rustc"
 	tools = ["analysis", "cargo", "clippy", "rls", "rustfmt", "src"]
 
 	[target.$CHOST]
@@ -71,11 +63,22 @@ EOF
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 	export RUST_BACKTRACE="1"
-	export RUSTFLAGS="-Clinker-plugin-lto -Clinker=clang -Clink-arg=-fuse-ld=lld -Cembed-bitcode=yes"
+	#export RUSTFLAGS="-Clinker=clang -Clink-arg=-fuse-ld=/usr/bin/mold"
 
 	# prevent - if libgit2, libssh2 is installed
 	export LIBGIT2_NO_PKG_CONFIG=1
 	export LIBSSH2_NO_PKG_CONFIG=1
+
+	# fix - error: "field is never read" warning
+	sed -i '/id: String,/d' src/bootstrap/lib.rs
+	sed -i '/id: String,/d' src/bootstrap/metadata.rs
+	sed -i 's|id: package.id,||' src/bootstrap/metadata.rs
+	sed -i '/available: bool,/d' src/tools/bump-stage0/src/main.rs
+
+	# fix - support openssl3
+	sed -i -e '/^curl /s/0.4.39/0.4.41/' \
+		-e '/^curl-sys /s/0.4.49/0.4.50/' \
+		src/tools/cargo/Cargo.toml
 
 	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml ${JOBS:+-j ${JOBS}}
 
@@ -85,8 +88,12 @@ EOF
 	rm -r $PKG/usr/share/doc
 	rm -r $PKG/usr/share/zsh
 	rm -r $PKG/etc
-	rm $PKG/usr/lib/rustlib/{components,manifest-rustc,rust-installer-version,uninstall.sh}
-
+	rm $PKG/usr/lib/rustlib/{components,install.log,manifest-*,rust-installer-version,uninstall.sh}
+	find $PKG -name '*.md' -o \
+		-name 'LICENSE-*' -o \
+		-name 'LICENSE.TXT' -o \
+		-name 'README.txt' | xargs rm
 	rm $PKG/usr/lib/{libstd-*,libtest-*}
+
 	ln -srft $PKG/usr/lib $PKG/usr/lib/rustlib/$CHOST/lib/*.so
 }
