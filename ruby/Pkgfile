@@ -4,9 +4,9 @@
 # Depends on:	gmp openssl3 yaml
 
 name=ruby
-version=3.1.0-preview1
+version=3.1.0
 release=1
-source=(http://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.0-preview1.tar.xz \
+source=(http://cache.ruby-lang.org/pub/${name}/${version%.*}/${name}-${version}.tar.xz \
 	rubygems-avoid-platform-specific-gems.patch)
 
 build() {
@@ -22,7 +22,7 @@ build() {
 		--disable-install-static-library \
 		--with-os-version-style=full
 
-	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+	make V=1
 
 	make DESTDIR=$PKG install
 
