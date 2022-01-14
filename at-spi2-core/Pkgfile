@@ -19,7 +19,7 @@ build() {
 		-Ddbus_daemon=/usr/bin/dbus-daemon \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
