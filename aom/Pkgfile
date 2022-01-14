@@ -1,18 +1,19 @@
 # Description:	Alliance for Open Media (AOM) AV1 codec SDK
 # URL:		https://aomedia.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cmake yasm
+# Depends on:	cmake samurai yasm
 
 name=aom
 _realname=libaom
-version=3.1.2
-release=0
+version=3.2.0
+release=1
 source=(https://storage.googleapis.com/aom-releases/${_realname}-${version}.tar.gz)
 
 build() {
 	cd $SRC/build
 
-	cmake .. \
+	cmake .. -G Ninja\
+		-DAOM_TARGET_CPU=generic \
 		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
@@ -23,7 +24,9 @@ build() {
 		-DENABLE_TESTS=OFF \
 		-Wno-dev
 
-	make
+	ninja -v
 
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG ninja install
+
+	find $PKG -type f -name '*.a' -delete
 }
