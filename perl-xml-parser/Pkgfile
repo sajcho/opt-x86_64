@@ -6,7 +6,7 @@
 name=perl-xml-parser
 _realname=XML-Parser
 version=2.46
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/T/TO/TODDR/${_realname}-${version}.tar.gz)
 
 build() {
@@ -15,13 +15,12 @@ build() {
 	export CFLAGS=$(perl -MConfig -E 'say $Config{ccflags}')
 	PERL_MM_USE_DEFAULT=1 perl Makefile.PL INSTALLDIRS=vendor
 
-	make
-
-	#make test
+	make V=1
 
 	make DESTDIR=$PKG install
 
-	find $PKG -name 'perllocal.pod' -or \
-		-name '.packlist' -or \
+	find $PKG -name 'perllocal.pod' -o \
+		-name '.packlist' -o \
+		-name '*.bs' -o \
 		-name 'README' | xargs rm
 }
