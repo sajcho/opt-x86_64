@@ -35,7 +35,6 @@ drwxr-xr-x	root/root	usr/include/libyasm/
 -rw-r--r--	root/root	usr/include/libyasm/valparam.h
 -rw-r--r--	root/root	usr/include/libyasm/value.h
 drwxr-xr-x	root/root	usr/lib/
--rw-r--r--	root/root	usr/lib/libyasm.a
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
