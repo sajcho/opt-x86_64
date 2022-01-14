@@ -1,11 +1,11 @@
 # Description:	Internationalization tool collection.
 # URL:		https://freedesktop.org/wiki/Software/intltool/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	file gettext perl-xml-parser
+# Depends on:	perl-xml-parser
 
 name=intltool
 version=0.51.0
-release=0
+release=1
 source=(http://edge.launchpad.net/${name}/trunk/${version}/+download/${name}-${version}.tar.gz \
 	intltool-perl-regexp.patch)
 
@@ -18,9 +18,7 @@ build() {
 	./configure \
 		--prefix=/usr
 
-	make
-
-	make check
+	make V=1
 
 	make DESTDIR=$PKG install
 }
