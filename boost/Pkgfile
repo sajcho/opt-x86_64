@@ -1,0 +1,56 @@
+# Description:	Free peer-reviewed portable C++ source libraries.
+# URL:		https://www.boost.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	icu python3
+
+name=boost
+version=1.78.0
+_pkgversion=1_78_0
+release=1
+source=(https://boostorg.jfrog.io/artifactory/main/release/${version}/source/${name}_${_pkgversion//./_}.tar.bz2)
+
+build() {
+	cd ${name}_${_pkgversion//./_}
+
+	./bootstrap.sh \
+		--prefix=$PKG/usr \
+		--with-toolset=gcc \
+		--with-icu \
+		--with-python=python3
+
+	./b2 -q stage \
+		architecture=x86 \
+		variant=release \
+		debug-symbols=off \
+		threading=multi \
+		runtime-link=shared \
+		link=shared \
+		toolset=gcc \
+		python=3.10 \
+		cflags="$CFLAGS" \
+		cxxflags="$CXXFLAGS" \
+		--without-graph_parallel \
+		--without-mpi \
+		--layout=system \
+		${JOBS:+-j ${JOBS}}
+
+	./b2 -q install \
+		architecture=x86 \
+		variant=release \
+		debug-symbols=off \
+		threading=multi \
+		runtime-link=shared \
+		link=shared \
+		toolset=gcc \
+		python=3.10 \
+		cflags="$CFLAGS" \
+		cxxflags="$CXXFLAGS" \
+		--without-graph_parallel \
+		--without-mpi \
+		--layout=system \
+		${JOBS:+-j ${JOBS}}
+
+
+	install -m 0755 -D b2 $PKG/usr/bin/b2
+	ln -s b2 $PKG/usr/bin/bjam
+}
