@@ -16,6 +16,7 @@ build() {
 	cmake .. \
 		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_C_FLAGS="$CFLAGS" \
 		-Wno-dev
 
 	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
