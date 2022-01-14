@@ -28,7 +28,7 @@ build() {
 	patch -p1 -i $SRC/unzip-6.0-cve-2018-1000035-heap-based-overflow.patch
 	patch -p1 -i $SRC/unzip-6.0-alt-iconv-utf8-print.patch
 
-	sed -i 's/-O3//' unix/configure
+	sed -i 's/-O3/-O2/' unix/configure
 
 	make -f unix/Makefile \
 		CC="$CHOST-gcc" \
