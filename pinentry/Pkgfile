@@ -4,8 +4,8 @@
 # Depends on:	libassuan libcap util-linux
 
 name=pinentry
-version=1.1.1
-release=0
+version=1.2.0
+release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2 \
 	pinentry)
 
@@ -19,9 +19,7 @@ build() {
 		--disable-pinentry-{gnome3,gtk2,qt,qt5} \
 		--disable-libsecret
 
-	make
-
-	#make check
+	make V=1
 
 	make DESTDIR=$PKG install
 
