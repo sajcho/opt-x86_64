@@ -4,7 +4,6 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/assuan.h
 drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libassuan.la
 lrwxrwxrwx	root/root	usr/lib/libassuan.so -> libassuan.so.0.8.5
 lrwxrwxrwx	root/root	usr/lib/libassuan.so.0 -> libassuan.so.0.8.5
 -rwxr-xr-x	root/root	usr/lib/libassuan.so.0.8.5
