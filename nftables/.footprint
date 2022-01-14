@@ -1,9 +1,9 @@
 drwxr-xr-x	root/root	etc/
 -rw-r--r--	root/root	etc/nftables.conf
--rw-r--r--	root/root	etc/nftables.nft
 drwxr-xr-x	root/root	etc/nftables/
 -rw-r--r--	root/root	etc/nftables/all-in-one.nft
 -rw-r--r--	root/root	etc/nftables/arp-filter.nft
+-rw-r--r--	root/root	etc/nftables/basic-firewall.nft
 -rw-r--r--	root/root	etc/nftables/bridge-filter.nft
 -rw-r--r--	root/root	etc/nftables/inet-filter.nft
 -rw-r--r--	root/root	etc/nftables/inet-nat.nft
@@ -28,13 +28,27 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/nftables/
 -rw-r--r--	root/root	usr/include/nftables/libnftables.h
 drwxr-xr-x	root/root	usr/lib/
--rw-r--r--	root/root	usr/lib/libnftables.a
--rwxr-xr-x	root/root	usr/lib/libnftables.la
-lrwxrwxrwx	root/root	usr/lib/libnftables.so -> libnftables.so.1.0.0
-lrwxrwxrwx	root/root	usr/lib/libnftables.so.1 -> libnftables.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/libnftables.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libnftables.so -> libnftables.so.1.1.0
+lrwxrwxrwx	root/root	usr/lib/libnftables.so.1 -> libnftables.so.1.1.0
+-rwxr-xr-x	root/root	usr/lib/libnftables.so.1.1.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnftables.pc
+drwxr-xr-x	root/root	usr/lib/python3.10/
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/EGG-INFO/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/EGG-INFO/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/EGG-INFO/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/EGG-INFO/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/EGG-INFO/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/EGG-INFO/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/nftables/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/nftables/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/nftables/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/nftables/__pycache__/__init__.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/nftables/__pycache__/nftables.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/nftables/nftables.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/nftables-0.1-py3.10.egg/nftables/schema.json
 drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/nft
 drwxr-xr-x	root/root	usr/share/
