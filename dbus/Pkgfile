@@ -5,7 +5,7 @@
 
 name=dbus
 version=1.12.20
-release=1
+release=2
 source=(https://dbus.freedesktop.org/releases/dbus/${name}-${version}.tar.gz \
 	dbus-daemon-optional.patch \
 	dbus-enable-elogind.patch \
@@ -31,6 +31,7 @@ build() {
 		--disable-asserts \
 		--disable-systemd \
 		--disable-selinux \
+		--disable-static \
 		--disable-user-session \
 		--disable-doxygen-docs \
 		--with-dbus-user=messagebus \
@@ -39,9 +40,7 @@ build() {
 		--with-system-pid-file=/run/${name}/${name}.pid \
 		--with-system-socket=/run/${name}/system_bus_socket
 
-	make
-
-	#make check
+	make V=1
 
 	make DESTDIR=$PKG install
 
@@ -57,4 +56,6 @@ build() {
 	ln -s /usr/sbin/dbus-daemon $PKG/usr/bin/dbus-daemon
 
 	rm -r $PKG/usr/share/{doc,xml}
+
+	find $PKG -type f -name '*.la' -delete
 }
