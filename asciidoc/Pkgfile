@@ -1,0 +1,25 @@
+# Description:	Text based document generation.
+# URL:		http://www.methods.co.nz/asciidoc/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	docbook-xsl-nons python3
+
+name=asciidoc
+version=9.1.1
+release=1
+source=(https://github.com/${name}/${name}-py3/archive/${version}/${name}-py3-${version}.tar.gz)
+
+build() {
+	cd ${name}-py-${version}
+
+	autoreconf -fiv
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm $PKG/etc/asciidoc/images/icons/README
+}
