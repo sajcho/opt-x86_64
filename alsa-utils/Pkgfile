@@ -1,0 +1,25 @@
+# Description:	ALSA utils
+# URL:		http://www.alsa-project.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gettext alsa-lib dialog
+
+name=alsa-utils
+version=1.2.6
+release=1
+source=(http://www.alsa-project.org/files/pub/utils/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-bat \
+		--disable-nls \
+		--disable-xmlto
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/man/{fr,man7}
+}
