@@ -4,7 +4,7 @@
 # Depends on:	llvm-toolchain
 
 name=rust
-version=1.57.0
+version=1.58.1
 release=1
 
 source=(https://static.rust-lang.org/dist/rustc-${version}-src.tar.gz \
@@ -19,6 +19,9 @@ build() {
 	# Remove bundled dependencies.
 	rm -r src/llvm-project/*
 	install -d src/llvm-project/libunwind
+
+	CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/}"
+	CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/}"
 
 cat <<- EOF > $SRC/config.toml
 	changelog-seen = 2
@@ -42,15 +45,15 @@ cat <<- EOF > $SRC/config.toml
 
 	[build]
 	target = ["$CHOST"]
-	verbose = 2
+	verbose = 0
 	extended = true
 	vendor = false
 	docs = false
 	profiler = false
 	sanitizers = false
 	python = "/usr/bin/python3"
-	#cargo = "/usr/bin/cargo"
-	#rustc = "/usr/bin/rustc"
+	cargo = "/usr/bin/cargo"
+	rustc = "/usr/bin/rustc"
 	tools = ["analysis", "cargo", "clippy", "rls", "rustfmt", "src"]
 
 	[target.$CHOST]
@@ -63,22 +66,10 @@ EOF
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 	export RUST_BACKTRACE="1"
-	#export RUSTFLAGS="-Clinker=clang -Clink-arg=-fuse-ld=/usr/bin/mold"
 
 	# prevent - if libgit2, libssh2 is installed
 	export LIBGIT2_NO_PKG_CONFIG=1
 	export LIBSSH2_NO_PKG_CONFIG=1
-
-	# fix - error: "field is never read" warning
-	sed -i '/id: String,/d' src/bootstrap/lib.rs
-	sed -i '/id: String,/d' src/bootstrap/metadata.rs
-	sed -i 's|id: package.id,||' src/bootstrap/metadata.rs
-	sed -i '/available: bool,/d' src/tools/bump-stage0/src/main.rs
-
-	# fix - support openssl3
-	sed -i -e '/^curl /s/0.4.39/0.4.41/' \
-		-e '/^curl-sys /s/0.4.49/0.4.50/' \
-		src/tools/cargo/Cargo.toml
 
 	/usr/bin/python3 ./x.py build --config="${SRC}"/config.toml ${JOBS:+-j ${JOBS}}
 
