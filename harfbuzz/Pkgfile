@@ -4,15 +4,18 @@
 # Depends on:	cairo gobject-introspection graphite2 icu
 
 name=harfbuzz
-version=2.9.0
-release=0
-source=(https://github.com/harfbuzz/harfbuzz/archive/${version}/${name}-${version}.tar.gz)
+version=3.2.0
+release=1
+source=(https://github.com/harfbuzz/harfbuzz/archive/${version}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
+	CFLAGS+=" -lstdc++"
+	CXXFLAGS+=" -lstdc++"
+	LDFLAGS+=" -lstdc++"
+
 	build-meson \
-		--default-library=both \
 		-Dglib=enabled \
 		-Dgobject=enabled \
 		-Dintrospection=enabled \
@@ -24,7 +27,7 @@ build() {
 		-Ddocs=disabled \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 }
