@@ -1,31 +1,35 @@
-# Description:	TrueType font rendering library
-# URL:		https://www.freetype.org/
+# Description:	A free and portable TrueType font rendering engine
+# URL:		https://www.freetype.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 # Depends on:	brotli libpng
 
 name=freetype
-version=2.11.0
-release=0
+version=2.11.1
+release=1
+
 source=(https://download.savannah.gnu.org/releases/${name}/${name}-${version}.tar.xz \
 	0001-Enable-table-validation-modules.patch \
-	subpixel.patch)
+	0002-Enable-subpixel-rendering.patch \
+	0003-Enable-infinality-subpixel-hinting.patch \
+	0004-Enable-long-PCF-family-names.patch)
 
 build() {
 	cd ${name}-${version}
 
 	patch -p1 -i $SRC/0001-Enable-table-validation-modules.patch
-	patch -p1 -i $SRC/subpixel.patch
+	patch -p1 -i $SRC/0002-Enable-subpixel-rendering.patch
+	patch -p1 -i $SRC/0003-Enable-infinality-subpixel-hinting.patch
+	patch -p1 -i $SRC/0004-Enable-long-PCF-family-names.patch
 
-	./configure \
-		--prefix=/usr \
-		--sysconfdir=/etc \
-		--enable-freetype-config \
-		--with-harfbuzz=no \
-		--with-brotli \
-		--with-bzip2 \
-		--with-png
+	build-meson \
+		-Dharfbuzz=auto \
+		-Dbrotli=enabled \
+		-Dpng=enabled \
+		. build
 
-	make
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	find $PKG -type f -name '*.a' -delete
 }
