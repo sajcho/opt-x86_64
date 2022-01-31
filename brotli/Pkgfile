@@ -20,11 +20,10 @@ build() {
 	cd build
 
 	cmake .. \
-		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
-		-DBUILD_SHARED_LIBS=True \
-		-DCMAKE_C_FLAGS="$CFLAGS" \
+		-DBUILD_SHARED_LIBS=ON \
 		-Wno-dev
 
 	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
