@@ -5,7 +5,7 @@
 
 name=libpng
 version=1.6.37
-release=0
+release=1
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz \
 	${name}-apng.patch \
 	${name}-fix-arm-neon.patch \
@@ -19,9 +19,12 @@ build() {
 	patch -p1 -i $SRC/dont-run-pngtest.patch
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -name '*.la' -delete
 }
