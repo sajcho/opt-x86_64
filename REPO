@@ -62,7 +62,6 @@ d:icewm
 d:itstool
 d:zip
 d:poppler
-d:libnghttp2
 d:gobject-introspection
 d:nspr
 d:python3-urllib3
@@ -154,7 +153,6 @@ d:elogind
 d:libidl
 d:gegl
 d:sdl2
-d:minicom
 d:python3-cffi
 d:gdk-pixbuf
 d:python3-markupsafe
@@ -187,7 +185,6 @@ d:lrzsz
 d:python3-chardet
 d:dialog
 d:docbook-xsl-nons
-d:jsoncpp
 d:libjpeg-turbo
 d:json-c
 d:glib
@@ -438,9 +435,6 @@ f:36499ef1ffdc1c1213505f2776f494ee:zip/Pkgfile
 f:f1774bd6679fb836ad81a11d7fe8616e:poppler/.md5sum
 f:5ddbfb53bc24995c6b47034e0c67d4bf:poppler/.footprint
 f:64800811f703815fda2788362dade7f6:poppler/Pkgfile
-f:404957e87faed19370b575bbf495a8ac:libnghttp2/.md5sum
-f:a4391fe3f75f2d177b76b39c54107b64:libnghttp2/.footprint
-f:253b7c98ead692eff6fc1be9f0842d30:libnghttp2/Pkgfile
 f:429c4ba809b08cb40b5bdcaa0e0ed323:gobject-introspection/.md5sum
 f:31646a2760d3c5b46f16166178632fbb:gobject-introspection/.footprint
 f:21605fb817149cebcd85c3efa1e9eeb0:gobject-introspection/Pkgfile
@@ -767,9 +761,6 @@ f:f0318383f7346641cdb45b5839d98282:sdl2/.footprint
 f:04c9d39066b0e2729f978159679db378:sdl2/khronos.patch
 f:77d751fcca0af36e400fe31714ed11da:sdl2/wayland-fix-keyboard.patch
 f:3a6d75f21bfaffa34b13a7db7851d141:sdl2/Pkgfile
-f:81873fb5dece0a1498a9876b7f1c42fc:minicom/.md5sum
-f:f9883c632c6b16cae1b07cc259b6f7f7:minicom/.footprint
-f:c822f85d6ebb03b07bd64d44915359c8:minicom/Pkgfile
 f:ff115b06ce596e6e4bb371871c07098a:python3-cffi/.md5sum
 f:12f02f4cd61c3dc61af7fbace8297b1a:python3-cffi/.footprint
 f:a94a28094386c119981fedcc6d07ba91:python3-cffi/Pkgfile
@@ -897,9 +888,6 @@ f:57ae1f4371235629e69c1a5d3c0395a7:docbook-xsl-nons/.md5sum
 f:ffd255a5a72ae4aeefdd159975631d74:docbook-xsl-nons/.footprint
 f:619b00d03338dce928197f799530da20:docbook-xsl-nons/post-install
 f:05436bda655614b6302cebbd38aa7a7b:docbook-xsl-nons/Pkgfile
-f:4ad4ab014d2df94054dc862a57eaf7a2:jsoncpp/.md5sum
-f:d8678e6bc043011febfbb900f7580485:jsoncpp/.footprint
-f:048dfb29ea7b4d62e03ee97155892491:jsoncpp/Pkgfile
 f:0a4bcf775e71b46c96ee5a0f1898f54e:libjpeg-turbo/.md5sum
 f:9d7e230bb8a57fd765589eb3f5bb083d:libjpeg-turbo/.footprint
 f:ddb1021d9cbd4b10f9f4281a03957c62:libjpeg-turbo/Pkgfile
