@@ -298,10 +298,9 @@ f:c6797348ec8fc7c98438464fab8c4c5c:c-ares/Pkgfile
 f:c80cd56b29b00a026e9896d9e6a400c0:speexdsp/.md5sum
 f:375cb7339d71025db4e581e35dc178f0:speexdsp/.footprint
 f:0d56c3ebb854fd039fc562bc2d22cb81:speexdsp/Pkgfile
-f:82b78ddfa8537917e97557af92b5f7b6:nodejs/.md5sum
-f:1f8d81b7d7f75b75af3e33ebd97808bf:nodejs/system-c-ares.patch
-f:95c2a01120ddee31a53ac701203d8f58:nodejs/.footprint
-f:ee9e4733c746ea3ece950b1b96226d83:nodejs/Pkgfile
+f:ba49170429a6318073a77c95fc48c50a:nodejs/.md5sum
+f:ef3c881e107b49faa33833d57582efa9:nodejs/.footprint
+f:6e547108e342823f4f494676832a29ba:nodejs/Pkgfile
 f:3f725f2687bf1683f8b0c6842f370a1a:docbook-xml/.md5sum
 f:c9e8f7d992dc180d146b5011045a193b:docbook-xml/.footprint
 f:01fbf5b14bd7690102cd12bd72b14bc6:docbook-xml/post-install
