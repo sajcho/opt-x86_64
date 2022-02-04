@@ -4,19 +4,16 @@
 # Depends on:	brotli c-ares icu libnghttp2 libuv openssl3 zlib
 
 name=nodejs
-version=17.1.0
+version=16.13.2
 release=1
-source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz \
-	system-c-ares.patch)
+source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
 build() {
 	cd node-v${version}
 
 	# node has its own lto settings - we turn it off
-	export CFLAGS="$(echo $CFLAGS | sed -e 's| -flto=auto -ffat-lto-objects||')"
-	export CXXFLAGS="$(echo $CXXFLAGS | sed -e 's| -flto=auto -ffat-lto-objects||')"
-
-	patch -Rp1 -i $SRC/system-c-ares.patch
+	CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/}"
+	CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/}"
 
 	./configure \
 		--prefix=/usr \
@@ -30,7 +27,7 @@ build() {
 		--with-intl=system-icu \
 		--without-npm
 
-	make
+	make -C out BUILDTYPE=Release V=1
 
 	make DESTDIR=$PKG install
 
