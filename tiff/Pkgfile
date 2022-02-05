@@ -5,7 +5,7 @@
 
 name=tiff
 version=4.3.0
-release=0
+release=1
 source=(http://download.osgeo.org/libtiff/${name}-${version}.tar.gz)
 
 build() {
@@ -13,13 +13,14 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--enable-cxx
+		--enable-cxx \
+		--disable-static
 
-	make
-
-	#make check
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/{bin,share/{doc,man/man1}}
+
+	find $PKG -type f -name '*.la' -delete
 }
