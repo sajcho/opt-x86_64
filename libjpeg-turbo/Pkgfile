@@ -4,8 +4,8 @@
 # Depends on:	cmake nasm
 
 name=libjpeg-turbo
-version=2.1.1
-release=0
+version=2.1.2
+release=1
 source=(http://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
 
 build() {
@@ -18,16 +18,16 @@ build() {
 		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
-		-DBUILD_SHARED_LIBS=True \
-		-DCMAKE_C_FLAGS="$CFLAGS" \
+		-DBUILD_SHARED_LIBS=ON \
 		-DWITH_JPEG8=ON \
-		-DWITH_SIMD=ON
+		-DWITH_SIMD=ON \
+		-Wno-dev
 
-	make
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
-	#make test
-
-	make -j1 DESTDIR=$PKG install
+	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/doc
+
+	find $PKG -type f -name '*.a' -delete
 }

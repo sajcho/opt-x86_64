@@ -19,11 +19,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/libjpeg-turbo/
 -rw-r--r--	root/root	usr/lib/cmake/libjpeg-turbo/libjpeg-turboConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/libjpeg-turbo/libjpeg-turboTargets-none.cmake
 -rw-r--r--	root/root	usr/lib/cmake/libjpeg-turbo/libjpeg-turboTargets.cmake
--rw-r--r--	root/root	usr/lib/libjpeg.a
 lrwxrwxrwx	root/root	usr/lib/libjpeg.so -> libjpeg.so.8
 lrwxrwxrwx	root/root	usr/lib/libjpeg.so.8 -> libjpeg.so.8.2.2
 -rwxr-xr-x	root/root	usr/lib/libjpeg.so.8.2.2
--rw-r--r--	root/root	usr/lib/libturbojpeg.a
 lrwxrwxrwx	root/root	usr/lib/libturbojpeg.so -> libturbojpeg.so.0
 lrwxrwxrwx	root/root	usr/lib/libturbojpeg.so.0 -> libturbojpeg.so.0.2.0
 -rwxr-xr-x	root/root	usr/lib/libturbojpeg.so.0.2.0
