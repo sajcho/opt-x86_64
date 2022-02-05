@@ -81,6 +81,7 @@ drwxr-xr-x	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/devdoc
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/devdocs/Gjs/interface.tmpl
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/devdocs/Gjs/method.tmpl
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/devdocs/Gjs/namespace.tmpl
+-rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/devdocs/meson.build
 drwxr-xr-x	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/mallard/
 drwxr-xr-x	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/mallard/C/
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/mallard/C/callback.tmpl
@@ -129,6 +130,7 @@ drwxr-xr-x	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/mallar
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/mallard/Python/vfunc.tmpl
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/mallard/base.tmpl
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/mallard/class.tmpl
+-rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/mallard/meson.build
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/doctemplates/mallard/namespace.tmpl
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/docwriter.py
 -rw-r--r--	root/root	usr/lib/gobject-introspection/giscanner/dumper.py
