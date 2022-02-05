@@ -4,24 +4,11 @@
 
 name=jansson
 version=2.14
-release=1
+release=2
 source=(https://github.com/akheron/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
-
-	# libtool: link:  gcc -shared  -fPIC -DPIC  .libs/dump.o .libs/error.o .libs/hashtable.o
-	# .libs/hashtable_seed.o .libs/load.o .libs/memory.o .libs/pack_unpack.o .libs/strbuffer.o
-	# .libs/strconv.o .libs/utf.o .libs/value.o .libs/version.o
-	# -O2 -m64 -march=x86-64 -mtune=generic -flto=auto -fuse-ld=mold -Wl,--default-symver
-	# -Wl,-Bsymbolic-functions -Wl,-z -Wl,relro -Wl,--as-needed -Wl,-z -Wl,now -Wl,-fuse-ld=mold
-	# -Wl,-soname -Wl,libjansson.so.4 -Wl,-version-script -Wl,.libs/libjansson.ver -o .libs/libjansson.so.4.14.0
-	# mold: unknown command line option: --default-symver
-	# collect2: error: ld returned 1 exit status
-
-	CFLAGS="${CFLAGS/ -fuse-ld=mold/}"
-	CXXFLAGS="${CFLAGS/ -fuse-ld=mold/}"
-	LDFLAGS="${CFLAGS/ -fuse-ld=mold/}"
 
 	./configure \
 		--prefix=/usr \
