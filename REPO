@@ -290,8 +290,8 @@ f:a9abc8cd7186050090aee089cf050053:p11-kit/post-install
 f:23ac5da9ef2f99f14e67ca13ab3b1263:p11-kit/Pkgfile
 f:c02462723f5f467c108162e0e9bb54d6:flac/flac-1.3.3-security_fixes-1.patch
 f:9075cd8f576483d01e75cfda378e64d4:flac/.md5sum
-f:81ec8e612e5130891d988d7da23e3cc7:flac/.footprint
-f:0ce9b295f424bc60972342abaceaaa31:flac/Pkgfile
+f:03a278b9ba89feee84ac50a3f22d4346:flac/.footprint
+f:ed0f3f085216e6f48a283239ce35001c:flac/Pkgfile
 f:27090c8656d2165235b45fac78b9bef2:c-ares/.md5sum
 f:721983702063119b57355648ac1bfda9:c-ares/.footprint
 f:c6797348ec8fc7c98438464fab8c4c5c:c-ares/Pkgfile
@@ -407,8 +407,8 @@ f:a831124d71f016b2ac10ffe2e44e0354:fetchmail/.md5sum
 f:9843e771e138a4c59d25a572d29fb8c1:fetchmail/.footprint
 f:a79adc4ef42c37fbfb7744aa0b1d8733:fetchmail/Pkgfile
 f:3aff06ac35225c088c91a51c0b72bde5:tiff/.md5sum
-f:4cade10cb843c8e828b1eadfa69ae9a2:tiff/.footprint
-f:3c6baa873c71d364ecdd897a76d8d7ec:tiff/Pkgfile
+f:79e53fc8da59187011e86e601d5225a0:tiff/.footprint
+f:7481de221cb7c81269dd19ef04e3a926:tiff/Pkgfile
 f:e535b13020f57c6982b6f7cacba2f271:recode/.md5sum
 f:e0e8de851f91bbf125b0f260ec1381c2:recode/.footprint
 f:a96d5e179777dd40c6564e9e07565105:recode/Pkgfile
@@ -421,9 +421,9 @@ f:cfa50bcde62bb9dfe6ee628dc58625f2:startup-notification/Pkgfile
 f:0b26a38813c4aa1bf7a2b9b4e1524b1b:icewm/.md5sum
 f:6337c678693af52cacfcac1748833c42:icewm/.footprint
 f:803edf9ec179412a93deff3d78f6c263:icewm/Pkgfile
-f:5276adda4947bab6797c8af13a81ab13:itstool/.md5sum
+f:a4f42916dacf30476de0747df7670a82:itstool/.md5sum
 f:3fcccef151712aa244e8f2462e604fe6:itstool/.footprint
-f:69d5318196121a1bf60dc12299bedd98:itstool/Pkgfile
+f:8826b22d2dd4b3c2b3927be5301a224a:itstool/Pkgfile
 f:16a9167de621f07469bb8454062cacb7:zip/.md5sum
 f:24aa8c89371f67e6b31105844780dbc3:zip/20-zip-3.0-exec-stack.patch
 f:1395f053d2bcee85b96c94dfd7813b8d:zip/30-zip-3.0-pic.patch
@@ -630,8 +630,8 @@ f:95c3b1168ba4b17193d173fda3c4cad8:babl/.md5sum
 f:78640318dbf621bc921d1c2e7a4215e3:babl/.footprint
 f:fe072d5da4ef8e1cc1c5b4e625c885f7:babl/Pkgfile
 f:12c631a7bb3f336ac6563804fbd239a5:libogg/.md5sum
-f:e013f6d2a44193018a497f75c4fa95b6:libogg/.footprint
-f:ced5b5bf181a28714195c9aa5c3124bc:libogg/Pkgfile
+f:54e466f558ada268c4452302e8ab7cc6:libogg/.footprint
+f:243f8a208bc9f5295c9ee8f6bbd7e0ba:libogg/Pkgfile
 f:7145025c93bf6c15a0e4105f1e550016:asciidoctor/.md5sum
 f:1ddc7a9207a0968f76e044a04a5a4cc0:asciidoctor/.footprint
 f:cd666b6b9b39cd99acbcf7e22ded3303:asciidoctor/Pkgfile
@@ -888,9 +888,9 @@ f:57ae1f4371235629e69c1a5d3c0395a7:docbook-xsl-nons/.md5sum
 f:ffd255a5a72ae4aeefdd159975631d74:docbook-xsl-nons/.footprint
 f:619b00d03338dce928197f799530da20:docbook-xsl-nons/post-install
 f:05436bda655614b6302cebbd38aa7a7b:docbook-xsl-nons/Pkgfile
-f:0a4bcf775e71b46c96ee5a0f1898f54e:libjpeg-turbo/.md5sum
-f:9d7e230bb8a57fd765589eb3f5bb083d:libjpeg-turbo/.footprint
-f:ddb1021d9cbd4b10f9f4281a03957c62:libjpeg-turbo/Pkgfile
+f:8320460b6b4957ff322c36013d604cef:libjpeg-turbo/.md5sum
+f:a271c5fe26fd442b47ac45e06904e71e:libjpeg-turbo/.footprint
+f:0b552188402017de182a43daae076611:libjpeg-turbo/Pkgfile
 f:08ae4fbfa53943d2088627504078511a:json-c/.md5sum
 f:97e7dcbf46df7b93964f5a893d951c91:json-c/.footprint
 f:c86b128ca307382ef4b01b2ad9383660:json-c/Pkgfile
