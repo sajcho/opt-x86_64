@@ -4,7 +4,7 @@
 # Depends on:	perl python3
 
 name=rlwrap
-version=0.45
+version=0.45.2
 release=1
 source=(https://github.com/hanslub42/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
@@ -16,9 +16,9 @@ build() {
 	./configure \
 		--prefix=/usr
 
-	make
-
-	make check
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{man/man3,rlwrap}
 }
