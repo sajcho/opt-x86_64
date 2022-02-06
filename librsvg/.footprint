@@ -12,11 +12,9 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/gdk-pixbuf-2.0/
 drwxr-xr-x	root/root	usr/lib/gdk-pixbuf-2.0/2.10.0/
 drwxr-xr-x	root/root	usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/
--rwxr-xr-x	root/root	usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.la
 -rwxr-xr-x	root/root	usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Rsvg-2.0.typelib
--rwxr-xr-x	root/root	usr/lib/librsvg-2.la
 lrwxrwxrwx	root/root	usr/lib/librsvg-2.so -> librsvg-2.so.2.48.0
 lrwxrwxrwx	root/root	usr/lib/librsvg-2.so.2 -> librsvg-2.so.2.48.0
 -rwxr-xr-x	root/root	usr/lib/librsvg-2.so.2.48.0
