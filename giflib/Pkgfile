@@ -5,13 +5,15 @@
 
 name=giflib
 version=5.2.1
-release=0
+release=1
 source=(http://download.sourceforge.net/${name}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	make
+	make V=1
 
 	make PREFIX=$PKG/usr install
+
+	find $PKG -type f -name '*.a' -delete
 }
