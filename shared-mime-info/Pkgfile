@@ -5,17 +5,21 @@
 
 name=shared-mime-info
 version=2.1
-release=0
-source=(https://gitlab.freedesktop.org/xdg/${name}/-/archive/${version}/${name}-${version}.tar.gz)
+release=1
+source=(https://gitlab.freedesktop.org/xdg/${name}/-/archive/${version}/${name}-${version}.tar.gz \
+	shared-mime-info-2.1-meson_0.60_fix-1.patch)
 
 build() {
 	cd ${name}-${version}
+
+	# fix - Error: cannot open mo file
+	patch -p1 -i $SRC/shared-mime-info-2.1-meson_0.60_fix-1.patch
 
 	build-meson \
 		-Dupdate-mimedb=false \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
