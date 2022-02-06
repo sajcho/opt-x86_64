@@ -661,7 +661,7 @@ f:9c54e647eadb86c2ca42143664d9ef26:sassc/.footprint
 f:99458457ed8fd0997e3fbc812e230fb7:sassc/Pkgfile
 f:b74ab454e0352f961a334394f61d1e68:harfbuzz/.md5sum
 f:76ad840b0210ec9ed5e02fd38f6e2237:harfbuzz/.footprint
-f:4c7fcce85552f2b47ed277d0dd5d9a8f:harfbuzz/Pkgfile
+f:073fe079a90365c1d10172745dc2f36f:harfbuzz/Pkgfile
 f:03dcfc7c8f36f841034accbccf8d67fc:gtk2/.md5sum
 f:7b7b1a5f2622e5046ff49c1463bab6d1:gtk2/.footprint
 f:16ab50f69ecdf6234208e7ea876c0c2a:gtk2/post-install
