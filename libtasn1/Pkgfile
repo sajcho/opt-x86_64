@@ -3,19 +3,22 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=libtasn1
-version=4.17.0
-release=0
+version=4.18.0
+release=1
 source=(https://ftpmirror.gnu.org/gnu/${name}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/info
+
+	find $PKG -type f -name '*.la' -delete
 }
