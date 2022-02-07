@@ -5,7 +5,7 @@
 
 name=x265
 version=3.5
-release=1
+release=2
 source=(https://bitbucket.org/multicoreware/${name}_git/downloads/${name}_${version}.tar.gz)
 
 build() {
@@ -21,7 +21,7 @@ build() {
 		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
 		-Wno-dev
 
-	cmake --build build-12
+	make ${JOBS:+-j ${JOBS}} VERBOSE=1 -C build-12
 
 	cmake -S x265_3.5/source -B build-10 \
 		-DCMAKE_BUILD_TYPE=Release \
@@ -34,7 +34,7 @@ build() {
 		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
 		-Wno-dev
 
-	cmake --build build-10
+	make ${JOBS:+-j ${JOBS}} VERBOSE=1 -C build-10
 
 	cmake -S x265_3.5/source -B build \
 		-DCMAKE_BUILD_TYPE=Release \
@@ -52,7 +52,9 @@ build() {
 	ln -s ../build-10/libx265.a build/libx265_main10.a
 	ln -s ../build-12/libx265.a build/libx265_main12.a
 
-	cmake --build build
+	make ${JOBS:+-j ${JOBS}} VERBOSE=1 -C build
 
 	DESTDIR=$PKG cmake --install build
+
+	find $PKG -type f -name '*.a' -delete
 }
