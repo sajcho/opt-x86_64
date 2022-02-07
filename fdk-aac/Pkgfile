@@ -4,7 +4,7 @@
 
 name=fdk-aac
 version=2.0.2
-release=0
+release=1
 source=(https://downloads.sourceforge.net/sourceforge/opencore-amr/${name}-${version}.tar.gz)
 
 build() {
@@ -14,7 +14,9 @@ build() {
 		--prefix=/usr \
 		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
