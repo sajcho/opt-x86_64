@@ -4,19 +4,12 @@
 # Depends on:	aom dav1d fdk-aac flac gnutls lame libass libsdl libssh libtheora libvpx libwebp opus sdl2 soxr srt x264 x265
 
 name=ffmpeg
-version=4.4
-release=0
-source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz \
-	0001-ffbuild-libversion.sh-add-shebang.patch \
-	0001-libavutil-clean-up-unused-FF_SYMVER-macro.patch \
-	CVE-2021-33815.patch)
+version=5.0
+release=1
+source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
-
-	patch -p1 -i $SRC/0001-ffbuild-libversion.sh-add-shebang.patch
-	patch -p1 -i $SRC/0001-libavutil-clean-up-unused-FF_SYMVER-macro.patch
-	patch -p1 -i $SRC/CVE-2021-33815.patch
 
 	./configure \
 		--prefix=/usr \
@@ -26,7 +19,6 @@ build() {
 		--enable-gnutls \
 		--enable-gpl \
 		--enable-swresample \
-		--enable-avresample \
 		--enable-libass \
 		--enable-libmp3lame \
 		--enable-libvorbis \
@@ -41,6 +33,7 @@ build() {
 		--enable-libfdk-aac \
 		--enable-postproc \
 		--enable-pic \
+		--enable-lto \
 		--enable-pthreads \
 		--enable-shared \
 		--enable-libxcb \
@@ -52,13 +45,13 @@ build() {
 		--enable-libsoxr \
 		--enable-nonfree \
 		--enable-libaom \
+		--enable-vulkan \
 		--disable-libjack \
 		--disable-libpulse \
 		--disable-librtmp \
-		--disable-vulkan \
 		--disable-static
 
-	make
+	make V=1
 	${CC:-gcc} -o tools/qt-faststart $CFLAGS tools/qt-faststart.c
 
 	make DESTDIR=$PKG install install-man
