@@ -4,45 +4,40 @@
 # Depends on:	alsa-lib cmake libusb libxcursor libxi libxkbcommon libxrandr
 
 name=sdl2
-version=2.0.14
-release=0
-source=(https://www.libsdl.org/release/SDL2-${version}.tar.gz \
-	directfb-cflags.patch \
-	khronos.patch \
-	wayland-fix-keyboard.patch)
+version=2.0.20
+release=1
+source=(https://www.libsdl.org/release/SDL2-${version}.tar.gz)
 
 build() {
 	cd SDL2-${version}
-
-	patch -p1 -i $SRC/directfb-cflags.patch
-	patch -p1 -i $SRC/khronos.patch
-	patch -p1 -i $SRC/wayland-fix-keyboard.patch
 
 	mkdir build
 	cd build
 
 	cmake .. \
-		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DBUILD_SHARED_LIBS=ON \
-		-DSDL_TEST=OFF \
+		-DSDL_SHARED=ON \
 		-DALSA=ON \
-		-DJACK=OFF \
+		-DVIDEO_X11=ON \
 		-DCLOCK_GETTIME=ON \
-		-DARTS=OFF \
+		-DVIDEO_WAYLAND=ON \
+		-DVIDEO_DIRECTFB=ON \
 		-DESD=OFF \
 		-DNAS=OFF \
+		-DJACK=OFF \
+		-DARTS=OFF \
 		-DRPATH=OFF \
-		-DVIDEO_X11=ON \
-		-DVIDEO_DIRECTFB=On \
-		-DVIDEO_WAYLAND=ON \
-		-DCMAKE_C_FLAGS="$CFLAGS" \
-		-DSDL_STATIC=ON \
-		-DSDL_SHARED=ON \
-		-DPULSEAUDIO_SHARED=OFF
+		-DSDL_TEST=OFF \
+		-DSDL_STATIC=OFF \
+		-DPULSEAUDIO_SHARED=OFF \
+		-Wno-dev
 
-	make
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.a' -delete
 }
