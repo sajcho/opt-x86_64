@@ -1,0 +1,26 @@
+# Description:	MP4 and MOV muxer/demuxer
+# URL:		https://github.com/l-smash/l-smash
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=l-smash
+version=2.14.5
+release=1
+source=(https://github.com/${name}/${ame}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	sed 's|-Os -ffast-math|-O2 -ffast-math|' -i configure
+
+	./configure \
+		--prefix=/usr \
+		--enable-shared \
+		--disable-static \
+		--extra-cflags="$CFLAGS" \
+		--extra-ldflags="$LDFLAGS" \
+
+
+	make V=1
+
+	make -j1 DESTDIR=$PKG install
+}
