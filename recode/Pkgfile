@@ -4,8 +4,8 @@
 # Depends on:	libtool automake texinfo flex bison gettext python3
 
 name=recode
-version=3.7.9
-release=0
+version=3.7.11
+release=1
 source=(https://github.com/rrthomas/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
 build() {
@@ -19,9 +19,11 @@ build() {
 		--disable-nls \
 		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/info
+
+	find $PKG -type f -name '*.la' -delete
 }
