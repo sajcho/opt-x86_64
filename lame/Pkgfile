@@ -5,7 +5,7 @@
 
 name=lame
 version=3.100
-release=0
+release=1
 source=(http://downloads.sourceforge.net/project/${name}/${name}/${version}/${name}-${version}.tar.gz)
 
 build() {
@@ -13,15 +13,19 @@ build() {
 
 	./configure \
 		--prefix=/usr \
+		--enable-shared \
+		--enable-mp3rtp \
 		--enable-nasm \
-		--disable-analyzer-hooks \
+		--disable-static \
 		--disable-gtktest \
-		--disable-mp3x \
-		--with-pic
+		--with-pic \
+		LIBS="-ltinfo"
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/doc
+
+	find $PKG -type f -name '*.la' -delete
 }
