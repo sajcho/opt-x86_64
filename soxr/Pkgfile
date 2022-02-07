@@ -5,25 +5,15 @@
 
 name=soxr
 version=0.1.3
-release=0
+release=1
 source=(https://downloads.sourceforge.net/project/${name}/${name}-${version}-Source.tar.xz)
 
 build() {
 	cd ${name}-${version}-Source
 
-	mkdir static shared
+	mkdir build
+	cd build
 
-	cd static
-	cmake .. \
-		-DCMAKE_BUILD_TYPE=None \
-		-DCMAKE_INSTALL_PREFIX:PATH=/usr \
-		-DBUILD_SHARED_LIBS=False \
-		-DBUILD_TESTS=ON \
-		-Wno-dev
-
-	make
-
-	cd ../shared
 	cmake .. \
 		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX:PATH=/usr \
@@ -31,16 +21,8 @@ build() {
 		-DBUILD_TESTS=ON \
 		-Wno-dev
 
-	make
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
-	#cd ../static
-	#make test
-	#cd ../shared
-	#make test
-
-	cd ../static
-	make DESTDIR=$PKG install
-	cd ../shared
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/doc
