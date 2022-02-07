@@ -4,8 +4,8 @@
 # Depends on:	libpng tiff freeglut giflib
 
 name=libwebp
-version=1.2.0
-release=0
+version=1.2.2
+release=1
 source=(https://storage.googleapis.com/downloads.webmproject.org/releases/webp/${name}-${version}.tar.gz)
 
 build() {
@@ -14,9 +14,12 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--enable-swap-16bit-csp \
-		--enable-libwebp{mux,demux,decoder,extras}
+		--enable-libwebp{mux,demux,decoder,extras} \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
