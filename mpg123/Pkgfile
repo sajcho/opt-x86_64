@@ -5,7 +5,7 @@
 
 name=mpg123
 version=1.29.3
-release=1
+release=2
 source=(https://www.mpg123.de/download/${name}-${version}.tar.bz2)
 
 build() {
@@ -21,9 +21,11 @@ build() {
 
 	sed -i 's/ -shared / -Wl,--as-needed\0/g' libtool
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	install -m 0755 scripts/conplay $PKG/usr/bin/conplay
+
+	find $PKG -type f -name '*.la' -delete
 }
