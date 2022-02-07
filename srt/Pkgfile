@@ -5,7 +5,7 @@
 
 name=srt
 version=1.4.3
-release=0
+release=1
 source=(https://github.com/Haivision/${name}/archive/v${version}/${name}-${version}.tar.gz \
 	fix-cmake.patch)
 
@@ -21,12 +21,11 @@ build() {
 		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DCMAKE_C_FLAGS="$CFLAGS" \
 		-DENABLE_UNITTESTS=OFF \
 		-DENABLE_TESTING=OFF \
 		-DENABLE_STATIC=OFF
 
-	make
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
 	make DESTDIR=$PKG install
 }
