@@ -4,8 +4,8 @@
 # Depends on:	yasm
 
 name=libvpx
-version=1.10.0
-release=0
+version=1.11.0
+release=1
 source=(https://github.com/webmproject/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
@@ -26,7 +26,7 @@ build() {
 		--disable-install-docs \
 		--disable-install-srcs
 
-	make
+	make V=1
 
 	make DIST_DIR=$PKG/usr install
 }
