@@ -1,30 +1,36 @@
 # Description:	A library that provides a secure layer over a reliable transport layer
 # URL:		http://gnutls.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libidn2 libseccomp nettle p11-kit
+# Depends on:	libidn2 libseccomp libtasn1 nettle openssl3 p11-kit
 
 name=gnutls
-version=3.7.2
-release=0
+version=3.7.3
+release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/v3.7/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
+	CFLAGS+=" -Wno-analyzer-use-of-uninitialized-value"
+	CXXFLAGS+=" -Wno-analyzer-use-of-uninitialized-value"
+
 	./configure \
 		--prefix=/usr \
+		--enable-ssl3-support \
+		--enable-openssl-compatibility \
 		--with-default-trust-store-pkcs11="pkcs11:" \
 		--with-included-unistring \
+		--with-idn \
 		--disable-guile \
 		--without-tpm
 
 	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 
-	make
-
-	#make check
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/{doc,info,locale}
+
+	find $PKG -type f -name '*.la' -delete
 }
