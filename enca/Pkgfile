@@ -5,7 +5,7 @@
 
 name=enca
 version=1.19
-release=0
+release=1
 source=(http://dl.cihar.com/${name}/${name}-${version}.tar.xz \
 	enca-bad-file-descriptor.patch)
 
@@ -18,11 +18,14 @@ build() {
 		--prefix=/usr \
 		--libexecdir=/usr/lib \
 		--enable-external \
+		--disable-static \
 		--with-librecode=/usr
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/gtk-doc
+
+	find $PKG -type f -name '*.la' -delete
 }
