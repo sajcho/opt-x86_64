@@ -5,7 +5,7 @@
 
 name=libsdl
 version=1.2.15
-release=0
+release=1
 source=(https://www.libsdl.org/release/SDL-$version.tar.gz \
 	SDL-1.2.10-GrabNotViewable.patch \
 	SDL-1.2.15-const_XData32.patch \
@@ -46,6 +46,7 @@ build() {
 		--build=$CHOST \
 		--prefix=/usr \
 		--enable-alsa \
+		--disable-static \
 		--disable-rpath \
 		--disable-nasm \
 		--disable-esd \
@@ -54,7 +55,10 @@ build() {
 		--disable-video-aalib \
 		--with-x \
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.a' -o \
+		-name '*.la' | xargs rm
 }
