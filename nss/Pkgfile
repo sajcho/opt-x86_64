@@ -4,8 +4,8 @@
 # Depends on:	nspr sqlite3
 
 name=nss
-version=3.71
-release=0
+version=3.75
+release=1
 source=(https://ftp.mozilla.org/pub/security/nss/releases/NSS_${version//./_}_RTM/src/${name}-${version}.tar.gz \
 	nss-3.54-standalone-2.patch \
 	nss-config.in nss.pc.in nss-softokn.pc.in nss-util.pc.in)
@@ -34,11 +34,11 @@ build() {
 	install -t "$PKG/usr/bin" *util shlibsign signtool signver ssltap
 	cd ../lib
 	install -t "$PKG/usr/lib" *.so
-	install -t "$PKG/usr/lib" -m644 libcrmf.a libfreebl.a *.chk
+	install -t "$PKG/usr/lib" -m 0644 *.chk
 	cd ../../public/nss
-	install -t "$PKG/usr/include/nss" -m644 *.h
+	install -t "$PKG/usr/include/nss" -m 0644 *.h
 	cd ../../private/nss
-	install -t "$PKG/usr/include/nss/private" -m644 blapi.h alghmac.h
+	install -t "$PKG/usr/include/nss/private" -m 0644 blapi.h alghmac.h
 	install -m 0755 $SRC/nss-config.in $PKG/usr/bin/nss-config
 
 	_version=$(printf "%i.%i.%i" ${version//./ })
