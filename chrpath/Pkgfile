@@ -4,8 +4,8 @@
 
 name=chrpath
 version=0.16
-release=0
-source=(http://http.debian.net/debian/pool/main/c/${name}/${name}_${version}.orig.tar.gz)
+release=1
+source=(http://cdn-fastly.deb.debian.org/debian/pool/main/c/${name}/${name}_${version}.orig.tar.gz)
 
 build() {
 	cd ${name}-${version}
@@ -14,7 +14,7 @@ build() {
 		--prefix=/usr \
 		--mandir=/usr/share/man
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
