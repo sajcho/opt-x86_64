@@ -5,7 +5,7 @@
 
 name=imagemagick
 _realname=ImageMagick
-version=7.1.0-4
+version=7.1.0-23
 release=1
 source=(https://www.imagemagick.org/download/releases/${_realname}-${version}.tar.xz)
 
@@ -25,7 +25,7 @@ build() {
 		--with-webp \
 		--with-x
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
@@ -37,4 +37,7 @@ build() {
 	find $PKG -regex '.*\(ChangeLog\|LICENSE\|NEWS\.txt\)$' -delete
 	find $PKG -regex '.*\(\.packlist\|perllocal.pod\|\.bs\)$' -delete
 	find $PKG -type d -empty -delete
+
+	find $PKG -type f -name '*.a' -o \
+		-name '*.la' | xargs rm
 }
