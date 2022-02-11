@@ -5,21 +5,19 @@
 
 name=libheif
 version=1.12.0
-release=0
+release=1
 source=(https://github.com/strukturag/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	# This is en/decoder, so performance matters more than size.
-	#export CPPFLAGS="${CFLAGS/-Os/-O2}"
-	#export CXXFLAGS="${CFLAGS/-Os/-O2}"
-
 	./configure \
 		--prefix=/usr \
 		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
