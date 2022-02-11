@@ -5,7 +5,7 @@
 
 name=autoconf-2.13
 version=2.13
-release=0
+release=1
 source=(https://ftpmirror.gnu.org/gnu/autoconf/autoconf-${version}.tar.gz)
 
 build() {
@@ -15,7 +15,7 @@ build() {
 		--prefix=/usr \
 		--program-suffix=-2.13
 
-	make
+	make V=1
 
 	make prefix=$PKG/usr install
 
