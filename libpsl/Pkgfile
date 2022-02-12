@@ -5,18 +5,19 @@
 
 name=libpsl
 version=0.21.1
-release=0
+release=1
 source=(https://github.com/rockdaboot/${name}/releases/download/${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	sed -i 's|env python|env python3|g' src/psl-make-dafsa
-
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
