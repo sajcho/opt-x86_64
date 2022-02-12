@@ -4,7 +4,7 @@
 
 name=libsass
 version=3.6.5
-release=0
+release=1
 source=(https://github.com/sass/${name}/archive/${version}/${name}-${version}.tar.gz \
 	fix-pkgconfig-version.patch)
 
@@ -16,9 +16,12 @@ build() {
 	autoreconf -fiv
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
