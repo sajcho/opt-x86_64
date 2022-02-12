@@ -5,11 +5,13 @@
 
 name=dbus-glib
 version=0.112
-release=2
+release=3
 source=(https://dbus.freedesktop.org/releases/${name}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -Wno-deprecated-declarations"
 
 	./configure \
 		--prefix=/usr \
