@@ -4,24 +4,24 @@
 # Depends on:	cmake
 
 name=json-c
-version=0.15
-release=0
-source=(https://s3.amazonaws.com/json-c_releases/releases/${name}-${version}.tar.gz)
+version=0.15-20200726
+release=1
+source=(https://github.com/json-c/json-c/archive/refs/tags/${name}-${version}.tar.gz)
 
 build() {
-	cd ${name}-${version}
+	cd ${name}-${name}-${version}
 
 	mkdir build
 	cd build
 
 	cmake .. \
-		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DBUILD_SHARED_LIBS=True \
-		-DBUILD_STATIC_LIBS=False
+		-DBUILD_SHARED_LIBS=ON \
+		-DBUILD_STATIC_LIBS=OFF
 
-	make
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
 	make DESTDIR=$PKG install
 }
