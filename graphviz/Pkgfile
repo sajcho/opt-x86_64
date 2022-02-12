@@ -1,31 +1,40 @@
 # Description:	Graph visualization software
 # URL:		https://www.graphviz.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libgd pango
+# Depends on:	gtk2 libgd librsvg libwebp pango
 
 name=graphviz
-version=2.48.0
-release=0
+version=2.50.0
+release=1
 source=(https://gitlab.com/${name}/${name}/-/archive/${version}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
 
-	mkdir build
-	cd build
+	sed -i '/LIBPOSTFIX="64"/s/64//' configure.ac
 
-	cmake .. -G Ninja \
-		-DCMAKE_BUILD_TYPE="None" \
-		-DCMAKE_C_FLAGS_NONE="${CFLAGS}" \
-		-DCMAKE_CXX_FLAGS_NONE="${CXXFLAGS}" \
-		-DCMAKE_INSTALL_PREFIX=/usr \
-		-Wno-dev
+	./autogen.sh
 
-	ninja
+	./configure \
+		--prefix=/usr \
+		--enable-swig=no \
+		--enable-tcl=no \
+		--enable-ruby=no \
+		--disable-static \
+		--disable-dependency-tracking \
+		--disable-php \
+		--disable-lefty
 
-	DESTDIR=$PKG ninja install
+	# Fix overlinking
+	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 
-	install -d $PKG/usr/share/man/man1
-	mv $PKG/usr/share/man/man3/*.1 \
-		$PKG/usr/share/man/man1/
+	make V=1
+
+	make DESTDIR=$PKG \
+		pkgconfigdir=/usr/lib/pkgconfig \
+		install
+
+	rm -r $PKG/usr/share/graphviz/doc
+
+	find $PKG -type f -name '*.la' -delete
 }
