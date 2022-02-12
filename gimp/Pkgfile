@@ -1,19 +1,15 @@
 # Description:	GNU Image Manipulation Program
 # URL:		https://www.gimp.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	dbus-glib desktop-file-utils gegl glib-networking gtk2 libexif libmypaint libxmu mypaint-brushes poppler-data
+# Depends on:	dbus-glib desktop-file-utils gegl glib-networking gtk2 libexif libmypaint libxmu mypaint-brushes openjpeg2 poppler-data poppler-glib
 
 name=gimp
-version=2.10.24
+version=2.10.30
 release=1
-source=(https://download.gimp.org/mirror/pub/${name}/v${version%.*}/${name}-${version}.tar.bz2 \
-	0001-no-check-update.patch)
+source=(https://download.gimp.org/pub/gimp/v${version%.*}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
-
-	patch -Np1 -i $SRC/0001-no-check-update.patch
-	sed -i -e '/$(helpbrowser)/d' plug-ins/Makefile.in
 
 	export CFLAGS+=" -Wno-deprecated-declarations"
 
@@ -34,13 +30,15 @@ build() {
 		--without-webkit \
 		--without-aa
 
-	make
-
-	#make check
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	mv $PKG/usr/share/man/man1/gimp-console{-${version%.*}.1,.1}
 
 	rm -r $PKG/usr/share/{gtk-doc,locale}
+	find $PKG/usr/share -type f -name '*.desktop' \
+		-exec sed -r -e '/\[.+\]=/d' -e '/#/d' -i {} \;
+
+	find $PKG -type f -name '*.la' -delete
 }

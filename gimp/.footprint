@@ -270,23 +270,14 @@ drwxr-xr-x	root/root	usr/lib/gimp/2.0/environ/
 drwxr-xr-x	root/root	usr/lib/gimp/2.0/interpreters/
 -rw-r--r--	root/root	usr/lib/gimp/2.0/interpreters/default.interp
 drwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/
--rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcolor-selector-cmyk.la
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcolor-selector-cmyk.so
--rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcolor-selector-water.la
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcolor-selector-water.so
--rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcolor-selector-wheel.la
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcolor-selector-wheel.so
--rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcontroller-linux-input.la
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcontroller-linux-input.so
--rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcontroller-midi.la
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libcontroller-midi.so
--rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libdisplay-filter-clip-warning.la
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libdisplay-filter-clip-warning.so
--rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libdisplay-filter-color-blind.la
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libdisplay-filter-color-blind.so
--rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libdisplay-filter-gamma.la
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libdisplay-filter-gamma.so
--rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libdisplay-filter-high-contrast.la
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/modules/libdisplay-filter-high-contrast.so
 drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/
 drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/align-layers/
@@ -519,42 +510,33 @@ drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/wavelet-decompose/
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/wavelet-decompose/wavelet-decompose
 drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/web-browser/
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/web-browser/web-browser
--rwxr-xr-x	root/root	usr/lib/libgimp-2.0.la
-lrwxrwxrwx	root/root	usr/lib/libgimp-2.0.so -> libgimp-2.0.so.0.1000.24
-lrwxrwxrwx	root/root	usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimp-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpbase-2.0.la
-lrwxrwxrwx	root/root	usr/lib/libgimpbase-2.0.so -> libgimpbase-2.0.so.0.1000.24
-lrwxrwxrwx	root/root	usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpbase-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpcolor-2.0.la
-lrwxrwxrwx	root/root	usr/lib/libgimpcolor-2.0.so -> libgimpcolor-2.0.so.0.1000.24
-lrwxrwxrwx	root/root	usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpcolor-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpconfig-2.0.la
-lrwxrwxrwx	root/root	usr/lib/libgimpconfig-2.0.so -> libgimpconfig-2.0.so.0.1000.24
-lrwxrwxrwx	root/root	usr/lib/libgimpconfig-2.0.so.0 -> libgimpconfig-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpconfig-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpmath-2.0.la
-lrwxrwxrwx	root/root	usr/lib/libgimpmath-2.0.so -> libgimpmath-2.0.so.0.1000.24
-lrwxrwxrwx	root/root	usr/lib/libgimpmath-2.0.so.0 -> libgimpmath-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpmath-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpmodule-2.0.la
-lrwxrwxrwx	root/root	usr/lib/libgimpmodule-2.0.so -> libgimpmodule-2.0.so.0.1000.24
-lrwxrwxrwx	root/root	usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpmodule-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpthumb-2.0.la
-lrwxrwxrwx	root/root	usr/lib/libgimpthumb-2.0.so -> libgimpthumb-2.0.so.0.1000.24
-lrwxrwxrwx	root/root	usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpthumb-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpui-2.0.la
-lrwxrwxrwx	root/root	usr/lib/libgimpui-2.0.so -> libgimpui-2.0.so.0.1000.24
-lrwxrwxrwx	root/root	usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpui-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpwidgets-2.0.la
-lrwxrwxrwx	root/root	usr/lib/libgimpwidgets-2.0.so -> libgimpwidgets-2.0.so.0.1000.24
-lrwxrwxrwx	root/root	usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.1000.24
--rwxr-xr-x	root/root	usr/lib/libgimpwidgets-2.0.so.0.1000.24
+lrwxrwxrwx	root/root	usr/lib/libgimp-2.0.so -> libgimp-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.1000.30
+-rwxr-xr-x	root/root	usr/lib/libgimp-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpbase-2.0.so -> libgimpbase-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.1000.30
+-rwxr-xr-x	root/root	usr/lib/libgimpbase-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpcolor-2.0.so -> libgimpcolor-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.1000.30
+-rwxr-xr-x	root/root	usr/lib/libgimpcolor-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpconfig-2.0.so -> libgimpconfig-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpconfig-2.0.so.0 -> libgimpconfig-2.0.so.0.1000.30
+-rwxr-xr-x	root/root	usr/lib/libgimpconfig-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpmath-2.0.so -> libgimpmath-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpmath-2.0.so.0 -> libgimpmath-2.0.so.0.1000.30
+-rwxr-xr-x	root/root	usr/lib/libgimpmath-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpmodule-2.0.so -> libgimpmodule-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.1000.30
+-rwxr-xr-x	root/root	usr/lib/libgimpmodule-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpthumb-2.0.so -> libgimpthumb-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.1000.30
+-rwxr-xr-x	root/root	usr/lib/libgimpthumb-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpui-2.0.so -> libgimpui-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.1000.30
+-rwxr-xr-x	root/root	usr/lib/libgimpui-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpwidgets-2.0.so -> libgimpwidgets-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.1000.30
+-rwxr-xr-x	root/root	usr/lib/libgimpwidgets-2.0.so.0.1000.30
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gimp-2.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gimpthumb-2.0.pc
@@ -4347,6 +4329,7 @@ drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/Dark/ui/
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/gimp-button-default.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/gimp-button-insensitive.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/gimp-button-normal.png
+-rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/gimp-button-prelight-white-border.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/gimp-button-prelight.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/gimp-button-pressed.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/gimp-handle-h.png
