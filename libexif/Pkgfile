@@ -3,22 +3,23 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=libexif
-version=0.6.22
-release=0
-source=(https://github.com/${name}/${name}/releases/download/${name}-${version//./_}-release/${name}-${version}.tar.xz)
+version=0.6.24
+release=1
+source=(https://github.com/${name}/${name}/releases/download/v${version}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
 
-	grep -l '^#!/usr/bin/sh' -r . | xargs sed -i 's|^#!/usr/bin/sh|#!/bin/sh|g'
-
 	./configure \
 		--prefix=/usr \
+		--disable-static \
 		--disable-nls
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/doc
+
+	find $PKG -type f -name '*.la' -delete
 }
