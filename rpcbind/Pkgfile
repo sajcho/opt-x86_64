@@ -5,7 +5,7 @@
 
 name=rpcbind
 version=1.2.6
-release=0
+release=1
 source=(https://downloads.sourceforge.net/sourceforge/${name}/${name}-${version}.tar.bz2 \
 	rpcbind.run)
 
@@ -22,7 +22,7 @@ build() {
 		--disable-libwrap \
 		--with-systemdsystemunitdir='no'
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
