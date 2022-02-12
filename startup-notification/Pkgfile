@@ -5,17 +5,20 @@
 
 name=startup-notification
 version=0.12
-release=0
+release=1
 source=(https://www.freedesktop.org/software/${name}/releases/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
 		--prefix=/usr \
-		--build=$CHOST
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
