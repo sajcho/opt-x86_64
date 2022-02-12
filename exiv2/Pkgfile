@@ -4,9 +4,9 @@
 # Depends on:	cmake
 
 name=exiv2
-version=0.27.4
-release=0
-source=(https://exiv2.org/builds/${name}-${version}-Source.tar.gz)
+version=0.27.5
+release=1
+source=(https://github.com/Exiv2/${name}/releases/download/v${version}/${name}-${version}-Source.tar.gz)
 
 build() {
 	cd ${name}-${version}-Source
@@ -16,15 +16,16 @@ build() {
 
 	export CXXFLAGS+=" -Wno-deprecated-declarations -Wno-deprecated-copy"
 
-	cmake .. -G Ninja \
-		-DCMAKE_BUILD_TYPE="Release" \
-		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DEXIV2_BUILD_SAMPLES=OFF \
 		-Wno-dev
 
-	ninja
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
-	DESTDIR=$PKG ninja install
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.a' -delete
 }
