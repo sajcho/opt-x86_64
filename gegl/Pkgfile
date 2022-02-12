@@ -4,8 +4,8 @@
 # Depends on:	babl gexiv2 graphviz json-glib librsvg poppler
 
 name=gegl
-version=0.4.30
-release=0
+version=0.4.34
+release=1
 source=(https://download.gimp.org/pub/${name}/${version%.*}/${name}-${version}.tar.xz)
 
 build() {
@@ -17,7 +17,7 @@ build() {
 		-Dvapigen=disabled \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
