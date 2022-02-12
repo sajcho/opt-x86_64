@@ -4,7 +4,7 @@
 
 name=libpcap
 version=1.10.1
-release=0
+release=1
 source=(https://www.tcpdump.org/release/${name}-${version}.tar.gz)
 
 build() {
@@ -16,7 +16,9 @@ build() {
 		--disable-bluetooth \
 		--disable-dbus
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.a' -delete
 }
