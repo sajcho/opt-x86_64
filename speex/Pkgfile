@@ -5,7 +5,7 @@
 
 name=speex
 version=1.2.0
-release=0
+release=1
 source=(http://downloads.us.xiph.org/releases/${name}/${name}-${version}.tar.gz)
 
 build() {
@@ -13,11 +13,14 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--enable-binaries
+		--enable-binaries \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/doc
+
+	find $PKG -type f -name '*.la' -delete
 }
