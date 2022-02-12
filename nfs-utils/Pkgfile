@@ -4,7 +4,7 @@
 # Depends on:	keyutils libcap libdevmapper libevent rpcsvc-proto rpcbind sqlite3
 
 name=nfs-utils
-version=2.5.4
+version=2.6.1
 release=1
 source=(https://www.kernel.org/pub/linux/utils/${name}/${version}/${name}-${version}.tar.xz \
 	exports \
@@ -23,14 +23,12 @@ build() {
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--enable-libmount-mount \
+		--disable-static \
 		--disable-gss \
 		--with-statedir=/var/lib/nfs \
 		--without-tcp-wrappers
 
-	make
-
-	# Simple test, "make check" requires running nfsd
-	./utils/showmount/showmount -v
+	make V=1
 
 	make DESTDIR=$PKG install
 
@@ -60,4 +58,6 @@ build() {
 
 	# force rpc.statd to run as user nobody
 	chown nobody $PKG/var/lib/nfs
+
+	find $PKG -type f -name '*.la' -delete
 }
