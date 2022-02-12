@@ -5,7 +5,7 @@
 
 name=gtk2
 version=2.24.33
-release=0
+release=1
 source=(https://download.gnome.org/sources/gtk+/${version%.*}/gtk+-${version}.tar.xz)
 
 build() {
@@ -18,9 +18,11 @@ build() {
 	# https://bugzilla.gnome.org/show_bug.cgi?id=655517
 	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/{locale,gtk-doc,gtk-2.0} $PKG/usr/bin/gtk-demo
+
+	find $PKG -type f -name '*.la' -delete
 }
