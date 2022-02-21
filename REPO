@@ -575,8 +575,8 @@ f:d490495c5bf1749012202b19601b0b87:nss/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:59041d2148f9ac01f0052bbd48253787:rust/libexec.patch
 f:fdd216169e96e4a89989b622587e56bd:rust/.md5sum
-f:b6ede7902ca62089d47a11c272cec691:rust/.footprint
-f:41899b4977df4bf173e8984e30ffee77:rust/Pkgfile
+f:8c3d84118130eef09c06839cbb10bff3:rust/.footprint
+f:803f0f66acb9289ec6470a66f2c84023:rust/Pkgfile
 f:cc6659717d34446e32f25d94249dce19:libgit2/.md5sum
 f:91de87bf7435e9b3f4190db815c43390:libgit2/.footprint
 f:22c18ab782e3526d3a4cc53e9ccfdefe:libgit2/Pkgfile
@@ -936,10 +936,10 @@ f:c1c27e460bc7507f014f556c8683e317:python3-extras/Pkgfile
 f:e719aa9a5b68d3d6e46f3b8b66e3ade8:libssh/.md5sum
 f:f7a4567ac1cd2a3fea53e001c86bf353:libssh/.footprint
 f:9d56c389aa688a028dc73ac761bf4797:libssh/Pkgfile
-f:85f6b4fe9983443e8745cb4eb2617e95:ruby/.md5sum
-f:0aaf37f8594f7564e0f7faa126a40cac:ruby/.footprint
+f:7738f01efaeb0162bfd4f26e83a5568d:ruby/.md5sum
+f:9f5b5ebcd03e9a7095cbdbfe2813f283:ruby/.footprint
 f:d7224759494b53ba032a654dad348bad:ruby/rubygems-avoid-platform-specific-gems.patch
-f:22c6067d668f918983833fb07f68f43c:ruby/Pkgfile
+f:e6425c6a81880582132b510197c7e15f:ruby/Pkgfile
 f:cfccfb6e733deff3c42bebb6ab9a2bdf:gstreamer/.md5sum
 f:184e5c34039055e781bd0fe818b1e18a:gstreamer/.footprint
 f:4386fc8c4370e29c686b473a15326b1a:gstreamer/Pkgfile
