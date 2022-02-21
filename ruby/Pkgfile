@@ -4,7 +4,7 @@
 # Depends on:	gmp openssl3 yaml
 
 name=ruby
-version=3.1.0
+version=3.1.1
 release=1
 source=(http://cache.ruby-lang.org/pub/${name}/${version%.*}/${name}-${version}.tar.xz \
 	rubygems-avoid-platform-specific-gems.patch)
@@ -13,6 +13,11 @@ build() {
 	cd ${name}-${version}
 
 	patch -p1 -i $SRC/rubygems-avoid-platform-specific-gems.patch
+
+	# use mold linker
+	sed 's|gld ld|gld mold|' -i configure.ac
+
+	./autogen.sh
 
 	./configure \
 		--prefix=/usr \
