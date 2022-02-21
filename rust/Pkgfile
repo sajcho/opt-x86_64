@@ -5,7 +5,7 @@
 
 name=rust
 version=1.58.1
-release=1
+release=2
 
 source=(https://static.rust-lang.org/dist/rustc-${version}-src.tar.gz \
 	libexec.patch)
@@ -20,8 +20,6 @@ build() {
 	rm -r src/llvm-project/*
 	install -d src/llvm-project/libunwind
 
-	CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/}"
-	CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/}"
 
 cat <<- EOF > $SRC/config.toml
 	changelog-seen = 2
@@ -66,6 +64,8 @@ EOF
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 	export RUST_BACKTRACE="1"
+	export CARGO_BUILD_RUSTFLAGS="-Clinker=gcc -Clink-arg=-fuse-ld=mold -Clink-arg=-flto"
+	export RUSTFLAGS="-Clinker=gcc -Clink-arg=-fuse-ld=mold -Clink-arg=-flto"
 
 	# prevent - if libgit2, libssh2 is installed
 	export LIBGIT2_NO_PKG_CONFIG=1
