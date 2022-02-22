@@ -4,32 +4,27 @@
 # Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss unzip xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt zip
 
 name=firefox
-version=97.0
+version=97.0.1
 release=1
 source=(https://ftp.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
-	firefox-97.0-build.rs.patch \
 	firefox.desktop)
 
 build() {
 	cd ${name}-${version}
 
-	patch -p1 -i $SRC/firefox-97.0-build.rs.patch
-
-	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/}"
-	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/}"
+	export CFLAGS="${CFLAGS/ -flto/}"
+	export CXXFLAGS="${CXXFLAGS/ -flto/}"
 
 	export SHELL="/bin/sh"
 	export BUILD_OFFICIAL=1
 	export MOZILLA_OFFICIAL=1
-	export USE_SHORT_LIBNAME=1
 	export MACH_USE_SYSTEM_PYTHON=1
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
 
 	# Build with Clang, takes less RAM
-	export CC=clang CXX=clang++ AR=llvm-ar NM=llvm-nm RANLIB=llvm-ranlib
 	export CFLAGS+=" -g0"
 	export CXXFLAGS+=" -g0"
-	export RUSTFLAGS="-Clinker-plugin-lto -Clinker=clang -Clink-arg=-fuse-ld=lld -Cembed-bitcode=yes -Cdebuginfo=0"
+	export RUSTFLAGS="-Clinker=clang -Clink-arg=-fuse-ld=mold -Clink-arg=-flto"
 
 	export MOZ_NOSPAM=1
 	export MOZ_DEBUG_FLAGS=" "
@@ -58,6 +53,7 @@ cat <<- EOF > .mozconfig
 		ac_add_options --disable-pulseaudio
 		ac_add_options --disable-smoosh
 		ac_add_options --disable-bootstrap
+		ac_add_options --disable-elf-hack
 		#
 		ac_add_options --enable-release
 		ac_add_options --enable-application=browser
@@ -71,8 +67,6 @@ cat <<- EOF > .mozconfig
 		ac_add_options --enable-hardening
 		ac_add_options --enable-rust-simd
 		ac_add_options --enable-optimize="-O2"
-		ac_add_options --enable-linker=lld
-		ac_add_options --enable-lto=thin
 		ac_add_options --enable-system-ffi
 		ac_add_options --enable-system-pixman
 		#
@@ -87,8 +81,6 @@ cat <<- EOF > .mozconfig
 		ac_add_options --with-system-png
 		ac_add_options --with-system-webp
 		ac_add_options --with-system-zlib
-		ac_add_options --with-clang-path=/usr/bin/clang
-		ac_add_options --with-libclang-path=/usr/lib
 		ac_add_options --without-wasm-sandboxed-libraries
 EOF
 
