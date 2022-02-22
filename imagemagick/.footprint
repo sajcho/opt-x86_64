@@ -221,6 +221,7 @@ drwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/inline.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ipl.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jnx.so
+-rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jp2.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/jpeg.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/json.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/kernel.so
@@ -274,6 +275,7 @@ drwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sgi.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sixel.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/stegano.so
+-rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/strimg.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/sun.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/svg.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/tga.so
@@ -301,7 +303,6 @@ drwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xcf.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xpm.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xps.so
--rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xtrn.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/xwd.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/yaml.so
 -rwxr-xr-x	root/root	usr/lib/ImageMagick-7.1.0/modules-Q16HDRI/coders/ycbcr.so
