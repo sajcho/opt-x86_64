@@ -40,7 +40,6 @@ d:libnftnl
 d:python3-alabaster
 d:clutter
 d:srt
-d:libsexy
 d:desktop-file-utils
 d:fontconfig
 d:python3-appdirs
@@ -79,7 +78,6 @@ d:pango
 d:openjpeg2
 d:freetype
 d:exiv2
-d:gnome-themes-extra
 d:libsass
 d:enca
 d:libgudev
@@ -92,7 +90,6 @@ d:mypaint-brushes
 d:python3-cairo
 d:imagemagick
 d:procmail
-d:gnome-common
 d:iso-codes
 d:brotli
 d:hicolor-icon-theme
@@ -134,8 +131,6 @@ d:gtk2
 d:rxvt-unicode
 d:cyrus-sasl
 d:scdoc
-d:libidn
-d:gtk-murrine-engine
 d:libxklavier
 d:mutt
 d:libevent
@@ -169,7 +164,6 @@ d:fdk-aac
 d:soxr
 d:make-ca
 d:python3-attrs
-d:libid3tag
 d:python3-libxml2
 d:libpsl
 d:python3-six
@@ -362,9 +356,6 @@ f:f329ba6c67413624bc980ab137fe1bbc:srt/fix-cmake.patch
 f:30c7fc8ccb15d3025f9e5a9279fe4499:srt/.md5sum
 f:2e25829f8aab5d3b0fd7c27511a0383b:srt/.footprint
 f:3c21c0867acee4b5828887adbc877eb9:srt/Pkgfile
-f:baeb907273163791795a0d9f7f1495ce:libsexy/.md5sum
-f:8707d520ed86b897d4be41b50e83617e:libsexy/.footprint
-f:13b379c07c9a555df9d537c3d9271b09:libsexy/Pkgfile
 f:01583883553c6d355240238422e7909c:desktop-file-utils/.md5sum
 f:d3512ed058cc2237156fb5ac8c01978d:desktop-file-utils/.footprint
 f:69e07b8b7baaa37b34802b5d11a6f0f8:desktop-file-utils/post-install
@@ -503,9 +494,6 @@ f:b776878f8733b7deb79f9245ac275b6c:freetype/Pkgfile
 f:df506df20218e8d9740d8a062ff27404:exiv2/.md5sum
 f:793be47d1925bac34adbbdaeb34c8329:exiv2/.footprint
 f:f75462ca2d149de63fc46cb9819df1a0:exiv2/Pkgfile
-f:ab85e3b23d48251452786283214037d0:gnome-themes-extra/.md5sum
-f:a4f6b6756e89b8bdc3df944b2f855529:gnome-themes-extra/.footprint
-f:914768e1f94c71a84b454aae6dd30ee8:gnome-themes-extra/Pkgfile
 f:8a65b73a9c1cb5952b2ef72f6e93b8b1:libsass/fix-pkgconfig-version.patch
 f:ed4b62c4a2fb0b35a0ab7b1f767701f0:libsass/.md5sum
 f:569d59b9a68b2b05a65c32b0c1af5424:libsass/.footprint
@@ -547,9 +535,6 @@ f:6ff3fbbf6b31fe869a1312c3566eb52c:procmail/formisc.c.patch
 f:cf8e5d4854050ab0c836e07406a3dfa9:procmail/procmail-3.22-getline.patch
 f:08ab919cc740421a054f28ce7a3eb7de:procmail/fix_memory_allocation_bug.diff
 f:f484539d087058389fa446b7390bfcac:procmail/Pkgfile
-f:53b5cfe249bf079bbd7adb032fbd18bd:gnome-common/.md5sum
-f:3ef5f1d63964dbd2af941fb5a56f4b79:gnome-common/.footprint
-f:b71e7231929d12115a7b9d2efa8c1561:gnome-common/Pkgfile
 f:418a288fd4fe7107fd602027571f704d:iso-codes/.md5sum
 f:bab1e8510a673dc09cc3200f80d1877e:iso-codes/.footprint
 f:a9ef4f08dc8c782f78e97d89855a72f4:iso-codes/Pkgfile
@@ -699,12 +684,6 @@ f:f4149cc18e31020f6c37ab1dddc9682c:cyrus-sasl/Pkgfile
 f:f7610965a43e2300e304ea0aa406c901:scdoc/.md5sum
 f:9dcab9cb5682576bf18c0f28a04b956b:scdoc/.footprint
 f:fae7b230805709223da48a2d85b65c53:scdoc/Pkgfile
-f:df1124471bfa22704f3f99a5ccf48eb3:libidn/.md5sum
-f:4996528ffbc40a2991d042d2660ea6eb:libidn/.footprint
-f:7ed0fe16f392e9920ee82421f341dd53:libidn/Pkgfile
-f:7ecc18035e17c184ed86290bd6af86b6:gtk-murrine-engine/.md5sum
-f:b260a94ab9857f2a7ccf1e20b55278bd:gtk-murrine-engine/.footprint
-f:eaba3fe1707b4013002db11c84eadc2d:gtk-murrine-engine/Pkgfile
 f:50aa22f491c8a8f39d61b9018d5f703b:libxklavier/.md5sum
 f:43d59374ada8499ea27d7389363e8a2f:libxklavier/.footprint
 f:5cda9762166f5ead40b6e1f856862146:libxklavier/Pkgfile
@@ -812,13 +791,6 @@ f:1f00c9c498e8c79905286b2056895e1e:make-ca/Pkgfile
 f:611b1605d5d41fcc9e7343ce33b54874:python3-attrs/.md5sum
 f:090ad2d900bc6f7a07510627b32860af:python3-attrs/.footprint
 f:b584807517d9f33802e8a30b35030a5d:python3-attrs/Pkgfile
-f:1ba448dd98069daaab9f2411519fef00:libid3tag/.md5sum
-f:4f9df4011e6a8c23240fff5de2d05f6e:libid3tag/10_utf16.diff
-f:85502349069e61eaeea4610b1ea6cb56:libid3tag/libid3tag-gperf.patch
-f:9fdf7571a8ebb73c6b7795a6effc7bee:libid3tag/.footprint
-f:c51822ea6301b1ca469975f0c9ee8e34:libid3tag/CVE-2008-2109.patch
-f:3ca856b97924d48a0fdfeff0bd83ce7d:libid3tag/11_unknown_encoding.diff
-f:dfd5b0c697c4b2d93a5895605e821efd:libid3tag/Pkgfile
 f:db3e4aeae8f42eb555a907d9130900d4:python3-libxml2/.md5sum
 f:cfc3ce281f91292f99bf8958be757b53:python3-libxml2/.footprint
 f:a0f9123a580c5635d822bf4445b6e107:python3-libxml2/Pkgfile
