@@ -23,7 +23,8 @@ build() {
 		--disable-static \
 		--disable-dependency-tracking \
 		--disable-php \
-		--disable-lefty
+		--disable-lefty \
+		--with-poppler=no
 
 	# Fix overlinking
 	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
