@@ -1,11 +1,11 @@
 # Description:	GTK+ image loading library
 # URL:		https://wiki.gnome.org/Projects/GdkPixbuf
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gobject-introspection shared-mime-info libpng tiff libx11
+# Depends on:	shared-mime-info libpng tiff libx11
 
 name=gdk-pixbuf
 version=2.42.6
-release=1
+release=2
 source=(https://download.gnome.org/sources/${name}/${version%.*}/${name}-${version}.tar.xz)
 
 build() {
@@ -13,6 +13,7 @@ build() {
 
 	build-meson \
 		-Dinstalled_tests=false \
+		-Dintrospection=disabled \
 		-Dman=false \
 		. build
 
