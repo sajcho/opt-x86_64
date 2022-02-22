@@ -1,11 +1,11 @@
 # Description:	A library providing high-level API for X Keyboard Extension known as XKB
 # URL:		http://freedesktop.org/Software/LibXklavier
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gobject-introspection iso-codes xkeyboard-config
+# Depends on:	iso-codes xkeyboard-config
 
 name=libxklavier
 version=5.4
-release=1
+release=2
 source=(https://people.freedesktop.org/~svu/${name}-${version}.tar.bz2)
 
 build() {
@@ -13,6 +13,7 @@ build() {
 
 	./configure \
 		--prefix=/usr \
+		--enable-introspection=no \
 		--disable-{nls,static,vala} \
 		--with-xkb-base=/usr/share/X11/xkb
 
