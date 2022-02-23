@@ -28,6 +28,7 @@ drwxr-xr-x	root/root	usr/share/aclocal/
 -rw-r--r--	root/root	usr/share/aclocal/ax_blas.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_blas_f77_func.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_asio.m4
+-rw-r--r--	root/root	usr/share/aclocal/ax_boost_atomic.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_base.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_chrono.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_context.m4
@@ -41,6 +42,7 @@ drwxr-xr-x	root/root	usr/share/aclocal/
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_process.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_program_options.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_python.m4
+-rw-r--r--	root/root	usr/share/aclocal/ax_boost_random.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_regex.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_serialization.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_boost_signals.m4
@@ -407,6 +409,7 @@ drwxr-xr-x	root/root	usr/share/aclocal/
 -rw-r--r--	root/root	usr/share/aclocal/ax_missing_prog.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_mpi.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_mpip.m4
+-rw-r--r--	root/root	usr/share/aclocal/ax_ms_cpprest.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_need_awk.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_normalize_path.m4
 -rw-r--r--	root/root	usr/share/aclocal/ax_not_enable_frame_pointer.m4
