@@ -4,7 +4,7 @@
 # Depends on:	ncurses
 
 name=htop
-version=3.0.5
+version=3.1.2
 release=1
 source=(https://github.com/htop-dev/${name}/archive/${version}/${name}-${version}.tar.gz)
 
