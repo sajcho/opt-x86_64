@@ -4,15 +4,12 @@
 # Depends on:	gnupg
 
 name=gpgme
-version=1.16.0
-release=3
+version=1.17.0
+release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
-
-	# fix an issue building the package with Glibc-2.34 or later
-	sed 's/defined(__sun.*$/1/' -i src/posix-io.c
 
 	./configure \
 		--prefix=/usr
