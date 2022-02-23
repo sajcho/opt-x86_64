@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=libgpg-error
-version=1.43
+version=1.44
 release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
