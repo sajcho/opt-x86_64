@@ -5,15 +5,15 @@
 
 name=nodejs
 version=16.13.2
-release=1
+release=2
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
 build() {
 	cd node-v${version}
 
 	# node has its own lto settings - we turn it off
-	CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/}"
-	CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/}"
+	CFLAGS="${CFLAGS/ -fuse-ld=mold -flto/}"
+	CXXFLAGS="${CXXFLAGS/ -fuse-ld=mold -flto/}"
 
 	./configure \
 		--prefix=/usr \
