@@ -5,13 +5,13 @@
 
 name=libvpx
 version=1.11.0
-release=1
+release=2
 source=(https://github.com/webmproject/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	./configure \
+	LD="/usr/bin/mold" ./configure \
 		--prefix=/usr \
 		--as=yasm \
 		--enable-shared \
