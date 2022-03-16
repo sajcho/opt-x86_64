@@ -1,0 +1,25 @@
+# Description:	Asynchronous Name Service Library
+# URL:		http://0pointer.de/lennart/projects/libasyncns/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=libasyncns
+version=0.8
+release=1
+source=(http://0pointer.de/lennart/projects/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--build=$CHOST \
+		--prefix=/usr \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+
+	find $PKG -type f -name '*.la' -delete
+}
