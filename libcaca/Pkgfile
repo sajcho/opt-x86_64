@@ -1,0 +1,31 @@
+# Description:	graphics library that outputs text instead of pixels
+# URL:		http://caca.zoy.org/wiki/libcaca
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	imlib2 libx11
+
+name=libcaca
+version=0.99.beta20
+release=1
+source=(https://github.com/cacalabs/${name}/releases/download/v${version}/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-shared \
+		--disable-doc \
+		--disable-cxx \
+		--disable-gl \
+		--disable-csharp \
+		--disable-python \
+		--disable-ruby \
+		--disable-slang \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
