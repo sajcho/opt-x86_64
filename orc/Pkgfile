@@ -1,0 +1,21 @@
+# Description:	The Oil Runtime Compiler
+# URL:		https://gstreamer.freedesktop.org/projects/orc.html
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	meson
+
+name=orc
+version=0.4.32
+release=1
+source=(http://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson . build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	find $PKG -type f -name '*.a' -delete
+}
