@@ -1,0 +1,23 @@
+# Description:	Audio/Video Control library for IEEE-1394 devices
+# URL:		https://sourceforge.net/projects/libavc1394/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libraw1394
+
+name=libavc1394
+version=0.5.4
+release=1
+source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
