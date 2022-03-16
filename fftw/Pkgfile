@@ -1,0 +1,55 @@
+# Description:	Discrete Fourier transform (DFT) library
+# URL:		http://www.fftw.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=fftw
+version=3.3.10
+release=1
+_precision="single double long-double"
+source=(http://www.fftw.org/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	export CARCH="$CARCH"
+
+	local i; for i in $_precision; do
+		cp -r "$SRC/${name}-${version}" $SRC/$i
+	done
+
+	local i; for i in $_precision; do \
+		case "$i" in
+			single) _cf="--enable-single";;
+			double) _cf="";;
+			long-double) _cf="--enable-long-double";;
+		esac
+
+		case "$i--$CARCH" in
+			single--x86_64 | double--x86_64)
+			cf="$_cf --enable-sse2 --enable-avx";;
+			single--arm* | single--aarch64)
+			cf="$_cf --enable-neon";;
+		esac
+
+		printf "Building for $i precision ($_cf)"
+		cd $SRC/$i
+		./configure \
+			--prefix=/usr \
+			--sysconfdir=/etc \
+			--enable-shared \
+			--enable-threads \
+			--enable-openmp \
+			--disable-static \
+			$_cf
+		make
+	done
+
+	local i; for i in $_precision; do
+		cd $SRC/$i
+		make DESTDIR=$PKG install
+	done
+
+	rm -r $PKG/usr/share/info
+
+	find $PKG -type f -name '*.la' -delete
+}
