@@ -1,0 +1,21 @@
+# Description:	A MOD playing library
+# URL:		http://modplug-xmms.sourceforge.net/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=libmodplug
+version=0.8.9.0
+release=1
+source=(https://downloads.sourceforge.net/modplug-xmms/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
