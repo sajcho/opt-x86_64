@@ -1,0 +1,24 @@
+# Description:	FAAC is based on the ISO MPEG-4 reference code
+# URL:		http://faac.sourceforge.net/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=faac
+version=1.30
+release=1
+source=(https://github.com/knik0/faac/archive/${version/./_}/$name-${version/./_}.tar.gz)
+
+build() {
+	cd $name-${version/./_}
+
+	./bootstrap
+
+	./configure \
+		--prefix=/usr \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
