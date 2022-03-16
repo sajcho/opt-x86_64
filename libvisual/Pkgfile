@@ -1,0 +1,24 @@
+# Description:	An abstraction library that comes between applications and audio visualisation plugins.
+# URL:		http://sourceforge.net/apps/mediawiki/libvisual/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=libvisual
+version=0.4.0
+release=1
+source=(https://downloads.sourceforge.net/sourceforge/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--enable-extra-optimization
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share
+
+	find $PKG -type f -name '*.la' -delete
+}
