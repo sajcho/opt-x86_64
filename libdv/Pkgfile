@@ -1,0 +1,24 @@
+# Description:	Software decoder for DV format video
+# URL:		http://libdv.sourceforge.net/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libsdl popt
+
+name=libdv
+version=1.0.0
+release=1
+source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-static \
+		--with-pic
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
