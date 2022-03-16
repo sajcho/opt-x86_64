@@ -1,0 +1,24 @@
+# Description:	commandline option parser
+# URL:		https://github.com/rpm-software-management/popt
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gettext
+
+name=popt
+version=1.18
+release=1
+source=(http://ftp.rpm.org/${name}/releases/${name}-${version%.*}.x/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-nls \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
