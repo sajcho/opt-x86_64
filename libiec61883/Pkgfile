@@ -1,0 +1,23 @@
+# Description:	Streaming library for IEEE1394
+# URL:		http://ieee1394.wiki.kernel.org/index.php/Libraries#libiec61883
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libraw1394
+
+name=libiec61883
+version=1.2.0
+release=1
+source=(https://www.kernel.org/pub/linux/libs/ieee1394/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
