@@ -1,0 +1,68 @@
+# Description:	A multicast/unicast DNS-SD framework
+# URL:		http://www.avahi.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	dbus gobject-introspection libdaemon libevent
+
+name=avahi
+version=0.8
+release=1
+source=(https://github.com/lathiat/${name}/releases/download/v$version/${name}-${version}.tar.gz \
+	avahi-0.8-ipv6_race_condition_fix-1.patch \
+	avahi-daemon.run)
+
+build() {
+	cd ${name}-${version}
+
+	# see blfs
+	patch -p1 -i $SRC/avahi-0.8-ipv6_race_condition_fix-1.patch
+
+	# Fix a regression that results in a race condition
+	# when IPv6 is in use and multiple network adapters
+	# are present on the system:
+	sed -i '426a if (events & AVAHI_WATCH_HUP) { \
+		client_free(c); \
+		return; }' avahi-daemon/simple-protocol.c
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--enable-compat-libdns_sd \
+		--enable-compat-howl \
+		--disable-autoipd \
+		--disable-qt3 \
+		--disable-qt4 \
+		--disable-qt5 \
+		--disable-gtk \
+		--disable-gtk3 \
+		--disable-mono \
+		--disable-mono-doc \
+		--disable-xmltoman \
+		--disable-doxygen-doc \
+		--disable-pygobject \
+		--disable-python \
+		--disable-python-dbus \
+		--disable-nls \
+		--disable-static \
+		--with-systemdsystemunitdir=no \
+		--with-distro=none
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	install -d -o avahi -g avahi $PKG/var/run/avahi-daemon
+
+	ln -s avahi-compat-howl.pc $PKG/usr/lib/pkgconfig/howl.pc
+	ln -s avahi-compat-libdns_sd.pc $PKG/usr/lib/pkgconfig/libdns_sd.pc
+	ln -s avahi-compat-libdns_sd/dns_sd.h $PKG/usr/include/
+
+	# avahi runit service
+	install -d $PKG/etc/sv/avahi-daemon
+	install -m 0755 $SRC/avahi-daemon.run $PKG/etc/sv/avahi-daemon/run
+	ln -s /run/runit/supervise.avahi-daemon $PKG/etc/sv/avahi-daemon/supervise
+
+	rm -r $PKG/run
+
+	find $PKG -type f -name '*.la' -delete
+}

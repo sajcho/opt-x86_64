@@ -1,0 +1,5 @@
+#!/bin/sh
+
+getent group avahi || /usr/sbin/groupadd -r avahi
+getent passwd avahi || /usr/sbin/useradd -r -g avahi -d /var/run/avahi-daemon -s /sbin/nologin -c "Avahi System User" avahi
+/usr/bin/passwd -l avahi > /dev/null
