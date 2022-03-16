@@ -1,0 +1,26 @@
+# Description:	Uniform Resource Identifiers (absolute and relative)
+# URL:		https://metacpan.org/release/URI/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	perl
+
+name=perl-uri
+_realname=URI
+version=5.10
+release=1
+source=(https://cpan.metacpan.org/authors/id/O/OA/OALDERS/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	export CFLAGS=$(perl -MConfig -E 'say $Config{ccflags}')
+	PERL_MM_USE_DEFAULT=1 perl Makefile.PL INSTALLDIRS=vendor
+
+	make
+
+	make DESTDIR=$PKG install
+
+	find $PKG -name 'perllocal.pod' -or \
+		-name '*.bs' -or \
+		-name 'autosplit.ix' -or \
+		-name '.packlist' | xargs rm
+}
