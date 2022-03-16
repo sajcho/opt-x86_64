@@ -1,0 +1,25 @@
+# Description:	Cross-platform 3D audio library, software implementation
+# URL:		https://github.com/kcat/openal-soft
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	alsa-lib cmake
+
+name=openal
+version=1.21.1
+release=1
+source=(https://github.com/kcat/${name}-soft/archive/${version}/${name}-soft-${version}.tar.gz)
+
+build() {
+	cd ${name}-soft-${version}
+
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DALSOFT_EXAMPLES=OFF
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+
+	make DESTDIR=$PKG install
+}
