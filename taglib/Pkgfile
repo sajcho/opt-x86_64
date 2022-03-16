@@ -1,0 +1,30 @@
+# Description:	Library to read and edit the meta-data of popular audio formats
+# URL:		http://taglib.github.io/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake
+
+name=taglib
+version=1.12
+release=1
+source=(http://taglib.github.io/releases/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_SHARED_LIBS=ON \
+		-DWITH_MP4=ON \
+		-DWITH_ASF=ON \
+		-Wno-dev
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.a' -delete
+}
