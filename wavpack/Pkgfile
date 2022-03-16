@@ -1,0 +1,22 @@
+# Description:	Audio compression format with lossless, lossy, and hybrid compression modes
+# URL:		https://www.wavpack.com/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=wavpack
+version=5.4.0
+release=1
+source=(http://www.wavpack.com/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
