@@ -4,12 +4,16 @@
 # Depends on:	autoconf-2.13 icu nspr rust
 
 name=mozjs78
-version=78.12.0
-release=0
-source=(https://ftp.mozilla.org/pub/firefox/releases/${version}esr/source/firefox-${version}esr.source.tar.xz)
+version=78.15.0
+release=1
+source=(https://ftp.mozilla.org/pub/firefox/releases/${version}esr/source/firefox-${version}esr.source.tar.xz \
+	Fixup-compatibility-of-mozbuild-with-Python-3.10.patch)
 
 build() {
 	cd firefox-${version}
+
+	# Crux Linux
+	patch -p1 -i $SRC/Fixup-compatibility-of-mozbuild-with-Python-3.10.patch
 
 	mkdir obj
 	cd obj
@@ -27,12 +31,11 @@ build() {
 		--with-system-icu \
 		--with-system-zlib
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	chmod -x $PKG/usr/lib/pkgconfig/*
-	chmod -x $PKG/usr/include/mozjs-78/js-config.h
 
 	rm $PKG/usr/lib/libjs_static.ajs
 }

@@ -12,7 +12,7 @@ drwxr-xr-x	root/root	usr/include/mozjs-78/double-conversion/
 -rw-r--r--	root/root	usr/include/mozjs-78/double-conversion/utils.h
 -rw-r--r--	root/root	usr/include/mozjs-78/encoding_rs_mem.h
 -rw-r--r--	root/root	usr/include/mozjs-78/fdlibm.h
--rw-r--r--	root/root	usr/include/mozjs-78/js-config.h
+-rwxr-xr-x	root/root	usr/include/mozjs-78/js-config.h
 -rw-r--r--	root/root	usr/include/mozjs-78/js.msg
 drwxr-xr-x	root/root	usr/include/mozjs-78/js/
 -rw-r--r--	root/root	usr/include/mozjs-78/js/AllocPolicy.h
