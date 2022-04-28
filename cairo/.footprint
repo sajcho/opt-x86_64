@@ -18,7 +18,6 @@ drwxr-xr-x	root/root	usr/include/cairo/
 -rw-r--r--	root/root	usr/include/cairo/cairo-xcb.h
 -rw-r--r--	root/root	usr/include/cairo/cairo-xlib-xrender.h
 -rw-r--r--	root/root	usr/include/cairo/cairo-xlib.h
--rw-r--r--	root/root	usr/include/cairo/cairo-xml.h
 -rw-r--r--	root/root	usr/include/cairo/cairo.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cairo/
@@ -26,14 +25,14 @@ drwxr-xr-x	root/root	usr/lib/cairo/
 -rwxr-xr-x	root/root	usr/lib/cairo/libcairo-sphinx.so
 -rwxr-xr-x	root/root	usr/lib/cairo/libcairo-trace.so
 lrwxrwxrwx	root/root	usr/lib/libcairo-gobject.so -> libcairo-gobject.so.2
-lrwxrwxrwx	root/root	usr/lib/libcairo-gobject.so.2 -> libcairo-gobject.so.2.11704.0
--rwxr-xr-x	root/root	usr/lib/libcairo-gobject.so.2.11704.0
+lrwxrwxrwx	root/root	usr/lib/libcairo-gobject.so.2 -> libcairo-gobject.so.2.11706.0
+-rwxr-xr-x	root/root	usr/lib/libcairo-gobject.so.2.11706.0
 lrwxrwxrwx	root/root	usr/lib/libcairo-script-interpreter.so -> libcairo-script-interpreter.so.2
-lrwxrwxrwx	root/root	usr/lib/libcairo-script-interpreter.so.2 -> libcairo-script-interpreter.so.2.11704.0
--rwxr-xr-x	root/root	usr/lib/libcairo-script-interpreter.so.2.11704.0
+lrwxrwxrwx	root/root	usr/lib/libcairo-script-interpreter.so.2 -> libcairo-script-interpreter.so.2.11706.0
+-rwxr-xr-x	root/root	usr/lib/libcairo-script-interpreter.so.2.11706.0
 lrwxrwxrwx	root/root	usr/lib/libcairo.so -> libcairo.so.2
-lrwxrwxrwx	root/root	usr/lib/libcairo.so.2 -> libcairo.so.2.11704.0
--rwxr-xr-x	root/root	usr/lib/libcairo.so.2.11704.0
+lrwxrwxrwx	root/root	usr/lib/libcairo.so.2 -> libcairo.so.2.11706.0
+-rwxr-xr-x	root/root	usr/lib/libcairo.so.2.11706.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-fc.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-ft.pc
@@ -41,6 +40,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-pdf.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-png.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-ps.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/cairo-script-interpreter.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-script.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-svg.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-tee.pc
@@ -48,5 +48,4 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-xcb.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-xlib-xrender.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo-xlib.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/cairo-xml.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/cairo.pc
