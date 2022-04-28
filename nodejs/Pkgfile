@@ -4,16 +4,14 @@
 # Depends on:	brotli c-ares icu libnghttp2 libuv openssl3 zlib
 
 name=nodejs
-version=16.13.2
-release=2
+version=16.15.0
+release=1
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
 build() {
 	cd node-v${version}
 
-	# node has its own lto settings - we turn it off
-	CFLAGS="${CFLAGS/ -fuse-ld=mold -flto/}"
-	CXXFLAGS="${CXXFLAGS/ -fuse-ld=mold -flto/}"
+	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -fuse-ld=mold"
 
 	./configure \
 		--prefix=/usr \
@@ -35,9 +33,7 @@ build() {
 
 	# clean up
 	find $PKG -type f \( \
-		-name 'README.md' -o \
-		-name 'AUTHORS.md' -o \
-		-name 'INSTALL.md' -o \
+		-name '*.md' -o \
 		-name 'TODO.org' -o \
 		-name 'ChangeLog' -o \
 		-name 'NEWS' \) -delete
