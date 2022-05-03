@@ -1,0 +1,25 @@
+# Description:	Activate NumLock at startup
+# URL:		http://www.mike-devlin.com/linux/README-numlockx.htm
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libsm libxtst
+
+name=numlockx
+version=1.2
+release=1
+source=(http://deb.debian.org/debian/pool/main/n/${name}/${name}_${version}.orig.tar.gz \
+	get-state.patch improve-help.patch)
+
+build() {
+	cd ${name}-${version}
+
+	# from Debian Linux
+	patch -Np1 -i $SRC/improve-help.patch
+	patch -Np1 -i $SRC/get-state.patch
+
+	./configure \
+		--prefix=/usr
+
+	make V=1
+
+	make DESTDIR=$PKG install
+}
