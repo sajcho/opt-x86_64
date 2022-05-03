@@ -44,6 +44,7 @@ d:cbindgen
 d:libgd
 d:libvisual
 d:libnftnl
+d:pulseaudio
 d:python3-alabaster
 d:clutter
 d:srt
@@ -129,6 +130,7 @@ d:cairo
 d:chromaprint
 d:ffmpegthumbnailer
 d:gimp
+d:numlockx
 d:x265
 d:dbus-glib
 d:python3-distlib
@@ -136,6 +138,7 @@ d:cogl
 d:libgcrypt
 d:babl
 d:libogg
+d:tmux
 d:asciidoctor
 d:fribidi
 d:libcaca
@@ -396,6 +399,13 @@ f:7aca74fd950f4b7f855ca33d9607cbce:libvisual/Pkgfile
 f:c3f3e8b34ae9dc806bf78748bacc45d6:libnftnl/.md5sum
 f:3bd3fee084309610d69d1937f1a157de:libnftnl/.footprint
 f:2110e0a379a2df66ad8bc16f7b109e65:libnftnl/Pkgfile
+f:bb406426f3e6425340dfb87dd694f181:pulseaudio/README
+f:1e24b8e941642e6ee318ec330950597c:pulseaudio/.md5sum
+f:9ccc7331c2a8c77a4bda07ef08452f58:pulseaudio/pre-install
+f:03e1e021c86b22171dbb5652dbc20742:pulseaudio/.footprint
+f:c884a5dd8ca9cb3477e6c0acc446b009:pulseaudio/pulseaudio.run
+f:e5f74be27525658dae59401455944186:pulseaudio/post-install
+f:a774a695cdcdeb6d88a1496f7a1cf244:pulseaudio/Pkgfile
 f:dec3f50f0f2eb0635fd29a3d92356c1c:python3-alabaster/.md5sum
 f:09bfd344a74e2470318ffbe2524c97f4:python3-alabaster/.footprint
 f:540780c6bbb0468b754c1144556723ab:python3-alabaster/Pkgfile
@@ -704,6 +714,11 @@ f:f9c6642dbcbc93f24c5a4a5105ee9b49:ffmpegthumbnailer/Pkgfile
 f:4cc1bb75ecef353d181c9dc142e012fc:gimp/.md5sum
 f:77554931c2d693ff1e64cf3dff875c8c:gimp/.footprint
 f:66bcd113a410c1be11c2793a0d80161a:gimp/Pkgfile
+f:574ab10d9892edfc286a1e7d7864a513:numlockx/get-state.patch
+f:36103d90900792c8d35fe718c2eca9e5:numlockx/.md5sum
+f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
+f:cce48b5c34fa1b441277e680ca133da9:numlockx/improve-help.patch
+f:c00817271494e80bb07257f302151ee3:numlockx/Pkgfile
 f:c2e8a388c2b6e640cfa9e86eefe564eb:x265/.md5sum
 f:67714d589e1ea7dcfca45fee7d19304b:x265/.footprint
 f:21566d8e1be09e5f487f8560e33fe34d:x265/Pkgfile
@@ -725,6 +740,9 @@ f:2fba059030be67af2ef54bac9ef9037a:babl/Pkgfile
 f:12c631a7bb3f336ac6563804fbd239a5:libogg/.md5sum
 f:54e466f558ada268c4452302e8ab7cc6:libogg/.footprint
 f:243f8a208bc9f5295c9ee8f6bbd7e0ba:libogg/Pkgfile
+f:05a1143a634cd6d9d1050e048859418e:tmux/.md5sum
+f:dda9286a45a0b08df5def55eefd6cd4f:tmux/.footprint
+f:5cb1a33fdaaf4f1aff1da15ef77443e6:tmux/Pkgfile
 f:436108ce4c039cbed7b44605944e67bc:asciidoctor/.md5sum
 f:1ddc7a9207a0968f76e044a04a5a4cc0:asciidoctor/.footprint
 f:91982aa655332ebd457f22406e913cd8:asciidoctor/Pkgfile
@@ -815,10 +833,10 @@ f:bd4fd8f538b78ab59d5543b39c67e378:x264/Pkgfile
 f:48f5b4589c47306145ae28042d42469e:gpgme/.md5sum
 f:2a4fd4723e89b8ae0ded689c4870fac7:gpgme/.footprint
 f:78488c9309f069ef12008914744a0f74:gpgme/Pkgfile
-f:bbac536540663224c81566e3b03f7900:firefox/.md5sum
+f:7112c4ea6bebcd653ce6e9e6907e8c86:firefox/.md5sum
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
-f:1d382819e50626fca1badf729d7561b6:firefox/Pkgfile
+f:87104929605d88d57f0add1c60212d7d:firefox/Pkgfile
 f:2dc9d626228874dbc79f33869eda7ed6:npth/.md5sum
 f:6d9837eb6e4845b412795a25d3c22316:npth/.footprint
 f:77201cc3c33be4c9856493c8a4cc9d64:npth/Pkgfile
