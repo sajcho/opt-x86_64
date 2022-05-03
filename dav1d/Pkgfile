@@ -4,14 +4,12 @@
 # Depends on:	meson nasm
 
 name=dav1d
-version=0.9.2
-_commit=1f09a9119fb794ab41b1e527d848c2a210ca43d4
-# commits on Feb 5, 2022
+version=1.0.0
 release=1
-source=(https://code.videolan.org/videolan/${name}/-/archive/${_commit}/${name}-${_commit}.tar.bz2)
+source=(https://code.videolan.org/videolan/${name}/-/archive/${version}/${name}-${version}.tar.gz)
 
 build() {
-	cd ${name}-${_commit}
+	cd ${name}-${version}
 
 	build-meson \
 		-Denable_asm=true \
