@@ -1,5 +1,5 @@
 57237d3f2610dbf998eaa938992dceb6  30-dbus.launch
-dfe8a71f412e0b53be26ed4fbfdc91c4  dbus-1.12.20.tar.gz
+ddd5570aff05191dbee8e42d751f1b7d  dbus-1.14.0.tar.xz
 76c4a419ab5c93362976908ec968ef93  dbus-daemon-optional.patch
 bf567c5e6650b609d4dd8e48efb18864  dbus-enable-elogind.patch
 9fa2fe9767a6bb2bd194fb558fc3e3e8  dbus.check
