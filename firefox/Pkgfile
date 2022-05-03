@@ -1,10 +1,10 @@
 # Description:	Firefox web browser
 # URL:		https://www.firefox.com/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss unzip xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt zip
+# Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt zip
 
 name=firefox
-version=99.0.1
+version=100.0
 release=1
 source=(https://ftp.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
 	firefox.desktop)
@@ -35,6 +35,9 @@ cat <<- EOF > .mozconfig
 		mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/objdir
 		unset MOZ_TELEMETRY_REPORTING
 		#
+		ac_add_options --host=x86_64-unknown-linux-gnu
+		ac_add_options --target=x86_64-unknown-linux-gnu
+		#
 		ac_add_options --prefix=/usr
 		ac_add_options --disable-debug
 		ac_add_options --disable-debug-symbols
@@ -48,7 +51,6 @@ cat <<- EOF > .mozconfig
 		ac_add_options --disable-updater
 		ac_add_options --disable-necko-wifi
 		ac_add_options --disable-jack
-		ac_add_options --disable-pulseaudio
 		ac_add_options --disable-smoosh
 		ac_add_options --disable-bootstrap
 		ac_add_options --disable-elf-hack
@@ -57,6 +59,7 @@ cat <<- EOF > .mozconfig
 		ac_add_options --enable-application=browser
 		ac_add_options --enable-official-branding
 		ac_add_options --enable-default-toolkit=cairo-gtk3-wayland
+		ac_add_options --enable-pulseaudio
 		ac_add_options --enable-alsa
 		ac_add_options --enable-dbus
 		ac_add_options --enable-av1
