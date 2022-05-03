@@ -1,0 +1,62 @@
+# Description:	A featureful, general-purpose sound server
+# URL:		https://www.freedesktop.org/wiki/Software/PulseAudio/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	avahi dbus fftw gst-plugins-base libasyncns sbc soxr speexdsp
+
+name=pulseaudio
+version=15.0
+release=1
+source=(https://freedesktop.org/software/${name}/releases/${name}-${version}.tar.xz \
+	pulseaudio.run)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dman=true \
+		-Dtests=true \
+		-Dipv6=true \
+		-Dsystem_user=pulse \
+		-Dsystem_group=pulse \
+		-Ddatabase=gdbm \
+		-Dalsa=enabled \
+		-Dasyncns=enabled \
+		-Davahi=enabled \
+		-Ddbus=enabled \
+		-Dfftw=enabled \
+		-Dglib=enabled \
+		-Dgsettings=enabled \
+		-Dopenssl=enabled \
+		-Dorc=enabled \
+		-Dgtk=enabled \
+		-Dsoxr=enabled \
+		-Dspeex=enabled \
+		-Dudev=enabled \
+		-Dx11=enabled \
+		-Delogind=enabled \
+		-Dgstreamer=enabled \
+		-Dwebrtc-aec=disabled \
+		-Dhal-compat=false \
+		-Ddoxygen=false \
+		-Dgcov=false \
+		-Dbluez5=disabled \
+		-Djack=disabled \
+		-Dlirc=disabled \
+		-Dsamplerate=disabled \
+		-Dsystemd=disabled \
+		-Dudevrulesdir=/lib/udev/rules.d \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	install -d -o pulse -g pulse $PKG/run/pulse
+
+	# pulseaudio runit service
+	install -d $PKG/etc/sv/pulseaudio
+	install -m 0755 $SRC/pulseaudio.run $PKG/etc/sv/pulseaudio/run
+	ln -s /run/runit/supervise.pulseaudio $PKG/etc/sv/pulseaudio/supervise
+
+	rm -r $PKG/usr/share/{bash-completion,locale,zsh}
+}
