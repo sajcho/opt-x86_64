@@ -5,7 +5,7 @@
 
 name=firefox
 version=100.0
-release=1
+release=2
 source=(https://ftp.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
 	firefox.desktop)
 
@@ -19,10 +19,10 @@ build() {
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
 
 	# Build with Clang, takes less RAM
-	export CFLAGS+=" -g0 -flto=thin -flto-jobs=$JOBS"
-	export CXXFLAGS+=" -g0 -flto=thin -flto-jobs=$JOBS"
-	export LDFLAGS+=" -fuse-ld=mold -flto=thin -flto-jobs=$JOBS"
-	export RUSTFLAGS="-Clinker=clang -Clink-arg=-fuse-ld=mold -Clink-arg=-flto=thin -Clink-arg=-flto-jobs=$JOBS"
+	CFLAGS+=" -g0 -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
+	CXXFLAGS+=" -g0 -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
+	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -fuse-ld=mold"
+	export RUSTFLAGS="-Clinker=clang -Clink-arg=-fuse-ld=mold"
 
 	export MOZ_NOSPAM=1
 	export MOZ_DEBUG_FLAGS=" "
@@ -68,6 +68,7 @@ cat <<- EOF > .mozconfig
 		ac_add_options --enable-hardening
 		ac_add_options --enable-rust-simd
 		ac_add_options --enable-optimize="-O2"
+		ac_add_options --enable-lto
 		ac_add_options --enable-system-ffi
 		ac_add_options --enable-system-pixman
 		#
