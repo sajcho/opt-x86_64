@@ -4,7 +4,7 @@
 # Depends on:	imlib2 librsvg libsndfile libxcomposite libxinerama libxpm
 
 name=icewm
-version=2.9.5
+version=2.9.7
 release=1
 source=(https://github.com/ice-wm/${name}/archive/${version}/${name}-${version}.tar.gz)
 
@@ -26,6 +26,7 @@ build() {
 		-DENABLE_LTO=ON \
 		-DENABLE_NLS=OFF \
 		-DCONFIG_GDK_PIXBUF_XLIB=OFF \
+		-DXTERMCMD="/usr/bin/urxvt" \
 		-Wno-dev
 
 	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
