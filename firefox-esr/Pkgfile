@@ -1,78 +1,95 @@
 # Description:	The Mozilla Firefox browser with Alsa support
 # URL:		https://www.mozilla.com/firefox/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxt zip
+# Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt zip
 
 name=firefox-esr
 _realname=firefox
-version=91.0.1esr
-_realversion=91.0.1
-release=0
+version=91.9.0esr
+_realversion=91.9.0
+release=1
 source=(https://archive.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
-	firefox-91.0.1esr-glibc234-1.patch \
-	firefox-91.0.1esr-disable_rust_test-1.patch \
 	firefox.desktop)
 
 build() {
 	cd ${_realname}-${_realversion}
 
-	patch -Np1 -i $SRC/firefox-91.0.1esr-glibc234-1.patch
-	patch -Np1 -i $SRC/firefox-91.0.1esr-disable_rust_test-1.patch
-
-cat <<- EOF > .mozconfig
-	export CC=clang
-	export CXX=clang++
-	export AR=llvm-ar
-	export NM=llvm-nm
-	export RANLIB=llvm-ranlib
-	mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/firefox-shared
-	unset MOZ_TELEMETRY_REPORTING
-	ac_add_options --prefix=/usr
-	ac_add_options --enable-default-toolkit=cairo-gtk3-wayland
-	ac_add_options --enable-application=browser
-	ac_add_options --with-system-jpeg
-	ac_add_options --with-system-zlib
-	ac_add_options --with-system-png
-	ac_add_options --with-system-nspr
-	ac_add_options --with-system-nss
-	ac_add_options --with-system-icu
-	ac_add_options --with-system-webp
-	ac_add_options --with-system-libvpx
-	ac_add_options --enable-system-ffi
-	ac_add_options --enable-system-pixman
-	ac_add_options --enable-optimize="-g0 -O2"
-	ac_add_options --enable-hardening
-	ac_add_options --enable-ffmpeg
-	ac_add_options --enable-av1
-	ac_add_options --enable-alsa
-	ac_add_options --enable-official-branding
-	ac_add_options --disable-pulseaudio
-	ac_add_options --disable-jack
-	ac_add_options --disable-gold
-	ac_add_options --disable-debug-symbols
-	ac_add_options --disable-tests
-	ac_add_options --disable-debug
-	ac_add_options --disable-updater
-	ac_add_options --disable-crashreporter
-	ac_add_options --disable-necko-wifi
-	# AArch64 add
-	ac_add_options --enable-rust-simd
-	ac_add_options --enable-webrtc
-EOF
-
-	export MOZ_DEBUG_FLAGS=" "
-	export CFLAGS+=" -g0"
-	export CXXFLAGS+=" -g0"
-	export RUSTFLAGS="-Cdebuginfo=0"
-	export MOZ_MAKE_FLAGS="-j ${JOBS-1}"
-	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
+	export SHELL="/bin/sh"
+	export BUILD_OFFICIAL=1
+	export MOZILLA_OFFICIAL=1
 	export MACH_USE_SYSTEM_PYTHON=1
+	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
+
+	# Build with Clang, takes less RAM
+	CFLAGS+=" -g0 -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
+	CXXFLAGS+=" -g0 -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
+	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -fuse-ld=mold"
+	export RUSTFLAGS="-Clinker=clang -Clink-arg=-fuse-ld=mold"
+
+	export MOZ_NOSPAM=1
+	export MOZ_DEBUG_FLAGS=" "
+	export MOZ_MAKE_FLAGS="-j ${JOBS-1}"
 
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 
+cat <<- EOF > .mozconfig
+		mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/objdir
+		unset MOZ_TELEMETRY_REPORTING
+		#
+		ac_add_options --host=x86_64-unknown-linux-gnu
+		ac_add_options --target=x86_64-unknown-linux-gnu
+		#
+		ac_add_options --prefix=/usr
+		ac_add_options --disable-debug
+		ac_add_options --disable-debug-symbols
+		#
+		ac_add_options --disable-crashreporter
+		ac_add_options --disable-install-strip
+		ac_add_options --disable-jemalloc
+		ac_add_options --disable-profiling
+		ac_add_options --disable-strip
+		ac_add_options --disable-tests
+		ac_add_options --disable-updater
+		ac_add_options --disable-necko-wifi
+		ac_add_options --disable-jack
+		ac_add_options --disable-smoosh
+		ac_add_options --disable-bootstrap
+		ac_add_options --disable-elf-hack
+		#
+		ac_add_options --enable-release
+		ac_add_options --enable-application=browser
+		ac_add_options --enable-official-branding
+		ac_add_options --enable-default-toolkit=cairo-gtk3-wayland
+		ac_add_options --enable-pulseaudio
+		ac_add_options --enable-alsa
+		ac_add_options --enable-dbus
+		ac_add_options --enable-av1
+		ac_add_options --enable-ffmpeg
+		ac_add_options --enable-webrtc
+		ac_add_options --enable-hardening
+		ac_add_options --enable-rust-simd
+		ac_add_options --enable-optimize="-O2"
+		ac_add_options --enable-lto
+		ac_add_options --enable-system-ffi
+		ac_add_options --enable-system-pixman
+		#
+		ac_add_options --with-system-ffi
+		ac_add_options --with-system-icu
+		ac_add_options --with-system-jpeg
+		ac_add_options --with-system-libevent
+		ac_add_options --with-system-libvpx
+		ac_add_options --with-system-nspr
+		ac_add_options --with-system-nss
+		ac_add_options --with-system-pixman
+		ac_add_options --with-system-png
+		ac_add_options --with-system-webp
+		ac_add_options --with-system-zlib
+		ac_add_options --without-wasm-sandboxed-libraries
+EOF
+
 	./mach build
-	#./mach build toolkit/library/rust
+
 	DESTDIR=$PKG ./mach install
 
 	install -d $PKG/usr/share/pixmaps
