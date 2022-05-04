@@ -4,11 +4,9 @@
 # Depends on:	gmp jansson libedit libmnl libnftnl
 
 name=nftables
-version=1.0.1
+version=1.0.2
 release=1
 source=(https://netfilter.org/projects/${name}/files/${name}-${version}.tar.bz2 \
-	nftables-1.0.1-drop-historyh.patch \
-	nftables-1.0.1-fix-terse.patch \
 	nftables-basic-firewall.nft \
 	nftables.conf \
 	nftables.finish \
@@ -16,9 +14,6 @@ source=(https://netfilter.org/projects/${name}/files/${name}-${version}.tar.bz2 
 
 build() {
 	cd ${name}-${version}
-
-	patch -p1 -i $SRC/nftables-1.0.1-drop-historyh.patch
-	patch -p1 -i $SRC/nftables-1.0.1-fix-terse.patch
 
 	./configure \
 		--prefix=/usr \
