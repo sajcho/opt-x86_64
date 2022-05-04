@@ -1,15 +1,21 @@
 # Description:	Complete and free Internet live audio and video broadcasting solution for Linux/Unix
 # URL:		https://ffmpeg.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	aom dav1d fdk-aac flac gnutls lame libass libsdl libssh libtheora libvpx libwebp opus sdl2 soxr srt x264 x265
+# Depends on:	aom dav1d fdk-aac flac gnutls lame libass libsdl libssh libtheora libvpx libwebp mold opus pulseaudio sdl2 soxr srt x264 x265
 
 name=ffmpeg
-version=5.0
+version=5.0.1
 release=1
 source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
+
+	export CFLAGS="-O2 -m64 -mtune=generic -fuse-ld=mold -flto=auto -Wno-psabi -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
+	export CXXFLAGS="-O2 -m64 -mtune=generic -fuse-ld=mold -flto=auto -Wno-psabi -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
+	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -fuse-ld=mold -flto=auto"
+
+	sed 's|O3|O2|g' -i configure
 
 	./configure \
 		--prefix=/usr \
@@ -32,8 +38,8 @@ build() {
 		--enable-libopus \
 		--enable-libfdk-aac \
 		--enable-postproc \
-		--enable-pic \
 		--enable-lto \
+		--enable-pic \
 		--enable-pthreads \
 		--enable-shared \
 		--enable-libxcb \
@@ -42,12 +48,13 @@ build() {
 		--enable-vaapi \
 		--enable-vdpau \
 		--enable-libopus \
+		--enable-libpulse \
 		--enable-libsoxr \
 		--enable-nonfree \
 		--enable-libaom \
 		--enable-vulkan \
+		--disable-doc \
 		--disable-libjack \
-		--disable-libpulse \
 		--disable-librtmp \
 		--disable-static
 
@@ -56,6 +63,4 @@ build() {
 
 	make DESTDIR=$PKG install install-man
 	install -D -m 0755 tools/qt-faststart $PKG/usr/bin/qt-faststart
-
-	rm -r $PKG/usr/share/doc
 }
