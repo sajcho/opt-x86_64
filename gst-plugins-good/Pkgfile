@@ -1,0 +1,24 @@
+# Description:	GStreamer streaming media framework good plug-ins
+# URL:		https://gstreamer.freedesktop.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cairo flac gst-plugins-base gstreamer gtk3 lame libavc1394 libcaca libdv libgudev libice libiec61883 libjpeg-turbo libogg libpng libshout libsm libsoup libvpx libxdamage libxext libxv mpg123 orc taglib pulseaudio
+
+name=gst-plugins-good
+version=1.20.1
+release=1
+source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Ddoc=disabled \
+		-Dnls=disabled \
+		-Dpackage-name="GStreamer (SAUX-x86_64)" \
+		-Dpackage-origin="https://github.com/sajcho/" \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
