@@ -4,7 +4,7 @@
 # Depends on:	ffmpeg gst-plugins-base gstreamer orc
 
 name=gst-libav
-version=1.20.0
+version=1.20.1
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
@@ -12,7 +12,7 @@ build() {
 	cd ${name}-${version}
 
 	build-meson \
-		-Dpackage-name="GStreamer (SAUX Aarch64)" \
+		-Dpackage-name="GStreamer (SAUX-x86_64)" \
 		-Dpackage-origin="https://github.com/sajcho/" \
 		. build
 
