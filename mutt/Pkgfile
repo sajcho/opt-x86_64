@@ -4,7 +4,7 @@
 # Depends on:	cyrus-sasl gpgme libidn2
 
 name=mutt
-version=2.2.1
+version=2.2.3
 release=1
 source=(https://bitbucket.org/mutt/mutt/downloads/${name}-${version}.tar.gz)
 
