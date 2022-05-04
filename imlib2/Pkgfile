@@ -4,7 +4,7 @@
 # Depends on:	freetype libsm libxext tiff
 
 name=imlib2
-version=1.8.0
+version=1.9.0
 release=1
 source=(https://download.sourceforge.net/enlightenment/${name}-${version}.tar.xz)
 
