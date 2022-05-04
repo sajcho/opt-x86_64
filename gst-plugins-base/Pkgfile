@@ -4,7 +4,7 @@
 # Depends on:	alsa-lib cdparanoia gobject-introspection graphene gstreamer gtk3 libice libogg libsm libtheora libvorbis libxv mesa opus orc
 
 name=gst-plugins-base
-version=1.20.0
+version=1.20.1
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
@@ -15,7 +15,7 @@ build() {
 		-Dalsa=enabled \
 		-Dintrospection=enabled \
 		-Dnls=disabled \
-		-Dpackage-name="GStreamer (SAUX Aarch64)" \
+		-Dpackage-name="GStreamer (SAUX-x86_64)" \
 		-Dpackage-origin="https://github.com/sajcho/" \
 		. build
 
