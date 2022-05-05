@@ -1,11 +1,11 @@
 # Description:	GNU Image Manipulation Program
 # URL:		https://www.gimp.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	dbus-glib desktop-file-utils gegl glib-networking gtk2 libexif libgudev libmypaint libxmu mypaint-brushes openjpeg2 poppler-data poppler-glib
+# Depends on:	dbus-glib desktop-file-utils gegl glib-networking gtk2 gtk2-murrine-engine gnome-themes-extra libexif libgudev libmypaint libxmu mypaint-brushes openjpeg2 poppler-data poppler-glib
 
 name=gimp
 version=2.10.30
-release=2
+release=3
 source=(https://download.gimp.org/pub/gimp/v${version%.*}/${name}-${version}.tar.bz2)
 
 build() {
