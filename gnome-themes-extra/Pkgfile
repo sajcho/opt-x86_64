@@ -1,0 +1,26 @@
+# Description:	Misc themes and theme-y tidbits
+# URL:		https://gitlab.gnome.org/GNOME/gnome-themes-extra
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtk2 gtk3 gnome-common
+
+name=gnome-themes-extra
+version=3.28
+release=1
+source=(https://gitlab.gnome.org/GNOME/${name}/-/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	NOCONFIGURE=1 ./autogen.sh
+	./configure \
+		--prefix=/usr \
+		--disable-nls
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{themes,icons}/HighContrast
+
+	find $PKG -type f -name '*.la' -delete
+}
