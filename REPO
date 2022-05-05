@@ -93,6 +93,7 @@ d:pango
 d:openjpeg2
 d:freetype
 d:exiv2
+d:gnome-themes-extra
 d:libsass
 d:enca
 d:libgudev
@@ -107,6 +108,7 @@ d:mypaint-brushes
 d:python3-cairo
 d:imagemagick
 d:procmail
+d:gnome-common
 d:cdparanoia
 d:iso-codes
 d:brotli
@@ -183,6 +185,7 @@ d:libidl
 d:libsrtp
 d:gegl
 d:sdl2
+d:gtk2-murrine-engine
 d:python3-cffi
 d:gdk-pixbuf
 d:python3-markupsafe
@@ -575,6 +578,9 @@ f:3699b13387d5a9522e36a238dca617b6:freetype/Pkgfile
 f:df506df20218e8d9740d8a062ff27404:exiv2/.md5sum
 f:793be47d1925bac34adbbdaeb34c8329:exiv2/.footprint
 f:f75462ca2d149de63fc46cb9819df1a0:exiv2/Pkgfile
+f:ab85e3b23d48251452786283214037d0:gnome-themes-extra/.md5sum
+f:09539e4eff53961858ab98bd6046902a:gnome-themes-extra/.footprint
+f:01706ab891bda527fb8ff4c0da17870c:gnome-themes-extra/Pkgfile
 f:8a65b73a9c1cb5952b2ef72f6e93b8b1:libsass/fix-pkgconfig-version.patch
 f:ed4b62c4a2fb0b35a0ab7b1f767701f0:libsass/.md5sum
 f:569d59b9a68b2b05a65c32b0c1af5424:libsass/.footprint
@@ -625,6 +631,9 @@ f:6ff3fbbf6b31fe869a1312c3566eb52c:procmail/formisc.c.patch
 f:cf8e5d4854050ab0c836e07406a3dfa9:procmail/procmail-3.22-getline.patch
 f:08ab919cc740421a054f28ce7a3eb7de:procmail/fix_memory_allocation_bug.diff
 f:f484539d087058389fa446b7390bfcac:procmail/Pkgfile
+f:53b5cfe249bf079bbd7adb032fbd18bd:gnome-common/.md5sum
+f:e8de8240041de664d0712b740cbc5528:gnome-common/.footprint
+f:385a6bac8da1671b9fa08bf62c188e53:gnome-common/Pkgfile
 f:209686f8a5b019fcb4c16da105b018e1:cdparanoia/.md5sum
 f:a9803cc773c416697e5225dccdd67526:cdparanoia/.footprint
 f:4d6a164f760b59c2f0d82d0997dbdce1:cdparanoia/cdparanoia-III-10.2-gcc_fixes-1.patch
@@ -720,7 +729,7 @@ f:2e44b4d393c09b5c468aa77dcb5ee347:ffmpegthumbnailer/.footprint
 f:f9c6642dbcbc93f24c5a4a5105ee9b49:ffmpegthumbnailer/Pkgfile
 f:4cc1bb75ecef353d181c9dc142e012fc:gimp/.md5sum
 f:77554931c2d693ff1e64cf3dff875c8c:gimp/.footprint
-f:66bcd113a410c1be11c2793a0d80161a:gimp/Pkgfile
+f:b5d4f9fc337246e45176d87f85f8bf69:gimp/Pkgfile
 f:574ab10d9892edfc286a1e7d7864a513:numlockx/get-state.patch
 f:36103d90900792c8d35fe718c2eca9e5:numlockx/.md5sum
 f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
@@ -741,9 +750,10 @@ f:cc93f73b465d01b34d38e93dc34e7879:cogl/Pkgfile
 f:3b980eac46d2041cc247991326e98e5b:libgcrypt/.md5sum
 f:fb0e142531e42b6c3df8ae5fca8b3991:libgcrypt/.footprint
 f:c9537a172e0d79e3ac57e0b7c09f0a44:libgcrypt/Pkgfile
-f:2b1fd61240c5f7e6acc55e2cfb8f9b1a:babl/.md5sum
+f:580c0beeb848cd160785c9951c4167bf:babl/.md5sum
 f:f51a3ed4a0fc7031b328812747565718:babl/.footprint
-f:41448126a9d1b85f75e3788205d913e9:babl/Pkgfile
+f:56526df693f22aaaab6b69d5432f7337:babl/meson-0.60.patch
+f:27166ac3d39dfa4b418d2c898be357fd:babl/Pkgfile
 f:12c631a7bb3f336ac6563804fbd239a5:libogg/.md5sum
 f:54e466f558ada268c4452302e8ab7cc6:libogg/.footprint
 f:243f8a208bc9f5295c9ee8f6bbd7e0ba:libogg/Pkgfile
@@ -890,6 +900,9 @@ f:caa8dd7076bfe7527ea7d6622f2172fb:gegl/Pkgfile
 f:15ec4ab3483274842f4294cd125ca289:sdl2/.md5sum
 f:f3c297141cd3426290c60a204ac788cd:sdl2/.footprint
 f:d3b41faa65698dbec6166c075b7b754a:sdl2/Pkgfile
+f:7ecc18035e17c184ed86290bd6af86b6:gtk2-murrine-engine/.md5sum
+f:47c7437ecbbcb0a6724c31065a641882:gtk2-murrine-engine/.footprint
+f:ee0f8f27c5344d503db17db702da1b91:gtk2-murrine-engine/Pkgfile
 f:ff115b06ce596e6e4bb371871c07098a:python3-cffi/.md5sum
 f:12f02f4cd61c3dc61af7fbace8297b1a:python3-cffi/.footprint
 f:a94a28094386c119981fedcc6d07ba91:python3-cffi/Pkgfile
