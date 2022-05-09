@@ -1,0 +1,19 @@
+# Description:	a notification daemon for wayland
+# URL:		https://github.com/emersion/mako
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	basu pango scdoc wayland-protocols
+
+name=mako
+version=1.6
+release=0
+source=(https://github.com/emersion/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson . build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
