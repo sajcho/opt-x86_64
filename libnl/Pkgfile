@@ -1,0 +1,25 @@
+# Description:Library providing APIs to netlink protocol based Linux kernel interfaces
+# URL:http://www.infradead.org/~tgr/libnl/
+# Maintainer:sajcho, saux dot aarch64 at gmail dot com
+
+name=libnl
+version=3.6.0
+release=0
+source=(https://github.com/thom311/${name}/releases/download/${name}${version//./_}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	YACC="bison -y -Wnone" \
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--disable-cli \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
