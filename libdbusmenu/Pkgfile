@@ -1,0 +1,32 @@
+# Description:	Library for passing menus over DBus
+# URL:		https://launchpad.net/libdbusmenu
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtk3 json-glib
+
+name=libdbusmenu
+version=16.04.0
+release=0
+source=(https://launchpad.net/libdbusmenu/16.04/${version}/+download/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	CFLAGS+=" -Wno-error"
+
+	./configure \
+		--prefix=/usr \
+		--disable-vala \
+		--enable-tests \
+		--disable-dumper \
+		--disable-static \
+		HAVE_VALGRIND_FALSE=''
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/libexec
+	rm -r $PKG/usr/share/{doc,gtk-doc}
+
+	find $PKG -type f -name '*.la' -delete
+}
