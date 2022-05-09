@@ -1,0 +1,27 @@
+# Description:	Open-source formatting library for C++
+# URL:		https://fmt.dev/latest/index.html
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake python3 samurai
+
+name=fmt
+version=8.1.1
+release=0
+source=(https://github.com/fmtlib/${name}/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=TRUE \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
