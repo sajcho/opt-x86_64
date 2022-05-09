@@ -1,0 +1,20 @@
+# Description:	A callback framework for C++.
+# URL:		https://libsigcplusplus.github.io/libsigcplusplus/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	mm-common
+
+name=libsigc++3
+_realname=libsigc++
+version=3.2.0
+release=0
+source=(https://download.gnome.org/sources/${_realname}/${version%.*}/${_realname}-${version}.tar.xz)
+
+build() {
+	cd ${_realname}-${version}
+
+	build-meson . build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
