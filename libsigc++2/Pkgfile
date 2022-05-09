@@ -1,0 +1,23 @@
+# Description:	A callback framework for C++.
+# URL:		https://libsigcplusplus.github.io/libsigcplusplus/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	mm-common
+
+name=libsigc++2
+_realname=libsigc++
+version=2.10.8
+release=1
+source=(https://download.gnome.org/sources/${_realname}/${version%.*}/${_realname}-${version}.tar.xz)
+
+build() {
+	cd ${_realname}-${version}
+
+	NOCONFIGURE=1 ./autogen.sh
+	./configure \
+		--prefix=/usr \
+		--disable-documentation
+
+	make V=1
+
+	make install DESTDIR=$PKG
+}
