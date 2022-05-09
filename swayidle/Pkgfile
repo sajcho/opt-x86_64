@@ -1,0 +1,28 @@
+# Description:	Idle management daemon for Wayland
+# URL:		https://swaywm.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	elogind scdoc wayland-protocols
+
+name=swayidle
+version=1.7.1
+release=0
+source=(https://github.com/swaywm/${name}/archive/${version}/${name}-${version}.tar.gz \
+	0001-Fix-printf-using-size_t-lineno-variable.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/0001-Fix-printf-using-size_t-lineno-variable.patch
+
+	build-meson \
+		-Dlogind=enabled \
+		-Dlogind-provider=elogind \
+		-Dbash-completions=false \
+		-Dfish-completions=false \
+		-Dzsh-completions=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
