@@ -1,0 +1,28 @@
+# Description:	i3 compatible window manager for Wayland
+# URL:		https://swaywm.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	json-c libevdev libinput libxkbcommon pango scdoc swaybg wlroots
+
+name=sway
+version=1.7
+release=0
+source=(https://github.com/swaywm/sway/archive/${version}/${name}-${version}.tar.gz \
+	sway.desktop)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dbash-completions=false \
+		-Dfish-completions=false \
+		-Dzsh-completions=false \
+		-Dwerror=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	install -D -m 0644 $SRC/sway.desktop \
+		$PKG/usr/share/wayland-sessions/sway.desktop
+}
