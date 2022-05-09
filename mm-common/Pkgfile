@@ -1,0 +1,21 @@
+# Description:	Common build files of the C++ bindings.
+# URL:		https://gtkmm.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	meson
+
+name=mm-common
+version=1.0.4
+release=0
+source=(https://download.gnome.org/sources/${name}/${version%.*}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson . build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/usr/share/doc
+}
