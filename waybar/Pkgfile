@@ -1,0 +1,34 @@
+# Description:	Highly customizable Wayland bar for Sway and Wlroots based compositors
+# URL:		https://github.com/Alexays/Waybar/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtk-layer-shell gtkmm3 libdbusmenu libmpdclient libnl pulseaudio scdoc spdlog
+
+name=waybar
+_realname=Waybar
+version=0.9.12
+release=0
+source=(https://github.com/Alexays/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	build-meson \
+		-Ddefault_library=shared \
+		-Dlibnl=enabled \
+		-Dlibudev=enabled \
+		-Dlibevdev=disabled \
+		-Dpulseaudio=enabled \
+		-Dsystemd=disabled \
+		-Ddbusmenu-gtk=enabled \
+		-Dman-pages=enabled \
+		-Dmpd=enabled \
+		-Dgtk-layer-shell=enabled \
+		-Drfkill=disabled \
+		-Dsndio=disabled \
+		-Dtests=disabled \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
