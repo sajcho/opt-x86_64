@@ -1,7 +1,7 @@
 # Description:	Simple library for font loading and glyph rasterization using FontConfig, FreeType and pixman.
 # URL:		https://codeberg.org/dnkl/fcft
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	fontconfig harfbuzz libpixman scdoc tllist utf8proc wayland-protocols
+# Depends on:	fontconfig harfbuzz pixman scdoc tllist utf8proc wayland-protocols
 
 name=fcft
 version=3.1.1
