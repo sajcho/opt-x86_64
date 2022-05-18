@@ -468,7 +468,7 @@ f:694a199ec4486de3ca02d86382965392:clutter/.footprint
 f:d052effda5dcaa0edfa9d9d354ed2c61:clutter/Pkgfile
 f:57712a9b71d82e0c26c8580917bbc1c6:wlroots/.md5sum
 f:df808e5296bd3ce12d8e07293d1ec61c:wlroots/.footprint
-f:b16cb977054d7a6ce054752f81caa40d:wlroots/Pkgfile
+f:1352f864fb7f976e0160b0bfe084dbd3:wlroots/Pkgfile
 f:f329ba6c67413624bc980ab137fe1bbc:srt/fix-cmake.patch
 f:30c7fc8ccb15d3025f9e5a9279fe4499:srt/.md5sum
 f:2e25829f8aab5d3b0fd7c27511a0383b:srt/.footprint
