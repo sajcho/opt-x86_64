@@ -1,7 +1,7 @@
 # Description:	Tools for recording, editing, playing and encoding mpeg video.
 # URL:		http://mjpeg.sourceforge.net
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libdv libjpeg-turbo libpng
+# Depends on:	gtk2 libdv libjpeg-turbo libpng
 
 name=mjpegtools
 version=2.2.1
