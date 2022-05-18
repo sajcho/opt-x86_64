@@ -5,7 +5,7 @@
 
 name=imagemagick
 _realname=ImageMagick
-version=7.1.0-26
+version=7.1.0-34
 release=1
 source=(https://www.imagemagick.org/download/releases/${_realname}-${version}.tar.xz)
 
@@ -16,15 +16,10 @@ build() {
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--enable-shared \
-		--enable-hdri \
 		--with-modules \
-		--with-heic \
-		--with-lcms \
-		--with-perl \
-		--with-rsvg \
-		--with-webp \
-		--with-openjp2 \
-		--with-x
+		--with-perl=yes \
+		--with-lcms=yes \
+		--with-rsvg
 
 	make V=1
 
@@ -38,7 +33,4 @@ build() {
 	find $PKG -regex '.*\(ChangeLog\|LICENSE\|NEWS\.txt\)$' -delete
 	find $PKG -regex '.*\(\.packlist\|perllocal.pod\|\.bs\)$' -delete
 	find $PKG -type d -empty -delete
-
-	find $PKG -type f -name '*.a' -o \
-		-name '*.la' | xargs rm
 }
