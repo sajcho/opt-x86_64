@@ -1,10 +1,10 @@
 # Description:	GStreamer streaming media framework base plug-ins
 # URL:		https://gstreamer.freedesktop.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	alsa-lib cdparanoia gobject-introspection graphene gstreamer gtk3 libice libogg libsm libtheora libvorbis libxv mesa opus orc
+# Depends on:	alsa-lib cdparanoia gobject-introspection graphene gstreamer gtk3 libice libogg libsm libtheora libvisual libvorbis libxv mesa opus orc
 
 name=gst-plugins-base
-version=1.20.1
+version=1.20.2
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
