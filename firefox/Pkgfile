@@ -1,11 +1,11 @@
 # Description:	Firefox web browser
 # URL:		https://www.firefox.com/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt zip
+# Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip libxcomposite libxcursor libxinerama libxt zip
 
 name=firefox
-version=100.0
-release=2
+version=100.0.1
+release=1
 source=(https://ftp.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
 	firefox.desktop)
 
@@ -15,7 +15,6 @@ build() {
 	export SHELL="/bin/sh"
 	export BUILD_OFFICIAL=1
 	export MOZILLA_OFFICIAL=1
-	export MACH_USE_SYSTEM_PYTHON=1
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
 
 	# Build with Clang, takes less RAM
@@ -35,8 +34,8 @@ cat <<- EOF > .mozconfig
 		mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/objdir
 		unset MOZ_TELEMETRY_REPORTING
 		#
-		ac_add_options --host=x86_64-unknown-linux-gnu
-		ac_add_options --target=x86_64-unknown-linux-gnu
+		ac_add_options --host=$CHOST
+		ac_add_options --target=$CHOST
 		#
 		ac_add_options --prefix=/usr
 		ac_add_options --disable-debug
