@@ -1,0 +1,22 @@
+# Description:	A tool for installing and managing Python packages
+# URL:		https://pypi.python.org/pypi/pip/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-setuptools
+
+name=python3-pip
+_realname=pip
+version=22.0.4
+release=1
+source=(https://files.pythonhosted.org/packages/source/p/${_realname}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+}
