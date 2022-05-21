@@ -950,10 +950,11 @@ f:78488c9309f069ef12008914744a0f74:gpgme/Pkgfile
 f:3a595c2a0e454614e91cf64e9b3d152c:mjpegtools/.md5sum
 f:43a2cd215b7ffdbe783d63a79d4ab031:mjpegtools/.footprint
 f:93ac72df42757415d35a7a96992c3f6d:mjpegtools/Pkgfile
-f:f844ba7d024ab650268a4fa724b182b7:firefox/.md5sum
+f:0f54255734781432d988207f3cdb2eb9:firefox/buildlog
+f:5ba02fdd1acfcd67e70401153ce4b76e:firefox/.md5sum
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
-f:5a336361f8afbf55bb376bf73e5da0bc:firefox/Pkgfile
+f:f62ec07bb119403758716f65329224ce:firefox/Pkgfile
 f:2dc9d626228874dbc79f33869eda7ed6:npth/.md5sum
 f:6d9837eb6e4845b412795a25d3c22316:npth/.footprint
 f:77201cc3c33be4c9856493c8a4cc9d64:npth/Pkgfile
