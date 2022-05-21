@@ -4,6 +4,7 @@ d:at-spi2-atk
 d:librsvg
 d:faad2
 d:rlwrap
+d:python3-psutil
 d:gst-plugins-base
 d:autoconf-archive
 d:krb5
@@ -89,6 +90,7 @@ d:gtkmm3
 d:itstool
 d:zip
 d:poppler
+d:python3-pip
 d:gobject-introspection
 d:nspr
 d:python3-urllib3
@@ -285,6 +287,9 @@ f:eb2cc6e56fe4e5edd4e96888cd88c88f:faad2/Pkgfile
 f:8fc12ed5ba47572f90884a2b91699567:rlwrap/.md5sum
 f:6706501df57329ce281d68773d35f202:rlwrap/.footprint
 f:dda4cc44f54a0fd16d95ba9835a9a42a:rlwrap/Pkgfile
+f:a93b053365165f73acec211aad8b7a2e:python3-psutil/.md5sum
+f:06ae72bbd4e2d6ebb0ed22921b441af5:python3-psutil/.footprint
+f:3bd33f3b24e44089fdbb51319188cdeb:python3-psutil/Pkgfile
 f:0e735707559b7ef2a516df5eefb72096:gst-plugins-base/.md5sum
 f:d65a9151f6521df656d7f351006a7b5c:gst-plugins-base/.footprint
 f:1598751eb2192b34edc9004eeee9d9d2:gst-plugins-base/Pkgfile
@@ -588,6 +593,9 @@ f:68761d37d4124eae1b6d568ffc0559ee:zip/Pkgfile
 f:fd10104747768c9451572cf814058574:poppler/.md5sum
 f:61f72eb9b7a23cb6c3fca54c6ced6361:poppler/.footprint
 f:fa0fc5c9d1358d3f3ccb083017b6d7dc:poppler/Pkgfile
+f:1eb3c75266acf0b88754f0c11773c34d:python3-pip/.md5sum
+f:441b0c99c57006576fbc11f8887e9a24:python3-pip/.footprint
+f:4c25dc0015997d7bad2039897af388ad:python3-pip/Pkgfile
 f:cec5b2fb77b2e5c9a9e8dc0287ea41bf:gobject-introspection/.md5sum
 f:76bc1b356036c24864b705e84f0a071a:gobject-introspection/.footprint
 f:c6e06ccf146dad439444de5f4dbf17ca:gobject-introspection/gobject-introspection-1.70.0-build_fix-1.patch
@@ -950,11 +958,10 @@ f:78488c9309f069ef12008914744a0f74:gpgme/Pkgfile
 f:3a595c2a0e454614e91cf64e9b3d152c:mjpegtools/.md5sum
 f:43a2cd215b7ffdbe783d63a79d4ab031:mjpegtools/.footprint
 f:93ac72df42757415d35a7a96992c3f6d:mjpegtools/Pkgfile
-f:0f54255734781432d988207f3cdb2eb9:firefox/buildlog
 f:5ba02fdd1acfcd67e70401153ce4b76e:firefox/.md5sum
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
-f:f62ec07bb119403758716f65329224ce:firefox/Pkgfile
+f:010963b5518c1de793be0ed9f35e5806:firefox/Pkgfile
 f:2dc9d626228874dbc79f33869eda7ed6:npth/.md5sum
 f:6d9837eb6e4845b412795a25d3c22316:npth/.footprint
 f:77201cc3c33be4c9856493c8a4cc9d64:npth/Pkgfile
