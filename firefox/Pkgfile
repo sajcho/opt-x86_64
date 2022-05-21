@@ -4,7 +4,7 @@
 # Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip libxcomposite libxcursor libxinerama libxt zip
 
 name=firefox
-version=100.0.1
+version=100.0.2
 release=1
 source=(https://ftp.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
 	firefox.desktop)
@@ -16,6 +16,7 @@ build() {
 	export BUILD_OFFICIAL=1
 	export MOZILLA_OFFICIAL=1
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
+	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=none
 
 	# Build with Clang, takes less RAM
 	CFLAGS+=" -g0 -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
