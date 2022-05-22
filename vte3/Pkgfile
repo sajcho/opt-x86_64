@@ -1,0 +1,26 @@
+# Description:	Virtual Terminal Emulator library
+# URL:		https://gitlab.gnome.org/GNOME/vte
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	fribidi gnutls gtk3 icu
+
+name=vte3
+version=0.66.2
+release=1
+source=(https://gitlab.gnome.org/GNOME/vte/-/archive/${version}/vte-${version}.tar.gz)
+
+build() {
+	cd vte-${version}
+
+	build-meson \
+		-Ddocs=false \
+		-Dglade=false \
+		-D_systemd=false \
+		-Dvapi=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/usr/share/locale
+}
