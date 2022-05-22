@@ -1,0 +1,27 @@
+# Description:	TOML for Modern C++
+# URL:		https://github.com/ToruNiina/toml11
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake
+
+name=toml11
+version=3.7.1
+release=1
+source=(https://github.com/ToruNiina/toml11/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
+		-Dtoml11_BUILD_TEST=OFF \
+		-Wno-dev
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+
+	make DESTDIR=$PKG install
+}
