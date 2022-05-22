@@ -1,0 +1,24 @@
+# Description:	Notification daemon with a GTK GUI for notifications and the control center
+# URL:		https://github.com/ErikReider/SwayNotificationCenter
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtk3 gtk-layer-shell json-glib libhandy scdoc vala
+
+name=swaync
+_realname=SwayNotificationCenter
+version=0.5
+release=1
+source=(https://github.com/ErikReider/${_realname}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	build-meson \
+		-Dsystemd-service=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/usr/share/{bash-completion,fish,zsh}
+}
