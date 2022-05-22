@@ -505,9 +505,9 @@ f:be913706d342be386f3be8b845f3a5a2:libgd/Pkgfile
 f:8a5e6bd4bf32c524e0d3038491dee8da:libvisual/.md5sum
 f:70801e1a07db7eb86a0a50ff6a193198:libvisual/.footprint
 f:7aca74fd950f4b7f855ca33d9607cbce:libvisual/Pkgfile
-f:44d64eb5374c67fb83584852e62545f5:waybar/.md5sum
-f:85556c904c079fe22d7bf703b0962ca3:waybar/.footprint
-f:aaf93a7e762169767146ac6335e82f82:waybar/Pkgfile
+f:f7a68281b08aa60cdac9161927b875dd:waybar/.md5sum
+f:af22b4aa3c0fbb2cdeef5426bd974f0c:waybar/.footprint
+f:c9b35d66d57b03053f9112dd36c177aa:waybar/Pkgfile
 f:c3f3e8b34ae9dc806bf78748bacc45d6:libnftnl/.md5sum
 f:3bd3fee084309610d69d1937f1a157de:libnftnl/.footprint
 f:2110e0a379a2df66ad8bc16f7b109e65:libnftnl/Pkgfile
@@ -530,9 +530,9 @@ f:9dba71c0155d547e3a03301066f33353:python3-netifaces/Pkgfile
 f:fa5e080abc0e4f5c737f8bbcfb8d565a:clutter/.md5sum
 f:694a199ec4486de3ca02d86382965392:clutter/.footprint
 f:d052effda5dcaa0edfa9d9d354ed2c61:clutter/Pkgfile
-f:57712a9b71d82e0c26c8580917bbc1c6:wlroots/.md5sum
-f:df808e5296bd3ce12d8e07293d1ec61c:wlroots/.footprint
-f:1352f864fb7f976e0160b0bfe084dbd3:wlroots/Pkgfile
+f:6d560cb9e56647e278b14459f9fce81f:wlroots/.md5sum
+f:dc45623073bf90e38b9667864e199a0b:wlroots/.footprint
+f:52945efd60f7e222ea37d89bb08a909f:wlroots/Pkgfile
 f:f329ba6c67413624bc980ab137fe1bbc:srt/fix-cmake.patch
 f:30c7fc8ccb15d3025f9e5a9279fe4499:srt/.md5sum
 f:2e25829f8aab5d3b0fd7c27511a0383b:srt/.footprint
@@ -799,9 +799,9 @@ f:8bc2bf72698763d3d08319938192e229:swaync/.md5sum
 f:36f00c8b3638c9b5b17f2602a2cabc4b:swaync/.footprint
 f:24dbd33573819eee6ed0c39c3b5bbc13:swaync/Pkgfile
 f:834fc9af6504848057d644b4209481ad:sway/sway.desktop
-f:005ecc1718b20bfe09b133a730af05b0:sway/.md5sum
+f:9920c601a6dd12d7a79e76b0de44d76f:sway/.md5sum
 f:f24cc0e90aa47f215eb812f6ee593905:sway/.footprint
-f:625b38cb81f6b4a8e00c88f7c61fd708:sway/Pkgfile
+f:7edf11b51935ea8099cdbbdd17846b71:sway/Pkgfile
 f:53b5cfe249bf079bbd7adb032fbd18bd:gnome-common/.md5sum
 f:e8de8240041de664d0712b740cbc5528:gnome-common/.footprint
 f:385a6bac8da1671b9fa08bf62c188e53:gnome-common/Pkgfile
