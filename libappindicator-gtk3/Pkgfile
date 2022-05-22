@@ -1,0 +1,50 @@
+# Description:	Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray
+# URL:		https://launchpad.net/libappindicator
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libdbusmenu-gtk3 libindicator-gtk3 dbus-glib
+
+name=libappindicator-gtk3
+_realname=libappindicator
+version=16.10
+release=1
+source=(http://unrealize.co.uk/source/${_realname}-${version}.tar.gz \
+	0001-Glib.Timeout-fix.patch \
+	0002-Fix-mono-nunit-pkgconfig-name.patch \
+	0003-Fix-Mono-assemblies-directory.patch \
+	badfunction.patch conditional-py-bindings.patch \
+	disable-mono.patch \
+	gtk3.patch \
+	improved-plasma-support.patch \
+	vala-inherit.patch \
+	segfault-fix.patch \
+	n_elements.patch)
+
+build() {
+	cd ${_realname}-${version}
+
+	patch -p1 -i $SRC/gtk3.patch
+	patch -p1 -i $SRC/0001-Glib.Timeout-fix.patch
+	patch -p1 -i $SRC/0002-Fix-mono-nunit-pkgconfig-name.patch
+	patch -p1 -i $SRC/0003-Fix-Mono-assemblies-directory.patch
+	patch -p1 -i $SRC/improved-plasma-support.patch
+	patch -p1 -i $SRC/conditional-py-bindings.patch
+	patch -p1 -i $SRC/disable-mono.patch
+	patch -p1 -i $SRC/segfault-fix.patch
+	patch -p1 -i $SRC/n_elements.patch
+
+	sed -i -e 's/ -Werror//' src/Makefile.am
+	sed -e 's/--enable-gtk-doc//g' -i autogen.sh
+
+	NOCONFIGURE=1 ./autogen.sh
+
+	CXXFLAGS="$CXXFLAGS -std=c++11" \
+	./configure \
+		--prefix=/usr \
+		--localstatedir=/var \
+		--disable-{gtk-doc-html,python,mono-test,static,tests} \
+		--with-gtk=3
+
+	make V=1
+
+	make -j1 DESTDIR=$PKG install
+}
