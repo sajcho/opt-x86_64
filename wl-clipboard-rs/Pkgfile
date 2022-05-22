@@ -1,0 +1,22 @@
+# Description:	A safe Rust crate for working with the Wayland clipboard
+# URL:		https://github.com/YaLTeR/wl-clipboard-rs
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	rust wayland
+
+name=wl-clipboard-rs
+version=0.6.0
+release=1
+source=(https://github.com/YaLTeR/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	mkdir "$PKGMK_SOURCE_DIR/rust" || true
+	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
+
+	cargo update --manifest-path ${name}-${version}/Cargo.toml
+	cargo build --release --locked --manifest-path ${name}-${version}/Cargo.toml \
+		--all --features=dlopen
+
+	install -D -t $PKG/usr/bin ${name}-${version}/target/release/wl-paste
+	install -D -t $PKG/usr/bin ${name}-${version}/target/release/wl-copy
+	install -D -t $PKG/usr/bin ${name}-${version}/target/release/wl-clip
+}
