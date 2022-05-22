@@ -1,0 +1,25 @@
+# Description:	a regular expressions library
+# URL:		https://github.com/kkos/oniguruma
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=oniguruma
+version=6.9.8
+release=1
+source=(https://github.com/kkos/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	autoreconf -fiv
+
+	./configure \
+		--prefix=/usr \
+		--enable-posix-api \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
