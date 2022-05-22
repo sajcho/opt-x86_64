@@ -1,0 +1,27 @@
+# Description:	Control backlights and other hardware lights
+# URL:		http://haikarainen.github.io/light/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=light
+version=1.2.2
+release=1
+source=(https://github.com/haikarainen/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	export CFLAGS+=" -fcommon"
+
+	autoreconf -fiv
+
+	./configure \
+		--prefix=/usr \
+		--with-udev=/lib/udev/rules.d
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}
+
