@@ -13,7 +13,7 @@ drwxr-xr-x	root/root	usr/include/wlr/backend/
 -rw-r--r--	root/root	usr/include/wlr/backend/x11.h
 -rw-r--r--	root/root	usr/include/wlr/config.h
 drwxr-xr-x	root/root	usr/include/wlr/interfaces/
--rw-r--r--	root/root	usr/include/wlr/interfaces/wlr_input_device.h
+-rw-r--r--	root/root	usr/include/wlr/interfaces/wlr_buffer.h
 -rw-r--r--	root/root	usr/include/wlr/interfaces/wlr_keyboard.h
 -rw-r--r--	root/root	usr/include/wlr/interfaces/wlr_output.h
 -rw-r--r--	root/root	usr/include/wlr/interfaces/wlr_pointer.h
@@ -33,7 +33,6 @@ drwxr-xr-x	root/root	usr/include/wlr/render/
 -rw-r--r--	root/root	usr/include/wlr/render/wlr_renderer.h
 -rw-r--r--	root/root	usr/include/wlr/render/wlr_texture.h
 drwxr-xr-x	root/root	usr/include/wlr/types/
--rw-r--r--	root/root	usr/include/wlr/types/wlr_box.h
 -rw-r--r--	root/root	usr/include/wlr/types/wlr_buffer.h
 -rw-r--r--	root/root	usr/include/wlr/types/wlr_compositor.h
 -rw-r--r--	root/root	usr/include/wlr/types/wlr_cursor.h
@@ -73,6 +72,8 @@ drwxr-xr-x	root/root	usr/include/wlr/types/
 -rw-r--r--	root/root	usr/include/wlr/types/wlr_screencopy_v1.h
 -rw-r--r--	root/root	usr/include/wlr/types/wlr_seat.h
 -rw-r--r--	root/root	usr/include/wlr/types/wlr_server_decoration.h
+-rw-r--r--	root/root	usr/include/wlr/types/wlr_session_lock_v1.h
+-rw-r--r--	root/root	usr/include/wlr/types/wlr_subcompositor.h
 -rw-r--r--	root/root	usr/include/wlr/types/wlr_surface.h
 -rw-r--r--	root/root	usr/include/wlr/types/wlr_switch.h
 -rw-r--r--	root/root	usr/include/wlr/types/wlr_tablet_pad.h
@@ -101,7 +102,7 @@ drwxr-xr-x	root/root	usr/include/wlr/util/
 -rw-r--r--	root/root	usr/include/wlr/xcursor.h
 -rw-r--r--	root/root	usr/include/wlr/xwayland.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libwlroots.so -> libwlroots.so.10
--rwxr-xr-x	root/root	usr/lib/libwlroots.so.10
+lrwxrwxrwx	root/root	usr/lib/libwlroots.so -> libwlroots.so.11
+-rwxr-xr-x	root/root	usr/lib/libwlroots.so.11
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/wlroots.pc

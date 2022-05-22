@@ -4,12 +4,14 @@
 # Depends on:	libcap libxkbcommon mold seatd xwayland
 
 name=wlroots
-version=0.15.1
+version=0.16.0
+_commit=17b2b06633729f1826715c1d0b84614aa3cedb3a
+# Last commit at 20220522
 release=1
-source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/${version}/${name}-${version}.tar.gz)
+source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/${_commit}/${name}-${_commit}.tar.gz)
 
 build() {
-	cd ${name}-${version}
+	cd ${name}-${_commit}
 
 	build-meson \
 		-Dexamples=false \
