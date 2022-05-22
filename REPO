@@ -16,6 +16,7 @@ d:htop
 d:python3-cparser
 d:ffmpeg
 d:intltool
+d:python3-xlib
 d:python3-atomicwrites
 d:python3-gobject
 d:git-lfs
@@ -56,6 +57,7 @@ d:libvisual
 d:waybar
 d:libnftnl
 d:pulseaudio
+d:vala
 d:python3-alabaster
 d:python3-netifaces
 d:clutter
@@ -105,9 +107,11 @@ d:libraqm
 d:python3-parsing
 d:translate-shell
 d:python3-asn1crypto
+d:vte3
 d:libiec61883
 d:icu
 d:firefox-esr
+d:python3-geopy
 d:libsigc++2
 d:python3-asn1
 d:pango
@@ -143,6 +147,7 @@ d:iso-codes
 d:brotli
 d:gst-plugins-good
 d:hicolor-icon-theme
+d:python3-dasbus
 d:json-glib
 d:nss
 d:rust
@@ -179,6 +184,7 @@ d:libgcrypt
 d:python3-pygments
 d:babl
 d:libogg
+d:python3-pillow
 d:tmux
 d:asciidoctor
 d:fribidi
@@ -207,6 +213,7 @@ d:asciidoc
 d:fftw
 d:toml11
 d:gtk3
+d:python3-i3ipc
 d:light
 d:appstream-glib
 d:mozjs78
@@ -220,6 +227,7 @@ d:firefox
 d:npth
 d:libheif
 d:chrpath
+d:python3-geographiclib
 d:atkmm
 d:nmap
 d:http-parser
@@ -228,6 +236,7 @@ d:yasm
 d:wlopm
 d:alsa-lib
 d:elogind
+d:python3-setuptools-scm
 d:libidl
 d:libsrtp
 d:pangomm
@@ -250,6 +259,7 @@ d:python3-six
 d:libdv
 d:unzip
 d:gnutls
+d:xdg-utils
 d:poppler-glib
 d:libsoup
 d:libpng
@@ -279,6 +289,7 @@ d:swig
 d:glib-networking
 d:nfs-utils
 d:lrzsz
+d:python3-packaging
 d:python3-chardet
 d:dialog
 d:docbook-xsl-nons
@@ -353,6 +364,9 @@ f:c4404113c624d3e40e3616ea9fcca3bb:intltool/.md5sum
 f:38bec379ca1158fa00afa94c99b9ebe5:intltool/intltool-perl-regexp.patch
 f:0fb5cd7dbe852bbac973124b5afdda9d:intltool/.footprint
 f:f7b00a9bdab39e8a57a121d2055cfd8a:intltool/Pkgfile
+f:688ebc6ee95e55b3c3c312779816ddeb:python3-xlib/.md5sum
+f:9098956f39d637ffd843829c9d17c42e:python3-xlib/.footprint
+f:186e14c5114e41730c7e366b6b7175d5:python3-xlib/Pkgfile
 f:9a6532935ec3f094cf8af85de1981ef3:python3-atomicwrites/.md5sum
 f:608ec3ac6de5d8ae3d3c0ac97e16ac74:python3-atomicwrites/.footprint
 f:0580771db66dac9a67c8f16bc2c3a385:python3-atomicwrites/Pkgfile
@@ -504,6 +518,9 @@ f:03e1e021c86b22171dbb5652dbc20742:pulseaudio/.footprint
 f:c884a5dd8ca9cb3477e6c0acc446b009:pulseaudio/pulseaudio.run
 f:e5f74be27525658dae59401455944186:pulseaudio/post-install
 f:a774a695cdcdeb6d88a1496f7a1cf244:pulseaudio/Pkgfile
+f:cfd05aa943fa7a016624cc1f06a124fb:vala/.md5sum
+f:894dd8988a79640cb685de9079b7c957:vala/.footprint
+f:ef0be6a3bee4c534e6046efb33401c93:vala/Pkgfile
 f:dec3f50f0f2eb0635fd29a3d92356c1c:python3-alabaster/.md5sum
 f:09bfd344a74e2470318ffbe2524c97f4:python3-alabaster/.footprint
 f:540780c6bbb0468b754c1144556723ab:python3-alabaster/Pkgfile
@@ -667,6 +684,9 @@ f:868306a4f039e4f8de938257325f2b4d:translate-shell/Pkgfile
 f:83fd8d95183acb619627c09cf426ca97:python3-asn1crypto/.md5sum
 f:fd4e5f2dac9de321ce0b68717e56aac7:python3-asn1crypto/.footprint
 f:753b821929ccd0ea911837dd29e0f57a:python3-asn1crypto/Pkgfile
+f:e46197fe05d6d02ef3fd44040ec5a444:vte3/.md5sum
+f:930d312ed0c182bfac0ed537e51eb146:vte3/.footprint
+f:27ec48875db29f9248094bce2a41f143:vte3/Pkgfile
 f:bd12abbf3c286d1903c5218325343eec:libiec61883/.md5sum
 f:930d68bf1bf3d7cad23e05f22999718a:libiec61883/.footprint
 f:c21a570652341b2f5f2261d05ca0014d:libiec61883/Pkgfile
@@ -678,6 +698,9 @@ f:e44dfdf76d02feb8bf95250782758d86:firefox-esr/.md5sum
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox-esr/firefox.desktop
 f:261a8098047ca321cdd846cc9e4e7544:firefox-esr/.footprint
 f:18ae9d252c3f9f203a8131716536b294:firefox-esr/Pkgfile
+f:cd1e04184e38730adcb95608a83e1304:python3-geopy/.md5sum
+f:3209b1036f3b5ae2b8814fb56ff29895:python3-geopy/.footprint
+f:28ce2a8444aeacf409bd5f239e5245fe:python3-geopy/Pkgfile
 f:2a5de87a4395a8c5f30bc55f6b2508f3:libsigc++2/.md5sum
 f:03e29f29294455ec5556b61e01e80072:libsigc++2/.footprint
 f:4bce66620d503a728c419a1f85e2167b:libsigc++2/Pkgfile
@@ -800,6 +823,9 @@ f:c03a418e37365f299d9ac52e903d5f43:gst-plugins-good/Pkgfile
 f:94bccb069c53d4b9068e0188012e6257:hicolor-icon-theme/.md5sum
 f:cd6dade7e39e9c9c686e845696dc7905:hicolor-icon-theme/.footprint
 f:8f75f90d93499f250740704df39d1bcc:hicolor-icon-theme/Pkgfile
+f:bdfd9c6683ddfeb4020f5791963590af:python3-dasbus/.md5sum
+f:92a9151c46795d2290b3b888b8878150:python3-dasbus/.footprint
+f:ac0415b51e2743d89e670e23bbc86ba3:python3-dasbus/Pkgfile
 f:3e05b45526394611977fe74bf8c65a07:json-glib/.md5sum
 f:b0308ac60eb8d48a3b641f0fbe9659a7:json-glib/.footprint
 f:e2cea854faecc7c018af2d6321144518:json-glib/Pkgfile
@@ -941,6 +967,9 @@ f:27166ac3d39dfa4b418d2c898be357fd:babl/Pkgfile
 f:12c631a7bb3f336ac6563804fbd239a5:libogg/.md5sum
 f:54e466f558ada268c4452302e8ab7cc6:libogg/.footprint
 f:243f8a208bc9f5295c9ee8f6bbd7e0ba:libogg/Pkgfile
+f:48a96fa5a1730e9ab37dcbd2bd34236c:python3-pillow/.md5sum
+f:e8578a301c720ce80ac2c6275e4add95:python3-pillow/.footprint
+f:febe1bf34d7abeff62536adf901253ae:python3-pillow/Pkgfile
 f:05a1143a634cd6d9d1050e048859418e:tmux/.md5sum
 f:dda9286a45a0b08df5def55eefd6cd4f:tmux/.footprint
 f:5cb1a33fdaaf4f1aff1da15ef77443e6:tmux/Pkgfile
@@ -1031,6 +1060,9 @@ f:f02fe522fd1dab6bc416f604894cadf0:gtk3/.md5sum
 f:79e8e8da0c83adab2a85b2f50f595183:gtk3/.footprint
 f:553737f2f7dbd8fa006e1cb90ea71bf8:gtk3/post-install
 f:9f95ac9dcc47d4ff8b732e2a7c573dd5:gtk3/Pkgfile
+f:d791a362bf229ef4da52768743321dd6:python3-i3ipc/.md5sum
+f:ba764ca85104408122227c30dbfb7541:python3-i3ipc/.footprint
+f:9be8e55ced0e455d1147e0aedeb888ac:python3-i3ipc/Pkgfile
 f:e5fc8b546fa652766eaca62c66a79c88:light/.md5sum
 f:eedaff6af62d232ee2eae691b11faaf6:light/.footprint
 f:bc920d5a5eaf48928db62bea03f54157:light/Pkgfile
@@ -1072,6 +1104,9 @@ f:36499bf43fa7e55d7e2faa3370acbde8:libheif/Pkgfile
 f:5f3d1b5f639bd48c0aa44079561a8235:chrpath/.md5sum
 f:691ffda8a1a2960cd92da75086753be1:chrpath/.footprint
 f:0178b3df16da77c4ba972cef0da70c15:chrpath/Pkgfile
+f:f0bed663ec3fecd28ac2d62f82684391:python3-geographiclib/.md5sum
+f:6891d2f9c2df444f97b961e82fdc5432:python3-geographiclib/.footprint
+f:9dba3310cd68aeab2d2bf74010629235:python3-geographiclib/Pkgfile
 f:ec5e8ebcbc183a71c96769f5b928c9ac:atkmm/.md5sum
 f:2a2f6a2d65235673eb3b6cc551c24d6b:atkmm/.footprint
 f:02d0263c7d6a5050410b0b8278fee470:atkmm/Pkgfile
@@ -1101,6 +1136,9 @@ f:fd7037fcaaafe4959a53cccd12a193d6:elogind/elogind.wrapper
 f:f68e18e8f758be8087427add627ec317:elogind/.footprint
 f:9f6ccc673cbdb66ad1ad4a4e18b99b61:elogind/elogind-246.10-revert-polkit-automagic.patch
 f:5618fef9be2b2f801ba048b7accbf0f5:elogind/Pkgfile
+f:beb9595160e8a16ab4513858bbd9ca71:python3-setuptools-scm/.md5sum
+f:f5a922947401559a583523331561a26c:python3-setuptools-scm/.footprint
+f:22e0a51edfdfcaa51f97b12300196329:python3-setuptools-scm/Pkgfile
 f:85206659f2a1253da21a8a6dc2979ffa:libidl/.md5sum
 f:8d9a3f2ecc54da33cfda39d09619402c:libidl/.footprint
 f:0a83449c0e48d05bfc718dcbeb5b8a44:libidl/Pkgfile
@@ -1177,6 +1215,10 @@ f:b0d5295a966430d4db9c402bd2b8c151:unzip/Pkgfile
 f:413396c422900e53291bd285b41a4097:gnutls/.md5sum
 f:df79f3e4af9b2fb02f6417f6b37042ad:gnutls/.footprint
 f:c03e0449b9df9c4903d9293f83f3f736:gnutls/Pkgfile
+f:20f15e68b7c992d42837352d173baa42:xdg-utils/.md5sum
+f:6a7fca796dcb640f51f29ae1af6be2a1:xdg-utils/.footprint
+f:8770075ccb033ba438f4b8dce5f84c8a:xdg-utils/drop_obsolete_GNOME_support.patch
+f:1369e9057b07ee36b620aa52d77a6d6e:xdg-utils/Pkgfile
 f:fd10104747768c9451572cf814058574:poppler-glib/.md5sum
 f:2b0a0d3fb3a7a02d8da73d2d0ea74f2d:poppler-glib/.footprint
 f:498186b70236b24145d9060c84c6cda9:poppler-glib/Pkgfile
@@ -1280,6 +1322,9 @@ f:a5f238ed2b759be8f30fb01637ed5905:lrzsz/.md5sum
 f:e958def8214e32799b4a4428e19b86d9:lrzsz/.footprint
 f:332f6e4af9fe0266efecf9d334c4d3db:lrzsz/lrzsz.patch
 f:0d6b7775645d90f3ba04ff540cdc3ecb:lrzsz/Pkgfile
+f:3c5879b46cef2d9e67f2e7548a0cfdb0:python3-packaging/.md5sum
+f:f55d65d695295df97fe5c018fa98b630:python3-packaging/.footprint
+f:5cd79492b49509cac0b838e71cd61d33:python3-packaging/Pkgfile
 f:b270b31ef9bd314ada4a2193a0e00e81:python3-chardet/.md5sum
 f:e383c8f6352e1a17854fd434fd838ddf:python3-chardet/.footprint
 f:a319decfb58cd7574eb232f397552a4f:python3-chardet/Pkgfile
