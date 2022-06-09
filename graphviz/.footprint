@@ -10,7 +10,6 @@ lrwxrwxrwx	root/root	usr/bin/circo -> dot
 -rwxr-xr-x	root/root	usr/bin/dot
 lrwxrwxrwx	root/root	usr/bin/dot2gxl -> gxl2gv
 -rwxr-xr-x	root/root	usr/bin/dot_builtins
--rwxr-xr-x	root/root	usr/bin/dotty
 -rwxr-xr-x	root/root	usr/bin/edgepaint
 lrwxrwxrwx	root/root	usr/bin/fdp -> dot
 -rwxr-xr-x	root/root	usr/bin/gc
@@ -26,7 +25,6 @@ lrwxrwxrwx	root/root	usr/bin/gv2gxl -> gxl2gv
 -rwxr-xr-x	root/root	usr/bin/gvpr
 lrwxrwxrwx	root/root	usr/bin/gxl2dot -> gxl2gv
 -rwxr-xr-x	root/root	usr/bin/gxl2gv
--rwxr-xr-x	root/root	usr/bin/lneato
 -rwxr-xr-x	root/root	usr/bin/mm2gv
 lrwxrwxrwx	root/root	usr/bin/neato -> dot
 -rwxr-xr-x	root/root	usr/bin/nop
@@ -245,7 +243,6 @@ lrwxrwxrwx	root/root	usr/share/man/man1/circo.1.gz -> dot.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/diffimg.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/dijkstra.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/dot.1.gz
--rw-r--r--	root/root	usr/share/man/man1/dotty.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/edgepaint.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/fdp.1.gz -> dot.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gc.1.gz
@@ -261,8 +258,6 @@ lrwxrwxrwx	root/root	usr/share/man/man1/gv2gxl.1.gz -> gxl2gv.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gvpr.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/gxl2dot.1.gz -> gxl2gv.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gxl2gv.1.gz
--rw-r--r--	root/root	usr/share/man/man1/lneato.1.gz
--rw-r--r--	root/root	usr/share/man/man1/mingle.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/mm2gv.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/neato.1.gz -> dot.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/nop.1.gz
