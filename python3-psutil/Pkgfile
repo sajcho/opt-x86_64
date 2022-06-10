@@ -5,7 +5,7 @@
 
 name=python3-psutil
 _realname=psutil
-version=5.8.0
+version=5.9.1
 release=1
 source=(https://github.com/giampaolo/${_realname}/archive/release-${version}/${_realname}-release-${version}.tar.gz)
 
