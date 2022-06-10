@@ -13,6 +13,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/PIL/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/DdsImagePlugin.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/EpsImagePlugin.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/ExifTags.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/FitsImagePlugin.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/FitsStubImagePlugin.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/FliImagePlugin.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/FontFile.py
@@ -111,6 +112,8 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/EpsImagePlugin.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/ExifTags.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/ExifTags.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/FitsImagePlugin.cpython-310.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/FitsImagePlugin.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/FitsStubImagePlugin.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/FitsStubImagePlugin.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/FliImagePlugin.cpython-310.opt-1.pyc
@@ -287,9 +290,10 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/PIL/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/_version.py
 -rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/PIL/_webp.cpython-310-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/PIL/features.py
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/Pillow-9.0.1-py3.10.egg-info/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.0.1-py3.10.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.0.1-py3.10.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.0.1-py3.10.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.0.1-py3.10.egg-info/top_level.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.0.1-py3.10.egg-info/zip-safe
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/Pillow-9.1.1-py3.10.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.1.1-py3.10.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.1.1-py3.10.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.1.1-py3.10.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.1.1-py3.10.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.1.1-py3.10.egg-info/top_level.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/Pillow-9.1.1-py3.10.egg-info/zip-safe
