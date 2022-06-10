@@ -4,8 +4,8 @@
 # Depends on:	fmt
 
 name=spdlog
-version=1.9.2
-release=0
+version=1.10.0
+release=1
 source=(https://github.com/gabime/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
