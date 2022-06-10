@@ -4,24 +4,26 @@
 # Depends on:	alsa-lib flac libvorbis sqlite3
 
 name=libsndfile
-version=1.0.31
+version=1.1.0
 release=1
-source=(https://github.com/libsndfile/${name}/releases/download/${version}/${name}-${version}.tar.bz2)
+source=(https://github.com/libsndfile/${name}/archive/${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	ac_cv_sys_largefile_CFLAGS="-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64" \
-	./configure \
-		--prefix=/usr \
-		--enable-largefile \
-		--disable-static
+	mkdir build
+	cd build
 
-	make V=1
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-Wno-dev
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/doc
-
-	find $PKG -type f -name '*.la' -delete
 }
