@@ -5,7 +5,7 @@
 
 name=python3-libxml2
 _realname=libxml2
-version=2.9.13
+version=2.9.14
 release=1
 source=(https://download.gnome.org/sources/${_realname}/${version:0:3}/${_realname}-${version}.tar.xz)
 
