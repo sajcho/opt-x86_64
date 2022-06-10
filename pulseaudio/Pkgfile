@@ -4,7 +4,7 @@
 # Depends on:	avahi dbus fftw gst-plugins-base libasyncns sbc soxr speexdsp
 
 name=pulseaudio
-version=15.0
+version=16.0
 release=1
 source=(https://freedesktop.org/software/${name}/releases/${name}-${version}.tar.xz \
 	pulseaudio.run)
