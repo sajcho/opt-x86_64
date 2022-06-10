@@ -4,9 +4,10 @@
 # Depends on:	cyrus-sasl gpgme libidn2
 
 name=mutt
-version=2.2.4
+version=2.2.6
 release=1
-source=(https://bitbucket.org/mutt/mutt/downloads/${name}-${version}.tar.gz)
+source=(https://bitbucket.org/${name}/${name}/downloads/${name}-${version}.tar.gz \
+	mutt.desktop)
 
 build() {
 	cd ${name}-${version}
@@ -33,10 +34,13 @@ build() {
 
 	make DESTDIR=$PKG install
 
-	find $PKG/usr/share/doc/mutt/* ! -name manual.txt -delete
+	install -D -m 0644 $SRC/mutt.desktop $PKG/usr/share/applications/mutt.desktop
+
 	rm -r $PKG/usr/share/info
 	rm $PKG/usr/share/man/man5/{mmdf.5,mbox.5}
 	rm -f $PKG/etc/*.dist $PKG/etc/mime.types
 
-	install -D -m 0644 contrib/gpg.rc $PKG/etc/Muttrc.gpg.dist
+	install -D -m 0644 $SRC/${name}-${version}/contrib/gpg.rc $PKG/etc/Muttrc.gpg.dist
+
+	find $PKG/usr/share/doc/mutt/* ! -name manual.txt -delete
 }
