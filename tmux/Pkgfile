@@ -4,7 +4,7 @@
 # Depends on:	ncurses libevent
 
 name=tmux
-version=3.2a
+version=3.3
 release=1
 source=(https://github.com/${name}/${name}/releases/download/${version%-*}/${name}-${version}.tar.gz)
 
