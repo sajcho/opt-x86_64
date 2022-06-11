@@ -1,21 +1,25 @@
 # Description:	Firefox web browser
 # URL:		https://www.firefox.com/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip libxcomposite libxcursor libxinerama libxt python3-pip python3-psutil zip
+# Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip libxcomposite libxcursor libxinerama libxt zip
 
 name=firefox
-version=100.0.2
-release=2
+version=101.0.1
+release=1
 source=(https://ftp.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
+	add-support-enable-linker-mold.patch \
 	firefox.desktop)
 
 build() {
 	cd ${name}-${version}
 
+	# https://phabricator.services.mozilla.com/D134330
+	patch -p1 -i $SRC/add-support-enable-linker-mold.patch
+
 	export SHELL="/bin/sh"
 	export BUILD_OFFICIAL=1
 	export MOZILLA_OFFICIAL=1
-	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system
+	export MACH_USE_SYSTEM_PYTHON=1
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
 	export MOZ_NOSPAM=1
 	export MOZ_DEBUG_FLAGS=" "
@@ -23,12 +27,6 @@ build() {
 
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
-
-	#
-	CFLAGS+=" -g0 -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
-	CXXFLAGS+=" -g0 -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
-	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -fuse-ld=mold"
-	export RUSTFLAGS="-Clinker=clang -Clink-arg=-fuse-ld=mold"
 
 	### api keys
 	#_google_api_key=
@@ -77,6 +75,7 @@ cat <<- EOF > .mozconfig
 		ac_add_options --enable-hardening
 		ac_add_options --enable-rust-simd
 		ac_add_options --enable-optimize="-O2"
+		ac_add_options --enable-linker=mold
 		ac_add_options --enable-lto
 		ac_add_options --enable-system-ffi
 		ac_add_options --enable-system-pixman
