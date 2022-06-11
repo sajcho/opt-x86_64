@@ -1091,10 +1091,11 @@ f:04010ef8b113b9c6b07a0e4431037238:gpgme/Pkgfile
 f:3a595c2a0e454614e91cf64e9b3d152c:mjpegtools/.md5sum
 f:43a2cd215b7ffdbe783d63a79d4ab031:mjpegtools/.footprint
 f:93ac72df42757415d35a7a96992c3f6d:mjpegtools/Pkgfile
-f:5ba02fdd1acfcd67e70401153ce4b76e:firefox/.md5sum
+f:2c906a4efb52943da3b91779d00c985e:firefox/.md5sum
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
-f:010963b5518c1de793be0ed9f35e5806:firefox/Pkgfile
+f:247306ca95bcb25e15d01a19fb4675ff:firefox/add-support-enable-linker-mold.patch
+f:3e9f71b216a9f29e206e9d2de064308f:firefox/Pkgfile
 f:2dc9d626228874dbc79f33869eda7ed6:npth/.md5sum
 f:6d9837eb6e4845b412795a25d3c22316:npth/.footprint
 f:77201cc3c33be4c9856493c8a4cc9d64:npth/Pkgfile
