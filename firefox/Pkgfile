@@ -4,8 +4,8 @@
 # Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip libxcomposite libxcursor libxinerama libxt zip
 
 name=firefox
-version=101.0.1
-release=1
+version=103.0.2
+release=0
 source=(https://ftp.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
 	add-support-enable-linker-mold.patch \
 	firefox.desktop)
@@ -16,10 +16,11 @@ build() {
 	# https://phabricator.services.mozilla.com/D134330
 	patch -p1 -i $SRC/add-support-enable-linker-mold.patch
 
-	export SHELL="/bin/sh"
+	export SHELL="/bin/bash"
 	export BUILD_OFFICIAL=1
 	export MOZILLA_OFFICIAL=1
-	export MACH_USE_SYSTEM_PYTHON=1
+	#export MACH_USE_SYSTEM_PYTHON=1
+	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE="none"
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
 	export MOZ_NOSPAM=1
 	export MOZ_DEBUG_FLAGS=" "
@@ -29,8 +30,8 @@ build() {
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 
 	### api keys
-	#_google_api_key=
-	#_mozilla_api_key=
+	#_google_api_key=""
+	#_mozilla_api_key=""
 	#echo -n "$_google_api_key" > google-api-key
 	#echo -n "$_mozilla_api_key" > mozilla-api-key
 
@@ -61,6 +62,7 @@ cat <<- EOF > .mozconfig
 		ac_add_options --disable-smoosh
 		ac_add_options --disable-bootstrap
 		ac_add_options --disable-elf-hack
+		ac_add_options --disable-valgrind
 		#
 		ac_add_options --enable-release
 		ac_add_options --enable-application=browser
@@ -74,9 +76,8 @@ cat <<- EOF > .mozconfig
 		ac_add_options --enable-webrtc
 		ac_add_options --enable-hardening
 		ac_add_options --enable-rust-simd
-		ac_add_options --enable-optimize="-O2"
+		ac_add_options --enable-optimize
 		ac_add_options --enable-linker=mold
-		ac_add_options --enable-lto
 		ac_add_options --enable-system-ffi
 		ac_add_options --enable-system-pixman
 		#
@@ -93,6 +94,17 @@ cat <<- EOF > .mozconfig
 		ac_add_options --with-system-zlib
 		ac_add_options --without-wasm-sandboxed-libraries
 EOF
+
+	export CC=gcc
+	export CXX=g++
+	CFLAGS+=" -fuse-ld=mold -Wno-array-bounds -Wno-attributes -Wno-deprecated-declarations -Wno-narrowing -Wno-return-type -Wno-dangling-pointer -Wno-stringop-overflow -Wno-maybe-uninitialized -Wno-free-nonheap-object -Wno-unused-variable -Wno-sign-compare -Wno-unused-but-set-variable -Wno-address-of-packed-member -Wno-implicit-fallthrough -Wno-array-parameter -Wno-unused-value -Wno-misleading-indentation -Wno-sign-compare -Wno-use-after-free -Wno-stringop-overread -Wno-stringop-truncation -Wno-sizeof-pointer-memaccess"
+	CXXFLAGS+=" -fuse-ld=mold -Wno-array-bounds -Wno-class-memaccess -Wno-attributes -Wno-deprecated-declarations -Wno-narrowing -Wno-return-type -Wno-dangling-pointer -Wno-stringop-overflow -Wno-maybe-uninitialized -Wno-free-nonheap-object -Wno-unused-variable -Wno-sign-compare -Wno-unused-but-set-variable -Wno-address-of-packed-member -Wno-implicit-fallthrough -Wno-array-parameter -Wno-unused-value -Wno-subobject-linkage -Wno-misleading-indentation -Wno-sign-compare -Wno-use-after-free -Wno-stringop-overread -Wno-stringop-truncation -Wno-sizeof-pointer-memaccess"
+	export LDFLAGS="-fuse-ld=mold"
+	export RUSTFLAGS="-Clinker=gcc -Clink-args=-fuse-ld=mold"
+	# A change in cbindgen-0.24.2 causes a symbol to now be output by cbindgen,
+	# but it has already been defined in a header.
+	# This sed prevents the build eventually failing:
+	sed '/ROOT_CLIP_CHAIN/d' -i gfx/webrender_bindings/webrender_ffi.h
 
 	./mach build
 
