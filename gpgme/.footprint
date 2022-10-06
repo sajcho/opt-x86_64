@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/include/gpgme++/
 -rw-r--r--	root/root	usr/include/gpgme++/gpgmefw.h
 -rw-r--r--	root/root	usr/include/gpgme++/gpgmepp_export.h
 -rw-r--r--	root/root	usr/include/gpgme++/gpgmepp_version.h
+-rw-r--r--	root/root	usr/include/gpgme++/gpgrevokekeyeditinteractor.h
 -rw-r--r--	root/root	usr/include/gpgme++/gpgsetexpirytimeeditinteractor.h
 -rw-r--r--	root/root	usr/include/gpgme++/gpgsetownertrusteditinteractor.h
 -rw-r--r--	root/root	usr/include/gpgme++/gpgsignkeyeditinteractor.h
@@ -53,12 +54,12 @@ drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/Gpgmepp/
 -rw-r--r--	root/root	usr/lib/cmake/Gpgmepp/GpgmeppConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/Gpgmepp/GpgmeppConfigVersion.cmake
-lrwxrwxrwx	root/root	usr/lib/libgpgme.so -> libgpgme.so.11.26.0
-lrwxrwxrwx	root/root	usr/lib/libgpgme.so.11 -> libgpgme.so.11.26.0
--rwxr-xr-x	root/root	usr/lib/libgpgme.so.11.26.0
-lrwxrwxrwx	root/root	usr/lib/libgpgmepp.so -> libgpgmepp.so.6.14.0
-lrwxrwxrwx	root/root	usr/lib/libgpgmepp.so.6 -> libgpgmepp.so.6.14.0
--rwxr-xr-x	root/root	usr/lib/libgpgmepp.so.6.14.0
+lrwxrwxrwx	root/root	usr/lib/libgpgme.so -> libgpgme.so.11.27.0
+lrwxrwxrwx	root/root	usr/lib/libgpgme.so.11 -> libgpgme.so.11.27.0
+-rwxr-xr-x	root/root	usr/lib/libgpgme.so.11.27.0
+lrwxrwxrwx	root/root	usr/lib/libgpgmepp.so -> libgpgmepp.so.6.15.0
+lrwxrwxrwx	root/root	usr/lib/libgpgmepp.so.6 -> libgpgmepp.so.6.15.0
+-rwxr-xr-x	root/root	usr/lib/libgpgmepp.so.6.15.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gpgme-glib.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gpgme.pc
