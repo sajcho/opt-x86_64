@@ -4,7 +4,7 @@
 # Depends on:	llvm-toolchain
 
 name=rust
-version=1.61.0
+version=1.64.0
 release=1
 
 source=(https://static.rust-lang.org/dist/rustc-${version}-src.tar.gz \
@@ -39,7 +39,7 @@ cat <<- EOF > $SRC/config.toml
 	debuginfo-level-std = 2
 	rpath = false
 	codegen-tests = false
-	description = "SAUX x86_64"
+	description = "SAUX-x86_64"
 
 	[build]
 	target = ["$CHOST"]
