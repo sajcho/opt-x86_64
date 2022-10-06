@@ -4,7 +4,7 @@
 # Depends on:	openssl3
 
 name=fetchmail
-version=6.4.30
+version=6.4.33
 release=1
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.xz)
 
@@ -12,7 +12,7 @@ build() {
 	cd ${name}-${version}
 
 	# don't build python stuff
-	sed -i '22,24s/^/#/' Makefile.am
+	sed -i '22,25s/^/#/' Makefile.am
 
 	autoreconf -vi
 
