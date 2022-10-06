@@ -4,7 +4,7 @@
 # Depends on:	gmp jansson libedit libmnl libnftnl
 
 name=nftables
-version=1.0.2
+version=1.0.5
 release=1
 source=(https://netfilter.org/projects/${name}/files/${name}-${version}.tar.bz2 \
 	nftables-basic-firewall.nft \
