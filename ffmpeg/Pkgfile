@@ -4,7 +4,7 @@
 # Depends on:	aom dav1d fdk-aac flac gnutls lame libass libsdl libssh libtheora libvpx libwebp mold opus pulseaudio sdl2 soxr srt x264 x265
 
 name=ffmpeg
-version=5.0.1
+version=5.1.2
 release=1
 source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz)
 
