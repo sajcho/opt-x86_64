@@ -4,16 +4,12 @@
 # Depends on:	gobject-introspection lcms2
 
 name=babl
-version=0.1.92
-release=2
-source=(https://ftp.gimp.org/pub/babl/${version%.*}/${name}-${version}.tar.xz \
-	meson-0.60.patch)
+version=0.1.96
+release=1
+source=(https://ftp.gimp.org/pub/babl/${version%.*}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
-
-	# fix - meson.build:58:5:ERROR: configuration_data.set10 got unknown keyword arguments "Description"
-	patch -p1 -i $SRC/meson-0.60.patch
 
 	build-meson \
 		-Denable-vapi=false \
