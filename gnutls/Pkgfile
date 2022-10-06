@@ -4,7 +4,7 @@
 # Depends on:	libidn2 libseccomp libtasn1 nettle openssl3 p11-kit
 
 name=gnutls
-version=3.7.3
+version=3.7.8
 release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/v3.7/${name}-${version}.tar.xz)
 
