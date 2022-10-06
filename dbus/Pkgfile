@@ -4,7 +4,7 @@
 # Depends on:	autoconf-archive elogind xmlto
 
 name=dbus
-version=1.14.0
+version=1.14.2
 release=1
 source=(https://dbus.freedesktop.org/releases/dbus/${name}-${version}.tar.xz \
 	dbus-daemon-optional.patch \
