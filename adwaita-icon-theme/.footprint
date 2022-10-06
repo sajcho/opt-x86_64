@@ -117,9 +117,13 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/16x16/actions/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-playback-start-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-playback-stop-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-record-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-seek-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-seek-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-seek-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-seek-forward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-skip-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-skip-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-skip-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-skip-forward-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/media-view-subtitles-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/actions/object-flip-horizontal-symbolic.symbolic.png
@@ -219,6 +223,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/16x16/devices/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/devices/audio-speakers-rtl-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/devices/audio-speakers-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/devices/audio-speakers-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/devices/auth-face-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/devices/auth-fingerprint-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/devices/auth-sim-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/devices/auth-smartcard-symbolic.symbolic.png
@@ -401,6 +406,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/16x16/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/mimetypes/image-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/mimetypes/inode-directory-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/mimetypes/inode-directory.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/mimetypes/inode-symlink.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/mimetypes/package-x-generic-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/mimetypes/package-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/16x16/mimetypes/text-html.png
@@ -753,6 +759,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/22x22/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/22x22/mimetypes/font-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/22x22/mimetypes/image-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/22x22/mimetypes/inode-directory.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/22x22/mimetypes/inode-symlink.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/22x22/mimetypes/package-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/22x22/mimetypes/text-html.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/22x22/mimetypes/text-x-generic-template.png
@@ -908,9 +915,13 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/24x24/actions/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-playback-start-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-playback-stop-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-record-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-seek-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-seek-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-seek-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-seek-forward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-skip-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-skip-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-skip-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-skip-forward-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/media-view-subtitles-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/actions/object-flip-horizontal-symbolic.symbolic.png
@@ -1010,6 +1021,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/24x24/devices/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/devices/audio-speakers-rtl-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/devices/audio-speakers-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/devices/audio-speakers-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/devices/auth-face-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/devices/auth-fingerprint-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/devices/auth-sim-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/devices/auth-smartcard-symbolic.symbolic.png
@@ -1191,6 +1203,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/24x24/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/mimetypes/image-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/mimetypes/inode-directory-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/mimetypes/inode-directory.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/mimetypes/inode-symlink.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/mimetypes/package-x-generic-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/mimetypes/package-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/24x24/mimetypes/text-html.png
@@ -1633,9 +1646,13 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/32x32/actions/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-playback-start-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-playback-stop-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-record-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-seek-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-seek-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-seek-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-seek-forward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-skip-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-skip-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-skip-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-skip-forward-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/media-view-subtitles-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/actions/object-flip-horizontal-symbolic.symbolic.png
@@ -1735,6 +1752,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/32x32/devices/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/devices/audio-speakers-rtl-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/devices/audio-speakers-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/devices/audio-speakers-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/devices/auth-face-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/devices/auth-fingerprint-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/devices/auth-sim-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/devices/auth-smartcard-symbolic.symbolic.png
@@ -1917,6 +1935,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/32x32/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/mimetypes/image-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/mimetypes/inode-directory-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/mimetypes/inode-directory.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/mimetypes/inode-symlink.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/mimetypes/package-x-generic-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/mimetypes/package-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/32x32/mimetypes/text-html.png
@@ -2352,9 +2371,13 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-playback-start-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-playback-stop-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-record-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-seek-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-seek-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-seek-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-seek-forward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-skip-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-skip-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-skip-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-skip-forward-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/media-view-subtitles-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/actions/object-flip-horizontal-symbolic.symbolic.png
@@ -2454,6 +2477,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/48x48/devices/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/devices/audio-speakers-rtl-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/devices/audio-speakers-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/devices/audio-speakers-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/devices/auth-face-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/devices/auth-fingerprint-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/devices/auth-sim-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/devices/auth-smartcard-symbolic.symbolic.png
@@ -2636,6 +2660,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/48x48/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/mimetypes/image-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/mimetypes/inode-directory-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/mimetypes/inode-directory.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/mimetypes/inode-symlink.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/mimetypes/package-x-generic-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/mimetypes/package-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/48x48/mimetypes/text-html.png
@@ -3000,6 +3025,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/512x512/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/512x512/mimetypes/font-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/512x512/mimetypes/image-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/512x512/mimetypes/inode-directory.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/512x512/mimetypes/inode-symlink.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/512x512/mimetypes/package-x-generic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/512x512/mimetypes/text-html.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/512x512/mimetypes/text-x-generic-template.png
@@ -3150,9 +3176,13 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/64x64/actions/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-playback-start-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-playback-stop-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-record-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-seek-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-seek-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-seek-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-seek-forward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-skip-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-skip-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-skip-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-skip-forward-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/media-view-subtitles-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/actions/object-flip-horizontal-symbolic.symbolic.png
@@ -3250,6 +3280,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/64x64/devices/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/devices/audio-speakers-rtl-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/devices/audio-speakers-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/devices/audio-speakers-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/devices/auth-face-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/devices/auth-fingerprint-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/devices/auth-sim-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/64x64/devices/auth-smartcard-symbolic.symbolic.png
@@ -3810,9 +3841,13 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/96x96/actions/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-playback-start-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-playback-stop-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-record-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-seek-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-seek-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-seek-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-seek-forward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-skip-backward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-skip-backward-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-skip-forward-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-skip-forward-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/media-view-subtitles-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/actions/object-flip-horizontal-symbolic.symbolic.png
@@ -3910,6 +3945,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/96x96/devices/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/devices/audio-speakers-rtl-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/devices/audio-speakers-symbolic-rtl.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/devices/audio-speakers-symbolic.symbolic.png
+-rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/devices/auth-face-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/devices/auth-fingerprint-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/devices/auth-sim-symbolic.symbolic.png
 -rw-r--r--	root/root	usr/share/icons/Adwaita/96x96/devices/auth-smartcard-symbolic.symbolic.png
@@ -4592,9 +4628,13 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/scalable/actions/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-playback-start-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-playback-stop-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-record-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-seek-backward-symbolic-rtl.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-seek-backward-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-seek-forward-symbolic-rtl.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-seek-forward-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-skip-backward-symbolic-rtl.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-skip-backward-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-skip-forward-symbolic-rtl.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-skip-forward-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/media-view-subtitles-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/actions/object-flip-horizontal-symbolic.svg
@@ -4692,6 +4732,7 @@ drwxr-xr-x	root/root	usr/share/icons/Adwaita/scalable/devices/
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/devices/audio-speakers-rtl-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/devices/audio-speakers-symbolic-rtl.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/devices/audio-speakers-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/devices/auth-face-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/devices/auth-fingerprint-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/devices/auth-sim-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/Adwaita/scalable/devices/auth-smartcard-symbolic.svg
