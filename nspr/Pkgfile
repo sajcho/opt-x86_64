@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=nspr
-version=4.34
+version=4.35
 release=1
 source=(https://ftp.mozilla.org/pub/nspr/releases/v${version}/src/${name}-${version}.tar.gz
 	$name.pc.in)
