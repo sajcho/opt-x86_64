@@ -4,7 +4,7 @@
 # Depends on:	brotli c-ares icu libnghttp2 libuv openssl3 zlib
 
 name=nodejs
-version=16.15.0
+version=16.17.1
 release=1
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
