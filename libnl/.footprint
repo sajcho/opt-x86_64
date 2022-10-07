@@ -49,6 +49,7 @@ drwxr-xr-x	root/root	usr/include/libnl3/netlink/route/
 drwxr-xr-x	root/root	usr/include/libnl3/netlink/route/act/
 -rw-r--r--	root/root	usr/include/libnl3/netlink/route/act/gact.h
 -rw-r--r--	root/root	usr/include/libnl3/netlink/route/act/mirred.h
+-rw-r--r--	root/root	usr/include/libnl3/netlink/route/act/nat.h
 -rw-r--r--	root/root	usr/include/libnl3/netlink/route/act/skbedit.h
 -rw-r--r--	root/root	usr/include/libnl3/netlink/route/act/vlan.h
 -rw-r--r--	root/root	usr/include/libnl3/netlink/route/action.h
