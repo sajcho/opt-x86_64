@@ -1,0 +1,33 @@
+--- shared-mime-info-2.2/meson.build.orig	2022-10-07 17:48:34.494245840 +0200
++++ shared-mime-info-2.2/meson.build	2022-10-07 17:49:52.293779065 +0200
+@@ -21,7 +21,6 @@
+ # Find tools
+ 
+ xmllint = find_program('xmllint')
+-xmlto   = find_program('xmlto', required: false)
+ 
+ ###############################################################################
+ # Find xdgmime
+--- shared-mime-info-2.2/data/meson.build.orig	2022-10-07 17:48:43.904189383 +0200
++++ shared-mime-info-2.2/data/meson.build	2022-10-07 17:49:35.043882558 +0200
+@@ -14,18 +14,4 @@
+ install_data(
+   [ 'its/shared-mime-info.loc', 'its/shared-mime-info.its', ],
+   install_dir : get_option('datadir') / 'gettext/its'
+-)
+-
+-if xmlto.found()
+-    custom_target('shared-mime-info-spec-html',
+-        input : 'shared-mime-info-spec.xml',
+-        output: 'shared-mime-info-spec-html',
+-        command: [
+-            xmlto,
+-            '-o', '@OUTPUT@',
+-            'html-nochunks',
+-            '@INPUT@',
+-        ],
+-        build_by_default: true,
+-)
+-endif
++)
+\ No newline at end of file
