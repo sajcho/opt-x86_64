@@ -93,8 +93,8 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/lib/pulse/
 -rwxr-xr-x	root/root	usr/lib/pulse/gsettings-helper
 drwxr-xr-x	root/root	usr/lib/pulseaudio/
--rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecommon-16.0.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecore-16.0.so
+-rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecommon-16.1.so
+-rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecore-16.1.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsedsp.so
 drwxr-xr-x	root/root	usr/lib/pulseaudio/modules/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/libalsa-util.so
