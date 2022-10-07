@@ -5,12 +5,18 @@
 
 name=python3-libxml2
 _realname=libxml2
-version=2.9.14
+version=2.10.2
 release=1
 source=(https://download.gnome.org/sources/${_realname}/${version:0:3}/${_realname}-${version}.tar.xz)
 
 build() {
-	cd ${_realname}-${version}/python
+	cd ${_realname}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc
+
+	cd $SRC/${_realname}-${version}/python
 
 	/usr/bin/python3 setup.py build
 
