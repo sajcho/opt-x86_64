@@ -4,7 +4,7 @@
 # Depends on:	gettext
 
 name=popt
-version=1.18
+version=1.19
 release=1
 source=(http://ftp.rpm.org/${name}/releases/${name}-${version%.*}.x/${name}-${version}.tar.gz)
 
