@@ -4,8 +4,8 @@
 # Depends on:	yasm
 
 name=libvpx
-version=1.11.0
-release=2
+version=1.12.0
+release=1
 source=(https://github.com/webmproject/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
