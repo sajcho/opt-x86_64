@@ -5,7 +5,7 @@
 
 name=poppler-glib
 _realname=poppler
-version=22.06.0
+version=22.10.0
 release=1
 source=(https://poppler.freedesktop.org/${_realname}-${version}.tar.xz)
 
