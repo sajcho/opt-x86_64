@@ -2,7 +2,7 @@
 64eaa20ea49e324e5a72858f104a61eb  idmapd.conf
 586466b00be54a974f3dab28ff71b41e  nfs-server.finish
 970a684d9a6fc41b23737fd7bdade3e7  nfs-server.run
-43445a3563185963b736a7081979fd08  nfs-utils-2.6.1.tar.xz
+0961dc4777363b88f10305fc4957449f  nfs-utils-2.6.2.tar.xz
 23ee8945ead986056b2373a2cc411323  rpcblkmapd.run
 d1eeb3a18474949840dd4185ea976b63  rpcidmapd.run
 3f3972e3357a6414034d4a5825397f8a  start-statd

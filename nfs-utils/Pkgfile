@@ -4,7 +4,7 @@
 # Depends on:	keyutils libcap libdevmapper libevent rpcsvc-proto rpcbind sqlite3
 
 name=nfs-utils
-version=2.6.1
+version=2.6.2
 release=1
 source=(https://www.kernel.org/pub/linux/utils/${name}/${version}/${name}-${version}.tar.xz \
 	exports \
@@ -22,10 +22,13 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc \
+		--libexecdir=/usr/sbin \
 		--enable-libmount-mount \
 		--disable-static \
 		--disable-gss \
+		--with-systemd=no \
 		--with-statedir=/var/lib/nfs \
+		--with-modprobedir=/etc/modprobe.d \
 		--without-tcp-wrappers
 
 	make V=1
@@ -55,6 +58,10 @@ build() {
 	install -d $PKG/var/lib/nfs/{rpc_pipefs,v4recovery,nfsdcltrack,nfsdcld}
 	install -d $PKG/etc/exports.d
 	install -m 0755 $SRC/start-statd $PKG/sbin/
+
+	install -d $PKG/lib
+	mv $PKG/usr/lib/udev $PKG/lib
+	sed 's|libexec|sbin|' -i $PKG/lib/udev/rules.d/99-nfs.rules
 
 	# force rpc.statd to run as user nobody
 	chown nobody $PKG/var/lib/nfs

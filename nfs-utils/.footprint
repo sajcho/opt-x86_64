@@ -2,6 +2,8 @@ drwxr-xr-x	root/root	etc/
 -rw-r--r--	root/root	etc/exports
 drwxr-xr-x	root/root	etc/exports.d/
 -rw-r--r--	root/root	etc/idmapd.conf
+drwxr-xr-x	root/root	etc/modprobe.d/
+-rw-r--r--	root/root	etc/modprobe.d/50-nfs.conf
 -rw-r--r--	root/root	etc/nfs.conf
 -rw-r--r--	root/root	etc/nfsmount.conf
 drwxr-xr-x	root/root	etc/sv/
@@ -18,6 +20,10 @@ lrwxrwxrwx	root/root	etc/sv/rpcidmapd/supervise -> /run/runit/supervise.rpcidmap
 drwxr-xr-x	root/root	etc/sv/statd/
 -rwxr-xr-x	root/root	etc/sv/statd/run
 lrwxrwxrwx	root/root	etc/sv/statd/supervise -> /run/runit/supervise.statd
+drwxr-xr-x	root/root	lib/
+drwxr-xr-x	root/root	lib/udev/
+drwxr-xr-x	root/root	lib/udev/rules.d/
+-rw-r--r--	root/root	lib/udev/rules.d/99-nfs.rules
 drwxr-xr-x	root/root	sbin/
 -r-s--x--x	root/root	sbin/mount.nfs
 lrwxrwxrwx	root/root	sbin/mount.nfs4 -> mount.nfs
@@ -49,11 +55,13 @@ drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/nfsdclnts
 -rwxr-xr-x	root/root	usr/sbin/nfsidmap
 -rwxr-xr-x	root/root	usr/sbin/nfsiostat
+-rwxr-xr-x	root/root	usr/sbin/nfsrahead
 -rwxr-xr-x	root/root	usr/sbin/nfsstat
 -rwxr-xr-x	root/root	usr/sbin/rpc.idmapd
 -rwxr-xr-x	root/root	usr/sbin/rpc.mountd
 -rwxr-xr-x	root/root	usr/sbin/rpc.nfsd
 -rwxr-xr-x	root/root	usr/sbin/rpc.statd
+-rwxr-xr-x	root/root	usr/sbin/rpcctl
 -rwxr-xr-x	root/root	usr/sbin/rpcdebug
 -rwxr-xr-x	root/root	usr/sbin/showmount
 -rwxr-xr-x	root/root	usr/sbin/sm-notify
@@ -68,6 +76,7 @@ drwxr-xr-x	root/root	usr/share/man/man5/
 -rw-r--r--	root/root	usr/share/man/man5/nfs.5.gz
 -rw-r--r--	root/root	usr/share/man/man5/nfs.conf.5.gz
 -rw-r--r--	root/root	usr/share/man/man5/nfsmount.conf.5.gz
+-rw-r--r--	root/root	usr/share/man/man5/nfsrahead.5.gz
 drwxr-xr-x	root/root	usr/share/man/man7/
 -rw-r--r--	root/root	usr/share/man/man7/nfs.systemd.7.gz
 -rw-r--r--	root/root	usr/share/man/man7/nfsd.7.gz
@@ -92,6 +101,7 @@ lrwxrwxrwx	root/root	usr/share/man/man8/rpc.mountd.8.gz -> mountd.8.gz
 lrwxrwxrwx	root/root	usr/share/man/man8/rpc.nfsd.8.gz -> nfsd.8.gz
 lrwxrwxrwx	root/root	usr/share/man/man8/rpc.sm-notify.8.gz -> sm-notify.8.gz
 lrwxrwxrwx	root/root	usr/share/man/man8/rpc.statd.8.gz -> statd.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/rpcctl.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/rpcdebug.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/showmount.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/sm-notify.8.gz
