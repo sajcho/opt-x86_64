@@ -3,8 +3,8 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=tllist
-version=1.0.5
-release=0
+version=1.1.0
+release=1
 source=(https://codeberg.org/dnkl/tllist/archive/${version}.tar.gz)
 
 build() {
