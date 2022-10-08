@@ -4,7 +4,7 @@
 # Depends on:	speex libtheora libvorbis openssl3
 
 name=libshout
-version=2.4.5
+version=2.4.6
 release=1
 source=(https://ftp.osuosl.org/pub/xiph/releases/${name}/${name}-${version}.tar.gz)
 
