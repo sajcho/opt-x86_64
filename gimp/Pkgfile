@@ -4,8 +4,8 @@
 # Depends on:	dbus-glib desktop-file-utils gegl glib-networking gtk2 gtk2-murrine-engine gnome-themes-extra libexif libgudev libmypaint libxmu mypaint-brushes openjpeg2 poppler-data poppler-glib
 
 name=gimp
-version=2.10.30
-release=3
+version=2.10.32
+release=1
 source=(https://download.gimp.org/pub/gimp/v${version%.*}/${name}-${version}.tar.bz2)
 
 build() {

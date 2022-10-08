@@ -510,33 +510,33 @@ drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/wavelet-decompose/
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/wavelet-decompose/wavelet-decompose
 drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/web-browser/
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/web-browser/web-browser
-lrwxrwxrwx	root/root	usr/lib/libgimp-2.0.so -> libgimp-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.1000.30
--rwxr-xr-x	root/root	usr/lib/libgimp-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpbase-2.0.so -> libgimpbase-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.1000.30
--rwxr-xr-x	root/root	usr/lib/libgimpbase-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpcolor-2.0.so -> libgimpcolor-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.1000.30
--rwxr-xr-x	root/root	usr/lib/libgimpcolor-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpconfig-2.0.so -> libgimpconfig-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpconfig-2.0.so.0 -> libgimpconfig-2.0.so.0.1000.30
--rwxr-xr-x	root/root	usr/lib/libgimpconfig-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpmath-2.0.so -> libgimpmath-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpmath-2.0.so.0 -> libgimpmath-2.0.so.0.1000.30
--rwxr-xr-x	root/root	usr/lib/libgimpmath-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpmodule-2.0.so -> libgimpmodule-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.1000.30
--rwxr-xr-x	root/root	usr/lib/libgimpmodule-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpthumb-2.0.so -> libgimpthumb-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.1000.30
--rwxr-xr-x	root/root	usr/lib/libgimpthumb-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpui-2.0.so -> libgimpui-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.1000.30
--rwxr-xr-x	root/root	usr/lib/libgimpui-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpwidgets-2.0.so -> libgimpwidgets-2.0.so.0.1000.30
-lrwxrwxrwx	root/root	usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.1000.30
--rwxr-xr-x	root/root	usr/lib/libgimpwidgets-2.0.so.0.1000.30
+lrwxrwxrwx	root/root	usr/lib/libgimp-2.0.so -> libgimp-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimp-2.0.so.0 -> libgimp-2.0.so.0.1000.32
+-rwxr-xr-x	root/root	usr/lib/libgimp-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpbase-2.0.so -> libgimpbase-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpbase-2.0.so.0 -> libgimpbase-2.0.so.0.1000.32
+-rwxr-xr-x	root/root	usr/lib/libgimpbase-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpcolor-2.0.so -> libgimpcolor-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpcolor-2.0.so.0 -> libgimpcolor-2.0.so.0.1000.32
+-rwxr-xr-x	root/root	usr/lib/libgimpcolor-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpconfig-2.0.so -> libgimpconfig-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpconfig-2.0.so.0 -> libgimpconfig-2.0.so.0.1000.32
+-rwxr-xr-x	root/root	usr/lib/libgimpconfig-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpmath-2.0.so -> libgimpmath-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpmath-2.0.so.0 -> libgimpmath-2.0.so.0.1000.32
+-rwxr-xr-x	root/root	usr/lib/libgimpmath-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpmodule-2.0.so -> libgimpmodule-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpmodule-2.0.so.0 -> libgimpmodule-2.0.so.0.1000.32
+-rwxr-xr-x	root/root	usr/lib/libgimpmodule-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpthumb-2.0.so -> libgimpthumb-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpthumb-2.0.so.0 -> libgimpthumb-2.0.so.0.1000.32
+-rwxr-xr-x	root/root	usr/lib/libgimpthumb-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpui-2.0.so -> libgimpui-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpui-2.0.so.0 -> libgimpui-2.0.so.0.1000.32
+-rwxr-xr-x	root/root	usr/lib/libgimpui-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpwidgets-2.0.so -> libgimpwidgets-2.0.so.0.1000.32
+lrwxrwxrwx	root/root	usr/lib/libgimpwidgets-2.0.so.0 -> libgimpwidgets-2.0.so.0.1000.32
+-rwxr-xr-x	root/root	usr/lib/libgimpwidgets-2.0.so.0.1000.32
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gimp-2.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gimpthumb-2.0.pc
@@ -4348,8 +4348,11 @@ drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/Dark/ui/
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/minus.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/notebook.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/null.png
+-rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/option1-prelight.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/option1.png
+-rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/option2-prelight.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/option2.png
+-rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/option3-prelight.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/option3.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/plus.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/progressbar-trough.png
@@ -4370,6 +4373,7 @@ drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/Dark/ui/
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/spin.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/toolbar.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/transparent.png
+-rw-r--r--	root/root	usr/share/gimp/2.0/themes/Dark/ui/treeview-item-prelight.png
 drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/Gray/
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Gray/gtkrc
 drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/Gray/ui/
@@ -4495,6 +4499,7 @@ drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/Gray/ui/
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Gray/ui/spin.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Gray/ui/toolbar.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Gray/ui/transparent.png
+-rw-r--r--	root/root	usr/share/gimp/2.0/themes/Gray/ui/treeview-item-prelight.png
 drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/Light/
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Light/gtkrc
 drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/Light/ui/
@@ -4622,6 +4627,7 @@ drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/Light/ui/
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Light/ui/spin.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Light/ui/toolbar.png
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/Light/ui/transparent.png
+-rw-r--r--	root/root	usr/share/gimp/2.0/themes/Light/ui/treeview-item-prelight.png
 drwxr-xr-x	root/root	usr/share/gimp/2.0/themes/System/
 -rw-r--r--	root/root	usr/share/gimp/2.0/themes/System/gtkrc
 drwxr-xr-x	root/root	usr/share/gimp/2.0/tips/
