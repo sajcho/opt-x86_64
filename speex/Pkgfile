@@ -4,7 +4,7 @@
 # Depends on:	libogg speexdsp
 
 name=speex
-version=1.2.0
+version=1.2.1
 release=1
 source=(http://downloads.us.xiph.org/releases/${name}/${name}-${version}.tar.gz)
 
