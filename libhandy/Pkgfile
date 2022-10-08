@@ -4,7 +4,7 @@
 # Depends on:	gtk3 vala
 
 name=libhandy
-version=1.6.2
+version=1.8.0
 release=1
 source=(https://gitlab.gnome.org/GNOME/${name}/-/archive/${version}/${name}-${version}.tar.bz2)
 
