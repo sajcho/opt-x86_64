@@ -4,7 +4,7 @@
 # Depends on:	libpcap libssh2 libpcre
 
 name=nmap
-version=7.92
+version=7.93
 release=1
 source=(https://nmap.org/dist/${name}-${version}.tar.bz2)
 
