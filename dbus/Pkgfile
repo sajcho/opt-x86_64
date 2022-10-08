@@ -1,10 +1,10 @@
 # Description:	A message bus system - with support elogind
 # URL:		https://freedesktop.org/wiki/Software/dbus
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	autoconf-archive elogind xmlto
+# Depends on:	autoconf-archive elogind
 
 name=dbus
-version=1.14.2
+version=1.14.4
 release=1
 source=(https://dbus.freedesktop.org/releases/dbus/${name}-${version}.tar.xz \
 	dbus-daemon-optional.patch \
