@@ -4,8 +4,8 @@
 # Depends on:	basu pango scdoc wayland-protocols
 
 name=mako
-version=1.6
-release=0
+version=1.7.1
+release=1
 source=(https://github.com/emersion/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
