@@ -4,7 +4,7 @@
 # Depends on:	libsoup json-glib gtk3 yaml
 
 name=appstream-glib
-version=0.7.18
+version=0.8.1
 release=1
 source=(https://people.freedesktop.org/~hughsient/${name}/releases/${name}-${version}.tar.xz)
 
@@ -12,11 +12,11 @@ build() {
 	cd ${name}-${version}
 
 	build-meson \
-		-Dman=true \
 		-Dfonts=true \
 		-Ddep11=true \
 		-Dbuilder=true \
 		-Dintrospection=true \
+		-Dman=false \
 		-Dalpm=false \
 		-Dgtk-doc=false \
 		-Drpm=false \
