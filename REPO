@@ -633,9 +633,9 @@ f:64bb1990600481870977188e522108da:fmt/Pkgfile
 f:076b7eac0d84b76f478dcc7c301ff068:startup-notification/.md5sum
 f:b70b1c89508e33dfd28908af03b32eb5:startup-notification/.footprint
 f:44d294d0ee3769e1d29e287db1092195:startup-notification/Pkgfile
-f:43b2708fe994b96877ec58091f658c4f:icewm/.md5sum
+f:d285bf47a235f5ed12017bbeec97c7e7:icewm/.md5sum
 f:863f7fcc6653a49112553f3670ff585d:icewm/.footprint
-f:349b6b5cba3c26c7b784944fa6aa0910:icewm/Pkgfile
+f:fdd6485da8354f62b0f3340d6b6349b0:icewm/Pkgfile
 f:57c60f46eb1b58486e533c268be3bcee:basu/.md5sum
 f:7e49426d3761e1835253a454689c61bd:basu/.footprint
 f:eaaf3040a95640c16ced4dc90f51f592:basu/Pkgfile
@@ -1096,11 +1096,12 @@ f:065d43f30c9c6bbd78198f4a472cafbb:gpgme/Pkgfile
 f:3a595c2a0e454614e91cf64e9b3d152c:mjpegtools/.md5sum
 f:43a2cd215b7ffdbe783d63a79d4ab031:mjpegtools/.footprint
 f:93ac72df42757415d35a7a96992c3f6d:mjpegtools/Pkgfile
-f:d1b64e0ae5f2c19f6a8ed55e9bef94c5:firefox/.md5sum
+f:1aa9391de814edc2fa78556b1c62d843:firefox/buildlog
+f:1058149dea7300ce8411c26ccb8b71b8:firefox/.md5sum
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
 f:247306ca95bcb25e15d01a19fb4675ff:firefox/add-support-enable-linker-mold.patch
-f:868a26c9bbba8adf7e58a673abd86256:firefox/Pkgfile
+f:b19ba9cdeb582c4842f2a83206dbe342:firefox/Pkgfile
 f:2dc9d626228874dbc79f33869eda7ed6:npth/.md5sum
 f:6d9837eb6e4845b412795a25d3c22316:npth/.footprint
 f:77201cc3c33be4c9856493c8a4cc9d64:npth/Pkgfile
