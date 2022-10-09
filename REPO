@@ -790,9 +790,9 @@ f:9fba278f81953641f6fb76e63b8bd5cd:gtk-doc/Pkgfile
 f:384f715e9ebaab49edefd9648662c658:python3-cairo/.md5sum
 f:cee2755a8e86e2b15754bb8ccb3d7083:python3-cairo/.footprint
 f:ce61947b117e840e510768de4a2edd3b:python3-cairo/Pkgfile
-f:10d63f142899d370816f4d1aeb34b7c8:imagemagick/.md5sum
+f:c4750ffa6a1ffe0322928568cd430dd6:imagemagick/.md5sum
 f:0211b8f4f9616e824876055037b6f357:imagemagick/.footprint
-f:e30e6f89eb31b0b01fe6df9ab92efb1a:imagemagick/Pkgfile
+f:02ba33e03dc7c52d1151e861ca07fd47:imagemagick/Pkgfile
 f:4981d37e956fb9ea1843336c067f3a7d:procmail/.md5sum
 f:8337a75e3864026e3d17cd82646965b0:procmail/.footprint
 f:6ff3fbbf6b31fe869a1312c3566eb52c:procmail/formisc.c.patch
