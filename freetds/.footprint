@@ -1,0 +1,50 @@
+drwxr-xr-x	root/root	etc/
+-rw-r--r--	root/root	etc/freetds.conf
+-rw-r--r--	root/root	etc/locales.conf
+-rw-r--r--	root/root	etc/pool.conf
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/bsqldb
+-rwxr-xr-x	root/root	usr/bin/bsqlodbc
+-rwxr-xr-x	root/root	usr/bin/datacopy
+-rwxr-xr-x	root/root	usr/bin/defncopy
+-rwxr-xr-x	root/root	usr/bin/fisql
+-rwxr-xr-x	root/root	usr/bin/freebcp
+-rwxr-xr-x	root/root	usr/bin/osql
+-rwxr-xr-x	root/root	usr/bin/tdspool
+-rwxr-xr-x	root/root	usr/bin/tsql
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/bkpublic.h
+-rw-r--r--	root/root	usr/include/cspublic.h
+-rw-r--r--	root/root	usr/include/cstypes.h
+-rw-r--r--	root/root	usr/include/ctpublic.h
+-rw-r--r--	root/root	usr/include/odbcss.h
+-rw-r--r--	root/root	usr/include/sqldb.h
+-rw-r--r--	root/root	usr/include/sqlfront.h
+-rw-r--r--	root/root	usr/include/sybdb.h
+-rw-r--r--	root/root	usr/include/syberror.h
+-rw-r--r--	root/root	usr/include/sybfront.h
+-rw-r--r--	root/root	usr/include/tds_sysdep_public.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libct.so -> libct.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libct.so.4 -> libct.so.4.0.0
+-rwxr-xr-x	root/root	usr/lib/libct.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libsybdb.so -> libsybdb.so.5.1.0
+lrwxrwxrwx	root/root	usr/lib/libsybdb.so.5 -> libsybdb.so.5.1.0
+-rwxr-xr-x	root/root	usr/lib/libsybdb.so.5.1.0
+lrwxrwxrwx	root/root	usr/lib/libtdsodbc.so -> libtdsodbc.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libtdsodbc.so.0 -> libtdsodbc.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libtdsodbc.so.0.0.0
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/bsqldb.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/bsqlodbc.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/datacopy.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/defncopy.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/fisql.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/freebcp.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/osql.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/tsql.1.gz
+drwxr-xr-x	root/root	usr/share/man/man5/
+-rw-r--r--	root/root	usr/share/man/man5/freetds.conf.5.gz
