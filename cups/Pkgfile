@@ -1,0 +1,58 @@
+# Description:	CUPS - Common UNIX Printing System
+# URL:		https://openprinting.github.io/cups/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	acl libusb zlib linux-pam
+
+name=cups
+version=2.4.2
+release=0
+source=(https://github.com/OpenPrinting/${name}/releases/download/v${version}/${name}-${version}-source.tar.gz \
+	cups.pam cupsd.run)
+
+build() {
+	cd ${name}-${version}
+
+	CC=cc CXX=c++ \
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libdir=/usr/lib \
+		--localstatedir=/var \
+		--enable-acl \
+		--disable-dbus \
+		--with-rundir=/run/cups \
+		--with-docdir=/usr/share/cups/doc \
+		--with-logdir=/var/log/socklog/cups \
+		--with-cups-user=daemon \
+		--with-cups-group=lp \
+		--with-languages="" \
+		--with-dnssd=no \
+		--with-optim="$CFLAGS" \
+		--without-rcdir \
+		--without-tls \
+		--without-systemd
+
+	make V=1
+	make BUILDROOT=$PKG install
+
+	# conflict with cups-filters
+	rm -r $PKG/usr/share/cups/{banners,data}
+
+	# cleanup
+	rm -r $PKG/usr/share/{applications,icons}
+	rm -r $PKG/run
+	chmod 0755 $PKG/var/{cache,spool}
+	chmod -R +w $PKG
+
+	# pam module
+	install -D -m 0644 $SRC/cups.pam $PKG/etc/pam.d/cups
+
+	# blacklist usblp kernel module
+	install -d $PKG/etc/modprobe.d
+	echo 'blacklist usblp' > $PKG/etc/modprobe.d/cups.conf
+
+	# cupsd runit service
+	install -d $PKG/etc/sv/cupsd
+	install -m 0755 $SRC/cupsd.run $PKG/etc/sv/cupsd/run
+	ln -s /run/runit/supervise.cupsd $PKG/etc/sv/cupsd/supervise
+}
