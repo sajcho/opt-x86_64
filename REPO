@@ -14,6 +14,7 @@ d:giflib
 d:graphite2
 d:htop
 d:python3-cparser
+d:unixodbc
 d:ffmpeg
 d:intltool
 d:python3-xlib
@@ -148,6 +149,7 @@ d:iso-codes
 d:brotli
 d:gst-plugins-good
 d:hicolor-icon-theme
+d:freetds
 d:python3-dasbus
 d:json-glib
 d:nss
@@ -163,6 +165,8 @@ d:swaylockd
 d:libappindicator-gtk3
 d:libsoup3
 d:oniguruma
+d:mariadb
+d:libb2
 d:materia-gtk-theme
 d:seatd
 d:libmpdclient
@@ -176,6 +180,7 @@ d:chromaprint
 d:ffmpegthumbnailer
 d:gimp
 d:wl-clipboard-rs
+d:ghostscript
 d:numlockx
 d:x265
 d:dbus-glib
@@ -185,6 +190,7 @@ d:libgcrypt
 d:python3-pygments
 d:babl
 d:libogg
+d:double-conversion
 d:python3-pillow
 d:tmux
 d:asciidoctor
@@ -205,6 +211,7 @@ d:harfbuzz
 d:gtk2
 d:rxvt-unicode
 d:cyrus-sasl
+d:tslib
 d:scdoc
 d:libxklavier
 d:mutt
@@ -225,7 +232,9 @@ d:x264
 d:gpgme
 d:mjpegtools
 d:firefox
+d:mailx
 d:npth
+d:cups
 d:libheif
 d:chrpath
 d:python3-geographiclib
@@ -267,6 +276,7 @@ d:libpng
 d:gexiv2
 d:poppler-data
 d:gtk-layer-shell
+d:libproxy
 d:gst-libav
 d:taglib
 d:wavpack
@@ -357,6 +367,9 @@ f:305d3db738aced18850ec9eb190a76b2:htop/Pkgfile
 f:a6548395e84acc9b728334a60236221f:python3-cparser/.md5sum
 f:202d083026aba8fc2332c780b66aa3e1:python3-cparser/.footprint
 f:e1a59a6007fe9bb3f1745379d7cdbe9f:python3-cparser/Pkgfile
+f:f8258c1c304dffd2bc0c6dad7e61666c:unixodbc/.md5sum
+f:d736d2be8fe0d430ab92a2ddeb1ac902:unixodbc/.footprint
+f:63b634fb32bf79730d89dc4b621d5e13:unixodbc/Pkgfile
 f:644bd753041e4dd6bbfa612b1c5c093c:ffmpeg/.md5sum
 f:7c526a7d3b57e6e3542479c6aadf22e3:ffmpeg/.footprint
 f:10df3fca764b71a82a0b5458abc46bd6:ffmpeg/Pkgfile
@@ -827,6 +840,9 @@ f:f7e1efa0b27616dffa4a23c8560afa5c:gst-plugins-good/Pkgfile
 f:94bccb069c53d4b9068e0188012e6257:hicolor-icon-theme/.md5sum
 f:cd6dade7e39e9c9c686e845696dc7905:hicolor-icon-theme/.footprint
 f:8f75f90d93499f250740704df39d1bcc:hicolor-icon-theme/Pkgfile
+f:cbac0c859e3590799eba92f2fe465806:freetds/.md5sum
+f:30975e50bcd022c8b85fb467c0ed6953:freetds/.footprint
+f:8a452e1872cdb4014da905363e1b4ec6:freetds/Pkgfile
 f:bdfd9c6683ddfeb4020f5791963590af:python3-dasbus/.md5sum
 f:92a9151c46795d2290b3b888b8878150:python3-dasbus/.footprint
 f:ac0415b51e2743d89e670e23bbc86ba3:python3-dasbus/Pkgfile
@@ -899,6 +915,16 @@ f:3c8ab57a79460b46d1b67f94b8679f6b:libsoup3/Pkgfile
 f:d1347cc3b4af653fcb0cb5b0a70cc13b:oniguruma/.md5sum
 f:a0a7d1e8f50031e71e4b4b20abd01733:oniguruma/.footprint
 f:11bb1d9636af299cf63779b75239fa8e:oniguruma/Pkgfile
+f:c05114f7b5b09dadc0b4fabeb767c7f9:mariadb/.md5sum
+f:2774ed58ddcc0a856775d6958aeb4b4d:mariadb/pre-install
+f:ba9a2c28d50fdefba049da0054d88740:mariadb/.footprint
+f:2d7f517d6b101ccbe5006bf0b21a98ab:mariadb/mysqld-log.run
+f:23658e1b2e272c98ff6214508e3ac414:mariadb/mysqld.run
+f:fa8415776216b63d13d96594b5972de4:mariadb/mariadb.pam
+f:b27486748552bd5339fb98f0aa113a31:mariadb/Pkgfile
+f:642db249457013cb825a012a39662f82:libb2/.md5sum
+f:016d1e2393ade9522b842db43387b00d:libb2/.footprint
+f:177371d5cde12eaa484f048a2c572bfd:libb2/Pkgfile
 f:3fc247eec125606ba8e4da9172c284fc:materia-gtk-theme/.md5sum
 f:130722664a47bd922099706a88572b06:materia-gtk-theme/.footprint
 f:382ac07caf288c2bc6927e3ac623b5ca:materia-gtk-theme/Pkgfile
@@ -942,6 +968,9 @@ f:427c8efa96d963eb9b6f596b9134db03:gimp/Pkgfile
 f:4c8dd6f21ad0ad44c647edefda83bff1:wl-clipboard-rs/.md5sum
 f:7351ad1bb7b759ad7618c9d9c272af51:wl-clipboard-rs/.footprint
 f:d44648e174737f4a0d092513528fe73a:wl-clipboard-rs/Pkgfile
+f:240a02502c8291353f59bdc805bb0c85:ghostscript/.md5sum
+f:187f4b947839495dacc90a7b6a7558fc:ghostscript/.footprint
+f:f46ad43a8c8cad8d57d5b8b882f058e5:ghostscript/Pkgfile
 f:574ab10d9892edfc286a1e7d7864a513:numlockx/get-state.patch
 f:36103d90900792c8d35fe718c2eca9e5:numlockx/.md5sum
 f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
@@ -971,6 +1000,9 @@ f:c41f3d93d8eddbe1136b3df66aed5da3:babl/Pkgfile
 f:12c631a7bb3f336ac6563804fbd239a5:libogg/.md5sum
 f:54e466f558ada268c4452302e8ab7cc6:libogg/.footprint
 f:243f8a208bc9f5295c9ee8f6bbd7e0ba:libogg/Pkgfile
+f:2612b6e93f120dbc00edb2d31e24cfa6:double-conversion/.md5sum
+f:fa8b7d6a02e9fe92b881a99afec7508d:double-conversion/.footprint
+f:0f3c3edeb1e82d6f36b49364793fe04e:double-conversion/Pkgfile
 f:87b8c6dae2b6d3cf3a7c381ff2d3a499:python3-pillow/.md5sum
 f:3f92fc0c8c76e9ed421785c660e4dfcb:python3-pillow/.footprint
 f:c94bad3e5c77de0200742ba7f219400d:python3-pillow/Pkgfile
@@ -1036,6 +1068,9 @@ f:f53bd63d43b26b8a2cee067d11ca9a1f:cyrus-sasl/saslauthd.run
 f:172c634ea15a3b05e03836735f133279:cyrus-sasl/.footprint
 f:0e500515c2aeb7c896cc02be96d1f1d0:cyrus-sasl/saslauthd-sv.conf
 f:0481ca896e8ab3ba313f830fba2994fd:cyrus-sasl/Pkgfile
+f:432dca69a78399fba83bf946b934a45c:tslib/.md5sum
+f:50c006d87c49a5d78c231cd5fe06ba01:tslib/.footprint
+f:332cedf590b773b7c110be1f1767aab6:tslib/Pkgfile
 f:9c57d5afad542f32423893c752fe393c:scdoc/.md5sum
 f:f6552b1ea673bcfc2584d4c7050244f9:scdoc/.footprint
 f:cac2211fc69e1f61168e262be3778333:scdoc/Pkgfile
@@ -1102,9 +1137,18 @@ f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
 f:247306ca95bcb25e15d01a19fb4675ff:firefox/add-support-enable-linker-mold.patch
 f:b19ba9cdeb582c4842f2a83206dbe342:firefox/Pkgfile
+f:84da0ac387692e5733a3c21e9a4e69c8:mailx/.md5sum
+f:0c46c47371a1d196b17575ca175b7408:mailx/.footprint
+f:006cce934680ea3b384b7514d5bbe570:mailx/Pkgfile
 f:2dc9d626228874dbc79f33869eda7ed6:npth/.md5sum
 f:6d9837eb6e4845b412795a25d3c22316:npth/.footprint
 f:77201cc3c33be4c9856493c8a4cc9d64:npth/Pkgfile
+f:80a1477c6ad10eeb6c7bcaae7c50cf9b:cups/README
+f:90f9e00af7c1654f29f5058b9ad359d2:cups/.md5sum
+f:e831eec7e9ec19da5c8d8466d7b42b7e:cups/cups.pam
+f:7ff084677614b02915fa8e05e8817cfe:cups/cupsd.run
+f:93198e7f7aedbd78d0876cc66bbfe1c6:cups/.footprint
+f:d4abeb7bc74c9079f27030811f4a7ec2:cups/Pkgfile
 f:1fa131e5937e321a360c9d0b0f993da7:libheif/.md5sum
 f:dcab9a3c7492747df8040b607bb82fbb:libheif/.footprint
 f:36499bf43fa7e55d7e2faa3370acbde8:libheif/Pkgfile
@@ -1245,6 +1289,9 @@ f:4f050ff889f87967f5971d5d4a1c6ee3:poppler-data/Pkgfile
 f:01ddccf1e96e1728be14587e4bf31fd3:gtk-layer-shell/.md5sum
 f:ec5e1aea7180925bfe4009e8ef6d8919:gtk-layer-shell/.footprint
 f:18be0aba75f826b5bc2413eeaf63b8ed:gtk-layer-shell/Pkgfile
+f:e302c97a5c6fee7504a85d958697fae7:libproxy/.md5sum
+f:5e368188505d2a529c2494d38a7c6186:libproxy/.footprint
+f:49a861960dda6893a33e82c47e2eed5b:libproxy/Pkgfile
 f:1d5bb08efd6b17b672ca04dfe539f584:gst-libav/.md5sum
 f:4cf6d310009d89211cbbaa8cf4315201:gst-libav/.footprint
 f:0a563b9448221d39639fe619f58aa5fc:gst-libav/Pkgfile
