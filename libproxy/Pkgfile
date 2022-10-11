@@ -1,0 +1,30 @@
+# Description:	Library handling all the details of proxy configuration
+# URL:		https://github.com/libproxy/libproxy
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake dbus glib
+
+name=libproxy
+version=0.4.18
+release=0
+source=(https://github.com/${name}/${name}/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DLIBEXEC_INSTALL_DIR=/usr/lib \
+		-DMODULE_INSTALL_DIR=/usr/lib/libproxy/${version}/modules \
+		-DPYTHON3_EXECUTABLE=/usr/bin/python3 \
+		-DWITH_PYTHON3=ON \
+		-DWITH_PERL=OFF \
+		-Wno-dev
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+
+	make DESTDIR=$PKG install
+}
