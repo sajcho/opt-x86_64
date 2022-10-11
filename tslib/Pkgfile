@@ -1,0 +1,24 @@
+# Description:	Touchscreen Access Library
+# URL:		https://github.com/libts/tslib
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=tslib
+version=1.22
+release=0
+source=(https://github.com/libts/${name}/releases/download/${version}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	./autogen.sh
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
