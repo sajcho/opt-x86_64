@@ -1,0 +1,32 @@
+# Description:C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+# URL:https://blake2.net/
+# Maintainer:sajcho, saux dot aarch64 at gmail dot com
+
+name=libb2
+version=0.98.1
+release=0
+source=(https://github.com/BLAKE2/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	case "$CARCH" in
+	x86*)
+		_fat_runtime=yes
+		;;
+	*)
+		_fat_runtime=no
+		;;
+	esac
+
+	./configure \
+		--prefix=/usr \
+		--disable-static \
+		--enable-fat=$_fat_runtime
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
