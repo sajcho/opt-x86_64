@@ -4,22 +4,17 @@
 # Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip libxcomposite libxcursor libxinerama libxt zip
 
 name=firefox
-version=105.0.3
+version=106.0
 release=1
 source=(https://ftp.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
-	add-support-enable-linker-mold.patch \
 	firefox.desktop)
 
 build() {
 	cd ${name}-${version}
 
-	# https://phabricator.services.mozilla.com/D134330
-	patch -p1 -i $SRC/add-support-enable-linker-mold.patch
-
 	export SHELL="/bin/bash"
 	export BUILD_OFFICIAL=1
 	export MOZILLA_OFFICIAL=1
-	#export MACH_USE_SYSTEM_PYTHON=1
 	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE="none"
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
 	export MOZ_NOSPAM=1
