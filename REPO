@@ -1131,12 +1131,11 @@ f:065d43f30c9c6bbd78198f4a472cafbb:gpgme/Pkgfile
 f:3a595c2a0e454614e91cf64e9b3d152c:mjpegtools/.md5sum
 f:43a2cd215b7ffdbe783d63a79d4ab031:mjpegtools/.footprint
 f:93ac72df42757415d35a7a96992c3f6d:mjpegtools/Pkgfile
-f:1aa9391de814edc2fa78556b1c62d843:firefox/buildlog
-f:1058149dea7300ce8411c26ccb8b71b8:firefox/.md5sum
+f:9017615419adb1a0b331c8c9b3270d64:firefox/buildlog
+f:71f9399a0176f06c8811492e332e1f77:firefox/.md5sum
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
-f:247306ca95bcb25e15d01a19fb4675ff:firefox/add-support-enable-linker-mold.patch
-f:b19ba9cdeb582c4842f2a83206dbe342:firefox/Pkgfile
+f:7ad2cf3660f8829f05507d17af89c71b:firefox/Pkgfile
 f:84da0ac387692e5733a3c21e9a4e69c8:mailx/.md5sum
 f:0c46c47371a1d196b17575ca175b7408:mailx/.footprint
 f:006cce934680ea3b384b7514d5bbe570:mailx/Pkgfile
