@@ -6,7 +6,7 @@
 name=imagemagick
 _realname=ImageMagick
 version=7.1.0-51
-release=1
+release=2
 source=(https://imagemagick.org/archive/${_realname}-${version}.tar.xz)
 
 build() {
@@ -19,7 +19,8 @@ build() {
 		--with-modules \
 		--with-perl=yes \
 		--with-lcms=yes \
-		--with-rsvg
+		--with-rsvg \
+		--with-gvc=no
 
 	make V=1
 
