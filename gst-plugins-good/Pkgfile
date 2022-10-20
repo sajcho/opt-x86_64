@@ -4,7 +4,7 @@
 # Depends on:	cairo flac gst-plugins-base gstreamer gtk3 lame libavc1394 libcaca libdv libgudev libice libiec61883 libjpeg-turbo libogg libpng libshout libsm libsoup libvpx libxdamage libxext libxv mpg123 orc pulseaudio taglib wavpack
 
 name=gst-plugins-good
-version=1.20.3
+version=1.20.4
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
