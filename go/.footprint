@@ -1247,6 +1247,7 @@ drwxr-xr-x	root/root	usr/lib/go/src/archive/tar/testdata/
 -rw-r--r--	root/root	usr/lib/go/src/archive/tar/testdata/neg-size.tar
 -rw-r--r--	root/root	usr/lib/go/src/archive/tar/testdata/nil-uid.tar
 -rw-r--r--	root/root	usr/lib/go/src/archive/tar/testdata/pax-bad-hdr-file.tar
+-rw-r--r--	root/root	usr/lib/go/src/archive/tar/testdata/pax-bad-hdr-large.tar.bz2
 -rw-r--r--	root/root	usr/lib/go/src/archive/tar/testdata/pax-bad-mtime-file.tar
 -rw-r--r--	root/root	usr/lib/go/src/archive/tar/testdata/pax-global-records.tar
 -rw-r--r--	root/root	usr/lib/go/src/archive/tar/testdata/pax-multi-hdrs.tar
@@ -12459,7 +12460,11 @@ drwxr-xr-x	root/root	usr/lib/go/test/fixedbugs/issue5470.dir/
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5470.dir/a.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5470.dir/b.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5470.go
+-rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue54911.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5493.go
+-rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue54991.go
+-rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue55122.go
+-rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue55122b.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5515.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5581.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5607.go
@@ -13396,6 +13401,7 @@ drwxr-xr-x	root/root	usr/lib/go/test/typeparam/issue52117.dir/
 -rw-r--r--	root/root	usr/lib/go/test/typeparam/issue53477.go
 -rw-r--r--	root/root	usr/lib/go/test/typeparam/issue53762.go
 -rw-r--r--	root/root	usr/lib/go/test/typeparam/issue54135.go
+-rw-r--r--	root/root	usr/lib/go/test/typeparam/issue54225.go
 drwxr-xr-x	root/root	usr/lib/go/test/typeparam/issue54302.dir/
 -rw-r--r--	root/root	usr/lib/go/test/typeparam/issue54302.dir/a.go
 -rw-r--r--	root/root	usr/lib/go/test/typeparam/issue54302.dir/main.go
