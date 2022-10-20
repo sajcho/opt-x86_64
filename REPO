@@ -1363,10 +1363,8 @@ f:374150c5252aceab4294224a45a08228:dtc/Pkgfile
 f:81f22e836f465152bbaac33560b25ad9:polkit/.md5sum
 f:c499f5eca301d440d7a094f900e97e57:polkit/pre-install
 f:43cef324e77e2dabdc8ab574318ac827:polkit/polkit-1
-f:4347899c56f8009c74cd1047cb7cc3b4:polkit/99.patch
 f:bc5a2cb2cfad859e8e0d51f5940b66b3:polkit/.footprint
-f:8b496066b7fe2046b08c51f82a4f744f:polkit/CVE-2021-4034.patch
-f:6c3fce9e3caae8659c4e85f59028237f:polkit/Pkgfile
+f:683e54af309b3caf83d3130aed8052c0:polkit/Pkgfile
 f:758ba56078f7a200dc05ed67d3c6df5a:python3-mako/.md5sum
 f:04da7121f7cb3053e0b4beb05d5def5b:python3-mako/.footprint
 f:2e90570db7d731c5abba4db24921d5e0:python3-mako/Pkgfile
