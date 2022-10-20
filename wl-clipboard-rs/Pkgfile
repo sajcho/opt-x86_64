@@ -4,7 +4,7 @@
 # Depends on:	rust wayland
 
 name=wl-clipboard-rs
-version=0.6.0
+version=0.7.0
 release=1
 source=(https://github.com/YaLTeR/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
