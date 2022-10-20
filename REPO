@@ -1264,9 +1264,9 @@ f:0bb06f8b2cf2425aca0a7ea2637a17e2:make-ca/Pkgfile
 f:611b1605d5d41fcc9e7343ce33b54874:python3-attrs/.md5sum
 f:090ad2d900bc6f7a07510627b32860af:python3-attrs/.footprint
 f:b584807517d9f33802e8a30b35030a5d:python3-attrs/Pkgfile
-f:2e527ce3e8275eaef20dab77ceb11fa0:python3-libxml2/.md5sum
-f:97a3c3c43978705b41849a78c6771424:python3-libxml2/.footprint
-f:bf774d89143156bda9e59ea6bf941ef4:python3-libxml2/Pkgfile
+f:e84f8f36fe6e75b5a1ace8da320478b5:python3-libxml2/.md5sum
+f:3f041abe2207715bc0fb09b0b5edb6a6:python3-libxml2/.footprint
+f:7fca6c9dcbf3fc2f6fc04f0b7818d54a:python3-libxml2/Pkgfile
 f:f28a5999b802456767df99b67a512c03:libpsl/.md5sum
 f:a0d61908132e06685a4d42d9fc85e764:libpsl/.footprint
 f:1dd90bf4a0cd87be32024a4504b0c6f7:libpsl/Pkgfile
