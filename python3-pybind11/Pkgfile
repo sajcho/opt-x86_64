@@ -1,0 +1,38 @@
+# Description:	Seamless operability between C++11 and Python
+# URL:		https://github.com/pybind/pybind11
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	boost python3-setuptools samurai
+
+name=python3-pybind11
+_realname=pybind11
+version=2.10.0
+release=1
+source=(https://github.com/pybind/${_realname}/archive/v${version}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	# fails to build with fortify headers enabled
+	# https://github.com/pybind/pybind11/issues/1650
+	export CXXFLAGS="$CXXFLAGS -U_FORTIFY_SOURCE"
+
+	/usr/bin/python3 setup.py build
+
+	cmake -G Ninja \
+		-DCMAKE_BUILD_TYPE=None \
+		-DPYTHON_EXECUTABLE=/usr/bin/python3 \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DUSE_PYTHON_INCLUDE_DIR=FALSE \
+		-Wno-dev
+
+	ninja
+
+	/usr/bin/python3 setup.py install \
+		--install-headers=/usr/include/pybind11 \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+
+	DESTDIR=$PKG ninja install
+}
