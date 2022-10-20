@@ -1,0 +1,26 @@
+# Description:	Application development toolkit for controlling system-wide privileges
+# URL:		https://gitlab.freedesktop.org/polkit/polkit/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	dbus duktape gobject-introspection intltool mozjs91 util-linux
+
+name=polkit
+version=121
+release=1
+source=(https://freedesktop.org/software/${name}/releases/${name}-${version}.tar.gz \
+	polkit-1)
+
+build() {
+	cd ${name}-v.${version}
+
+	build-meson . build
+#-Djs_engine=mozjs \
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	chmod 4775 $PKG/usr/bin/pkexec
+	chmod 4755 $PKG/usr/lib/polkit-1/polkit-agent-helper-1
+	install -m 0644 $SRC/polkit-1 $PKG/etc/pam.d
+
+	rm -r $PKG/usr/share/locale
+}
