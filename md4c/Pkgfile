@@ -1,0 +1,25 @@
+# Description:	Fast Markdown parser written in C
+# URL:		https://github.com/mity/md4c
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake samurai
+
+name=md4c
+version=0.4.8
+release=1
+source=(https://github.com/mity/${name}/archive/release-${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-release-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-Wno-dev
+
+	ninja
+
+	DESTDIR=$PKG ninja install
+}
