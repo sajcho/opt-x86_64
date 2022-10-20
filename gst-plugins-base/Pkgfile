@@ -4,7 +4,7 @@
 # Depends on:	alsa-lib cdparanoia gobject-introspection graphene gstreamer gtk3 libice libogg libsm libtheora libvisual libvorbis libxv mesa opus orc
 
 name=gst-plugins-base
-version=1.20.3
+version=1.20.4
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
