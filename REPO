@@ -986,8 +986,8 @@ f:f035ef668be4de3de6cf1985b30d6c3d:ffmpegthumbnailer/ffmpeg5.patch
 f:2e44b4d393c09b5c468aa77dcb5ee347:ffmpegthumbnailer/.footprint
 f:f9c6642dbcbc93f24c5a4a5105ee9b49:ffmpegthumbnailer/Pkgfile
 f:93a193217d40a8f987ab772fa4d8cb13:gimp/.md5sum
-f:5a4b28b1686dec6d6371af7e1d69a5a6:gimp/.footprint
-f:427c8efa96d963eb9b6f596b9134db03:gimp/Pkgfile
+f:e917980963fcd80546b210bb0c364739:gimp/.footprint
+f:6776577d50cc83ed9e3ef827333b2bfd:gimp/Pkgfile
 f:809c9dea07b2208f094246d212186b86:wl-clipboard-rs/.md5sum
 f:7351ad1bb7b759ad7618c9d9c272af51:wl-clipboard-rs/.footprint
 f:414572fadf52d539b7d5cd840c9696d5:wl-clipboard-rs/Pkgfile
@@ -1223,7 +1223,7 @@ f:eadbd1bac354a4ab0290465f07f73bbd:pangomm/.footprint
 f:48797bce0cf5f801e69a4a2b0effd199:pangomm/Pkgfile
 f:4abdb074f4ffd4f51b28fbff93036314:gegl/.md5sum
 f:a795d6a0b1ee7bdb4e2e0a5f27f52ed7:gegl/.footprint
-f:42bae7cf6b1cb61902357c7bf6025aaa:gegl/Pkgfile
+f:d843349ba2a5c75479139f03d201929e:gegl/Pkgfile
 f:15ec4ab3483274842f4294cd125ca289:sdl2/.md5sum
 f:f3c297141cd3426290c60a204ac788cd:sdl2/.footprint
 f:d3b41faa65698dbec6166c075b7b754a:sdl2/Pkgfile
