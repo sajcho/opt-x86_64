@@ -822,7 +822,7 @@ f:cee2755a8e86e2b15754bb8ccb3d7083:python3-cairo/.footprint
 f:ce61947b117e840e510768de4a2edd3b:python3-cairo/Pkgfile
 f:142b94385a168ab7a9b76fc0514fed3b:imagemagick/.md5sum
 f:0211b8f4f9616e824876055037b6f357:imagemagick/.footprint
-f:94015e26c2ee722054b7835be2330a7d:imagemagick/Pkgfile
+f:b17a3bf0ec7d4811f588ffa2df39b1c1:imagemagick/Pkgfile
 f:4981d37e956fb9ea1843336c067f3a7d:procmail/.md5sum
 f:8337a75e3864026e3d17cd82646965b0:procmail/.footprint
 f:6ff3fbbf6b31fe869a1312c3566eb52c:procmail/formisc.c.patch
