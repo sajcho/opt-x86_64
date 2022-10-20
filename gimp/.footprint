@@ -388,6 +388,8 @@ drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/file-png/
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/file-png/file-png
 drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/file-pnm/
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/file-pnm/file-pnm
+drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/file-ps/
+-rwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/file-ps/file-ps
 drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/file-psd/
 -rwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/file-psd/file-psd
 drwxr-xr-x	root/root	usr/lib/gimp/2.0/plug-ins/file-psp/
