@@ -1,12 +1,12 @@
 # Description:	Replacement for Berkeley Mail and System V mailx command
 # URL:		http://www.sdaoden.eu/code.html
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	openssl ncurses
+# Depends on:	openssl3 ncurses
 
 name=mailx
 _realname=s-nail
 version=14.9.24
-release=0
+release=1
 source=(https://www.sdaoden.eu/downloads/${_realname}-${version}.tar.xz)
 
 build() {
