@@ -37,6 +37,7 @@ d:libnotify
 d:openal
 d:libraw1394
 d:yaml
+d:libaio
 d:p11-kit
 d:libido3
 d:flac
@@ -452,6 +453,9 @@ f:4ae69dff53fb0a45b3a83ecc335c8920:libraw1394/Pkgfile
 f:a6b369f1b1965a56167fc909c0696185:yaml/.md5sum
 f:cb3e1030187e55d3b4667c1609e87697:yaml/.footprint
 f:e4de846fa56243feb44f1feaaf108422:yaml/Pkgfile
+f:489d7476470ca5f9e9b69c6e1a8d0a8b:libaio/.md5sum
+f:a2ce856a7beefc0492b3014e9e12f272:libaio/.footprint
+f:ce74bde7f8dfdadb40dfb78bdd50b149:libaio/Pkgfile
 f:ce4ffeb8df043fd1ca712b2062d69318:p11-kit/.md5sum
 f:2b897bd5079e30e81b6e519bf5ff3ea1:p11-kit/.footprint
 f:a9abc8cd7186050090aee089cf050053:p11-kit/post-install
