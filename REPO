@@ -446,7 +446,7 @@ f:3a09e87aa9f3e487cf98edb75cde3d12:libnotify/.footprint
 f:6229e6f407bfc6a45ea60192634de092:libnotify/Pkgfile
 f:0ff6f80a52bf013c70db35c796c25ca6:openal/.md5sum
 f:b218b3fe1cb796c0b5d182c04f78cbb2:openal/.footprint
-f:24e3b3fb6995a711bbdf8e6376b414f5:openal/Pkgfile
+f:01a3f16a68de42394f9fec34e86d1350:openal/Pkgfile
 f:1288c4f4eba433259fa574673bf1fb1f:libraw1394/.md5sum
 f:587ca4159ae06b1d0572132c26cab9e7:libraw1394/.footprint
 f:4ae69dff53fb0a45b3a83ecc335c8920:libraw1394/Pkgfile
@@ -490,7 +490,7 @@ f:01fbf5b14bd7690102cd12bd72b14bc6:docbook-xml/post-install
 f:7f1f1e06a536415574e94ecbec4f1dad:docbook-xml/Pkgfile
 f:084cba75893152f5ecbb997bd0b69adf:l-smash/.md5sum
 f:74464ec4ea5ab9684e56968c2047a59d:l-smash/.footprint
-f:57c7cfc2fc6840b1ce79b1b77e168037:l-smash/Pkgfile
+f:3fa3739d5577de6eb39fd9ec16f2d439:l-smash/Pkgfile
 f:e165f37e0c0f13d090e09bba58fb0bca:swaybg/.md5sum
 f:5a87b970907bca8f785b783e2a6e6f21:swaybg/.footprint
 f:03d23eac250500898e1f7ef030211f62:swaybg/Pkgfile
@@ -862,8 +862,8 @@ f:94bccb069c53d4b9068e0188012e6257:hicolor-icon-theme/.md5sum
 f:cd6dade7e39e9c9c686e845696dc7905:hicolor-icon-theme/.footprint
 f:8f75f90d93499f250740704df39d1bcc:hicolor-icon-theme/Pkgfile
 f:cbac0c859e3590799eba92f2fe465806:freetds/.md5sum
-f:30975e50bcd022c8b85fb467c0ed6953:freetds/.footprint
-f:8a452e1872cdb4014da905363e1b4ec6:freetds/Pkgfile
+f:cdab1b90c631b0eb1fdceb7c960f0ee4:freetds/.footprint
+f:efc368459a49bb19c735883ef6060763:freetds/Pkgfile
 f:bdfd9c6683ddfeb4020f5791963590af:python3-dasbus/.md5sum
 f:92a9151c46795d2290b3b888b8878150:python3-dasbus/.footprint
 f:ac0415b51e2743d89e670e23bbc86ba3:python3-dasbus/Pkgfile
@@ -1153,8 +1153,8 @@ f:c8d8b67c0c2b3b68111a791696e6783f:x264/.md5sum
 f:a5c92015a534d871d440f0a32ad9095c:x264/.footprint
 f:bd4fd8f538b78ab59d5543b39c67e378:x264/Pkgfile
 f:57ef5ff468bc94445e0829b13f54dc18:gpgme/.md5sum
-f:633634a5ad4ff8e2f7db92efc41b6d20:gpgme/.footprint
-f:065d43f30c9c6bbd78198f4a472cafbb:gpgme/Pkgfile
+f:fa86bc53295cf006c1eddd99062d908e:gpgme/.footprint
+f:eea0b376ce008ecdf3b9ac6ba48b4078:gpgme/Pkgfile
 f:3a595c2a0e454614e91cf64e9b3d152c:mjpegtools/.md5sum
 f:43a2cd215b7ffdbe783d63a79d4ab031:mjpegtools/.footprint
 f:93ac72df42757415d35a7a96992c3f6d:mjpegtools/Pkgfile
@@ -1177,7 +1177,7 @@ f:93198e7f7aedbd78d0876cc66bbfe1c6:cups/.footprint
 f:d4abeb7bc74c9079f27030811f4a7ec2:cups/Pkgfile
 f:1fa131e5937e321a360c9d0b0f993da7:libheif/.md5sum
 f:dcab9a3c7492747df8040b607bb82fbb:libheif/.footprint
-f:36499bf43fa7e55d7e2faa3370acbde8:libheif/Pkgfile
+f:9dbefc6b31e7671330505f5534178316:libheif/Pkgfile
 f:5f3d1b5f639bd48c0aa44079561a8235:chrpath/.md5sum
 f:691ffda8a1a2960cd92da75086753be1:chrpath/.footprint
 f:0178b3df16da77c4ba972cef0da70c15:chrpath/Pkgfile
@@ -1210,9 +1210,9 @@ f:10fa6e9c2df0a71cf956550d1a84d333:elogind/README
 f:046932ddd1b42a381679729bda909139:elogind/elogind.run
 f:36590d629f57cc4d0b99bbc22a41e06b:elogind/.md5sum
 f:fd7037fcaaafe4959a53cccd12a193d6:elogind/elogind.wrapper
-f:f68e18e8f758be8087427add627ec317:elogind/.footprint
+f:103f4f435027fac11f6adcce2f54a6e4:elogind/.footprint
 f:9f6ccc673cbdb66ad1ad4a4e18b99b61:elogind/elogind-246.10-revert-polkit-automagic.patch
-f:5618fef9be2b2f801ba048b7accbf0f5:elogind/Pkgfile
+f:f55268da48b083b9b69bd59cb34e6667:elogind/Pkgfile
 f:beb9595160e8a16ab4513858bbd9ca71:python3-setuptools-scm/.md5sum
 f:f5a922947401559a583523331561a26c:python3-setuptools-scm/.footprint
 f:22e0a51edfdfcaa51f97b12300196329:python3-setuptools-scm/Pkgfile
