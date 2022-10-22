@@ -5,14 +5,15 @@
 
 name=gpgme
 version=1.18.0
-release=1
+release=2
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--enable-languages="cl cpp"
 
 	make V=1
 
