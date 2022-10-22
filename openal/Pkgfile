@@ -5,7 +5,7 @@
 
 name=openal
 version=1.22.2
-release=1
+release=2
 source=(https://github.com/kcat/${name}-soft/archive/${version}/${name}-soft-${version}.tar.gz)
 
 build() {
@@ -17,6 +17,7 @@ build() {
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DALSOFT_NO_CONFIG_UTIL=OFF \
 		-DALSOFT_EXAMPLES=OFF
 
 	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
