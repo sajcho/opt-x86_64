@@ -5,7 +5,7 @@
 
 name=elogind
 version=246.10
-release=2
+release=3
 source=(https://github.com/${name}/${name}/archive/v${version}/${name}-v${version}.tar.gz \
 	elogind-246.10-revert-polkit-automagic.patch \
 	elogind.run \
@@ -24,7 +24,7 @@ build() {
 		-Ddefault-hierarchy=hybrid \
 		-Ddbuspolicydir=/etc/dbus-1/system.d \
 		-Ddefault-kill-user-processes=false \
-		-Dman=auto \
+		-Dman=false \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
@@ -48,5 +48,4 @@ build() {
 	install -m 0755 $SRC/elogind.wrapper $PKG/usr/lib/elogind
 
 	rm -r $PKG/usr/share/{bash-completion,doc,locale,zsh}
-	rm -r $PKG/usr/share/man/man3
 }
