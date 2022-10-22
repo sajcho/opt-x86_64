@@ -1,7 +1,8 @@
 drwxr-xr-x	root/root	etc/
--rw-r--r--	root/root	etc/freetds.conf
--rw-r--r--	root/root	etc/locales.conf
--rw-r--r--	root/root	etc/pool.conf
+drwxr-xr-x	root/root	etc/freetds/
+-rw-r--r--	root/root	etc/freetds/freetds.conf
+-rw-r--r--	root/root	etc/freetds/locales.conf
+-rw-r--r--	root/root	etc/freetds/pool.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/bsqldb
