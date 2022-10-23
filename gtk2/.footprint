@@ -5,7 +5,6 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gtk-builder-convert
 -rwxr-xr-x	root/root	usr/bin/gtk-query-immodules-2.0
--rwxr-xr-x	root/root	usr/bin/gtk-update-icon-cache
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/gail-1.0/
 drwxr-xr-x	root/root	usr/include/gail-1.0/gail/
@@ -295,6 +294,7 @@ drwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/immodules/
 -rwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/immodules/im-viqr.so
 -rwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/immodules/im-xim.so
 drwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/printbackends/
+-rwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/printbackends/libprintbackend-cups.so
 -rwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/printbackends/libprintbackend-file.so
 -rwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/printbackends/libprintbackend-lpr.so
 drwxr-xr-x	root/root	usr/lib/gtk-2.0/include/
