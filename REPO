@@ -1082,9 +1082,9 @@ f:e73e9adaf9e85e1cf5cc1ddaabc226d8:harfbuzz/.md5sum
 f:99a1602c0813de0b124b89b5685c5816:harfbuzz/.footprint
 f:3484714e30b9b84b656a4277093085aa:harfbuzz/Pkgfile
 f:03dcfc7c8f36f841034accbccf8d67fc:gtk2/.md5sum
-f:91e119125683dcb39da731eef4f0502c:gtk2/.footprint
+f:96d4ef058107e895bef8f633579233a7:gtk2/.footprint
 f:16ab50f69ecdf6234208e7ea876c0c2a:gtk2/post-install
-f:59d1e19944ae60c45a84ee3b7ec6b256:gtk2/Pkgfile
+f:ae3c218510c5fbbc86574b81edc2fe2b:gtk2/Pkgfile
 f:585157318cb78733804eed507b77c37c:rxvt-unicode/rxvt-unicode-kerning.patch
 f:f921d21061ed79689b48c5ecff0613fa:rxvt-unicode/.md5sum
 f:bfede0c60525070f06f8b72a6b7332ef:rxvt-unicode/.footprint
