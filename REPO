@@ -481,9 +481,9 @@ f:445e4cdbe7046f629ac1856791344e17:speexdsp/Pkgfile
 f:1c4fb8959c8848707e72a4968933e981:mako/.md5sum
 f:9c452d4cd9562fd5fdd0ab4ef3deefb0:mako/.footprint
 f:101ee951812c6c32edd78d5bece2f617:mako/Pkgfile
-f:2858f75360f0d211503b3fcf19265ff2:nodejs/.md5sum
-f:513fe26558056191106d63b921f187ad:nodejs/.footprint
-f:f837fb845325c42664c2ceb0912be3b1:nodejs/Pkgfile
+f:65043188b14e1482d6c28fd9b1d8025a:nodejs/.md5sum
+f:2a13a98689a50f3cfc93c4baf4bd2388:nodejs/.footprint
+f:93dc0fa33811f247aeadb0070313ea64:nodejs/Pkgfile
 f:3f725f2687bf1683f8b0c6842f370a1a:docbook-xml/.md5sum
 f:c9e8f7d992dc180d146b5011045a193b:docbook-xml/.footprint
 f:01fbf5b14bd7690102cd12bd72b14bc6:docbook-xml/post-install
