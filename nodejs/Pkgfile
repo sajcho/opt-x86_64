@@ -4,14 +4,14 @@
 # Depends on:	brotli c-ares icu libnghttp2 libuv openssl3 zlib
 
 name=nodejs
-version=16.17.1
+version=18.12.0
 release=1
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
 build() {
 	cd node-v${version}
 
-	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -fuse-ld=mold"
+	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now"
 
 	./configure \
 		--prefix=/usr \
