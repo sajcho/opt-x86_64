@@ -5,12 +5,12 @@
 
 name=aom
 _realname=libaom
-version=3.2.0
-release=2
+version=3.5.0
+release=1
 source=(https://storage.googleapis.com/aom-releases/${_realname}-${version}.tar.gz)
 
 build() {
-	cd $SRC/build
+	cd ${_realname}-${version}/build
 
 	cmake .. \
 		-DAOM_TARGET_CPU=generic \
