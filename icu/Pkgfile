@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=icu
-version=71.1
+version=72.1
 release=1
 source=(https://github.com/unicode-org/${name}/releases/download/release-${version//./-}/icu4c-${version/./_}-src.tgz)
 
@@ -24,5 +24,5 @@ build() {
 
 	make -j1 DESTDIR=$PKG install
 
-	rm $PKG/usr/share/icu/71.1/LICENSE
+	rm $PKG/usr/share/icu/72.1/LICENSE
 }
