@@ -4,7 +4,7 @@
 # Depends on:	cmake
 
 name=taglib
-version=1.12
+version=1.13
 release=1
 source=(http://taglib.github.io/releases/${name}-${version}.tar.gz)
 
