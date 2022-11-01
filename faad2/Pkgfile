@@ -3,14 +3,14 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=faad2
-version=2.10.0
+version=2.10.1
 release=1
-source=(https://github.com/knik0/$name/archive/${version//./_}/${name}_${version//./_}.tar.gz)
+source=(https://github.com/knik0/$name/archive/${version}/${name}-${version}.tar.gz)
 
 build() {
-	cd $name-${version//./_}
+	cd ${name}-${version}
 
-	./bootstrap
+	autoreconf -fiv
 
 	./configure \
 		--prefix=/usr \
