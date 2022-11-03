@@ -4,7 +4,7 @@
 # Depends on:	meson
 
 name=orc
-version=0.4.32
+version=0.4.33
 release=1
 source=(http://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
