@@ -4,7 +4,7 @@
 # Depends on:	tiff
 
 name=lcms2
-version=2.13.1
+version=2.14
 release=1
 source=(http://downloads.sourceforge.net/project/lcms/lcms/${version:0:4}/${name}-${version}.tar.gz)
 
