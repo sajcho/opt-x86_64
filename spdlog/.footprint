@@ -113,8 +113,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/spdlog/
 -rw-r--r--	root/root	usr/lib/cmake/spdlog/spdlogConfigTargets-none.cmake
 -rw-r--r--	root/root	usr/lib/cmake/spdlog/spdlogConfigTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/spdlog/spdlogConfigVersion.cmake
-lrwxrwxrwx	root/root	usr/lib/libspdlog.so -> libspdlog.so.1
-lrwxrwxrwx	root/root	usr/lib/libspdlog.so.1 -> libspdlog.so.1.10.0
--rwxr-xr-x	root/root	usr/lib/libspdlog.so.1.10.0
+lrwxrwxrwx	root/root	usr/lib/libspdlog.so -> libspdlog.so.1.11
+lrwxrwxrwx	root/root	usr/lib/libspdlog.so.1.11 -> libspdlog.so.1.11.0
+-rwxr-xr-x	root/root	usr/lib/libspdlog.so.1.11.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/spdlog.pc
