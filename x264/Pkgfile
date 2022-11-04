@@ -4,14 +4,16 @@
 # Depends on:	l-smash nasm
 
 name=x264
-version=0.164.x
-_commit=5585eafe31c2299163dcb206e05e18be7dd93098
-# commit 05 Feb, 2022
+version=0.164.x.20221005
+_commit=b093bbe7d9bc642c8f24067cbdcc73bb43562eab
+# commit 05 Oct, 2022
 release=1
 source=(https://code.videolan.org/videolan/${name}/-/archive/${_commit}/${name}-${_commit}.tar.bz2)
 
 build() {
 	cd ${name}-${_commit}
+
+	./version.sh | grep X264_POINTVER | sed -r 's/^#define X264_POINTVER "([0-9]+\.[0-9]+)\.([0-9]+) (.*)"$/\1.r\2.\3/'
 
 	./configure \
 		--prefix=/usr \
