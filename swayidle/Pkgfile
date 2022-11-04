@@ -5,7 +5,7 @@
 
 name=swayidle
 version=1.7.1
-release=0
+release=1
 source=(https://github.com/swaywm/${name}/archive/${version}/${name}-${version}.tar.gz \
 	0001-Fix-printf-using-size_t-lineno-variable.patch)
 
@@ -22,7 +22,7 @@ build() {
 		-Dzsh-completions=false \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 }
