@@ -5,7 +5,7 @@
 
 name=swaync
 _realname=SwayNotificationCenter
-version=0.5
+version=0.7.2
 release=1
 source=(https://github.com/ErikReider/${_realname}/archive/v${version}/${name}-${version}.tar.gz)
 
@@ -13,10 +13,12 @@ build() {
 	cd ${_realname}-${version}
 
 	build-meson \
+		-Dscripting=true \
+		-Dman-pages=true \
 		-Dsystemd-service=false \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
