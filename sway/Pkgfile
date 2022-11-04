@@ -4,24 +4,29 @@
 # Depends on:	json-c libevdev libinput libxkbcommon pango scdoc swaybg wlroots
 
 name=sway
-version=1.8-dev
-_commit=a3a82efbf6b5b3af840c70038b1b599ba29003ac
-# Last commit at 20220522
+version=1.7
 release=0
-source=(https://github.com/swaywm/sway/archive/${_commit}/${name}-${_commit}.tar.gz \
+source=(https://github.com/swaywm/sway/archive/${version}/${name}-${version}.tar.gz \
 	sway.desktop)
 
 build() {
-	cd ${name}-${_commit}
+	cd ${name}-${version}
 
 	build-meson \
+		-Dtray=enabled \
+		-Dxwayland=enabled \
+		-Dman-pages=enabled \
+		-Dgdk-pixbuf=enabled \
+		-Dsd-bus-provider=libelogind \
 		-Dbash-completions=false \
 		-Dfish-completions=false \
 		-Dzsh-completions=false \
 		-Dwerror=false \
+		-Dc_args="-fuse-ld=mold" \
+		-Dc_link_args="-fuse-ld=mold" \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
