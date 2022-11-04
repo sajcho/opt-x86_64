@@ -1,36 +1,37 @@
 # Description:	Highly customizable Wayland bar for Sway and Wlroots based compositors
 # URL:		https://github.com/Alexays/Waybar/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gtk-layer-shell gtkmm3 libdbusmenu libmpdclient libnl pulseaudio scdoc spdlog
+# Depends on:	fmt gtk-layer-shell gtkmm3 libdbusmenu libnl pulseaudio scdoc spdlog
 
 name=waybar
 _realname=Waybar
-version=0.9.12-git20220512
-_commit=9bc821bdac25397f9a88d8bb44057298386043e1
-# Commit Date: Thu May 12 13:55:32 2022 +0200
+version=0.9.15
 release=1
-source=(https://github.com/Alexays/${_realname}/archive/${_commit}/${_realname}-${_commit}.tar.gz)
+source=(https://github.com/Alexays/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
 
 build() {
-	cd ${_realname}-${_commit}
+	cd ${_realname}-${version}
 
 	build-meson \
 		-Ddefault_library=shared \
+		-Dgtk-layer-shell=enabled \
+		-Ddbusmenu-gtk=enabled \
 		-Dlibnl=enabled \
 		-Dlibudev=enabled \
-		-Dlibevdev=disabled \
+		-Dlibevdev=enabled \
 		-Dpulseaudio=enabled \
-		-Dsystemd=disabled \
-		-Ddbusmenu-gtk=enabled \
 		-Dman-pages=enabled \
-		-Dmpd=enabled \
-		-Dgtk-layer-shell=enabled \
-		-Drfkill=disabled \
+		-Dsystemd=disabled \
+		-Dmpd=disabled \
+		-Drfkill=enabled \
 		-Dsndio=disabled \
 		-Dtests=disabled \
+		-Dexperimental=true \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm $PKG/usr/share/man/man5/waybar-sndio.5
 }
