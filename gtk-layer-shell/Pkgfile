@@ -1,10 +1,10 @@
 # Description:	Create panels and other desktop components in Wayland using the Layer Shell protocol
 # URL:		https://github.com/wmww/gtk-layer-shell
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gtk3
+# Depends on:	gtk3 wayland
 
 name=gtk-layer-shell
-version=0.7.0
+version=0.8.0
 release=1
 source=(https://github.com/wmww/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
@@ -13,9 +13,12 @@ build() {
 
 	build-meson \
 		-Dexamples=true \
+		-Dtests=true \
+		-Ddocs=false \
+		-Dvapi=false \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 }
