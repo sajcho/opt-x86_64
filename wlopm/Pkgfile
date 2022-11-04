@@ -4,13 +4,12 @@
 # Depends on:	wayland-protocols
 
 name=wlopm
-version=0_git20220103
-_commit=06ae5c5f6efbea3ffe058dc1c5066c12e3019d33
+version=0.1.0
 release=1
-source=(https://git.sr.ht/~leon_plickat/${name}/archive/${_commit}.tar.gz)
+source=(https://git.sr.ht/~leon_plickat/${name}/archive/v${version}.tar.gz)
 
 build() {
-	cd ${name}-${_commit}
+	cd ${name}-v${version}
 
 	make V=1
 
