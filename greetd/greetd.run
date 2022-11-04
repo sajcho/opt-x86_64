@@ -1,0 +1,4 @@
+#!/bin/sh
+[ ! -d /run/greetd ] && mkdir -p /run/greetd
+exec 2>&1
+exec greetd --config /etc/greetd/config.toml

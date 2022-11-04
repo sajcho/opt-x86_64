@@ -1,0 +1,7 @@
+#!/bin/sh
+
+getent group greetd || /usr/sbin/groupadd -r greetd
+getent passwd greetd || /usr/sbin/useradd -r -g greetd -G greetd,video -d /run/greetd -s /sbin/nologin greetd
+/usr/bin/passwd -l greetd
+
+exit 0
