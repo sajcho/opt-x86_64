@@ -1,11 +1,11 @@
-# Description:	mage viewer for Sway
+# Description:	Image viewer for Sway
 # URL:		tps://github.com/artemsen/swayimg
 # Maintainer:	ajcho, saux dot aarch64 at gmail dot com
 # Depends on:	cairo giflib json-c libexif librsvg libxkbcommon scdoc
 
 name=swayimg
-version=1.7
-release=0
+version=1.9
+release=1
 source=(https://github.com/artemsen/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
@@ -17,13 +17,12 @@ build() {
 		-Dpng=enabled \
 		-Dsvg=enabled \
 		-Dexif=enabled \
-		-Davif=disabled \
+		-Dwebp=enabled \
 		-Djxl=disabled \
-		-Dwebp=disabled \
 		-Dbash=disabled \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
