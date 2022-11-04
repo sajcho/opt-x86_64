@@ -1,0 +1,26 @@
+# Description:	Screen locker for Wayland with fancy effects
+# URL:		https://github.com/jirutka/swaylock-effects
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cairo gdk-pixbuf libxkbcommon linux-pam scdoc swaylockd wayland-protocols
+
+name=swaylock-effects
+version=1.6.10
+release=1
+source=(https://github.com/jirutka/swaylock-effects/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dpam=enabled \
+		-Dman-pages=enabled \
+		-Dgdk-pixbuf=enabled \
+		-Dbash-completions=false \
+		-Dfish-completions=false \
+		-Dzsh-completions=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
