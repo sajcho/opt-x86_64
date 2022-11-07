@@ -227,6 +227,7 @@ d:mutt
 d:libevent
 d:perl-xml-parser
 d:asciidoc
+d:squashfs-tools
 d:fftw
 d:toml11
 d:gtk3
@@ -717,9 +718,9 @@ f:0aef8fafecd3aabc559f30d40e4d3031:translate-shell/.footprint
 f:868306a4f039e4f8de938257325f2b4d:translate-shell/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust-static/.nostrip
 f:59041d2148f9ac01f0052bbd48253787:rust-static/libexec.patch
-f:f1e7d94e5ca8328e4f54af820e43e6ca:rust-static/.md5sum
-f:e4835510d73f8e05343443bc3edcb97a:rust-static/.footprint
-f:d52f11227b6f3f0bedd744c1d67b59fc:rust-static/Pkgfile
+f:1874b2fe77288cc51c2cdfe30a4efdd7:rust-static/.md5sum
+f:ac2305911e9a6120c3237e3d633699e3:rust-static/.footprint
+f:393f4431eb8eefc15bdf57db6741f595:rust-static/Pkgfile
 f:83fd8d95183acb619627c09cf426ca97:python3-asn1crypto/.md5sum
 f:fd4e5f2dac9de321ce0b68717e56aac7:python3-asn1crypto/.footprint
 f:753b821929ccd0ea911837dd29e0f57a:python3-asn1crypto/Pkgfile
@@ -892,9 +893,9 @@ f:4131e2a95875fdb22d7b11d0dceab1fb:nss/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
 f:59041d2148f9ac01f0052bbd48253787:rust/libexec.patch
 f:8570861063b945ec436ad79503051634:rust/README
-f:ff0e0ff6968c2bcd2a09de21cdaee40b:rust/.md5sum
-f:1035b804e036ba08289c7bf11534b533:rust/.footprint
-f:c3dfbbf90e719de39c3df153c8a24e7b:rust/Pkgfile
+f:a7be4e0b07b2e690f731673f112ed263:rust/.md5sum
+f:2968e0e0494f2a19d690099c2e47fe48:rust/.footprint
+f:dc6a08897c0021db9221cdcb177b7884:rust/Pkgfile
 f:cc6659717d34446e32f25d94249dce19:libgit2/.md5sum
 f:91de87bf7435e9b3f4190db815c43390:libgit2/.footprint
 f:22c18ab782e3526d3a4cc53e9ccfdefe:libgit2/Pkgfile
@@ -1132,6 +1133,9 @@ f:397429299b9fa3da9b42415f6abb2b37:perl-xml-parser/Pkgfile
 f:97f900d3e5f4a64fbd4a34b90771af83:asciidoc/.md5sum
 f:f35c4b0b0760f0058826f8512f9fb41e:asciidoc/.footprint
 f:f2536d7198e4b48df46e9400d39c6705:asciidoc/Pkgfile
+f:8fac58b10a8ac9eb3505834479ea03c0:squashfs-tools/.md5sum
+f:b26c6b7857efac85a5b54c28690c792a:squashfs-tools/.footprint
+f:60a81b94912ea217a4862d4d05b0981c:squashfs-tools/Pkgfile
 f:b99a38d17e08474e80c67a6c3d40523c:fftw/.md5sum
 f:9b7fcaa3d9b09d6c27560ac6905c8899:fftw/.footprint
 f:c5b10add73540136fb07a4416139b280:fftw/Pkgfile
