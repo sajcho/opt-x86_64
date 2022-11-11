@@ -1,0 +1,23 @@
+# Description:	Graphical console greeter for greetd
+# URL:		https://github.com/apognu/tuigreet
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	greetd scdoc
+
+name=tuigreet
+version=0.8.0
+release=1
+source=(https://github.com/apognu/tuigreet/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir "$PKGMK_SOURCE_DIR/rust" || true
+	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
+
+	cargo build --release --locked
+
+	install -D -m 0755 target/release/tuigreet -t $PKG/usr/sbin/
+
+	scdoc < "contrib/man/$name-1.scd"> $SRC/${name}-1.roff
+	install -D -m 0644 $SRC/${name}-1.roff $PKG/usr/share/man/man1/${name}.1
+}
