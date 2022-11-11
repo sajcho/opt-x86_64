@@ -12469,11 +12469,13 @@ drwxr-xr-x	root/root	usr/lib/go/test/fixedbugs/issue5470.dir/
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5581.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5607.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5609.go
+-rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue56105.go
 drwxr-xr-x	root/root	usr/lib/go/test/fixedbugs/issue5614.dir/
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5614.dir/rethinkgo.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5614.dir/x.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5614.dir/y.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5614.go
+-rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue56141.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5698.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5704.go
 -rw-r--r--	root/root	usr/lib/go/test/fixedbugs/issue5753.go
