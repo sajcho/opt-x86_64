@@ -5,13 +5,17 @@
 
 name=gst-plugins-good
 version=1.20.4
-release=1
+release=2
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
+	# clean out
+	sed 's|Wmissing-include-dirs|Wno-missing-include-dirs|' -i meson.build
+
 	build-meson \
+		-Dqt5=disabled \
 		-Ddoc=disabled \
 		-Dnls=disabled \
 		-Dpackage-name="GStreamer (SAUX-x86_64)" \
