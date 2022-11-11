@@ -1,23 +1,43 @@
 # Description:	A C, CXX, and lisp API for GnuPG.
 # URL:		https://www.gnupg.org/related_software/gpgme/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gnupg
+# Depends on:	gnupg swig python3-setuptools
 
 name=gpgme
 version=1.18.0
-release=2
-source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
+release=3
+source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2 \
+	gpgme-1.18.0-gpg_error_1_46-1.patch)
 
 build() {
 	cd ${name}-${version}
 
+	# From BLFS
+	patch -p1 -i $SRC/gpgme-1.18.0-gpg_error_1_46-1.patch
+
+	# Fix an issue building with Python 3.11
+	# Solution from BLFS
+	sed \
+		-e 's/3\.9/3.11/' \
+		-e 's/:3/:4/' \
+		-i configure
+
 	./configure \
 		--prefix=/usr \
-		--enable-languages="cl cpp"
+		--disable-fd-passing \
+		--disable-gpgsm-test \
+		--enable-languages="cl cpp python"
 
 	make V=1
 
 	make DESTDIR=$PKG install
+
+	cd lang/python
+	make DESTDIR=$PKG install
+
+	install -d $PKG/etc/gpgme
+	echo 'c cl cpp' > $PKG/etc/gpgme/base
+	echo 'python3' > $PKG/etc/gpgme/python
 
 	rm -r $PKG/usr/share/info
 
