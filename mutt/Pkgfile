@@ -4,10 +4,9 @@
 # Depends on:	cyrus-sasl gpgme libidn2
 
 name=mutt
-version=2.2.7
+version=2.2.8
 release=1
-source=(https://bitbucket.org/${name}/${name}/downloads/${name}-${version}.tar.gz \
-	mutt.desktop)
+source=(https://bitbucket.org/${name}/${name}/downloads/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
@@ -33,8 +32,6 @@ build() {
 	make V=1
 
 	make DESTDIR=$PKG install
-
-	install -D -m 0644 $SRC/mutt.desktop $PKG/usr/share/applications/mutt.desktop
 
 	rm -r $PKG/usr/share/info
 	rm $PKG/usr/share/man/man5/{mmdf.5,mbox.5}
