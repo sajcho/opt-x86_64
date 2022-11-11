@@ -4,7 +4,7 @@
 # Depends on:	imlib2 librsvg libsndfile libxcomposite libxinerama libxpm
 
 name=icewm
-version=3.0.1
+version=3.2.0
 release=1
 source=(https://github.com/ice-wm/${name}/archive/${version}/${name}-${version}.tar.gz)
 
@@ -33,5 +33,7 @@ build() {
 
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/{doc,locale}
+	rm -r $PKG/usr/share/{doc,locale,xsessions/icewm.desktop}
+	find $PKG/usr/share -type f -name '*.desktop' \
+		-exec sed -r -e '/\[.+\]=/d' -e '/#/d' -i {} \;
 }
