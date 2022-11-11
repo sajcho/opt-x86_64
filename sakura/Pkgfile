@@ -1,0 +1,29 @@
+# Description:	Sakura Terminal Emulator
+# URL:		https://launchpad.net/sakura
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtk3 vte34
+
+name=sakura
+version=3.8.5
+release=1
+source=(https://launchpad.net/${name}/trunk/${version}/+download/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+
+	rm -r $PKG/usr/share/{doc,locale}
+	find $PKG/usr/share -type f -name '*.desktop' \
+		-exec sed -r -e '/\[.+\]=/d' -e '/#/d' -i {} \;
+}
