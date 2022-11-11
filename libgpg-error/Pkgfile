@@ -4,7 +4,7 @@
 
 name=libgpg-error
 version=1.46
-release=1
+release=2
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
 build() {
@@ -12,7 +12,8 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--disable-nls
+		--disable-nls \
+		--enable-install-gpg-error-config
 
 	make V=1
 
