@@ -4,14 +4,22 @@
 # Depends on:	brotli c-ares icu libnghttp2 libuv openssl3 zlib
 
 name=nodejs
-version=18.12.0
+version=18.12.1
 release=1
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
 build() {
 	cd node-v${version}
 
-	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now"
+	# The configure script for this version of Node.js is not aware of Python-3.11.
+	# Solution from BLFS
+	sed \
+		-e '/=.*exec/a command -v python3.11 >/dev/null && exec python3.11 "$0" "$@"' \
+		-e s'/((/((3, 11), (/'  \
+		-i configure
+
+	# clean out
+	CXXFLAGS+=" -Wno-deprecated-declarations"
 
 	./configure \
 		--prefix=/usr \
