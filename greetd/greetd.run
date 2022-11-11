@@ -1,4 +1,4 @@
 #!/bin/sh
-[ ! -d /run/greetd ] && mkdir -p /run/greetd
+[ ! -d /run/greetd ] && install -d -g greetd -o greetd /run/greetd
 exec 2>&1
-exec greetd --config /etc/greetd/config.toml
+exec greetd
