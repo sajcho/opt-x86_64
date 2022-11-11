@@ -1,0 +1,24 @@
+# Description:	a general-purpose command-line fuzzy finder
+# URL:		https://github.com/junegunn/fzf/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	go
+
+name=fzf
+version=0.34.0
+release=1
+source=(https://github.com/junegunn/${name}/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd $name-$version
+
+	go build -o fzf .
+
+	install -d -m 0755 $PKG/usr/bin
+	install -m 0755 fzf bin/fzf-tmux $PKG/usr/bin/
+
+	install -d -m 0755 $PKG/usr/share/fzf
+	install -m 0644 shell/*.bash shell/*.zsh $PKG/usr/share/fzf
+
+	install -D -m 0644 plugin/fzf.vim $PKG/usr/share/vim/plugin/fzf.vim
+	install -D -m 0644 doc/fzf.txt $PKG/usr/share/vim/doc/fzf.txt
+}
