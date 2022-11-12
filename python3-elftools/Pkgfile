@@ -5,7 +5,7 @@
 
 name=python3-elftools
 _realname=pyelftools
-version=0.27
+version=0.29
 release=1
 source=(https://github.com/eliben/$_realname/archive/v${version}/${_realname}-${version}.tar.gz)
 
