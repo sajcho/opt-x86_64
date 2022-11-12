@@ -5,7 +5,7 @@
 
 name=python3-tz
 _realname=pytz
-version=2021.1
+version=2022.6
 release=1
 source=(https://pypi.python.org/packages/source/${_realname:0:1}/${_realname}/${_realname}-${version}.tar.gz)
 
