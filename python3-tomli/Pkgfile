@@ -6,13 +6,13 @@
 name=python3-tomli
 _realname=tomli
 version=2.0.1
-release=1
+release=2
 source=(https://pypi.python.org/packages/source/t/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-${version}
 
-	/usr/bin/pip3 install \
+	/usr/bin/pip3.11 install \
 		--ignore-installed \
 		--isolate \
 		--no-deps \
