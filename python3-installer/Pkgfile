@@ -1,0 +1,25 @@
+# Description:	low-level library for installing from a Python wheel distribution
+# URL:		https://github.com/pypa/installer
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3
+
+name=python3-installer
+_realname=installer
+version=0.5.1
+release=1
+source=(https://files.pythonhosted.org/packages/source/i/${_realname}/${_realname}-${version}.tar.gz \
+	default-bytecode-levels.patch)
+
+build() {
+	cd ${_realname}-${version}
+
+	patch -p1 -i $SRC/default-bytecode-levels.patch
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+}
