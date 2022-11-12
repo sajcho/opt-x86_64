@@ -6,8 +6,8 @@
 name=python3-markupsafe
 _realname=MarkupSafe
 version=2.1.1
-release=1
-source=(https://files.pythonhosted.org/packages/source/${_realname:0:1}/$_realname/${_realname}-${version}.tar.gz)
+release=2
+source=(https://files.pythonhosted.org/packages/source/M/$_realname/${_realname}-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-${version}
