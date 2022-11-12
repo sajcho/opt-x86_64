@@ -1,13 +1,13 @@
 # Description:	Foreign function interface for calling C code from Python3
 # URL:		http://cffi.readthedocs.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	python3-setuptools
+# Depends on:	libffi python3-cparser
 
 name=python3-cffi
 _realname=cffi
-version=1.14.5
+version=1.15.1
 release=1
-source=(https://files.pythonhosted.org/packages/source/${_realname:0:1}/$_realname/${_realname}-${version}.tar.gz)
+source=(https://files.pythonhosted.org/packages/source/c/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-${version}
