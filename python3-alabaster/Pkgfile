@@ -6,7 +6,7 @@
 name=python3-alabaster
 _realname=alabaster
 version=0.7.12
-release=1
+release=2
 source=(https://github.com/bitprophet/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
 
 build() {
