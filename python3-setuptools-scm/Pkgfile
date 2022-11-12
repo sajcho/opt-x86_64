@@ -5,7 +5,7 @@
 
 name=python3-setuptools-scm
 _realname=setuptools_scm
-version=6.4.2
+version=7.0.5
 release=1
 source=(https://pypi.io/packages/source/s/${_realname}/${_realname}-${version}.tar.gz)
 
