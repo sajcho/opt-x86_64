@@ -5,9 +5,9 @@
 
 name=python3-chardet
 _realname=chardet
-version=4.0.0
+version=5.0.0
 release=1
-source=(https://files.pythonhosted.org/packages/source/${_realname:0:1}/$_realname/${_realname}-${version}.tar.gz)
+source=(https://github.com/${_realname}/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-${version}
