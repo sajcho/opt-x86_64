@@ -6,7 +6,7 @@
 name=python3-send2trash
 _realname=send2trash
 version=1.8.0
-release=1
+release=2
 source=(https://github.com/arsenetar/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
 
 build() {
