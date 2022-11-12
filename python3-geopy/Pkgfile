@@ -6,7 +6,7 @@
 name=python3-geopy
 _realname=geopy
 version=2.2.0
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/source/g/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
