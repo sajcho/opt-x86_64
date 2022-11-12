@@ -1,21 +1,20 @@
 # Description:	Python3 bindings for the cairo graphics library
 # URL:		http://cairographics.org/pycairo/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cairo
+# Depends on:	cairo meson
 
 name=python3-cairo
+_realname=pycairo
 version=1.21.0
 release=1
-source=(https://github.com/pygobject/pycairo/releases/download/v${version}/pycairo-${version}.tar.gz)
+source=(https://github.com/pygobject/${_realname}/releases/download/v${version}/${_realname}-${version}.tar.gz)
 
 build() {
-	cd pycairo-${version}
+	cd ${_realname}-${version}
 
-	/usr/bin/python3 setup.py build
+	build-meson . build
 
-	/usr/bin/python3 setup.py install \
-		--prefix=/usr \
-		--optimize=1 \
-		--skip-build \
-		--root=$PKG
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
 }
