@@ -1,24 +1,23 @@
 # Description:	Distribution utilities
 # URL:		https://bitbucket.org/pypa/distlib
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	python3-setuptools
+# Depends on:	python3-packaging
 
 name=python3-distlib
 _realname=distlib
-version=0.3.2
+version=0.3.6
 release=1
-source=(https://files.pythonhosted.org/packages/source/${_realname:0:1}/${_realname}/${_realname}-${version}.zip)
+source=(https://files.pythonhosted.org/packages/source/d/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-${version}
 
-	rm distlib/*.exe
+	gpep517 build-wheel \
+		--wheel-dir dist \
+		--output-fd 1
 
-	/usr/bin/python3 setup.py build
+	/usr/bin/python3 -m installer -d $PKG \
+		dist/distlib*.whl
 
-	/usr/bin/python3 setup.py install \
-		--prefix=/usr \
-		--optimize=1 \
-		--skip-build \
-		--root=$PKG
+	rm $PKG//usr/lib/python3*/site-packages/distlib/*.exe
 }
