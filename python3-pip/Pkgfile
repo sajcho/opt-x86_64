@@ -6,7 +6,7 @@
 name=python3-pip
 _realname=pip
 version=22.0.4
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/source/p/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
