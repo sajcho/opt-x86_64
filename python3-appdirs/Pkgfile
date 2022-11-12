@@ -1,4 +1,4 @@
-# Description:	A small Python module for determining appropriate platform-specific dirs.
+# Description:	A small Python module for determining appropriate platform-specific dirs
 # URL:		https://pypi.org/project/appdirs/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 # Depends on:	python3-setuptools
@@ -7,7 +7,7 @@ name=python3-appdirs
 _realname=appdirs
 version=1.4.4
 release=1
-source=(https://files.pythonhosted.org/packages/source/${name:8:1}/${_realname}/${_realname}-${version}.tar.gz)
+source=(https://files.pythonhosted.org/packages/source/a/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-${version}
