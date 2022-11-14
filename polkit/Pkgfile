@@ -4,13 +4,13 @@
 # Depends on:	dbus duktape gobject-introspection intltool util-linux
 
 name=polkit
-version=121
-release=2
-source=(https://freedesktop.org/software/${name}/releases/${name}-${version}.tar.gz \
+version=122
+release=1
+source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/${version}/${name}-${version}.tar.bz2 \
 	polkit-1)
 
 build() {
-	cd ${name}-v.${version}
+	cd ${name}-${version}
 
 	build-meson . build
 
