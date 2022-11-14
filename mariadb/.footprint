@@ -327,6 +327,7 @@ drwxr-xr-x	root/root	usr/include/mysql/server/private/atomic/
 -rw-r--r--	root/root	usr/include/mysql/server/private/log_slow.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/maria.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/mariadb.h
+-rw-r--r--	root/root	usr/include/mysql/server/private/mariadb_capi_rename.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/mdl.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/mem_root_array.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/message.h
@@ -460,6 +461,7 @@ drwxr-xr-x	root/root	usr/include/mysql/server/private/providers/lzo/
 -rw-r--r--	root/root	usr/include/mysql/server/private/sql_cte.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/sql_cursor.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/sql_db.h
+-rw-r--r--	root/root	usr/include/mysql/server/private/sql_debug.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/sql_delete.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/sql_derived.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/sql_digest.h
