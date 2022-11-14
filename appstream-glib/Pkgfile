@@ -4,7 +4,7 @@
 # Depends on:	libsoup json-glib gtk3 yaml
 
 name=appstream-glib
-version=0.8.1
+version=0.8.2
 release=1
 source=(https://people.freedesktop.org/~hughsient/${name}/releases/${name}-${version}.tar.xz)
 
