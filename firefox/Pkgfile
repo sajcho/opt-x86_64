@@ -4,9 +4,9 @@
 # Depends on:	alsa-lib autoconf-2.13 brotli cbindgen dbus-glib ffmpeg libevent libidl llvm-toolchain libnotify libvpx libwebp libxkbcommon nodejs nss pulseaudio unzip libxcomposite libxcursor libxinerama libxt zip
 
 name=firefox
-version=106.0.5
-release=2
-source=(https://ftp.mozilla.org/pub/${name}/releases/${version}/source/${name}-${version}.source.tar.xz \
+version=107.0
+release=1
+source=(https://archive.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
 	firefox.desktop)
 
 build() {
