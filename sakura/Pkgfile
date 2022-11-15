@@ -4,7 +4,7 @@
 # Depends on:	gtk3 vte34
 
 name=sakura
-version=3.8.5
+version=3.8.6
 release=1
 source=(https://launchpad.net/${name}/trunk/${version}/+download/${name}-${version}.tar.bz2)
 
