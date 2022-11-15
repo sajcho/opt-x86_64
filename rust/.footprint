@@ -4,6 +4,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/cargo-clippy
 -rwxr-xr-x	root/root	usr/bin/cargo-fmt
 -rwxr-xr-x	root/root	usr/bin/clippy-driver
+-rwxr-xr-x	root/root	usr/bin/rust-analyzer
+-rwxr-xr-x	root/root	usr/bin/rust-demangler
 -rwxr-xr-x	root/root	usr/bin/rust-gdb
 -rwxr-xr-x	root/root	usr/bin/rust-gdbgui
 -rwxr-xr-x	root/root	usr/bin/rust-lldb
@@ -15,6 +17,7 @@ drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/librustc_driver-86b3a6cda38b3c46.so
 lrwxrwxrwx	root/root	usr/lib/libstd-d7c0b95183735ee7.so -> rustlib/x86_64-unknown-linux-gnu/lib/libstd-d7c0b95183735ee7.so
 lrwxrwxrwx	root/root	usr/lib/libtest-e0b0dd04c38a159e.so -> rustlib/x86_64-unknown-linux-gnu/lib/libtest-e0b0dd04c38a159e.so
+-rwxr-xr-x	root/root	usr/lib/rust-analyzer-proc-macro-srv
 drwxr-xr-x	root/root	usr/lib/rustlib/
 drwxr-xr-x	root/root	usr/lib/rustlib/etc/
 -rw-r--r--	root/root	usr/lib/rustlib/etc/gdb_load_rust_pretty_printers.py
@@ -1789,8 +1792,6 @@ drwxr-xr-x	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/
 -rwxr-xr-x	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libtest-e0b0dd04c38a159e.so
 -rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunicode_width-a886ac866190f226.rlib
 -rw-r--r--	root/root	usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-2a2e466bb8c3e3c4.rlib
-drwxr-xr-x	root/root	usr/libexec/
--rwxr-xr-x	root/root	usr/libexec/rust-analyzer-proc-macro-srv
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/

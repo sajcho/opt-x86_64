@@ -5,7 +5,7 @@
 
 name=rust
 version=1.65.0
-release=1
+release=2
 
 source=(https://static.rust-lang.org/dist/rustc-${version}-src.tar.gz \
 	libexec.patch)
@@ -13,7 +13,7 @@ source=(https://static.rust-lang.org/dist/rustc-${version}-src.tar.gz \
 build() {
 	cd rustc-${version}-src
 
-	# Patch cargo so credential helpers are in /usr/lib instead of /usr/libexec
+	# use /usr/lib instead of /usr/libexec
 	patch -p1 -i $SRC/libexec.patch
 
 	# Remove bundled dependencies.
@@ -52,7 +52,7 @@ cat <<- EOF > $SRC/config.toml
 	python = "/usr/bin/python3"
 	cargo = "/usr/bin/cargo"
 	rustc = "/usr/bin/rustc"
-	tools = ["analysis", "cargo", "clippy", "rls", "rustfmt", "src"]
+	tools = ["analysis", "cargo", "clippy", "rls", "rustfmt", "rust-analyzer", "rust-demangler", "src"]
 
 	[target.$CHOST]
 	llvm-config = "/usr/bin/llvm-config"
