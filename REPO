@@ -682,9 +682,9 @@ f:64bb1990600481870977188e522108da:fmt/Pkgfile
 f:076b7eac0d84b76f478dcc7c301ff068:startup-notification/.md5sum
 f:b70b1c89508e33dfd28908af03b32eb5:startup-notification/.footprint
 f:44d294d0ee3769e1d29e287db1092195:startup-notification/Pkgfile
-f:38e1d5d187195d70091e73a0a0d26cf8:icewm/.md5sum
+f:abd2b22761235857632e3743ec9f765c:icewm/.md5sum
 f:9438220e6c9864cf612d45aff8482f20:icewm/.footprint
-f:b477df4f46716b530525c1cd4caee671:icewm/Pkgfile
+f:e06916ee6f8056d31b3675aca03ae768:icewm/Pkgfile
 f:57c60f46eb1b58486e533c268be3bcee:basu/.md5sum
 f:7e49426d3761e1835253a454689c61bd:basu/.footprint
 f:eaaf3040a95640c16ced4dc90f51f592:basu/Pkgfile
