@@ -1,0 +1,27 @@
+# Description:	Sphinx serializinghtml extension
+# URL:		https://pypi.python.org/pypi/sphinxcontrib-serializinghtml
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-setuptools
+
+name=python3-sphinxcontrib-serializinghtml
+_realname=sphinxcontrib-serializinghtml
+version=1.1.5
+release=0
+source=(https://files.pythonhosted.org/packages/source/s/${_realname}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	sed -i '/^tag_build =/s/= .*$/=/' setup.cfg
+	sed -i '/^tag_date =/s/true/false/' setup.cfg
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+
+	chmod -R go-w,a+r,u+w $PKG
+}
