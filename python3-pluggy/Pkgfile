@@ -1,0 +1,25 @@
+# Description:	Plugin management and hook calling for Python
+# URL:		https://pluggy.readthedocs.io/en/latest/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-setuptools
+
+name=python3-pluggy
+_realname=pluggy
+version=1.0.0
+release=0
+source=(https://files.pythonhosted.org/packages/source/p/${_realname}/${_realname}-${version}.tar.gz \
+	eliminate-setuptools_scm.patch)
+
+build() {
+	cd ${_realname}-${version}
+
+	patch -p1 -i $SRC/eliminate-setuptools_scm.patch
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+}
