@@ -6,7 +6,7 @@
 name=python3-docutils
 _realname=docutils
 version=0.19
-release=2
+release=3
 source=(https://files.pythonhosted.org/packages/source/d/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
@@ -19,4 +19,11 @@ build() {
 		--optimize=1 \
 		--skip-build \
 		--root=$PKG
+
+	# Remove .py extension and add version suffix to executable files.
+	local path; for path in $PKG/usr/bin/*.py; do
+		mv "$path" "${path/.py/}"
+		ln -sfv "$(basename "${path/.py/}")" "$path"
+		ln -sfv "$(basename "${path/.py/}")" "${path/.py/}-3"
+	done
 }
