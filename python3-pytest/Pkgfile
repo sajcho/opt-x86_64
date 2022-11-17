@@ -1,0 +1,28 @@
+# Description:	Python3 testing library
+# URL:		https://docs.pytest.org/en/latest/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-attrs python3-exceptiongroup python3-gpep517 python3-iniconfig python3-packaging python3-pluggy python3-py python3-tomli python3-wheel
+
+name=python3-pytest
+_realname=pytest
+version=7.2.0
+release=0
+source=(https://files.pythonhosted.org/packages/source/p/${_realname}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	sed -e "/^\[metadata\]/a version = ${version}" -i setup.cfg
+
+	gpep517 build-wheel \
+		--wheel-dir dist \
+		--output-fd 1
+
+	mkdir -p $PKG/usr/bin
+	local name; for name in py.test pytest; do
+		ln -s $name-3 $PKG/usr/bin/$name
+	done
+
+	python3 -m installer -d $PKG \
+		dist/pytest*.whl
+}
