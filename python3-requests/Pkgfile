@@ -1,0 +1,27 @@
+# Description:	HTTP request library for Python3
+# URL:		http://www.python-requests.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-certifi python3-charset-normalizer python3-idna python3-urllib3
+
+name=python3-requests
+_realname=requests
+version=2.28.1
+release=0
+source=(https://files.pythonhosted.org/packages/source/r/${_realname}/${_realname}-${version}.tar.gz \
+	charset-normaliser-3.patch \
+	certs.patch)
+
+build() {
+	cd ${_realname}-${version}
+
+	patch -p1 -i $SRC/charset-normaliser-3.patch
+	patch -p1 -i $SRC/certs.patch
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+}
