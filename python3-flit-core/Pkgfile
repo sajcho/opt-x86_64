@@ -1,0 +1,19 @@
+# Description:	Simple packaging tool for simple packages (core)
+# URL:		https://flit.readthedocs.io/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-installer
+
+name=python3-flit-core
+_realname=flit
+version=3.8.0
+release=0
+source=(https://files.pythonhosted.org/packages/source/f/${_realname}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}/flit_core
+
+	/usr/bin/python3 build_dists.py
+
+	/usr/bin/python3 -m installer -d $PKG \
+		dist/flit_core-${version}-py3-none-any.whl
+}
