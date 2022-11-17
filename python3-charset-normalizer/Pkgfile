@@ -1,0 +1,25 @@
+# Description:	Offers you an alternative to Universal Charset Encoding Detector, also known as Chardet
+# URL:		https://github.com/ousret/charset_normalizer
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-setuptools
+
+name=python3-charset-normalizer
+_realname=charset-normalizer
+version=3.0.0
+release=0
+source=(https://files.pythonhosted.org/packages/source/c/${_realname}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	# py3-pytest-cov not available
+	sed -i '/cov-report/d' setup.cfg
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+}
