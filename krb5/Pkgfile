@@ -4,7 +4,7 @@
 # Depends on:	e2fsprogs keyutils
 
 name=krb5
-version=1.19.1
+version=1.20.1
 release=1
 source=(https://kerberos.org/dist/${name}/${version::4}/${name}-${version}.tar.gz \
 	krb5.conf \
@@ -15,9 +15,8 @@ source=(https://kerberos.org/dist/${name}/${version::4}/${name}-${version}.tar.g
 build() {
 	cd ${name}-${version}/src
 
-	sed -i -e 's@\^u}@^u cols 300}@' tests/dejagnu/config/default.exp
-	sed -i -e '/eq 0/{N;s/12 //}' plugins/kdb/db2/libdb2/test/run.test
-	sed -i '/t_iprop.py/d' tests/Makefile.in
+	sed -e '/eq 0/{N;s/12 //}' -i plugins/kdb/db2/libdb2/test/run.test
+	sed '/t_kadm5.py/d' -i lib/kadm5/Makefile.in
 
 	./configure \
 		--prefix=/usr \
