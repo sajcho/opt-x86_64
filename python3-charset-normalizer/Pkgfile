@@ -5,8 +5,8 @@
 
 name=python3-charset-normalizer
 _realname=charset-normalizer
-version=3.0.0
-release=0
+version=3.0.1
+release=1
 source=(https://files.pythonhosted.org/packages/source/c/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
