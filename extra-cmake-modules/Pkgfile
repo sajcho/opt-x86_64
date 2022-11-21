@@ -5,7 +5,7 @@
 
 name=extra-cmake-modules
 version=5.100.0
-release=1
+release=2
 source=(https://github.com/KDE/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
@@ -17,6 +17,8 @@ build() {
 	cmake .. -G Ninja \
 		-DCMAKE_BUILD_TYPE="None" \
 		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DBUILD_HTML_DOCS=OFF \
+		-DBUILD_MAN_DOCS=OFF \
 		-Wno-dev
 
 	ninja -v
