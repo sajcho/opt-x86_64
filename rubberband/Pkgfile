@@ -1,0 +1,24 @@
+# Description:	Time-stretching and pitch-shifting audio library and utility.
+# URL:		https://www.breakfastquay.com/rubberband/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	fftw libsamplerate meson ninja vamp-plugin-sdk ladspa libogg libvorbis opus
+
+name=rubberband
+version=3.1.1
+release=1
+source=(https://github.com/breakfastquay/${name}/archive/v${version}/${name}-v${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dfft=fftw \
+		-Dresampler=libsamplerate \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/usr/share
+}
