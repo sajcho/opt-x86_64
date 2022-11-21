@@ -1,0 +1,24 @@
+# Description:	General Purpose video player based on MPlayer and mplayer2
+# URL:		https://mpv.io/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	ffmpeg libass libplacebo util-linux libxscrnsaver libsdl2 libvdpau rubberband libxpresent python3-docutils
+
+name=mpv
+version=0.35.0
+release=1
+source=(https://github.com/mpv-player/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dsdl2=enabled \
+		-Dcdda=disabled \
+		-Ddvdnav=disabled \
+		-Db_lto=true \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
