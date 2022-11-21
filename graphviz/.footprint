@@ -93,6 +93,9 @@ lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_neato_layout.so.6 -> libgvplug
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_pango.so -> libgvplugin_pango.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_pango.so.6 -> libgvplugin_pango.so.6.0.0
 -rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_pango.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_poppler.so -> libgvplugin_poppler.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_poppler.so.6 -> libgvplugin_poppler.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_poppler.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_rsvg.so -> libgvplugin_rsvg.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_rsvg.so.6 -> libgvplugin_rsvg.so.6.0.0
 -rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_rsvg.so.6.0.0
@@ -105,6 +108,10 @@ lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_webp.so.6 -> libgvplugin_webp.
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_xlib.so -> libgvplugin_xlib.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_xlib.so.6 -> libgvplugin_xlib.so.6.0.0
 -rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_xlib.so.6.0.0
+drwxr-xr-x	root/root	usr/lib/graphviz/python3/
+lrwxrwxrwx	root/root	usr/lib/graphviz/python3/_gv.so -> libgv_python3.so
+-rw-r--r--	root/root	usr/lib/graphviz/python3/gv.py
+-rwxr-xr-x	root/root	usr/lib/graphviz/python3/libgv_python3.so
 lrwxrwxrwx	root/root	usr/lib/libcdt.so -> libcdt.so.5.0.0
 lrwxrwxrwx	root/root	usr/lib/libcdt.so.5 -> libcdt.so.5.0.0
 -rwxr-xr-x	root/root	usr/lib/libcdt.so.5.0.0
@@ -134,8 +141,14 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/liblab_gamut.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libpathplan.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libxdot.pc
+drwxr-xr-x	root/root	usr/lib/python3.11/
+drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/
+-rwxr-xr-x	root/root	usr/lib/python3.11/site-packages/_gv.so
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/gv.py
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/graphviz/
+drwxr-xr-x	root/root	usr/share/graphviz/demo/
+-rwxr-xr-x	root/root	usr/share/graphviz/demo/modgraph.py
 drwxr-xr-x	root/root	usr/share/graphviz/graphs/
 drwxr-xr-x	root/root	usr/share/graphviz/graphs/directed/
 -rw-r--r--	root/root	usr/share/graphviz/graphs/directed/KW91.gv
@@ -281,6 +294,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/cdt.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/cgraph.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/expr.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/gv.3python.gz
 -rw-r--r--	root/root	usr/share/man/man3/gvc.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/gvpr.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/pack.3.gz
