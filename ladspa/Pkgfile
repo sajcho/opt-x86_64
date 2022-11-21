@@ -1,0 +1,35 @@
+# Description:	Linux Audio Developer's Simple Plugin API.
+# URL:		http://www.ladspa.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libsndfile
+
+name=ladspa
+_realname=ladspa_sdk
+version=1.17
+release=1
+source=(https://ladspa.org/download/${_realname}_$version.tgz \
+	fix-memleak-in-plugin-scanning.patch)
+
+build() {
+	cd ${_realname}_$version
+
+	patch -Np0 -i $SRC/fix-memleak-in-plugin-scanning.patch
+
+	export CFLAGS="${CFLAGS//-O?/-O3}"
+	export CXXFLAGS="${CXXFLAGS//-O?/-O3}"
+
+	sed \
+		-e 's|@CFLAGS@|$CFLAGS|' \
+		-e 's|@CXXFLAGS@|$CXXFLAGS|' \
+		-i src/Makefile
+
+	cd src
+
+	make V=1
+
+	make \
+		INSTALL_PLUGINS_DIR="$PKG/usr/lib/ladspa/" \
+		INSTALL_INCLUDE_DIR="$PKG/usr/include/" \
+		INSTALL_BINARY_DIR="$PKG/usr/bin/" \
+		install
+}
