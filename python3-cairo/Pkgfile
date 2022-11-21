@@ -5,8 +5,8 @@
 
 name=python3-cairo
 _realname=pycairo
-version=1.21.0
-release=2
+version=1.22.0
+release=1
 source=(https://github.com/pygobject/${_realname}/releases/download/v${version}/${_realname}-${version}.tar.gz)
 
 build() {
