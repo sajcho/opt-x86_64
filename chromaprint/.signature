@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAqsSOsf2PdHNzNezlvZuSKIpgGEcmKwWIyUvWUgNeV9ndsWzOf/Tw9j+/IpsDR75K/yL1zBlcP3zL68LuIPdlwM=
+SHA256 (Pkgfile) = 713f5df4226d9cf15eb5e266eac1706340f3d269ca311566efc038ded92d8230
+SHA256 (.footprint) = 7e1f6c91105d96ecefd777d8121ed141eadac55e4ad0919592912917ce5ce02e
+SHA256 (chromaprint-1.5.1.tar.gz) = a1aad8fa3b8b18b78d3755b3767faff9abb67242e01b478ec9a64e190f335e1c
+SHA256 (ffmpeg5.patch) = 09b4bdface519f2d6911a3f589dae9224a34de18c487a57abb8acbd5da3484f4

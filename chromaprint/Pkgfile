@@ -1,7 +1,7 @@
 # Description:	Audio fingerprinting library.
 # URL:		https://acoustid.org/chromaprint
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cmake ffmpeg
+# Depends on:	ffmpeg
 
 name=chromaprint
 version=1.5.1
