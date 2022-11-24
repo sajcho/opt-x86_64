@@ -1,7 +1,7 @@
 # Description:	A library providing a set of interfaces for accessibility
 # URL:		https://www.gtk.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gobject-introspection samurai
+# Depends on:	gobject-introspection
 
 name=atk
 version=2.38.0
