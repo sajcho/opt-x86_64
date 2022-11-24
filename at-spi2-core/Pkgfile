@@ -1,7 +1,7 @@
 # Description:	Protocol definitions and daemon for D-Bus at-spi
 # URL:		http://developer.gnome.org/libatspi/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	dbus gobject-introspection libxtst samurai
+# Depends on:	dbus gobject-introspection libxtst
 
 name=at-spi2-core
 version=2.46.0

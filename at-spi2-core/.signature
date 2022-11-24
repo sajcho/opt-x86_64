@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAuGyMjXHceVELzJAbAHbIzQc8igbiQpfSSHvDs3RDe5gWkAHf4akY+yYyM2b+8oJQPactugcFGlYJqBxCO/oOgA=
+SHA256 (Pkgfile) = 37a292b5e43b5c537c38919841dffe1448681de705e35dc6906f12d81b121b02
+SHA256 (.footprint) = 7821a18e28da09232a01e48336b4e0ccbf98c738115a27d43ef1e56e17030ffa
+SHA256 (at-spi2-core-2.46.0.tar.xz) = aa0c86c79f7a8d67bae49a5b7a5ab08430c608cffe6e33bf47a72f41ab03c3d0
