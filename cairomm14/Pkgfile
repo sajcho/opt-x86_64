@@ -6,7 +6,7 @@
 name=cairomm14
 _realname=cairomm
 version=1.14.3
-release=0
+release=1
 source=(https://cairographics.org/releases/${_realname}-${version}.tar.xz)
 
 build() {
