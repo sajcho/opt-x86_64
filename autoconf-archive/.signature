@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAnf+yS8RNYtUQXBBMHlDtqEvru8+UL6FmixDYMhDY24SjORBzHnXXhX5CzSpvsgsfNh677G6ap8tWZevq5ra5QU=
+SHA256 (Pkgfile) = 88450ba71d4ea0a99df415fb5cd4eaa1f9de780b0e148ae7e1ab3f843eaafcd8
+SHA256 (.footprint) = 65789d7fc2292ed7da568557eeaa743cbcf2a269987bd8728cce27fe5f322176
+SHA256 (autoconf-archive-2022.09.03.tar.xz) = e07454f00d8cae7907bed42d0747798927809947684d94c37207a4d63a32f423
