@@ -1,7 +1,7 @@
 # Description:	Reusable library for GPU-accelerated video/image rendering primitives
 # URL:		https://github.com/haasn/libplacebo
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	ffmpeg glad glfw3 lcms2 libepoxy shaderc vulkan-loader
+# Depends on:	ffmpeg glad glfw3 lcms2 shaderc
 
 name=libplacebo
 version=5.229.1
