@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAmR4/wJP/4dLCqhAhQ4XHzZPLcr9iaHIiiKjhwo/00BvQe3knXSYDaIyRMTdG1qslPIeo1lWncQ0igmjRa9GdgU=
+SHA256 (Pkgfile) = e1866d95366b6aded1860dbec3206cd04bde27963293f795a8f7ea2bc460daa7
+SHA256 (.footprint) = 11005cf4e63bfe64aa78294e197f806c56c681221a5665cc9c9e094a0eeca3d0
+SHA256 (libasyncns-0.8.tar.gz) = 4f1a66e746cbe54ff3c2fbada5843df4fbbbe7481d80be003e8d11161935ab74
