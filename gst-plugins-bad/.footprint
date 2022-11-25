@@ -84,6 +84,48 @@ drwxr-xr-x	root/root	usr/include/gstreamer-1.0/gst/uridownloader/
 -rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/uridownloader/gsturidownloader.h
 -rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/uridownloader/gsturidownloader_debug.h
 -rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/uridownloader/uridownloader-prelude.h
+drwxr-xr-x	root/root	usr/include/gstreamer-1.0/gst/vulkan/
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkapi.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkbarrier.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkbuffermemory.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkbufferpool.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkcommandbuffer.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkcommandpool.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkconfig.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkdebug.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkdescriptorcache.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkdescriptorpool.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkdescriptorset.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkdevice.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkdisplay.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkerror.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkfence.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkformat.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkfullscreenquad.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkhandle.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkhandlepool.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkimagebufferpool.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkimagememory.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkimageview.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkinstance.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkmemory.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkphysicaldevice.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkqueue.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkswapper.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvktrash.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkutils.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkvideofilter.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/gstvkwindow.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/vulkan-enumtypes.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/vulkan-prelude.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/vulkan.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/vulkan_fwd.h
+drwxr-xr-x	root/root	usr/include/gstreamer-1.0/gst/vulkan/wayland/
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/wayland/gstvkdisplay_wayland.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/wayland/wayland.h
+drwxr-xr-x	root/root	usr/include/gstreamer-1.0/gst/vulkan/xcb/
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/xcb/gstvkdisplay_xcb.h
+-rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/vulkan/xcb/xcb.h
 drwxr-xr-x	root/root	usr/include/gstreamer-1.0/gst/wayland/
 -rw-r--r--	root/root	usr/include/gstreamer-1.0/gst/wayland/wayland.h
 drwxr-xr-x	root/root	usr/include/gstreamer-1.0/gst/webrtc/
@@ -107,6 +149,9 @@ drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/GstPlay-1.0.typelib
 -rw-r--r--	root/root	usr/lib/girepository-1.0/GstPlayer-1.0.typelib
 -rw-r--r--	root/root	usr/lib/girepository-1.0/GstTranscoder-1.0.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GstVulkan-1.0.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GstVulkanWayland-1.0.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GstVulkanXCB-1.0.typelib
 -rw-r--r--	root/root	usr/lib/girepository-1.0/GstWebRTC-1.0.typelib
 drwxr-xr-x	root/root	usr/lib/gstreamer-1.0/
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstaccurip.so
@@ -162,6 +207,7 @@ drwxr-xr-x	root/root	usr/lib/gstreamer-1.0/
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstjp2kdecimator.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstjpegformat.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstkms.so
+-rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstladspa.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstlegacyrawparse.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstmidi.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstmodplug.so
@@ -212,6 +258,7 @@ drwxr-xr-x	root/root	usr/lib/gstreamer-1.0/
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstvideoparsersbad.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstvideosignal.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstvmnc.so
+-rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstvulkan.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstwaylandsink.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstwebp.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstwebrtc.so
@@ -260,6 +307,9 @@ lrwxrwxrwx	root/root	usr/lib/libgsturidownloader-1.0.so.0 -> libgsturidownloader
 lrwxrwxrwx	root/root	usr/lib/libgstva-1.0.so -> libgstva-1.0.so.0
 lrwxrwxrwx	root/root	usr/lib/libgstva-1.0.so.0 -> libgstva-1.0.so.0.2004.0
 -rwxr-xr-x	root/root	usr/lib/libgstva-1.0.so.0.2004.0
+lrwxrwxrwx	root/root	usr/lib/libgstvulkan-1.0.so -> libgstvulkan-1.0.so.0
+lrwxrwxrwx	root/root	usr/lib/libgstvulkan-1.0.so.0 -> libgstvulkan-1.0.so.0.2004.0
+-rwxr-xr-x	root/root	usr/lib/libgstvulkan-1.0.so.0.2004.0
 lrwxrwxrwx	root/root	usr/lib/libgstwayland-1.0.so -> libgstwayland-1.0.so.0
 lrwxrwxrwx	root/root	usr/lib/libgstwayland-1.0.so.0 -> libgstwayland-1.0.so.0.2004.0
 -rwxr-xr-x	root/root	usr/lib/libgstwayland-1.0.so.0.2004.0
@@ -277,6 +327,9 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-plugins-bad-1.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-sctp-1.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-transcoder-1.0.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-vulkan-1.0.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-vulkan-wayland-1.0.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-vulkan-xcb-1.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-wayland-1.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gstreamer-webrtc-1.0.pc
 drwxr-xr-x	root/root	usr/share/
@@ -288,6 +341,9 @@ drwxr-xr-x	root/root	usr/share/gir-1.0/
 -rw-r--r--	root/root	usr/share/gir-1.0/GstPlay-1.0.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/GstPlayer-1.0.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/GstTranscoder-1.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/GstVulkan-1.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/GstVulkanWayland-1.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/GstVulkanXCB-1.0.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/GstWebRTC-1.0.gir
 drwxr-xr-x	root/root	usr/share/gstreamer-1.0/
 drwxr-xr-x	root/root	usr/share/gstreamer-1.0/encoding-profiles/
