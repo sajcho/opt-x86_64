@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAtdGQ0R+zP+2BToFS30i/f0qpeC2WjB9yjQ2dfKFcJNH+19S7yyF48IvOcj/1WGhV1n/uqeyjZRw3quDdefm+wk=
+SHA256 (Pkgfile) = 0878327b637efc0b3ac5936067c39a5dc8772691942f5056031894321c2b8026
+SHA256 (.footprint) = c86f1d121b3f8e825e446f4af6e1a50a62b05d3b86fcb1740ff0157d4fb00ed0
+SHA256 (go1.19.3.src.tar.gz) = 18ac263e39210bcf68d85f4370e97fb1734166995a1f63fb38b4f6e07d90d212
+SHA256 (go1.19.3.linux-amd64.tar.gz) = 74b9640724fd4e6bb0ed2a1bc44ae813a03f1e72a4c76253e2d5c015494430ba
