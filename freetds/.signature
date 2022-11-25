@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAvp5//IIQiyT5/gjZwZ2k0vrKvuddCY/ZaibeLYs9X9rsMwXyVzlSCaf4gUx2mcvMrgsUiAkqSOs59Kl9aB4AQM=
+SHA256 (Pkgfile) = 6e45e1afce3644060b0eee3b8cee1e676b34cb4f6c5bd74ee76b1b10bb2c9bfd
+SHA256 (.footprint) = fc77e5a9b2bfd66daaa6f5f1e7897b69a29df99e564afff26a9b9bf9ac6a4cbe
+SHA256 (freetds-1.3.13.tar.bz2) = d4cf90094151fdcdda128ed18cb0a6bf65b308be352b53449943b5249c5b48f2
