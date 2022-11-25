@@ -5,7 +5,7 @@
 
 name=dtc
 version=1.6.0
-release=0
+release=1
 source=(https://kernel.org/pub/software/utils/${name}/${name}-${version}.tar.xz \
 	increase_max_srcfile_depth.patch)
 
