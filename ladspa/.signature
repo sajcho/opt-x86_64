@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAofwP65Q00EkuLm/N+ykA6b4pfJFq0UMOd9DuxTJzTI0QDWwu/cyhsuyvHwjQPO030s6rZzAKI+zDhlAMVd9uwI=
+SHA256 (Pkgfile) = edcb19f155bd1a3b365181f6d14bb666b1b633a45e5d63b7420905840ef613c6
+SHA256 (.footprint) = b364563a42185fe2e2e665b5cb27f35e726b5c0a81c03eabba92785121bcf5f2
+SHA256 (ladspa_sdk_1.17.tgz) = 27d24f279e4b81bd17ecbdcc38e4c42991bb388826c0b200067ce0eb59d3da5b
+SHA256 (fix-memleak-in-plugin-scanning.patch) = 27be471df55951fa1cc53089631b167e2654436fc5b3a5773f357cb9f9e29005
