@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAtL+CLCWBrNPlAMCIVgXeilvmiSblvjGmNF5+1jabQ2+/LgN8xFubFSKW6EgaayS2Q00AtxFglt48/+21iU/OQU=
+SHA256 (Pkgfile) = 9304ba96aa88572f3f3cd0381d98fac042615abdb821642d1a77d3a4cb80c3fc
+SHA256 (.footprint) = 2a9ce790da1869688c5c8a6680733688ce003b6c4f7cb42aedd06406f36d004c
+SHA256 (libsass-3.6.5.tar.gz) = 89d8f2c46ae2b1b826b58ce7dde966a176bac41975b82e84ad46b01a55080582
+SHA256 (fix-pkgconfig-version.patch) = 35e9323d083e29d103e5b37af13ef0e3a04f64d4aaba2c08a2659583c3f97ea7
