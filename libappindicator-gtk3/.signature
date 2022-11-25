@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAujuxFs4V/u5c08wgT9SafhBWb+m4FIR6XR3FMH0E4c/HNmqGwbvwQxxCELPTsHk9yyD444j18NY8YMrabtw+Ao=
+SHA256 (Pkgfile) = 4396d785124fa6d983a90a82ba004d7ceb1b82a144da2e42ecff5391624a05fe
+SHA256 (.footprint) = 0f344ad028e87844c0bd006fe75421196f846e80ab02b84fd57a88452d9bbc37
+SHA256 (libappindicator_12.10.1+20.10.20200706.1.orig.tar.gz) = 94e7096a49c400628ecddcafe313d63bf917d95a90ab994930909de724604e0a
+SHA256 (no-gtk-doc-make.patch) = 6d3b4456bbbae68e0e97f205fe552ca4bff45371d64120ea6d5fd7fc7e248b33
+SHA256 (improved-plasma.patch) = ebeaf6921ec6bbcbc67623f7dc4728b8109efe0e2388d2d2474867a3a8a6b20c
