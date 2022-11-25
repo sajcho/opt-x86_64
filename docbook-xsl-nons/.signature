@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAlkmfQSUxxR90vtYEc2eYKEhzBQ6ituqv/8aA3Tvvh2GAQWDHCxzmozEhFeZcOefjaPdgbAFMPtngjjAgTuRwg8=
+SHA256 (Pkgfile) = 4f1e8f1427914d64b8facd151d8edf1229f4e5d66b03fee1aed6127bf9f5e093
+SHA256 (.footprint) = a39fcb95ccc24d6e386971fd919a389854144b4dae0407eeba2240682d470c1d
+SHA256 (docbook-xsl-nons-1.79.2.tar.bz2) = ee8b9eca0b7a8f89075832a2da7534bce8c5478fc8fc2676f512d5d87d832102
+SHA256 (docbook-xsl-nons-1.79.2-stack_fix-1.patch) = a92c39715c54949ba9369add1809527b8f155b7e2a2b2e30cb4b39ee715f2e30
