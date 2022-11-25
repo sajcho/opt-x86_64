@@ -1,7 +1,7 @@
 # Description:	A library that provides a secure layer over a reliable transport layer
 # URL:		http://gnutls.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libidn2 libseccomp libtasn1 nettle openssl3 p11-kit
+# Depends on:	libidn2 libseccomp nettle p11-kit
 
 name=gnutls
 version=3.7.8
