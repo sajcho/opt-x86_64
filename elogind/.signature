@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAnzI8lV17v4AxcLIYHIhYRsxAz5B1dJ5AQl/A1vFmvK27b0bbt0VCO489vQnVTmut+epipbUhdgOdVyrgmRZtwU=
+SHA256 (Pkgfile) = 3866b6bc2ca3eb88f0292891eba38723fc1d0e380b40437bc34376774a6c5bde
+SHA256 (.footprint) = bd24b0fba1bbaab8912606650a1d2a4b85a6c2b112628d016ef219732181500c
+SHA256 (elogind-v246.10.tar.gz) = c490dc158c8f5bca8d00ecfcc7ad5af24d1c7b9e59990a0b3b1323996221a922
+SHA256 (elogind-246.10-revert-polkit-automagic.patch) = 71d7bc6b3c32c2cb6f22801ddb8879b8d59109e3162064ad40865b0fa6723ffa
+SHA256 (elogind.run) = efb9e254d8470004d369b95724354bd846bc40e3d4356094bef53fbcec5bef6f
+SHA256 (elogind.wrapper) = 4fb9ad7bb72929164b4a3978d03f01794795cf3b1974d57db1b7816978627913
