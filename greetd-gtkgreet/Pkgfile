@@ -6,7 +6,7 @@
 name=greetd-gtkgreet
 _realname=gtkgreet
 version=0.7
-release=0
+release=1
 source=(https://git.sr.ht/~kennylevinsen/${_realname}/archive/${version}.tar.gz \
 	fix-deprecated-declarations.patch)
 
