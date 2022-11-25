@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAox9VPNw4n2uBnEgejclUwEiyNdCOsUusR6t1Rn3jUQNWaObnCLjag+YUKcMZUYLz6fqNmJUfjN1NnCUGJB2YQ8=
+SHA256 (Pkgfile) = b36092044cdc90e22c26519f9909d00be34a2c04715f7fa96a66a08c3f12d6aa
+SHA256 (.footprint) = e4caac846d6685e30d7b3c4393719a75d59768397b1eded83718ce816830638d
+SHA256 (extra-cmake-modules-5.100.0.tar.gz) = 6936cef38c7a3326e8eeb0dbb63d4d68925850db71b076b908a25948e4ff8162
