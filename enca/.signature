@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAtUUE0otSQyWUcISQkEkGo9ER3bZhy3G+F5YOPDNfVhI5a2Lw0AYbtc2uvbH6AzioinUTQZ9/Ic7iVLXN0qAfg4=
+SHA256 (Pkgfile) = f247b7a0dddcc922f8b6824071d9906a268a124bb875605670e3d41a1f7302e6
+SHA256 (.footprint) = eac22654ddb9601214553c09b96e13a569a2eae40d6f423e1a69fa70cdd1f238
+SHA256 (enca-1.19.tar.xz) = 3a487eca40b41021e2e4b7a6440b97d822e6532db5464471f572ecf77295e8b8
+SHA256 (enca-bad-file-descriptor.patch) = 270c7c0abaea5f3d10173b58849200d4106675d3127a0b9b8ce1fc3dcf775acb
