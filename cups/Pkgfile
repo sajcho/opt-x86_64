@@ -1,11 +1,11 @@
 # Description:	CUPS - Common UNIX Printing System
 # URL:		https://openprinting.github.io/cups/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	acl libusb zlib linux-pam
+# Depends on:	acl libusb linux-pam
 
 name=cups
 version=2.4.2
-release=0
+release=1
 source=(https://github.com/OpenPrinting/${name}/releases/download/v${version}/${name}-${version}-source.tar.gz \
 	cups.pam cupsd.run)
 
