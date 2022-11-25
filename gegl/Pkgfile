@@ -1,7 +1,7 @@
 # Description:	Graph based image processing framework
 # URL:		https://gegl.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	babl gexiv2 gobject-introspection json-glib librsvg poppler
+# Depends on:	babl gexiv2 json-glib librsvg poppler
 
 name=gegl
 version=0.4.40
