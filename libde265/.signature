@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAqTzJuUcZ/sjL/ObUBuWZYLfXkUsqblSAtz1XvoOCeSzNjTvDhTiSgCCxxKiQZOYHKgUlaMhwxVqRpNEZHWfKwM=
+SHA256 (Pkgfile) = 0fa4b94efee691b08daa6f74a2cb1a341d3b304669c97ac68a2c685977775c0e
+SHA256 (.footprint) = d37ccac4925af21c957c2d20ed9914a40d4bf14f8329466753b1fcf1c6292f94
+SHA256 (libde265-1.0.8.tar.gz) = 24c791dd334fa521762320ff54f0febfd3c09fc978880a8c5fbc40a88f21d905
