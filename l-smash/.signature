@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAgGVpFsCIoTSMmAvegtFSVHRgxclA4vW1LLJqwVKvrNXEm3D37ciufqKHBBFiCShLS71Hb+crxJ2l075OpNIYwg=
+SHA256 (Pkgfile) = 5f84946628d5f0e5940a05bab303824637507772776b64fdee17c5927ea92915
+SHA256 (.footprint) = 3b8dde9ee9d5ccc8a32598a3a6d7c7f52f230bc30b2de4e8df6b4fe4d60df243
+SHA256 (l-smash-2.14.5.tar.gz) = e6f7c31de684f4b89ee27e5cd6262bf96f2a5b117ba938d2d606cf6220f05935
