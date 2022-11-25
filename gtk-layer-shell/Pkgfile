@@ -1,7 +1,7 @@
 # Description:	Create panels and other desktop components in Wayland using the Layer Shell protocol
 # URL:		https://github.com/wmww/gtk-layer-shell
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gtk3 wayland
+# Depends on:	gtk3
 
 name=gtk-layer-shell
 version=0.8.0

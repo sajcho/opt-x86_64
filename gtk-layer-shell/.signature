@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAuLogCPZukx+pEqiKd68DI6utjxluQ00Zy3H56tDKYAbnrF/ozK/XF/NngRwehaBW5/JHVca94VYzmAiFKOj8AU=
+SHA256 (Pkgfile) = 381e22c8b573d817bd1d7799ff78ea3676fa3cf997ed784519f8917e06ecdcdb
+SHA256 (.footprint) = c30866a1e192c6832a71245959c2b62ef38be4cddadc7e11b9b22164b9f939df
+SHA256 (gtk-layer-shell-0.8.0.tar.gz) = e95a03766302fe330ec3c6ff3e8018642849003ccaf160fb6fd0c039c81fa54c
