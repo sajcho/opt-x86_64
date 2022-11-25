@@ -1,7 +1,7 @@
 # Description:	Openbox alternative for Wayland
 # URL:		https://github.com/johanmalm/labwc
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cairo glib libxcb libxml2 meson pango wayland-protocols wlroots libxkbcommon
+# Depends on:	pango wlroots
 
 name=labwc
 version=0.5.3

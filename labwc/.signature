@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAqLgdJyQACTsjRRXMEmzg/j6Rmtg4pqcVYsx4K0hMWA3F+UOO14bzT17bc+CUJqbONP9FJF/hS7+6OFK7tw99gA=
+SHA256 (Pkgfile) = 423bf9c92197f4b4008eceb5d11a749436e9e48a959cd11eeef2ab14b9f65805
+SHA256 (.footprint) = b4244472147df767484d7c39db894124ddf5fe86490b431a723cf09aa454eed6
+SHA256 (labwc-0.5.3.tar.gz) = 0b67bc89a5d9059fae28822f3ba2373553dea290cd931c9384a91dbeb2054650
