@@ -1,11 +1,11 @@
 # Description:	Simple Authentication and Security Layer
 # URL:		https://www.cyrusimap.org/sasl/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	db linux-pam openssl3
+# Depends on:	linux-pam openssl3
 
 name=cyrus-sasl
 version=2.1.28
-release=1
+release=2
 source=(https://github.com/cyrusimap/${name}/releases/download/${name}-${version}/${name}-${version}.tar.gz \
 	saslauthd-sv.conf \
 	saslauthd.run)
@@ -29,7 +29,8 @@ build() {
 		--enable-login \
 		--enable-cram \
 		--enable-digest \
-		--enable-shared
+		--enable-shared \
+		--disable-gssapi \
 
 	make V=1
 
