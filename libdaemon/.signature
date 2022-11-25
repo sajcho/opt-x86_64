@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAlcCGqfcpeH32q755cY/v0pKyA9jp3+N781dI+ePbiiIZG7O1WdW27brOQENG2KyIVafZe8FpPnGbSHqKyfaFAE=
+SHA256 (Pkgfile) = a0011ff3d64a115f79f259cdd3df6d8ace76fe5d1b215dc420067006f2e24faf
+SHA256 (.footprint) = 3bcf4bbd17d0d22711e608e3ba693d9bf6d8458d5c028aa9dc22bc47daa90ead
+SHA256 (libdaemon-0.14.tar.gz) = fd23eb5f6f986dcc7e708307355ba3289abe03cc381fc47a80bca4a50aa6b834
