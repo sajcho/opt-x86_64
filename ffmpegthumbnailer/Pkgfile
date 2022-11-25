@@ -1,7 +1,7 @@
 # Description:	Lightweight video thumbnailer that can be used by file managers
 # URL:		https://github.com/dirkvdb/ffmpegthumbnailer
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cmake ffmpeg
+# Depends on:	ffmpeg
 
 name=ffmpegthumbnailer
 version=2.2.2
