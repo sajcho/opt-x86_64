@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAr2H76GJrIwvSWZkIY1YyES1o3ALmVG0Oc5aHcLrx4MQonnSGOuiM0d++WOEIeks68xu28c4my6pWDE9R9Ny+QY=
+SHA256 (Pkgfile) = 29d9bff7886c28c9eb16564cd214a80223dc858b02d09ba07240701288974639
+SHA256 (.footprint) = 65bad0c7d8aa969dcc3fd737c99246724fab690f46b9939b29f587ad5578e060
+SHA256 (libptytty-2.0.tar.gz) = 8033ed3aadf28759660d4f11f2d7b030acf2a6890cb0f7926fb0cfa6739d31f7
