@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAtsCawqGpyd/8S4V3vfxuLVZ0paw5bxwXBF8KRMVRq9D00eYxLUWaZVKipr2YXpsqrm2poLVcaUJR/ybi/zcIg0=
+SHA256 (Pkgfile) = 22563c7be6eef8b125bb2b8cb9c77ae60cc6bee560de479caa22a91cceff6061
+SHA256 (.footprint) = fd43d9efef59c1ced7117102ed7fa67f4e9d4dc3484360b6bc9200ac490d17d2
+SHA256 (libmpdclient-2.20.tar.xz) = 18793f68e939c3301e34d8fcadea1f7daa24143941263cecadb80126194e277d

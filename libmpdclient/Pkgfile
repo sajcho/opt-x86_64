@@ -4,7 +4,7 @@
 
 name=libmpdclient
 version=2.20
-release=0
+release=1
 source=(https://www.musicpd.org/download/${name}/${version%.*}/${name}-${version}.tar.xz)
 
 build() {
