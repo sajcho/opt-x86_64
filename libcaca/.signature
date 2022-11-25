@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAqUy6IVGWBIaPx9VeQpPXYOWEp4jWrjSar6NcXb8r9Va/vZV1nD1/UgI/dPVvdJk9KyroTRboepu0m8IB1W6oAY=
+SHA256 (Pkgfile) = c0eed4032a69e873d767c0d6591d3bfaa7d26ca19c1743e63c6abdb8193697b7
+SHA256 (.footprint) = 9fbdd141426eade1c137d3aa8d0bfd28a95222e14fdb60942b7508d8a369e85c
+SHA256 (libcaca-0.99.beta20.tar.bz2) = ff9aa641af180a59acedc7fc9e663543fb397ff758b5122093158fd628125ac1

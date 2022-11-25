@@ -1,7 +1,7 @@
 # Description:	graphics library that outputs text instead of pixels
 # URL:		http://caca.zoy.org/wiki/libcaca
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	imlib2 libx11
+# Depends on:	imlib2
 
 name=libcaca
 version=0.99.beta20
