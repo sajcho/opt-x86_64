@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAs2FimgzBFHVd28HJkYv5rjilEcN23YH4DufNo/yZtyQSEsCS0QEXnYoO7b6ksfMG2uV80+wBHa4LhLZERBwAwE=
+SHA256 (Pkgfile) = 7c66b171866b47d408beb1fbb66455d88eb0c9818d39d9271ee6ad99e62330e5
+SHA256 (.footprint) = 2f27c5bba2aa0984ee36e9756fb51a52f060ad66ec21a5f0e4898b43ffc28745
+SHA256 (graphene-1.10.8.tar.gz) = 922dc109d2dc5dc56617a29bd716c79dd84db31721a8493a13a5f79109a4a4ed
