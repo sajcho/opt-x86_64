@@ -6,7 +6,7 @@
 name=libsigc++3
 _realname=libsigc++
 version=3.2.0
-release=0
+release=1
 source=(https://download.gnome.org/sources/${_realname}/${version%.*}/${_realname}-${version}.tar.xz)
 
 build() {
