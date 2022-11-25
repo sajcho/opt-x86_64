@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAg4PCIr6/6+BYjBecS9yuLFBEISaCEwScAxdcSa9DpFEGyoeuWTlf3AjFyspmg9iBjNUhhvasl8nNDait6JjHgE=
+SHA256 (Pkgfile) = 4dbdd6787ec7e0ce853ce05c7d9e0e450ae882ea797c10d0ea72ea476d6400c8
+SHA256 (.footprint) = c7e8b9867a3e81326c17df162302df317a7cf9612ed783402129e997fbba6594
+SHA256 (libgcrypt-1.10.1.tar.bz2) = ef14ae546b0084cd84259f61a55e07a38c3b53afc0f546bffcef2f01baffe9de
