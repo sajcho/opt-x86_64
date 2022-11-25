@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JArNzbM/udi2s7pRCVbCy1zJMdDELbzICjzBwhcbTYWaf3OMg4v8IUmeS3ncRgIUyb1odFQSlwCDCMcvcFp7hvAE=
+SHA256 (Pkgfile) = ba592b98139851db53dfe88ec56bdda729eebc239755be7b67f15b37449a7dee
+SHA256 (.footprint) = 4fdc8cc0a737a400c3b8b73111d521975247e71111c6b092d1f161dd696c2ec4
+SHA256 (lcms2-2.14.tar.gz) = 28474ea6f6591c4d4cee972123587001a4e6e353412a41b3e9e82219818d5740
