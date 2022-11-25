@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JApybBj0qm/i6DrJXHM+SM4cpECV4rZDVLbdSJtr3rDPmXCHr4k2ISfFXCbJ5WiYFNNHACTgJoVsGmF+fPfWGRQY=
+SHA256 (Pkgfile) = b3390218fcaf28a8ea5b395db78ca8eaa381da7b31d83ebad9440d695199fce3
+SHA256 (.footprint) = 1990924b2fc9909668d9c1182d355ef4fa30878f7d4bb245d48eec670d340adb
+SHA256 (gpgme-1.18.0.tar.bz2) = 361d4eae47ce925dba0ea569af40e7b52c645c4ae2e65e5621bf1b6cdd8b0e9e
+SHA256 (gpgme-1.18.0-gpg_error_1_46-1.patch) = 96eb9a83afaa7e997055982df6fcbc8f053b4d02af6f84e202a7f2c5d0dc9c4b
