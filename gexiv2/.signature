@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAoC2DfWYKWodOGrScgKq+zG/vL0z7RIRatSN2fwWvQX4/gOmAtV4QWL8wZRxMTbyNl5Fflyut3aH9zVoENWVRw4=
+SHA256 (Pkgfile) = 551e4b4f12906c20d44a73a72e2a014396245d6f52ecfbf0f1968c714781a708
+SHA256 (.footprint) = 73f93057433c19e8222a10a764dc60492681c626dbc0792ce8e7a55de411c84f
+SHA256 (gexiv2-0.14.0.tar.xz) = e58279a6ff20b6f64fa499615da5e9b57cf65ba7850b72fafdf17221a9d6d69e
