@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAk6aeGSsAuHjKhg383qL4G79z2+0eoeFI0H4tAhcbKGbKhBbKgM1alXauZ2cO3f+eLrr6jvaVIlXhKwGLy3k/gE=
+SHA256 (Pkgfile) = 50296b5ec838b23f8c6a1dd8abd97e43e8f9e1e04cc5ff9e21c1e6e21b59d008
+SHA256 (.footprint) = 139b0587b7815cc8ddfa82500a0a7c884b0cfa2e2c30a3e8300814f740693527
+SHA256 (fdk-aac-2.0.2.tar.gz) = c9e8630cf9d433f3cead74906a1520d2223f89bcd3fa9254861017440b8eb22f
