@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAn2R7n3LKqz3T2n1aF8H1ZEacuNJDxx229kB9NvSZ3AL2vENP0lIq4WkyriEzSiXYSCaPHO1aSa70cGU8miXTgw=
+SHA256 (Pkgfile) = fa3f81aaa43c8aeef12faf5ce63c06dd44f9860786083e1e12a3fb56e9587b63
+SHA256 (.footprint) = 1bb5f87088d37b048b47712e7e595d7c96dfc3211df98fed94a08cc74d64d498
+SHA256 (libnotify-0.8.1.tar.xz) = d033e6d4d6ccbf46a436c31628a4b661b36dca1f5d4174fe0173e274f4e62557
