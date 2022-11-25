@@ -1,7 +1,7 @@
 # Description:	Networking support for GLib
 # URL:		https://gitlab.gnome.org/GNOME/glib-networking
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gsettings-desktop-schemas intltool libgcrypt openssl3
+# Depends on:	gsettings-desktop-schemas intltool libgcrypt
 
 name=glib-networking
 version=2.74.0
