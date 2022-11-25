@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JArXRJ/fBbGg8TPKF+WDSemmsJtiracIy3EtXvE4jjBQKF4IqNFzJCC31lxwgRX6dZa8Vq+7KYhlQVw0BqW58AwI=
+SHA256 (Pkgfile) = ae14c6a67666cd6d8bbcb8ddb3b6e3dcc84a36ab4cb0219cac46ebe6fedace97
+SHA256 (.footprint) = 7c9636fc0596fcfc48b9d45b271be33151933efa301266ec2bbc175c117bf117
+SHA256 (libraw1394-2.1.2.tar.xz) = 03ccc69761d22c7deb1127fc301010dd13e70e44bb7134b8ff0d07590259a55e
