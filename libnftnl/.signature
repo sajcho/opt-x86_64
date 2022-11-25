@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAoYJXlViOViDOxHqYZ8AoqClSlFJ3IkyLZIqURvy5hL94FdzhEKOvFjZOnsGenZSboyVB7x7OmllCIFHd6l5aQ0=
+SHA256 (Pkgfile) = 121cda96dc036e394ce57561279114def69205e3b403671ae69ad843ee425f48
+SHA256 (.footprint) = aeb111cf9ca93dcd104102002403c6d055e2a29cee3755ec1dc11ddf155621f4
+SHA256 (libnftnl-1.2.4.tar.bz2) = c0fe233be4cdfd703e7d5977ef8eb63fcbf1d0052b6044e1b23d47ca3562477f
