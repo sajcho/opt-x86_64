@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAngXnOYNPYNyDy9iamiQ4J98WSuwWkxQsdHddbxuu0Gp8S2z/OT/bxa062uVFus7325peBmEKEGOCYhSLo8f/wU=
+SHA256 (Pkgfile) = 3a5da1dcca221f3beb806851cbc1b43663b5a4f6a2d7ac22c270b1561b4ddeee
+SHA256 (.footprint) = 2fe8bbaa8b6efbab4802a38a0dd912f8940758c84b2f25652a36e8618cd18183
+SHA256 (grim-1.4.0.tar.gz) = b6786e889ed93568634189a59f6b6429c041bf74883c10e8b6e2ed6772ae7ffb
+SHA256 (printf-fix.patch) = 9b0f4fa64f8b882fa6e3af71977786cdd4faa73ce5cc98d264b25bd5cea157ab

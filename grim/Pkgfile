@@ -1,11 +1,11 @@
 # Description:	Grabs images from Wayland compositors
 # URL:		https://wayland.emersion.fr/grim/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libjpeg-turbo libpng pixman scdoc wayland-protocols
+# Depends on:	libjpeg-turbo pixman scdoc wayland-protocols
 
 name=grim
 version=1.4.0
-release=0
+release=1
 source=(https://github.com/emersion/${name}/archive/v${version}/${name}-${version}.tar.gz \
 	printf-fix.patch)
 
