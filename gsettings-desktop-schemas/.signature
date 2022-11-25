@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAsnglZDtWCjBOsD1ltO/YYBtTZ7WzsZCRAjPhlOE7tCFARJ8LdLidMlIwUN9/ooRU+D8s/FTASVCn9DApG8+Sgg=
+SHA256 (Pkgfile) = 9ef436f0f40f28cc1f31dd34ce779f2351abb3ea7d35e851a785eeb83c3c8ffb
+SHA256 (.footprint) = 8935f87dbda0998a057ae65a1365c8899bbca101cd5a1cf3f60edaef7c14311b
+SHA256 (gsettings-desktop-schemas-43.0.tar.xz) = 5d5568282ab38b95759d425401f7476e56f8cbf2629885587439f43bd0b84bbe
