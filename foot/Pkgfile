@@ -1,7 +1,7 @@
 # Description:	Fast, lightweight and minimalistic Wayland terminal emulator
 # URL:		https://codeberg.org/dnkl/foot
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	fcft fontconfig freetype libxkbcommon ncurses pixman scdoc tllist utf8proc wayland-protocols
+# Depends on:	fcft libxkbcommon
 
 name=foot
 version=1.13.1
