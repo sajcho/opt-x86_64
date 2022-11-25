@@ -1,7 +1,7 @@
 # Description:	Library for accessing a shoutcast/icecast server
 # URL:		https://icecast.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	speex libtheora libvorbis openssl3
+# Depends on:	speex libtheora openssl3
 
 name=libshout
 version=2.4.6
