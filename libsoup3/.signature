@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAujYYqVQ25o+kesSQWmWJJ+Q/RHoMluW8m/KsypHmalkKlyZn3NhVxOFZrSZDQS7Vs37GnxXbnXdEkTW4VgQ1QU=
+SHA256 (Pkgfile) = 3d25b03f3228eb706620b4a802595ae0bf9e2132b78584cdecadb7b78c77e60d
+SHA256 (.footprint) = 2b09269377f947f4ba8df6374d2ce9444459f1b2b2a3793c0150a6e444f11560
+SHA256 (libsoup-3.2.2.tar.xz) = 83673c685b910fb7d39f1f28eee5afbefb71c05798fc350ac3bf1b885e1efaa1
