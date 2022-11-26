@@ -6,7 +6,7 @@
 name=python3-sphinxcontrib-jsmath
 _realname=sphinxcontrib-jsmath
 version=1.0.1
-release=0
+release=1
 source=(https://files.pythonhosted.org/packages/source/s/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
