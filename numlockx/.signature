@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAjCzQyDDzn4giAUNTD29oLk1R4lCKyqP25fqX9sJW4+3vsSvmDw97Y0YSlpf6vTTG8Ws/DHWqhM7ChGZ8yd6hgw=
+SHA256 (Pkgfile) = 4ad488e560252ae18d4ad1aad46128c5726db89ab27410bb96f02b7cf1329b37
+SHA256 (.footprint) = 9fc449956c157b6b46d5a2f82193acf43c2a30127e3174e3b215247c09851b72
+SHA256 (numlockx_1.2.orig.tar.gz) = e468eb9121c94c9089dc6a287eeb347e900ce04a14be37da29d7696cbce772e4
+SHA256 (get-state.patch) = 5ffea446dc67f8b3919733ae65df9a81d0815a7db439ae58e4b563452775f22f
+SHA256 (improve-help.patch) = e5e3e2ccac007ce56795f9c3df39a2c2cf2da987a534a09d99f0fc2bd3fdd7a0
