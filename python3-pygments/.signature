@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAvE27P0vaF2eEIOzTWlRPD2MLk0rjmX22DzfgphSuywjUMF+TvH0OGEftsjtZKGJtvB+RYMLzUD0qhsVM3WWLQ4=
+SHA256 (Pkgfile) = 1d11bc4ec03c3ba48cf4b30f4d4d2111fad06deb3f036e497587537c80764071
+SHA256 (.footprint) = cadb2de9df6e2040bc9aecacb87ebb79d3dc59b05d4f75cae556cc9f1098365a
+SHA256 (Pygments-2.13.0.tar.gz) = 56a8508ae95f98e2b9bdf93a6be5ae3f7d8af858b43e02c5a2ff083726be40c1
