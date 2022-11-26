@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAl7DFOIGjPUoG15Yu8IguA0+/fp+CJhe2iK99sG95M7SNT1LECKIrR1Sv45wLpYngtRmmFa0tbf9WJ4LC2ZY9Qc=
+SHA256 (Pkgfile) = 81d70139f849abace17d39966215dafd6cc091ff34cab88ed009f69479336a02
+SHA256 (.footprint) = 892c8e4a5a01edeb79f1d1aec29d30b4f6222bde2cb8a62aa905af209b327d75
+SHA256 (popt-1.19.tar.gz) = c25a4838fc8e4c1c8aacb8bd620edb3084a3d63bf8987fdad3ca2758c63240f9
