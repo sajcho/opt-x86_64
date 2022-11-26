@@ -1,7 +1,7 @@
 # Description:	An object-oriented language for quick and easy programming
 # URL:		http://www.ruby-lang.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gmp openssl3 yaml
+# Depends on:	gmp yaml
 
 name=ruby
 version=3.1.2
