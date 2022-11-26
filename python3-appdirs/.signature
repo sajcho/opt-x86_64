@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAgHrCAL+nV5SR1Lh/euTQYWecmDR5nh8Hkgg9nEl3+nagdFD3AO0zomSyyTrmIHyGEpLEOgCdLNJ6m3GSPQnYA8=
+SHA256 (Pkgfile) = cddeafe86d420decc17f94f52dfe480f6ddee3bccd43534652a42e1c1175a5a5
+SHA256 (.footprint) = 9821ee613795c38bef45d43eb7ea94767fa60bd686efb23caf976af4ba10edc2
+SHA256 (appdirs-1.4.4.tar.gz) = 7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41
