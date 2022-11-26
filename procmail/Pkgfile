@@ -4,7 +4,7 @@
 
 name=procmail
 version=3.22
-release=0
+release=1
 source=(http://ftp.osuosl.org/pub/blfs/conglomeration/procmail/${name}-${version}.tar.gz \
 	procmail-3.22-getline.patch formisc.c.patch fix_memory_allocation_bug.diff)
 
