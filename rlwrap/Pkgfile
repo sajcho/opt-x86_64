@@ -1,7 +1,7 @@
 # Description:	Adds readline-style editing and history to programs.
 # URL:		https://github.com/hanslub42/rlwrap
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	perl python3
+# Depends on:	python3
 
 name=rlwrap
 version=0.45.2
