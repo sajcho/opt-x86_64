@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAgmkoRjvJSm5kMGTvRd54bacH0zDClHJKeZTq0pbSR69YR6Ll8/qvNG8TR/iCbFzSqSRbLuQk8txCzOh/NDyJww=
+SHA256 (Pkgfile) = 04641a6fbadde3f9a780137499086ea827bbdcbb66ba613d254864d1c374dbc6
+SHA256 (.footprint) = 285adc695e66e81b61027c7b5a9e012585576024e5ab8fbc34e5d0a46bc9f442
+SHA256 (send2trash-1.8.0.tar.gz) = 937b038abd9f1e7b8c5d7a116be5dc4663beb71df74dcccffe56cacf992c7a9c
