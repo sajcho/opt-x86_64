@@ -1,10 +1,10 @@
 # Description:	SQL database server, drop-in replacement for MySQL
 # URL:		https://mariadb.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	ncurses zlib openssl3 cmake libaio linux-pam libpcre2 lz4
+# Depends on:	cmake krb5 libaio linux-pam libpcre2 libxml2
 
 name=mariadb
-version=10.9.4
+version=10.10.2
 release=1
 source=(https://downloads.mariadb.com/MariaDB//$name-$version/source/$name-$version.tar.gz
 	mariadb.pam mysqld-log.run mysqld.run pre-install)
@@ -31,6 +31,8 @@ build() {
 		-DWITH_ZLIB=system \
 		-DWITH_SSL=system \
 		-DWITH_PCRE=system \
+		-DWITH_LIBARCHIVE=system \
+		-DCONNECT_WITH_LIBXML2=system \
 		-DWITH_EXTRA_CHARSETS=complex \
 		-DWITH_EMBEDDED_SERVER=ON \
 		-DWITH_UNIT_TESTS=OFF \

@@ -553,6 +553,7 @@ drwxr-xr-x	root/root	usr/include/mysql/server/private/providers/lzo/
 -rw-r--r--	root/root	usr/include/mysql/server/private/winservice.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/wqueue.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/wsrep.h
+-rw-r--r--	root/root	usr/include/mysql/server/private/wsrep_allowlist_service.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/wsrep_applier.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/wsrep_binlog.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/wsrep_client_service.h
@@ -603,6 +604,8 @@ drwxr-xr-x	root/root	usr/lib/mysql/plugin/
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/adt_null.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_0x0100.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_ed25519.so
+-rwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_gssapi.so
+-rwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_gssapi_client.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_pam.so
 drwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_pam_tool_dir/
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_pam_tool_dir/auth_pam_tool
