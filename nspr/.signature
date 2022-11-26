@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAigJUkMU6826M2NP3/4ZDLpHrMqz3eoN3fM4Hm7WBSdoDpHgAQeOcIyn3PNREd2llrwWmD/HyFVmCp52M2D/yQM=
+SHA256 (Pkgfile) = 3d183551031e0bdfdda0da70deb90593f559cd2c037bb33deb812de202068fe5
+SHA256 (.footprint) = 1cfda95212f1299e43d9441913be360cf01d7c04938a7e7b1084fcf433dc1f08
+SHA256 (nspr-4.35.tar.gz) = 7ea3297ea5969b5d25a5dd8d47f2443cda88e9ee746301f6e1e1426f8a6abc8f
+SHA256 (nspr.pc.in) = 57a655d034221760ce10278d2050bbe040b1db55be3db6e3a30f04a570877b71
