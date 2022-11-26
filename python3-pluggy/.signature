@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAiuYBnLoUNQGkw7iPleby8N8+7sXElvnUMQzE9EnXOoqZ714/OP6lO4NKAPSgZUGrcOPSqzS3jare8IAPrnXgwc=
+SHA256 (Pkgfile) = 0efb03ed961985a44576b4d2ad60e182d42e3a29bad0d16caf2701537c9b1f44
+SHA256 (.footprint) = 38bbd38e4e51ba5daca384937f89d824fa35d9a1ef0f2ff74b4eebb9ed7e7eb4
+SHA256 (pluggy-1.0.0.tar.gz) = 4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159
+SHA256 (eliminate-setuptools_scm.patch) = 545576326f124bfa64210c77771adc5001f902b743d0e3138db89768035ecd77

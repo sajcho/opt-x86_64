@@ -6,7 +6,7 @@
 name=python3-pluggy
 _realname=pluggy
 version=1.0.0
-release=0
+release=1
 source=(https://files.pythonhosted.org/packages/source/p/${_realname}/${_realname}-${version}.tar.gz \
 	eliminate-setuptools_scm.patch)
 
