@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAur/bvBgmIg3Pc5k8/sHVjZlKnRRPK3Q/Lc+R2H6BZsdg9IeoTm24myn9ezHHiTtsL5be5WqbTZgC/2IYh2QZQw=
+SHA256 (Pkgfile) = 46e8d815b6016f676350d3b78ee42c4e6fca755540378afeac3ce29a20ddb7ff
+SHA256 (.footprint) = c07fa7f811fc6c86f91c4d1fbb01ca5fb947e04ec906013c7e178ce5e540ab99
+SHA256 (alabaster-0.7.12.tar.gz) = 2f413c2a7e16f6b18d38f86a236b89e50e5f6ca79094ff948e5e58828f95c430
