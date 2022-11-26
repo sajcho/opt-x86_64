@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAkC7Q+Q+pUJpcHh4bsOicH6+KFo62fAU0KjKbc52fSZQGh2koxghZEfoh5J4QQ8pebIW+ZZADkCjM28oF6rqRAQ=
+SHA256 (Pkgfile) = 1749f147dbf7ea988818a2832def0d57b71a7b839dae46051c6e8cc814af6f28
+SHA256 (.footprint) = ac9e5f698df86eeb9425f8f3c8f0afed122afb56bf89c21b7ed2627524c0b12e
+SHA256 (pyelftools-0.29.tar.gz) = 591c2b5150f180937c60714a1ae288365b1a3d6ae68aaaa4503dd5ecf5e3c299
