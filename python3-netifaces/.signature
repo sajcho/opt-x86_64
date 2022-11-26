@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAjxJSCYFjw4UTlveq90RyWqAZmshLp+OFRLFZE2feMXkV5/o7hnh7O3vSy7vBH0xfFnuh4GxxpExseAuoOK58wQ=
+SHA256 (Pkgfile) = f8623e07d3c654afa34d41d9cd507a54bed79130695a3be0b1aa1e7a7e54284b
+SHA256 (.footprint) = 91a0154bf1942f34cf2fe1c6567d4b59408f74014151e5c9a4c2f3d081c78d88
+SHA256 (netifaces-0.11.0.tar.gz) = 043a79146eb2907edf439899f262b3dfe41717d34124298ed281139a8b93ca32
