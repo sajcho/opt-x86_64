@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAnOw/P0n3k//eKOQp2EJ8inyFj+1grRw9A6OcdGIMjFwKO/kW+48otfLE2KiwgmnGWhN4lbgoZ1MG+jjaHkrtw4=
+SHA256 (Pkgfile) = 5f063ca455b6fb755d336893d25ea9945f10e958096c4a7e0a935350d722af2e
+SHA256 (.footprint) = b96b5801aa02bbda21602c6f5772e1322ccec86a4a3cbf0740b86fbe274e3b91
+SHA256 (potrace-1.16.tar.gz) = be8248a17dedd6ccbaab2fcc45835bb0502d062e40fbded3bc56028ce5eb7acc
