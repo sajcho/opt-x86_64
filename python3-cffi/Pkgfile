@@ -1,7 +1,7 @@
 # Description:	Foreign function interface for calling C code from Python3
 # URL:		http://cffi.readthedocs.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libffi python3-cparser
+# Depends on:	python3-cparser
 
 name=python3-cffi
 _realname=cffi
