@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAvf8Wmh3EBLEpyZht1ZY5pKHnkqo8+MvJ5WW18+hIl/37E2Q7pc3Hlqt30k9ybdYTNk9nX0ajgVtPhpCeD620wk=
+SHA256 (Pkgfile) = 6ac8b3bcf97234334ab8fec83fbc5092c6beeab00b29a665e1a6a4847ca2f47b
+SHA256 (.footprint) = f2eeb64628d6ab876cc74fd11022582f0c7f81ffb0a30190b1c9294cf9daf5c0
+SHA256 (sphinxcontrib-applehelp-1.0.2.tar.gz) = a072735ec80e7675e3f432fcae8610ecf509c5f1869d17e2eecff44389cdbc58
