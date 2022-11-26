@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAvuKi+1PGRhZZP/ri9+TQTejHcBMv9EgZfCmlGnY0RaeOWchLVq24mHX4hvKlShAvfXHrS8z0msh2i5w2DiKiAs=
+SHA256 (Pkgfile) = da4bb1f8e52235167535526c4dc9c605580e1e89d9fa7a04056e6af84bce63ab
+SHA256 (.footprint) = bbd80a2a322d24395ddba8dcedb8fa5df731374a01a2d773a2161dbdc0456f43
+SHA256 (pybind11-2.10.1.tar.gz) = 111014b516b625083bef701df7880f78c2243835abdb263065b6b59b960b6bad
