@@ -1,7 +1,7 @@
 # Description:	Application development toolkit for controlling system-wide privileges
 # URL:		https://gitlab.freedesktop.org/polkit/polkit/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	dbus duktape gobject-introspection intltool util-linux
+# Depends on:	dbus duktape gobject-introspection
 
 name=polkit
 version=122
