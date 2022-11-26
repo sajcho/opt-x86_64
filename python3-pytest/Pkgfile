@@ -1,12 +1,12 @@
 # Description:	Python3 testing library
 # URL:		https://docs.pytest.org/en/latest/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	python3-attrs python3-exceptiongroup python3-gpep517 python3-iniconfig python3-packaging python3-pluggy python3-py python3-tomli python3-wheel
+# Depends on:	python3-attrs python3-exceptiongroup python3-iniconfig python3-packaging python3-pluggy python3-tomli
 
 name=python3-pytest
 _realname=pytest
 version=7.2.0
-release=0
+release=1
 source=(https://files.pythonhosted.org/packages/source/p/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
