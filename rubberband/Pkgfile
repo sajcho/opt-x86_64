@@ -1,7 +1,7 @@
 # Description:	Time-stretching and pitch-shifting audio library and utility.
 # URL:		https://www.breakfastquay.com/rubberband/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	fftw libsamplerate meson ninja vamp-plugin-sdk ladspa libogg libvorbis opus
+# Depends on:	libsamplerate meson vamp-plugin-sdk ladspa opus
 
 name=rubberband
 version=3.1.1
