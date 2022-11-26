@@ -1,7 +1,7 @@
 # Description:	Python3 bindings for the cairo graphics library
 # URL:		http://cairographics.org/pycairo/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cairo meson
+# Depends on:	cairo
 
 name=python3-cairo
 _realname=pycairo
