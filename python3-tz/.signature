@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAhh2WylmWKkIlwuBR4QVzvqVhbSJdlbf0DaZNLn6N45lV5ckUq0ME+P3Uvlzgp1O7pkerzHFZabmUQ2cCxuAxg0=
+SHA256 (Pkgfile) = 7732426fd8b713997e53361d9e016fee9a0e21c179c9dcf8b55dd6dac3aa24b2
+SHA256 (.footprint) = 850656855eaac73b75e462151e13f18b69db4bd6bb335b87f5800161b09e3674
+SHA256 (pytz-2022.6.tar.gz) = e89512406b793ca39f5971bc999cc538ce125c0e51c27941bef4568b460095e2
