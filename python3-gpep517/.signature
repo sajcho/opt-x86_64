@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAvh4UVnplSN5d5iYGiEmw53Y5/d0diB+rUUSFS3HCbxKPb6cfY6pGwIXk69j+JXxkfVTksA1GgYVBVscLSayWw4=
+SHA256 (Pkgfile) = 9f4c67a376e77f869cf77cc6608e0ea8886d553eacecf8ecd1c24b42b9675714
+SHA256 (.footprint) = ff01615e8de9f6a487ee33a814ffb7c74eb0f6487701b3ab7c12cca5a26a2752
+SHA256 (gpep517-v11.tar.gz) = 0e59a42d67d40a5d5a1c35345e1ca3bedab0260c3b1d395ed05ded3af65b0699
+SHA256 (gpep517) = 5f9cccf1d1894807ed4f980e407cae63935118342fbfb28307116363ab27661f
