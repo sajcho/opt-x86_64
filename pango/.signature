@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAppobWzDAE1N9K1IcWesfF0jcMudDhU5ukaRrdZV3gSrU/zADmBcSTqyJB/crIFUB8z9of3Y2BE+rm6XPL77dgk=
+SHA256 (Pkgfile) = 5a38408a3ad0d621dec6535b28f278fb8b6d30616d1ee8f999eba865b7274a70
+SHA256 (.footprint) = ba16ec276d65b7c03fac2ee32d1ead05db5c6850f8e098998642871287936e5b
+SHA256 (pango-1.50.12.tar.xz) = caef96d27bbe792a6be92727c73468d832b13da57c8071ef79b9df69ee058fe3
