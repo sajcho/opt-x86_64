@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAhFKX/jUZMWHN+ih22lsGpx85zKkGbyg03xxOuCZP+f1/R0eGA+ulmUz9XI1EULRMbkPrV9kRhZpndrFWPCI2gs=
+SHA256 (Pkgfile) = b66b8f98bee804f942dc5609e006c907d4c3d18f988de60a4c72b740f268022d
+SHA256 (.footprint) = 90bc3174138949b7d3b2b9f5be94db54fe175eba41fe274454616e873b7576a9
+SHA256 (i3ipc-python-2.2.1.tar.gz) = 54af180fac6e3e16c65747884ae4479f0df034c45ed02523f8300f98c99eb29e
