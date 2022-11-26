@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAnNaP951cbPvdZNbpXXMpjOUFAM0Rwy/x6j8FSIIcbDevQRG+pMjOkIZz6sY2F/TWK0EMbmeI4eCutMVuOM/KQw=
+SHA256 (Pkgfile) = c075c5286ea63903d7f297ae1ee1bd3f826000e44ae51dc4c6f49a83f4547aff
+SHA256 (.footprint) = 735737e0dc5c84098d3a29c01ff3bd82debc923b4886ffab3a60c26505177fbe
+SHA256 (pyparsing-2.4.7.tar.gz) = c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1
