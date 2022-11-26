@@ -6,7 +6,7 @@
 name=python3-py
 _realname=py
 version=1.11.0
-release=0
+release=1
 source=(https://files.pythonhosted.org/packages/source/p/${_realname}/${_realname}-${version}.tar.gz \
 	0001-remove-setuptools_scm.patch)
 

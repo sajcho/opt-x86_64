@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAn6xGK2gr+9Ork1a5zOCVfzJF8dBGLVmihHbRE+UpWllYPakLOVEij0QGfs917nL/Wq1s/3r7gOTY1dBmP93QQs=
+SHA256 (Pkgfile) = 01e47d09577042ba4253f02a0b2933c4b9a92bb082b4b5e68a3f3ce2b880eede
+SHA256 (.footprint) = 35a1c83807a88842bdf6f0038abbbf52a53b8923e2381cd445139209d94d1473
+SHA256 (py-1.11.0.tar.gz) = 51c75c4126074b472f746a24399ad32f6053d1b34b68d2fa41e558e6f4a98719
+SHA256 (0001-remove-setuptools_scm.patch) = fde7eeef23e72ebcf736e8d44442b53f6b6769c8fd8fd5e03bf6304bf1e9af60
