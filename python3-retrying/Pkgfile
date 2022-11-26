@@ -1,7 +1,7 @@
 # Description:	General purpose Python3 retrying library
 # URL:		https://github.com/rholder/retrying/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	python3-setuptools python3-six
+# Depends on:	python3-six
 
 name=python3-retrying
 _realname=retrying
