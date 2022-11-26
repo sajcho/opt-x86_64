@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAsclcmKgvtTzS7Rbco6kal0oz2K8dcHJMZ+C6n16SpLxr2kckeWeGN4yp5DyqVQ2hPo+5rl6EJGhZwjgmJzpOAQ=
+SHA256 (Pkgfile) = 0e94c3a4e02923c6455b306edde58d8100ad1ee1159dcbabdcb6d5454f2c8084
+SHA256 (.footprint) = c2219b4a6c26191c4b2f7f2c1f95be02348f7faca22ac083d5661be051d80b28
+SHA256 (Babel-2.11.0.tar.gz) = 5ef4b3226b0180dedded4229651c8b0e1a3a6a2837d45a073272f313e4cf97f6
