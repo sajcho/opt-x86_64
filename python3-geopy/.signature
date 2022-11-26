@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAvlO4Zwr2BD8q5KcwsjCOJozopdu5s4ya1TIu4lCLc5HyYDMn7L215amQXc61mYtcTYCL3KAgTFlpN1EXQDAnAg=
+SHA256 (Pkgfile) = 2a2993d6291d8961cb4b423a1770ad26896a9f0e88cac585711aba9144bd5b04
+SHA256 (.footprint) = 7d4a85beeacd47a23cf7d65195a37970a459d7a300b2407b4639b8e978b719e5
+SHA256 (geopy-2.2.0.tar.gz) = 58b7edf526b8c32e33126570b5f4fcdfaa29d4416506064777ae8d84cd103fdd

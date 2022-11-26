@@ -1,7 +1,7 @@
 # Description:	Geocoding library
 # URL:		https://geopy.readthedocs.io/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	python3-geographiclib python3-setuptools-scm
+# Depends on:	python3-geographiclib
 
 name=python3-geopy
 _realname=geopy
