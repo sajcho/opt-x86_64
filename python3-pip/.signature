@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAlstrIfMYSLFN7mTv5/4W3wzp1rIou1AFc4iPxh0er+DhIiYbrGJ2sf0iY9MjW4MavmG//YdGch0LgQBSI77bwc=
+SHA256 (Pkgfile) = af5e8a50fef7b3505de7940538dbc3059da8ef30cce85b81b98015b1ac5b67d4
+SHA256 (.footprint) = 157ed83434527cd756774120f74517d5a08afe0d4f2eddad1476965e71bb73f2
+SHA256 (pip-22.3.1.tar.gz) = 65fd48317359f3af8e593943e6ae1506b66325085ea64b706a998c6e83eeaf38
