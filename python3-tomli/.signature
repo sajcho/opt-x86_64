@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JArPOp8CLgl0oQsDUdqddUompSAz7CE63tN3lxldkJpyV48jYI73QX+DVsO9L0sFD+7MKe5nsMS1adNGALhrIrQY=
+SHA256 (Pkgfile) = 027a812142ef63cb28c345e3d80f7686417f5f82328bd33764b67fd1c24c9e90
+SHA256 (.footprint) = 5a34587869b7db330be099118ec509ad5bc64c8a8818a41a64eefd73c1ba9498
+SHA256 (tomli-2.0.1.tar.gz) = de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f
