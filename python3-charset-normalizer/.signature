@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAkAVu9zRUYEbdZslxPCZ03P7lV0O9FS7Wh+RZIER/XYwulEkz45W7iJTJGYBBBsj00qm5C5trAzOsYmk5j0oHA4=
+SHA256 (Pkgfile) = 9e6de177676457c6c4585c21e5abead1edd97a6c1fe5ae896b519e369f521b6e
+SHA256 (.footprint) = eea4557e5fc10c097218b3ee03ea626b7dfed47acc048a6030c457bd4eae2d18
+SHA256 (charset-normalizer-3.0.1.tar.gz) = ebea339af930f8ca5d7a699b921106c6e29c617fe9606fa7baa043c1cdae326f
