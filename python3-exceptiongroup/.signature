@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JApX6CgIInVmz/bENcnn40TVPDlZ0bp4ttHQxX5eDinCtxw3k/RVABtLdm05RD4SV2qe5Tg+C3xb6MDsLrup/AQ4=
+SHA256 (Pkgfile) = 7cf09679dfcf9cccfa0dd5edd1948f9611fe15cb18b5ba9b991cfa749d027743
+SHA256 (.footprint) = 6c0b0965aeacf8148a35fd9a37fc382658131793cacb5c28bdb4d475f0fb9604
+SHA256 (py3-exceptiongroup-1.0.1.tar.gz) = 8f278b5c5ae56f8b4a9e3842ed1b2ae53663593edd84c4e47f51167ae403431e
+SHA256 (use-flit-core.patch) = 2d0be0d3f87a7a1f0ff5cc4a2d0ef5731071bdde32a443de1d8b05896247a0e7

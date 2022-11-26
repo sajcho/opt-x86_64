@@ -1,12 +1,12 @@
 # Description:	Backport of PEP 654 (exception groups)
 # URL:		https://github.com/agronholm/exceptiongroup
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	python3-flit-core python3-gpep517 python3-installer python3-wheel
+# Depends on:	python3-flit-core python3-gpep517 python3-wheel
 
 name=python3-exceptiongroup
 _realname=py3-exceptiongroup
 version=1.0.1
-release=0
+release=1
 source=(https://github.com/agronholm/exceptiongroup/archive/${version}/${_realname}-${version}.tar.gz \
 	use-flit-core.patch)
 
