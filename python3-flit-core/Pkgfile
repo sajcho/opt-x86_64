@@ -6,7 +6,7 @@
 name=python3-flit-core
 _realname=flit
 version=3.8.0
-release=0
+release=1
 source=(https://files.pythonhosted.org/packages/source/f/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {

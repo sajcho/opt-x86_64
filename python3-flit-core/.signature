@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAv94QuYMLHZY2pbCMcv33PQJ0wt17yRoUbmJGdbbAN872BT3r55Pv4FjUY+msZpsxZIanYckPjiEhnp5tQJV2Q4=
+SHA256 (Pkgfile) = f441de643043de5432b17db914a109ef63926a67309791ecd18e4d82adcbb1b4
+SHA256 (.footprint) = d364b1a530dd49a94053e3b252efde18be24fe2e57a5fb5a0c27e1997ef9f532
+SHA256 (flit-3.8.0.tar.gz) = d0f2a8f4bd45dc794befbf5839ecc0fd3830d65a57bd52b5997542fac5d5e937
