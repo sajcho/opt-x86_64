@@ -6,7 +6,7 @@
 name=python3-sphinxcontrib-serializinghtml
 _realname=sphinxcontrib-serializinghtml
 version=1.1.5
-release=0
+release=1
 source=(https://files.pythonhosted.org/packages/source/s/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
