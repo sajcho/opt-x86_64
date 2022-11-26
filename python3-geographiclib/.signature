@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAhX4lISNmxEpQuxNT3DVabHbinAcJrMcmn+xTiyLeYhjgi43tCRJfUkqh7gt60QeP9BRLUH157AUYFt56qE1ewo=
+SHA256 (Pkgfile) = cd24db14ac798beb13d54d7ee8f16fbbb2255315336f62d856e5f38a56fe2648
+SHA256 (.footprint) = 2ad41849bc805f1e4d0b39bfd7ebedafac9b0536604fc68afeebf2bf34502636
+SHA256 (geographiclib-2.0.tar.gz) = f7f41c85dc3e1c2d3d935ec86660dc3b2c848c83e17f9a9e51ba9d5146a15859
