@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAgClaX33IWTsIv6o76p4wX+Cgp/oeuzPYI6nkWJ8vMYDQyl1GLZJGbtHHruhbDQt/wamoX/2Z7VTx6evPy34xgM=
+SHA256 (Pkgfile) = 79a10cb287f5a234683ed3b840cd3081e26896462c9785a0cd3853b5d35767fc
+SHA256 (.footprint) = 41bce0cd4f11069f9bc12093d1f10cba7fc2bb3b537d4e694f3a736e3a65c6fc
+SHA256 (sphinxcontrib-devhelp-1.0.2.tar.gz) = ff7f1afa7b9642e7060379360a67e9c41e8f3121f2ce9164266f61b9f4b338e4
