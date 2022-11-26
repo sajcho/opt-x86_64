@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAmzs1x/Nci/0OyVwPvhcsb6jWMaAxz9RqhVCyFEsDTzlh3QSKZDisv/c00rbts17+m+rMpWJPiPK4xsSO1db9QI=
+SHA256 (Pkgfile) = 75cdabb5d5cd892b8bcb2da0b5ae183cced4ae571fe5423eb044264402034221
+SHA256 (.footprint) = 88167b1c7b5ecfdd76b71a56b11a5cf67be832aa028e9053c53b3462627d2f52
+SHA256 (wheel-0.38.4.tar.gz) = 965f5259b566725405b05e7cf774052044b1ed30119b5d586b2703aafe8719ac
