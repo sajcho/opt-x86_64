@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAhw6PoHIcG5Nv+WtcHMtUePozKu7vOPkNBfnC0+Yo/O1cmu9JxXNVv87Nxk8fyGCJyRaI3I+LcTzoJ62a/vP6ww=
+SHA256 (Pkgfile) = 221627e6bb68c34e9ebec85e66343cc5a38f364f8451df5c0c6f0aa031a28507
+SHA256 (.footprint) = 0dda2d3e06f3473511f248495ffa5c666051393eeb493da5806be6e0f4a58922
+SHA256 (rxvt-unicode-9.30.tar.bz2) = fe1c93d12f385876457a989fc3ae05c0915d2692efc59289d0f70fabe5b44d2d
+SHA256 (gentables.patch) = d89c34b9a36d67cde0d3a4e934e499d668a4d712c355847956a284fa2899b576
+SHA256 (rxvt-unicode-kerning.patch) = fc241d7c11b86f589f41a0f488e8f04875ca6ca937e57bc2347c19dff423a38a
