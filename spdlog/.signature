@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAvNF0BDFjPPOJL+Zne8K1ro6hMdIAhpl6fbq0g2wxHn140VFPUXPt6TLP76dl819mMXs0VLux1JSjEmweCBiVQ0=
+SHA256 (Pkgfile) = 350459e3fbcbaa2bb705756baeabd216b31f0ecf3ceea84102710466bedb60fc
+SHA256 (.footprint) = ce18421d826f16f61afa1f2ceb0cdd5006934056d511353eccacbd95c84f01e2
+SHA256 (spdlog-1.11.0.tar.gz) = ca5cae8d6cac15dae0ec63b21d6ad3530070650f68076f3a4a862ca293a858bb
