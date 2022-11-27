@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAt9xP4xOnvkuM3ZkuIva+G8n6jadlL+nzGQPr8Hu562NtxFWnCj5QcUZ2nT9sMyVjjjNTniaw0Xcxl65a05JVwY=
+SHA256 (Pkgfile) = af2caa0e90d283d130607a6261fd4ef5e70ff6a1ae41dc205c1004f1e6b4d162
+SHA256 (.footprint) = b6a9fa9e5a375d829d0c7d1754c05a53d4e425b1babbad8b062dc4fb2ee04d20
+SHA256 (SDL2-2.0.20.tar.gz) = c56aba1d7b5b0e7e999e4a7698c70b63a3394ff9704b5f6e1c57e0c16f04dd06
