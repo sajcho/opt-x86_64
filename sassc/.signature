@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAh9PN5RuHEdxZF5E0OwWk5fk+nHd4lSqF/hlebu37gIgmDK14v2sU4tVOhm91EA1gfXKFVncFRxwQYYSrXFTGgk=
+SHA256 (Pkgfile) = 33529dc9fca28c13cd177d05347cc1a2b365740538544ed5f352125cf664d8b5
+SHA256 (.footprint) = f48dccee5596cc4bd60335e333f34ff564a86508d2ef96129f888e149b5acd73
+SHA256 (sassc-3.6.2.tar.gz) = 608dc9002b45a91d11ed59e352469ecc05e4f58fc1259fc9a9f5b8f0f8348a03
