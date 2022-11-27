@@ -4,7 +4,7 @@
 
 name=tslib
 version=1.22
-release=0
+release=1
 source=(https://github.com/libts/${name}/releases/download/${version}/${name}-${version}.tar.xz)
 
 build() {
