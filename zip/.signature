@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAkwvd/3CfcPUU8bxsrlHOY0+E06Guze5N3eCQvG13zG6UJs/p/4Op56Dt4+bvgCm6F3wvpnvoPnw8pz+A1b1fw8=
+SHA256 (Pkgfile) = 2cdb6eddc3835d12bbbca7f4033ded8db24ebe37467d3231ec9cf31c826be9a7
+SHA256 (.footprint) = 7e128e0a910cd361b3d50b36d155016a1e368456fac92d076f1d7b8d6f320d34
+SHA256 (zip30.tar.gz) = f0e8bb1f9b7eb0b01285495a2699df3a4b766784c1765a8f1aeedf63c0806369
+SHA256 (10-zip-3.0-build.patch) = b48a78c9f2f0919584467c63b9d324d92eecdf7275965a5b89207a7dfc0e3ca0
+SHA256 (20-zip-3.0-exec-stack.patch) = f748cf955b3ab8ebfda849b06a4e960c36f88875e9c3f53a5240406e77e9ca2c
+SHA256 (30-zip-3.0-pic.patch) = be83d4fc3e0bdcf8774ec8721674bb6ab9ec68ca1d688c66cae9f1425970b90a
+SHA256 (40-fix-zipnote.patch) = 437c3573e7b34a5a7c9ecf7b964ede88929e18db0570accfbc9e7b26bb763af7
