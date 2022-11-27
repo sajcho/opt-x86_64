@@ -1,7 +1,7 @@
 # Description:	Screen locker for Wayland with fancy effects
 # URL:		https://github.com/jirutka/swaylock-effects
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cairo gdk-pixbuf libxkbcommon linux-pam scdoc swaylockd wayland-protocols
+# Depends on:	cairo gdk-pixbuf libxkbcommon linux-pam scdoc swaylockd
 
 name=swaylock-effects
 version=1.6.10

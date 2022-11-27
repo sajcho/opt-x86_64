@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAs/g6VxCVM+BROj3p5W43QicAvToNnfy6fxIFbdUNwT+htOdtuIQrWhX1M5oRF4coIfwzG7VKhbOg5fLvOZn1wc=
+SHA256 (Pkgfile) = 900e1522acb6dd1fde73fa62d9cd60566c8916a87a6728cf828059c8d926670b
+SHA256 (.footprint) = de25773a36af967562d1a4dfa6c85014157a52a942d7094cb321d795682730e9
+SHA256 (swaylock-effects-1.6.10.tar.gz) = 0bfd0a73557ead32364175210397e73af172713ca9035bc73f60c26c7d4513bf
