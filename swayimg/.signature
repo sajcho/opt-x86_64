@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAsAYlcmxUJ9d0qXGRyY3G8E31Vfzm0wBnvi6QfxXkolx/+Csur9vcpmEMTXM2t4ZV8WzlBSgaX0w+MzojHXXNgc=
+SHA256 (Pkgfile) = f8b7c24e753f1b347f42d284e95ac3a8bf1a268e024a418e72743e36971e0603
+SHA256 (.footprint) = 3f35f4fe7f88b7248ff9efc72baea3931eb14d60c01583044f574b7b96ec31dc
+SHA256 (swayimg-1.9.tar.gz) = 693a23a7755ebedb144271b2b674980a1c51a2036dabcff9697c3e3c6258f108
