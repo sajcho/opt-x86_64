@@ -6,7 +6,7 @@
 name=unixodbc
 _realname=unixODBC
 version=2.3.11
-release=0
+release=1
 source=(http://www.unixodbc.org/${_realname}-${version}.tar.gz)
 
 build() {

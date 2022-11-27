@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAjRhfhNi/oMNXUMMTtVvkWkmXFZarw1sp18nyB56KXZOhKU291Oa0j6VbyCxxvpn5UuXgxhunB+wr/pAju6Ungs=
+SHA256 (Pkgfile) = b105b9cee1746a92f1417c5d743aa015f4af90bdf08fbb589e41a6161a2855bb
+SHA256 (.footprint) = 68783c9666fffa5f0a139a77b1a38468e205a039a71ecb83365b222c1d8d0c9c
+SHA256 (unixODBC-2.3.11.tar.gz) = d9e55c8e7118347e3c66c87338856dad1516b490fb7c756c1562a2c267c73b5c
