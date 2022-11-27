@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAn0JzQq1D6zN8vrhwl17dIPMpgros5Wd8m9Wlxve7j63yWFshh0JeY9xDJBWCsq+l3UuNPB06+lWKCCXP+mgDQQ=
+SHA256 (Pkgfile) = 4f9215f3f2f4355e9eebb356e39832c26b7154f61b10288eb5eb4a86118b5870
+SHA256 (.footprint) = 4a34fc22172116d55080515645c044d901712327c5d402897ece734794588928
+SHA256 (swaybg-1.1.1.tar.gz) = 71cc8fc2cb7ae5ad3af772ab286b0b42f1c7cb17bea131e78c2d40a2fb8e6c59
