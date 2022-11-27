@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAnHjaR/kW4LRldleE1fm02AUpN5zdM9PRs8Fh+VBYyN3GNG0jVsYORpHZibDCxehc2g8fsMt0ZtEv3yO5u7ALgU=
+SHA256 (Pkgfile) = 4771d6a11f49de3b14eb79f1d60de504873e700574a16614709f85d592127f2e
+SHA256 (.footprint) = 6d3a38bf527702099647db7aa852dcff40e0151392d714d0470c5078fbf1bea0
+SHA256 (swaykbdd-1.1.tar.gz) = b1b0fa9ca43e177345a7761d0f9b705ff7d338fea48c1877a44767cf527b131c
