@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAhen2XI9dx01t8f0M2C5UdTNozOlupRFbrY/kFBIw8XDJiIFj1N6ifW8F0sGiRwIX2DjpC0o9BaZm37q0OXgWgk=
+SHA256 (Pkgfile) = ec34cef8153fc25f412ca30bdd3be3e0fee0cf217b24b197a4599a5fa9e30b97
+SHA256 (.footprint) = 69903a1a1715cb2aa0d53db3230556c8a2e412ead7c2d0b5c5801c2b0d06c7d2
+SHA256 (yasm-1.3.0.tar.gz) = 3dce6601b495f5b3d45b59f7d2492a340ee7e84b5beca17e48f862502bd5603f
+SHA256 (fix-memory-using-gas-processor.patch) = a4a67eebe395fe1d3b75ec3fbbe64949e02a6b05c45fd309d3693454da716aa5
