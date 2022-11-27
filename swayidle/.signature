@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAhIw5V0OpWph9fjun056UHANCiLwtez+qoGGXyjzTZ/ep7PsKjaS4fvGwnZSDlnUc/X9H6DIQ8omHIZnL9MOuww=
+SHA256 (Pkgfile) = 64841452c4bf4cc526e22f1a186f2e83ee748ba900fb32f744ce6d791230762e
+SHA256 (.footprint) = 74a3140dac6d1f6d8f19b9be12c395632acb7001a3254ed732cd905e79e57f86
+SHA256 (swayidle-1.7.1.tar.gz) = 6aa07093be553473726e1ef601dbc5e57a3ea2ac864ef2d7afce1f971ea760a6
+SHA256 (0001-Fix-printf-using-size_t-lineno-variable.patch) = 8d4a84728e956b25beefbeb056b8cb8e486c790f6a90b71b07f71ee543ac5aa7
