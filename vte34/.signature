@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAgFmtqwBcDKYHa899d4Js0Vn3HD2b7WsW/1cBW40rlrOPJLGzjDg3eLSlNlFxI0SssPy2DKBhXEGgog8IqlbAwU=
+SHA256 (Pkgfile) = 32e13d9cde2b9d0eaf994fe6eb1b9ca303338d10a04234ad2e4a55b0bfcdc11f
+SHA256 (.footprint) = 7b23239cb02c94baa3c6013daf3e4cc3c8e162556c8922d687dc87ca5d5ce5b2
+SHA256 (vte-0.70.0.tar.gz) = ce3bce414ff9515b3dc73b4cea2c252c02355481b6e353c4c3464e3739a54208
+SHA256 (gtk4-clipboard-1.patch) = b552e61ef948fc1be4c7e0acd96a72435d86dbab63cb9f96d7c0ce31ea70b841
+SHA256 (gtk4-clipboard-2.patch) = 80380ffb38e2c344a8899c01d68be05a8f863497d89bc56d08563d0977b8ee63
