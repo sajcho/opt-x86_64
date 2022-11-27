@@ -1,7 +1,7 @@
 # Description:	Notification daemon with a GTK GUI for notifications and the control center
 # URL:		https://github.com/ErikReider/SwayNotificationCenter
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gtk3 gtk-layer-shell json-glib libhandy scdoc vala
+# Depends on:	gtk-layer-shell json-glib libhandy scdoc
 
 name=swaync
 _realname=SwayNotificationCenter
