@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAir3C58N2jLyzKQZEMQZujJWH8/atX/iGjWNwxr+bKL7rKbGv5d4RxluW15GhXP+PZ/Bbx6Oes00T9QP6uHdTQ0=
+SHA256 (Pkgfile) = 2228e5c57fc59a712639c2212b482f98393b210dc813edb3e3d1802e99c6e18f
+SHA256 (.footprint) = a1aa31019886f86944660f133709c8fbd661bb6e18558be1b011faef8b7b64c7
+SHA256 (Waybar-0.9.15.tar.gz) = e74c42543d10dd44688ed469c762979c108ea7cd05d94b65b47cf42dab147f8a

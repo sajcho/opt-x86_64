@@ -1,7 +1,7 @@
 # Description:	Highly customizable Wayland bar for Sway and Wlroots based compositors
 # URL:		https://github.com/Alexays/Waybar/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	fmt gtk-layer-shell gtkmm3 libdbusmenu libnl pulseaudio scdoc spdlog
+# Depends on:	gtk-layer-shell gtkmm3 libdbusmenu libnl pulseaudio scdoc spdlog
 
 name=waybar
 _realname=Waybar
