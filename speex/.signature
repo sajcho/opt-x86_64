@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAjBeWKjjm/zDRN+J7l5R2JZKrvfJiDr7GCM3SBMUIyNsmYkmW/htPquJJN3qe2wwIsAMO02dtCxlpZtj3NA9CAE=
+SHA256 (Pkgfile) = bb1f7ba5240435d3d93002409db91e7b1d30359e4bffdcb690316f9221b9624e
+SHA256 (.footprint) = d27f3b3021c834f737669d322875966dd9a684aa9f2c455a1c651410c4d8723d
+SHA256 (speex-1.2.1.tar.gz) = 4b44d4f2b38a370a2d98a78329fefc56a0cf93d1c1be70029217baae6628feea
