@@ -1,7 +1,7 @@
 # Description:	Graphical console greeter for greetd
 # URL:		https://github.com/apognu/tuigreet
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	greetd scdoc
+# Depends on:	greetd
 
 name=tuigreet
 version=0.8.0
