@@ -18,7 +18,6 @@ lrwxrwxrwx	root/root	usr/bin/fdp -> dot
 -rwxr-xr-x	root/root	usr/bin/gv2gml
 lrwxrwxrwx	root/root	usr/bin/gv2gxl -> gxl2gv
 -rwxr-xr-x	root/root	usr/bin/gvcolor
--rwxr-xr-x	root/root	usr/bin/gvedit
 -rwxr-xr-x	root/root	usr/bin/gvgen
 -rwxr-xr-x	root/root	usr/bin/gvmap
 -rwxr-xr-x	root/root	usr/bin/gvmap.sh
@@ -102,9 +101,6 @@ lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_rsvg.so.6 -> libgvplugin_rsvg.
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_visio.so -> libgvplugin_visio.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_visio.so.6 -> libgvplugin_visio.so.6.0.0
 -rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_visio.so.6.0.0
-lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_webp.so -> libgvplugin_webp.so.6.0.0
-lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_webp.so.6 -> libgvplugin_webp.so.6.0.0
--rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_webp.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_xlib.so -> libgvplugin_xlib.so.6.0.0
 lrwxrwxrwx	root/root	usr/lib/graphviz/libgvplugin_xlib.so.6 -> libgvplugin_xlib.so.6.0.0
 -rwxr-xr-x	root/root	usr/lib/graphviz/libgvplugin_xlib.so.6.0.0
@@ -212,8 +208,6 @@ drwxr-xr-x	root/root	usr/share/graphviz/graphs/undirected/
 -rw-r--r--	root/root	usr/share/graphviz/graphs/undirected/Petersen.gv
 -rw-r--r--	root/root	usr/share/graphviz/graphs/undirected/ngk10_4.gv
 -rw-r--r--	root/root	usr/share/graphviz/graphs/undirected/process.gv
-drwxr-xr-x	root/root	usr/share/graphviz/gvedit/
--rw-r--r--	root/root	usr/share/graphviz/gvedit/attrs.txt
 drwxr-xr-x	root/root	usr/share/graphviz/gvpr/
 -rw-r--r--	root/root	usr/share/graphviz/gvpr/addedges
 -rw-r--r--	root/root	usr/share/graphviz/gvpr/addranks
@@ -270,7 +264,6 @@ lrwxrwxrwx	root/root	usr/share/man/man1/fdp.1.gz -> dot.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/gv2gml.1.gz -> gml2gv.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/gv2gxl.1.gz -> gxl2gv.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gvcolor.1.gz
--rw-r--r--	root/root	usr/share/man/man1/gvedit.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gvgen.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gvmap.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gvmap.sh.1.gz

@@ -1,11 +1,11 @@
 # Description:	Graph visualization software
 # URL:		https://www.graphviz.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gtk2 libgd librsvg
+# Depends on:	gtk2 libgd librsvg swig
 
 name=graphviz
 version=7.0.2
-release=1
+release=2
 source=(https://gitlab.com/${name}/${name}/-/archive/${version}/${name}-${version}.tar.bz2)
 
 build() {
@@ -25,7 +25,7 @@ build() {
 		--enable-go=no \
 		--enable-guile=no \
 		--enable-java=no \
-		--enable-lua=yes \
+		--enable-lua=no \
 		--enable-ocaml=no \
 		--enable-perl=no \
 		--enable-php=no \
@@ -39,7 +39,8 @@ build() {
 		--with-libgd=yes \
 		--with-pangocairo=yes \
 		--with-rsvg=yes \
-		--with-webp \
+		--with-webp=no \
+		--with-qt=no \
 		--with-x
 
 	sed -i 's|0|$(date +%Y%m%d)|' builddate.h
