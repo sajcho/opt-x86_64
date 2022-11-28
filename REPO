@@ -494,9 +494,9 @@ f:8e2ef4a43c5ee7fd5091a7ded878e6bf:boost/Pkgfile
 f:9fd7be8db94059e73c1a293405065a17:libnotify/.signature
 f:3a09e87aa9f3e487cf98edb75cde3d12:libnotify/.footprint
 f:6229e6f407bfc6a45ea60192634de092:libnotify/Pkgfile
-f:f3285cbceb0714196a38898f6759ff5e:openal/.signature
-f:27c0d9fb5d464c2cf3399a8bf312e3ce:openal/.footprint
-f:32d43968aa2912bc181e6efbc099defe:openal/Pkgfile
+f:3f549f37f04b6e1ca5dc27f47e7bc8c8:openal/.signature
+f:b218b3fe1cb796c0b5d182c04f78cbb2:openal/.footprint
+f:882b4efecae19344cadd7701d1aa01ce:openal/Pkgfile
 f:2f97f6b7c513f1ad439928e2ac01820b:libraw1394/.signature
 f:587ca4159ae06b1d0572132c26cab9e7:libraw1394/.footprint
 f:4ae69dff53fb0a45b3a83ecc335c8920:libraw1394/Pkgfile
@@ -649,10 +649,10 @@ f:d97383682a224009259fc9868cff667b:fontconfig/Pkgfile
 f:9c4aa17c0ea3ccf837b35468729600b4:python3-appdirs/.signature
 f:9eef968ba64163915b7f680907fafa5c:python3-appdirs/.footprint
 f:c6420f04f366aa1f24c5fe380803dbe0:python3-appdirs/Pkgfile
-f:5daac0d9dfc1e5397bd8e0368deeda12:graphviz/.signature
-f:f3c83966159cca78440e5cd36062d620:graphviz/.footprint
+f:ee813dbce7ba79533da826b8ae142f12:graphviz/.signature
+f:58f17cb02ffb50597d93636d25588e2b:graphviz/.footprint
 f:7d9395e37a1c8eafe66207895fb409a2:graphviz/post-install
-f:481c26b6feb5517471e54e1511cfecd4:graphviz/Pkgfile
+f:cf2fae10fefdac6fa3b3542e1a0bd9e1:graphviz/Pkgfile
 f:2fb3025613ae5524ecaf21581874c948:libtasn1/.signature
 f:3cdc3efa9ead2b6297520d45f1372b34:libtasn1/.footprint
 f:2489301fe4e5c71aad9dac934018969e:libtasn1/Pkgfile
