@@ -4,7 +4,7 @@
 # Depends on:	cairo libxkbcommon scdoc
 
 name=slurp
-version=1.3.2
+version=1.4.0
 release=1
 source=(https://github.com/emersion/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
