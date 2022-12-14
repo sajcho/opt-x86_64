@@ -5,7 +5,7 @@
 
 name=python3-certifi
 _realname=certifi
-version=2022.9.24
+version=2022.12.7
 release=1
 source=(https://files.pythonhosted.org/packages/source/c/${_realname}/${_realname}-${version}.tar.gz)
 
