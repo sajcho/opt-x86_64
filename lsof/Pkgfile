@@ -4,7 +4,7 @@
 # Depends on:	libtirpc
 
 name=lsof
-version=4.94.0
+version=4.96.4
 release=1
 source=(https://github.com/lsof-org/${name}/archive/${version}/${name}-${version}.tar.gz)
 
