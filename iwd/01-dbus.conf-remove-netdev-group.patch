@@ -1,0 +1,54 @@
+From 2f3a442f787137d4257992a331e0dbe002609149 Mon Sep 17 00:00:00 2001
+From: sajcho <saux.aarch64@gmail.com>
+Date: Sun, 11 Dec 2022 19:03:06 +0100
+Subject: [PATCH] iwd-dbus.conf: remove netdev group
+
+---
+ src/iwd-dbus.conf | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/src/iwd-dbus.conf b/src/iwd-dbus.conf
+index 7fc2e68c..d21242d1 100644
+--- a/src/iwd-dbus.conf
++++ b/src/iwd-dbus.conf
+@@ -18,10 +18,6 @@
+     <allow send_destination="net.connman.iwd"/>
+   </policy>
+ 
+-  <policy group="netdev">
+-    <allow send_destination="net.connman.iwd"/>
+-  </policy>
+-
+   <policy context="default">
+     <deny send_destination="net.connman.iwd"/>
+   </policy>
+-- 
+2.38.1
+
+From 9e91014b730ab0f810e0581b8be57c7e13ea2978 Mon Sep 17 00:00:00 2001
+From: sajcho <saux.aarch64@gmail.com>
+Date: Sun, 11 Dec 2022 19:05:10 +0100
+Subject: [PATCH] ead-dbus.conf: remove netdev group
+
+---
+ wired/ead-dbus.conf | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/wired/ead-dbus.conf b/wired/ead-dbus.conf
+index 8a685e0a..749d0c05 100644
+--- a/wired/ead-dbus.conf
++++ b/wired/ead-dbus.conf
+@@ -17,10 +17,6 @@
+     <allow send_destination="net.connman.ead"/>
+   </policy>
+ 
+-  <policy group="netdev">
+-    <allow send_destination="net.connman.ead"/>
+-  </policy>
+-
+   <policy context="default">
+     <deny send_destination="net.connman.ead"/>
+   </policy>
+-- 
+2.38.1
+
