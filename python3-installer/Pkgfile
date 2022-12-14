@@ -1,11 +1,11 @@
 # Description:	low-level library for installing from a Python wheel distribution
 # URL:		https://github.com/pypa/installer
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	python3
+# Depends on:	python3-gpep517 python3-setuptools python3-wheel
 
 name=python3-installer
 _realname=installer
-version=0.5.1
+version=0.6.0
 release=1
 source=(https://files.pythonhosted.org/packages/source/i/${_realname}/${_realname}-${version}.tar.gz \
 	default-bytecode-levels.patch)
@@ -15,11 +15,10 @@ build() {
 
 	patch -p1 -i $SRC/default-bytecode-levels.patch
 
-	/usr/bin/python3 setup.py build
+	gpep517 build-wheel \
+		--wheel-dir dist \
+		--output-fd 1
 
-	/usr/bin/python3 setup.py install \
-		--prefix=/usr \
-		--optimize=1 \
-		--skip-build \
-		--root=$PKG
+	python3 -m installer -d $PKG \
+		dist/*.whl
 }
