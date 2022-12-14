@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAhIw5V0OpWph9fjun056UHANCiLwtez+qoGGXyjzTZ/ep7PsKjaS4fvGwnZSDlnUc/X9H6DIQ8omHIZnL9MOuww=
-SHA256 (Pkgfile) = 64841452c4bf4cc526e22f1a186f2e83ee748ba900fb32f744ce6d791230762e
+RWQg5aRf982JAusRibk9+Q5hRyo/Le0Mcm7TxHUwKDRb481Ptzj5R6KYnt7BpE9yqVykfuUyygZ6kruM5NrSXHTUP3j5cdzlPgk=
+SHA256 (Pkgfile) = 6ecd9d419526c8df57e68fd70cd3374867dc6c3b63f83e5f7eab120c3fbb145e
 SHA256 (.footprint) = 74a3140dac6d1f6d8f19b9be12c395632acb7001a3254ed732cd905e79e57f86
-SHA256 (swayidle-1.7.1.tar.gz) = 6aa07093be553473726e1ef601dbc5e57a3ea2ac864ef2d7afce1f971ea760a6
-SHA256 (0001-Fix-printf-using-size_t-lineno-variable.patch) = 8d4a84728e956b25beefbeb056b8cb8e486c790f6a90b71b07f71ee543ac5aa7
+SHA256 (swayidle-1.8.0.tar.gz) = 0fba74c520a2bd64acd00bc3bce7bc8c7b84a2609c0f66329d72dfb33cca03d7

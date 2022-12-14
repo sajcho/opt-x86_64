@@ -4,15 +4,12 @@
 # Depends on:	elogind scdoc wayland-protocols
 
 name=swayidle
-version=1.7.1
+version=1.8.0
 release=1
-source=(https://github.com/swaywm/${name}/archive/${version}/${name}-${version}.tar.gz \
-	0001-Fix-printf-using-size_t-lineno-variable.patch)
+source=(https://github.com/swaywm/${name}/archive/${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
-
-	patch -p1 -i $SRC/0001-Fix-printf-using-size_t-lineno-variable.patch
 
 	build-meson \
 		-Dlogind=enabled \
