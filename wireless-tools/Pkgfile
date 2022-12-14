@@ -1,0 +1,25 @@
+# Description:	Open Source wireless tools
+# URL:		https://hewlettpackard.github.io/wireless-tools/Tools.html
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=wireless-tools
+version=30.pre9
+release=1
+source=(https://hewlettpackard.github.io/${name}/wireless_tools.${version}.tar.gz)
+
+build() {
+	cd wireless_tools.30
+
+	sed '/BUILD_STATIC =/d' -i Makefile
+
+	make V=1 CFLAGS="${CFLAGS}"
+
+	make \
+		INSTALL_DIR=$PKG/usr/sbin \
+		INSTALL_LIB=$PKG/usr/lib \
+		INSTALL_INC=$PKG/usr/include \
+		INSTALL_MAN=$PKG/usr/share/man \
+		install
+
+	rm -r $PKG/usr/share/man/{cs,fr.*}
+}
