@@ -1,0 +1,23 @@
+# Description:	Graphical wifi management utility for iwd
+# URL:		https://github.com/J-Lentz/iwgtk
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtk4 libqrencode scdoc
+
+name=iwgtk
+version=0.8
+release=0
+source=(https://github.com/J-Lentz/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson . build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	mv $PKG/usr/share/man/man5/iwgtk.5 $PKG/usr/share/man/man5/iwgtk.conf.5
+
+	rm -r $PKG/usr/share/lib
+}
