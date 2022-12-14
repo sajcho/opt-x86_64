@@ -1,0 +1,5 @@
+#!/bin/sh
+OPTS="-M -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 -Dnl80211 -s"
+
+exec 2>&1
+exec wpa_supplicant ${OPTS}

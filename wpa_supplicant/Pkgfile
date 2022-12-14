@@ -1,0 +1,38 @@
+# Description:	Utility providing key negotiation for WPA wireless networks
+# URL:		https://w1.fi/wpa_supplicant/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	dbus libnl openssl3 readline
+
+name=wpa_supplicant
+version=2.10
+release=1
+source=(https://w1.fi/releases/${name}-${version}.tar.gz \
+	wpa_supplicant-config \
+	wpa_supplicant.conf \
+	wpa_supplicant.run)
+
+build() {
+	cd $SRC/${name}-${version}/${name}
+
+	cp $SRC/wpa_supplicant-config .config
+
+	make BINDIR=/usr/sbin LIBDIR=/usr/lib
+
+	install -d $PKG/{usr/sbin,usr/share/man/man{8,5},etc/wpa_supplicant}
+	install -m 0755 wpa_{cli,passphrase,supplicant} $PKG/usr/sbin
+	install -m 0644 doc/docbook/wpa_{background,cli,passphrase,supplicant}.8 $PKG/usr/share/man/man8
+	install -m 0644 doc/docbook/wpa_supplicant.conf.5 $PKG/usr/share/man/man5
+
+	# config
+	install -m 0600 $SRC/wpa_supplicant.conf $PKG/etc/${name}/wpa_supplicant.conf
+
+	# dbus
+	install -d $PKG/{usr/share/dbus-1/system-services,etc/dbus-1/system.d}
+	install -m 0644 dbus/fi.w1.wpa_supplicant1.service $PKG/usr/share/dbus-1/system-services/
+	install -m 0644 dbus/dbus-wpa_supplicant.conf $PKG/etc/dbus-1/system.d/wpa_supplicant.conf
+
+	# wpa_supplicant runit service
+	install -d $PKG/etc/sv/wpa_supplicant
+	install -m 0755 $SRC/wpa_supplicant.run $PKG/etc/sv/wpa_supplicant/run
+	ln -s /run/runit/supervise.wpa_supplicant $PKG/etc/sv/wpa_supplicant/supervise
+}
