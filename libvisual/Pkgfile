@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=libvisual
-version=0.4.0
+version=0.4.1
 release=1
 source=(https://downloads.sourceforge.net/sourceforge/${name}/${name}-${version}.tar.gz)
 
