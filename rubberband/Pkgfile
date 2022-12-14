@@ -4,7 +4,7 @@
 # Depends on:	libsamplerate meson vamp-plugin-sdk ladspa opus
 
 name=rubberband
-version=3.1.1
+version=3.1.2
 release=1
 source=(https://github.com/breakfastquay/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
