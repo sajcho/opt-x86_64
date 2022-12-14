@@ -1,0 +1,32 @@
+# Description:	Text file format converters
+# URL:		https://waterlan.home.xs4all.nl/dos2unix.html
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gettext perl
+
+name=dos2unix
+version=7.4.3
+release=0
+source=(https://waterlan.home.xs4all.nl/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	sed \
+		-e '/^LDFLAGS/s|=|+=|' \
+		-e '/CFLAGS_OS \+=/d' \
+		-e '/LDFLAGS_EXTRA \+=/d' \
+		-e "/^CFLAGS/s|-O2|${CFLAGS}|" \
+		-i Makefile
+
+	make V=1 ENABLE_NLS=
+
+	make check
+
+	make \
+		docsubdir=${name} \
+		ENABLE_NLS= \
+		DESTDIR=$PKG \
+		install
+
+	rm -r $PKG/usr/share/doc/
+}
