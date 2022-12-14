@@ -1,0 +1,23 @@
+# Description:	Library for encoding QR codes
+# URL:		https://fukuchi.org/works/qrencode/index.html
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libpng
+
+name=libqrencode
+_realname=qrencode
+version=4.1.1
+release=0
+source=(https://fukuchi.org/works/${_realname}/${_realname}-${version}.tar.bz2)
+
+build() {
+	cd ${_realname}-${version}
+
+	./configure \
+		--prefix=/usr
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
