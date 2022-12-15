@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAr6tQ8TBdViYVV9qgezvpyzMNQm7HiMGxZosM/4hJXxd50TYCcza3FfFtzY8HMeOTGJwC4TF2+zv7Djn8lZmZAU=
-SHA256 (Pkgfile) = 1104d2cf768c1119e0a647dc2b3addac12f460b384c09f12e6d45738331f905f
-SHA256 (.footprint) = 18d970c9915a7df562cdbbcaaf19b63d29aed3cd2073ac47d69a459a866e5725
+RWQg5aRf982JAvBS8bmzg039yYS5AyEB+n1hf+bBRmpIjKc1AQmMl8ultjEx0Li7OyTLmQnHkHFZu8R8Adeeu9sWDbwnPob97gw=
+SHA256 (Pkgfile) = b27fcaedb28bf0dc7d6a32e869c0737dfda98ef581e448071d68dfe71000bccc
+SHA256 (.footprint) = cd3471c1040b76a16caca7992402dd158999d88b9a81069517a8ce59db6a5be9
 SHA256 (installer-0.6.0.tar.gz) = f3bd36cd261b440a88a1190b1becca0578fee90b4b62decc796932fdd5ae8839
 SHA256 (default-bytecode-levels.patch) = 295d8ad2144e4bf01d74a9f6e54e57fad9f42fb5473cd8e6e8aa1982656b43d8
