@@ -1,12 +1,12 @@
 # Description:	Minimal backend script to aid installing Python packages through PEP 517-compliant build systems
 # URL:		https://github.com/mgorny/gpep517/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	python3-installer
+# Depends on:	python3
 
 name=python3-gpep517
 _realname=gpep517
 version=11
-release=1
+release=2
 source=(https://github.com/mgorny/${_realname}/archive/v${version}/${_realname}-v${version}.tar.gz \
 	gpep517)
 
