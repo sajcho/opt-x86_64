@@ -666,10 +666,10 @@ f:e6f3fbb312f6f55a6cba1c98137a51fe:python3-babel/Pkgfile
 f:93ec9c1a0e625106a1971103e984c63b:geany/.signature
 f:7b53597c81a09afcb5ba1b4dfa8e140b:geany/.footprint
 f:dc114d6cf75ce5984d35e3bb10525e02:geany/Pkgfile
-f:b5d38cecd772e7888ee8c7a553019c32:python3-installer/.signature
-f:08a70e2a62309d07a348e682b0be09b7:python3-installer/.footprint
+f:c9d17b8fec8b28c036406d7b6a609fbf:python3-installer/.signature
+f:bc4950266bd7de219cd0bbe3959690ef:python3-installer/.footprint
 f:6119be4114599fd2310b70249b9bf4d6:python3-installer/default-bytecode-levels.patch
-f:6c40f0e7bbcf3eb1a72daf26b1dda711:python3-installer/Pkgfile
+f:181af8c828f9eab80fc221252efcb4cc:python3-installer/Pkgfile
 f:8cb2d197392021bc0cea50739d79481f:desktop-file-utils/.signature
 f:d3512ed058cc2237156fb5ac8c01978d:desktop-file-utils/.footprint
 f:69e07b8b7baaa37b34802b5d11a6f0f8:desktop-file-utils/post-install
@@ -1239,10 +1239,10 @@ f:f53bd63d43b26b8a2cee067d11ca9a1f:cyrus-sasl/saslauthd.run
 f:172c634ea15a3b05e03836735f133279:cyrus-sasl/.footprint
 f:0e500515c2aeb7c896cc02be96d1f1d0:cyrus-sasl/saslauthd-sv.conf
 f:df1a4adb01f9f020be7711d273c63b24:cyrus-sasl/Pkgfile
-f:dee4b4868d96466bfd8b3e20b98f40f3:python3-gpep517/.signature
+f:e38a913d645ac8968631ba47a39af6f0:python3-gpep517/.signature
 f:8d175ca072a4406a25c3635c47272d76:python3-gpep517/.footprint
 f:02c0af187984692522f29a9fb00524f9:python3-gpep517/gpep517
-f:6eb30a8e5cd4f8b82ea01c323857d688:python3-gpep517/Pkgfile
+f:44e1da27a94b76b74926075be35a25b7:python3-gpep517/Pkgfile
 f:bf1087683dcb310d70404bbe1c9e8b85:tslib/.signature
 f:50c006d87c49a5d78c231cd5fe06ba01:tslib/.footprint
 f:d1513d4201b5297a07ec8ceb35644c65:tslib/Pkgfile
