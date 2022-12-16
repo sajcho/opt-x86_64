@@ -6,7 +6,7 @@
 name=python3-idna
 _realname=idna
 version=3.4
-release=1
+release=2
 source=(https://github.com/kjd/${_realname}/archive/v${version}/${_realname}-${version}.tar.gz)
 
 build() {

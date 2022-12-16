@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAl9caBtoG+UpjCymfnvxO8z9MvhPFfLx2oIQKaNySYbvcte3YtCpWP5iqimxuIBKUZvw+op6sCoUxK5oLlmzWgU=
-SHA256 (Pkgfile) = ccf9086b5a9f4d84c66a559ace4bd67e785f05b37c8dc32ddb4535b339556ef9
-SHA256 (.footprint) = ea4af1d1e3af240d3ea81756cc1f6f795745801416a4c33c73263783db26e96c
+RWQg5aRf982JAvshnBGtewCGNq0/vuKKZswn7PVJYxHt02esXpgW8XYmIBhb2ttK6FUgQd2rWiZ7hSb/y1YTsql21vx6jDIUFQY=
+SHA256 (Pkgfile) = 1720ca2710bc6335deddf8e3767ded1714e16dcc284bc3933a8918a58183d4a5
+SHA256 (.footprint) = 656f11efb96f5b369da662998a4e141bb8ddec4fc3a3a0a3d2b950bcf71a6af9
 SHA256 (idna-3.4.tar.gz) = afbfa0caebd4872b38ab1af86b37bd4f46d4fccc8d5ce226cb9ee91b91196848
