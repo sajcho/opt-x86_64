@@ -10,12 +10,19 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core-3.8.0.dist-info/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/__init__.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/buildapi.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/buildapi.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/common.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/common.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/config.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/config.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/sdist.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/sdist.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/versionno.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/versionno.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/wheel.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/wheel.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/buildapi.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/common.py
@@ -24,35 +31,52 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/__pycache__/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/__init__.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_build_thyself.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_build_thyself.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_buildapi.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_buildapi.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_common.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_common.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_config.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_config.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_sdist.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_sdist.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_versionno.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_versionno.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_wheel.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/__pycache__/test_wheel.cpython-311.pyc
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/EG_README.rst
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/invalid_version1.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/invalid_version1.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/module1.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/module1.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/module2.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/module2.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/moduleunimportable.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/moduleunimportable.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/moduleunimportabledouble.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/moduleunimportabledouble.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/no_docstring.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/__pycache__/no_docstring.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/bad-description-ext.toml
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/__pycache__/module1.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/__pycache__/module1.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/module1.py (EMPTY)
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/pyproject.toml
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/src/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/src/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/src/__pycache__/module1.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/src/__pycache__/module1.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/conflicting_modules/src/module1.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/constructed_version/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/constructed_version/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/constructed_version/__pycache__/module1.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/constructed_version/__pycache__/module1.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/constructed_version/module1.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/constructed_version/pyproject.toml
@@ -62,7 +86,9 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/im
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/imported_version/package1/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/imported_version/package1/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/imported_version/package1/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/imported_version/package1/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/imported_version/package1/__pycache__/__init__.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/imported_version/package1/__pycache__/_version.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/imported_version/package1/__pycache__/_version.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/imported_version/package1/_version.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/imported_version/pyproject.toml
@@ -70,6 +96,7 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/in
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/inclusion/LICENSES/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/inclusion/LICENSES/README
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/inclusion/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/inclusion/__pycache__/module1.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/inclusion/__pycache__/module1.cpython-311.pyc
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/inclusion/doc/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/inclusion/doc/subdir/
@@ -94,6 +121,7 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/in
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/no_docstring.py
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/normalization/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/normalization/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/normalization/__pycache__/my_python_module.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/normalization/__pycache__/my_python_module.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/normalization/my_python_module.py (EMPTY)
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/normalization/pyproject.toml
@@ -103,13 +131,16 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/ns
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/ns1-pkg/ns1/pkg/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/ns1-pkg/ns1/pkg/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/ns1-pkg/ns1/pkg/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/ns1-pkg/ns1/pkg/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/ns1-pkg/ns1/pkg/__pycache__/__init__.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/ns1-pkg/pyproject.toml
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1.toml
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/__pycache__/__init__.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/__pycache__/foo.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/__pycache__/foo.cpython-311.pyc
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/data_dir/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/data_dir/foo.sh
@@ -117,17 +148,20 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pa
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg/__pycache__/__init__.cpython-311.pyc
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg/sp_data_dir/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg/sp_data_dir/test.json
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg2/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg2/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg2/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg2/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/package1/subpkg2/__pycache__/__init__.cpython-311.pyc
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep517/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep517/LICENSE
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep517/README.rst
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep517/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep517/__pycache__/module1.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep517/__pycache__/module1.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep517/module1.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep517/pyproject.toml
@@ -135,12 +169,14 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pe
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621/LICENSE
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621/README.rst
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621/__pycache__/module1a.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621/__pycache__/module1a.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621/module1a.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621/pyproject.toml
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621_nodynamic/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621_nodynamic/README.rst
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621_nodynamic/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621_nodynamic/__pycache__/module1.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621_nodynamic/__pycache__/module1.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621_nodynamic/module1.py (EMPTY)
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/pep621_nodynamic/pyproject.toml
@@ -152,6 +188,7 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/wi
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/with_data_dir/LICENSE
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/with_data_dir/README.rst
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/with_data_dir/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/with_data_dir/__pycache__/module1.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/with_data_dir/__pycache__/module1.cpython-311.pyc
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/with_data_dir/data/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/tests/samples/with_data_dir/data/share/
@@ -171,6 +208,7 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/README
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/__pycache__/__init__.cpython-311.pyc
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli-1.2.3.dist-info/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli-1.2.3.dist-info/LICENSE
@@ -178,9 +216,13 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli-1.2
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__pycache__/__init__.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__pycache__/_parser.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__pycache__/_parser.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__pycache__/_re.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__pycache__/_re.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__pycache__/_types.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/__pycache__/_types.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/_parser.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/flit_core/vendor/tomli/_re.py
