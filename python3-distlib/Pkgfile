@@ -6,7 +6,7 @@
 name=python3-distlib
 _realname=distlib
 version=0.3.6
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/source/d/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
