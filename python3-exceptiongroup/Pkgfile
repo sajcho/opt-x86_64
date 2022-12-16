@@ -6,7 +6,7 @@
 name=python3-exceptiongroup
 _realname=py3-exceptiongroup
 version=1.0.1
-release=1
+release=2
 source=(https://github.com/agronholm/exceptiongroup/archive/${version}/${_realname}-${version}.tar.gz \
 	use-flit-core.patch)
 
