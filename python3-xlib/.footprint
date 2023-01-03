@@ -209,9 +209,9 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/Xlib/xobject/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/Xlib/xobject/fontable.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/Xlib/xobject/icccm.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/Xlib/xobject/resource.py
-drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/python_xlib-0.32-py3.11.egg-info/
--rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.32-py3.11.egg-info/PKG-INFO
--rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.32-py3.11.egg-info/SOURCES.txt
--rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.32-py3.11.egg-info/dependency_links.txt
--rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.32-py3.11.egg-info/requires.txt
--rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.32-py3.11.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/python_xlib-0.33-py3.11.egg-info/
+-rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.33-py3.11.egg-info/PKG-INFO
+-rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.33-py3.11.egg-info/SOURCES.txt
+-rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.33-py3.11.egg-info/dependency_links.txt
+-rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.33-py3.11.egg-info/requires.txt
+-rw-rw-rw-	root/root	usr/lib/python3.11/site-packages/python_xlib-0.33-py3.11.egg-info/top_level.txt
