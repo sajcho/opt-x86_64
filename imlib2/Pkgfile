@@ -4,7 +4,7 @@
 # Depends on:	freetype libsm libxext openjpeg2
 
 name=imlib2
-version=1.9.1
+version=1.10.0
 release=1
 source=(https://download.sourceforge.net/enlightenment/${name}-${version}.tar.xz)
 
@@ -13,7 +13,11 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--disable-static
+		--disable-static \
+		--without-gif \
+		--without-heif \
+		--without-svg \
+		--without-webp
 
 	make V=1
 
