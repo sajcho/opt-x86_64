@@ -4,8 +4,8 @@
 # Depends on:	libgpg-error
 
 name=libksba
-version=1.6.2
-release=2
+version=1.6.3
+release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
 build() {
