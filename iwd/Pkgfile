@@ -4,7 +4,7 @@
 # Depends on:	dbus ell openresolv readline
 
 name=iwd
-version=2.0
+version=2.1
 release=0
 source=(https://mirrors.edge.kernel.org/pub/linux/network/wireless/${name}-${version}.tar.xz \
 	01-dbus.conf-remove-netdev-group.patch \
