@@ -1,10 +1,10 @@
 # Description:	A C library for reading and writing files containing sampled sound
 # URL:		http://www.mega-nerd.com/libsndfile
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	alsa-lib flac libvorbis sqlite3
+# Depends on:	alsa-lib flac libvorbis opus sqlite3
 
 name=libsndfile
-version=1.1.0
+version=1.2.0
 release=1
 source=(https://github.com/libsndfile/${name}/archive/${version}/${name}-${version}.tar.gz)
 
