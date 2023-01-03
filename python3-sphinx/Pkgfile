@@ -5,8 +5,8 @@
 
 name=python3-sphinx
 _realname=sphinx
-version=5.3.0
-release=2
+version=6.0.0
+release=1
 source=(https://github.com/sphinx-doc/${_realname}/archive/v${version}/${_realname}-${version}.tar.gz)
 
 build() {
