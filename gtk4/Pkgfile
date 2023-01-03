@@ -5,15 +5,12 @@
 
 name=gtk4
 _realname=gtk
-version=4.8.2
+version=4.8.3
 release=1
-source=(https://download.gnome.org/sources/${_realname}/${version%.*}/${_realname}-${version}.tar.xz \
-	copy-paste-touch-events-pr-5143.patch)
+source=(https://download.gnome.org/sources/${_realname}/${version%.*}/${_realname}-${version}.tar.xz)
 
 build() {
 	cd ${_realname}-${version}
-
-	patch -p1 -i $SRC/copy-paste-touch-events-pr-5143.patch
 
 	build-meson \
 		-Dvulkan=enabled \

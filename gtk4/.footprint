@@ -393,8 +393,8 @@ drwxr-xr-x	root/root	usr/lib/gtk-4.0/4.0.0/printbackends/
 -rwxr-xr-x	root/root	usr/lib/gtk-4.0/4.0.0/printbackends/libprintbackend-file.so
 -rwxr-xr-x	root/root	usr/lib/gtk-4.0/4.0.0/printbackends/libprintbackend-lpr.so
 lrwxrwxrwx	root/root	usr/lib/libgtk-4.so -> libgtk-4.so.1
-lrwxrwxrwx	root/root	usr/lib/libgtk-4.so.1 -> libgtk-4.so.1.800.2
--rwxr-xr-x	root/root	usr/lib/libgtk-4.so.1.800.2
+lrwxrwxrwx	root/root	usr/lib/libgtk-4.so.1 -> libgtk-4.so.1.800.3
+-rwxr-xr-x	root/root	usr/lib/libgtk-4.so.1.800.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gtk4-broadway.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gtk4-unix-print.pc
