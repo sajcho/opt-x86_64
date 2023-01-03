@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JArOz5FgCCe1csw3Zhk1rywbHGCNsFzQWCHNO7vJouoJmEjdndJ97bjQ2eDFMNVEgnIkkvnuobTJ3dQijBqvLVgQ=
-SHA256 (Pkgfile) = c4043ad7f0dfcb88303fde8def5fd97f14d685e9c752289c1aae1f26e702782e
-SHA256 (.footprint) = 52ab3388aeac67d51c3b186a230e4dfaf8c1a827d7f4b8658f4fcc809a2a13b5
-SHA256 (ruby-3.1.3.tar.xz) = 4ee161939826bcdfdafa757cf8e293a7f14e357f62be7144f040335cc8c7371a
+RWQg5aRf982JAsNTJu65RxFAT781i4+iCcImkd07iKj0lkqIvKIXA8Bj1GZq1e203R6GrV00FdzMV7+6WY+25FO45GVKwXIvLgY=
+SHA256 (Pkgfile) = 0915b42fad24a157f9f8cab59a60f7d082fd1f278c1a75f69adccb4ed0989503
+SHA256 (.footprint) = cc67221fca4719677b9e822fd49dcd0fe15d0e6b29fd10bf605b989b805e0e6a
+SHA256 (ruby-3.2.0.tar.xz) = d2f4577306e6dd932259693233141e5c3ec13622c95b75996541b8d5b68b28b4
 SHA256 (rubygems-avoid-platform-specific-gems.patch) = f5746a3480072defb911059e7dbf38f991a9ce6d7c0764a80b02e8c12fd3bcc5
