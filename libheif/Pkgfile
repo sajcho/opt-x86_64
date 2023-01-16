@@ -4,12 +4,14 @@
 # Depends on:	aom libde265 libjpeg-turbo libpng x265
 
 name=libheif
-version=1.12.0
-release=2
+version=1.14.2
+release=1
 source=(https://github.com/strukturag/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
+
+	CXXFLAGS+=" -Wno-error=maybe-uninitialized"
 
 	./configure \
 		--prefix=/usr \
