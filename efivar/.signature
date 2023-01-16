@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/core-x86_64.pub
+RWQyKH7cMutLvZo30a+l41r8LCip9+WeEXeoioeaEDYyfyloR8nWWalnx1Bj1wFAu0RuPTMJ2Mg9QUQI7maGwiVpuZhfUFvBvQE=
+SHA256 (Pkgfile) = 5d20c7d79ed9394896caa2a9525dd9bae73418a41ec9f5f4706e010cce489768
+SHA256 (.footprint) = 4d6084117a11231abe7ebb2948468cd50b96595968bdde40de52b65c8ad269e8
+SHA256 (efivar-38.tar.bz2) = f018ed6e49c5f1c16d336d9fd7687ce87023276591921db1e49a314ad6515349

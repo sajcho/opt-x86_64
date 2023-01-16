@@ -1,0 +1,19 @@
+# Description:	Tools and library to manipulate EFI variables
+# URL:		https://github.com/rhinstaller/efivar
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	popt
+
+name=efivar
+version=38
+release=1
+source=(https://github.com/rhinstaller/${name}/releases/download/${version}/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	sed 's|docs||' -i Makefile
+
+	make -j1 V=1
+
+	make libdir=/usr/lib DESTDIR=$PKG install
+}
