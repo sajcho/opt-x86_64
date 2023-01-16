@@ -1,0 +1,16 @@
+# Description:	Development Libraries and headers for EFI
+# URL:		https://sourceforge.net/projects/gnu-efi/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=gnu-efi
+version=3.0.15
+release=1
+source=(https://download.sourceforge.net/${name}/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	make -j1 V=1
+
+	make INSTALLROOT=$PKG PREFIX=/usr install
+}
