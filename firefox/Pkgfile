@@ -4,7 +4,7 @@
 # Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox
-version=108.0.1
+version=109.0
 release=1
 source=(https://archive.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
 	firefox.desktop)
@@ -32,6 +32,9 @@ build() {
 
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
+
+	sed '/include <cmath>/a #include <cstdint>' -i gfx/2d/Rect.h
+	sed '/include <ctime>/a #include <cstdint>' -i toolkit/components/telemetry/pingsender/pingsender.cpp
 
 	### api keys
 	#_google_api_key=""
@@ -99,12 +102,11 @@ cat <<- EOF > .mozconfig
 		ac_add_options --without-wasm-sandboxed-libraries
 EOF
 
-	export CC=gcc
-	export CXX=g++
-	CFLAGS+=" -fuse-ld=mold -Wno-array-bounds -Wno-attributes -Wno-deprecated-declarations -Wno-narrowing -Wno-return-type -Wno-dangling-pointer -Wno-stringop-overflow -Wno-maybe-uninitialized -Wno-free-nonheap-object -Wno-unused-variable -Wno-sign-compare -Wno-unused-but-set-variable -Wno-address-of-packed-member -Wno-implicit-fallthrough -Wno-array-parameter -Wno-unused-value -Wno-misleading-indentation -Wno-sign-compare -Wno-use-after-free -Wno-stringop-overread -Wno-stringop-truncation -Wno-sizeof-pointer-memaccess"
-	CXXFLAGS+=" -fuse-ld=mold -Wno-array-bounds -Wno-class-memaccess -Wno-attributes -Wno-deprecated-declarations -Wno-narrowing -Wno-return-type -Wno-dangling-pointer -Wno-stringop-overflow -Wno-maybe-uninitialized -Wno-free-nonheap-object -Wno-unused-variable -Wno-sign-compare -Wno-unused-but-set-variable -Wno-address-of-packed-member -Wno-implicit-fallthrough -Wno-array-parameter -Wno-unused-value -Wno-subobject-linkage -Wno-misleading-indentation -Wno-sign-compare -Wno-use-after-free -Wno-stringop-overread -Wno-stringop-truncation -Wno-sizeof-pointer-memaccess"
-	export LDFLAGS="-fuse-ld=mold"
-	export RUSTFLAGS="-Clinker=gcc -Clink-args=-fuse-ld=mold"
+	export CC=clang
+	export CXX=clang++
+	CFLAGS+=" -Wno-deprecated-declarations -Wno-deprecated-builtins"
+	CXXFLAGS+=" -Wno-deprecated-declarations -Wno-deprecated-builtins"
+	export RUSTFLAGS="-Clinker=clang -Clink-args=-fuse-ld=mold"
 
 	./mach build
 
