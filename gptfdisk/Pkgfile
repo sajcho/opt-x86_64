@@ -1,0 +1,28 @@
+# Description:	Text-mode partitioning tool that works on Globally Unique Identifier (GUID) Partition Table (GPT) disks
+# URL:		https://www.rodsbooks.com/gdisk
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	e2fsprogs ncurses popt
+
+name=gptfdisk
+version=1.0.9
+release=1
+source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz \
+	gptfdisk-1.0.9-convenience-1.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/gptfdisk-1.0.9-convenience-1.patch
+	sed 's|ncursesw/||' -i gptcurses.cc
+	sed 's|sbin|usr/sbin|' -i Makefile
+	sed 's|CGDISK_LDLIBS=-lncursesw|CGDISK_LDLIBS=-lncursesw -ltinfo|' -i Makefile
+	sed '/UUID_H/s/^.*$/#if defined (_UUID_UUID_H) || defined (_UL_LIBUUID_UUID_H)/' -i guid.cc
+
+	make
+
+	mkdir -p $PKG/usr/sbin $PKG/usr/share/man/man8
+	local i; for i in gdisk cgdisk sgdisk fixparts; do
+		install $i $PKG/usr/sbin/
+		install $i.8 $PKG/usr/share/man/man8/
+	done
+}
