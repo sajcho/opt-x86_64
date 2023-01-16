@@ -4,7 +4,7 @@
 # Depends on:	gdk-pixbuf libptytty libxft libxt
 
 name=rxvt-unicode
-version=9.30
+version=9.31
 release=1
 source=(http://dist.schmorp.de/${name}/${name}-${version}.tar.bz2 \
 	gentables.patch \
