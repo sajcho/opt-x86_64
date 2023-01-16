@@ -606,9 +606,9 @@ f:17226659298a9d9bb3f323186d220f6f:nss/nss-config.in
 f:26b8bbcbe2665487c4fe8401de0a2daf:nss/nss-3.54-standalone-2.patch
 f:9ad2a26c137208ff292061143c7cc227:nss/nss-util.pc.in
 f:a58237121e7e7bde9ab97353c9205fac:nss/.footprint
-f:e6895d53e1551062911a3b95462ab14f:nss/.signature
+f:76b685405c5d006e769c6c44b8544586:nss/.signature
 f:a796e6ab6c87573ffb649ce8769bc07a:nss/nss.pc.in
-f:ca867305bef088120fe7021e23661905:nss/Pkgfile
+f:c61ed6cd88a43078329964144491963b:nss/Pkgfile
 f:43cef324e77e2dabdc8ab574318ac827:polkit/polkit-1
 f:69c5d119e4b7dc4e325d4c4a24adfbc7:polkit/.footprint
 f:ead4f585173f1d1fbd758ee2d274a328:polkit/.signature
@@ -1369,8 +1369,8 @@ f:09539e4eff53961858ab98bd6046902a:gnome-themes-extra/.footprint
 f:c208f12bf901415d81693c0af1e072d0:gnome-themes-extra/.signature
 f:01706ab891bda527fb8ff4c0da17870c:gnome-themes-extra/Pkgfile
 f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
-f:e766efdcc37b13e4b9258dada747e7b6:firefox/.signature
-f:001099b96508b5c88d5cd1e3bdf6e009:firefox/Pkgfile
+f:bc1bbd6f97100c235b5df2bef2c196ed:firefox/.signature
+f:94137828e651894fe58c6ffec1c97c24:firefox/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:3b3d709649dd6c53d52b83f575ee8723:gdk-pixbuf-xlib/.footprint
 f:ca468ea848176c55ea6487d1fc3f7281:gdk-pixbuf-xlib/.signature
