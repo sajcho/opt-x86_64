@@ -1,0 +1,36 @@
+# Description:	rEFInd EFI Boot Manager
+# URL:		https://www.rodsbooks.com/refind
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	efibootmgr gnu-efi
+
+name=refind
+version=0.13.3.1
+release=1
+source=(https://sourceforge.net/projects/${name}/files/${version}/${name}-src-${version}.tar.gz \
+	01-missing-always-inline.patch \
+	10-refind-disable-fortify.patch)
+
+build() {
+	cd ${name}-${version}
+
+	# From Alpine Linux
+	patch -p1 -i $SRC/01-missing-always-inline.patch
+	patch -p1 -i $SRC/10-refind-disable-fortify.patch
+
+	# hardcode RefindDir, so that refind-install can find refind_x64.efi
+	sed -e 's|RefindDir=\"\$ThisDir/refind\"|RefindDir="/usr/share/refind/"|g' \
+		-i refind-install
+
+	make -j1 V=1 all_gnuefi
+
+	install -D -m 0755 refind/*.efi -t $PKG/usr/share/refind
+	install -D -m 0755 drivers_*/*.efi -t $PKG/usr/share/refind/drivers_x86_64
+	install -D -m 0755 gptsync/*.efi -t $PKG/usr/share/refind/tools_x86_64
+	install -D -m 0755 refind.conf-sample -t $PKG/usr/share/refind
+
+	install -D -m 0644 docs/man/*.8 -t $PKG/usr/share/man/man8
+
+	install -D -m 0755 mkrlconf mvrefind refind-mkdefault refind-install -t $PKG/usr/sbin
+
+	cp -r icons $PKG/usr/share/refind/
+}
