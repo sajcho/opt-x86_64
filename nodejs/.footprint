@@ -131,6 +131,3 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/node.1.gz
-drwxr-xr-x	root/root	usr/share/systemtap/
-drwxr-xr-x	root/root	usr/share/systemtap/tapset/
--rw-r--r--	root/root	usr/share/systemtap/tapset/node.stp
