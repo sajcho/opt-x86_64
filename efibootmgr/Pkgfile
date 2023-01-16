@@ -1,0 +1,20 @@
+# Description:	Linux user-space application to modify the Intel Extensible Firmware Interface
+# URL:		https://github.com/rhboot/efibootmgr
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	efivar
+
+name=efibootmgr
+version=18
+release=1
+source=(https://github.com/rhboot/${name}/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	export CFLAGS="${CFLAGS} -Wno-error=pointer-sign"
+
+	EFIDIR=/boot/efi make V=1
+
+	install -D src/efibootmgr $PKG/usr/sbin/efibootmgr
+	install -D src/efibootmgr.8 $PKG/usr/share/man/man8/efibootmgr.8
+}
