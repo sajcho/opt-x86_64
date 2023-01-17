@@ -589,8 +589,8 @@ f:4c1068a285669a651c7726156d30d5f6:libsoup3/.footprint
 f:3d854a326ae80e39324e115914fbb97f:libsoup3/.signature
 f:299f1da6bd8fba7bd663c481c9516072:libsoup3/Pkgfile
 f:930d68bf1bf3d7cad23e05f22999718a:libiec61883/.footprint
-f:944d84b5e9590ddb98c5a09af06f752b:libiec61883/.signature
-f:c21a570652341b2f5f2261d05ca0014d:libiec61883/Pkgfile
+f:66607abb98001a97cbc2faf92ec2e4f9:libiec61883/.signature
+f:7c07d7195832dbeac32493c9e70df101:libiec61883/Pkgfile
 f:7e49426d3761e1835253a454689c61bd:basu/.footprint
 f:e15bc389252491ec864dffbbc721fd32:basu/.signature
 f:97c273c77c11f9702aca5879bb617fc7:basu/Pkgfile
@@ -739,8 +739,8 @@ f:b5ed18719dd3e9a337eaea345ee6741a:firefox-esr/.signature
 f:e06c57f59279d9cd3092fb108846e2d8:firefox-esr/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox-esr/firefox.desktop
 f:4399eb558e830520b02a0a0ef1abca51:libdv/.footprint
-f:45a4118906a0e0b7641a983886f5604f:libdv/.signature
-f:e2d08ae2f4d02bd2c89481ce733ff559:libdv/Pkgfile
+f:42dffaafe0c9b36a99bba0f8079ce5c4:libdv/.signature
+f:dd73e13950bcaccaecffea4d10c29820:libdv/Pkgfile
 f:4bcb99b07bcc9e601807f9005e06f26d:libsrtp/.footprint
 f:650a07e801125982d73e5d37d91ebe6a:libsrtp/.signature
 f:56943d2e1905d9ac2e0cdcd7463f992c:libsrtp/Pkgfile
@@ -766,8 +766,8 @@ f:dc6f254e68188d8bdb0e9f4fd9ffb04e:libgd/.signature
 f:be913706d342be386f3be8b845f3a5a2:libgd/Pkgfile
 f:4d6a164f760b59c2f0d82d0997dbdce1:cdparanoia/cdparanoia-III-10.2-gcc_fixes-1.patch
 f:a9803cc773c416697e5225dccdd67526:cdparanoia/.footprint
-f:ca48373b5c32ff4a7d6389329b69c1e8:cdparanoia/.signature
-f:e509cacc2a74857f7772e297a563519f:cdparanoia/Pkgfile
+f:a89c8185cd250ffbcea4ddc07dfdf109:cdparanoia/.signature
+f:9fea0b5b8e933bc8c81a945bc5f6b93c:cdparanoia/Pkgfile
 f:72530c95b928f84bb87dce766c148938:jansson/.footprint
 f:b11a061829cde6c0621e343d96fcc836:jansson/.signature
 f:3ce619c79c15dc9896bfd59017ce8df3:jansson/Pkgfile
@@ -1439,8 +1439,8 @@ f:efe864978d6330740dcfcafc0d778a79:libgpg-error/.footprint
 f:e1d69ba0a65ffd4ff7ee87a77d97e273:libgpg-error/.signature
 f:09d40fa92594bc74f3bc3c39828e7553:libgpg-error/Pkgfile
 f:b418f4a5a73c85729fb5f8b61aafe556:libavc1394/.footprint
-f:a20e27149c7e4b2776ef6f2e37fa7c0a:libavc1394/.signature
-f:dd074d40512289519c7b16cc4cdc15c3:libavc1394/Pkgfile
+f:24a364a9ed814a893131bf376a69922e:libavc1394/.signature
+f:3dd47f1290bdf14f9055ae353ca882f6:libavc1394/Pkgfile
 f:3baa37580b02c522b5a07e61e3386248:python3-pillow/.footprint
 f:484f56246926f151abfb9bf9eb8a4f8d:python3-pillow/.signature
 f:24c312d27b5a44ee9deb3970fa1c9ec2:python3-pillow/Pkgfile
