@@ -5,10 +5,16 @@
 
 name=x265
 version=3.5
-release=2
+release=3
 source=(https://bitbucket.org/multicoreware/${name}_git/downloads/${name}_${version}.tar.gz)
 
 build() {
+	# fix build for aarch64
+	sed 's| -mfloat-abi=hard -mfpu=neon -marm||' \
+		-i $SRC/${name}_${version}/source/CMakeLists.txt
+	sed 's| -mfloat-abi=hard -mfpu=neon -marm||' \
+		-i $SRC/${name}_${version}/source/dynamicHDR10/CMakeLists.txt
+
 	cmake -S x265_3.5/source -B build-12 \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
@@ -19,6 +25,7 @@ build() {
 		-DENABLE_SHARED=FALSE \
 		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
 		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
+		-DENABLE_ASSEMBLY=OFF \
 		-Wno-dev
 
 	make ${JOBS:+-j ${JOBS}} VERBOSE=1 -C build-12
@@ -32,6 +39,7 @@ build() {
 		-DENABLE_SHARED=FALSE \
 		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
 		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
+		-DENABLE_ASSEMBLY=OFF \
 		-Wno-dev
 
 	make ${JOBS:+-j ${JOBS}} VERBOSE=1 -C build-10
@@ -47,6 +55,7 @@ build() {
 		-DLINKED_12BIT=TRUE \
 		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
 		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
+		-DENABLE_ASSEMBLY=OFF \
 		-Wno-dev
 
 	ln -s ../build-10/libx265.a build/libx265_main10.a
