@@ -4,11 +4,13 @@
 
 name=soundtouch
 version=2.3.2
-release=1
+release=2
 source=(https://www.surina.net/${name}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}
+
+	[ $CARCH = "aarch64" ] && NEON="-DNEON_CPU=OFF -DNEON=OFF"
 
 	mkdir build
 	cd build
@@ -18,6 +20,7 @@ build() {
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DBUILD_SHARED_LIBS=ON \
+		$NEON \
 		-Wno-dev
 
 	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
