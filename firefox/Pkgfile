@@ -33,6 +33,7 @@ build() {
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
 
+	# fix - we have gcc-13.0.0 in the system
 	sed '/include <cmath>/a #include <cstdint>' -i gfx/2d/Rect.h
 	sed '/include <ctime>/a #include <cstdint>' -i toolkit/components/telemetry/pingsender/pingsender.cpp
 
