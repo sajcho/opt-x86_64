@@ -5,13 +5,14 @@
 
 name=libiec61883
 version=1.2.0
-release=1
+release=2
 source=(https://www.kernel.org/pub/linux/libs/ieee1394/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
 		--prefix=/usr \
 		--disable-static
 
