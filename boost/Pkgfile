@@ -6,11 +6,14 @@
 name=boost
 version=1.81.0
 _pkgversion=1_81_0
-release=1
+release=2
 source=(https://boostorg.jfrog.io/artifactory/main/release/${version}/source/${name}_${_pkgversion//./_}.tar.bz2)
 
 build() {
 	cd ${name}_${_pkgversion//./_}
+
+	[ $CARCH = "x86_64" ] && ARCH="x86"
+	[ $CARCH = "aarch64" ] && ARCH="arm"
 
 	./bootstrap.sh \
 		--prefix=$PKG/usr \
@@ -19,7 +22,7 @@ build() {
 		--with-python=python3
 
 	./b2 -q stage \
-		architecture=x86 \
+		architecture="$ARCH" \
 		variant=release \
 		debug-symbols=off \
 		threading=multi \
@@ -35,7 +38,7 @@ build() {
 		${JOBS:+-j ${JOBS}}
 
 	./b2 -q install \
-		architecture=x86 \
+		architecture="$ARCH" \
 		variant=release \
 		debug-symbols=off \
 		threading=multi \
