@@ -403,8 +403,8 @@ f:ffd255a5a72ae4aeefdd159975631d74:docbook-xsl-nons/.footprint
 f:91564924543e63ee78fb2df52ba8240b:docbook-xsl-nons/.signature
 f:05436bda655614b6302cebbd38aa7a7b:docbook-xsl-nons/Pkgfile
 f:3429ae634aa33e417e2a42e37618a9bc:mpg123/.footprint
-f:8dc2f701da846469fcd6df745aa04b0e:mpg123/.signature
-f:91f6936d1351d5fa95d3bab87f094f20:mpg123/Pkgfile
+f:e53d0bbf9f0a384bd0d35e914c107dba:mpg123/.signature
+f:74daee6907b178009a3067bba8ef1ad0:mpg123/Pkgfile
 f:f430d5aeac917312eb277052bc110b6a:gstreamer/.footprint
 f:9f003cf37366f7bc609c5509f2f112fd:gstreamer/.signature
 f:2ac375fba5cb993f8f4a216e82d17162:gstreamer/Pkgfile
