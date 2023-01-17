@@ -1593,8 +1593,8 @@ f:feb0e9e688d7b2cc129ea43f5afe02f2:spdlog/.footprint
 f:7cd14c67163efa119bf42e30a30bcb65:spdlog/.signature
 f:a2c34a0639691f2dbb2f3fa2bd197287:spdlog/Pkgfile
 f:e99578b95db0bfd1ced3c031d7db2b8f:soundtouch/.footprint
-f:07e5d13e2e3d973475f7f57fd92ba34c:soundtouch/.signature
-f:b6ae3d3a51815ae3a3d3f6064081d56d:soundtouch/Pkgfile
+f:8b58aeb25376f1601c6ba170487a74e5:soundtouch/.signature
+f:78dc5f594ab2afef0a023ed39707d4ff:soundtouch/Pkgfile
 f:d621c2b8e74744774f1422dbe5356da1:python3-xlib/.footprint
 f:d725fc0197b500b2089b37442ad4b917:python3-xlib/.signature
 f:561fdaaa6b8c27a2747731cbdf0cb207:python3-xlib/Pkgfile
