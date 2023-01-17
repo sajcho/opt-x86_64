@@ -5,13 +5,14 @@
 
 name=libdv
 version=1.0.0
-release=1
+release=2
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
 		--prefix=/usr \
 		--disable-static \
 		--with-pic

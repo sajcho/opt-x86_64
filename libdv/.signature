@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsfnUDTclLFzahQ7Z44t3XGKQqHh9MaenNC4KAwmvjD38C7THn7ev56uts95nhfdpzezKn6G96VbrQzuQo8zcQc=
-SHA256 (Pkgfile) = 2220addc8ed5f04da6f2b261b08e6181c8023fcb9bd9f911df76a38622a66ef6
+RWQg5aRf982JAkZHatszympcaVWLM3nLdFspIMXki7svUG+TCu3ja6AJVglw5eHE8bIxxxNMn4/DxonhwLjqFcYEJ/QgY/Pq7Qs=
+SHA256 (Pkgfile) = 2a94ec91b4de49210f56db2acfa5fcee5fe17f4aae7588bae0e7f282596e240f
 SHA256 (.footprint) = c7099abb6e3894d80e67cebec65a2079f6ab1f766845050a41e035b2d5b3b044
 SHA256 (libdv-1.0.0.tar.gz) = a305734033a9c25541a59e8dd1c254409953269ea7c710c39e540bd8853389ba
