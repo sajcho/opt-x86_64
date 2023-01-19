@@ -1276,10 +1276,10 @@ f:58e076990fcd87c2b3034e82f5f7f852:sway/Pkgfile
 f:834fc9af6504848057d644b4209481ad:sway/sway.desktop
 f:23658e1b2e272c98ff6214508e3ac414:mariadb/mysqld.run
 f:bc9e0d5fd1ccb07d66f3d67bb95efe8c:mariadb/.footprint
-f:9941d2e1c3b762dfb0aa31abb9eb5c62:mariadb/.signature
+f:299ae54bbc68d45689bfbd2bc1dd29eb:mariadb/.signature
 f:fa8415776216b63d13d96594b5972de4:mariadb/mariadb.pam
 f:2774ed58ddcc0a856775d6958aeb4b4d:mariadb/pre-install
-f:32d58fa398459aa3261fad19ae8b5aa7:mariadb/Pkgfile
+f:eb07608329a9bcab38f24c31c18a0fa6:mariadb/Pkgfile
 f:2d7f517d6b101ccbe5006bf0b21a98ab:mariadb/mysqld-log.run
 f:7ffd13ae4a344641a31f780183d4d421:libnice/.footprint
 f:14ab0fdf167030602822f8ea247527f3:libnice/.signature
