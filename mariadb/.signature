@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JApcvBKa4Cz42XRYtX0CA2/UJHTeXQEWu6LrJ/OCo+aygPIqmFRCxBwuHw+dje6dFlTtvkGtXX71dGMd2jrtz9QA=
-SHA256 (Pkgfile) = 34f855d1169ba621414bc43d3949a22dd79ca74badb523b21c10e2a830c47f77
+RWQg5aRf982JAgPc+oHyfx5wHVPmCq4zUYV4s0kxmTOnyP4QBGU6QyVE6c0Ejastg7lb2erb5Wxz8jAYlHIJbgI06BGJAZGMhwI=
+SHA256 (Pkgfile) = f4d7653dadffc236c0b18d0bb9b0f55b39ef5765b62aae66a75f924021ad09c1
 SHA256 (.footprint) = 29bb98cc0bb7a5e28cb0f83c2d893b51ab65e49e45951bc6199ffaff8ce104bf
 SHA256 (mariadb-10.10.2.tar.gz) = 57cbd0112b22b592f657cd4eb82e2f36ad901351317bf8e17849578e803f3cb2
 SHA256 (mariadb.pam) = 962b53d37719ed4798643a8fe3557454d23f74c2b14f1dfc1c1c67d361cab891

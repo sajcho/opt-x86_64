@@ -5,12 +5,24 @@
 
 name=mariadb
 version=10.10.2
-release=1
+release=2
 source=(https://downloads.mariadb.com/MariaDB//$name-$version/source/$name-$version.tar.gz
 	mariadb.pam mysqld-log.run mysqld.run pre-install)
 
 build() {
 	cd ${name}-${version}
+
+	# fix - we have gcc-13.0.0 in the system
+	sed '/include <thread>/a #include <stdexcept>' \
+		-i $SRC/${name}-${version}/tpool/aio_liburing.cc
+	sed '/rocksdb_namespace.h/a #include <cstdint>' \
+		-i $SRC/${name}-${version}/storage/rocksdb/rocksdb/db/compaction/compaction_iteration_stats.h
+	sed '/include <vector>/a #include <cstdint>' \
+		-i $SRC/${name}-${version}/storage/rocksdb/rocksdb/table/block_based/data_block_hash_index.h
+	sed '/include <vector>/a #include <cstdint>' \
+		-i $SRC/${name}-${version}/storage/rocksdb/rocksdb/util/string_util.h
+	sed '/include <vector>/a #include <cstdint>' \
+		-i $SRC/${name}-${version}/storage/rocksdb/rocksdb/include/rocksdb/utilities/checkpoint.h
 
 	mkdir build
 	cd build
