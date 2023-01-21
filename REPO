@@ -610,10 +610,11 @@ f:76b685405c5d006e769c6c44b8544586:nss/.signature
 f:a796e6ab6c87573ffb649ce8769bc07a:nss/nss.pc.in
 f:c61ed6cd88a43078329964144491963b:nss/Pkgfile
 f:43cef324e77e2dabdc8ab574318ac827:polkit/polkit-1
-f:69c5d119e4b7dc4e325d4c4a24adfbc7:polkit/.footprint
-f:ead4f585173f1d1fbd758ee2d274a328:polkit/.signature
+f:7b76ca54e48f9dd8aa472fab385851a2:polkit/.footprint
+f:5c9430778b562131685e0a9e70f40509:polkit/.signature
 f:0fe4f894faba4fb5000e64933fd6d965:polkit/pre-install
-f:4c0efbaff2e863294a32db7970cbc24a:polkit/Pkgfile
+f:7a6686e061f424d699419035ccf586c6:polkit/Pkgfile
+f:76b227ed89378d9e2a2a1728efa58240:polkit/polkit-99-saux.rules
 f:47c7437ecbbcb0a6724c31065a641882:gtk2-murrine-engine/.footprint
 f:fdec1f5ba6c8dddb599673fe90d75436:gtk2-murrine-engine/.signature
 f:5e5aec5841d212fc3d0c0a44c7c07bb2:gtk2-murrine-engine/Pkgfile
