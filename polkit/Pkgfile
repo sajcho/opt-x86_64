@@ -5,8 +5,9 @@
 
 name=polkit
 version=122
-release=1
+release=2
 source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/${version}/${name}-${version}.tar.bz2 \
+	polkit-99-saux.rules \
 	polkit-1)
 
 build() {
@@ -21,6 +22,7 @@ build() {
 	chmod 4775 $PKG/usr/bin/pkexec
 	chmod 4755 $PKG/usr/lib/polkit-1/polkit-agent-helper-1
 	install -m 0644 $SRC/polkit-1 $PKG/etc/pam.d
+	install -m 0644 $SRC/polkit-99-saux.rules /$PKG/etc/polkit-1/rules.d/99-saux.rules
 
 	rm -r $PKG/usr/share/locale
 }
