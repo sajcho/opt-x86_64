@@ -1,7 +1,7 @@
 # Description:	Internet Wireless Daemon
 # URL:		https://iwd.wiki.kernel.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	dbus ell openresolv readline
+# Depends on:	dbus ell openresolv
 
 name=iwd
 version=2.1
