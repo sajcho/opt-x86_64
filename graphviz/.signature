@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoUV22xFYmPvfk7B9KeHc3p8FFsK4jwr9e/5LB+Enrb2Yz4CMjI/GcgfrWi7htAdlCYKku3N2uXq5CXs/hkTjwI=
-SHA256 (Pkgfile) = 65fe250e0eb554b7bd22f883624f01014abf9305c1f3bdb9e7efa52d1cef8a27
-SHA256 (.footprint) = 7f8317d10688e03d7a8c38203352dea5adcbc9cbbc5ee600357a9cbf32b0d501
-SHA256 (graphviz-7.0.5.tar.bz2) = 442fd86d5aa30f172ef0f4ac265a8f8ee6754c0d4f09a9a8ff04b41e89e6f2e3
+RWQg5aRf982JAvXPxEdszkBhRj6ihWLxam/R4To5CMwt271UuOv/A5XerjUyNpXhhBKRsDKp4lbXO1PO9DEksCywzVyPX39M3Aw=
+SHA256 (Pkgfile) = 83d0e4e93bcfa4e8de793528cf42c2a53050b87635c4b03a2bcc032603760493
+SHA256 (.footprint) = 93aa28980e8438f0d284f953475e3ccd55cac23ff6109dc60969190fda32f4be
+SHA256 (graphviz-7.0.6.tar.bz2) = 5c5b6d7a8dc179c6d30bc5d0d52f40be6564164edf0d581ffd7f57a8b8f9afdf
