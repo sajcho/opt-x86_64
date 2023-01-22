@@ -1,7 +1,7 @@
 # Description:	Text-mode partitioning tool that works on Globally Unique Identifier (GUID) Partition Table (GPT) disks
 # URL:		https://www.rodsbooks.com/gdisk
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	e2fsprogs ncurses popt
+# Depends on:	e2fsprogs popt
 
 name=gptfdisk
 version=1.0.9
