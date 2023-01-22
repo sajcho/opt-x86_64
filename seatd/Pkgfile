@@ -1,11 +1,11 @@
 # Description:	A minimal seat management daemon, and a universal seat management library
 # URL:		https://git.sr.ht/~kennylevinsen/seatd
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	meson
+# Depends on:	elogind meson mold scdoc
 
 name=seatd
 version=0.7.0
-release=1
+release=2
 source=(https://github.com/kennylevinsen/${name}/archive/${version}/${name}-${version}.tar.gz \
 	seatd.run)
 
@@ -13,7 +13,12 @@ build() {
 	cd ${name}-${version}
 
 	build-meson \
+		-Dlibseat-seatd=enabled \
+		-Dlibseat-logind=elogind \
 		-Dlibseat-builtin=enabled \
+		-Db_lto=true \
+		-Dc_args="-fuse-ld=mold" \
+		-Dc_link_args="-fuse-ld=mold" \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
