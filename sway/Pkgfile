@@ -4,13 +4,16 @@
 # Depends on:	json-c pango swaybg wlroots
 
 name=sway
-version=1.7
+version=1.8
 release=1
 source=(https://github.com/swaywm/sway/archive/${version}/${name}-${version}.tar.gz \
+	sway_6249.patch \
 	sway.desktop)
 
 build() {
 	cd ${name}-${version}
+
+	patch -p1 -i $SRC/sway_6249.patch
 
 	build-meson \
 		-Dtray=enabled \
@@ -22,6 +25,7 @@ build() {
 		-Dfish-completions=false \
 		-Dzsh-completions=false \
 		-Dwerror=false \
+		-Db_lto=true \
 		-Dc_args="-fuse-ld=mold" \
 		-Dc_link_args="-fuse-ld=mold" \
 		. build
