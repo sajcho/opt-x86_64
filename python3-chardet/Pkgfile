@@ -1,7 +1,7 @@
 # Description:	The Universal Character Encoding Detector
 # URL:		https://github.com/chardet/chardet/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	python3-gpep517 python3-setuptools python3-wheel
+# Depends on:	python3-packaging python3-wheel
 
 name=python3-chardet
 _realname=chardet
