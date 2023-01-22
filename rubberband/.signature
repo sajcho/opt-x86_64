@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAvxtqdsVKN//IUH0z2XnRtFxjg+AjmWt4bnuWrKUQlR4JW04BB34iDKt1u3hmaukUWF/ZE6Jecy/04xlsvikyw0=
-SHA256 (Pkgfile) = 0e81a34d04cffbc330828006ee74cb270b2b90142f94ef8d2dd90d623ade230a
+RWQg5aRf982JAuYs5q2FbBWK2Bp90Wrwj/2iLZvb3PSqxs4QixZh9hhrNNdbrCL1r9jFWpxLx236Qc1owNPZmqngFNI3ZTJZoQk=
+SHA256 (Pkgfile) = e0a717d9919b553f6450246b2584275a0e313dde22d43338e2cba548740d3ce9
 SHA256 (.footprint) = 981780e88289afd5e731285141c7fda00c6be7be804963179d57a6dfb285b430
 SHA256 (rubberband-v3.1.2.tar.gz) = 2a71c3d85134ff84efb54318813beacc0455d1910e54620e2e8b724f724746f0
