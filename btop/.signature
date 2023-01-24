@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAuXIVjrUl2DCKFzOdEqhazB3jf5NhSYaotTLjp9ehfczwwsKNOnajHq6ZDwoxMFQqoKWZTNedANsOc/D/zVwqQA=
+SHA256 (Pkgfile) = 73b86ba11d5ddcb0c419f281b09452403096c88351dc2f5650d87f3bf2f8b76e
+SHA256 (.footprint) = 35fb6c31237e8998aaeb0faf3929004b108816e1088b16155a5375fb17bd86d9
+SHA256 (btop-1.2.13.tar.gz) = 668dc4782432564c35ad0d32748f972248cc5c5448c9009faeb3445282920e02
