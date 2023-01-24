@@ -5,12 +5,17 @@
 
 name=waybar
 _realname=Waybar
-version=0.9.15
+version=0.9.17-34-ge7af29a
+_commit=e7af29ac1e2189f3d39d513feb814dab10b86fd7
+# Date:   Mon Jan 23 17:07:21 2023 +0100
 release=1
-source=(https://github.com/Alexays/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
+source=()
 
 build() {
-	cd ${_realname}-${version}
+	cd $SRC
+	git clone https://github.com/Alexays/Waybar.git
+	cd $SRC/${_realname}
+	git reset --hard ${_commit}
 
 	build-meson \
 		-Ddefault_library=shared \
