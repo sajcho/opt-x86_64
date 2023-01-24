@@ -1,0 +1,20 @@
+# Description:	The password hash Argon2, winner of PHC
+# URL:		https://github.com/P-H-C/phc-winner-argon2
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	glibc
+
+name=argon2
+_realname=phc-winner-argon2
+version=20190702
+release=0
+source=(https://github.com/P-H-C/${_realname}/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	make V=1 OPTTARGET=none ARGON2_VERSION=${version}
+
+	make OPTTARGET=none LIBRARY_REL=lib DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.a' -delete
+}
