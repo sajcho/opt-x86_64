@@ -1,0 +1,26 @@
+# Description:	Plasma Specific Protocols for Wayland
+# URL:		https://www.kde.org/plasma-desktop/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	extra-cmake-modules
+
+name=plasma-wayland-protocols
+version=1.9.0
+release=0
+source=(https://download.kde.org/stable/${name}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
