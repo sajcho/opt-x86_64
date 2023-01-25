@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAp8FCKgWaL3rht1bH+GHEVeTGsM+y4vrUJ9Udy5aLQfOc9NUuxc9vmsZtlNfCTaZhoIuE5Vk21HwK7ZV6eeqrwY=
+SHA256 (Pkgfile) = 6e16cc56439bc89a1f76a9fab7bb872bda25c0a2e5d27a71c573c1ae4b17019c
+SHA256 (.footprint) = d24676287632e099b3a40f818b2e1cf1d7719a66d3fb2d6d7afa9be4baeccf47
+SHA256 (pcmanfm-qt-1.2.1.tar.xz) = a5e6d3715063b534b093c60711b62dea93648253328e595c57189a5dd332e65b
