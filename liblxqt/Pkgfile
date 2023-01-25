@@ -1,0 +1,30 @@
+# Description:	Common base library for LXQt components
+# URL:		https://github.com/lxqt/liblxqt
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	polkit-qt-1 libqtxdg kwindowsystem libxscrnsaver
+
+name=liblxqt
+version=1.2.0
+release=0
+source=(https://github.com/lxqt/${name}/releases/download/${version}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DBUILD_BACKLIGHT_LINUX_BACKEND=ON \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+
+	rm -r $PKG/usr/share/lxqt/translations/
+}
