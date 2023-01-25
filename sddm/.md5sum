@@ -1,0 +1,6 @@
+f2e985d5ad1b1868b5b2fd2b768226a0  0001-pam-path-fix.patch
+51073f6062ae2b5e70d520e85abbb971  0002-sddm-fix-build.patch
+0d257d3bd56ab3fddb802d5d179e49d9  sddm-greeter.pam
+2e3268a30531d6ae98f02cbf3772fea1  sddm-v0.19.0.tar.gz
+6845b221dca5ebbe9d5b4aaa1282b0d0  sddm.pam
+80d0142ea0339d5bfa0b41974b45407f  sddm.run

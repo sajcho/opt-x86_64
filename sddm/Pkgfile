@@ -1,0 +1,66 @@
+# Description:	Simple Desktop Display Manager
+# URL:		https://github.com/sddm/sddm/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	extra-cmake-modules upower xorg-server python3-docutils qt5-qttools
+
+name=sddm
+version=0.19.0
+release=0
+source=(https://github.com/${name}/${name}/archive/v${version}/${name}-v${version}.tar.gz \
+	0001-pam-path-fix.patch \
+	0002-sddm-fix-build.patch \
+	0003-disable-automatic-portal-launching.patch \
+	sddm-autologin.pam \
+	sddm-greeter.pam \
+	sddm.pam \
+	sddm.conf-example \
+	sddm.run)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/0001-pam-path-fix.patch
+	patch -p1 -i $SRC/0002-sddm-fix-build.patch
+	patch -p1 -i $SRC/0003-disable-automatic-portal-launching.patch
+
+	mkdir build
+	cd build
+
+	CXXFLAGS+=" -Wno-deprecated-declarations"
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_INSTALL_LIBEXECDIR=/usr/lib/sddm \
+		-DBUILD_MAN_PAGES=ON \
+		-DENABLE_JOURNALD=OFF \
+		-DNO_SYSTEMD=ON \
+		-DUSE_ELOGIND=ON \
+		-DUID_MIN=500 \
+		-DUID_MAX=65000 \
+		-DDBUS_CONFIG_DIR=/usr/share/dbus-1/system.d \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+
+	# changing pam files
+	rm $PKG/etc/pam.d/*
+	install -m 0644 $SRC/sddm-autologin.pam $PKG/etc/pam.d/sddm-autologin
+	install -m 0644 $SRC/sddm-greeter.pam $PKG/etc/pam.d/sddm-greeter
+	install -m 0644 $SRC/sddm.pam $PKG/etc/pam.d/sddm
+	install -m 0644 $SRC/sddm.conf-example $PKG/etc/sddm.conf-example
+
+	# set permission
+	install -d $PKG/var/lib/sddm
+	chown -R sddm:sddm $PKG/var/lib/sddm
+
+	# sddm runit service
+	install -d $PKG/etc/sv/sddm
+	install -m 0755 $SRC/sddm.run $PKG/etc/sv/sddm/run
+	ln -s /run/runit/supervise.sddm $PKG/etc/sv/sddm/supervise
+
+	rm -r $PKG/usr/share/sddm/translations
+}

@@ -1,0 +1,13 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAm4z3AzmG+SNDWbEFnzZa1eV6nmxXtivfaKB2UJFZatoRQJQ8pueyTDK1EFhuJl8uYNrIQ8vqcP1Og6OFrUFwAg=
+SHA256 (Pkgfile) = d29cfc1738393c4e24112204a30855d6166a2231083fafae7e7be9e22d4eba38
+SHA256 (.footprint) = 2bd855f4e2b1ec91c404bac3c2683415b93c275e686c01ca5b79ba6550661dc4
+SHA256 (sddm-v0.19.0.tar.gz) = e76da1f13d5ad5e0179e3fec57543126044339405ef19c397e105e0807bd4e41
+SHA256 (0001-pam-path-fix.patch) = 0d2b37e31ae13773c9eafe62d329e4e424ec976a954253f46cdd2f02ea91eaf6
+SHA256 (0002-sddm-fix-build.patch) = 6db7a5a1acb3b51d071d735ebe9a0443dc89fcef5d382a599de9bcae348e0ca1
+SHA256 (0003-disable-automatic-portal-launching.patch) = 49edcb984a8901fb2c321658c24d2dc4b624cde15af441d46ea90a28fe1054d5
+SHA256 (sddm-autologin.pam) = f242938d3e0a4da6aee6b27a6c56b0bb6a1b8a4afa905a5bd48a296dc1edf340
+SHA256 (sddm-greeter.pam) = e4b77f535177ac55ad9e7417ba2a4658d036f28096bbba93c336f17af70c04f1
+SHA256 (sddm.pam) = 11f243085fd2fda0bcd87396903696f36167f60ab71e6dadf94e14df339fff77
+SHA256 (sddm.conf-example) = 2a937d0f77e7184cfcc46e276e8f825f80b5add9bb3d7194228973fc7d36ea63
+SHA256 (sddm.run) = c5cb84feb19db0bff175c0c070829f76b89f7213e6d0d48c11dd9458738ece36

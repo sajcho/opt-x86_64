@@ -1,0 +1,7 @@
+#!/bin/sh
+
+getent group sddm || /usr/sbin/groupadd -r sddm
+
+getent passwd sddm || /usr/sbin/useradd -g sddm -r -d /var/lib/sddm -s /sbin/nologin -c "SDDM - simple display manager" sddm
+
+/usr/bin/passwd -l sddm
