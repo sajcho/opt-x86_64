@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JApt8A0N6m8QA9aLFFUdR6+vXLtZF8TFgE5Ii+5PG2aDpPh/RSGlErVN9dhoof9NVCorSkgPPkvfv0YLqa1XbFwo=
+SHA256 (Pkgfile) = cf86a3e98a4562c38521f6915bd8f548a6985131a37435d155b4ca823aa891cb
+SHA256 (.footprint) = 9ce27793368d5e879dbcce0568a7aa3520066c4c5d952bd763179fef483ded50
+SHA256 (lxqt-session-1.2.0.tar.xz) = 74b2937619de662bf4b338589b9febadf6551e2e00a897351b4add69781e5c66
+SHA256 (fix-procps-4.0.0-and-higher.patch) = c9d4deb0a8cb9ac1228df8fe7c22c23f8c3a4135b4759c790a55938223155817

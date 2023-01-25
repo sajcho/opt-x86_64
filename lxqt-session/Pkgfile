@@ -1,0 +1,35 @@
+# Description:	The LXQt session manager
+# URL:		https://github.com/lxqt/lxqt-session
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	liblxqt procps qtxdg-tools xdg-user-dirs
+
+name=lxqt-session
+version=1.2.0
+release=0
+source=(https://github.com/lxqt/${name}/releases/download/${version}/${name}-${version}.tar.xz \
+	fix-procps-4.0.0-and-higher.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/fix-procps-4.0.0-and-higher.patch
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+
+	rm -r $PKG/usr/share/lxqt/translations
+
+	find $PKG/usr/share -type f -name '*.desktop' \
+		-exec sed -r -e '/\[.+\]=/d' -e '/#/d' -i {} \;
+}
