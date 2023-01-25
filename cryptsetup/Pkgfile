@@ -1,0 +1,27 @@
+# Description:	Userspace setup tool for transparent encryption of block devices using the Linux 2.6 cryptoapi
+# URL:		https://gitlab.com/cryptsetup/cryptsetup
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	argon2 asciidoctor json-c libdevmapper popt
+
+name=cryptsetup
+version=2.6.0
+release=0
+source=(https://www.kernel.org/pub/linux/utils/${name}/v${version%.*}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--sbindir=/sbin \
+		--enable-libargon2 \
+		--disable-static \
+		--disable-ssh-token \
+		--with-crypto_backend=openssl
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/locale
+}
