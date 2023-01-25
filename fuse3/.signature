@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAueTNeEpXRFApZb8QXconbbzaANXb+r4RWWYZZjgFoktYnu5JyHC55WjciZ3H/yTPZvQNRbV98jiHI5ZqUqu2AU=
+SHA256 (Pkgfile) = 7901ed33c00a93e8cd788e8e145f469e2fe5d0c378318160cd697b5fb96a5026
+SHA256 (.footprint) = 959c683e6b244c1a7f1cf7987fb77dcbaa3cf810846f9ccdd27941ccbc92680f
+SHA256 (fuse-3.13.0.tar.xz) = 1e54d3ee1d7d04f41e77617c4f7514f611b94332215dd88394bd82803032752a
+SHA256 (fix-realpath.patch) = e9f18e86545f558fb6ab92ae1778fe0392b06ca50ec44389db2c75a2bf95b5dd

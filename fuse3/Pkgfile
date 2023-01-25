@@ -1,0 +1,38 @@
+# Description:	The reference implementation of the Linux FUSE (Filesystem in Userspace) interface
+# URL:		https://github.com/libfuse/libfuse
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	meson
+
+name=fuse3
+version=3.13.0
+release=0
+source=(https://github.com/libfuse/libfuse/releases/download/fuse-${version}/fuse-${version}.tar.xz \
+	fix-realpath.patch)
+
+build() {
+	cd fuse-${version}
+
+	patch -p1 -i $SRC/fix-realpath.patch
+
+	build-meson . build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	# create config
+	install -d $PKG/etc
+	cat > $PKG/etc/fuse.conf << _EOF_
+# Set the maximum number of FUSE mounts allowed to non-root users.
+# The default is 1000.
+#
+#mount_max = 1000
+
+# Allow non-root users to specify the 'allow_other' or 'allow_root'
+# mount options.
+#
+#user_allow_other
+_EOF_
+
+	rm -r $PKG/dev $PKG/etc/init.d
+}
