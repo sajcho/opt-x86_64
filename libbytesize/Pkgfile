@@ -1,0 +1,24 @@
+# Description:	Library for working with arbitrary big sizes in bytes
+# URL:		https://github.com/rhinstaller/libbytesize
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gettext mpfr libpcre2 python3
+
+name=libbytesize
+version=2.7
+release=0
+source=(https://github.com/storaged-project/${name}/releases/download/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/locale
+
+	find $PKG -type f -name '*.la' -delete
+}
