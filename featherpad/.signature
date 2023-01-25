@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAsE656tfkSrgFo5gH+Z1WggWk6exATP4ZNf8OZO+/3KvFLdfkSCKIS50Q694NWQmenjyq9VSi6eM3fVuHmUWtQI=
+SHA256 (Pkgfile) = 8b6125050f8567ab73a0cb760bcfb848143d0f5b09db12f00f2a78614e31c319
+SHA256 (.footprint) = 8c35533fb2e5b69e3ded2b6995cb560060f336300b23f5f132eb697c3ca332a4
+SHA256 (FeatherPad-1.1.0.tar.xz) = 210b7025f821ad1196b514d432033526eda7ddc77e613cdf385560b943d4c4be

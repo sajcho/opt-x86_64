@@ -1,0 +1,34 @@
+# Description:	Lightweight Qt plain-text editor
+# URL:		https://github.com/tsujan/FeatherPad
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	qt5-qtsvg qt5-qttools qt5-qtx11extras hunspell
+
+name=featherpad
+_realname=FeatherPad
+version=1.1.0
+release=0
+source=(https://github.com/tsujan/${name}/releases/download/V${version}/${_realname}-${version}.tar.xz)
+
+build() {
+	cd ${_realname}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+
+	rm -r $PKG/usr/share/featherpad \
+		$PKG/usr/share/metainfo
+
+	find $PKG/usr/share -type f -name '*.desktop' \
+		-exec sed -r -e '/\[.+\]=/d' -e '/#/d' -i {} \;
+}
