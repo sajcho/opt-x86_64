@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAn18VTCskNm3NYYlmCms++ZZvN2hiYir4FW1zFcPU4iWK6RozL62HbXqjdjlBRymYTPT6jOMnqZqKckxqXVN1wo=
+SHA256 (Pkgfile) = ebcbbc3e37c0608913d8042168ba4223f10d6359a7b8b06d07d4ec270d72a530
+SHA256 (.footprint) = 224f0d8a13b7dabaededebb6e70ff6a10ad3cb7acf556b20e122e82b6fdd5fff
+SHA256 (lximage-qt-1.2.0.tar.xz) = 757eb11eba7183a41ea7a87eccd3a4fbd7374856a91d2eccff56207de906e463
