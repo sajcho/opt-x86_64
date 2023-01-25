@@ -1,0 +1,34 @@
+# Description:	Utility to create, destroy, resize, check and copy partitions
+# URL:		https://www.gnu.org/software/parted/parted.html
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libdevmapper
+
+name=parted
+version=3.5
+release=0
+source=(https://ftpmirror.gnu.org/gnu/${name}/${name}-${version}.tar.xz \
+	fix-includes.patch \
+	parted-include-sysmacros.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/fix-includes.patch
+	patch -p1 -i $SRC/parted-include-sysmacros.patch
+
+	./configure \
+		--prefix=/usr \
+		--enable-debug \
+		--enable-shared \
+		--disable-static \
+		--disable-nls \
+		--with-readline
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/info
+
+	find $PKG -type f -name '*.la' -delete
+}
