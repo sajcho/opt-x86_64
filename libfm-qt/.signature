@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAq8SkzkzDerRfWBcFH+RRTBigJmErqA+LU5C7ZRSZTjJVRNPEWSa6rw0bUKOCUp2psTOQmgYqcp99oHfY5/QMwA=
+SHA256 (Pkgfile) = 289b506f49a2e7d5031834bf28b0898f2d3760202d3569be6a59f91d757d282a
+SHA256 (.footprint) = cc483c4d2292b81b23a8c4134f8e327bc8b1fec624ffa99231276e538394c46d
+SHA256 (libfm-qt-1.2.1.tar.xz) = ddf84cd1d884001bac1a0277316c9f9eb360ccc82f36f3cdd6d6994ed62b2303
