@@ -1,0 +1,14 @@
+# Description:	LXQt Desktop
+# URL:		https://lxqt-project.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	lxqt-themes lxqt-about lxqt-admin lxqt-config lxqt-powermanagement lxqt-session lxqt-panel lxqt-runner pcmanfm-qt lxqt-qtplugin lxqt-notificationd lxqt-archiver lxqt-policykit lxqt-openssh-askpass lxqt-sudo qterminal openbox
+
+name=lxqt-desktop
+version=1.2.0
+release=0
+source=()
+
+build() {
+	install -d $PKG/etc
+	echo "${name} version ${version}" > $PKG/etc/saux-desktop
+}
