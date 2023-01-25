@@ -1,0 +1,32 @@
+# Description:	Library for file management - extra only
+# URL:		https://github.com/lxde/libfm
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	dbus-glib
+
+name=libfm-extra
+_realname=libfm
+version=1.3.2
+release=0
+source=(https://downloads.sourceforge.net/pcmanfm/${_realname}-${version}.tar.xz)
+
+build() {
+	cd ${_realname}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--disable-static \
+		--with-gtk=3 \
+		--with-extra-only
+
+	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/include/libfm
+	mv $PKG/usr/include/libfm-1.0/ $PKG/usr/include/libfm
+
+	find $PKG -type f -name '*.la' -delete
+}
