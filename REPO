@@ -1036,8 +1036,8 @@ f:c26c29e13fa1313d8dd0217fdbac0a2a:gst-plugins-base/.footprint
 f:44b50acb6af565445f50502967e20458:gst-plugins-base/.signature
 f:5e540c8dc8c7d54f5442a3f7ca70c0c4:gst-plugins-base/Pkgfile
 f:1270433ce1055da4ed384dc7e5056eaa:harfbuzz/.footprint
-f:9125c06fba320e99ab5a43937fe3ccdd:harfbuzz/.signature
-f:8ffbaaf200596b2a245005965bd651df:harfbuzz/Pkgfile
+f:ba595782ab33b64b4faf15cc440c3f60:harfbuzz/.signature
+f:e6f0db04e858b286c9bf29261707dc5a:harfbuzz/Pkgfile
 f:0e8afb1edef395c5949aa86998b8af01:gcr/fix-64-bit-time_t-32-bit.patch
 f:6b8c5adc0fbcea0fe43c25e7ab3a8980:gcr/post-install
 f:cbf23120679ac5f496bda55af929dec8:gcr/.footprint
