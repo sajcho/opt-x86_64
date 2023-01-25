@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JArDjZZrqKv+OuD8rT2OWK8eFqh+na34kwbTOwHH25HZ1dHsCaIhVHRgS6MtFNL/zDvKY9Wh4ReDLLIDDLGRCwwk=
+SHA256 (Pkgfile) = 93b8ca8237d566fafe8ba963a97777b236a26c58a9979fff2a36aa9938ae7e94
+SHA256 (.footprint) = 08a81a79bdab0afe901a9ce0b3b7f9cabcac3bd73572af355bf1bf6d9b84b849
+SHA256 (qttools-everywhere-opensource-src-5.15.8.tar.xz) = a3bef8de13032dae17450f5df35e8abbb4f41f71e3b628871d3da5633577e9c4
+SHA256 (assistant-qt5.desktop) = 6e8c9b4ac3439cc4baf86ec113a974ba53139d31d540c420851aa4d839bff471
+SHA256 (designer-qt5.desktop) = 7f0e06e543691a3750f9d1b9035b8e296da5ba71d1898e5491a2af03a6f001a0
+SHA256 (linguist-qt5.desktop) = 278db0fa96792613337ae1a767f3cef508d137ba3749e73edb025207a4b64588
+SHA256 (qdbusviewer-qt5.desktop) = c352b569baf6aabf18dd27ede727a1519037b5038ac3db336bbf4ebfcfbe6f33
