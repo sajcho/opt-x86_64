@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAseNV7q3i4HAA1H0KOOiGkKJ19a1ChkK1fkx73cFr/OB7xKvI9QmSXvoFbDqP/waKgc3yqCrxs+UdqWOBEqxfg8=
+SHA256 (Pkgfile) = 8408cde2b51411cb6f96aeb3211aa6771cb99a86d4cca0b55d802c1a9d073d26
+SHA256 (.footprint) = 1e93980028805491cdfa7278272fa208cb2cff3292ef87274a771dda99d9458d
+SHA256 (lxqt-globalkeys-1.2.0.tar.xz) = 42edb1cb131db5658e39bd988168ae558e16515fc2b15ed57047004f275a89e8
