@@ -1,0 +1,29 @@
+# Description:	Hardware integration and detection
+# URL:		https://community.kde.org/Frameworks
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	extra-cmake-modules qt5-qttools upower udisks2
+
+name=solid
+version=5.102.0
+release=0
+source=(https://download.kde.org/stable/frameworks/${version%.*}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_QCH=OFF \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+
+	rm -r $PKG/usr/share/locale
+}
