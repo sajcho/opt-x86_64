@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAgjOrKxFnDY1HgfnWPV0/GPmkbvPLVAfzwoNHKknmAYHS3NaL/XXY5S689ZdGc7d01GWh0q64q9QxAmzVuiwZQA=
+SHA256 (Pkgfile) = 9f02493f7840f4be2ef88888afc2c1ab28151be1ea1b1be49c98a22cf934aa3e
+SHA256 (.footprint) = 834990866f5a0cd08aab1f32e803465759ac7e8770a7c27746013ae07454b3a6
+SHA256 (lxqt-sudo-1.2.0.tar.xz) = f354d4a3dfe2d8329867fadafe2fbecb760a0ba53c9fa1d8fbf135755742a853
