@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAoS3goE9JRWYnqxO7i1Lh3Zl3yds4rpocp2snHr1foNpCBxxJWYiR2R6npYnJ2/946lhIiM/bO64TrAIH4PUFAA=
+SHA256 (Pkgfile) = eaba900100548a427a2f4a184385fe4456f7078a234461c02cd8a99285b7ee7f
+SHA256 (.footprint) = 7736a5801c37cf13899144c97a56d721d63486fb821edea966cb6c16f99d9359
+SHA256 (lxqt-notificationd-1.2.0.tar.xz) = fe2c2bd289d42f6439a44163eb771237230bb1377020e1fbd49de34645989be2

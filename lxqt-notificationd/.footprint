@@ -1,0 +1,11 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/xdg/
+drwxr-xr-x	root/root	etc/xdg/autostart/
+-rw-r--r--	root/root	etc/xdg/autostart/lxqt-notifications.desktop
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/lxqt-config-notificationd
+-rwxr-xr-x	root/root	usr/bin/lxqt-notificationd
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/lxqt-config-notificationd.desktop
