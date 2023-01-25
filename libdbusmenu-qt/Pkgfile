@@ -1,0 +1,29 @@
+# Description:	Library to export QMenu over DBusMenu protocol
+# URL:		https://launchpad.net/libdbusmenu-qt
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	qt5-qtbase
+
+name=libdbusmenu-qt
+version=0.9.3_pre20160218
+release=0
+source=(https://launchpad.net/ubuntu/+archive/primary/+files/${name}_${version/_pre/+16.04.}.orig.tar.gz)
+
+build() {
+	cd ${name}-${version/_pre/+16.04.}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DUSE_QT5=ON \
+		-DWITH_DOC=OFF \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
