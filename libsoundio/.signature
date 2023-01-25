@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAsJL1QN9LzQfpp2K9ppN9UQTqcfa/HEyc0nGbjzX9p/q5bzB0ILps5mj8unDzhJBHMcMekdVYG0F/ffgLLGsKw4=
+SHA256 (Pkgfile) = 7e63fba3b1209fabb30486729e7d0bafeba2ef28c9025cc812bbeba97578233c
+SHA256 (.footprint) = a7727888c729908ac5918a590a1f6e2145694bac45f02df3bdf1cbc5cd495616
+SHA256 (libsoundio-2.0.0.tar.gz) = 67a8fc1c9bef2b3704381bfb3fb3ce99e3952bc4fea2817729a7180fddf4a71e

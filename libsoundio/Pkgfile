@@ -1,0 +1,29 @@
+# Description:	C library for cross-platform real-time audio input and output
+# URL:		http://libsound.io
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	pulseaudio
+
+name=libsoundio
+version=2.0.0
+release=0
+source=(https://github.com/andrewrk/${name}/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_STATIC_LIBS=OFF \
+		-DENABLE_ALSA=ON \
+		-DENABLE_PULSEAUDIO=ON \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
