@@ -1,0 +1,23 @@
+# Description:	ATA S.M.A.R.T. Reading and Parsing Library
+# URL:		http://0pointer.de/blog/projects/being-smart.html
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	eudev
+
+name=libatasmart
+version=0.19
+release=0
+source=(http://0pointer.de/public/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+}
