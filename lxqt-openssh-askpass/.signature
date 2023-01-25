@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAtYTkfIW04zbUffVLEsr2A5F5tf1ub0x2NqOKyHjMAuBRkfJeG7RNXgJzLdUIKJS0vQPO1pzoOltash4CIygrgY=
+SHA256 (Pkgfile) = ec06de65ac11825dc9c230b7739c4566eb0d87fe4f00835c49fd46a335b83e3a
+SHA256 (.footprint) = 6823cd1b90ec36e6c5ac55c60b3ec1d4b0efb471add46243382f8ea839f7ce89
+SHA256 (lxqt-openssh-askpass-1.2.0.tar.xz) = 721d975e7217b9a0ecdf125ca8111fc33ebb7a6e3c20a47e7d8a21a87514c670
