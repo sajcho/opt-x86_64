@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAusafWq8kO2enI5odMO3+7sVoZppa2GV9XOVvqGXhMXtIBnsgy7HsWrDfiRZL8pMLFeCuOphKzjlVBDLrEgnzgM=
+SHA256 (Pkgfile) = e61499fb3705aafc633912156369dd9fb166b6f8e9ddd36a3dd03d36b43208bf
+SHA256 (.footprint) = 9e5c93dccd84d3e2cbb15178d6f45ca9591b2140295d7e6535fb1d28ed498d50
+SHA256 (libblockdev-2.28.tar.gz) = 82c9c841e28a74fecadedebfae6a772df623cecdf652e5376650fa26da5b7df4
+SHA256 (fix-glibc-glob-onlydir.patch) = bb7c6fd94426c1256a5c77c0d1467f0b9970aa01725ba6088825e1855cc08b16
