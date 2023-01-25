@@ -1,0 +1,24 @@
+# Description:	ELF related utils for ELF 32/64 binaries
+# URL:		https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libcap libseccomp meson
+
+name=pax-utils
+version=1.3.5
+release=0
+source=(https://dev.gentoo.org/~sam/distfiles/app-misc/${name}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dlddtree_implementation=sh \
+		-Duse_seccomp=true \
+		-Duse_fuzzing=false \
+		-Dbuild_manpages=disabled \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
