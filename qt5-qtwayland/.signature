@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAtV+wFPzi/8+069wWQM1rfbnULu+YQQAMh77wI/4wT3Ml10pW8dYbV8Co0cbFdIg2NjrJ20qYj91m6JZR944dQs=
+SHA256 (Pkgfile) = 3ff94caddf32faed33c162b36acca6159ecd0e246783a2afcca2c35beef7206e
+SHA256 (.footprint) = d16c70b5a53f048684859d2474f0eb2cd3ebf26ef164323e3d02f8bf2d415d42
+SHA256 (qtwayland-everywhere-opensource-src-5.15.8.tar.xz) = fa0e7bd40f5da2d30fbdb51a436c5776950d6bd070b61a8d62d85cb537934529
