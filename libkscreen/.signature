@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAl04AlzBhOgtd7TzW6CIL6eSY3eTDcwPhQ3u8YIP/ZIB+dCMZn0MlSf3Ufn4lz/21p40XFdCzh7khDVNArD20AM=
+SHA256 (Pkgfile) = 934e84234899bc410a21caad51dc9685c60f1e5d647dfcd3ed3cd153c7d654e6
+SHA256 (.footprint) = 73d372e848d8eb051bb8cc6fcb15574c5dd89b512677e0f7a93b96d3af9203f9
+SHA256 (libkscreen-5.26.5.tar.xz) = a591d20167eb64552658e0d40c6fcbc0aabaced3ad4984744b20d9bbe57f526d
