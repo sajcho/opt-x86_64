@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/lxqt-admin-time
+-rwxr-xr-x	root/root	usr/bin/lxqt-admin-user
+-rwxr-xr-x	root/root	usr/bin/lxqt-admin-user-helper
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/lxqt-admin-time.desktop
+-rw-r--r--	root/root	usr/share/applications/lxqt-admin-user.desktop
+drwxr-xr-x	root/root	usr/share/polkit-1/
+drwxr-xr-x	root/root	usr/share/polkit-1/actions/
+-rw-r--r--	root/root	usr/share/polkit-1/actions/org.lxqt.lxqt-admin-user.policy
