@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JApAuzj4k3+bVUHANaI2Wwl09vxFA1ESgiujOjcrbFBsyx3BdBhJ5qxP2zBfult8Ij6aa/VX16eLPFHKsHB+MdQs=
+SHA256 (Pkgfile) = d7f8289d6066c7d58f8658a3a360ae2ed692a1c0958d225597736299809e85f7
+SHA256 (.footprint) = f1875e456a7e2cdd13284109cff05617503265da7de85f50a950dd23f311c5e7
+SHA256 (qtbase-everywhere-opensource-src-5.15.8.tar.xz) = bfb11126c7f3abc3fdf86425ce912988b864a7e79a606d77325cffdbacb4be9c
+SHA256 (qt5-base-cflags.patch) = cf707cd970650f8b60f8897692b36708ded9ba116723ec8fcd885576783fe85c
+SHA256 (qt5-base-nostrip.patch) = 4b93f6a79039e676a56f9d6990a324a64a36f143916065973ded89adc621e094

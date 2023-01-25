@@ -1,0 +1,77 @@
+# Description:	Qt5 - QtBase components
+# URL:		https://qt.io/developers/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	freetds gtk3 hicolor-icon-theme libxv mariadb xcb-util-image xcb-util-keysyms xcb-util-renderutil xcb-util-wm
+
+name=qt5-qtbase
+_realname=qtbase
+version=5.15.8
+release=0
+source=(https://download.qt.io/archive/qt/5.15/5.15.8/submodules/${_realname}-everywhere-opensource-src-${version}.tar.xz \
+	qt5-base-cflags.patch qt5-base-nostrip.patch)
+
+build() {
+	cd ${_realname}-everywhere-src-${version}
+
+	sed -e "s|-O3|$CXXFLAGS|" \
+		-e "/^QMAKE_RPATH/s| -Wl,-rpath,||g" \
+		-e "/^QMAKE_LFLAGS\s/s|+=|+= $LDFLAGS|g" \
+		-i mkspecs/common/*.conf
+
+	# Compile in RAM
+	sed 's| -pipe||' -i mkspecs/common/gcc-base.conf
+
+	./configure \
+		-confirm-license \
+		-opensource \
+		-prefix /usr \
+		-sysconfdir /etc/xdg \
+		-archdatadir /usr/lib/qt5 \
+		-bindir  /usr/lib/qt5/bin \
+		-datadir /usr/share/qt5 \
+		-docdir /usr/share/doc/qt5 \
+		-examplesdir /usr/share/doc/qt5/examples \
+		-headerdir /usr/include/qt5 \
+		-importdir /usr/lib/qt5/imports \
+		-libexecdir /usr/lib/qt5/libexec \
+		-plugindir /usr/lib/qt5/plugins \
+		-translationdir /usr/share/qt5/translations \
+		-dbus-linked \
+		-glib \
+		-icu \
+		-opengl \
+		-openssl-linked \
+		-optimized-qmake \
+		-plugin-sql-mysql \
+		-plugin-sql-odbc \
+		-plugin-sql-sqlite \
+		-plugin-sql-tds \
+		-system-libjpeg \
+		-system-libpng \
+		-system-pcre \
+		-system-sqlite \
+		-system-zlib \
+		-no-rpath \
+		-no-separate-debug-info \
+		-no-pch \
+		-nomake examples \
+		-no-reduce-relocations
+
+	make V=1
+
+	make INSTALL_ROOT=$PKG install
+
+	mkdir -p $PKG/usr/bin/
+	for i in $PKG/usr/lib/qt5/bin/*; do
+		_name=${i##*/}
+		case $_name in
+		*.*)	_dest=$PKG/usr/bin/${_name%.*}-qt5.${_name##*.};;
+		*)	_dest=$PKG/usr/bin/${_name%.*}-qt5;;
+		esac
+		ln -s ../lib/qt5/bin/"$_name" "$_dest"
+	done
+
+	# Drop QMAKE_PRL_BUILD_DIR because reference the build dir
+	find $PKG/usr/lib -type f -name '*.prl' \
+		-exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+}
