@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAnah07Rp/ktZPwWYrQCMwPS99n1uD3vRLTEKru19256EmGIJ4nNuVY/tuPE4ZWdVpA3u4vb6G2kbnoD3iAvoggE=
+SHA256 (Pkgfile) = fad4ff8b9f525ffe394be459dfd252d72fbd7c805d4c67fad4e22f61fa785dfd
+SHA256 (.footprint) = 44e6c24e637414e6f1336732f2169067f3720b2d36eec8c900247f6ddd4f9751
+SHA256 (kwayland-5.102.0.tar.xz) = 8626f4a7202b5c2eb8b10cb9b75e2a9e708be845ef37c271d4cd112a6f02a1cc
