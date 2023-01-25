@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAsdbuVsPcEiK7yj5TJDpEPmwXQE05lmNGagbAWOHToryG3gxFyxjv1T5u5IRVq6RXoeOnQybN5mo1CZLp3TETgc=
+SHA256 (Pkgfile) = 1f623eaffb9bf9ea1e894b8a829246fd9cec086a96d2e784ebc79e2c0bd6709f
+SHA256 (.footprint) = c93a7ec9764d152fdc1d8bde2ea8c495dedba7ffbba1a49a1b84c476335eec8c
+SHA256 (qtermwidget-1.2.0.tar.xz) = 44ba43ff48683ba1b4a5192dafab3076633748cf2f8cd6816f68eeab240de88c
