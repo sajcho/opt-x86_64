@@ -1,0 +1,37 @@
+# Description:	A highly configurable and standards-compliant X11 window manager
+# URL:		http://openbox.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libxcursor libxinerama libxrandr startup-notification imlib2 librsvg
+
+name=openbox
+version=3.6.1
+release=0
+source=(http://openbox.org/dist/${name}/${name}-${version}.tar.gz \
+	https://icculus.org/openbox/tools/setlayout.c \
+	python3.patch)
+
+build() {
+	cd ${name}-${version}
+
+	autoreconf -fiv
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib/openbox \
+		--disable-nls \
+		--disable-static
+
+	make V=1
+	gcc $CFLAGS $LDFLAGS -o setlayout $SRC/setlayout.c -lX11
+
+	make DESTDIR=$PKG install
+
+	mv $PKG/usr/share/doc/${name}/*.xsd $PKG/etc/xdg/${name}
+	rm -r $PKG/usr/share/doc
+
+	find $PKG/usr/share -type f -name '*.desktop' \
+		-exec sed -r -e '/\[.+\]=/d' -e '/#/d' -i {} \;
+
+	find $PKG -type f -name '*.la' -delete
+}
