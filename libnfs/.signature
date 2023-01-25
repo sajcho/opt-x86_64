@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAowDNL+W/fFxYnwbMiwPKkmT6ywCb00PiRqV1NJ6NYOT4fY0AsUSL1p9Rwkf7oGwd5b7oIdEeHyKxKRb34T9yAA=
+SHA256 (Pkgfile) = 5f0a56a2dc9ce27cf9c989d61a3473abb97c84b11704976a3488406138e1fd97
+SHA256 (.footprint) = 87614a8e0ebfd6d4270fada232d608fd8403565374de812390153eb0726ad055
+SHA256 (libnfs-5.0.2.tar.gz) = 637e56643b19da9fba98f06847788c4dad308b723156a64748041035dcdf9bd3
+SHA256 (fix-includes.patch) = 3c6d3b90ecd4b30223e6cc674551fc9b4c15e45c4da1382217a19d231719c027

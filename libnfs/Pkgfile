@@ -1,0 +1,28 @@
+# Description:	Client library for accessing NFS shares
+# URL:		https://github.com/sahlberg/libnfs
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	automake m4 libtool
+
+name=libnfs
+version=5.0.2
+release=0
+source=(https://github.com/sahlberg/${name}/archive/${name}-${version}.tar.gz \
+	fix-includes.patch)
+
+build() {
+	cd ${name}-${name}-${version}
+
+	patch -p1 -i $SRC/fix-includes.patch
+
+	./bootstrap
+
+	./configure \
+		--prefix=/usr \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
