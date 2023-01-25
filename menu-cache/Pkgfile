@@ -1,0 +1,28 @@
+# Description:	Caching mechanism for freedesktop.org compliant menus
+# URL:		https://lxde.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libfm-extra
+
+name=menu-cache
+version=1.1.0
+release=0
+source=(https://downloads.sourceforge.net/lxde/${name}-${version}.tar.xz \
+	menu-cache-1.1.0-0001-Support-gcc10-compilation.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/menu-cache-1.1.0-0001-Support-gcc10-compilation.patch
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib/menu-cache \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}

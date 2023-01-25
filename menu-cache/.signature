@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAlh1zfZEsCnnHAR5tZZ3LtmvF4BZMquQTpp9lbqgZ2CeL4l/47TsmHA+Um/umO1USwCJwpoPxNZapUuXOPNN5wA=
+SHA256 (Pkgfile) = 8f9e79c080bcf2f8c4aa22de7c7ff9566e1efe128b0bfc25a6a91d8c38ebddc8
+SHA256 (.footprint) = 5e9a34d68ec41360e69511adefa5735b337ffb47ba4b8774643b0e203087dc84
+SHA256 (menu-cache-1.1.0.tar.xz) = ed02eb459dcb398f69b9fa5bf4dd813020405afc84331115469cdf7be9273ec7
+SHA256 (menu-cache-1.1.0-0001-Support-gcc10-compilation.patch) = 393723ca805cb5ffb5eee2ad00a1c4624b513ca72bfb6a880d71907fb96e83de
