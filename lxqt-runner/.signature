@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAp+UCtle5gZsbhla+GCfx0O/ZX8zb2/80Hr548midpSduHehxw6eL1WK32nZyCvTxswforTNe0wxLS2dLExhmgo=
+SHA256 (Pkgfile) = 1fa5a67f02ebddee75dd5451f28abedef92de3b8e79f71e8d8a7291d1bda09ea
+SHA256 (.footprint) = 74edfbbf683230284666f987c3e5b658986ebf64d459fcf648037276b4856cbd
+SHA256 (lxqt-runner-1.2.0.tar.xz) = 1f9b61fef6420589b8d546c9b504364063e43de675b94020e215c35469852f4e
