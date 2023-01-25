@@ -973,9 +973,9 @@ f:c9ad383cbdecddce52979ddea6466124:grim/printf-fix.patch
 f:dfd8e4f29dca2bee6629a6000159b461:grim/.footprint
 f:2492edcc5cb4a6a058a683de5efc9b5b:grim/.signature
 f:1744edd0d5a411b3fb457b5d7451600d:grim/Pkgfile
-f:3c989d448ff70484795fa56597e945c4:python3-markupsafe/.footprint
-f:1096a6eeb905045ea8c5d31d4299e8cf:python3-markupsafe/.signature
-f:36e12c4accc5c062d967c7fe405c63aa:python3-markupsafe/Pkgfile
+f:07183086ca6be5858d9f25bd0d3bce8c:python3-markupsafe/.footprint
+f:94c1808bf2118710ceb371045473d2af:python3-markupsafe/.signature
+f:adf0c8ec8b98f33be98f5930343675aa:python3-markupsafe/Pkgfile
 f:9c3e7221db89db68b4a63d3c1a353647:efivar/.footprint
 f:c82abfe8f963da2f9ac29653f6b9a5c2:efivar/.signature
 f:b67a27a365c6b55b5b1dd36deefc2c3f:efivar/Pkgfile
@@ -1819,9 +1819,9 @@ f:77201cc3c33be4c9856493c8a4cc9d64:npth/Pkgfile
 f:12c2fe0e64ad56d37ae2bd7d12d0a249:tllist/.footprint
 f:6aefa420f2fdbc3b6cc43a2ed861372a:tllist/.signature
 f:e09827be0134ca6aa34744282b54563c:tllist/Pkgfile
-f:23d2e2946fc9d1f6ab81a26254cfc489:python3-packaging/.footprint
-f:2a81029b92f2d1d3d62c4c0f5f3101e7:python3-packaging/.signature
-f:27dd20ba77ac9f8943ae57d307c39183:python3-packaging/Pkgfile
+f:4244cb990664643024729b70bb9eea87:python3-packaging/.footprint
+f:fe8057a2817754d9fc21667e8af771db:python3-packaging/.signature
+f:c9d18f0bb2c9bab2441fe6d3fbaa795a:python3-packaging/Pkgfile
 f:8f8b91fee2c29b19744c4e8d3fbc17ff:autotiling/.footprint
 f:9d890a480e7584507eeff543ff48f06b:autotiling/.signature
 f:24f0ba2833c48ad6cb6c3e5a4f84ce09:autotiling/Pkgfile
