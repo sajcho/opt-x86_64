@@ -1,0 +1,24 @@
+# Description:	Qt5 - QtX11extras component
+# URL:		https://www.qt.io/developers/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	qt5-qtbase
+
+name=qt5-qtx11extras
+_realname=qtx11extras
+version=5.15.8
+release=0
+source=(https://download.qt.io/archive/qt/5.15/5.15.8/submodules/${_realname}-everywhere-opensource-src-${version}.tar.xz)
+
+build() {
+	cd ${_realname}-everywhere-src-${version}
+
+	qmake-qt5
+
+	make V=1
+
+	make INSTALL_ROOT=$PKG install
+
+	# Drop QMAKE_PRL_BUILD_DIR because reference the build dir
+	find $PKG/usr/lib -type f -name '*.prl' \
+		-exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+}

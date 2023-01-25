@@ -1,0 +1,29 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/qt5/
+drwxr-xr-x	root/root	usr/include/qt5/QtX11Extras/
+-rw-r--r--	root/root	usr/include/qt5/QtX11Extras/QX11Info
+-rw-r--r--	root/root	usr/include/qt5/QtX11Extras/QtX11Extras
+-rw-r--r--	root/root	usr/include/qt5/QtX11Extras/QtX11ExtrasDepends
+-rw-r--r--	root/root	usr/include/qt5/QtX11Extras/QtX11ExtrasVersion
+-rw-r--r--	root/root	usr/include/qt5/QtX11Extras/qtx11extrasglobal.h
+-rw-r--r--	root/root	usr/include/qt5/QtX11Extras/qtx11extrasversion.h
+-rw-r--r--	root/root	usr/include/qt5/QtX11Extras/qx11info_x11.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/Qt5X11Extras/
+-rw-r--r--	root/root	usr/lib/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/libQt5X11Extras.la
+-rw-r--r--	root/root	usr/lib/libQt5X11Extras.prl
+lrwxrwxrwx	root/root	usr/lib/libQt5X11Extras.so -> libQt5X11Extras.so.5.15.8
+lrwxrwxrwx	root/root	usr/lib/libQt5X11Extras.so.5 -> libQt5X11Extras.so.5.15.8
+lrwxrwxrwx	root/root	usr/lib/libQt5X11Extras.so.5.15 -> libQt5X11Extras.so.5.15.8
+-rwxr-xr-x	root/root	usr/lib/libQt5X11Extras.so.5.15.8
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/Qt5X11Extras.pc
+drwxr-xr-x	root/root	usr/lib/qt5/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/
+drwxr-xr-x	root/root	usr/lib/qt5/mkspecs/modules/
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_lib_x11extras.pri
+-rw-r--r--	root/root	usr/lib/qt5/mkspecs/modules/qt_lib_x11extras_private.pri
