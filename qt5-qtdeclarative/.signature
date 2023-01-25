@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAj48mpQpwrWVmcrFmBfeSASdQ6iqTkj58KmMMCglip91Z1EV6rMuL6YdeVLPHpXVNPI/wks8OKmTMGtKcTT9Wwg=
+SHA256 (Pkgfile) = 5e40b25b72132e1217eb11693bfb227f3096c4f593142cc66022a9d77334cc90
+SHA256 (.footprint) = 3fcd77de7ee5d002d4db33ee2ea9d4c95ce1063f0ea8d69069cf87128d117eab
+SHA256 (qtdeclarative-everywhere-opensource-src-5.15.8.tar.xz) = 026ec083b9b5f98c78b6cf38c95ca5351b374f8dd7f3e815f0d3d67d82b468cd
+SHA256 (link-libatomic-on-rv64.patch) = 749dfebd1eb736e12b032170bf5c11415120ea929709131d156c4fe3d0ed9be6
