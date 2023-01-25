@@ -1,0 +1,24 @@
+# Description:	Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel
+# URL:		https://github.com/pmem/ndctl
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	automake json-c keyutils libtool util-linux mold
+
+name=ndctl
+version=75
+release=0
+source=(https://github.com/pmem/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dsystemd=disabled \
+		-Dc_args="-fuse-ld=mold" \
+		-Dc_link_args="-fuse-ld=mold" \
+		-Db_lto=true \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
