@@ -1,0 +1,26 @@
+# Description:	Library used to query system info and statistics
+# URL:		https://github.com/lxqt/libsysstat
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	lxqt-build-tools
+
+name=libsysstat
+version=0.4.6
+release=0
+source=(https://github.com/lxqt/${name}/releases/download/${version}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
