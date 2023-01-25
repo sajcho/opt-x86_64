@@ -1,0 +1,28 @@
+# Description:	Fast math parser library
+# URL:		https://beltoforion.de/en/muparser/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake gcc
+
+name=muparser
+version=2.3.3
+release=0
+source=(https://github.com/beltoforion/${name}/archive/v${version}-1/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}-1
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DENABLE_OPENMP=ON \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
