@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAkvprpyTLFSt2sFICQO0ZjtNJVNtfZNlKNa3lfy8IcWmyenZwYco+ejVIeZ0biwbRnQLiwwoYdVRaby68qePxwc=
+SHA256 (Pkgfile) = 973e4ba0113e49d6743e190545447b333557c364557aaf2041cb463c8625b1e7
+SHA256 (.footprint) = 7ff2356931d70099c62f1e485575f304f211ec25e753cf0495b50a90c7563098
+SHA256 (qtxdg-tools-3.10.0.tar.xz) = 33d2dd95982ced0fdb14d57c50602a3fc5912e99d0e04aff46244d568506d647
