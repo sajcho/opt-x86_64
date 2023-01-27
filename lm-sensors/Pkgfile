@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 # Depends on:	perl
 
-name=lm_sensors
+name=lm-sensors
 version=3.6.0
 release=1
 source=(https://github.com/lm-sensors/lm-sensors/archive/V${version//./-}/$name-$version.tar.gz)
