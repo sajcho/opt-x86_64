@@ -1,7 +1,7 @@
 # Description:	Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel
 # URL:		https://github.com/pmem/ndctl
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	automake json-c keyutils libtool util-linux mold
+# Depends on:	automake iniparser json-c keyutils libtool util-linux mold
 
 name=ndctl
 version=75
