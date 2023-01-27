@@ -1,7 +1,7 @@
 # Description:	Library for bits of crypto UI and parsing
 # URL:		https://wiki.gnome.org/Projects/CryptoGlue
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gtk3 libsecret openssh p11-kit
+# Depends on:	gtk3 libsecret openssh p11-kit vala
 
 name=gcr
 version=3.41.1
