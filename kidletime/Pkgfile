@@ -1,7 +1,7 @@
 # Description:	Monitoring user activity
 # URL:		https://community.kde.org/Frameworks
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	extra-cmake-modules qt5-qttools
+# Depends on:	extra-cmake-modules qt5-qttools qt5-qtwayland
 
 name=kidletime
 version=5.102.0
