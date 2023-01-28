@@ -9,9 +9,9 @@ drwxr-xr-x	root/root	etc/fonts/conf.avail/
 -rw-r--r--	root/root	etc/fonts/conf.avail/10-hinting-none.conf
 -rw-r--r--	root/root	etc/fonts/conf.avail/10-hinting-slight.conf
 -rw-r--r--	root/root	etc/fonts/conf.avail/10-no-antialias.conf
--rw-r--r--	root/root	etc/fonts/conf.avail/10-no-sub-pixel.conf
 -rw-r--r--	root/root	etc/fonts/conf.avail/10-scale-bitmap-fonts.conf
 -rw-r--r--	root/root	etc/fonts/conf.avail/10-sub-pixel-bgr.conf
+-rw-r--r--	root/root	etc/fonts/conf.avail/10-sub-pixel-none.conf
 -rw-r--r--	root/root	etc/fonts/conf.avail/10-sub-pixel-rgb.conf
 -rw-r--r--	root/root	etc/fonts/conf.avail/10-sub-pixel-vbgr.conf
 -rw-r--r--	root/root	etc/fonts/conf.avail/10-sub-pixel-vrgb.conf
@@ -45,7 +45,7 @@ drwxr-xr-x	root/root	etc/fonts/conf.d/
 lrwxrwxrwx	root/root	etc/fonts/conf.d/10-autohint.conf -> /etc/fonts/conf.avail/10-autohint.conf
 lrwxrwxrwx	root/root	etc/fonts/conf.d/10-hinting-slight.conf -> /etc/fonts/conf.avail/10-hinting-slight.conf
 lrwxrwxrwx	root/root	etc/fonts/conf.d/10-scale-bitmap-fonts.conf -> /etc/fonts/conf.avail/10-scale-bitmap-fonts.conf
-lrwxrwxrwx	root/root	etc/fonts/conf.d/10-sub-pixel-rgb.conf -> /etc/fonts/conf.avail/10-sub-pixel-rgb.conf
+lrwxrwxrwx	root/root	etc/fonts/conf.d/10-sub-pixel-none.conf -> /etc/fonts/conf.avail/10-sub-pixel-none.conf
 lrwxrwxrwx	root/root	etc/fonts/conf.d/10-yes-antialias.conf -> /etc/fonts/conf.avail/10-yes-antialias.conf
 lrwxrwxrwx	root/root	etc/fonts/conf.d/11-lcdfilter-default.conf -> /etc/fonts/conf.avail/11-lcdfilter-default.conf
 lrwxrwxrwx	root/root	etc/fonts/conf.d/20-unhint-small-vera.conf -> /etc/fonts/conf.avail/20-unhint-small-vera.conf

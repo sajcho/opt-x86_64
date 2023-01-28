@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAtYc4JKn1DMpYhNdYvq2Cafbnyz5Z0sueWNxdPZuaKeNGkzoe7Yk9nMJ5fWUetYY4a5i6ct8CZDc8fNKmhQJMgc=
-SHA256 (Pkgfile) = 6b495c2f6056ac7357a068e85de2144401aa20c8ba7bed53f70df819e8a89f00
-SHA256 (.footprint) = 9d6b642afb3ebc55c29b0c152ff8b2e82811e6e2299fe2fa57c4324681387a9e
-SHA256 (fontconfig-2.14.1.tar.xz) = 298e883f6e11d2c5e6d53c8a8394de58d563902cfab934e6be12fb5a5f361ef0
+RWQg5aRf982JAn6ckmvaaf2EG4ipCUr6Vr2XMAhEqxvOWbS+urCYC5uzNt/FkNquYDqy5EF+r7aZt7X2QOgqIDsLN9aJ+1/GWwI=
+SHA256 (Pkgfile) = 85794d4d7e74536e73e8b4af44671c28fac10a5c01ab7d44e2f949229fd2334f
+SHA256 (.footprint) = 651190db8884ee11fb4d7464febb84dbf020a504bcb055670006321264862625
+SHA256 (fontconfig-2.14.2.tar.xz) = dba695b57bce15023d2ceedef82062c2b925e51f5d4cc4aef736cf13f60a468b
 SHA256 (fonts.conf) = cc8b84d7dbf39e5e3e7b3a160488c6abf93ac3acde74865280e137c6810c2d7e
