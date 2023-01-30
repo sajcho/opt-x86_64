@@ -4,7 +4,7 @@
 # Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox
-version=109.0
+version=109.0.1
 release=1
 source=(https://archive.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
 	firefox.desktop)
