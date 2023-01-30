@@ -4,7 +4,7 @@
 # Depends on:	libplacebo libxscrnsaver libsdl2 rubberband libxpresent python3-docutils
 
 name=mpv
-version=0.35.0
+version=0.35.1
 release=1
 source=(https://github.com/mpv-player/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
