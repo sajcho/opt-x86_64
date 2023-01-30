@@ -913,7 +913,7 @@ f:20ac0b1bd8a985ba50ee3d0bbb147a0c:muparser/.footprint
 f:2456a929afd9711fd6939e1999dc5cf3:muparser/.signature
 f:63a90033a84f282e9c36854c3c5285eb:muparser/Pkgfile
 f:7ca667cb3093a2fd458f3db0760d7c99:rubberband/.footprint
-f:949a0cc910b2708f5f41d11767ddb799:rubberband/.signature
+f:a1c4692af38389151db0deb0c2f95be9:rubberband/.signature
 f:7646d2986f1a443840a248632ef18e52:rubberband/Pkgfile
 f:e8cef3fc7b32ebd059ffce9d450d5f00:python3-certifi/.footprint
 f:07fc4014d8a15f337296b8d8a57653e0:python3-certifi/.signature
@@ -1149,8 +1149,8 @@ f:7dc183beb1fea7667f6e0c7e35570344:libraqm/.footprint
 f:733fa08c91ff2495441b00dbaa466e49:libraqm/.signature
 f:8781a2132cdebfdeba5404c49628b10d:libraqm/Pkgfile
 f:d3ea1623774fa276988f06d0a735962c:mpv/.footprint
-f:9b4d5bb342020ec494fe0588aeacc65a:mpv/.signature
-f:8b7a4cbceee633e1b1fc2f97fb87f4d1:mpv/Pkgfile
+f:47050464a8cdc10d9ae79e44f3a7a1c6:mpv/.signature
+f:0cd67fda77e4b7459d4712f67e25cee8:mpv/Pkgfile
 f:a0289881c91c3476b72da3cd8d4ac3a5:mpv/README
 f:a2ce856a7beefc0492b3014e9e12f272:libaio/.footprint
 f:10365381fa46c8702a449b2fe38189db:libaio/.signature
