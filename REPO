@@ -22,6 +22,7 @@ d:python3-alabaster
 d:python3-psutil
 d:pangomm
 d:python3-netifaces
+d:qemu-static
 d:python3-mako
 d:python3-retrying
 d:libvpx
@@ -527,6 +528,9 @@ f:e5c3967db92ef710ab6dea699d712826:pangomm/Pkgfile
 f:57ff849eb3709ee1e7663cd0366a8b0d:python3-netifaces/.footprint
 f:a5a57687f03edfd332167dbccecc6462:python3-netifaces/.signature
 f:e39ec0c6c264007680b498455fb1365b:python3-netifaces/Pkgfile
+f:4b7b7aec99d68d6b5476f1574005ccfe:qemu-static/.footprint
+f:7cb4d5f21237e54b1720f3c8c29e57c0:qemu-static/.signature
+f:903215f0734ec47b16997532fccfde88:qemu-static/Pkgfile
 f:a01987b1726ae93b9b064a7395e0ed3d:python3-mako/.footprint
 f:e068a3f6a222d19d9e0dab41c11007b1:python3-mako/.signature
 f:ea89f1407df4ce71006732bf706b90e4:python3-mako/Pkgfile
