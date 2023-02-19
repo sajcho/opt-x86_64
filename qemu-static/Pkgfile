@@ -1,0 +1,72 @@
+# Description:	Fast CPU emulator and virtualizer for all supported platforms
+# URL:		http://www.qemu-project.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	attr
+
+name=qemu-static
+_realname=qemu
+version=7.2.0
+release=1
+source=(https://download.qemu.org/${_realname}-${version}.tar.xz)
+
+build() {
+	cd ${_realname}-${version}
+
+	sed '/linux\/btrfs.h/d' -i linux-user/syscall.c
+
+	_targets_static="aarch64-linux-user,riscv64-linux-user,x86_64-linux-user"
+
+	mkdir -p build-static
+	cd build-static
+
+	../configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib/qemu \
+		--enable-linux-user \
+		--enable-attr \
+		--enable-lto \
+		--enable-tcg \
+		--disable-system \
+		--disable-bpf \
+		--disable-bsd-user \
+		--disable-capstone \
+		--disable-docs \
+		--disable-fdt \
+		--disable-fuse \
+		--disable-gcrypt \
+		--disable-glusterfs \
+		--disable-gnutls \
+		--disable-gtk \
+		--disable-install-blobs \
+		--disable-kvm \
+		--disable-libiscsi \
+		--disable-libnfs \
+		--disable-libssh \
+		--disable-linux-io-uring \
+		--disable-nettle \
+		--disable-opengl \
+		--disable-pie \
+		--disable-qom-cast-debug \
+		--disable-sdl \
+		--disable-tools \
+		--disable-tpm \
+		--disable-vde \
+		--disable-vhost-crypto \
+		--disable-vhost-kernel \
+		--disable-vhost-net \
+		--disable-vhost-user \
+		--disable-vnc \
+		--disable-werror \
+		--disable-xen \
+		--disable-zstd \
+		--target-list=${_targets_static} \
+		--static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	cp $SRC/${_realname}-${version}/scripts/qemu-binfmt-conf.sh \
+		$PKG/usr/share/qemu
+}
