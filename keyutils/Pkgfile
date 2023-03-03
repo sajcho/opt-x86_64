@@ -4,7 +4,7 @@
 
 name=keyutils
 version=1.6.3
-release=1
+release=2
 source=(https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/${name}.git/snapshot/${name}-${version}.tar.gz)
 
 build() {
@@ -18,6 +18,4 @@ build() {
 
 	mv $PKG/lib/pkgconfig $PKG/usr/lib
 	chmod 0644 $PKG/usr/lib/pkgconfig/libkeyutils.pc
-
-	find $PKG -type f -name '*.a' -delete
 }
