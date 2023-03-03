@@ -4,8 +4,8 @@
 # Depends on:	qt5-qtx11extras extra-cmake-modules qt5-qttools
 
 name=kwindowsystem
-version=5.102.0
-release=0
+version=5.103.0
+release=1
 source=(https://download.kde.org/stable/frameworks/${version%.*}/${name}-${version}.tar.xz)
 
 build() {
