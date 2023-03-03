@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAuwpE38uRu7lZHoKai3mW2438jmistxYesy9CQPzefIeeiCPehhbvwlHSqPqf+rDRTKwq/DVJfPFnWwv6rRy3AU=
-SHA256 (Pkgfile) = 46b450e9e60da538f58c9de57eb8604fb8e64a1af4f787b9cdaee476ec15be6a
-SHA256 (.footprint) = 60d0d8cf1c39bd461bfae357ad66b9f7ce2d437ffe98661db296d1bfdab62886
-SHA256 (ndctl-75.tar.gz) = 896315c9d15f4fcb0e7afd5f5a661e5d52bd5c085163b53adf4df1e693daa3a5
+RWQg5aRf982JAv/l5UGWxnZk6Ee/eZsk1bXHW5A4tHCrqyh3wphtKcNOUSGC3YpkZnvLuGebEJjtKsh4SMlqYaFXXnj+/U4YxQY=
+SHA256 (Pkgfile) = 68a33763168b0dfc5c4c03210935ef3f0c158b0b4dea5a49168aff624356cee5
+SHA256 (.footprint) = ea8e1f22aaf63c45339aa9fbdd4ad9f399ca4c11186c61cdeb33e1fd89a27606
+SHA256 (ndctl-76.1.tar.gz) = 05e9737c3775241617a0cb51c559e60f66ccf6144175a5649f422403dc758656

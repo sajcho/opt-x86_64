@@ -4,8 +4,8 @@
 # Depends on:	automake iniparser json-c keyutils libtool util-linux mold
 
 name=ndctl
-version=75
-release=0
+version=76.1
+release=1
 source=(https://github.com/pmem/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
@@ -13,6 +13,7 @@ build() {
 
 	build-meson \
 		-Dsystemd=disabled \
+		-Dlibtracefs=disabled \
 		-Dc_args="-fuse-ld=mold" \
 		-Dc_link_args="-fuse-ld=mold" \
 		-Db_lto=true \
