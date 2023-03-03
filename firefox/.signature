@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsrRrrnrEN92Fz+pXGcVies/SEqUzyrwcd9f241A+etZas0bSkXjRVEbSPZOltWJXZJ9NiXmMO1PQN/kdTx4Xw4=
-SHA256 (Pkgfile) = 7118a1341f0db1a18982d4caf0bbe1e0378a04cab2720fc816fcfed81dc73b15
+RWQg5aRf982JAoLn9/G93XFhoTNRqwFl4oHH8tgEKi7V/BEUVq+SgU0OjR5yzOCHr1O/Tvki7zl42p44Ex1Z675z84mqJThnkAY=
+SHA256 (Pkgfile) = 1fd9a480d19efa35ef5f7277596bfd0df7c96113caae994193e899af9bd63133
 SHA256 (.footprint) = 1f6767baa2564e99bf0e3a2cfe1e79571a5724a7c32e235a25f19b6ba1885194
-SHA256 (firefox-109.0.1.source.tar.xz) = 5e43fdfb3923ee3a7ae7bc91ef3377a3fc6f8a0c1b87436c19b29458b0d731d9
+SHA256 (firefox-110.0.1.source.tar.xz) = f19bb74d684b992625abca68f5776198974cd2785eb5d02d51ba007fc998491f
 SHA256 (firefox.desktop) = 8ba3439f3dfc5cab883641969c93d8d15f8f20d7188d9568346b2edad52d6f91
