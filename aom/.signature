@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAmxEb7MxkP8lV3qYuoCIepAVvYsL2oOKGgNxco/o48QU615zWLLFIikVkKKKfckdFnkw1kyy/uHyEqrhY1rn8wM=
-SHA256 (Pkgfile) = c38700bf9487599bea50efcff2da9789d8698c87abde6171abd81268a4f6ce76
-SHA256 (.footprint) = 17c956e13bb50a0a95bd8c8e0ec813b9789518e437108ba6520e62be851c5d03
-SHA256 (libaom-3.5.0.tar.gz) = d37dbee372e2430a7efde813984ae6d78bdf1fc4080ebe32457c9115408b0738
+RWQg5aRf982JAiiYoGZzpKAZSKkTAEXnlgg883dcZOgptkucvjLjfvSGSEct9phn6m4USMEaH75tPl5328c6YzcQASwtZVjdzwc=
+SHA256 (Pkgfile) = 61f1220e0b68ef485fafd23128d982edbee4629ab8aede28d2b2137cd9fdc0c1
+SHA256 (.footprint) = d6d128c98ce5aeb8d8bc2f12b405b70de409ff77c657c4da55763939c64574f7
+SHA256 (libaom-3.6.0.tar.gz) = a4a6c0fab685da743b796662a928fcdf7ae60594edc306efb73e78a17ea6cde6
