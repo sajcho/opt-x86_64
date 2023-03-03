@@ -4,7 +4,7 @@
 # Depends on:	json-c pango swaybg wlroots
 
 name=sway
-version=1.8
+version=1.8.1
 release=1
 source=(https://github.com/swaywm/sway/archive/${version}/${name}-${version}.tar.gz \
 	sway_6249.patch \
