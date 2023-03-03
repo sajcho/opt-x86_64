@@ -78,8 +78,6 @@ drwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/
 -rwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/npx.js
 -rwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/pnpm.js
 -rwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/pnpx.js
--rw-r--r--	root/root	usr/lib/node_modules/corepack/dist/vcc.js
--rw-r--r--	root/root	usr/lib/node_modules/corepack/dist/vendors-_yarn_berry_cache_proxy-agent-npm-5_0_0-41772f4b01-9_zip_node_modules_proxy-agent_index_js.js
 -rwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/yarn.js
 -rwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/yarnpkg.js
 -rw-r--r--	root/root	usr/lib/node_modules/corepack/package.json
