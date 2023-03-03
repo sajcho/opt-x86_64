@@ -4,7 +4,7 @@
 # Depends on:	ffmpeg glad glfw3 lcms2 shaderc
 
 name=libplacebo
-version=5.229.1
+version=5.229.2
 release=1
 source=(https://code.videolan.org/videolan/${name}/-/archive/v${version}/${name}-v${version}.tar.gz)
 
