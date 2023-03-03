@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsP7KnWlSth38DNPn4O7yxeMSnxHmrgwFDLOBAWM1znil1F942NUcJy/vnVW9dvDvSf84MzDoPwhV/nIpronTw4=
+RWQg5aRf982JAkKM7bpBxYzHqyiPAXlTPR0xiF1ZItwRX7yxQo9GOrGAejs09XBNFHAy9G627zUA5/l3aMWq+f6i5r48I5e71A8=
 SHA256 (Pkgfile) = cd67c19f8d0a38fca5f34fb9df9b3a4019828f80ef72c6561ad8314d114ffbf9
 SHA256 (.footprint) = f38a7c8c56414044acf18a589320f313082fce8836b8e6a3eed237ccc2ad96f7
-SHA256 (mpv-0.35.1.tar.gz) = 5ce4f71520d4fc4911825e1581aea06a9fca693e8eded14e0a849c3b832f1842
+SHA256 (mpv-0.35.1.tar.gz) = 41df981b7b84e33a2ef4478aaf81d6f4f5c8b9cd2c0d337ac142fc20b387d1a9
