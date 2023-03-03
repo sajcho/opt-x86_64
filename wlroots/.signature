@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAjFUJLbLXnNpkEQ4uR7wfICCcm3adXI8N4Le5kWj2oq69YRJISEKzDJUQeIzR5zzdl5IvFXX1LftQyFv8EgOLQ4=
-SHA256 (Pkgfile) = b8af464f513ff114d8549b4e1a338de966e0355a2cfc81fad606430cfdae7665
+RWQg5aRf982JAmRDxXHsnsOpJbvk9oLsKiy0F6rgfCU5++dkZ2/LR029+JR8LJJR1zHf2g7cFJ0uAZ24+1ZP2Fwa11DSIfM6+AU=
+SHA256 (Pkgfile) = d00d8be2ed6b85f83b7740ae2b985defcabc1ce8134fc00f83245f94a07d6b5c
 SHA256 (.footprint) = 73fbb9061789ce0fbc7282ae7e1e3d10dd7dd561b0abc38eb8266669b9a8d0fb
-SHA256 (wlroots-0.16.1.tar.gz) = 1559fb645b9fac1efaf04563c36b0853ab3c3c18f9e2fd9a76db27251ace9bf7
+SHA256 (wlroots-0.16.2.tar.gz) = f502959db8bc029e32f10a837b37257bb8c5ed269bceddf9492f0bb381bebf76

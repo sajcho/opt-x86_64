@@ -4,7 +4,7 @@
 # Depends on:	libcap libxkbcommon seatd xwayland
 
 name=wlroots
-version=0.16.1
+version=0.16.2
 release=1
 source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/${version}/${name}-${version}.tar.gz)
 
