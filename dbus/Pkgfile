@@ -4,8 +4,8 @@
 # Depends on:	autoconf-archive elogind
 
 name=dbus
-version=1.14.4
-release=2
+version=1.14.6
+release=1
 source=(https://dbus.freedesktop.org/releases/dbus/${name}-${version}.tar.xz \
 	dbus-daemon-optional.patch \
 	dbus-enable-elogind.patch \
