@@ -4,15 +4,12 @@
 # Depends on:	libidn2 libseccomp nettle p11-kit
 
 name=gnutls
-version=3.7.8
+version=3.8.0
 release=1
-source=(https://www.gnupg.org/ftp/gcrypt/${name}/v3.7/${name}-${version}.tar.xz)
+source=(https://www.gnupg.org/ftp/gcrypt/${name}/v3.8/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
-
-	CFLAGS+=" -Wno-analyzer-use-of-uninitialized-value"
-	CXXFLAGS+=" -Wno-analyzer-use-of-uninitialized-value"
 
 	./configure \
 		--prefix=/usr \
