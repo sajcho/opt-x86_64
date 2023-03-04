@@ -4,8 +4,8 @@
 # Depends on:	argon2 asciidoctor json-c libdevmapper popt
 
 name=cryptsetup
-version=2.6.0
-release=0
+version=2.6.1
+release=1
 source=(https://www.kernel.org/pub/linux/utils/${name}/v${version%.*}/${name}-${version}.tar.gz)
 
 build() {
