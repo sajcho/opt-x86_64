@@ -4,7 +4,7 @@
 # Depends on:	cmake
 
 name=exiv2
-version=0.27.5
+version=0.27.6
 release=1
 source=(https://github.com/Exiv2/${name}/releases/download/v${version}/${name}-${version}-Source.tar.gz)
 
