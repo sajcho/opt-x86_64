@@ -5,8 +5,8 @@
 
 name=openal
 _realname=openal-soft
-version=1.22.2
-release=4
+version=1.23.0
+release=1
 source=(https://github.com/kcat/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
 
 build() {
