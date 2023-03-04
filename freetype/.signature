@@ -1,9 +1,10 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAjHbjw+kfrPs4X5TELb/7HjYxC29GRDTqIkrpS/+CDx7GkbqwS0DtakqQsVpioB+GbaHevqIdgwSzvX4JNlV6QM=
-SHA256 (Pkgfile) = 27c1c8de4d27ba1989596a08d095b20a01948194afae8f334bc9fd207b9eb180
-SHA256 (.footprint) = 4121d1c01975748c05c4052e513c647a40064eea7deae0462ac693a5c4e9d56f
-SHA256 (freetype-2.12.1.tar.xz) = 4766f20157cc4cf0cd292f80bf917f92d1c439b243ac3018debf6b9140c41a7f
+RWQg5aRf982JAiyTXeTbHO6rZ7lEE0KZpp8huzGe7YzNXqzoSKRRjI+I/Xnxwjst6ahnRtnh704j4G8lwkBqpGFsha5ttgGeaQI=
+SHA256 (Pkgfile) = ad5efc0d0ea9c14f17be54fda45058d43bce3fdce45bbe941b9965ed76c9e183
+SHA256 (.footprint) = 9ab7b22ab14b8a9a8066df0ebaf38896a4d44129db7de9a7d44b189c3fe92d3b
+SHA256 (freetype-2.13.0.tar.xz) = 5ee23abd047636c24b2d43c6625dcafc66661d1aca64dec9e0d05df29592624c
 SHA256 (0001-Enable-table-validation-modules.patch) = f41df4f336d5e82e58733c7a4594476c9216cfc85c096327745a7e1b559e17e1
 SHA256 (0002-Enable-subpixel-rendering.patch) = dc77c1cfee4bf8e7e0690628c95d211df09e0d0750e4c8f075b78b5f105514f7
 SHA256 (0003-Enable-infinality-subpixel-hinting.patch) = 21a62bc12b848320c686d602d8d4e3bcd51294a9def4dc9c301736e077b59f3f
 SHA256 (0004-Enable-long-PCF-family-names.patch) = 266384222f87a02fb02b2179828f6c26fe6d7b1fd09d1f7e3734e7fcb09cda2e
+SHA256 (0005-builds-meson-parse_modules_cfg.py-Handle-gxvalid-and.patch) = 08cf087d7d612b4228e24d74df95cf1f397f7c41054c42837c63c1f33ffaee09

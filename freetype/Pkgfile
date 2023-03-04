@@ -4,14 +4,15 @@
 # Depends on:	brotli libpng
 
 name=freetype
-version=2.12.1
+version=2.13.0
 release=1
 
 source=(https://download.savannah.gnu.org/releases/${name}/${name}-${version}.tar.xz \
 	0001-Enable-table-validation-modules.patch \
 	0002-Enable-subpixel-rendering.patch \
 	0003-Enable-infinality-subpixel-hinting.patch \
-	0004-Enable-long-PCF-family-names.patch)
+	0004-Enable-long-PCF-family-names.patch \
+	0005-builds-meson-parse_modules_cfg.py-Handle-gxvalid-and.patch)
 
 build() {
 	cd ${name}-${version}
@@ -20,6 +21,7 @@ build() {
 	patch -p1 -i $SRC/0002-Enable-subpixel-rendering.patch
 	patch -p1 -i $SRC/0003-Enable-infinality-subpixel-hinting.patch
 	patch -p1 -i $SRC/0004-Enable-long-PCF-family-names.patch
+	patch -p1 -i $SRC/0005-builds-meson-parse_modules_cfg.py-Handle-gxvalid-and.patch
 
 	build-meson \
 		-Dharfbuzz=auto \
