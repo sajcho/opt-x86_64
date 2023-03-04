@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAlstrIfMYSLFN7mTv5/4W3wzp1rIou1AFc4iPxh0er+DhIiYbrGJ2sf0iY9MjW4MavmG//YdGch0LgQBSI77bwc=
-SHA256 (Pkgfile) = af5e8a50fef7b3505de7940538dbc3059da8ef30cce85b81b98015b1ac5b67d4
-SHA256 (.footprint) = 157ed83434527cd756774120f74517d5a08afe0d4f2eddad1476965e71bb73f2
-SHA256 (pip-22.3.1.tar.gz) = 65fd48317359f3af8e593943e6ae1506b66325085ea64b706a998c6e83eeaf38
+RWQg5aRf982JAo4wuuxECAUOwEMqI5DCzqkleBs7wTtrT8kpyebPQb+qOTTYNboMJW5e7gtN9ADZqcmgWEqjbRHuG4SRtHBc3Ag=
+SHA256 (Pkgfile) = 48331fab1ca6aaca07cbd3b689b7ce43e18ed9608f513a69f4bfe3a046561a36
+SHA256 (.footprint) = 9a22809aa71e9d18ad528b87472d9cbf19bd844fc9c860000157fa1abe760230
+SHA256 (pip-23.0.1.tar.gz) = cd015ea1bfb0fcef59d8a286c1f8bebcb983f6317719d415dc5351efb7cd7024
