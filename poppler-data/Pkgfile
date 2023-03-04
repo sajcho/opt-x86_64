@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=poppler-data
-version=0.4.11
+version=0.4.12
 release=1
 source=(https://poppler.freedesktop.org/${name}-${version}.tar.gz)
 
