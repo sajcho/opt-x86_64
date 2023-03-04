@@ -105,6 +105,7 @@ lrwxrwxrwx	root/root	usr/lib/libSDL2-2.0.so -> libSDL2-2.0.so.0
 lrwxrwxrwx	root/root	usr/lib/libSDL2-2.0.so.0 -> libSDL2-2.0.so.0.18.2
 -rwxr-xr-x	root/root	usr/lib/libSDL2-2.0.so.0.18.2
 lrwxrwxrwx	root/root	usr/lib/libSDL2.so -> libSDL2-2.0.so
+-rw-r--r--	root/root	usr/lib/libSDL2main.a
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/sdl2.pc
 drwxr-xr-x	root/root	usr/share/

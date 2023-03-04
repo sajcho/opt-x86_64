@@ -5,7 +5,7 @@
 
 name=sdl2
 version=2.0.20
-release=1
+release=2
 source=(https://www.libsdl.org/release/SDL2-${version}.tar.gz)
 
 build() {
@@ -20,6 +20,7 @@ build() {
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DBUILD_SHARED_LIBS=ON \
 		-DSDL_SHARED=ON \
+		-DSDL_STATIC=ON \
 		-DALSA=ON \
 		-DVIDEO_X11=ON \
 		-DCLOCK_GETTIME=ON \
@@ -38,6 +39,4 @@ build() {
 	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
 	make DESTDIR=$PKG install
-
-	find $PKG -type f -name '*.a' -delete
 }
