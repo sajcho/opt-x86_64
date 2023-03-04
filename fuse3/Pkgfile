@@ -4,8 +4,8 @@
 # Depends on:	meson
 
 name=fuse3
-version=3.13.0
-release=0
+version=3.14.0
+release=1
 source=(https://github.com/libfuse/libfuse/releases/download/fuse-${version}/fuse-${version}.tar.xz \
 	fix-realpath.patch)
 
