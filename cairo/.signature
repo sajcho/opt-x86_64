@@ -1,6 +1,7 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAjQTVLHbUnX1UYFOl5a7Gx9usuLJ9nladk/Q9m0DoQ7dqH1r0aod/0NhPTozp6eBwetb5xjUkJ03kfVUIj2sUgI=
-SHA256 (Pkgfile) = 5f57b12e54fd82cbddb93dc4bf0cd8d2dd8cc933b14237de14e72a26bd9f8d9e
-SHA256 (.footprint) = a70b30a6986ae1dcab2c8f6a2aebc7b3f570c8441e648ec7f4014eb990704a63
-SHA256 (cairo-1.17.6.tar.bz2) = 90496d135c9ef7612c98f8ee358390cdec0825534573778a896ea021155599d2
+RWQg5aRf982JAiAO/Vhtx5k8ydtHsoIkAYWClBbwDxA0cdNDKLQSs5lALM0g5NJChsY9LPc2M3aFp5/K8pwLvyxr9KiMayDTHgc=
+SHA256 (Pkgfile) = 76d7704e3f680b4dab65361ed97caa856109215fd44ee8a2ed611fbfa064ee3f
+SHA256 (.footprint) = e6a55907d40233a24fa757881bdd6f87e6e3329a0b1522aa0e6df96c1dcece59
+SHA256 (cairo-1.17.8.tar.bz2) = ead4724423eb969f98b456fe1e3ee1e1741fe1c8dfb1a41ca12afa81a6c1665f
 SHA256 (fix-cairo-sphinx.patch) = 775b9ef5d265e8f20860268dca6e520a411402a6c38cb6dc95fa405f119b5d54
+SHA256 (cairo-1.17.8-fix-tee-compilation.patch) = 43a92df715dfdfdcc09294bc8c663bfc1b81c8712ef1f71f350c8b880ec714e8

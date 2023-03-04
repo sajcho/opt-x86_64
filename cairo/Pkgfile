@@ -4,15 +4,17 @@
 # Depends on:	fontconfig libxext libxrender pixman xcb-util glib
 
 name=cairo
-version=1.17.6
-release=2
+version=1.17.8
+release=1
 source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/${version}/${name}-${version}.tar.bz2
-	fix-cairo-sphinx.patch)
+	fix-cairo-sphinx.patch \
+	cairo-1.17.8-fix-tee-compilation.patch)
 
 build() {
 	cd ${name}-${version}
 
 	patch -p1 -i $SRC/fix-cairo-sphinx.patch
+	patch -p1 -i $SRC/cairo-1.17.8-fix-tee-compilation.patch
 
 	build-meson \
 		-Dtee=enabled \
