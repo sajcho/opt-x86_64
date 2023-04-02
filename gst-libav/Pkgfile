@@ -4,12 +4,15 @@
 # Depends on:	ffmpeg
 
 name=gst-libav
-version=1.22.0
+version=1.22.1
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
+
+	# clean
+	sed '/Wmissing-include-dirs/d' -i meson.build
 
 	build-meson \
 		-Dpackage-name="GStreamer (SAUX-x86_64)" \
