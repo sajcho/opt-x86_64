@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAjz+62bARoXEkujz+/85Xpnlg6llwZ5o2Cc+w2TaAVOOALlPQt9JZwc+QWyQ/siW0/c/RnXGtop/WgEm4wXimwA=
-SHA256 (Pkgfile) = cff83c3cd8f3590f004077737f82df0537defd0657ed2ff17b78d53f3f8a033b
+RWQg5aRf982JAgi4pN3lZW8ZPftdjGaFDIflIQME/4H78e3OZSQflHsLl4SDIQDd+fPyLqi59MtfPBqixpfnqE7Q82qzghzdDwc=
+SHA256 (Pkgfile) = b06c9850b6fc231974c7ac97d7b70619fd4efcf0d54722967eee60b47d64bcca
 SHA256 (.footprint) = 949a7de02144a07c833fc139eac476f1d996ab34d99a105e67573c06098e282c
-SHA256 (node-v19.7.0.tar.xz) = 511847f724ea405f85e25803cbcf8b131b14cd06b2d7046698bd2760c404bfc3
+SHA256 (node-v19.8.1.tar.xz) = 2411e58e1d4644c4d4a82bcf3061b95e672c9f214de017d42f032cfae07461cb
