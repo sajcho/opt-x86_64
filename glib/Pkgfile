@@ -40,5 +40,5 @@ build() {
 	install -m 0644 $SRC/gschemas.compiled \
 		$PKG/usr/share/glib-2.0/schemas/gschemas.compiled
 
-	rm -r $PKG/usr/share/{bash-completion,doc}
+	rm -r $PKG/usr/share/bash-completion
 }

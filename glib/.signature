@@ -1,6 +1,6 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsp36RLYwIIclkyb1jmrVRckpfc7BS0vxw38i8FBTqttnzT7M/QrHHEqlq7RlPGuwUXe3CTgLdHJSO8c7iW2bQE=
-SHA256 (Pkgfile) = c1cc5ebbd14f75cb01d6370b59b68fae8af65674666300f5bb4eb45cc7fe3a00
+untrusted comment: verify with /etc/ports/core-x86_64.pub
+RWQyKH7cMutLvRdaURowvmTgNei1utceCaV+C62OuLX0rcfETybNHuvxwaOX7yy7Telha6a1xnDKu5AKVA6mxIOX1eGOwi8iAw4=
+SHA256 (Pkgfile) = 9ad4fe7429a1ecda7c4fdcce71e16390c38bd37c07254a9ea6c12a8192abd191
 SHA256 (.footprint) = 510fa255ea40aea92be099e0e381b3788669d4f133b6750395dc1e8ea06bd074
 SHA256 (glib-2.76.1.tar.xz) = 43dc0f6a126958f5b454136c4398eab420249c16171a769784486e25f2fda19f
 SHA256 (deprecated-no-warn.patch) = 0f52f456c8c91281fee33d99fc02799faf90d2f374a896b728abd5913aa5f9dc
