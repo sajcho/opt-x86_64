@@ -4,9 +4,9 @@
 # Depends on:	libsdl
 
 name=libvisual
-version=0.4.1
-release=2
-source=(https://downloads.sourceforge.net/sourceforge/${name}/${name}-${version}.tar.gz)
+version=0.4.2
+release=1
+source=(https://github.com/Libvisual/${name}/releases/download/${name}-${version}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
