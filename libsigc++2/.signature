@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoN8oRyTp1dtwjSTuvHcpmqazG7C1gMuvFLyxJguhnRok+EcAeA1Xsej/14+BfOCyhiNDcNZnpl7/7NYHV6kOQk=
-SHA256 (Pkgfile) = c1937b982085c9ad003035749ed6be6f4ecd1ca8b5958573b58ee11a550e92ef
+RWQg5aRf982JAnR3TqFGqwwwebZBULTKUCZsDQ9EWNhMVFoYq8Br9kr0wOtBcA8v6a2NoeSUCIDMBrSZ8xcdMqwSceOAni2QkQg=
+SHA256 (Pkgfile) = caede86f6c76a30581cb1395817c173b40ebb8a8d985bcb70bb91748bc1bf95f
 SHA256 (.footprint) = 8fa27edaee2e26de3ca61cb2b9ffd7539003498956ba2a18c6e99b17927885e6
-SHA256 (libsigc++-2.10.8.tar.xz) = 235a40bec7346c7b82b6a8caae0456353dc06e71f14bc414bcc858af1838719a
+SHA256 (libsigc++-2.12.0.tar.xz) = 1c466d2e64b34f9b118976eb21b138c37ed124d0f61497df2a90ce6c3d9fa3b5
