@@ -1,17 +1,15 @@
 # Description:	ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 # URL:		https://www.libde265.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	aom gdk-pixbuf libde265 libjpeg-turbo libpng x265
+# Depends on:	aom dav1d gdk-pixbuf libde265 libjpeg-turbo libpng x265
 
 name=libheif
-version=1.14.2
+version=1.15.2
 release=1
 source=(https://github.com/strukturag/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
-
-	CXXFLAGS+=" -Wno-error=maybe-uninitialized"
 
 	./configure \
 		--prefix=/usr \
