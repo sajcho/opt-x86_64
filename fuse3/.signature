@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAt3cOZAADT4UghzAltguyZvE7tm7HG0l0S/PLT434mY86AoHs3zgNQc8aAmMpHHIkjcEqPiG93twSilHc97BIg8=
-SHA256 (Pkgfile) = 3c3120ce22e4bd0dc59b319eaa648539a44154b167288102bac1fb2072f7f2d3
-SHA256 (.footprint) = 7b93787288a5588cba0b6cae3ca30a4ce129b598ad0f5a5053184f56fc3c2b32
-SHA256 (fuse-3.14.0.tar.xz) = 96115b2a8ff34bd1e0c7b00c5dfd8297571d7e165042b94498c9a26356a9a70a
+RWQg5aRf982JAkvLjg5oV4olKpp8d9KdlnlJ7Bq37Tigi1uaC095XDsB/aorwHJRH0AlxnQoC3YCGeu/ExzBaK9Wrb8LeJpgtAA=
+SHA256 (Pkgfile) = 330d4eeec12ed154a2c645c940d01f0ab5465b9646eb1feb92a2b0e396956130
+SHA256 (.footprint) = ff7036905d1920b20512dbfb989ad7315ca3bc21dcbb95a84426fd77cf4cf8f4
+SHA256 (fuse-3.14.1.tar.xz) = 126919d72b46b3e0eb58a9c6933a2a50c36f2ea69f61fe9e78bdba9f463ffa20
 SHA256 (fix-realpath.patch) = e9f18e86545f558fb6ab92ae1778fe0392b06ca50ec44389db2c75a2bf95b5dd
