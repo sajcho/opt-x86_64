@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAgPc+oHyfx5wHVPmCq4zUYV4s0kxmTOnyP4QBGU6QyVE6c0Ejastg7lb2erb5Wxz8jAYlHIJbgI06BGJAZGMhwI=
-SHA256 (Pkgfile) = f4d7653dadffc236c0b18d0bb9b0f55b39ef5765b62aae66a75f924021ad09c1
-SHA256 (.footprint) = 29bb98cc0bb7a5e28cb0f83c2d893b51ab65e49e45951bc6199ffaff8ce104bf
-SHA256 (mariadb-10.10.2.tar.gz) = 57cbd0112b22b592f657cd4eb82e2f36ad901351317bf8e17849578e803f3cb2
+RWQg5aRf982JAqn5IuE6KLVPl0izB6VxoGrk+hAj/1fy20URziJcCElHX9FS5RkmIGn4Gg1htSwAG7LgM8DTp00Je/xDBROhDwc=
+SHA256 (Pkgfile) = b19263ebee23c3a80a3edd128e1b5f274a56b9cb0c1aa8e5a4bc8aa783f51f9d
+SHA256 (.footprint) = 728f241b848b1af72771adcafbc9fb627ae9b388c89d4637dd24aa38b9047c85
+SHA256 (mariadb-10.11.2.tar.gz) = 1c89dee0caed0f68bc2a1d203eb98a123150e6a179f6ee0f1fc0ba3f08dc71dc
 SHA256 (mariadb.pam) = 962b53d37719ed4798643a8fe3557454d23f74c2b14f1dfc1c1c67d361cab891
 SHA256 (mysqld-log.run) = 7cc0bf7229d84cd79af375563e35e9732bb2d730d0882b0764514f8d2c178d5e
 SHA256 (mysqld.run) = 46dd414421ef287522fc7b585ad21d440ad4c9454033a76e9a104dc1f8ab0528

@@ -9,6 +9,7 @@ drwxr-xr-x	root/root	etc/my.cnf.d/
 -rw-r--r--	root/root	etc/my.cnf.d/provider_lz4.cnf
 -rw-r--r--	root/root	etc/my.cnf.d/provider_lzma.cnf
 -rw-r--r--	root/root	etc/my.cnf.d/provider_lzo.cnf
+-rw-r--r--	root/root	etc/my.cnf.d/provider_snappy.cnf
 -rw-r--r--	root/root	etc/my.cnf.d/s3.cnf
 -rw-r--r--	root/root	etc/my.cnf.d/server.cnf
 -rw-r--r--	root/root	etc/my.cnf.d/spider.cnf
@@ -162,6 +163,7 @@ drwxr-xr-x	root/root	usr/include/mysql/server/
 -rw-r--r--	root/root	usr/include/mysql/server/m_ctype.h
 -rw-r--r--	root/root	usr/include/mysql/server/m_string.h
 -rw-r--r--	root/root	usr/include/mysql/server/ma_dyncol.h
+-rw-r--r--	root/root	usr/include/mysql/server/mariadb_capi_rename.h
 -rw-r--r--	root/root	usr/include/mysql/server/my_alloc.h
 -rw-r--r--	root/root	usr/include/mysql/server/my_attribute.h
 -rw-r--r--	root/root	usr/include/mysql/server/my_byteorder.h
@@ -327,7 +329,6 @@ drwxr-xr-x	root/root	usr/include/mysql/server/private/atomic/
 -rw-r--r--	root/root	usr/include/mysql/server/private/log_slow.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/maria.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/mariadb.h
--rw-r--r--	root/root	usr/include/mysql/server/private/mariadb_capi_rename.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/mdl.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/mem_root_array.h
 -rw-r--r--	root/root	usr/include/mysql/server/private/message.h
@@ -645,6 +646,7 @@ drwxr-xr-x	root/root	usr/lib/mysql/plugin/auth_pam_tool_dir/
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/provider_lz4.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/provider_lzma.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/provider_lzo.so
+-rwxr-xr-x	root/root	usr/lib/mysql/plugin/provider_snappy.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/qa_auth_client.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/qa_auth_interface.so
 -rwxr-xr-x	root/root	usr/lib/mysql/plugin/qa_auth_server.so
@@ -927,8 +929,8 @@ drwxr-xr-x	root/root	usr/share/mysql/english/
 -rw-r--r--	root/root	usr/share/mysql/magic
 -rw-r--r--	root/root	usr/share/mysql/maria_add_gis_sp.sql
 -rw-r--r--	root/root	usr/share/mysql/maria_add_gis_sp_bootstrap.sql
+-rwxr-xr-x	root/root	usr/share/mysql/mariadb.logrotate
 -rwxr-xr-x	root/root	usr/share/mysql/mini-benchmark
--rwxr-xr-x	root/root	usr/share/mysql/mysql-log-rotate
 -rwxr-xr-x	root/root	usr/share/mysql/mysql.server
 -rw-r--r--	root/root	usr/share/mysql/mysql_performance_tables.sql
 -rw-r--r--	root/root	usr/share/mysql/mysql_sys_schema.sql

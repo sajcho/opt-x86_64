@@ -4,8 +4,8 @@
 # Depends on:	cmake krb5 libaio linux-pam libpcre2 libxml2
 
 name=mariadb
-version=10.10.2
-release=2
+version=10.11.2
+release=1
 source=(https://downloads.mariadb.com/MariaDB//$name-$version/source/$name-$version.tar.gz
 	mariadb.pam mysqld-log.run mysqld.run pre-install)
 
