@@ -5,8 +5,8 @@
 
 name=python3-installer
 _realname=installer
-version=0.6.0
-release=2
+version=0.7.0
+release=1
 source=(https://files.pythonhosted.org/packages/source/i/${_realname}/${_realname}-${version}.tar.gz \
 	default-bytecode-levels.patch)
 
