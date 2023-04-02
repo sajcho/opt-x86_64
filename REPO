@@ -1364,8 +1364,8 @@ f:a90be6655378209fc21bba2206cf4316:swaync/Pkgfile
 f:e5f74be27525658dae59401455944186:glib/post-install
 f:44a0c4706c133c971dd8c42cb059ae31:glib/.footprint
 f:ebd1ee90e4f81e6c6cc03c29ab8b6bea:glib/gschemas.compiled
-f:31f4473e82ce55a98d3f6ebe344e0c73:glib/.signature
-f:6b5b5404b20fcdb36495edeee985f378:glib/Pkgfile
+f:2e0fff803632b55327df0549760885bd:glib/.signature
+f:633349348444303e225d3b91d1f9c5f7:glib/Pkgfile
 f:08b95225e98724a67fb2c765acea8ef9:glib/deprecated-no-warn.patch
 f:50e01aae522d5b317aa2137ea9eacc27:gst-plugins-bad/.footprint
 f:97d42ce90719e662e1b7273fc27ba279:gst-plugins-bad/.signature
