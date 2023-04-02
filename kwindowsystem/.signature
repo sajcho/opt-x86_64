@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAhI3/ZECqN7nPxFsre1QE1Y3opyMUnhz0/hBZSNxgbhtIFZTg9Itn7YYe9HR7FegqZNm27g+qU9XW7HKgx4HmAo=
-SHA256 (Pkgfile) = 2584e6f30ab5873aae64952ffeb4871ed6173c8c858004facfb70596dca63a1d
-SHA256 (.footprint) = 19d5d1dbe8e57c131a8d37e459543b3980f04629c9d7327336020e96b011cdec
-SHA256 (kwindowsystem-5.103.0.tar.xz) = ec6af8efd4399d140929b1a057bff8c679210d98fd26f309fdf8f89fccbf13a5
+RWQg5aRf982JAtj+pS+sen82Lk44CtZp+uxR7Yx0dieoZxUso1ZZ6wGOFpX7dVhLmAZv03IPX45nsOhee7TwoS6URVuhQGKCrgI=
+SHA256 (Pkgfile) = 286aba7773d57e784486fb43a2c069b2716f8e121b5f7b3991bfcb7a33431cb1
+SHA256 (.footprint) = b6fc3f1321b37804940775b029eeed89f04e59d7325f2adef17081f68a8d706f
+SHA256 (kwindowsystem-5.104.0.tar.xz) = 6b10ee354ebb7d2dfd6baa1374929d30811f8169c8233e55849e31e38e6af81a
