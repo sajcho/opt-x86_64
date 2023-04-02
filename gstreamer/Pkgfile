@@ -4,12 +4,15 @@
 # Depends on:	bison flex gobject-introspection libcap libxml2
 
 name=gstreamer
-version=1.22.0
+version=1.22.1
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
+
+	# clean
+	sed '/Wmissing-include-dirs/d' -i meson.build
 
 	build-meson \
 		-Dnls=disabled \
