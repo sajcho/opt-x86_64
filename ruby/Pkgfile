@@ -4,7 +4,7 @@
 # Depends on:	gmp yaml
 
 name=ruby
-version=3.2.1
+version=3.2.2
 release=1
 source=(http://cache.ruby-lang.org/pub/${name}/${version%.*}/${name}-${version}.tar.xz \
 	rubygems-avoid-platform-specific-gems.patch)
