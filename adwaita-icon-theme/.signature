@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAiR/1SiLXKNi+3y/K++Ao4uW3pi5ht4EXJu9TWrqu1ykwvtELO6KM/7h8ePF6PTw+5iX1i3gGubo4+dT5egCQgg=
-SHA256 (Pkgfile) = 7d5791341cb30f1bab7cec3ced667f3e2f49dbdfb4ba611156612efcaf558356
-SHA256 (.footprint) = 8e5bbb9b3d608db64229a454f2eb4bd2ba894ec40fd846a96371c7e700a93140
-SHA256 (adwaita-icon-theme-43.tar.xz) = 2e3ac77d32a6aa5554155df37e8f0a0dd54fc5a65fd721e88d505f970da32ec6
+RWQg5aRf982JAnU0Hj0/rcXWIIVLsvfqlX2DC0NZoH1yOeRaL72roXOgNnBFhgDoFQWn07QZTELjPYYixPfgcgnZV/tQtGO4TQ4=
+SHA256 (Pkgfile) = 88d00d7fb075ff1c8a9d706945a119bc3f75d20f076e23769fd053959840aa27
+SHA256 (.footprint) = e297475b61fd64eb16a4399a661a42ede6c7b79ed332c4b9b1d0f90fb078e76d
+SHA256 (adwaita-icon-theme-44.0.tar.xz) = 4889c5601bbfecd25d80ba342209d0a936dcf691ee56bd6eca4cde361f1a664c
