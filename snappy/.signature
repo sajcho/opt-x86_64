@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAocOgmmPv0cDlFzg4vdPhUWkawgQVvNKmu9H2hoyJYkORtpqJegAOR0qaptpFRYtGhQzmLuXURJWmuCq5KAxGQg=
+SHA256 (Pkgfile) = f87e9c7adf9e9fc1f71fcc4b06603929c9df7d687fb67e9e84bc0d0ccdbb74ae
+SHA256 (.footprint) = 01e5a0c13c30895a9b4942feb6a1d12d26e22c58c35a0f19bce564ecc6e8fd0a
+SHA256 (snappy-1.1.10.tar.gz) = 49d831bffcc5f3d01482340fe5af59852ca2fe76c3e05df0e67203ebbe0f1d90
+SHA256 (cmake_add_pkgconfig.patch) = 2a204d7d35509ffc290d80c641fcb7e8488c67ca550aa1695493cff12c53156b
+SHA256 (cmakelists.patch) = 1f2be227dd4717085ee6740cd22806d0d3e3e27f01b2511fa6bb7f039643b6b9
+SHA256 (rtti.patch) = 6553c61ac55e9ee8fa7b1ed1ef345d6f1e28da57ff8a15be8570b6d3088d6ab8
+SHA256 (snappy.pc.in) = 134f06ca0584a1026538d0fb972fc141c008390ecae1806184b721eca1abbc75

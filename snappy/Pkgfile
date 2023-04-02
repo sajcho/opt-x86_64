@@ -1,0 +1,40 @@
+# Description:	Fast compression and decompression library
+# URL:		https://github.com/google/snappy
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake samurai
+
+name=snappy
+version=1.1.10
+release=1
+source=(https://github.com/google/${name}/archive/${version}/${name}-${version}.tar.gz \
+	cmake_add_pkgconfig.patch \
+	cmakelists.patch \
+	rtti.patch \
+	snappy.pc.in)
+
+build() {
+	cd ${name}-${version}
+
+	cp $SRC/snappy.pc.in .
+
+	patch -p1 -i $SRC/cmake_add_pkgconfig.patch
+	patch -p1 -i $SRC/cmakelists.patch
+	patch -p1 -i $SRC/rtti.patch
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DBUILD_STATIC_LIBS=ON \
+		-DSNAPPY_BUILD_BENCHMARKS=OFF \
+		-DSNAPPY_BUILD_TESTS=OFF \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
