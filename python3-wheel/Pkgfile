@@ -5,7 +5,7 @@
 
 name=python3-wheel
 _realname=wheel
-version=0.38.4
+version=0.40.0
 release=1
 source=(https://files.pythonhosted.org/packages/source/w/${_realname}/${_realname}-$version.tar.gz)
 
@@ -13,10 +13,6 @@ build() {
 	cd ${_realname}-$version
 
 	export PYTHONHASHSEED=0
-
-	# https://github.com/pypa/wheel/pull/365
-	rm -r src/wheel/vendored
-	sed -i 's/from .vendored.packaging import tags/from packaging import tags/' src/wheel/bdist_wheel.py
 
 	/usr/bin/python3 setup.py build
 
