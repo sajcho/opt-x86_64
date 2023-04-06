@@ -4,7 +4,7 @@
 # Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox
-version=110.0.1
+version=111.0.1
 release=1
 source=(https://archive.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
 	firefox.desktop)
@@ -32,10 +32,6 @@ build() {
 
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
-
-	# fix - we have gcc-13.0.0 in the system
-	sed '/include <cmath>/a #include <cstdint>' -i gfx/2d/Rect.h
-	sed '/include <ctime>/a #include <cstdint>' -i toolkit/components/telemetry/pingsender/pingsender.cpp
 
 	### api keys
 	#_google_api_key=""
