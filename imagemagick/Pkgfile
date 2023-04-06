@@ -5,9 +5,9 @@
 
 name=imagemagick
 _realname=ImageMagick
-version=7.1.1-5
+version=7.1.1-6
 release=1
-source=(https://imagemagick.org/archive/${_realname}-${version}.tar.xz)
+source=(https://imagemagick.org/archive/releases/${_realname}-${version}.tar.xz)
 
 build() {
 	cd ${_realname}-${version}
