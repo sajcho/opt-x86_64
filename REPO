@@ -1278,8 +1278,8 @@ f:c85079242d54888819e6be5f07b9f4a3:libbytesize/.footprint
 f:6e01fa8ee14d6aeb374584c0fba66d7d:libbytesize/.signature
 f:8803a2147066503194010cc38502c785:libbytesize/Pkgfile
 f:4e1194ff88efd1e90411bd705e8b5e79:imagemagick/.footprint
-f:149957de3ea6b56b70b0fc529ff0f463:imagemagick/.signature
-f:762a5b6acc4f16555f3e02e68fc2dad0:imagemagick/Pkgfile
+f:d7e0b1381f5336c1755ec17e4b7ea347:imagemagick/.signature
+f:6e9d5ae04ce9a22b01d7ccc4bb16e73f:imagemagick/Pkgfile
 f:9c54e647eadb86c2ca42143664d9ef26:sassc/.footprint
 f:9fa6b29cf200535f9a4eaee5b9745bfb:sassc/.signature
 f:3058ec0c5bee6d768ef7f62ff6e3de27:sassc/Pkgfile
@@ -1364,8 +1364,8 @@ f:a90be6655378209fc21bba2206cf4316:swaync/Pkgfile
 f:e5f74be27525658dae59401455944186:glib/post-install
 f:44a0c4706c133c971dd8c42cb059ae31:glib/.footprint
 f:ebd1ee90e4f81e6c6cc03c29ab8b6bea:glib/gschemas.compiled
-f:2e0fff803632b55327df0549760885bd:glib/.signature
-f:633349348444303e225d3b91d1f9c5f7:glib/Pkgfile
+f:7517af8751c2cf36a2fd9a855131c145:glib/.signature
+f:3042c8d47465ed320a38c82383894c9e:glib/Pkgfile
 f:08b95225e98724a67fb2c765acea8ef9:glib/deprecated-no-warn.patch
 f:50e01aae522d5b317aa2137ea9eacc27:gst-plugins-bad/.footprint
 f:97d42ce90719e662e1b7273fc27ba279:gst-plugins-bad/.signature
@@ -1671,10 +1671,9 @@ f:09539e4eff53961858ab98bd6046902a:gnome-themes-extra/.footprint
 f:c208f12bf901415d81693c0af1e072d0:gnome-themes-extra/.signature
 f:01706ab891bda527fb8ff4c0da17870c:gnome-themes-extra/Pkgfile
 f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
-f:c3a101d35bf1b109e0b329e85e2deb67:firefox/.signature
-f:150cb22fe9446bd101ff64806fda5f59:firefox/Pkgfile
+f:210294c5024682786336067d51e2a900:firefox/.signature
+f:91c50d36d660c901aa6ecc8bf3201744:firefox/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
-f:90a991a8d00e71b9c957c031cbd0c659:firefox/buildlog
 f:f2dc051761bb2987e7f2acdf79c46476:lxqt-runner/.footprint
 f:9ad44515f81b913da0b41a3a9796290a:lxqt-runner/.signature
 f:44ad131a950b1c487d39ed9fbd972048:lxqt-runner/Pkgfile
