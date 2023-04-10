@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JApdB5BUqnIexUr4hoIYA6y+K32TIu+yNjUf05TVPJ0X26uzOLQ+wx6C+FOp38TgPbru6eWrsKqgcC+8ftmIe0Ag=
-SHA256 (Pkgfile) = 8f44622979b38195a42d623f3b392b6414b9443b0cfc5b341c55ed44d11bfcaf
-SHA256 (.footprint) = f6b1bb014b47f49a02998335feb72b6828112ba8e1a0a420229c293b9f790b8d
-SHA256 (libgpg-error-1.46.tar.bz2) = b7e11a64246bbe5ef37748de43b245abd72cfcd53c9ae5e7fc5ca59f1c81268d
+RWQg5aRf982JAuZe9O8yl4XtOx2zPRtMZhq0hV5QIB/2/iUXsp/Q5HTcKUPdrxFZUyzSN2XoxAohh05Zn/nxKokmyGtzn6zJYw0=
+SHA256 (Pkgfile) = 2d1da8066cc84a88aadb259d4439ae86fdc96da6921637e8cee62470345faa7b
+SHA256 (.footprint) = 49874324e2231fff6e413fe35f9870015974acf5278a35c9e003ffa6df3e666c
+SHA256 (libgpg-error-1.47.tar.bz2) = 9e3c670966b96ecc746c28c2c419541e3bcb787d1a73930f5e5f5e1bcbbb9bdb

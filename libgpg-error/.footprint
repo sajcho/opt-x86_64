@@ -8,9 +8,9 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/gpg-error.h
 -rw-r--r--	root/root	usr/include/gpgrt.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libgpg-error.so -> libgpg-error.so.0.33.1
-lrwxrwxrwx	root/root	usr/lib/libgpg-error.so.0 -> libgpg-error.so.0.33.1
--rwxr-xr-x	root/root	usr/lib/libgpg-error.so.0.33.1
+lrwxrwxrwx	root/root	usr/lib/libgpg-error.so -> libgpg-error.so.0.34.0
+lrwxrwxrwx	root/root	usr/lib/libgpg-error.so.0 -> libgpg-error.so.0.34.0
+-rwxr-xr-x	root/root	usr/lib/libgpg-error.so.0.34.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gpg-error.pc
 drwxr-xr-x	root/root	usr/share/
@@ -29,3 +29,4 @@ drwxr-xr-x	root/root	usr/share/libgpg-error/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gpg-error-config.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gpgrt-config.1.gz
