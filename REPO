@@ -1406,9 +1406,9 @@ f:02c0af187984692522f29a9fb00524f9:python3-gpep517/gpep517
 f:8d175ca072a4406a25c3635c47272d76:python3-gpep517/.footprint
 f:e38a913d645ac8968631ba47a39af6f0:python3-gpep517/.signature
 f:44e1da27a94b76b74926075be35a25b7:python3-gpep517/Pkgfile
-f:fb0e142531e42b6c3df8ae5fca8b3991:libgcrypt/.footprint
-f:ca6cc90336f91c1bed2c1892df42d282:libgcrypt/.signature
-f:c9537a172e0d79e3ac57e0b7c09f0a44:libgcrypt/Pkgfile
+f:a192a30a86348f829844c4f06f6f05c4:libgcrypt/.footprint
+f:9f64638d5ccedbdd6ca7f076c344b2bc:libgcrypt/.signature
+f:ed01276febbaa98420e20bd6519fd41c:libgcrypt/Pkgfile
 f:54e0a13fe25017a90ba8a36d36698c5e:qps/post-install
 f:62d6d3dd9b84545b418b454fe936c83a:qps/.footprint
 f:92216d90394b49d7bb64721bf0dd9ece:qps/.signature
@@ -1757,9 +1757,9 @@ f:3820297122960161657a9e7db4bfcd11:libpng/libpng-apng.patch
 f:6df4daf879e712a8ce47b010a5104a7e:libpng/.footprint
 f:79a3b63797f7cf78fe68a270e6a7fdde:libpng/.signature
 f:576c3edb51839410e02ec261bc8030fa:libpng/Pkgfile
-f:efe864978d6330740dcfcafc0d778a79:libgpg-error/.footprint
-f:e1d69ba0a65ffd4ff7ee87a77d97e273:libgpg-error/.signature
-f:09d40fa92594bc74f3bc3c39828e7553:libgpg-error/Pkgfile
+f:1fdbbe28e297d576bbabf5c72bd895f7:libgpg-error/.footprint
+f:967dc5583633891843d1f71e2854d874:libgpg-error/.signature
+f:50b3ff3e888d8c0987d6641474e16f29:libgpg-error/Pkgfile
 f:b418f4a5a73c85729fb5f8b61aafe556:libavc1394/.footprint
 f:24a364a9ed814a893131bf376a69922e:libavc1394/.signature
 f:3dd47f1290bdf14f9055ae353ca882f6:libavc1394/Pkgfile
