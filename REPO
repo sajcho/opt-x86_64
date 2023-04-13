@@ -1407,8 +1407,8 @@ f:8d175ca072a4406a25c3635c47272d76:python3-gpep517/.footprint
 f:e38a913d645ac8968631ba47a39af6f0:python3-gpep517/.signature
 f:44e1da27a94b76b74926075be35a25b7:python3-gpep517/Pkgfile
 f:a192a30a86348f829844c4f06f6f05c4:libgcrypt/.footprint
-f:9f64638d5ccedbdd6ca7f076c344b2bc:libgcrypt/.signature
-f:ed01276febbaa98420e20bd6519fd41c:libgcrypt/Pkgfile
+f:70b1141b3b57dea9eda97979b6be208a:libgcrypt/.signature
+f:b63852bb32a672d7d25bc1433f2319dd:libgcrypt/Pkgfile
 f:54e0a13fe25017a90ba8a36d36698c5e:qps/post-install
 f:62d6d3dd9b84545b418b454fe936c83a:qps/.footprint
 f:92216d90394b49d7bb64721bf0dd9ece:qps/.signature
