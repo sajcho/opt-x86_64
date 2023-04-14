@@ -133,6 +133,7 @@ d:libvorbis
 d:muparser
 d:rubberband
 d:python3-certifi
+d:tftp-hpa
 d:qt5-qtquickcontrols2
 d:ghostscript
 d:swayidle
@@ -931,6 +932,12 @@ f:7646d2986f1a443840a248632ef18e52:rubberband/Pkgfile
 f:e8cef3fc7b32ebd059ffce9d450d5f00:python3-certifi/.footprint
 f:07fc4014d8a15f337296b8d8a57653e0:python3-certifi/.signature
 f:021bbb965464c7b74c60eb74af0d667d:python3-certifi/Pkgfile
+f:e483a124096010e7cf3c6dcf1f1749da:tftp-hpa/fix-prompt-flush.patch
+f:84c664045508fcdf16fa4c7fa1013678:tftp-hpa/tftp-hpa.run
+f:a5efef75144779da35adc9766a022029:tftp-hpa/.footprint
+f:d29d527b403b490f97ce81b733abc518:tftp-hpa/.signature
+f:8b2dee8159fa64ca00db131b36aa42c5:tftp-hpa/fix-common.patch
+f:c49ffed145731de5c935663d205a910e:tftp-hpa/Pkgfile
 f:79b91cf30a131ca8726161653399809a:qt5-qtquickcontrols2/.footprint
 f:40538bd0f8b5a0484bbfd368ce40aab0:qt5-qtquickcontrols2/.signature
 f:7c3220ab1f16af86b35430952c702182:qt5-qtquickcontrols2/Pkgfile
@@ -1364,8 +1371,8 @@ f:a90be6655378209fc21bba2206cf4316:swaync/Pkgfile
 f:e5f74be27525658dae59401455944186:glib/post-install
 f:44a0c4706c133c971dd8c42cb059ae31:glib/.footprint
 f:ebd1ee90e4f81e6c6cc03c29ab8b6bea:glib/gschemas.compiled
-f:7517af8751c2cf36a2fd9a855131c145:glib/.signature
-f:3042c8d47465ed320a38c82383894c9e:glib/Pkgfile
+f:97977e8a0f6125bedba75010c3585c10:glib/.signature
+f:bddf537cc0dc2f22825da551cbaa56e4:glib/Pkgfile
 f:08b95225e98724a67fb2c765acea8ef9:glib/deprecated-no-warn.patch
 f:50e01aae522d5b317aa2137ea9eacc27:gst-plugins-bad/.footprint
 f:97d42ce90719e662e1b7273fc27ba279:gst-plugins-bad/.signature
@@ -1854,8 +1861,8 @@ f:a5c92015a534d871d440f0a32ad9095c:x264/.footprint
 f:656ce7adeff0e99e457e8178a71c11a1:x264/.signature
 f:6f5a0e08d98e9c9f42fef828c69c2440:x264/Pkgfile
 f:9438220e6c9864cf612d45aff8482f20:icewm/.footprint
-f:b864777f0b7bd274c0dc0e9f3a12a0e3:icewm/.signature
-f:77d6d682fd60c7382058f10065ea00dc:icewm/Pkgfile
+f:e3150af55e95ce8ad3be6aba003e0fc2:icewm/.signature
+f:969d1708da2a0e49c3573d3de8624dde:icewm/Pkgfile
 f:bfe2a68f8b898b4e4c509f268f80a103:libcaca/.footprint
 f:0709e3351c9f6753affad73589aaf329:libcaca/.signature
 f:62fd0626cea090d6fcff6510ce9f36a4:libcaca/Pkgfile
