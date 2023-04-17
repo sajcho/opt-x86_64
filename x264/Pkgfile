@@ -16,6 +16,7 @@ build() {
 	./version.sh | grep X264_POINTVER | sed -r 's/^#define X264_POINTVER "([0-9]+\.[0-9]+)\.([0-9]+) (.*)"$/\1.r\2.\3/'
 
 	./configure \
+		--host=$CHOST \
 		--prefix=/usr \
 		--system-libx264 \
 		--enable-shared \
