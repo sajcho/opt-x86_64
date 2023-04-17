@@ -771,7 +771,7 @@ f:a954c5da2a08d9d45ed3f64e12ecf0c0:wavpack/.signature
 f:9b54121e2a37f826d4602bd7c3b5a366:wavpack/Pkgfile
 f:c207b1641b1ef1c9216ac95e9edefded:lame/.footprint
 f:06a1b1ef9896230ff2ac805cd2225af9:lame/.signature
-f:f3714839e5af131f8155258279955e4d:lame/Pkgfile
+f:4faa8318fd5652e6b1016f14a6fecb4c:lame/Pkgfile
 f:a6e3841a79b70f7e393eb7d5a8c79016:nmap/.footprint
 f:691fd2993dc13120dd1f9be9a1ea38dc:nmap/.signature
 f:f7aba948fe6f30de9dae2640ab541db7:nmap/Pkgfile
@@ -1143,7 +1143,7 @@ f:7ff084677614b02915fa8e05e8817cfe:cups/cupsd.run
 f:e831eec7e9ec19da5c8d8466d7b42b7e:cups/cups.pam
 f:93198e7f7aedbd78d0876cc66bbfe1c6:cups/.footprint
 f:ed711c50f82e0819406645df150bd437:cups/.signature
-f:542b7373ee3084f24f82d998e75a70bb:cups/Pkgfile
+f:6b0ff97653f421b77cb6452e733136b6:cups/Pkgfile
 f:80a1477c6ad10eeb6c7bcaae7c50cf9b:cups/README
 f:0aef8fafecd3aabc559f30d40e4d3031:translate-shell/.footprint
 f:6638a16662ca17892ce276810cb8668f:translate-shell/.signature
@@ -1363,7 +1363,7 @@ f:7e3a716fa056af19586956ff11892fab:openjpeg2/Pkgfile
 f:d4e204209bccffea4dcc1aec62d4cadf:enca/enca-bad-file-descriptor.patch
 f:8acfa16b629095235b8b9a25330853d4:enca/.footprint
 f:c93e255c7acef067d21f2e34f294c050:enca/.signature
-f:fb3973d434fec5e2a95313a69c33d1ab:enca/Pkgfile
+f:9d157fe26612821f6ef830bcb78268f6:enca/Pkgfile
 f:e5f74be27525658dae59401455944186:swaync/post-install
 f:b55b5175376b3de0173eba4650d80b8f:swaync/.footprint
 f:b03799f0d29a34f3364ab8de0e0ff331:swaync/.signature
@@ -1859,7 +1859,7 @@ f:43ca777285e68b92391224ea3f162dce:tree/.signature
 f:9847ddb58f3bef5b1e8917ef8dacc18c:tree/Pkgfile
 f:a5c92015a534d871d440f0a32ad9095c:x264/.footprint
 f:656ce7adeff0e99e457e8178a71c11a1:x264/.signature
-f:6f5a0e08d98e9c9f42fef828c69c2440:x264/Pkgfile
+f:780acc3364f26ecda164b2088d8d1097:x264/Pkgfile
 f:9438220e6c9864cf612d45aff8482f20:icewm/.footprint
 f:e3150af55e95ce8ad3be6aba003e0fc2:icewm/.signature
 f:969d1708da2a0e49c3573d3de8624dde:icewm/Pkgfile
@@ -2008,7 +2008,7 @@ f:675facec5eeac1ea6a8a1ecefb2c835f:popt/Pkgfile
 f:71b6387d1ca613ed120ee88ef13b5090:yasm/.footprint
 f:882955e2c2aecf06bc9f24e6b8bc7c1b:yasm/.signature
 f:204f8f7989f616e06e28ce0313b1a7f3:yasm/fix-memory-using-gas-processor.patch
-f:ebaa83f731d02a385acfe95768db4ede:yasm/Pkgfile
+f:8201f396c7577219987845f9da6a4923:yasm/Pkgfile
 f:a8f10ebe2f26f5568b711dfd72065754:libptytty/.footprint
 f:8ec82ffbe1d0162c1eb6b9db5778d83f:libptytty/.signature
 f:89b9b061099a814883af00974840de4d:libptytty/Pkgfile
