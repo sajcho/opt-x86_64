@@ -14,6 +14,8 @@ build() {
 	patch -p1 -i $SRC/fix-memory-using-gas-processor.patch
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr
 
 	make V=1
