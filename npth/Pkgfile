@@ -4,13 +4,15 @@
 
 name=npth
 version=1.6
-release=2
+release=3
 source=(https://gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr
 
 	make V=1
