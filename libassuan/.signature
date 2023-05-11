@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsvfGVfPDri1BO2SYD1Ot+xUzFG3L7Zr70lMAm1xubDRVRXZfJsz4veSKlr89Ni7bFC009arJnHG1JREgCcaEgg=
-SHA256 (Pkgfile) = 7e315ad5a6baeff2647b00b86dcb1fada5f7244cb8ce710fd58014fd93546d23
+RWQg5aRf982JAsoP1ccBl+CW6lrWG/KA769Owt5bhNF/V22nm8RRt29H1luira35XeS3CFl8zi1Ai6Ht3XYYJsFO49/eBI+XCww=
+SHA256 (Pkgfile) = e1f8b93a3f5127e9b2928a6aebd22db4b7a1a58ce3ed5c8252b8f1795c3d21ef
 SHA256 (.footprint) = 04071573bc0a75273f4bad945f222f77e441883c9d5972b2538b4b790e37d13c
 SHA256 (libassuan-2.5.5.tar.bz2) = 8e8c2fcc982f9ca67dcbb1d95e2dc746b1739a4668bc20b3a3c5be632edb34e4
