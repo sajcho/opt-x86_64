@@ -1706,8 +1706,8 @@ f:2245ccb06881fcffe8c2b52e002a1a1a:python3-installer/.footprint
 f:2abe7977f81f415442f14b37c95d9f48:python3-installer/.signature
 f:0dcc4f5f967fedaaecfd09bb72ffb1ec:python3-installer/Pkgfile
 f:44fa5a67bd7a46450abb50bcb7854cde:libassuan/.footprint
-f:96c8d5ca45ae84fb7c449cce9f41631f:libassuan/.signature
-f:64ff090b201748592413f776c798eba3:libassuan/Pkgfile
+f:eea0ba3f2ba6e263e51105b2157e808a:libassuan/.signature
+f:2686145ddf767fd486cd769063202877:libassuan/Pkgfile
 f:3acebcceab39e17f107be108292bec75:shared-mime-info/no-xmlto.patch
 f:46b641b08b209c773259888b6ad8fefc:shared-mime-info/post-install
 f:7f74e081c9c9c3290a41c8b2973cbfc9:shared-mime-info/.footprint
