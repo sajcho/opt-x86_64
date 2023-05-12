@@ -1077,8 +1077,8 @@ f:f63ec710510af4d41987ebb9561efcaa:python3-iniconfig/.footprint
 f:7fb1c38e535b5ca6676bf37ac28d5a45:python3-iniconfig/.signature
 f:4ab64e1f79c105b007e47ff00ecc9a49:python3-iniconfig/Pkgfile
 f:c90ccd9b76ba1f07a1debd5f9a83b013:gnupg/.footprint
-f:3cab32d01c318db025a4eaae652eaac0:gnupg/.signature
-f:a4438de7af3d96798f2d48a3ac169109:gnupg/Pkgfile
+f:bbf3946f3253ac885cf09d9321f75e4b:gnupg/.signature
+f:8723cb0cb0b7c1eeab4bf68fa5a6b9d1:gnupg/Pkgfile
 f:0fa3e73897a585effeadd0f9294c525d:python3-sphinxcontrib-websupport/.footprint
 f:42b3a13fa88d2998f4f18b767126e379:python3-sphinxcontrib-websupport/.signature
 f:ce189e5983593a55f35726ab48abe11d:python3-sphinxcontrib-websupport/Pkgfile
