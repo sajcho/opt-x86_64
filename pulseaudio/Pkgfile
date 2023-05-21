@@ -1,11 +1,11 @@
 # Description:	A featureful, general-purpose sound server
 # URL:		https://www.freedesktop.org/wiki/Software/PulseAudio/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	avahi fftw gst-plugins-base libasyncns sbc soxr speexdsp
+# Depends on:	avahi fftw libasyncns sbc soxr speexdsp
 
 name=pulseaudio
 version=16.1
-release=1
+release=2
 source=(https://freedesktop.org/software/${name}/releases/${name}-${version}.tar.xz \
 	pulseaudio.run)
 
@@ -34,7 +34,7 @@ build() {
 		-Dudev=enabled \
 		-Dx11=enabled \
 		-Delogind=enabled \
-		-Dgstreamer=enabled \
+		-Dgstreamer=disabled \
 		-Dwebrtc-aec=disabled \
 		-Dhal-compat=false \
 		-Ddoxygen=false \
