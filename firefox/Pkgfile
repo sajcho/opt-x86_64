@@ -4,13 +4,16 @@
 # Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox
-version=113.0.1
-release=1
-source=(https://archive.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
-	firefox.desktop)
+version=114.0b6
+release=0
+source=(https://ftp.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
+	424a213f8a13.diff firefox.desktop)
 
 build() {
-	cd ${name}-${version}
+	cd ${name}-114.0
+
+	# fix - use llvm-toolchain 16.x.y
+	patch -p1 -i $SRC/424a213f8a13.diff
 
 	# Then fix an issue with regular expressions in python-3.11
 	# Solution from BLFS
@@ -24,7 +27,7 @@ build() {
 	export SHELL="/bin/bash"
 	export BUILD_OFFICIAL=1
 	export MOZILLA_OFFICIAL=1
-	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE="none"
+	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE="system"
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
 	export MOZ_NOSPAM=1
 	export MOZ_DEBUG_FLAGS=" "
@@ -101,22 +104,40 @@ EOF
 
 	export CC=clang
 	export CXX=clang++
-	CFLAGS+=" -Wno-deprecated-declarations -Wno-deprecated-builtins"
-	CXXFLAGS+=" -Wno-deprecated-declarations -Wno-deprecated-builtins"
-	export RUSTFLAGS="-Clinker=clang -Clink-args=-fuse-ld=mold"
+	CFLAGS+=" -w"
+	CXXFLAGS+=" -w"
 
 	./mach build
 
 	DESTDIR=$PKG ./mach install
 
-	install -d $PKG/usr/share/pixmaps
-	ln -s /usr/lib/firefox/browser/chrome/icons/default/default48.png $PKG/usr/share/pixmaps/firefox_default48.png
-	install -D -m 0644 $SRC/firefox.desktop $PKG/usr/share/applications/firefox.desktop
+	local vendorjs="$PKG/usr/lib/firefox/browser/defaults/preferences/vendor.js"
+	install -D -m 0644 /dev/stdin "$vendorjs" <<END
+pref("intl.locale.requested", "");
+pref("browser.shell.checkDefaultBrowser", false);
+pref("extensions.autoDisableScopes", 11);
+END
 
-	# Remove crap
-	rm -r $PKG/usr/lib/firefox/browser/features
-	rm $PKG/usr/lib/firefox/removed-files
+	local distini="$PKG/usr/lib/firefox/distribution/distribution.ini"
+	install -D -m 0644 /dev/stdin "$distini" <<END
+[Global]
+id=SAUX-X86_64
+version=${version}
+about=Mozilla Firefox for SAUX-X86_64 Linux
+[Preferences]
+app.distributor=SAUX-X86_64
+app.distributor.channel=firefox
+END
 
+	for i in 16 22 24 32 48 64 128 256; do
+		install -D -m 0644 browser/branding/official/default$i.png \
+			$PKG/usr/share/icons/hicolor/${i}x${i}/apps/firefox.png
+	done
+
+	install -D -m 0644 $SRC/firefox.desktop \
+		$PKG/usr/share/applications/firefox.desktop
+
+	# Exclude library for revdep.
 	install -d $PKG/etc/revdep.d
-	echo "/usr/lib/firefox" > $PKG/etc/revdep.d/firefox
+	echo "/usr/lib/firefox/" > $PKG/etc/revdep.d/firefox
 }
