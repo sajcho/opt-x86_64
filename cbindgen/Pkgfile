@@ -5,7 +5,7 @@
 
 name=cbindgen
 version=0.24.3
-release=1
+release=2
 source=(https://github.com/eqrion/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
@@ -13,8 +13,6 @@ build() {
 
 	mkdir "$PKGMK_SOURCE_DIR/rust" || true
 	export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
-	export CARGO_BUILD_RUSTFLAGS="-C linker=gcc -C link-args=-fuse-ld=mold"
-	export RUSTFLAGS="-C linker=gcc -C link-args=-fuse-ld=mold"
 
 	cargo fetch --verbose --locked --target $CHOST
 
