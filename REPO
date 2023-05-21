@@ -906,9 +906,9 @@ f:d1513d4201b5297a07ec8ceb35644c65:tslib/Pkgfile
 f:c884a5dd8ca9cb3477e6c0acc446b009:pulseaudio/pulseaudio.run
 f:e5f74be27525658dae59401455944186:pulseaudio/post-install
 f:446b36530aa3515466c6b9fc146f1021:pulseaudio/.footprint
-f:34610e92de8502340b378eb93eb717b3:pulseaudio/.signature
+f:62a9c015f1e984e3e46bc10206e56012:pulseaudio/.signature
 f:9ccc7331c2a8c77a4bda07ef08452f58:pulseaudio/pre-install
-f:2744c9dfb84371603d9835a3af77d42c:pulseaudio/Pkgfile
+f:78a3897631b50779fa591ad4dade4ac6:pulseaudio/Pkgfile
 f:bb406426f3e6425340dfb87dd694f181:pulseaudio/README
 f:c6e01a34e86af3f51cc25284bfa4e568:libgd/.footprint
 f:dc6f254e68188d8bdb0e9f4fd9ffb04e:libgd/.signature
@@ -1134,8 +1134,8 @@ f:4bfc5127f9d65f664f502ea5e7ab9774:graphene/.footprint
 f:f510d282d15b2ca82823b4441f8917b6:graphene/.signature
 f:be99d26502f30d8a90051f9da89c4259:graphene/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
-f:0d3935cc10e544f0810b8f8d966d4f65:cbindgen/.signature
-f:b56a2321e2ec6386c5cb2916d3161cf2:cbindgen/Pkgfile
+f:55b545d1645cc0ecfa2cf2bcbcf34759:cbindgen/.signature
+f:7097166df974637330f78a1a226cf5cf:cbindgen/Pkgfile
 f:0b8ba9eba5d044212330133ebd18c4db:perl-xml-parser/.footprint
 f:6d850cb0cd8679d4e4c6611fa1e789f5:perl-xml-parser/.signature
 f:397429299b9fa3da9b42415f6abb2b37:perl-xml-parser/Pkgfile
@@ -1646,6 +1646,7 @@ f:9421dc2c58c56bffd249e3a2cc4336bc:jq/Pkgfile
 f:652d440bfb25db756f0d38d0eb8b6c8d:autoconf-archive/.footprint
 f:f9ecf147d76326a7d09ef2104084ff5c:autoconf-archive/.signature
 f:da4a5299997aa6b5a0053dadc7558075:autoconf-archive/Pkgfile
+f:b1060e70aaff0e2baed6fc1d91ebe9b3:SECURITY.md
 f:9e7063d58556934276516abaec2e12d3:mutt/.footprint
 f:664e95a959edfe6ad2330df6079127e1:mutt/.signature
 f:4efcd84634dda24d047ebce1d4480b54:mutt/Pkgfile
@@ -1677,11 +1678,11 @@ f:b8ad22ca614595367c6007ef9042c771:hunspell/Pkgfile
 f:09539e4eff53961858ab98bd6046902a:gnome-themes-extra/.footprint
 f:c208f12bf901415d81693c0af1e072d0:gnome-themes-extra/.signature
 f:01706ab891bda527fb8ff4c0da17870c:gnome-themes-extra/Pkgfile
-f:e47020b8b659d615a73e5ed4cadad35c:firefox/.footprint
-f:85381ed9fec9fea6d0984093c9cb3f3a:firefox/.signature
-f:fa226fb8da0eba690a4c14b27364dbdb:firefox/Pkgfile
+f:91b819a89ba470c768cb28d5cf837560:firefox/.footprint
+f:959bb7333fcbda0bc63698c0ad7edc32:firefox/.signature
+f:806a2502f8fe7391dec6705956f43cbe:firefox/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
-f:4187475becf5035b4afab04af8d177c6:firefox/buildlog
+f:76088407ea38e74061e2534b755b7d80:firefox/424a213f8a13.diff
 f:f2dc051761bb2987e7f2acdf79c46476:lxqt-runner/.footprint
 f:9ad44515f81b913da0b41a3a9796290a:lxqt-runner/.signature
 f:44ad131a950b1c487d39ed9fbd972048:lxqt-runner/Pkgfile
