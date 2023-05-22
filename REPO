@@ -1679,10 +1679,9 @@ f:09539e4eff53961858ab98bd6046902a:gnome-themes-extra/.footprint
 f:c208f12bf901415d81693c0af1e072d0:gnome-themes-extra/.signature
 f:01706ab891bda527fb8ff4c0da17870c:gnome-themes-extra/Pkgfile
 f:91b819a89ba470c768cb28d5cf837560:firefox/.footprint
-f:959bb7333fcbda0bc63698c0ad7edc32:firefox/.signature
-f:806a2502f8fe7391dec6705956f43cbe:firefox/Pkgfile
+f:9e8663d03be82491c186420f4b5d94ac:firefox/.signature
+f:d1c69ab5dae46857c6421d69c31dd390:firefox/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
-f:76088407ea38e74061e2534b755b7d80:firefox/424a213f8a13.diff
 f:f2dc051761bb2987e7f2acdf79c46476:lxqt-runner/.footprint
 f:9ad44515f81b913da0b41a3a9796290a:lxqt-runner/.signature
 f:44ad131a950b1c487d39ed9fbd972048:lxqt-runner/Pkgfile
