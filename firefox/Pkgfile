@@ -4,16 +4,13 @@
 # Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox
-version=114.0b6
+version=114.0b7
 release=0
 source=(https://ftp.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
-	424a213f8a13.diff firefox.desktop)
+	firefox.desktop)
 
 build() {
 	cd ${name}-114.0
-
-	# fix - use llvm-toolchain 16.x.y
-	patch -p1 -i $SRC/424a213f8a13.diff
 
 	# Then fix an issue with regular expressions in python-3.11
 	# Solution from BLFS
