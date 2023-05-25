@@ -5,20 +5,18 @@
 
 name=imagemagick
 _realname=ImageMagick
-version=7.1.1-8
+version=7.1.1-10
 release=1
 source=(https://imagemagick.org/archive/releases/${_realname}-${version}.tar.xz)
 
 build() {
 	cd ${_realname}-${version}
 
-	CFLAGS+=" -flto=auto -fuse-ld=mold"
-	CXXFLAGS+=" -flto=auto -fuse-ld=mold"
-
 	./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--enable-shared \
+		--enable-static \
 		--with-modules \
 		--with-perl=yes \
 		--with-lcms=yes \
