@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAmzT3Nsz1MunrCkGSPMlLaC74zUBt8uy6lDF+yBmvVsGcTsS0M0IVrnNEl8vxHDZYN7SsVFQ6/MUcW1fAzQMNww=
-SHA256 (Pkgfile) = eb8a3b608c13f21014022e916c0ed6e18c1d0c985bf3b5ccd0ca2e6ac2658cd1
+RWQg5aRf982JAo+jj9tKuwdvarLc0mKsWNNiBwD1DI04OHUi6OAkGCU0zJiVYxQqKrKNKl/NxqG2Iv7RmiCgUNjgPMp0mz1LrA4=
+SHA256 (Pkgfile) = 8e2ae2afd043dd64337cba29dc7248a24c2be61fe7eb6786a8b25798f6390458
 SHA256 (.footprint) = d64e19e39a01ad16ff8d3ef25def879c86a6aeea5432b0d0e5a2b46c75022982
-SHA256 (icewm-3.3.3.tar.gz) = 20a4cd6d17f4adf643465cbd25e998497345f945cd8d0edf2c146ad92d8c4925
+SHA256 (icewm-3.3.5.tar.gz) = cdf46a4cb3c75541e37577a652729e8c2bdd302f5e13e30526ced27d91be596a
