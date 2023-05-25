@@ -4,7 +4,7 @@
 # Depends on:	dbus gobject-introspection libxtst
 
 name=at-spi2-core
-version=2.48.0
+version=2.48.2
 release=1
 source=(https://download.gnome.org/sources/${name}/${version%.*}/${name}-${version}.tar.xz)
 
