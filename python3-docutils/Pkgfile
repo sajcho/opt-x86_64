@@ -5,8 +5,8 @@
 
 name=python3-docutils
 _realname=docutils
-version=0.19
-release=3
+version=0.20.1
+release=1
 source=(https://files.pythonhosted.org/packages/source/d/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {

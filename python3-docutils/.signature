@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAghcP2li0WwEycW+eXh/m11ovpg/zA5/hPMhvTLXv+9orxbJ8NUTrGsEnFvW9MHstRfNI0g+drbQIMDgdHt9/wg=
-SHA256 (Pkgfile) = 67da77ac100b86b264757f73087cdefa01b31bad47befb0009b16514ec994b1c
-SHA256 (.footprint) = f7a7e21a18c23bd9d5c82057d8f478b967253c13f26616326f472b38120fb7b3
-SHA256 (docutils-0.19.tar.gz) = 33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6
+RWQg5aRf982JArPHR6DxcA+KoneKqzks/okw3BY5hYfENkNOVlhXWv8ZbP3++fNFXDy5S+2DmoG6juyWu415a1gy466JuS37zQg=
+SHA256 (Pkgfile) = 9df7063f71612d5d5e1e7267be0b249a59229b2b5d807c27c0662a48f0530a93
+SHA256 (.footprint) = 41b42dc1ad5ec35c13f0002f19799c7f7d15ad35ede1d8d791a3076d6e9433e9
+SHA256 (docutils-0.20.1.tar.gz) = f08a4e276c3a1583a86dce3e34aba3fe04d02bba2dd51ed16106244e8a923e3b

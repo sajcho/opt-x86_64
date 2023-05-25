@@ -40,15 +40,12 @@ lrwxrwxrwx	root/root	usr/bin/rstpep2html.py -> rstpep2html
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.11/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils-0.19-py3.11.egg-info/
--rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.19-py3.11.egg-info/PKG-INFO
--rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.19-py3.11.egg-info/SOURCES.html
--rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.19-py3.11.egg-info/SOURCES.txt
--rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.19-py3.11.egg-info/dependency_links.html
--rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.19-py3.11.egg-info/dependency_links.txt
--rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.19-py3.11.egg-info/entry_points.txt
--rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.19-py3.11.egg-info/top_level.html
--rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.19-py3.11.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils-0.20.1-py3.11.egg-info/
+-rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.20.1-py3.11.egg-info/PKG-INFO
+-rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.20.1-py3.11.egg-info/SOURCES.txt
+-rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.20.1-py3.11.egg-info/dependency_links.txt
+-rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.20.1-py3.11.egg-info/entry_points.txt
+-rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils-0.20.1-py3.11.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/__main__.py
@@ -128,6 +125,8 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycac
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycache__/sk.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycache__/sv.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycache__/sv.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycache__/uk.cpython-311.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycache__/uk.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycache__/zh_cn.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycache__/zh_cn.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycache__/zh_tw.cpython-311.opt-1.pyc
@@ -157,6 +156,7 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/languages/__pycac
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/ru.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/sk.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/sv.py
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/uk.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/zh_cn.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/languages/zh_tw.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/nodes.py
@@ -304,6 +304,8 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/langu
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/sk.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/sv.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/sv.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/uk.cpython-311.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/uk.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/zh_cn.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/zh_cn.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/__pycache__/zh_tw.cpython-311.opt-1.pyc
@@ -333,6 +335,7 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/langu
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/ru.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/sk.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/sv.py
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/uk.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/zh_cn.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/languages/zh_tw.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/parsers/rst/roles.py
@@ -454,7 +457,7 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/writers/html5_pol
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/__pycache__/__init__.cpython-311.pyc
--rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/math.css
+-rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/math.css
 -rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/minimal.css
 -rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/plain.css
 -rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/html5_polyglot/responsive.css
@@ -477,8 +480,11 @@ drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/__init__.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/__init__.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/prepstyles.cpython-311.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/prepstyles.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/pygmentsformatter.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/__pycache__/pygmentsformatter.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/prepstyles.py
 -rw-r--r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/pygmentsformatter.py
 -rw-rw-r--	root/root	usr/lib/python3.11/site-packages/docutils/writers/odf_odt/styles.odt
 drwxr-xr-x	root/root	usr/lib/python3.11/site-packages/docutils/writers/pep_html/
