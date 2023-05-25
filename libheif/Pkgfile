@@ -4,21 +4,27 @@
 # Depends on:	aom dav1d gdk-pixbuf libde265 libjpeg-turbo libpng x265
 
 name=libheif
-version=1.15.2
+version=1.16.2
 release=1
 source=(https://github.com/strukturag/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	./configure \
-		--prefix=/usr \
-		--disable-go \
-		--disable-static
+	mkdir build
+	cd build
 
-	make V=1
+	CXXFLAGS+=" -flto=auto"
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_SKIP_INSTALL_RPATH=ON \
+		-Wno-dev
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
 	make DESTDIR=$PKG install
 
-	find $PKG -type f -name '*.la' -delete
+	find $PKG -type f -name '*.a' -delete
 }

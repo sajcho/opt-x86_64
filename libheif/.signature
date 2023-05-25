@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsvOI4CpziyPubdpFr+EyntSb8Rcjzi+hHu6lYVC6d73XE5+4M4YXHOpzuvYbagB5Qo7AeC/DR4W1DHoBlwKwAQ=
-SHA256 (Pkgfile) = 21be7fd5fe3a8208500d14c984b7196b1a759caffb1e140b4f9a82441b843d52
-SHA256 (.footprint) = cfc2ea1e48e049c31aa76ee1090538767fa3001c85ceccac318a2a87ed1d219e
-SHA256 (libheif-1.15.2.tar.gz) = 7a4c6077f45180926583e2087571371bdd9cb21b6e6fada85a6fbd544f26a0e2
+RWQg5aRf982JAnKGJ4aCPusRI8Gzbn/TSkw5X26Flao0Zz/SLL7R/g0+u/mYuYHyD4kxSaAvcvRpbtkERzrWI/Z+JfbAjEbaxQM=
+SHA256 (Pkgfile) = 54d24fbd117227a513a0c2d5169a2ec7540ee40716bee2da495015eab22c1994
+SHA256 (.footprint) = 1cfef874e5c46fec9598726ec4755066d1443eb35afb9aec7cf285e1c91c12fa
+SHA256 (libheif-1.16.2.tar.gz) = 7f97e4205c0bd9f9b8560536c8bd2e841d1c9a6d610401eb3eb87ed9cdfe78ea
