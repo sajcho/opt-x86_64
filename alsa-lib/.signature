@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAj72pQx5KzLA4Yanig3pEHYgRlxTLbNH315cCG7ej02/F3jtclL0/jOt3H4SNfaWTeaOR9CLFm6++6JwepVzhwM=
-SHA256 (Pkgfile) = cb76b05da01d02504bdc409507d1e7e8882edf11d4f93e4c5dacdcdf72c658c8
+RWQg5aRf982JApZIatluHpUS25LpJ/PdrbhjoDMWxjN5KEs1qWMutRpmuOFE4ClzImw1Af31HY+IAgawYuky1pz0alrh6Yu6PgQ=
+SHA256 (Pkgfile) = 1c2a9896b47ca7f70e6c322aa24b8c74560a2d4f4516f6acf620541c9f4a43de
 SHA256 (.footprint) = 2c68b4db1dadfbd0f2665294f789b696c4d96f796628f5365b13c775fc683f07
-SHA256 (alsa-lib-1.2.8.tar.gz) = 39af47a307b287659991981468888be307ee0c6c2ecdcbd2c646dbc0b1516771
+SHA256 (alsa-lib-1.2.9.tar.gz) = 95bbac3c04e7a722439e0c282232881e8657562ae55a90b85e58a8f5aa140ac0
