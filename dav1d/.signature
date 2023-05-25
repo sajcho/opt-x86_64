@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAmHijMjNPetgc/BV3qu9/ZD04Yk9ltTpZ9x0CxOTjZtQBjfZbhDOyLLevDMvDhHRD75D7pSo00FA/TLXUShOjgY=
-SHA256 (Pkgfile) = ba2f59f6d563ae8fa0a60b59315bbf92aeb378173907d05009a80fba4b84238a
-SHA256 (.footprint) = ba0d12aa5eedea21903d1811f3d680c5086c5dc54d6e7198eaff6d45de8ae163
-SHA256 (dav1d-1.1.0.tar.gz) = b163791a587c083803a3db2cd18b4fbaf7fb865b47d038c4869ffef7722b6b16
+RWQg5aRf982JAi7owwuMivz/uXE7pD1a9pvnYXPScno0hFASefPARDkcV6HG9boWsGglY7iJeTgYDeLQtars8xyst3NXAQHb2gQ=
+SHA256 (Pkgfile) = 5ae8b7c4fc20712039b83b722c7f648ddda1e9f6f125a3808ccb2984e1ed9514
+SHA256 (.footprint) = b83da5a0539249fa67cbd4a3259ae7249c059b84bc7f4644c2a588ec2bc5e063
+SHA256 (dav1d-1.2.0.tar.gz) = 88669c6113ddfda068f03bf8e864e4e6a1ea2e2480afec86d1bf91a8c600e79d
