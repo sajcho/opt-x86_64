@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=icu
-version=72.1
+version=73.1
 release=1
 source=(https://github.com/unicode-org/${name}/releases/download/release-${version//./-}/icu4c-${version/./_}-src.tgz)
 
@@ -12,11 +12,12 @@ build() {
 
 	export CC="gcc"
 	export CXX="g++"
-	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -fuse-ld=mold"
+	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now"
 
 	./configure \
 		--prefix=/usr \
 		--mandir=/usr/share/man \
+		--enable-static \
 		--disable-samples \
 		--disable-tests
 
@@ -24,5 +25,5 @@ build() {
 
 	make -j1 DESTDIR=$PKG install
 
-	rm $PKG/usr/share/icu/72.1/LICENSE
+	rm $PKG/usr/share/icu/73.1/LICENSE
 }
