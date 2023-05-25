@@ -4,8 +4,8 @@
 # Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox
-version=114.0b7
-release=0
+version=114.0b8
+release=1
 source=(https://ftp.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
 	firefox.desktop)
 
@@ -81,7 +81,7 @@ cat <<- EOF > .mozconfig
 		ac_add_options --enable-hardening
 		ac_add_options --enable-rust-simd
 		ac_add_options --enable-optimize
-		ac_add_options --enable-linker=mold
+		ac_add_options --enable-linker=lld
 		ac_add_options --enable-system-ffi
 		ac_add_options --enable-system-pixman
 		#
