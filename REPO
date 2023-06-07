@@ -717,9 +717,9 @@ f:17226659298a9d9bb3f323186d220f6f:nss/nss-config.in
 f:26b8bbcbe2665487c4fe8401de0a2daf:nss/nss-3.54-standalone-2.patch
 f:9ad2a26c137208ff292061143c7cc227:nss/nss-util.pc.in
 f:a58237121e7e7bde9ab97353c9205fac:nss/.footprint
-f:c140dc55d965bba65a0c478124577b3e:nss/.signature
+f:3874c078f4d22db1a01afdf498098488:nss/.signature
 f:a796e6ab6c87573ffb649ce8769bc07a:nss/nss.pc.in
-f:944c6e7141f0279a09929e9ebd4cbbd4:nss/Pkgfile
+f:fb35d2998dd77f8a7cfc8b6c3d8d706c:nss/Pkgfile
 f:43cef324e77e2dabdc8ab574318ac827:polkit/polkit-1
 f:7b76ca54e48f9dd8aa472fab385851a2:polkit/.footprint
 f:5c9430778b562131685e0a9e70f40509:polkit/.signature
