@@ -4,12 +4,15 @@
 
 name=nspr
 version=4.35
-release=1
+release=2
 source=(https://ftp.mozilla.org/pub/nspr/releases/v${version}/src/${name}-${version}.tar.gz
 	$name.pc.in)
 
 build() {
 	cd ${name}-${version}/nspr
+
+	export CC=clang
+	export CXX=clang++
 
 	local NSPR_LIBS NSPR_CFLAGS NSPR_VERSION
 
