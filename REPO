@@ -851,9 +851,9 @@ f:9fba278f81953641f6fb76e63b8bd5cd:gtk-doc/Pkgfile
 f:9fa2fe9767a6bb2bd194fb558fc3e3e8:dbus/dbus.check
 f:bf567c5e6650b609d4dd8e48efb18864:dbus/dbus-enable-elogind.patch
 f:76c4a419ab5c93362976908ec968ef93:dbus/dbus-daemon-optional.patch
-f:03cdd80e6a001c51fcebd3ee470fdfed:dbus/.footprint
-f:0aed280e0b84b35a6a1ead3ee385a5e8:dbus/.signature
-f:5db49fc57a956a558d55a5bf6393e615:dbus/Pkgfile
+f:44822ccc78b5f6a7ddb1d7cce1a44257:dbus/.footprint
+f:29c5f47fb9e135c94cc60e90eba68376:dbus/.signature
+f:f31e670abc36dcabbb596d2cadbee350:dbus/Pkgfile
 f:57237d3f2610dbf998eaa938992dceb6:dbus/30-dbus.launch
 f:27f58277dc828be35913b54b04c985b0:dbus/dbus.run
 f:fedff6f9ae9c360f7d6a4f1c12d87541:menu-cache/.footprint
