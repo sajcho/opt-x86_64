@@ -4,11 +4,14 @@
 
 name=opus
 version=1.4
-release=1
-source=(https://github.com/xiph/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
+release=2
+source=(https://github.com/xiph/${name}/releases/download/v${version}/${name}-${version}.tar.gz \
+	arm32.patch)
 
 build() {
 	cd ${name}-${version}
+
+	patch -p1 -i $SRC/arm32.patch
 
 	build-meson \
 		-Dcustom-modes=true \
