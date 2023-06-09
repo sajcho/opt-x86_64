@@ -582,8 +582,8 @@ f:db57f7e4185c5a92f245272a0ae79086:l-smash/.signature
 f:3fa3739d5577de6eb39fd9ec16f2d439:l-smash/Pkgfile
 f:2083f33e11dfe15feb7bf9bca0f6c44b:nspr/nspr.pc.in
 f:40f5422d3bcacfdc5be021a7d377410e:nspr/.footprint
-f:e1831d21633cfa4e9690c27c6caed13a:nspr/.signature
-f:b8e11e2bd9692d8bf7addf78a6b41b5a:nspr/Pkgfile
+f:a0b3fc03de8ac28d71e9c05c30df987a:nspr/.signature
+f:d6c2680d5e735c356cf1c84064228545:nspr/Pkgfile
 f:54e0a13fe25017a90ba8a36d36698c5e:obconf-qt/post-install
 f:d260058b82df62b7cedaeaff75fe439a:obconf-qt/.footprint
 f:14f5b33bc29ed0c4b860417d377ff45d:obconf-qt/.signature
@@ -717,9 +717,9 @@ f:17226659298a9d9bb3f323186d220f6f:nss/nss-config.in
 f:26b8bbcbe2665487c4fe8401de0a2daf:nss/nss-3.54-standalone-2.patch
 f:9ad2a26c137208ff292061143c7cc227:nss/nss-util.pc.in
 f:a58237121e7e7bde9ab97353c9205fac:nss/.footprint
-f:3874c078f4d22db1a01afdf498098488:nss/.signature
+f:c1b8ca322ff974dbfe5382cc4b3d6095:nss/.signature
 f:a796e6ab6c87573ffb649ce8769bc07a:nss/nss.pc.in
-f:fb35d2998dd77f8a7cfc8b6c3d8d706c:nss/Pkgfile
+f:a4d9845b00f1be7e1b9c31783ff9a3c6:nss/Pkgfile
 f:43cef324e77e2dabdc8ab574318ac827:polkit/polkit-1
 f:7b76ca54e48f9dd8aa472fab385851a2:polkit/.footprint
 f:5c9430778b562131685e0a9e70f40509:polkit/.signature
@@ -1006,9 +1006,10 @@ f:b1629ea70fb17684c8be8434f445e827:cyrus-sasl/.signature
 f:f53bd63d43b26b8a2cee067d11ca9a1f:cyrus-sasl/saslauthd.run
 f:df1a4adb01f9f020be7711d273c63b24:cyrus-sasl/Pkgfile
 f:0e500515c2aeb7c896cc02be96d1f1d0:cyrus-sasl/saslauthd-sv.conf
+f:842cc46f8dac08b5f97f2924201a5aa2:opus/arm32.patch
 f:374070b50c8244a68857f578120ebd5d:opus/.footprint
-f:46c8d784107e98b27b664c7c6b412dbf:opus/.signature
-f:ed50148cf964a570b4252adc6ddc05c4:opus/Pkgfile
+f:0e199f3108cf583f60de1aac6f9c5c5b:opus/.signature
+f:cdce26d0477cd66d7901925f3e8541bc:opus/Pkgfile
 f:803a6f66186b0e324f3cd4e44a849665:qtermwidget/.footprint
 f:6a7421ec34d3e9dc726b2d46ddbf9b50:qtermwidget/.signature
 f:2576bd32073a62ffafcc0d234507aac6:qtermwidget/Pkgfile
@@ -1674,8 +1675,8 @@ f:09539e4eff53961858ab98bd6046902a:gnome-themes-extra/.footprint
 f:c208f12bf901415d81693c0af1e072d0:gnome-themes-extra/.signature
 f:01706ab891bda527fb8ff4c0da17870c:gnome-themes-extra/Pkgfile
 f:91b819a89ba470c768cb28d5cf837560:firefox/.footprint
-f:cc7355e1415fdc439058661e15c4f9aa:firefox/.signature
-f:75bb05303fb81c53f43dc5697e9a97d1:firefox/Pkgfile
+f:f6f648346371b1f6e59456c81a730924:firefox/.signature
+f:d8ca0cbb930276903fc2794e1825293a:firefox/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:f2dc051761bb2987e7f2acdf79c46476:lxqt-runner/.footprint
 f:9ad44515f81b913da0b41a3a9796290a:lxqt-runner/.signature
