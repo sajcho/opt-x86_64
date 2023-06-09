@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAunItiGfrCwrHNKyknZXIHzF/Jv97vmn2O1uxwtYUJsz8sPMkyXhLpvyL/siBCEOAtLCNTF769qKM9uy0h+AXAQ=
-SHA256 (Pkgfile) = e3a941842d232bfc1189e0c195e96e6c47b5c14296550b3aa5bceb2aaddff3d1
-SHA256 (.footprint) = b76aee4a24471a53c221836bba43556aab60c371395ae9cfe8a8997fe92f1e4c
-SHA256 (dbus-1.14.6.tar.xz) = fd2bdf1bb89dc365a46531bff631536f22b0d1c6d5ce2c5c5e59b55265b3d66b
+RWQg5aRf982JAkPvGuskCPML85xAek8ouR1lOTsrE/ZRnKOoxYmfPCRxtVpleKK7JQ22I5ZEGjhG+1r+uCkU/9XQe+YM4/P+qw4=
+SHA256 (Pkgfile) = 0b6502583fce817ddc33713407bbe68db27df18e94bc61d3f4435e0d0bd25bb5
+SHA256 (.footprint) = aa944eb6437fd3b0a9edf7ee3718ceffc366d1406e19825545810a0703301592
+SHA256 (dbus-1.14.8.tar.xz) = a6bd5bac5cf19f0c3c594bdae2565a095696980a683a0ef37cb6212e093bde35
 SHA256 (dbus-daemon-optional.patch) = f05acd3ae18afd2c97a482241e81b24407da32b654546125593b829922107f86
 SHA256 (dbus-enable-elogind.patch) = faffcaa5b295f49fcedeed2c9ece5298949096be3062fd99a4bf1a6ac3ad1ea0
 SHA256 (30-dbus.launch) = fc704fc2a97b7dc7547cf304c4cb35b6dc2942a0bfceb1e0d15168b6650f9b2d
