@@ -74,6 +74,8 @@ drwxr-xr-x	root/root	usr/lib/node_modules/
 drwxr-xr-x	root/root	usr/lib/node_modules/corepack/
 drwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/
 -rwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/corepack.js
+drwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/lib/
+-rw-r--r--	root/root	usr/lib/node_modules/corepack/dist/lib/corepack.cjs
 -rwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/npm.js
 -rwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/npx.js
 -rwxr-xr-x	root/root	usr/lib/node_modules/corepack/dist/pnpm.js
