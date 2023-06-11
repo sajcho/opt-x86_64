@@ -834,9 +834,9 @@ f:c3605f016f5ee33c3dd06cf2e94b475b:iso-codes/Pkgfile
 f:8e0e835e79536071261c9b70ecf7183c:libssh/.footprint
 f:b775c403b0edf6ba946bcbb72d294c73:libssh/.signature
 f:c4c718c963af7c9d0d626ec2889e7860:libssh/Pkgfile
-f:5dc9fd8fd96f57065dac3e4ac17cac21:nodejs/.footprint
-f:b9cabb5003a5bea972381ceff833cc41:nodejs/.signature
-f:443ab5989e83a3d75cec56e511c6b233:nodejs/Pkgfile
+f:6cc5f0bc76dfbd253719cbe5088b5b4f:nodejs/.footprint
+f:ea03b7c68c5b71e4c6da0d4a196f5c8c:nodejs/.signature
+f:3ecfe97a1980a62051696a11e4fc0c88:nodejs/Pkgfile
 f:0a4ff1a49b94567ca211ff8e78164cf4:wireless-tools/.footprint
 f:eb4455078e2d3aafc7454b1689bcf8e7:wireless-tools/.signature
 f:b13a9c8682772e47589816d19aaf7e13:wireless-tools/Pkgfile
