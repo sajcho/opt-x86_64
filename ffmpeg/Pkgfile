@@ -5,17 +5,17 @@
 
 name=ffmpeg
 version=6.0
-release=1
+release=2
 source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
-	export CFLAGS="-O2 -m64 -mtune=generic -fuse-ld=mold -flto=auto -Wno-psabi -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
-	export CXXFLAGS="-O2 -m64 -mtune=generic -fuse-ld=mold -flto=auto -Wno-psabi -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS"
-	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -fuse-ld=mold -flto=auto"
-
-	sed 's|O3|O2|g' -i configure
+	sed \
+		-e 's|O3|O2|g' \
+		-e 's|check_cflags  -flto|check_cflags -flto=auto -ffat-lto-objects|' \
+		-e 's|check_ldflags -flto|check_ldflags -flto=auto -ffat-lto-objects|' \
+		-i configure
 
 	./configure \
 		--prefix=/usr \
