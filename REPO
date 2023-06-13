@@ -1483,8 +1483,8 @@ f:abd664c85d82f407511b25e42ab9c8c6:qt5-qttools/.signature
 f:170406f4c24e460fa66026ea1939ba99:qt5-qttools/assistant-qt5.desktop
 f:290ee1db949aa8f624ea449b2c90537d:qt5-qttools/Pkgfile
 f:5ddc67f0279f91611c7257a921229bb3:ffmpeg/.footprint
-f:08e81eef6620c2575b6db680efa5f516:ffmpeg/.signature
-f:1e800e632027a143a178ec7b16febe0b:ffmpeg/Pkgfile
+f:c659242c4c5913ff1ffbc0b0a9885079:ffmpeg/.signature
+f:9d914dde12774b701752a3e0c5696765:ffmpeg/Pkgfile
 f:9afbaade4182d0a74cffd31a61782fc7:lsof/.footprint
 f:731515b9ececbac94a06a383685fb77a:lsof/.signature
 f:17bbb418022ababef319969248feda1c:lsof/Pkgfile
