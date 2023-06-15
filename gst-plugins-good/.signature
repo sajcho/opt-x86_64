@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAtrzlbrRZGFSPrsQ0Xe2PQBj6937Ywe7joZlnRbqt6wpKsLry1myKhwWOTUxr5P5vK5pUdCgapg/jYAnj2JNdwI=
-SHA256 (Pkgfile) = b0deb7faef1256b7fb689a7c1606c6eb6784c256a8e5c1913850aabe576c0a4b
-SHA256 (.footprint) = 23859267f19f7261aa1525e8f05f37572aed212f63082fd8ef90e1ab0c43386c
-SHA256 (gst-plugins-good-1.22.1.tar.xz) = 44f9104654b4fd042aebe90932ab92e7ff7d8460fbc05b23dad87dffe70974cc
+RWQg5aRf982JAk31vifxBRbKVEe8wYfcQA6auU8ia+3VMFOZ35qQloeKexH13Co88RN01xrjwS4GXMIJkMDQQv1LwsY+mNDRiwU=
+SHA256 (Pkgfile) = e21e260550ef88dc143ddb300fb7db58bfdd814b19818958addfe9214ea7f1d7
+SHA256 (.footprint) = b4c7ea6abda983964076df459928de0e63221ddb433ab21bb0ae07b02442ea13
+SHA256 (gst-plugins-good-1.22.3.tar.xz) = af81154b3a2ef3f4d2feba395f25696feea6fd13ec62c92d3c7a973470710273

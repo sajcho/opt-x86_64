@@ -47,7 +47,6 @@ drwxr-xr-x	root/root	usr/lib/gstreamer-1.0/
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstossaudio.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstpng.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstpulseaudio.so
--rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstqmlgl.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstreplaygain.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstrtp.so
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstrtpmanager.so

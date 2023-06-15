@@ -1,15 +1,18 @@
 # Description:	GStreamer streaming media framework good plug-ins
 # URL:		https://gstreamer.freedesktop.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	lame libavc1394 libcaca libdv libgudev libiec61883 libshout libsoup libvpx mpg123 pulseaudio taglib wavpack
+# Depends on:	gstreamer lame libavc1394 libcaca libdv libgudev libiec61883 libshout libsoup libvpx mpg123 pulseaudio taglib wavpack
 
 name=gst-plugins-good
-version=1.22.1
+version=1.22.3
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -ffat-lto-objects"
+	CXXFLAGS+=" -ffat-lto-objects"
 
 	# clean
 	sed '/Wmissing-include-dirs/d' -i meson.build
@@ -18,9 +21,6 @@ build() {
 		-Dnls=disabled \
 		-Dpackage-name="GStreamer (SAUX-x86_64)" \
 		-Dpackage-origin="https://github.com/sajcho/" \
-		-Db_lto=true \
-		-Dc_args="-fuse-ld=mold" \
-		-Dc_link_args="-fuse-ld=mold" \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
