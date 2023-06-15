@@ -1,15 +1,18 @@
 # Description:	GStreamer streaming media framework bad plug-ins
 # URL:		https://gstreamer.freedesktop.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	chromaprint faac faad2 libmodplug libnice libsrtp mjpegtools openjpeg2 soundtouch libgudev openal vulkan-loader neon shaderc
+# Depends on:	chromaprint faac faad2 gstreamer ladspa libmodplug libnice libsrtp mjpegtools openjpeg2 soundtouch libgudev openal vulkan-loader neon shaderc
 
 name=gst-plugins-bad
-version=1.22.1
+version=1.22.3
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -ffat-lto-objects"
+	CXXFLAGS+=" -ffat-lto-objects"
 
 	# clean
 	sed '/Wmissing-include-dirs/d' -i meson.build
@@ -18,9 +21,6 @@ build() {
 		-Dnls=disabled \
 		-Dpackage-name="GStreamer (SAUX-x86_64)" \
 		-Dpackage-origin="https://github.com/sajcho/" \
-		-Db_lto=true \
-		-Dc_args="-fuse-ld=mold" \
-		-Dc_link_args="-fuse-ld=mold" \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
