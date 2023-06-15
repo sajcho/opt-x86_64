@@ -4,12 +4,15 @@
 # Depends on:	bison flex gobject-introspection libcap libxml2
 
 name=gstreamer
-version=1.22.1
+version=1.22.3
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -ffat-lto-objects"
+	CXXFLAGS+=" -ffat-lto-objects"
 
 	# clean
 	sed '/Wmissing-include-dirs/d' -i meson.build
@@ -18,9 +21,6 @@ build() {
 		-Dnls=disabled \
 		-Dpackage-name="GStreamer (SAUX-x86_64)" \
 		-Dpackage-origin="https://github.com/sajcho/" \
-		-Db_lto=true \
-		-Dc_args="-fuse-ld=mold" \
-		-Dc_link_args="-fuse-ld=mold" \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
