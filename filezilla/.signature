@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAmU2l5TFa8+fPzTj/9MNkTjohyi87lJKd1LB4uuwqW6+cYkcieHyxJh/UexRNYFZwnOG1eERTKYjbJZwJl1aNQc=
+SHA256 (Pkgfile) = 4eae450b8612e8e3592fcd2cb9c7fc2440cf49481c45c4c9a37840a4f78f3aea
+SHA256 (.footprint) = a84070d702318e95f9dab81da40b77ec5e5e3ec35b2f4ebc8c3fd7686963c2ad
+SHA256 (FileZilla_3.64.0_src.tar.xz) = 813d184d54984cf0fb27a455423089070e273b2ef8a70cb613e741170edf479a
+SHA256 (disable-xdg-open.patch) = e03551cbbcaf66d9b113eab3ebff957c23357a3ba8b5449b74e0513d94261622
+SHA256 (libfilezilla-compat-1.patch) = 8a1291fd6552afff5a68487918c983654bf69e555d01217801ce193d89069464
+SHA256 (libfilezilla-compat-2.patch) = f62b6438bbd94aabb0759396319ec2df1b4dc344d4b8bb264e773d2a5d95dff3
+SHA256 (wxwidgets-3.2.patch) = 1420610ad579cdf8a2864c2ab1ce784f43192bc28d0a7af7fee985593ffe51ef
