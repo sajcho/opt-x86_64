@@ -88,6 +88,7 @@ d:gvfs
 d:nftables
 d:oniguruma
 d:kwindowsystem
+d:filezilla
 d:waybar
 d:iso-codes
 d:libssh
@@ -129,6 +130,7 @@ d:rpcsvc-proto
 d:pavucontrol-qt
 d:wireless-regdb
 d:libxslt
+d:wxwidgets
 d:grim
 d:python3-markupsafe
 d:efivar
@@ -171,6 +173,7 @@ d:perl-xml-parser
 d:cups
 d:translate-shell
 d:vala
+d:pugixml
 d:openal
 d:libtasn1
 d:orc
@@ -303,6 +306,7 @@ d:gnome-themes-extra
 d:firefox
 d:lxqt-runner
 d:libsecret
+d:libfilezilla
 d:gdk-pixbuf-xlib
 d:libdaemon
 d:udisks2
@@ -719,6 +723,13 @@ f:11bb1d9636af299cf63779b75239fa8e:oniguruma/Pkgfile
 f:791ccc1a2d7f38796eb2a4d07faf64dc:kwindowsystem/.footprint
 f:f12f8251240018fb886a53b4f2a446b5:kwindowsystem/.signature
 f:45ef1db5eee95dc6bfa3c3e22562b469:kwindowsystem/Pkgfile
+f:cf2be73056e576559124ce4fbe04b469:filezilla/wxwidgets-3.2.patch
+f:1f0e69375806ce604ad07e70039f0981:filezilla/.footprint
+f:5021f5a66925c53128f4d01232788a25:filezilla/libfilezilla-compat-1.patch
+f:7e9bdb35f75a28d53069013870c22555:filezilla/.signature
+f:e9cbc9a73f1b31c4fed22a45191390be:filezilla/Pkgfile
+f:ca8442a4f7f42b1b82ad34267f344431:filezilla/disable-xdg-open.patch
+f:3f18d5de81088090cf2b3042402a6836:filezilla/libfilezilla-compat-2.patch
 f:c7ec6c115940ef392bda1ee2bd3e8faf:waybar/.footprint
 f:2ebdf1cf4c86ed4d9d19213bb26e618f:waybar/.signature
 f:a4d8df804eebf556a1d10089cde964a8:waybar/Pkgfile
@@ -864,6 +875,9 @@ f:bf2e0511a44f08127dd76276bcf9f5c6:wireless-regdb/Pkgfile
 f:4de64b634c7038b54ad4d73367e443b6:libxslt/.footprint
 f:2614a99792a936f69bfe29e7383d23c8:libxslt/.signature
 f:5442ebe8f60cf285ffdf34ffbe1abedb:libxslt/Pkgfile
+f:c9bcb6303e08c0db915252c6ef6bb4da:wxwidgets/.footprint
+f:24040bb881e0e6708b71f62f88c167c2:wxwidgets/.signature
+f:4e0d6cd68da7200ebf6f8fd8febb8076:wxwidgets/Pkgfile
 f:c9ad383cbdecddce52979ddea6466124:grim/printf-fix.patch
 f:dfd8e4f29dca2bee6629a6000159b461:grim/.footprint
 f:2492edcc5cb4a6a058a683de5efc9b5b:grim/.signature
@@ -1012,6 +1026,9 @@ f:868306a4f039e4f8de938257325f2b4d:translate-shell/Pkgfile
 f:16f149ef817c8a174bfa0ad60a73abab:vala/.footprint
 f:c25c25b2044ebde34f7ad9adab47c7bb:vala/.signature
 f:f40c981ed3f1d05c394b8679a1541d4e:vala/Pkgfile
+f:7592ccfddc45de0233891c7522b0a5c4:pugixml/.footprint
+f:1ceae11073ad7a86c1a579abaca90334:pugixml/.signature
+f:65cbb7d8d8053f8ae890d4c94685c924:pugixml/Pkgfile
 f:a3afc63db7f57c6eead18b85b337a67e:openal/.footprint
 f:cccc24830f70e5fcb40a7a2cfcedace6:openal/.signature
 f:09a8cdb129aeb3b4d173cc59cc59cd67:openal/Pkgfile
@@ -1485,8 +1502,8 @@ f:09539e4eff53961858ab98bd6046902a:gnome-themes-extra/.footprint
 f:c208f12bf901415d81693c0af1e072d0:gnome-themes-extra/.signature
 f:01706ab891bda527fb8ff4c0da17870c:gnome-themes-extra/Pkgfile
 f:91b819a89ba470c768cb28d5cf837560:firefox/.footprint
-f:f6f648346371b1f6e59456c81a730924:firefox/.signature
-f:d8ca0cbb930276903fc2794e1825293a:firefox/Pkgfile
+f:1ad1ac8d231a1a6d14ce53e251705392:firefox/.signature
+f:f8170e50851b32f62a2b50265028d21f:firefox/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:f2dc051761bb2987e7f2acdf79c46476:lxqt-runner/.footprint
 f:9ad44515f81b913da0b41a3a9796290a:lxqt-runner/.signature
@@ -1494,6 +1511,9 @@ f:44ad131a950b1c487d39ed9fbd972048:lxqt-runner/Pkgfile
 f:44e469b11796500b6a9462e59bdd6137:libsecret/.footprint
 f:e50111a90b951b6148e484d1a7b6ccd3:libsecret/.signature
 f:aa4519d163d600f07de584fe9d665da7:libsecret/Pkgfile
+f:76146bb333e7506521f3a4d5d346f492:libfilezilla/.footprint
+f:8af7274fb9e07743c2b2ab7971701570:libfilezilla/.signature
+f:b4e5deb5d2b625c87093de43bdf5797b:libfilezilla/Pkgfile
 f:3b3d709649dd6c53d52b83f575ee8723:gdk-pixbuf-xlib/.footprint
 f:ca468ea848176c55ea6487d1fc3f7281:gdk-pixbuf-xlib/.signature
 f:30f73413ef0e2ab9c2d4caaa71b48208:gdk-pixbuf-xlib/Pkgfile
@@ -1640,8 +1660,8 @@ f:a5c92015a534d871d440f0a32ad9095c:x264/.footprint
 f:656ce7adeff0e99e457e8178a71c11a1:x264/.signature
 f:780acc3364f26ecda164b2088d8d1097:x264/Pkgfile
 f:9438220e6c9864cf612d45aff8482f20:icewm/.footprint
-f:2e01770229d5012c813cd137288b76b4:icewm/.signature
-f:f4f4998bda3cab5d29d8f04daf26b3b9:icewm/Pkgfile
+f:101590a3abb78cd66142c6b08816ee85:icewm/.signature
+f:cf37ee6f6d0ee36d3a7466d156910bf2:icewm/Pkgfile
 f:bfe2a68f8b898b4e4c509f268f80a103:libcaca/.footprint
 f:0709e3351c9f6753affad73589aaf329:libcaca/.signature
 f:62fd0626cea090d6fcff6510ce9f36a4:libcaca/Pkgfile
