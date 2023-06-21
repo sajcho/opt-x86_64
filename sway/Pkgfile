@@ -5,13 +5,16 @@
 
 name=sway
 version=1.8.1
-release=1
+release=2
 source=(https://github.com/swaywm/sway/archive/${version}/${name}-${version}.tar.gz \
 	sway_6249.patch \
 	sway.desktop)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -ffat-lto-objects"
+	CXXFLAGS+=" -ffat-lto-objects"
 
 	patch -p1 -i $SRC/sway_6249.patch
 
@@ -25,9 +28,6 @@ build() {
 		-Dfish-completions=false \
 		-Dzsh-completions=false \
 		-Dwerror=false \
-		-Db_lto=true \
-		-Dc_args="-fuse-ld=mold" \
-		-Dc_link_args="-fuse-ld=mold" \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
