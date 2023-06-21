@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAj9xH5NUKYAKmXhJBCF8IOijuLuJYfm0trETJR3W9bi6j51YqFtqguyy8Ta63OYmWfwlEGFJ2eL02ofaLK4F8A4=
-SHA256 (Pkgfile) = 3a1de130d3c755df6c5337ae48ada7555f6c5922493139e5e3f3d2751f02eb6a
-SHA256 (.footprint) = 90ce3d1129aa7608dd40009ad501fd50a6750fe440d6215a6b95f8fbcf3e4cdd
-SHA256 (python-xlib-0.33.tar.bz2) = b7a45aaf919915f4908e4b2d79fc2ff3abbbec3b801a45162b3d0f67ed581b37

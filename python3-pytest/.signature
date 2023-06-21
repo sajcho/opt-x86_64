@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAkXbT4e9VEpGwm25EqcRU+PUbJlup3pzS3Cu7rlxsKt03JjAgtLM0soAswjzS+l7bSp9F+Ya7XtcQ7L10Z3dQAw=
-SHA256 (Pkgfile) = ffb506564278bff12c756fa1dfbe91a59b6aa7b27086c9c82303fd256b506483
-SHA256 (.footprint) = 031f72d02c4a81670231c71804d08b733dd7349cf69da360ec8188d49dfc339f
-SHA256 (pytest-7.2.0.tar.gz) = c4014eb40e10f11f355ad4e3c2fb2c6c6d1919c73f3b5a433de4708202cade59
