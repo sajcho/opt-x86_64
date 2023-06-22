@@ -5,17 +5,20 @@
 
 name=openal
 _realname=openal-soft
-version=1.23.0
+version=1.23.1
 release=1
 source=(https://github.com/kcat/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-${version}
 
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
+
 	cd build
 
 	cmake .. \
-		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DALSOFT_NO_CONFIG_UTIL=ON \
