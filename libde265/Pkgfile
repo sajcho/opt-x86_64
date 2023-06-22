@@ -4,12 +4,15 @@
 # Depends on:	automake libtool
 
 name=libde265
-version=1.0.11
+version=1.0.12
 release=1
 source=(https://github.com/strukturag/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--prefix=/usr \
