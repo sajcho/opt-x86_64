@@ -4,7 +4,7 @@
 # Depends on:	gstreamer lame libavc1394 libcaca libdv libgudev libiec61883 libshout libsoup libvpx mpg123 pulseaudio taglib wavpack
 
 name=gst-plugins-good
-version=1.22.3
+version=1.22.4
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
