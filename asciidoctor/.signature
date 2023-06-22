@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAhhGSVvwoxF+A8EipRpVnlIN6NLAPl5fOcMu+rzGxIGNzCOPbVrhvRY/uClvb43UfdA00p70W8a+7BBPP8D+nww=
-SHA256 (Pkgfile) = 01bac1c61a10996e28e06a8ddacfc78d627a89f03c0f103d22e157bc0dd154e0
+RWQg5aRf982JAko1+x+CgMfwFFr8Z59YgfKU1xJqubYRRrujOQMK1VHfXRX4dUNL/Qw9CDxds1bQy2PrKiLDp9aRW1IgC/lSLgU=
+SHA256 (Pkgfile) = a062bd856bcb3ffbf0f311306daf26f93f17d597317cfce4ec59663817bf70e6
 SHA256 (.footprint) = 3c53cf78e00e8f6702b6142aa03f07459c5eb97dff4a74d76d687cb84d9f66cf
-SHA256 (asciidoctor-2.0.18.tar.gz) = fad34373023f3212090635d7b793c2528e64c0593b2ba5c38b59f3fb6fd517f5
+SHA256 (asciidoctor-2.0.20.tar.gz) = e38d8e15e0bf0f28811e35e3e24ca30b9f5424669ffd9e8e4c208b21f45dbdea
