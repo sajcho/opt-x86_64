@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAoCjCKFIUDJu9MUpNt2Ag+f3nX/5u4vLRIjkZH4USDojFHl9/rLwrAkfbP5r+T2KZCrf0U4+7Yg0TYB4Pa+B0A0=
+SHA256 (Pkgfile) = c01db17371879802288e19400e03c04eabb58189c9f7b0e06e04ba3ed64ee079
+SHA256 (.footprint) = 0eab91f183e67621ae7b50e81671586c2ec7997a32a188c84a0d2b9e4e06d50f
+SHA256 (gimp-2.99.14.tar.xz) = 313a205475d1ff03c5c4d9602f09f5c975ba6c1c79d8843e2396f9fe2abdf7a8
