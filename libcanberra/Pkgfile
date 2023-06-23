@@ -1,30 +1,36 @@
 # Description:	Simple audio library for GTK applications
 # URL:		http://0pointer.de/lennart/projects/libcanberra/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	alsa-lib gstreamer gtk3 libtool libvorbis
+# Depends on:	alsa-lib gstreamer gtk3 libtool libvorbis pulseaudio
 
 name=libcanberra
 version=0.30
-release=1
+release=2
 source=(http://0pointer.de/lennart/projects/${name}/${name}-${version}.tar.xz \
-	libcanberra-0.30-wayland-1.patch)
+	libcanberra-0.30-wayland-1.patch \
+	libcanberra-multi-backend.patch)
 
 build() {
 	cd ${name}-${version}
 
 	patch -p1 -i $SRC/libcanberra-0.30-wayland-1.patch
+	patch -p1 -i $SRC/libcanberra-multi-backend.patch
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--prefix=/usr \
 		--disable-gtk \
 		--disable-oss \
-		--disable-pulse
+		--disable-static
 
 	make V=1
 
-	make DESTDIR=$PKG install
+	make -j1 DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/{doc,gtk-doc}
+	rm -r $PKG/usr/lib/gnome-settings-daemon-3.0/
+	rm -r $PKG/usr/share/{doc,gdm,gnome,gtk-doc,vala}
 
 	find $PKG -type f -name '*.la' -delete
 }
