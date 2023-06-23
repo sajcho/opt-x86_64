@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAuHbpCwf8EkUJFyk8BEI9e78tqNN9PJ/diu1Il1yS3a9cWsw0EHG6h81Hj0KwrjaCk+C6QtM3GtrEO+HxX7PSww=
+SHA256 (Pkgfile) = d8958e482b9fa0276fa020b60026e60005c5969bbbf0a34656cc81fe120c4155
+SHA256 (.footprint) = 2ae4a8558a5cd916b6b53832e0cf33f910cea8f90ab8ce249c67d83db2dfcfc1
+SHA256 (pavucontrol-5.0.tar.gz) = 816ad421867f2575e19cfc08e37a2f75ea380303e9227acb51ac11ab6ab1800e

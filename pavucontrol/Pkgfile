@@ -1,0 +1,31 @@
+# Description:	Pulseaudio Volume Control, GTK based mixer for Pulseaudio
+# URL:		https://freedesktop.org/software/pulseaudio/pavucontrol/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtkmm3 libcanberra pulseaudio
+
+name=pavucontrol
+version=5.0
+release=1
+source=(https://freedesktop.org/software/pulseaudio/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--disable-lynx \
+		--disable-nls
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{doc,locale}
+
+	find $PKG/usr/share -type f -name '*.desktop' \
+		-exec sed -r -e '/\[.+\]=/d' -e '/#/d' -i {} \;
+}
