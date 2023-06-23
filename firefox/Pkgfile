@@ -5,9 +5,11 @@
 
 name=firefox
 version=114.0.2
-release=1
+release=2
 source=(https://ftp.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
-	firefox.desktop)
+	distribution.ini \
+	firefox.desktop \
+	vendor.js)
 
 build() {
 	cd ${name}-${version}
@@ -82,6 +84,7 @@ cat <<- EOF > .mozconfig
 		ac_add_options --enable-rust-simd
 		ac_add_options --enable-optimize
 		ac_add_options --enable-linker=lld
+		ac_add_options --enable-lto=thin
 		ac_add_options --enable-system-ffi
 		ac_add_options --enable-system-pixman
 		#
@@ -108,31 +111,22 @@ EOF
 
 	DESTDIR=$PKG ./mach install
 
-	local vendorjs="$PKG/usr/lib/firefox/browser/defaults/preferences/vendor.js"
-	install -D -m 0644 /dev/stdin "$vendorjs" <<END
-pref("intl.locale.requested", "");
-pref("browser.shell.checkDefaultBrowser", false);
-pref("extensions.autoDisableScopes", 11);
-END
+	# optional - change to suit your needs
+	#install -D -m 0644 $SRC/distribution.ini \
+	#	$PKG/usr/lib/firefox/distribution/distribution.ini
+	#install -D -m 0644 $SRC/vendor.js \
+	#	$PKG/usr/lib/firefox/browser/defaults/preferences/vendor.js
 
-	local distini="$PKG/usr/lib/firefox/distribution/distribution.ini"
-	install -D -m 0644 /dev/stdin "$distini" <<END
-[Global]
-id=SAUX-X86_64
-version=${version}
-about=Mozilla Firefox for SAUX-X86_64 Linux
-[Preferences]
-app.distributor=SAUX-X86_64
-app.distributor.channel=firefox
-END
+	install -D -m 0644 $SRC/firefox.desktop \
+		$PKG/usr/share/applications/firefox.desktop
+
+	rm $PKG/usr/lib/firefox/firefox
+	ln -s firefox-bin $PKG/usr/lib/firefox/firefox
 
 	for i in 16 22 24 32 48 64 128 256; do
 		install -D -m 0644 browser/branding/official/default$i.png \
 			$PKG/usr/share/icons/hicolor/${i}x${i}/apps/firefox.png
 	done
-
-	install -D -m 0644 $SRC/firefox.desktop \
-		$PKG/usr/share/applications/firefox.desktop
 
 	# Exclude library for revdep.
 	install -d $PKG/etc/revdep.d
