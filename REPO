@@ -13,7 +13,6 @@ d:swaybg
 d:mm-common
 d:gtk3
 d:libmypaint
-d:lxqt-build-tools
 d:gtk4
 d:foot
 d:pangomm
@@ -48,12 +47,10 @@ d:desktop-file-utils
 d:fribidi
 d:libjpeg-turbo
 d:libhandy
-d:lxqt-sudo
 d:zip
 d:mypaint-brushes
 d:libwebp
 d:glibmm
-d:lxqt-powermanagement
 d:json-glib
 d:utf8proc
 d:libfm
@@ -75,7 +72,6 @@ d:lame
 d:nmap
 d:libappindicator-gtk3
 d:labwc
-d:lxqt-about
 d:libasyncns
 d:sakura
 d:speex
@@ -100,7 +96,6 @@ d:rust-static
 d:libsndfile
 d:libfm-extra
 d:sudo
-d:lxqt-config
 d:libdv
 d:libsrtp
 d:p11-kit
@@ -120,7 +115,6 @@ d:rlwrap
 d:libplacebo
 d:libpsl
 d:gegl
-d:lxqt-openssh-askpass
 d:swaylockd
 d:neon
 d:refind
@@ -211,7 +205,6 @@ d:libvisual
 d:startup-notification
 d:libkscreen
 d:libsass
-d:lxqt-admin
 d:libtheora
 d:babl
 d:perl-uri
@@ -234,7 +227,6 @@ d:at-spi2-core
 d:cairo
 d:glib-networking
 d:rxvt-unicode
-d:lxqt-policykit
 d:seatd
 d:libgcrypt
 d:qps
@@ -242,7 +234,6 @@ d:exiv2
 d:pax-utils
 d:mako
 d:cogl
-d:lxqt-panel
 d:parted
 d:openbox
 d:gsettings-desktop-schemas
@@ -257,10 +248,8 @@ d:ffmpeg
 d:lsof
 d:lrzsz
 d:libexif
-d:lxqt-archiver
 d:libproxy
 d:numlockx
-d:lxqt-themes
 d:gdk-pixbuf
 d:libnftnl
 d:qt5-qtsvg
@@ -283,7 +272,6 @@ d:dav1d
 d:poppler
 d:libsdl
 d:libsigc++2
-d:lxqt-qtplugin
 d:upower
 d:libfm-qt
 d:pavucontrol
@@ -298,12 +286,10 @@ d:asciidoctor
 d:wpa_supplicant
 d:imlib2
 d:solid
-d:lxqt-session
 d:kidletime
 d:hunspell
 d:gnome-themes-extra
 d:firefox
-d:lxqt-runner
 d:libsecret
 d:libfilezilla
 d:gdk-pixbuf-xlib
@@ -330,7 +316,6 @@ d:libavc1394
 d:iniparser
 d:featherpad
 d:atkmm
-d:lxqt-globalkeys
 d:libsoup
 d:polkit-qt-1
 d:dtc
@@ -355,7 +340,6 @@ d:icewm
 d:libcaca
 d:squashfs-tools
 d:itstool
-d:lxqt-desktop
 d:kwayland
 d:mc
 d:graphite2
@@ -388,7 +372,6 @@ d:freetds
 d:popt
 d:yasm
 d:libptytty
-d:lxqt-notificationd
 d:icu
 d:appstream-glib
 d:greetd
@@ -448,9 +431,6 @@ f:edcdfe822266adce4f96347574510b29:gtk3/Pkgfile
 f:2be8b661a3f42dbb5106b5e28061941c:libmypaint/.footprint
 f:0074a7899ec766ca9a3aaeebfca18660:libmypaint/.signature
 f:daf25cc2fc586a0c28bfe893d21c3645:libmypaint/Pkgfile
-f:f190a83fb912fc94b1ebf10ad28dd528:lxqt-build-tools/.footprint
-f:131c5ea32c82638274f3e57e4fcc4eed:lxqt-build-tools/.signature
-f:75e9381a0824bdbd012d94f6fcffc439:lxqt-build-tools/Pkgfile
 f:29e8b5cc9e7e7ab649f1f09dc8d70dc0:gtk4/post-install
 f:be2871f97f48e80aea5ed01786ca80e9:gtk4/.footprint
 f:ea9ba45e8e698f4f5245913627cc83da:gtk4/.signature
@@ -572,9 +552,6 @@ f:2dc490e9dd0a9c7e973836a6873c6baa:libjpeg-turbo/Pkgfile
 f:ad78d1d65cc2ab3fc2bfd7f0968edd8f:libhandy/.footprint
 f:3eed17aa8384b76bcfb83a7f6112fbad:libhandy/.signature
 f:86c2f2a17e1e6064cdda3916139e6774:libhandy/Pkgfile
-f:bc954031ebaf83e8068f17fad770a932:lxqt-sudo/.footprint
-f:3579c11f01e95803c74dbc2cf49a898c:lxqt-sudo/.signature
-f:673e15a033ff8c0ddc8b313dd1985edb:lxqt-sudo/Pkgfile
 f:1395f053d2bcee85b96c94dfd7813b8d:zip/30-zip-3.0-pic.patch
 f:24aa8c89371f67e6b31105844780dbc3:zip/20-zip-3.0-exec-stack.patch
 f:cfb051847ce2552c78033d5b63d2fae0:zip/40-fix-zipnote.patch
@@ -591,10 +568,6 @@ f:7e64ceded0a900a4f2c0a93946245561:libwebp/Pkgfile
 f:47759eaf0d40d770fb30965dda252188:glibmm/.footprint
 f:7caeab315f9b12514a9ffcd72f8d90b8:glibmm/.signature
 f:50ab1276fd9abe10840d6c959d97acb2:glibmm/Pkgfile
-f:54e0a13fe25017a90ba8a36d36698c5e:lxqt-powermanagement/post-install
-f:d9029478c2d1a7e93c8d27e02d964c6d:lxqt-powermanagement/.footprint
-f:593be95540ca270dc7ae7663a6d304aa:lxqt-powermanagement/.signature
-f:87d6e0fbea6f9b916f0cf6b03cb41fee:lxqt-powermanagement/Pkgfile
 f:b0308ac60eb8d48a3b641f0fbe9659a7:json-glib/.footprint
 f:def82a66c7070d25f8a3c72508f0e7aa:json-glib/.signature
 f:e2cea854faecc7c018af2d6321144518:json-glib/Pkgfile
@@ -676,9 +649,6 @@ f:47e1f02d31eeb3f930906166ab7ce7b1:libappindicator-gtk3/no-gtk-doc-make.patch
 f:d766736781e3e3eb1eaa8a5abde8a06b:labwc/.footprint
 f:ef9f7d09dea38dde9af47e6c801ca90b:labwc/.signature
 f:de506fb181aa6d233e77e5f3cd5efdf8:labwc/Pkgfile
-f:126de3f5dcf7faec5aaa0b386a085209:lxqt-about/.footprint
-f:619a4abb23c4dd9bca97507f0e66cabb:lxqt-about/.signature
-f:8822a0230e261175f701c03f6509f99d:lxqt-about/Pkgfile
 f:2a1e558cf9685aad8130cb9705568537:libasyncns/.footprint
 f:6ee8b30ebe6e19438860a2a4d1d3cabb:libasyncns/.signature
 f:0a8b83a5699e555d3d0c7ec2cc0c3963:libasyncns/Pkgfile
@@ -772,9 +742,6 @@ f:1e0801bd202ebcb432eff7e9f50aa0f7:sudo/.footprint
 f:da9728518f469b4e393add240516ec9a:sudo/.signature
 f:f7a34ed69049804bd0b7493838137a27:sudo/Pkgfile
 f:f21530e52d794b03145cc97e2e0694cd:sudo/.md5sum
-f:cc43c6349b648e96beb530e22c4d79a8:lxqt-config/.footprint
-f:2702c99734dba0f54a22d735c1c74e00:lxqt-config/.signature
-f:5bb747ae0bc27bc3eec28803f9fe2091:lxqt-config/Pkgfile
 f:4399eb558e830520b02a0a0ef1abca51:libdv/.footprint
 f:42dffaafe0c9b36a99bba0f8079ce5c4:libdv/.signature
 f:dd73e13950bcaccaecffea4d10c29820:libdv/Pkgfile
@@ -841,9 +808,6 @@ f:5f82d888b1d746f1029df4c4a306357e:libpsl/Pkgfile
 f:f8a06baf66ea6d94238273e8bd5fe997:gegl/.footprint
 f:1cbb4e2124137d8633fe266ee94bd97d:gegl/.signature
 f:f3de6d116f57a14837a8a2924b3cc7ac:gegl/Pkgfile
-f:aff9b1ab5f998a5fa57a6d236432b5c6:lxqt-openssh-askpass/.footprint
-f:e68952857f63fa788c80ca744bca9f0e:lxqt-openssh-askpass/.signature
-f:adf1cda85a40a4c709f9247c8e6bc47e:lxqt-openssh-askpass/Pkgfile
 f:b44c272fc566625029e31cba34a43f7b:swaylockd/.footprint
 f:47648ab159699032598d4943fafe2bc2:swaylockd/.signature
 f:293aa987a046c4c3d1fc2985e39313ae:swaylockd/Pkgfile
@@ -1153,9 +1117,6 @@ f:569d59b9a68b2b05a65c32b0c1af5424:libsass/.footprint
 f:2011d37d2bb703e15e707e2fadae730d:libsass/.signature
 f:8a65b73a9c1cb5952b2ef72f6e93b8b1:libsass/fix-pkgconfig-version.patch
 f:33e330f333e242cf2590e8013f1beba8:libsass/Pkgfile
-f:a203d1e0998558dfe508a839cd7bc2a6:lxqt-admin/.footprint
-f:3891aefaf363a4d2f823c29b7083f0f6:lxqt-admin/.signature
-f:e8a26a6afe9bf0cc729c8d0ee8c9acd4:lxqt-admin/Pkgfile
 f:94a58c67e2f1c595743b90cb90e1963c:libtheora/.footprint
 f:2437286857b1dc33f592a5688f8176a5:libtheora/.signature
 f:a456b2ae37b7f0433dd5133cc277596c:libtheora/Pkgfile
@@ -1240,9 +1201,6 @@ f:adbc706ffaae32ebc5d2669e47231c20:rxvt-unicode/.footprint
 f:ebcf88e0a87100cfb613d4c66754c86b:rxvt-unicode/.signature
 f:5c6835e8c30d3b77de6d01184ad79f0e:rxvt-unicode/Pkgfile
 f:585157318cb78733804eed507b77c37c:rxvt-unicode/rxvt-unicode-kerning.patch
-f:0e9beb76480987149ed9a8a2f932336f:lxqt-policykit/.footprint
-f:aeddab2b267bc633a3977ec987913681:lxqt-policykit/.signature
-f:ba660a5666a8891d0c787d2cb57b971a:lxqt-policykit/Pkgfile
 f:f8a4b148ef021871742364d63887004d:seatd/.footprint
 f:eac5c45888481123f7a53661791222b2:seatd/.signature
 f:a7495552b1784614d5ce214e95369b47:seatd/Pkgfile
@@ -1266,9 +1224,6 @@ f:101ee951812c6c32edd78d5bece2f617:mako/Pkgfile
 f:0093443d492aea80a4bd84692922516b:cogl/.footprint
 f:9642f0e15bfafa9f76a1dd8bc52913f5:cogl/.signature
 f:bdeafa5a021fc6f918780273572bb527:cogl/Pkgfile
-f:8ea8f704344b1dc3953273ff7e7e8582:lxqt-panel/.footprint
-f:be3badbfe7b9c75345116d9c4e4db604:lxqt-panel/.signature
-f:4ab5d72ab02a03210d493a0256499c01:lxqt-panel/Pkgfile
 f:e87ffa1171acbebfa9d2475a093e7e64:parted/fix-includes.patch
 f:f75d267949eda91528e23e4abcf1d9b5:parted/.footprint
 f:0488031870718aaa13ebf5b4406fd108:parted/.signature
@@ -1324,10 +1279,6 @@ f:0d6b7775645d90f3ba04ff540cdc3ecb:lrzsz/Pkgfile
 f:0b22977ed831f6956dc58cd2667ca42d:libexif/.footprint
 f:45023d1a46a959c468d01f46650b3dfd:libexif/.signature
 f:6d1e4c542f2be8baaa03f2c59353720a:libexif/Pkgfile
-f:54e0a13fe25017a90ba8a36d36698c5e:lxqt-archiver/post-install
-f:42b4d0c336355a9917411531f49e2b9e:lxqt-archiver/.footprint
-f:e94e81bd31bda5f1a4a653cc27021f4e:lxqt-archiver/.signature
-f:21b67eb06f1d5c05e261993101fb984f:lxqt-archiver/Pkgfile
 f:ba55f91ad250851c1fe0e06ecf912305:libproxy/.footprint
 f:53a2673cc88938be6362765cbcd80f33:libproxy/.signature
 f:612d39ccdfa6748615f88eb81ab20fc2:libproxy/Pkgfile
@@ -1336,10 +1287,6 @@ f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
 f:a0f3f5338acf31843e866793975b39bf:numlockx/.signature
 f:c00817271494e80bb07257f302151ee3:numlockx/Pkgfile
 f:574ab10d9892edfc286a1e7d7864a513:numlockx/get-state.patch
-f:6b8c5adc0fbcea0fe43c25e7ab3a8980:lxqt-themes/post-install
-f:d88c9dbfd55aabf4bc05003e72ea9ab6:lxqt-themes/.footprint
-f:573e54b7d03f6b9c465e5a8597c7209a:lxqt-themes/.signature
-f:cc75785729379824ea46e7987260d29d:lxqt-themes/Pkgfile
 f:7028a27cfa648bbacf5890613fb91aef:gdk-pixbuf/post-install
 f:626c84aa82312b293e6c3ca3746e598f:gdk-pixbuf/.footprint
 f:f021908c44840eb280a8539379c3c732:gdk-pixbuf/.signature
@@ -1431,9 +1378,6 @@ f:5514ecb1a9bbcbb0a946f317ee7d20f1:libsdl/0001-CVE-2019-7637.patch
 f:03e29f29294455ec5556b61e01e80072:libsigc++2/.footprint
 f:9e17ce9f143d6ac9f8453faa3031e6ba:libsigc++2/.signature
 f:d8c6df207ef6789841e6e4772ad02073:libsigc++2/Pkgfile
-f:8d82107657c42a86d7cb2dfe6838e993:lxqt-qtplugin/.footprint
-f:df2b3875da3c7e4dc712c44963035e9b:lxqt-qtplugin/.signature
-f:c90b3f6a4e1ab91e1bdd32e2ee1eae0c:lxqt-qtplugin/Pkgfile
 f:7ff302abb50a5294547bbc2e33d03a3f:upower/.footprint
 f:45d2625f0797d811cd29959e42b58941:upower/.signature
 f:4f413b268820c67a66dbf3967e942414:upower/Pkgfile
@@ -1481,10 +1425,6 @@ f:af8c30f039f551a45b290b04e569450d:imlib2/Pkgfile
 f:1fb99d8b23a34362c06f6c076ed5679d:solid/.footprint
 f:575e4d7283ba095f7c68ce1a8d1b9f73:solid/.signature
 f:7eaa3456ed0a8df7a43ccf1ebac2c907:solid/Pkgfile
-f:a74bb855758433dd7557dc11deb6f700:lxqt-session/.footprint
-f:b720a0228c7e7ecc4a7ff4f793204d03:lxqt-session/.signature
-f:fc45fd0c655b6ece47177d43e3e74817:lxqt-session/fix-procps-4.0.0-and-higher.patch
-f:c6ae5bc19228f6536a742d50bc56688e:lxqt-session/Pkgfile
 f:4de4ba9b62bb5bba38fec4a0a6c5caa4:kidletime/.footprint
 f:f133265ff0189e1dc75b0afb296c155c:kidletime/.signature
 f:ad0558b432c99db63d48ba7695bea167:kidletime/Pkgfile
@@ -1500,9 +1440,6 @@ f:fa3b99051f22f82240cfab71e9e7b005:firefox/.signature
 f:d8743848c9164555d67d256814b91bd6:firefox/vendor.js
 f:083958c367f11c91773469709663fc6a:firefox/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
-f:f2dc051761bb2987e7f2acdf79c46476:lxqt-runner/.footprint
-f:9ad44515f81b913da0b41a3a9796290a:lxqt-runner/.signature
-f:44ad131a950b1c487d39ed9fbd972048:lxqt-runner/Pkgfile
 f:44e469b11796500b6a9462e59bdd6137:libsecret/.footprint
 f:e50111a90b951b6148e484d1a7b6ccd3:libsecret/.signature
 f:aa4519d163d600f07de584fe9d665da7:libsecret/Pkgfile
@@ -1590,9 +1527,6 @@ f:caaab321ffd37972b51583175ba9a5a3:featherpad/Pkgfile
 f:2a2f6a2d65235673eb3b6cc551c24d6b:atkmm/.footprint
 f:98316add50e8d55b6aa131dc1bae5895:atkmm/.signature
 f:ce8e6bfa898542b386c81de2ea0526df:atkmm/Pkgfile
-f:3e09a2df30824b6a99b3f433eb60a99b:lxqt-globalkeys/.footprint
-f:f58b2eac12cc268c097873e4bc6243c0:lxqt-globalkeys/.signature
-f:20a6ad2198c38781b44f50bca80c1c3e:lxqt-globalkeys/Pkgfile
 f:a32a9bd224c22a530583ee45d096fced:libsoup/.footprint
 f:1c4f2ba8cec9a074e204c969b329bb65:libsoup/.signature
 f:57557d7a51943b1482d7f5faedbb7fcc:libsoup/Pkgfile
@@ -1666,9 +1600,6 @@ f:a66ba8250d57360d1e6f472f6f560078:squashfs-tools/Pkgfile
 f:3fcccef151712aa244e8f2462e604fe6:itstool/.footprint
 f:6a0928722f7d73da18f8758cb27600b3:itstool/.signature
 f:8826b22d2dd4b3c2b3927be5301a224a:itstool/Pkgfile
-f:dbb5c6125ec894315c3d0085e4874d05:lxqt-desktop/.footprint
-f:d33e5755cee5e41025a0e8d11f35218f:lxqt-desktop/.signature
-f:0b1064074e512c1dd9c53ee52dd126c8:lxqt-desktop/Pkgfile
 f:2737d0e6e89de075fe4c2b696f166bdb:kwayland/.footprint
 f:2cd2255119f881d66d611911c62c0252:kwayland/.signature
 f:a1fdc516766be6a9fe9cc81fe669d2f5:kwayland/Pkgfile
@@ -1792,9 +1723,6 @@ f:8201f396c7577219987845f9da6a4923:yasm/Pkgfile
 f:a8f10ebe2f26f5568b711dfd72065754:libptytty/.footprint
 f:8ec82ffbe1d0162c1eb6b9db5778d83f:libptytty/.signature
 f:89b9b061099a814883af00974840de4d:libptytty/Pkgfile
-f:7e9edc6a57a90df31e90b7ee6cd02e40:lxqt-notificationd/.footprint
-f:cb258b94dcd12b8442827a6160a252c6:lxqt-notificationd/.signature
-f:03a4296ed6540380b0296999e4449ae6:lxqt-notificationd/Pkgfile
 f:e182a50fa3f79a0941ccd3f6520d0788:icu/.footprint
 f:d5600a20d615b81bba83e6b3f0ee32ee:icu/.signature
 f:426c8047aa57ce83416bd98a128bc051:icu/Pkgfile
