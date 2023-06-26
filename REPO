@@ -79,7 +79,6 @@ d:yaml
 d:gvfs
 d:nftables
 d:oniguruma
-d:kwindowsystem
 d:filezilla
 d:waybar
 d:iso-codes
@@ -106,7 +105,6 @@ d:libvorbis
 d:muparser
 d:rubberband
 d:tftp-hpa
-d:qt5-qtquickcontrols2
 d:ghostscript
 d:swayidle
 d:rlwrap
@@ -129,7 +127,6 @@ d:cyrus-sasl
 d:opus
 d:libzip
 d:mailx
-d:qt5-qtx11extras
 d:python3-cairo
 d:lxappearance-gtk3
 d:rpcbind
@@ -188,7 +185,6 @@ d:intltool
 d:libde265
 d:cryptsetup
 d:sbc
-d:qt5-qtdeclarative
 d:gptfdisk
 d:libbytesize
 d:imagemagick
@@ -234,7 +230,6 @@ d:flac
 d:feh
 d:libpcap
 d:btop
-d:qt5-qttools
 d:ffmpeg
 d:lsof
 d:lrzsz
@@ -243,12 +238,10 @@ d:libproxy
 d:numlockx
 d:gdk-pixbuf
 d:libnftnl
-d:qt5-qtsvg
 d:procmail
 d:btrfs-progs
 d:gtk-layer-shell
 d:mjpegtools
-d:qt5-qtwayland
 d:scdoc
 d:chrpath
 d:sway
@@ -329,7 +322,6 @@ d:icewm
 d:libcaca
 d:squashfs-tools
 d:itstool
-d:kwayland
 d:mc
 d:graphite2
 d:plasma-wayland-protocols
@@ -341,7 +333,6 @@ d:gexiv2
 d:recode
 d:libb2
 d:elogind
-d:qt5-qtbase
 d:brotli
 d:lcms2
 d:libmodplug
@@ -350,7 +341,6 @@ d:freetype
 d:md4c
 d:spdlog
 d:soundtouch
-d:qt5-qtgraphicaleffects
 d:faac
 d:nfs-utils
 d:libmpdclient
@@ -662,9 +652,6 @@ f:b8a480e0ca188be182564ac6fd605f69:nftables/Pkgfile
 f:a0a7d1e8f50031e71e4b4b20abd01733:oniguruma/.footprint
 f:cae253bdf6dccd11a9ccbde372a62a1d:oniguruma/.signature
 f:11bb1d9636af299cf63779b75239fa8e:oniguruma/Pkgfile
-f:791ccc1a2d7f38796eb2a4d07faf64dc:kwindowsystem/.footprint
-f:f12f8251240018fb886a53b4f2a446b5:kwindowsystem/.signature
-f:45ef1db5eee95dc6bfa3c3e22562b469:kwindowsystem/Pkgfile
 f:cf2be73056e576559124ce4fbe04b469:filezilla/wxwidgets-3.2.patch
 f:1f0e69375806ce604ad07e70039f0981:filezilla/.footprint
 f:5021f5a66925c53128f4d01232788a25:filezilla/libfilezilla-compat-1.patch
@@ -766,9 +753,6 @@ f:a5efef75144779da35adc9766a022029:tftp-hpa/.footprint
 f:d29d527b403b490f97ce81b733abc518:tftp-hpa/.signature
 f:8b2dee8159fa64ca00db131b36aa42c5:tftp-hpa/fix-common.patch
 f:c49ffed145731de5c935663d205a910e:tftp-hpa/Pkgfile
-f:79b91cf30a131ca8726161653399809a:qt5-qtquickcontrols2/.footprint
-f:40538bd0f8b5a0484bbfd368ce40aab0:qt5-qtquickcontrols2/.signature
-f:7c3220ab1f16af86b35430952c702182:qt5-qtquickcontrols2/Pkgfile
 f:f8006ebef6db3389a2b812d0522a234f:ghostscript/.footprint
 f:bd6ebf1ff4d1caa0bf08961a6cc6b3a5:ghostscript/.signature
 f:6ea86bc30afa70f353aca6484603248f:ghostscript/Pkgfile
@@ -842,9 +826,6 @@ f:b6bc71905a8b1a3c97feaeb2253371a8:libzip/Pkgfile
 f:0c46c47371a1d196b17575ca175b7408:mailx/.footprint
 f:64ebee0ffc34ed20a4beff0b2106a04a:mailx/.signature
 f:43b2fb19aba4dde6983f588e0176f0d6:mailx/Pkgfile
-f:0a5b43a670cb40762aea9d28a70095e8:qt5-qtx11extras/.footprint
-f:0ae5d9684c36cf03b15177ab5aa5642f:qt5-qtx11extras/.signature
-f:ae7d22fb7e79e51d6466b76f85d41257:qt5-qtx11extras/Pkgfile
 f:9bc8920dad13dd2de6903845e8e4ac93:python3-cairo/.footprint
 f:f782293fce94f90a9c560902569d19a0:python3-cairo/.signature
 f:daf6a08646dbd1484cbdfc643f13b064:python3-cairo/Pkgfile
@@ -1046,10 +1027,6 @@ f:c3439dd5b7cf90e112c8922af5bcb9e5:cryptsetup/Pkgfile
 f:5d4838d1f3798bced7bfcdb08f04192a:sbc/.footprint
 f:79fa31d56c2c5c9356bdba0b7b3ba1dd:sbc/.signature
 f:296019fc8ea5df44fd477d3de000961e:sbc/Pkgfile
-f:46108980e4d5cdb47c50acfa982b0666:qt5-qtdeclarative/.footprint
-f:384de6f7301dd7ccef635c1d7a64e8b2:qt5-qtdeclarative/.signature
-f:a3f61b7202c1802aeb28937f550fe89c:qt5-qtdeclarative/Pkgfile
-f:3b01f0ff68e12f38a36978b7b51a53cc:qt5-qtdeclarative/link-libatomic-on-rv64.patch
 f:d6c2e73c95b616b82136889151c420ba:gptfdisk/gptfdisk-1.0.9-convenience-1.patch
 f:1aee552ff947094a2362e42cff03e2d0:gptfdisk/.footprint
 f:f64eca00dd5158574afaad382d16b4de:gptfdisk/.signature
@@ -1214,13 +1191,6 @@ f:54e0a13fe25017a90ba8a36d36698c5e:btop/post-install
 f:acd0ce185d22d549d087efad023f545b:btop/.footprint
 f:500ef3b5a5125f5dc289b9dfc7d9667a:btop/.signature
 f:4a632d31d53630ad76dbdd42d32592cd:btop/Pkgfile
-f:fb13f14e8ef2bb4d3b7bfc1cfd2bb6cb:qt5-qttools/qdbusviewer-qt5.desktop
-f:253c2ea204c554ac1b43ef9a1075f28e:qt5-qttools/designer-qt5.desktop
-f:1d95ed135d5ecd4940cc81ec97b1e2e0:qt5-qttools/linguist-qt5.desktop
-f:632e95ae1f4706a3bc0a4d1731c1eca8:qt5-qttools/.footprint
-f:abd664c85d82f407511b25e42ab9c8c6:qt5-qttools/.signature
-f:170406f4c24e460fa66026ea1939ba99:qt5-qttools/assistant-qt5.desktop
-f:290ee1db949aa8f624ea449b2c90537d:qt5-qttools/Pkgfile
 f:5ddc67f0279f91611c7257a921229bb3:ffmpeg/.footprint
 f:c659242c4c5913ff1ffbc0b0a9885079:ffmpeg/.signature
 f:9d914dde12774b701752a3e0c5696765:ffmpeg/Pkgfile
@@ -1249,9 +1219,6 @@ f:8ec8f57ec8490ed2c51735bd1eedcea8:gdk-pixbuf/Pkgfile
 f:3bd3fee084309610d69d1937f1a157de:libnftnl/.footprint
 f:030f48cfd9a43518aa7ded02803c9cba:libnftnl/.signature
 f:f94290def896afe9eac31e6ec4f1a87f:libnftnl/Pkgfile
-f:396167e8d0b3c4b25b19d26073462985:qt5-qtsvg/.footprint
-f:443ded0da2f0f913656e1b7d7e22bd25:qt5-qtsvg/.signature
-f:846d912ad82999a2ba1abc42d4a153a9:qt5-qtsvg/Pkgfile
 f:08ab919cc740421a054f28ce7a3eb7de:procmail/fix_memory_allocation_bug.diff
 f:6ff3fbbf6b31fe869a1312c3566eb52c:procmail/formisc.c.patch
 f:8337a75e3864026e3d17cd82646965b0:procmail/.footprint
@@ -1267,9 +1234,6 @@ f:8f48a4ee97050a1619fa3ddb179c82af:gtk-layer-shell/Pkgfile
 f:43a2cd215b7ffdbe783d63a79d4ab031:mjpegtools/.footprint
 f:40bbcf5e416b7bcd44ae7777dcca9ec9:mjpegtools/.signature
 f:856a9c4ca00edb3f22b890b08ec0c8eb:mjpegtools/Pkgfile
-f:824ec1fca34d7a7bdfbfc5a03feef1d0:qt5-qtwayland/.footprint
-f:80b7248f37520689968a1fdbcd3c4ce4:qt5-qtwayland/.signature
-f:b80b1ef5f6c116dcd3bc9d49dd526730:qt5-qtwayland/Pkgfile
 f:f6552b1ea673bcfc2584d4c7050244f9:scdoc/.footprint
 f:9bac6aab716ed3ec6723ea863eecca86:scdoc/.signature
 f:cac2211fc69e1f61168e262be3778333:scdoc/Pkgfile
@@ -1549,9 +1513,6 @@ f:a66ba8250d57360d1e6f472f6f560078:squashfs-tools/Pkgfile
 f:3fcccef151712aa244e8f2462e604fe6:itstool/.footprint
 f:6a0928722f7d73da18f8758cb27600b3:itstool/.signature
 f:8826b22d2dd4b3c2b3927be5301a224a:itstool/Pkgfile
-f:2737d0e6e89de075fe4c2b696f166bdb:kwayland/.footprint
-f:2cd2255119f881d66d611911c62c0252:kwayland/.signature
-f:a1fdc516766be6a9fe9cc81fe669d2f5:kwayland/Pkgfile
 f:1931a5a836b335eb8c707640487ce24e:mc/.footprint
 f:d586c096a43778972f0700eb26b8e564:mc/.signature
 f:10712bbae2ebf0c069c10e8d333621a1:mc/Pkgfile
@@ -1589,11 +1550,6 @@ f:103f4f435027fac11f6adcce2f54a6e4:elogind/.footprint
 f:091bbe951305401ecc6f2e0cf2f7748e:elogind/.signature
 f:f55268da48b083b9b69bd59cb34e6667:elogind/Pkgfile
 f:10fa6e9c2df0a71cf956550d1a84d333:elogind/README
-f:bfc114bfc210c5b5996941f7e186f8b3:qt5-qtbase/qt5-base-cflags.patch
-f:56462f1c05a4d5c4d06cb40258101b0a:qt5-qtbase/qt5-base-nostrip.patch
-f:41267d6e4e7da7ffdbb32b7ae3a4586c:qt5-qtbase/.footprint
-f:4f43c6c6e0212975b2db4f14ea5633c5:qt5-qtbase/.signature
-f:26935778e97780d14cd3007b9a40ad49:qt5-qtbase/Pkgfile
 f:f53309668280957d8861131fd62ccaf6:brotli/.footprint
 f:bd84f989f698cf7172a4c42d71e7114c:brotli/.signature
 f:53968867beed2a3cbadfe59cdfa88079:brotli/Pkgfile
@@ -1626,9 +1582,6 @@ f:a2c34a0639691f2dbb2f3fa2bd197287:spdlog/Pkgfile
 f:e99578b95db0bfd1ced3c031d7db2b8f:soundtouch/.footprint
 f:8b58aeb25376f1601c6ba170487a74e5:soundtouch/.signature
 f:78dc5f594ab2afef0a023ed39707d4ff:soundtouch/Pkgfile
-f:e919982e9062d09671e31fbab155dc38:qt5-qtgraphicaleffects/.footprint
-f:ed5df59fb2f191e3b25eb3ea68c7326f:qt5-qtgraphicaleffects/.signature
-f:f590e923aff0b573be8f8457575d51a9:qt5-qtgraphicaleffects/Pkgfile
 f:11db8533dd7031a579ac5fe6f0931a45:faac/.footprint
 f:42f6bde48615cc8cbfb267f65baefb22:faac/.signature
 f:f6a631641d5773d835e4028e29723a41:faac/Pkgfile
