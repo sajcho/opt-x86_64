@@ -31,7 +31,6 @@ d:volume_key
 d:efibootmgr
 d:l-smash
 d:nspr
-d:obconf-qt
 d:swaylock-effects
 d:unzip
 d:fuse3
@@ -76,7 +75,6 @@ d:libasyncns
 d:sakura
 d:speex
 d:libass
-d:lximage-qt
 d:yaml
 d:gvfs
 d:nftables
@@ -119,7 +117,6 @@ d:swaylockd
 d:neon
 d:refind
 d:rpcsvc-proto
-d:pavucontrol-qt
 d:wireless-regdb
 d:libxslt
 d:wxwidgets
@@ -130,7 +127,6 @@ d:libblockdev
 d:clutter
 d:cyrus-sasl
 d:opus
-d:qtermwidget
 d:libzip
 d:mailx
 d:qt5-qtx11extras
@@ -150,7 +146,6 @@ d:potrace
 d:gnupg
 d:libraw1394
 d:tmux
-d:pcmanfm-qt
 d:gnutls
 d:sdl2
 d:srt
@@ -183,9 +178,7 @@ d:libgit2
 d:docbook-xml
 d:extra-cmake-modules
 d:fcft
-d:libsysstat
 d:gst-libav
-d:libqtxdg
 d:autoconf-2.13
 d:taglib
 d:iwd
@@ -193,7 +186,6 @@ d:soxr
 d:htop
 d:intltool
 d:libde265
-d:qtxdg-tools
 d:cryptsetup
 d:sbc
 d:qt5-qtdeclarative
@@ -229,7 +221,6 @@ d:glib-networking
 d:rxvt-unicode
 d:seatd
 d:libgcrypt
-d:qps
 d:exiv2
 d:pax-utils
 d:mako
@@ -273,7 +264,6 @@ d:poppler
 d:libsdl
 d:libsigc++2
 d:upower
-d:libfm-qt
 d:pavucontrol
 d:gimp-devel
 d:boost
@@ -326,7 +316,6 @@ d:libogg
 d:alsa-lib
 d:libxklavier
 d:poppler-data
-d:liblxqt
 d:libgudev
 d:x265
 d:npth
@@ -347,7 +336,6 @@ d:plasma-wayland-protocols
 d:wl-clipboard-rs
 d:swayimg
 d:wlopm
-d:screengrab
 d:libssh2
 d:gexiv2
 d:recode
@@ -362,7 +350,6 @@ d:freetype
 d:md4c
 d:spdlog
 d:soundtouch
-d:qterminal
 d:qt5-qtgraphicaleffects
 d:faac
 d:nfs-utils
@@ -489,10 +476,6 @@ f:2083f33e11dfe15feb7bf9bca0f6c44b:nspr/nspr.pc.in
 f:40f5422d3bcacfdc5be021a7d377410e:nspr/.footprint
 f:a0b3fc03de8ac28d71e9c05c30df987a:nspr/.signature
 f:d6c2680d5e735c356cf1c84064228545:nspr/Pkgfile
-f:54e0a13fe25017a90ba8a36d36698c5e:obconf-qt/post-install
-f:d260058b82df62b7cedaeaff75fe439a:obconf-qt/.footprint
-f:14f5b33bc29ed0c4b860417d377ff45d:obconf-qt/.signature
-f:3f221ff99970a036144a4425c0488754:obconf-qt/Pkgfile
 f:90bb032fa8cc6664e3f000283df8189b:swaylock-effects/.footprint
 f:bdba9528953e1ed1d64826e3a91c98e3:swaylock-effects/.signature
 f:09407c9208b9029cc3e85cfecff2000c:swaylock-effects/Pkgfile
@@ -661,10 +644,6 @@ f:d0b61ea41332049b23cccd9ac4bf22c8:speex/Pkgfile
 f:0fbb42492e506c31186a82c237574941:libass/.footprint
 f:74f3c338b6076cd0874af5bb65e11362:libass/.signature
 f:de5c3f918883cb2827762368883ef026:libass/Pkgfile
-f:54e0a13fe25017a90ba8a36d36698c5e:lximage-qt/post-install
-f:24b176657d1d3cce89f17c2624dd54fb:lximage-qt/.footprint
-f:2b2bf284afc9ae63f1b197a777e5646e:lximage-qt/.signature
-f:4e62c1731bcfe85a3e225feac9fc0131:lximage-qt/Pkgfile
 f:cb3e1030187e55d3b4667c1609e87697:yaml/.footprint
 f:6c54d1ed92395d17a80ca239739cb157:yaml/.signature
 f:e4de846fa56243feb44f1feaaf108422:yaml/Pkgfile
@@ -822,10 +801,6 @@ f:5b00c727f5918d440b62081d4af031a8:refind/Pkgfile
 f:872247806ba3d91caec018db7cdd4134:rpcsvc-proto/.footprint
 f:a62507e5aa21dab87c8fe5fbb211e34b:rpcsvc-proto/.signature
 f:08b8c59891810dfbdaec7c1d0eecba8c:rpcsvc-proto/Pkgfile
-f:d5e37350f511145d73d20baacf52d68b:pavucontrol-qt/post-install
-f:a7caf844b842a79b63fee8b9b2798855:pavucontrol-qt/.footprint
-f:b9d4507017fbdacc96cfb910ccb857a8:pavucontrol-qt/.signature
-f:067350bfd3890b32b3a07b5962ebd16c:pavucontrol-qt/Pkgfile
 f:b0bc4af2db3bf75093e2059c048015f8:wireless-regdb/.footprint
 f:60aa1aff5da86356e3521f8646c14091:wireless-regdb/.signature
 f:bf2e0511a44f08127dd76276bcf9f5c6:wireless-regdb/Pkgfile
@@ -861,9 +836,6 @@ f:842cc46f8dac08b5f97f2924201a5aa2:opus/arm32.patch
 f:374070b50c8244a68857f578120ebd5d:opus/.footprint
 f:0e199f3108cf583f60de1aac6f9c5c5b:opus/.signature
 f:cdce26d0477cd66d7901925f3e8541bc:opus/Pkgfile
-f:803a6f66186b0e324f3cd4e44a849665:qtermwidget/.footprint
-f:6a7421ec34d3e9dc726b2d46ddbf9b50:qtermwidget/.signature
-f:2576bd32073a62ffafcc0d234507aac6:qtermwidget/Pkgfile
 f:10598cf09e2a1b655c4c09cb6e8f99f9:libzip/.footprint
 f:c9ab53c670d0fdb8dca5b8da757b43ce:libzip/.signature
 f:b6bc71905a8b1a3c97feaeb2253371a8:libzip/Pkgfile
@@ -923,10 +895,6 @@ f:4ae69dff53fb0a45b3a83ecc335c8920:libraw1394/Pkgfile
 f:dda9286a45a0b08df5def55eefd6cd4f:tmux/.footprint
 f:fa21f937413dfc9de91cbdc784c4c58a:tmux/.signature
 f:9159d2b5e56846d3fb1ef3dcb639ffc7:tmux/Pkgfile
-f:d5e37350f511145d73d20baacf52d68b:pcmanfm-qt/post-install
-f:7fa2a2fcd0aa00314a6b47dc0ff3e3ff:pcmanfm-qt/.footprint
-f:175cf6ff9bbe49728dca832bfb5b8a32:pcmanfm-qt/.signature
-f:f768a43e1d9831d3c66f7999b70ea2a1:pcmanfm-qt/Pkgfile
 f:687ec6af7a849ca536c88fb8232422d3:gnutls/.footprint
 f:7977b3507e23a77b07615f38cdc68c50:gnutls/.signature
 f:fb619738fcd4a01ab3be3cc7bd1d1e65:gnutls/Pkgfile
@@ -1040,15 +1008,9 @@ f:02c1cb02c613283c1c0e06681a44ec21:extra-cmake-modules/Pkgfile
 f:07fa8181ba0b9d92bc3cd367a5c5658b:fcft/.footprint
 f:bcc3ac17a98761fba24757cedeafffb2:fcft/.signature
 f:62269831693871024942adf0061bd51c:fcft/Pkgfile
-f:d3c6c2f305119ee01c640eeedfc7032f:libsysstat/.footprint
-f:817bd313f5f163c9a200dd8ce333736a:libsysstat/.signature
-f:fadc4a9f32c2179ad70bd88babbb2a51:libsysstat/Pkgfile
 f:4cf6d310009d89211cbbaa8cf4315201:gst-libav/.footprint
 f:5506295cff440c84bcbba49d9e9be7ae:gst-libav/.signature
 f:3602e4f499c691471eb9e23a885ff79a:gst-libav/Pkgfile
-f:d578b712ed424684c1d76aaacd3858f3:libqtxdg/.footprint
-f:ca576be4c47409ef0d3c46939d0c4f65:libqtxdg/.signature
-f:ccfab63c123cbf498ff299b37b3d2ebe:libqtxdg/Pkgfile
 f:113e244a8e5a59590ffa6c5020357aa6:autoconf-2.13/.footprint
 f:29db539ca8018b1ac6727c55b87696ff:autoconf-2.13/.signature
 f:3751fe0588ed07afc55957af740b58d9:autoconf-2.13/Pkgfile
@@ -1078,9 +1040,6 @@ f:f7b00a9bdab39e8a57a121d2055cfd8a:intltool/Pkgfile
 f:eebfba98f5ebc8645cd6eba235ebdd70:libde265/.footprint
 f:e2d80baaddae905a93be20b198eac028:libde265/.signature
 f:fe186e0dd6c076332daadcd7cb58290d:libde265/Pkgfile
-f:08946ac62c7bd12c6057fc5229a0e34b:qtxdg-tools/.footprint
-f:99a1d8362f775266e0033b9366b79f35:qtxdg-tools/.signature
-f:233a7a9558ec30aa3e5ef482be5547bf:qtxdg-tools/Pkgfile
 f:d353c191e05593207a5bea13ec5e0b60:cryptsetup/.footprint
 f:a6acaf1b0ccd953c416a29195d25cf5a:cryptsetup/.signature
 f:c3439dd5b7cf90e112c8922af5bcb9e5:cryptsetup/Pkgfile
@@ -1208,10 +1167,6 @@ f:a9be0a283a8be2cc0ccb6fdcebbb4ff5:seatd/seatd.run
 f:a192a30a86348f829844c4f06f6f05c4:libgcrypt/.footprint
 f:70b1141b3b57dea9eda97979b6be208a:libgcrypt/.signature
 f:b63852bb32a672d7d25bc1433f2319dd:libgcrypt/Pkgfile
-f:54e0a13fe25017a90ba8a36d36698c5e:qps/post-install
-f:62d6d3dd9b84545b418b454fe936c83a:qps/.footprint
-f:92216d90394b49d7bb64721bf0dd9ece:qps/.signature
-f:ca18005cd31142a7efc75484a4095bf0:qps/Pkgfile
 f:6d6eeed1b53d84520052e64c7f5afb29:exiv2/.footprint
 f:a703f708605df9e8cf1653b9f15b11fa:exiv2/.signature
 f:651240eb68421d8f1c48e37a88e2bed5:exiv2/Pkgfile
@@ -1382,9 +1337,6 @@ f:7ff302abb50a5294547bbc2e33d03a3f:upower/.footprint
 f:45d2625f0797d811cd29959e42b58941:upower/.signature
 f:4f413b268820c67a66dbf3967e942414:upower/Pkgfile
 f:55452c09ea36815de000793c09039f2e:upower/assume-battery-present.patch
-f:cdd7eb0d8ae789f924c15cbb78ad3acc:libfm-qt/.footprint
-f:f1e4f1c4cd95eb12d003af69e82fd62b:libfm-qt/.signature
-f:40d743b6f6f494ae01e06b4af22564e8:libfm-qt/Pkgfile
 f:ddc2714f0616c329e041d7ee0875fa59:pavucontrol/.footprint
 f:cfbbd8eb48152aefeef359c2e4e0d0e2:pavucontrol/.signature
 f:e353b401b76c9469193bb68ce10bb494:pavucontrol/Pkgfile
@@ -1558,9 +1510,6 @@ f:f83b4ae05179c5ad82be72459cd1bddc:libxklavier/Pkgfile
 f:b612d2d718af9a513c4a9d0650abcaf0:poppler-data/.footprint
 f:20fec10919b1f2b959c6af509d15ae31:poppler-data/.signature
 f:6d3edd27125a8631cc716eafcebd653d:poppler-data/Pkgfile
-f:55d59d90dde25d64e8076055e47d0dca:liblxqt/.footprint
-f:8a084fad10b703d5de43a4f58c7b33ee:liblxqt/.signature
-f:07c14252c52f9ae91b30cf8e748219a0:liblxqt/Pkgfile
 f:21651f2bd128ed6fec0c6fb936404d4d:libgudev/.footprint
 f:fe0d58a14434eb4f729ab0b2fbc75a93:libgudev/.signature
 f:60d4508fde010e161ada836599c01178:libgudev/Pkgfile
@@ -1621,10 +1570,6 @@ f:538c23cb5bd698ae89df68ad44d96356:swayimg/Pkgfile
 f:fa31ab5a0e11f11fb5339e18adbb62cf:wlopm/.footprint
 f:a600f5cb5299342a602e212c854a6de7:wlopm/.signature
 f:2e686a18aadd5f87ad3ba3840a785e98:wlopm/Pkgfile
-f:54e0a13fe25017a90ba8a36d36698c5e:screengrab/post-install
-f:4e2785397e06163fb6e6a196d6bf9666:screengrab/.footprint
-f:8415ce2e92c5ca1beed91d55341a6603:screengrab/.signature
-f:d8d4a61614fd6c33fb4eb1f0ec8b8f14:screengrab/Pkgfile
 f:4625d34db36c6028571b93d27bd0be94:libssh2/.footprint
 f:eb4f02f25137dbfe751f08251e8b8af2:libssh2/.signature
 f:416c5fc502fb0787cd7cd0213d620573:libssh2/Pkgfile
@@ -1681,10 +1626,6 @@ f:a2c34a0639691f2dbb2f3fa2bd197287:spdlog/Pkgfile
 f:e99578b95db0bfd1ced3c031d7db2b8f:soundtouch/.footprint
 f:8b58aeb25376f1601c6ba170487a74e5:soundtouch/.signature
 f:78dc5f594ab2afef0a023ed39707d4ff:soundtouch/Pkgfile
-f:54e0a13fe25017a90ba8a36d36698c5e:qterminal/post-install
-f:647f07de0671da6b28adc8c7e6deb93c:qterminal/.footprint
-f:65de6b6b8de59505104405400b3e5893:qterminal/.signature
-f:ca8a2d8dee074efeea8c4e88ef510d9a:qterminal/Pkgfile
 f:e919982e9062d09671e31fbab155dc38:qt5-qtgraphicaleffects/.footprint
 f:ed5df59fb2f191e3b25eb3ea68c7326f:qt5-qtgraphicaleffects/.signature
 f:f590e923aff0b573be8f8457575d51a9:qt5-qtgraphicaleffects/Pkgfile
