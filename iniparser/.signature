@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoJR7VAzAO8JbLIQOtIVd3pyCmhgrqwUwxbtJ/vMJvWPZeNmnfvHeXfzcv9YT+ZggtvQ1LL87DQXbWK/PSXLLwY=
-SHA256 (Pkgfile) = 4389a8fcd2e048d62acac42ca0ba2f9fe6bd95de6bf966f269c5b2bc1e0d38a8
+RWQg5aRf982JAv70RNmEGs7WroAx40l32hlftt5uiZ8fdUz5Y3AIoB3+cOTl6CI+GXOoBy2GWbQYom+PANeOplOYhewts7/Lkgc=
+SHA256 (Pkgfile) = 55da2da8e17926c457d7536b08f23b75d8df55f2defc945b427ec05b06eed470
 SHA256 (.footprint) = 20f2184f4db7df621cf90f7b8f2ee312c637c2cfb815c325f61aa3ce827eec85
 SHA256 (iniparser-4.1.tar.gz) = 960daa800dd31d70ba1bacf3ea2d22e8ddfc2906534bf328319495966443f3ae
 SHA256 (rpath.patch) = 2630ec74f142dbd2ce672ec4608c0d141682b8edd69097dec98cd51cf40f52a7
