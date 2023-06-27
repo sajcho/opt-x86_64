@@ -4,12 +4,15 @@
 # Depends on:	libgpg-error
 
 name=libassuan
-version=2.5.5
-release=2
+version=2.5.6
+release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--build=$CHOST \
