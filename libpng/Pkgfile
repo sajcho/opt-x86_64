@@ -4,7 +4,7 @@
 # Depends on:	zlib
 
 name=libpng
-version=1.6.39
+version=1.6.40
 release=1
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz \
 	${name}-apng.patch)
@@ -13,6 +13,9 @@ build() {
 	cd ${name}-${version}
 
 	patch -p1 -i $SRC/${name}-apng.patch
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--prefix=/usr \
