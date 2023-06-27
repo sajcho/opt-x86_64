@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAprFRAamk5fUut3VpPseESESSygEdphf7LYLmPWMTPiBIEs4fNmIxeQymlHyY9AsvDC1kvH0LoJR7B4kyXtOTwQ=
-SHA256 (Pkgfile) = b5eda8d72f7132bafedb50b7aff6bf54e08dc63e5ef7761f1e7176c2f09e84fa
+RWQg5aRf982JAsIyyUK91N2ge+eriEufHAtVO+zKhgtjUyvuEJfAsOU7lY1ezgkQr6IzKZYb8hXJAyoQYBYEqrPMU5L3YhgthQs=
+SHA256 (Pkgfile) = 8b02d9f5346ca2d4daa662264027144ea068253d7e5b8e0d84ec8e6b671ee958
 SHA256 (.footprint) = d080f5b90c3004123a9a386252561b2a6433cfc5c6b5f4834760fa8c19e8bb55
 SHA256 (gexiv2-0.14.1.tar.xz) = ec3ee3ec3860b9c78958a55da89cf76ae2305848e12f41945b7b52124d8f6cf9
+SHA256 (fix-compatibility-with-exiv2.patch) = 10ffd40036948bb3baf6107011d0e0a0062a44f6b3d882935296afd8a1f4d852
