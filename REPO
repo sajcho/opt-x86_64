@@ -772,9 +772,9 @@ f:7e000898e3fa60d8407ce1e186a54a84:libplacebo/Pkgfile
 f:81a456ec88f5af82580379a21432a451:libpsl/.footprint
 f:c538d09a09867ec7f0181d0d59d49b6b:libpsl/.signature
 f:5f82d888b1d746f1029df4c4a306357e:libpsl/Pkgfile
-f:8548814b6fa3387e5c72feb556ef6342:gegl/.footprint
-f:f0f55c356b5efeebb6c458a8385f4bef:gegl/.signature
-f:8cf4ae9f9b6c24a0fd2873d2d68c18a5:gegl/Pkgfile
+f:fc5fd2cb52971c954d8ff359e61d109b:gegl/.footprint
+f:6abe5be115c13194bc4ad6a5ed01483d:gegl/.signature
+f:a55cafc669514dc48d826506ddd6c9ab:gegl/Pkgfile
 f:b44c272fc566625029e31cba34a43f7b:swaylockd/.footprint
 f:47648ab159699032598d4943fafe2bc2:swaylockd/.signature
 f:293aa987a046c4c3d1fc2985e39313ae:swaylockd/Pkgfile
