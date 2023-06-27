@@ -1,0 +1,25 @@
+# Description:	Simple .INI file parser library written in C
+# URL:		https://github.com/benhoyt/inih
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	meson samurai
+
+name=inih
+version=56
+release=1
+source=(https://github.com/benhoyt/${name}/archive/r${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-r${version}
+
+	CFLAGS+=" -ffat-lto-objects"
+	CXXFLAGS+=" -ffat-lto-objects"
+
+	build-meson \
+		-Ddistro_install=true \
+		-Dwith_INIReader=true \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
