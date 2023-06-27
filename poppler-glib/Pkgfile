@@ -5,12 +5,15 @@
 
 name=poppler-glib
 _realname=poppler
-version=23.03.0
+version=23.06.0
 release=1
 source=(https://poppler.freedesktop.org/${_realname}-${version}.tar.xz)
 
 build() {
 	cd ${_realname}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	mkdir build
 	cd build
