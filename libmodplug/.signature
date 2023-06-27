@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoLdApMywnoBq7GdCgr2WYiPyfK12uRWDKHmB8CBY63VX3HZPcGKK1kxWcBy2pEQUehUFJ7qodv6ncq8FJoPEQw=
-SHA256 (Pkgfile) = fb357b575dee54c1647e34d2896dd92f3ac63e8ecb2dfc3238d61ab4bbd72bc9
+RWQg5aRf982JAmtGFFLQYVT1KBxMIZmXuDB8ZY2L2NmypNAm5mjc/nt93kEecnEHGxRL4t4NtDOLtYYCdN9M0LOB6jUi5PQEowg=
+SHA256 (Pkgfile) = fa2345b11e8cb94056d9c407186af52a75479222162f5cc90fc6c6a8674fdcca
 SHA256 (.footprint) = b20d1db93abc5e224d09d4d694307c265f745e2e96c537bf2a3d9bc1d1a1d0b1
 SHA256 (libmodplug-0.8.9.0.tar.gz) = 457ca5a6c179656d66c01505c0d95fafaead4329b9dbaa0f997d00a3508ad9de

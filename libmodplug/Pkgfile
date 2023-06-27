@@ -4,11 +4,18 @@
 
 name=libmodplug
 version=0.8.9.0
-release=1
+release=2
 source=(https://downloads.sourceforge.net/modplug-xmms/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
+
+	sed 's|-ffast-math ||' -i configure.ac
+
+	autoreconf -fiv
 
 	./configure \
 		--prefix=/usr
