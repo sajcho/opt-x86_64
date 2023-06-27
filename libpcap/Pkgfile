@@ -3,12 +3,15 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=libpcap
-version=1.10.3
+version=1.10.4
 release=1
 source=(https://www.tcpdump.org/release/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--prefix=/usr \
