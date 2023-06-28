@@ -1101,7 +1101,7 @@ f:9495124b691a82e9c6ccd33eb10049a5:openjpeg2/.signature
 f:7e3a716fa056af19586956ff11892fab:openjpeg2/Pkgfile
 f:d4e204209bccffea4dcc1aec62d4cadf:enca/enca-bad-file-descriptor.patch
 f:8acfa16b629095235b8b9a25330853d4:enca/.footprint
-f:c93e255c7acef067d21f2e34f294c050:enca/.signature
+f:0159b09f5a7a38d35da81174d37d68e9:enca/.signature
 f:9d157fe26612821f6ef830bcb78268f6:enca/Pkgfile
 f:e5f74be27525658dae59401455944186:swaync/post-install
 f:b55b5175376b3de0173eba4650d80b8f:swaync/.footprint
