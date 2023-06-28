@@ -5,7 +5,7 @@
 
 name=icewm
 version=3.4.0
-release=1
+release=2
 source=(https://github.com/ice-wm/${name}/archive/${version}/${name}-${version}.tar.gz)
 
 build() {
@@ -19,7 +19,6 @@ build() {
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCFGDIR=/etc \
 		-DCONFIG_GDK_PIXBUF_XLIB=ON \
-		-DCONFIG_IMLIB2=ON \
 		-DCONFIG_XPM=ON \
 		-DXINERAMA=ON \
 		-DCONFIG_LIBRSVG=ON \
