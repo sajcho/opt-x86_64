@@ -728,9 +728,9 @@ f:d1513d4201b5297a07ec8ceb35644c65:tslib/Pkgfile
 f:c884a5dd8ca9cb3477e6c0acc446b009:pulseaudio/pulseaudio.run
 f:e5f74be27525658dae59401455944186:pulseaudio/post-install
 f:446b36530aa3515466c6b9fc146f1021:pulseaudio/.footprint
-f:62a9c015f1e984e3e46bc10206e56012:pulseaudio/.signature
+f:245b6fdff7de6361911010dd9e4436fe:pulseaudio/.signature
 f:9ccc7331c2a8c77a4bda07ef08452f58:pulseaudio/pre-install
-f:78a3897631b50779fa591ad4dade4ac6:pulseaudio/Pkgfile
+f:0fcb4d4ad7dd3832efc74d85edc07641:pulseaudio/Pkgfile
 f:bb406426f3e6425340dfb87dd694f181:pulseaudio/README
 f:c6e01a34e86af3f51cc25284bfa4e568:libgd/.footprint
 f:dc6f254e68188d8bdb0e9f4fd9ffb04e:libgd/.signature
