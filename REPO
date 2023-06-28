@@ -1614,7 +1614,7 @@ f:23597c500f768a1e0d91d27185e46c32:popt/.footprint
 f:5dce8772611019c6ebd53b21730da953:popt/.signature
 f:675facec5eeac1ea6a8a1ecefb2c835f:popt/Pkgfile
 f:71b6387d1ca613ed120ee88ef13b5090:yasm/.footprint
-f:882955e2c2aecf06bc9f24e6b8bc7c1b:yasm/.signature
+f:db14cbeb3e7a705a9447560eb8176460:yasm/.signature
 f:204f8f7989f616e06e28ce0313b1a7f3:yasm/fix-memory-using-gas-processor.patch
 f:8201f396c7577219987845f9da6a4923:yasm/Pkgfile
 f:a8f10ebe2f26f5568b711dfd72065754:libptytty/.footprint
