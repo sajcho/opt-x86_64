@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAieuHtD2F9UICFXfI2fgXbibu61xHkjxupjABOYldpNBtxL1AZya/3WYIGzc4PKor17p6c6joEVRaxW2T1rJZg0=
-SHA256 (Pkgfile) = 07e40eb4e1a25d79e4933554812a35b8f36a91c7b3dffbb35489a832a2d5a516
+RWQg5aRf982JAk92Zhd5T7idqpQP2qCivfiopNpswpE5jxT06aEhTeszqH8n0sFHP6SWJ8/ilUtPxnupLetwYQfzPAxeGXqY4Ao=
+SHA256 (Pkgfile) = b1a2c9738013dde4d6b98e2b44dad5b4948f7ea2e6c3171657d2ffaf040e8928
 SHA256 (.footprint) = 9bded81cc625ebd64e92a6003914d7e1281a2eb8d1349dd92aa1d549adfd2366
-SHA256 (glib-networking-2.76.0.tar.xz) = 149a05a179e629a538be25662aa324b499d7c4549c5151db5373e780a1bf1b9a
+SHA256 (glib-networking-2.76.1.tar.xz) = 5c698a9994dde51efdfb1026a56698a221d6250e89dc50ebcddda7b81480a42b
