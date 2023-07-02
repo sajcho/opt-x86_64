@@ -5,7 +5,7 @@
 
 name=elogind
 version=252.9
-release=1
+release=2
 source=(https://github.com/${name}/${name}/archive/v${version}/${name}-v${version}.tar.gz \
 	elogind-user \
 	elogind.run \
@@ -48,12 +48,12 @@ build() {
 	install -m 0755 $SRC/elogind.run $PKG/etc/sv/elogind/run
 	ln -s /run/runit/supervise.elogind $PKG/etc/sv/elogind/supervise
 
+	mv $PKG/lib/elogind/libelogind-shared-252.9.so \
+		 $PKG/lib
+	rm -r $PKG/lib/elogind
+
 	install -m 0755 $SRC/elogind.wrapper $PKG/usr/lib/elogind
 	install -m 0644 $SRC/elogind-user $PKG/etc/pam.d/elogind-user
-
-	mv $PKG/lib/elogind/libelogind-shared-252.9.so \
-		$PKG/usr/lib/elogind
-	rm -r $PKG/lib/elogind
 
 	rm -r $PKG/usr/share/{bash-completion,doc,locale,zsh}
 }

@@ -12,6 +12,7 @@ drwxr-xr-x	root/root	etc/sv/elogind/
 -rwxr-xr-x	root/root	etc/sv/elogind/run
 lrwxrwxrwx	root/root	etc/sv/elogind/supervise -> /run/runit/supervise.elogind
 drwxr-xr-x	root/root	lib/
+-rwxr-xr-x	root/root	lib/libelogind-shared-252.9.so
 lrwxrwxrwx	root/root	lib/libelogind.so -> libelogind.so.0
 lrwxrwxrwx	root/root	lib/libelogind.so.0 -> libelogind.so.0.35.0
 -rwxr-xr-x	root/root	lib/libelogind.so.0.35.0
@@ -64,7 +65,6 @@ drwxr-xr-x	root/root	usr/lib/elogind/
 -rwxr-xr-x	root/root	usr/lib/elogind/elogind-cgroups-agent
 -rwxr-xr-x	root/root	usr/lib/elogind/elogind-uaccess-command
 -rwxr-xr-x	root/root	usr/lib/elogind/elogind.wrapper
--rwxr-xr-x	root/root	usr/lib/elogind/libelogind-shared-252.9.so
 drwxr-xr-x	root/root	usr/lib/elogind/system-shutdown/
 -rw-r--r--	root/root	usr/lib/elogind/system-shutdown/.keep_dir (EMPTY)
 drwxr-xr-x	root/root	usr/lib/elogind/system-sleep/
