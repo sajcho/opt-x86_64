@@ -4,7 +4,7 @@
 # Depends on:	libtasn1 make-ca meson
 
 name=p11-kit
-version=0.24.1
+version=0.25.0
 release=1
 source=(https://github.com/p11-glue/${name}/releases/download/${version}/${name}-${version}.tar.xz)
 
@@ -20,6 +20,9 @@ cat >> trust/trust-extract-compat << "EOF"
 # Generate a new trust store
 /usr/sbin/make-ca -f -g
 EOF
+
+	CFLAGS+=" -ffat-lto-objects"
+	CXXFLAGS+=" -ffat-lto-objects"
 
         build-meson \
 		-Dtest=false \
