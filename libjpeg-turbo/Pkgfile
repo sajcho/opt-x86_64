@@ -4,12 +4,15 @@
 # Depends on:	cmake nasm
 
 name=libjpeg-turbo
-version=2.1.5.1
+version=3.0.0
 release=1
 source=(http://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	mkdir build
 	cd build
