@@ -4,12 +4,15 @@
 # Depends on:	cmake
 
 name=taglib
-version=1.13
+version=1.13.1
 release=1
 source=(http://taglib.github.io/releases/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	mkdir build
 	cd build
