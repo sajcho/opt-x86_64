@@ -954,8 +954,8 @@ f:d6ced6fa8ef2f4ec88d55e5fc0302e4b:c-ares/.signature
 f:ae20fe1b4deb091453d6ff496a593fe3:c-ares/Pkgfile
 f:b3f2692e792f14df7d0ccfcc19399f66:pinentry/pinentry
 f:1fbfe9066a404b98181f6d93c4fcd30c:pinentry/.footprint
-f:0986f28178babf06640d715fecfc470d:pinentry/.signature
-f:9d2266b978fced1691b0ad2ab3bf7fe0:pinentry/Pkgfile
+f:fe997e248ae6adaa6eebbfd0a8d158bb:pinentry/.signature
+f:245d6a4942f64d271742da898852684a:pinentry/Pkgfile
 f:c06b3e2294c7fb30cc8eb61e7e8685f1:alsa-utils/.footprint
 f:a0507eaa553c15509ed25c65748d5de0:alsa-utils/.signature
 f:2ab196fd40c184c1cf3ba378eb3bb94a:alsa-utils/Pkgfile
