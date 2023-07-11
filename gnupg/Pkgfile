@@ -4,14 +4,19 @@
 # Depends on:	libgcrypt libksba pinentry npth
 
 name=gnupg
-version=2.4.2
+version=2.4.3
 release=1
 source=(https://gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
 
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
+
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--libexecdir=/usr/lib \
