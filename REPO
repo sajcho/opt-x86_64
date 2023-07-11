@@ -868,8 +868,8 @@ f:a7d1fd3c79971deb83cc695da2a32927:potrace/.footprint
 f:7228e9f2609d90094220563ce1b5da7b:potrace/.signature
 f:6d080af3488cf1f211d4a8e580b24bd7:potrace/Pkgfile
 f:c90ccd9b76ba1f07a1debd5f9a83b013:gnupg/.footprint
-f:568fa4ffc981cc1df988d70ef3954cd5:gnupg/.signature
-f:65f4658cad36a2af2e6dbfac2e22f492:gnupg/Pkgfile
+f:15a65616a22ae6be18a34331a0efbe26:gnupg/.signature
+f:75aa01935d140a20699caa0e4ea7801c:gnupg/Pkgfile
 f:587ca4159ae06b1d0572132c26cab9e7:libraw1394/.footprint
 f:2f97f6b7c513f1ad439928e2ac01820b:libraw1394/.signature
 f:4ae69dff53fb0a45b3a83ecc335c8920:libraw1394/Pkgfile
@@ -1249,8 +1249,8 @@ f:3ad4302f7ee341f5de454e05a94674c9:gst-plugins-good/.footprint
 f:9aaf76300563801cba35ca88c9231576:gst-plugins-good/.signature
 f:51e910ae4d6d5fbfd77b8250d1a024fe:gst-plugins-good/Pkgfile
 f:b43bd71131a88d453702338c4eeb8827:libksba/.footprint
-f:e9aa117c73253c0593d82b07c4f0b805:libksba/.signature
-f:fb8735b1480283db7a1169665fac9564:libksba/Pkgfile
+f:82e832e4fa44b017bec5366bdd2d666f:libksba/.signature
+f:de6f753974ef5a7211d0d7a67bd423f8:libksba/Pkgfile
 f:0655d87e945226ef251ccd4373c4636d:dav1d/.footprint
 f:3a1114b80fabdf84be4620b2160a7f21:dav1d/.signature
 f:603c7cc063cb8202a82b95f77bd5a858:dav1d/Pkgfile
@@ -1402,8 +1402,8 @@ f:c014906265cf17f4396dad3233e0309c:libpng/.footprint
 f:578f2b1921a4a9ba2143b286a0dc60ef:libpng/.signature
 f:d880ec736a0eb12798b3678546030e5c:libpng/Pkgfile
 f:1fdbbe28e297d576bbabf5c72bd895f7:libgpg-error/.footprint
-f:967dc5583633891843d1f71e2854d874:libgpg-error/.signature
-f:50b3ff3e888d8c0987d6641474e16f29:libgpg-error/Pkgfile
+f:e15c69e012f9742b2db7f5515f289f8f:libgpg-error/.signature
+f:1b1b592130fee964162b0aa5fd730535:libgpg-error/Pkgfile
 f:b418f4a5a73c85729fb5f8b61aafe556:libavc1394/.footprint
 f:24a364a9ed814a893131bf376a69922e:libavc1394/.signature
 f:3dd47f1290bdf14f9055ae353ca882f6:libavc1394/Pkgfile
@@ -1449,8 +1449,8 @@ f:67714d589e1ea7dcfca45fee7d19304b:x265/.footprint
 f:3fb98e0da6199caf14ff91b209dd2b15:x265/.signature
 f:0734100777406f3f49e03fbe4d7753cc:x265/Pkgfile
 f:6d9837eb6e4845b412795a25d3c22316:npth/.footprint
-f:10771e2659daf6e2169e759e5f451dae:npth/.signature
-f:3e89efbe49c3ade3ee96b6c02a094227:npth/Pkgfile
+f:5a20750beae1c80bda82b94c4bda8ca0:npth/.signature
+f:772815d41425ec7655da4df433f55d65:npth/Pkgfile
 f:12c2fe0e64ad56d37ae2bd7d12d0a249:tllist/.footprint
 f:6aefa420f2fdbc3b6cc43a2ed861372a:tllist/.signature
 f:e09827be0134ca6aa34744282b54563c:tllist/Pkgfile
