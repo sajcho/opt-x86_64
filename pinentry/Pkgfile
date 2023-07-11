@@ -5,18 +5,23 @@
 
 name=pinentry
 version=1.2.1
-release=1
+release=2
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2 \
 	pinentry)
 
 build() {
 	cd ${name}-${version}
 
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
+
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--enable-pinentry-curses \
 		--enable-fallback-curses \
-		--disable-pinentry-{gnome3,gtk2,qt,qt5} \
+		--disable-pinentry-{fltk,gnome3,gtk2,qt,qt5,tqt} \
 		--disable-libsecret
 
 	make V=1
