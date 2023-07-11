@@ -5,11 +5,14 @@
 
 name=libgcrypt
 version=1.10.2
-release=2
+release=3
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--build=$CHOST \
