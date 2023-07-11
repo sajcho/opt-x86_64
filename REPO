@@ -1123,8 +1123,8 @@ f:eac5c45888481123f7a53661791222b2:seatd/.signature
 f:a7495552b1784614d5ce214e95369b47:seatd/Pkgfile
 f:a9be0a283a8be2cc0ccb6fdcebbb4ff5:seatd/seatd.run
 f:a192a30a86348f829844c4f06f6f05c4:libgcrypt/.footprint
-f:70b1141b3b57dea9eda97979b6be208a:libgcrypt/.signature
-f:b63852bb32a672d7d25bc1433f2319dd:libgcrypt/Pkgfile
+f:a3889fbf15ed77b985c1a1c427acb1c0:libgcrypt/.signature
+f:0ed1461428dd116cbc6b5eaece8659bf:libgcrypt/Pkgfile
 f:acb4bf0e5fd2b631b2be517d2ae53762:exiv2/.footprint
 f:58c0ce67e0a9b9d3f06d04f4f6d1b891:exiv2/.signature
 f:7bf27735b9bbfaf2f8b64d76ae766569:exiv2/Pkgfile
