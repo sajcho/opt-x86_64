@@ -4,7 +4,7 @@
 # Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox
-version=115.0.1
+version=115.0.2
 release=1
 source=(https://ftp.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
 	distribution.ini \
