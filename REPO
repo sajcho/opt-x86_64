@@ -1327,10 +1327,11 @@ f:c208f12bf901415d81693c0af1e072d0:gnome-themes-extra/.signature
 f:01706ab891bda527fb8ff4c0da17870c:gnome-themes-extra/Pkgfile
 f:99076f600572cb9dfa0ff55512108714:firefox/distribution.ini
 f:89794c3d98e728472eba9247c747a1e8:firefox/.footprint
-f:bc0423deb97d16380b8c1bc916586fb6:firefox/.signature
+f:4ae461bf2a58ed9a47772fffb752632b:firefox/.signature
 f:d8743848c9164555d67d256814b91bd6:firefox/vendor.js
-f:cf8a32e11c30fbd3757f17e125428eb8:firefox/Pkgfile
+f:5a1d92b220bd1e67eaacce57c27d9f61:firefox/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
+f:6679e4f21252d89a7ed77d66ece92515:firefox/buildlog
 f:44e469b11796500b6a9462e59bdd6137:libsecret/.footprint
 f:e50111a90b951b6148e484d1a7b6ccd3:libsecret/.signature
 f:aa4519d163d600f07de584fe9d665da7:libsecret/Pkgfile
