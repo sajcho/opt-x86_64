@@ -1,0 +1,24 @@
+# Description:	Simple XML parser for Perl
+# URL:		https://metacpan.org/release/XML-Simple
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	perl-xml-parser
+
+name=perl-xml-simple
+_realname=XML-Simple
+version=2.25
+release=1
+source=(https://cpan.metacpan.org/authors/id/G/GR/GRANTM/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	export CFLAGS=$(perl -MConfig -E 'say $Config{ccflags}')
+	PERL_MM_USE_DEFAULT=1 perl Makefile.PL INSTALLDIRS=vendor
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -name 'perllocal.pod' -or \
+		-name '.packlist' | xargs rm
+}
