@@ -6,7 +6,7 @@
 name=perl-uri
 _realname=URI
 version=5.10
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/O/OA/OALDERS/${_realname}-${version}.tar.gz)
 
 build() {
