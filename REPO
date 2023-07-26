@@ -1022,9 +1022,9 @@ f:2a6fd96de59b5648860a400cf0c7676c:gptfdisk/Pkgfile
 f:c85079242d54888819e6be5f07b9f4a3:libbytesize/.footprint
 f:6e01fa8ee14d6aeb374584c0fba66d7d:libbytesize/.signature
 f:8803a2147066503194010cc38502c785:libbytesize/Pkgfile
-f:4e1194ff88efd1e90411bd705e8b5e79:imagemagick/.footprint
-f:fe90220573e54cc4db27486cc07b0695:imagemagick/.signature
-f:faea73d7f5183676ae7db157ef9653db:imagemagick/Pkgfile
+f:d1592c76c17012341e118dd7bf2c95a0:imagemagick/.footprint
+f:179ea7f653f5b3394c6274e9feabee1e:imagemagick/.signature
+f:9a41418cedb472c4e94938410dc6c4d2:imagemagick/Pkgfile
 f:9c54e647eadb86c2ca42143664d9ef26:sassc/.footprint
 f:9fa6b29cf200535f9a4eaee5b9745bfb:sassc/.signature
 f:3058ec0c5bee6d768ef7f62ff6e3de27:sassc/Pkgfile
