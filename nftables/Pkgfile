@@ -4,7 +4,7 @@
 # Depends on:	gmp jansson libedit libnftnl
 
 name=nftables
-version=1.0.7
+version=1.0.8
 release=1
 source=(https://netfilter.org/projects/${name}/files/${name}-${version}.tar.xz \
 	nftables-basic-firewall.nft \
@@ -16,6 +16,8 @@ build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--enable-python \
