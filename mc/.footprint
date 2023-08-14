@@ -144,6 +144,7 @@ drwxr-xr-x	root/root	usr/share/mc/syntax/
 -rw-r--r--	root/root	usr/share/mc/syntax/aspx.syntax
 -rw-r--r--	root/root	usr/share/mc/syntax/assembler.syntax
 -rw-r--r--	root/root	usr/share/mc/syntax/awk.syntax
+-rw-r--r--	root/root	usr/share/mc/syntax/b.syntax
 -rw-r--r--	root/root	usr/share/mc/syntax/c.syntax
 -rw-r--r--	root/root	usr/share/mc/syntax/cabal.syntax
 -rw-r--r--	root/root	usr/share/mc/syntax/changelog.syntax
