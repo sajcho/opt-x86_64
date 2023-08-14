@@ -1,23 +1,21 @@
 # Description:	Library for manipulating block devices
 # URL:		https://github.com/storaged-project/libblockdev
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gobject-introspection libbytesize ndctl parted volume_key
+# Depends on:	cryptsetup gobject-introspection keyutils libbytesize libnvme ndctl nss parted volume_key yaml
 
 name=libblockdev
-version=2.28
-release=0
-source=(https://github.com/storaged-project/${name}/releases/download/${version}-1/${name}-${version}.tar.gz \
-	fix-glibc-glob-onlydir.patch)
+version=3.0.2
+release=1
+source=(https://github.com/storaged-project/${name}/releases/download/${version}-1/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	patch -p1 -i $SRC/fix-glibc-glob-onlydir.patch
-
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--sysconfdir=/etc \
-		--without-dmraid \
 		--without-lvm_dbus
 
 	make V=1

@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAusafWq8kO2enI5odMO3+7sVoZppa2GV9XOVvqGXhMXtIBnsgy7HsWrDfiRZL8pMLFeCuOphKzjlVBDLrEgnzgM=
-SHA256 (Pkgfile) = e61499fb3705aafc633912156369dd9fb166b6f8e9ddd36a3dd03d36b43208bf
-SHA256 (.footprint) = 9e5c93dccd84d3e2cbb15178d6f45ca9591b2140295d7e6535fb1d28ed498d50
-SHA256 (libblockdev-2.28.tar.gz) = 82c9c841e28a74fecadedebfae6a772df623cecdf652e5376650fa26da5b7df4
-SHA256 (fix-glibc-glob-onlydir.patch) = bb7c6fd94426c1256a5c77c0d1467f0b9970aa01725ba6088825e1855cc08b16
+RWQg5aRf982JAsrYlIQZIPf7ASnA7SKBWZRRifqaVBLJWgFRGqQeImIs4MSax7AqMdhHWORjLJkqQfLB2xDploTpjYV4UY6qggI=
+SHA256 (Pkgfile) = 139c715e33eabf562865baa837ae6e1e3b554639150f2b0d88ef98101b9bc27e
+SHA256 (.footprint) = 2a06e3b7574b6033b717d5608fcc3bf87271d29c9658c274508257cb73a52f29
+SHA256 (libblockdev-3.0.2.tar.gz) = 7aff7c762abe7585fac0ea335ea5eefced6688515cc5a0b9c1a18003246af079
