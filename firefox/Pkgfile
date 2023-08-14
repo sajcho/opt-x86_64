@@ -4,7 +4,7 @@
 # Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox
-version=115.0.2
+version=116.0.2
 release=1
 source=(https://ftp.mozilla.org/pub/firefox/releases/${version}/source/${name}-${version}.source.tar.xz \
 	distribution.ini \
@@ -55,7 +55,7 @@ cat <<- EOF > .mozconfig
 		ac_add_options --enable-release
 		ac_add_options --enable-application=browser
 		ac_add_options --enable-official-branding
-		ac_add_options --enable-default-toolkit=cairo-gtk3-wayland
+		ac_add_options --enable-default-toolkit=cairo-gtk3-x11-wayland
 		ac_add_options --enable-pulseaudio
 		ac_add_options --enable-alsa
 		ac_add_options --enable-dbus
@@ -86,8 +86,8 @@ EOF
 
 	export CC=clang
 	export CXX=clang++
-	CFLAGS+=" -w"
-	CXXFLAGS+=" -w"
+	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
+	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
 
 	./mach build
 
