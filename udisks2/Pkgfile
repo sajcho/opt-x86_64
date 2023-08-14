@@ -5,8 +5,8 @@
 
 name=udisks2
 _realname=udisks
-version=2.9.4
-release=0
+version=2.10.0
+release=1
 source=(https://github.com/storaged-project/${_realname}/releases/download/${_realname}-${version}/${_realname}-${version}.tar.bz2 \
 	O_CLOEXEC.patch)
 
@@ -16,19 +16,22 @@ build() {
 	patch -p1 -i $SRC/O_CLOEXEC.patch
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--libexecdir=/usr/lib \
 		--localstatedir=/var \
 		--disable-man \
 		--disable-static \
+		--disable-zram \
 		--with-udevdir=/lib/udev
 
 	make V=1
 
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/{gtk-doc,locale}
+	rm -r $PKG/usr/share/{bash-completion,gtk-doc,locale,zsh}
 
 	find $PKG -type f -name '*.la' -delete
 }
