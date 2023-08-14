@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoKlWXFKxo9wnIpEVdcKCQXAXEuPKk/mJXrP//awYA2rwGOvpu2KdPpPzcFCsMrw4Dk7kCQ4U/nTRhUEz0WQkw4=
-SHA256 (Pkgfile) = 65e51033219afe9584320e7cb43e1f5821c83990e8cbcfe47d794867a0f123af
+RWQg5aRf982JAktrLrDIN7jtCn0IQTqT0evHTVMQgN2M0NSt+pTzzUyjU8et4S3o3Ai7Ey7hgW99oWUO5OpgnNoJmWpQ7W6raws=
+SHA256 (Pkgfile) = afe7cafae4e63f163b40958fa740b988bc60a2fb57afbef8911008345c25c1c5
 SHA256 (.footprint) = 2b4603029b15032a74098cf497de9777c10b2c1d1fcca733daa90fdac79a1073
-SHA256 (gst-libav-1.22.4.tar.xz) = 9a751bc740de768e791c37a95f0a924c6a41d12fd7f37f54ce6a4e834be122d3
+SHA256 (gst-libav-1.22.5.tar.xz) = 8583f0c1f4fcb01eed11fa1e3c21126543a8bd739ed4fc1db31f756a5ab01d9a

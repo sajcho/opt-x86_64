@@ -4,15 +4,12 @@
 # Depends on:	ffmpeg gst-plugins-base
 
 name=gst-libav
-version=1.22.4
+version=1.22.5
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
-
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
 
 	# clean
 	sed '/Wmissing-include-dirs/d' -i meson.build
