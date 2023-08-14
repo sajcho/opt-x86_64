@@ -4,9 +4,9 @@
 # Depends on:	meson
 
 name=fuse3
-version=3.14.1
+version=3.16.1
 release=1
-source=(https://github.com/libfuse/libfuse/releases/download/fuse-${version}/fuse-${version}.tar.xz \
+source=(https://github.com/libfuse/libfuse/releases/download/fuse-${version}/fuse-${version}.tar.gz \
 	fix-realpath.patch)
 
 build() {
@@ -16,7 +16,7 @@ build() {
 
 	build-meson . build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
