@@ -4,12 +4,15 @@
 # Depends on:	brotli c-ares icu
 
 name=nodejs
-version=20.3.1
+version=20.5.1
 release=1
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
 build() {
 	cd node-v${version}
+
+	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/}"
+	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/}"
 
 	./configure \
 		--prefix=/usr \
