@@ -5,7 +5,7 @@
 
 name=ruby
 version=3.2.2
-release=3
+release=4
 source=(http://cache.ruby-lang.org/pub/${name}/${version%.*}/${name}-${version}.tar.xz \
 	rubygems-avoid-platform-specific-gems.patch)
 
@@ -17,6 +17,8 @@ build() {
 	./autogen.sh
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--mandir=/usr/share/man \
 		--enable-shared \
