@@ -5,15 +5,12 @@
 
 name=imagemagick
 _realname=ImageMagick
-version=7.1.1-12
-release=2
+version=7.1.1-15
+release=1
 source=(https://imagemagick.org/archive/releases/${_realname}-${version}.tar.xz)
 
 build() {
 	cd ${_realname}-${version}
-
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--prefix=/usr \
