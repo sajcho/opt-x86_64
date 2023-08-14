@@ -4,7 +4,7 @@
 # Depends on:	gettext python3
 
 name=iso-codes
-version=4.12.0
+version=4.15.0
 release=1
 source=(https://salsa.debian.org/${name}-team/${name}/-/archive/v${version}/${name}-v${version}.tar.gz)
 
@@ -12,6 +12,8 @@ build() {
 	cd ${name}-v${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr
 
 	make V=1
