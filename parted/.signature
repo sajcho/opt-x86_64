@@ -1,7 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAupR0rIMDN/rwEnp+9CG6PY4XeW8+rFjEUO300oOK06tH6cMT67YyWtdGsXnbudMEWfaheh1yLuRGHvHGge5sQY=
-SHA256 (Pkgfile) = 05f5b72e8d1608a1407650b45ab3da651af999957f2c7a26db785cf5c0432b86
-SHA256 (.footprint) = d0a1ecea4f698d62e70c88250f8875e05460d9d80fadeacc2b95e7b9052a55eb
-SHA256 (parted-3.5.tar.xz) = 4938dd5c1c125f6c78b1f4b3e297526f18ee74aa43d45c248578b1d2470c05a2
-SHA256 (fix-includes.patch) = f87c9290e861b969f4520a1af84ebf4b8f5f1437c1d78ee235d5ffcda3bffe84
-SHA256 (parted-include-sysmacros.patch) = c8de15d5e89154ffbaad917310f16c5c74cc936d15e0cb64f1cb3ddd3acbf335
+RWQg5aRf982JArltSZaKdtqert+X1rjVBng9ej4brI4tBmWyhfEb8sh2+dnUgUEMUye/PBWGgp9YYvNY+3JFQvq+lCkKCUsd4QM=
+SHA256 (Pkgfile) = fdd19500ad4b43c25cde9a4be615d2f0ee39ea045c18e443c540300ebb57025d
+SHA256 (.footprint) = 529a84741b4f25aca0c2ad14c8ffda809083fb9949c1a9bc57cb98697a4904c0
+SHA256 (parted-3.6.tar.xz) = 3b43dbe33cca0f9a18601ebab56b7852b128ec1a3df3a9b30ccde5e73359e612

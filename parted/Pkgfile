@@ -4,19 +4,16 @@
 # Depends on:	libdevmapper
 
 name=parted
-version=3.5
-release=0
-source=(https://ftpmirror.gnu.org/gnu/${name}/${name}-${version}.tar.xz \
-	fix-includes.patch \
-	parted-include-sysmacros.patch)
+version=3.6
+release=1
+source=(https://ftpmirror.gnu.org/gnu/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
-	patch -p1 -i $SRC/fix-includes.patch
-	patch -p1 -i $SRC/parted-include-sysmacros.patch
-
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--enable-debug \
 		--enable-shared \
