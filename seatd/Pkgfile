@@ -4,16 +4,13 @@
 # Depends on:	elogind meson scdoc
 
 name=seatd
-version=0.7.0
-release=3
+version=0.8.0
+release=1
 source=(https://github.com/kennylevinsen/${name}/archive/${version}/${name}-${version}.tar.gz \
 	seatd.run)
 
 build() {
 	cd ${name}-${version}
-
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
 
 	build-meson \
 		-Dlibseat-seatd=enabled \
