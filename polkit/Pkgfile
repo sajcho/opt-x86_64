@@ -4,8 +4,8 @@
 # Depends on:	dbus duktape gobject-introspection
 
 name=polkit
-version=122
-release=2
+version=123
+release=1
 source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/${version}/${name}-${version}.tar.bz2 \
 	polkit-99-saux.rules \
 	polkit-1)
@@ -15,7 +15,7 @@ build() {
 
 	build-meson . build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
