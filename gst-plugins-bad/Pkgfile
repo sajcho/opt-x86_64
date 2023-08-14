@@ -4,15 +4,12 @@
 # Depends on:	chromaprint faac faad2 gstreamer ladspa libmodplug libnice libsrtp openjpeg2 soundtouch libgudev openal vulkan-loader neon shaderc
 
 name=gst-plugins-bad
-version=1.22.4
+version=1.22.5
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
-
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
 
 	# clean
 	sed '/Wmissing-include-dirs/d' -i meson.build
