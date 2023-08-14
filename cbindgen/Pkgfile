@@ -4,8 +4,8 @@
 # Depends on:	rust
 
 name=cbindgen
-version=0.24.3
-release=2
+version=0.24.6
+release=1
 source=(https://github.com/eqrion/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
