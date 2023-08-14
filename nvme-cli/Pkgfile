@@ -1,0 +1,23 @@
+# Description:	NVM-Express user space tooling for Linux
+# URL:		https://github.com/linux-nvme/nvme-cli
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libnvme meson util-linux zlib
+
+name=nvme-cli
+version=2.5
+release=1
+source=(https://github.com/linux-nvme/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Ddocs=man \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/{etc,usr/{lib,share/{bash-completion,zsh}}}
+}
