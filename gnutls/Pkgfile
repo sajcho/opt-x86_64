@@ -4,14 +4,18 @@
 # Depends on:	libidn2 libseccomp nettle p11-kit
 
 name=gnutls
-version=3.8.0
+version=3.8.1
 release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/v3.8/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
+	CFLAGS+=" -Wno-missing-include-dirs"
+
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--enable-ssl3-support \
 		--enable-openssl-compatibility \
