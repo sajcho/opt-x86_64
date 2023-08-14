@@ -4,15 +4,12 @@
 # Depends on:	automake iniparser json-c keyutils libtool util-linux
 
 name=ndctl
-version=76.1
-release=2
+version=78
+release=1
 source=(https://github.com/pmem/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
-
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
 
 	build-meson \
 		-Dsystemd=disabled \
