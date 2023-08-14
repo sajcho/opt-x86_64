@@ -4,17 +4,15 @@
 # Depends on:	libgudev
 
 name=upower
-version=1.90.0
-release=0
-source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/v${version}/${name}-v${version}.tar.bz2 \
-	assume-battery-present.patch)
+version=1.90.2
+release=1
+source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/v${version}/${name}-v${version}.tar.bz2)
 
 build() {
 	cd ${name}-v${version}
 
-	patch -p1 -i $SRC/assume-battery-present.patch
-
 	build-meson \
+		-Dos_backend=dummy \
 		-Dman=false \
 		-Dgtk-doc=false \
 		-Dsystemdsystemunitdir=no \

@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAlrLRoTsIWPMPxmYx3HqOt8EEfZ/PYnnfkFonWAoZ8iAk1x9ZWRdJEdNRdTvxJydBmAvNMBfG9tY762Y6ECDtQE=
-SHA256 (Pkgfile) = 04a8e1bbd53631ce12c74f69560558b9dbcc3db1f9f49e7ebdf2d42a64ef8815
+RWQg5aRf982JAo8s5HDbcCH5LtvApkPf2dn7ID2SdhQG/unqvL5H3yIRQ4Ku+qhmHqnpvp2ijvzuXoTQQJdYB0wV4xF+D0bHGQs=
+SHA256 (Pkgfile) = fefcc9ce389ea61767c00f2c14b8600ac0a11b98aa65a5c3521c37df4209de19
 SHA256 (.footprint) = 7bdde67587ba4164290fe4f531298043b54c00a237148be515d22f0b3064158b
-SHA256 (upower-v1.90.0.tar.bz2) = eafa0a367dc0417390984eeb81e9d1a2b449999ba6ad20ed39bf270d0b4e5e77
-SHA256 (assume-battery-present.patch) = fd3ef5442a0970ea915f92eb7e7a90000f9a2d1813cb1bca9e950783b53548d6
+SHA256 (upower-v1.90.2.tar.bz2) = 6cc46c9c753f614b970738e02ba7e37d86ebbedd81e9742dd22caafbd743894d
