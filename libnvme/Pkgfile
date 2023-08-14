@@ -1,0 +1,24 @@
+# Description:	C Library for NVM Express on Linux
+# URL:		https://github.com/linux-nvme/libnvme/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	dbus json-c keyutils meson python3 openssl swig util-linux
+
+name=libnvme
+version=1.5
+release=1
+source=(https://github.com/linux-nvme/${name}/archive/v${version}/${name}-v${version}.tar.gz \
+	doc-test.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/doc-test.patch
+
+	build-meson \
+		-Ddocs=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
