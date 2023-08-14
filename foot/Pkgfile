@@ -4,21 +4,18 @@
 # Depends on:	fcft libxkbcommon
 
 name=foot
-version=1.14.0
+version=1.15.3
 release=1
 source=(https://codeberg.org/dnkl/${name}/archive/${version}.tar.gz)
 
 build() {
 	cd ${name}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	build-meson \
 		-Dgrapheme-clustering=enabled \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
