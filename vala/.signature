@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAha5o7/iUO5x2KwKyl+c1u9a8941z4yOJf7Z0c5Z5cAQ6KOk6b91XdNTwVr8OSHIOQJwafPMrLOW3ST7AdOD7Ag=
-SHA256 (Pkgfile) = feca96d8f55d2aadd85bf34ecccc5b8236c3d84db416cf9e4ad7eae232c08d6d
+RWQg5aRf982JAiXRAVl9kgHg6j1XbD609gmB15w9YtfZpB6ixQmARgLsbZedR8+mWkcsLitw5xDRVqiaaCIBpmkjjyyZhJgNeAE=
+SHA256 (Pkgfile) = 8cf45258afdc8aac2dbf85572eb600e8a5d2d909c31f7baaa3679dd837c17a8e
 SHA256 (.footprint) = d839f248b288d55c8117d3405b2bf0882213d0589856b31c1494cb2dd93e7c5d
-SHA256 (vala-0.56.10.tar.xz) = a83ad3af4228f02f2510f8a3e4f3c4f9c36c8605b1261ce6d5d53be35ba1fc4d
+SHA256 (vala-0.56.11.tar.xz) = 0cf3baf19f278fbeaf78bab2ee1dd18ce53e0d65bf9c57d5aa000c1832b1de64
