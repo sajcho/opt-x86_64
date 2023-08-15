@@ -4,7 +4,7 @@
 # Depends on:	alsa-lib flac libvorbis opus sqlite3
 
 name=libsndfile
-version=1.2.0
+version=1.2.2
 release=1
 source=(https://github.com/libsndfile/${name}/archive/${version}/${name}-${version}.tar.gz)
 

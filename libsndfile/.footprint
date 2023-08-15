@@ -21,8 +21,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/SndFile/
 -rw-r--r--	root/root	usr/lib/cmake/SndFile/SndFileTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/SndFile/SndFileTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libsndfile.so -> libsndfile.so.1
-lrwxrwxrwx	root/root	usr/lib/libsndfile.so.1 -> libsndfile.so.1.0.35
--rwxr-xr-x	root/root	usr/lib/libsndfile.so.1.0.35
+lrwxrwxrwx	root/root	usr/lib/libsndfile.so.1 -> libsndfile.so.1.0.37
+-rwxr-xr-x	root/root	usr/lib/libsndfile.so.1.0.37
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/sndfile.pc
 drwxr-xr-x	root/root	usr/share/

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAnJjAzXy95ZcwFGIMFV8nigsFoCVs7HCzaPO294RnPqfGFHci8cuxrN9Uri9RK2keVBIlWqShTRDeKi7/hWAIAo=
-SHA256 (Pkgfile) = a71051ca63b94f2d48cf1944b8cda2f968c1ff2b961a46bb0a23f07019722b44
-SHA256 (.footprint) = 56df5434276c079f327c2615aaeba5a3d248c088c9804b7fcd996c12a41a0237
-SHA256 (libsndfile-1.2.0.tar.gz) = 62dc4e2bcd45f6f0e89cbc3522cc90eb174dca0eef0a0d19ead289833b390cd7
+RWQg5aRf982JAhxnLhG722btY3pQHdOikPNsDAzXrBiIApuW6mTNwfWQgF/ONbpRuy3Up7F4W0XA7LrhKG5M9c11xu5Mmm/hPgg=
+SHA256 (Pkgfile) = 258ce02f89ecf383b0873c51694a7d6b461ebe96a96dbc97a9ec74cab1fb8309
+SHA256 (.footprint) = 251d4afb0ddcc0553e282e554059829d8107a79b4b6c14fc0bb1f37ec93a89b6
+SHA256 (libsndfile-1.2.2.tar.gz) = ffe12ef8add3eaca876f04087734e6e8e029350082f3251f565fa9da55b52121
