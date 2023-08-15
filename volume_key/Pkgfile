@@ -5,13 +5,15 @@
 
 name=volume_key
 version=0.3.12
-release=0
+release=1
 source=(https://releases.pagure.org/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--disable-nls \
 		--without-python \
