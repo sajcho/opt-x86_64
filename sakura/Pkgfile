@@ -1,10 +1,10 @@
 # Description:	Sakura Terminal Emulator
 # URL:		https://launchpad.net/sakura
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	vte34
+# Depends on:	vte3
 
 name=sakura
-version=3.8.6
+version=3.8.7
 release=1
 source=(https://launchpad.net/${name}/trunk/${version}/+download/${name}-${version}.tar.bz2)
 
