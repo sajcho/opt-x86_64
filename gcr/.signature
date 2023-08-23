@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAszLEpLRTOKKpKErXK4vOBa+xzWXQcVo7bxqseXxnm2MrW8LyN0R/v2ISZcyI8lm54RTWJVngOF4Ps02F84MSAI=
-SHA256 (Pkgfile) = 8c68ea95030fea265514c2201f5030a0a51e535eee9597f1d166b1d88e3c4826
-SHA256 (.footprint) = 345a0cb4cd002f0a0ba78251c471b05aea93d827eb9cac767278a768c9d5c5cf
-SHA256 (gcr-3.41.1.tar.xz) = bb7128a3c2febbfee9c03b90d77d498d0ceb237b0789802d60185c71c4bea24f
