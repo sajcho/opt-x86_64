@@ -1,17 +1,19 @@
 # Description:	fast and lightweight IDE
 # URL:		https://www.geany.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	vte34
+# Depends on:	vte3
 
 name=geany
 version=1.38
-release=1
+release=2
 source=(https://download.geany.org/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--enable-gtk3 \
 		--enable-vte \

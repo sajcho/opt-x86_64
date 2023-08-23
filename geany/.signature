@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAk8yWusJuY9kVHya5/rp+j1Dvhy1O8JWGDoynYzkKOwtpig4eeOG3VkS46hQfU0MfahUscbkA4ZEnllx8udBKgk=
-SHA256 (Pkgfile) = d10a54fd1a55cf4573d347358e9daf5d2bc8d213186a8de000ffd1396cf87f1c
+RWQg5aRf982JAmrDgcUnnaUbaMj3Bwb0nFnMF9VMjchw/beXbpTKKLUWeo0F7Q41Wx/HxtwpUTTP69stGphwTM0ZRGmjyB7XGQs=
+SHA256 (Pkgfile) = 9c9c7ba60efc4a6acc374823b42043b1fb90b6f308761ed94f17e7b6627816c7
 SHA256 (.footprint) = e569ad96f76aa53c978207e925aac3669f0a6810bad0dfa6878a5deaa22a090d
 SHA256 (geany-1.38.tar.gz) = e91e903924b993b79ef88f33708372dc7c79aee78e15a02e728338695e9dc155
