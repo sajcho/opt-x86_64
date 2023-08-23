@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAtAWq2XcMnp20ZO5acrq3EdFojv1a63Smi7DsKY++P58laSAUeAOFL7RUjzvkycqXRY7CzpfgD+GP9Yt5SES3gk=
-SHA256 (Pkgfile) = e8edf8eea4470b53b1288d089774f9e0000c0fed0bf7db99f723ca947b99ef71
-SHA256 (.footprint) = bf3a3fc21ac0910c789c1a5e887c29f2c70b85ecba7cab75e7f3c9b15244f261
-SHA256 (boost_1_82_0.tar.bz2) = a6e1ab9b0860e6a2881dd7b21fe9f737a095e5f33a3a874afc6a345228597ee6
+RWQg5aRf982JAuuMwmHr3aqgR4oUKLOkhFNCi++o6Ds2uW25XeOlw4PmPCEYEARwzur6dbvUU1p4+/I+HE980s65FiS7Axm9rgQ=
+SHA256 (Pkgfile) = 8ed135695cdd33fce42ec77d175597c6c53f8409ee1af425a0704fa01b2b50f7
+SHA256 (.footprint) = 8258d5cb3aec6b37364cabfa2f2f2e17a2e6af751e0f4037594b8b93795766b0
+SHA256 (boost_1_83_0.tar.bz2) = 6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e

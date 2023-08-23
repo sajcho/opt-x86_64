@@ -4,9 +4,9 @@
 # Depends on:	icu python3
 
 name=boost
-version=1.82.0
-_pkgversion=1_82_0
-release=2
+version=1.83.0
+_pkgversion=1_83_0
+release=1
 source=(https://boostorg.jfrog.io/artifactory/main/release/${version}/source/${name}_${_pkgversion//./_}.tar.bz2)
 
 build() {
@@ -15,6 +15,12 @@ build() {
 	[ $CARCH = "x86_64" ] && ARCH="x86"
 	[ $CARCH = "aarch64" ] && ARCH="arm"
 	[ $CARCH = "riscv64" ] && ARCH="riscv"
+
+	# Boost breaks the few packages which use the phoenix
+	# module when compiled with current GCC.
+	# Fix this with the following command:
+	sed '/#include.*phoenix.*tuple.hpp.*/d' \
+		-i boost/phoenix/stl.hpp
 
 	./bootstrap.sh \
 		--prefix=$PKG/usr \
