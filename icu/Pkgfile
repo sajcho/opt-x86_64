@@ -4,19 +4,15 @@
 
 name=icu
 version=73.2
-release=1
+release=2
 source=(https://github.com/unicode-org/${name}/releases/download/release-${version//./-}/icu4c-${version/./_}-src.tgz)
 
 build() {
 	cd ${name}/source
 
-	export CC="gcc"
-	export CXX="g++"
-	export LDFLAGS="-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now"
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--mandir=/usr/share/man \
 		--enable-static \

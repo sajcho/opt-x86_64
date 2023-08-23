@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoYenIH5GqQS2dD/Ehq5YWakmzpqAHCdrNCyOaaqUk58aLTMOR3UyGP2qp7Ry/9r727QSJJfHsJhHMMbUYOltAE=
-SHA256 (Pkgfile) = a99720c6813efccce4c3bca6ff3fc374d6d4b60c6d6d3a83bac3ca8ba98000c4
+RWQg5aRf982JAgc6M94ULj/uztCMfAtwplvyz+RtqoLhx3xixsH3aAyAHI9XnJ15+mtqdmEfIUyEo6Jax77y7h655SAMf18HCAw=
+SHA256 (Pkgfile) = e74d325837606272b5b9b17690dea766b16f607b2783efb96aa5637235902dc7
 SHA256 (.footprint) = 54a5e19659bc1579ddaab2c36d534f9d0aef1df5ba70de05839a0d868acdbe95
 SHA256 (icu4c-73_2-src.tgz) = 818a80712ed3caacd9b652305e01afc7fa167e6f2e94996da44b90c2ab604ce1
