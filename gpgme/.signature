@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAu/psWw8iMieCyhy+SgBycBp3ju/KTDbymyOxUFWLjgwre6O0BMkr+8gizVue3nky8JndbbmcH4/LwOKF22AiQM=
-SHA256 (Pkgfile) = fdb2aff4d33c22a2e7b0e2251834210b839d9f96ac4389e310e76b1b0da2d2fb
-SHA256 (.footprint) = ce19e9042bf1c972e65c2e4fce86393d0c829bcc381465ae79929aa562cef8a7
-SHA256 (gpgme-1.21.0.tar.bz2) = 416e174e165734d84806253f8c96bda2993fd07f258c3aad5f053a6efd463e88
+RWQg5aRf982JAhshdB49/g10DZhx7l5fUFrh2sZzC6Eyt6BIggYrz/pdUGfAffz31lU5+bQi7mPX8M8/0Vo/RDOxdDHyqGbdEQE=
+SHA256 (Pkgfile) = 827a1999d34b495cb2fa13580e66c58112701a62e882af0bb65d67631ca92567
+SHA256 (.footprint) = ad03c72f0f5b1e0980feb4dc6fea7328765fcdb51e05e7d9ca67884c5135b1f2
+SHA256 (gpgme-1.22.0.tar.bz2) = 9551e37081ad3bde81018a0d24f245c3f8206990549598fb31a97a68380a7b71

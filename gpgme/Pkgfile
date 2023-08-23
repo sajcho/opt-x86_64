@@ -4,7 +4,7 @@
 # Depends on:	gnupg swig python3-setuptools
 
 name=gpgme
-version=1.21.0
+version=1.22.0
 release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
