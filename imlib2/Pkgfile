@@ -4,7 +4,7 @@
 # Depends on:	freetype libsm libxext openjpeg2
 
 name=imlib2
-version=1.11.1
+version=1.12.0
 release=1
 source=(https://download.sourceforge.net/enlightenment/${name}-${version}.tar.xz)
 
@@ -12,6 +12,8 @@ build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--disable-static \
 		--without-gif \
