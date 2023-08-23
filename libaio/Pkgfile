@@ -4,11 +4,17 @@
 
 name=libaio
 version=0.3.113
-release=1
+release=2
 source=(https://pagure.io/${name}/archive/${name}-${version}/${name}-${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${name}-${version}
+
+	# failed to build with lto
+	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/}"
+	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/}"
+	# remove -nostartfiles-nostdlib from build flags
+	sed 's|CFLAGS += -nostdlib -nostartfiles -Wall -I. -fPIC|-Wall -I. -fPIC|' -i src/Makefile
 
 	make V=1
 
