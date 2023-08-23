@@ -1,0 +1,39 @@
+# Description:	Virtual Terminal Emulator library - GTK3, GTK4
+# URL:		https://gitlab.gnome.org/GNOME/vte
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gtk3 libpcre2 vala
+
+name=vte3
+_realname=vte
+version=0.72.2
+release=1
+source=(https://gitlab.gnome.org/GNOME/${_realname}/-/archive/${version}/${_realname}-${version}.tar.gz \
+	syscall.patch)
+
+build() {
+	cd ${_realname}-${version}
+
+	patch -p1 -i $SRC/syscall.patch
+
+	# Fix - we have include dir in /usr/include
+	sed \
+		-e 's|Werror=missing-include-dirs|Wno-deprecated-declarations|' \
+		-e 's|Wmissing-include-dirs|Wno-missing-include-dirs|' \
+		-i meson.build
+
+	build-meson \
+		-Dgtk3=true \
+		-Dfribidi=true \
+		-Dgtk4=false \
+		-Ddocs=false \
+		-Dfribidi=false \
+		-D_systemd=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/usr/share/{glade,locale}
+	rm $PKG/etc/profile.d/vte.*
+}

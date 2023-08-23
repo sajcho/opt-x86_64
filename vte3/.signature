@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAj0OS1EI3u28Zf4LimgVkz6T4j+WwhG+sPQ9+7gqcmYzgAfAy3XhVcfq9I28AdlXbxcOW9cWQjHxYfFxuTMDzwg=
+SHA256 (Pkgfile) = 9ab9bbec67b2279fc06c5e38375a53ba4ffed82b42c67c6db374abf338d4132d
+SHA256 (.footprint) = cd8da1d7686a8cee01ec590a3b6898bbeaf6ed72ff07837ca355f8f5739d109d
+SHA256 (vte-0.72.2.tar.gz) = c42a6cf407216439c87ca56109b013d7c640cbb10dafea4a093a9a21377b6698
+SHA256 (syscall.patch) = 465d876aa244cd4c73eb2a19ed2a2cf1fd3d4ae0b2776387751fd1fcaa10f806
