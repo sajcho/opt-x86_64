@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAhQtq6Z1GIJiEv0+GqdnklZY1+gamO4v6CeNJnVkuXbkgrzehNu/mfkAA4KfSp9lJoOIYWU/43zpj1gQobc/6A0=
-SHA256 (Pkgfile) = 9af7a688e4ce35edc895b2ee92a76cfdcbc3dd82af810f59a574851096332c5f
+RWQg5aRf982JAgr1EHSPuIFFOb3b13KyVl8nqQ6leY7hubR9QIwkUsRkmbtEyJahbgqG4JcFgSc1sWV0s4OoUSHR2E3s0UlORwk=
+SHA256 (Pkgfile) = e2326ca0ac93067866636c72d34852706126e9a197f5b9337b36b275d3ab76d6
 SHA256 (.footprint) = dbe8d7d08f6fceb24f6c65d1df5cb096cd909e819ddc79cb2135c6bbed3d622c
 SHA256 (argon2-20190702.tar.gz) = daf972a89577f8772602bf2eb38b6a3dd3d922bf5724d45e7f9589b5e830442c
