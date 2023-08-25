@@ -11,9 +11,6 @@ source=(https://libzip.org/download/${name}-${version}.tar.xz)
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	mkdir build
 	cd build
 
