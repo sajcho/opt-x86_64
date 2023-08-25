@@ -11,9 +11,6 @@ source=(https://download.gimp.org/pub/${name}/${version%.*}/${name}-${version}.t
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	build-meson \
 		-Dintrospection=true \
 		-Dgraphviz=disabled \
