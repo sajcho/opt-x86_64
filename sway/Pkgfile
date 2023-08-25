@@ -13,9 +13,6 @@ source=(https://github.com/swaywm/sway/archive/${version}/${name}-${version}.tar
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	patch -p1 -i $SRC/sway_6249.patch
 
 	build-meson \
