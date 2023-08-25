@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JApA36h2zTpBD3RFW+CfwoNeGBe62gaEI0X6N8fxFy6mcFo6aa4JvNBsMlqJRw+paiMyxUURR7LJpzRIvfaL/Yg4=
-SHA256 (Pkgfile) = 2ffcbea59c1c6fc3f22d9435ef7c395a61ece2d2a1d6b94257f1f2e2d63f6fd1
+RWQg5aRf982JAuyTpW68KfLfxHLdsAyDpk9vm0XyBaNWMViVNADq4h3zIu9m9PQo7JdYQk874xmFBy6OHLYUuwrgxBxPGh/lgw4=
+SHA256 (Pkgfile) = 7d284fb30e434094043cfe91e6b38fb9651b5a93cb62948b765ace91247beb40
 SHA256 (.footprint) = 3008eed3cf5230784c7fdc9b99efc455e86b00c1c6986572eec481d24f555a16
-SHA256 (iwd-2.1.tar.xz) = 60fc17a6e765545e36ce75abe28d896f822eaf81ac1f61498ca631585cbde227
+SHA256 (iwd-2.8.tar.xz) = a90e621f45b9c2f9021beea0fa6477ee0334fcd2ee34beaab42e31ea0fd3be29
 SHA256 (01-dbus.conf-remove-netdev-group.patch) = a75cb54afd066609b25c88d4a942d5323945dadd3ba54cd818379aedbec732bd
 SHA256 (02-fix-name-request.patch) = accb8067208c17ec91000ec306660380d1ff90155b2b6027a9753490e189a347
 SHA256 (03-resolvconf-default.patch) = dd0c48cf9a4a542571ec5ea260a3ec398d4afe9f435824052092ddf9addb1335
