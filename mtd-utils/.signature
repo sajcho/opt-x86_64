@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/core-x86_64.pub
-RWQyKH7cMutLvU6hPR5oE6UTR32iAP0ujOaY33Jtml+M2kB5hDMrHZ1cHThkxTtW5w5trjlHGnoQzvffI3ZPZc2/sb+FIjKYPgc=
-SHA256 (Pkgfile) = 4d4907e41c53e006605f4c76cce229d9b60dec1d15a687d90c0653afa4eb6841
+untrusted comment: verify with /etc/ports/opt-x86_64.pub
+RWQg5aRf982JAtDTKwIOo3oZMeY1kw6B9AqU5bipp3EJUn4LSUWmyO7F6kUVDFngQBvB4THO2aikKsiKiVWrmUS73NXbEIDgHAY=
+SHA256 (Pkgfile) = 8fb7a136648ccef49b8acdca6c06309a6333bf88a142798b60fe67324c9b86e4
 SHA256 (.footprint) = ad64ec515bf4d6ccdb08a3467c3f9af2c650d124d4e4ca22750d18ae2ddfb103
 SHA256 (mtd-utils-2.1.5.tar.bz2) = 386e27fd121699b6b729bc2e8e04dda987b31cca6b16e12fb6cc6dcf26449f46

@@ -1,7 +1,7 @@
 # Description:	Utilities for handling MTD devices, and for dealing with FTL, NFTL JFFS2, etc.
 # URL:		http://www.linux-mtd.infradead.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	acl autoconf automake coreutils libtool lzo openssl3 util-linux zlib zstd
+# Depends on:	automake coreutils libtool lzo util-linux
 
 name=mtd-utils
 version=2.1.5
