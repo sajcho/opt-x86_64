@@ -1,7 +1,7 @@
 # Description:	Utility providing key negotiation for WPA wireless networks
 # URL:		https://w1.fi/wpa_supplicant/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	dbus libnl openssl3
+# Depends on:	dbus libnl
 
 name=wpa_supplicant
 version=2.10
