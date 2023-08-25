@@ -12,9 +12,6 @@ source=(https://github.com/kcat/${_realname}/archive/${version}/${_realname}-${v
 build() {
 	cd ${_realname}-${version}
 
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	cd build
 
 	cmake .. \
