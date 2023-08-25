@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAjEsrUblAs3pHbjhosL8/mcru4VRzyW7/sg/+x7EDS61WEAdX5+Lt+7+TrOsw/nxrNTKDdjXv40OHJNSZnxs5g0=
-SHA256 (Pkgfile) = 844329f4260b86a489cc7039219d0add4fe80e3746fc98cf45928ff092fd2861
+RWQg5aRf982JAv6QC0+SdNcjVaVaW2037664oRlaDt+SLJtIMsc2yT4tCi4T8b2S4oO0nGeDAqcxnts9iPAkxM3s9MFDGIqtrgM=
+SHA256 (Pkgfile) = 9b64a0aadad4a367c5b8d85eb162d09074df1e0b8d6a847caedb98a0ce1d6d1a
 SHA256 (.footprint) = 79e85ae2a17b82d118e92ee75bd1890a4261c566e57cce6fa175fdf419d88767
 SHA256 (nvme-cli-2.5.tar.gz) = e84bdba276aadcddda8cf5d412e934cc5673af15132ea02180deb5d06af73146
