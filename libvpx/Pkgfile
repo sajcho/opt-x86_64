@@ -11,9 +11,6 @@ source=(https://github.com/webmproject/${name}/archive/v${version}/${name}-v${ve
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -flto -ffat-lto-objects"
-	CXXFLAGS+=" -flto -ffat-lto-objects"
-
 	./configure \
 		--prefix=/usr \
 		--as=yasm \
