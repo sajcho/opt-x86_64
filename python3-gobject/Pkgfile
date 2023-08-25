@@ -12,9 +12,6 @@ source=(https://download.gnome.org/sources/${_realname}/${version%.*}/${_realnam
 build() {
 	cd ${_realname}-${version}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	build-meson . build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
