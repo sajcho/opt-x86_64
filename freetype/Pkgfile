@@ -19,9 +19,6 @@ build() {
 	patch -p1 -i $SRC/0002-Enable-subpixel-rendering.patch
 	patch -p1 -i $SRC/0004-Enable-long-PCF-family-names.patch
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	build-meson \
 		-Dharfbuzz=auto \
 		-Dbrotli=enabled \
