@@ -1,7 +1,7 @@
 # Description:	Simple .INI file parser library written in C
 # URL:		https://github.com/benhoyt/inih
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	meson samurai
+# Depends on:	meson
 
 name=inih
 version=57
