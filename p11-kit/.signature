@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAj7G/KFQ1HCz2YBrTA7kgq8gUMBZZLXROt7k8Pi7vcngqpHV0NEFDaYWXebLNRED18t/PXjjYYdJc8Sa4qnw+wE=
-SHA256 (Pkgfile) = 98eccc779b19ebed9c6ff629f6d3cc0a1b13681421a6c39a92b2c68a4b97dc90
+RWQg5aRf982JAn54nXBiDn53aozv+lyazqmtZm5yEpMWcNPD9QBFtezAKQ9StsN+zAwCkhMKfxd1BGBr3gEKqvazH4Fmr/tlkQw=
+SHA256 (Pkgfile) = 8d59f8d893aa510d757078bf654260148a113726ffad0f181d2e2d8d61a3eb55
 SHA256 (.footprint) = 797033f02baa0139a0afa2faa82c63a3ae0f6f06cea4c2a7f69da3bd97120d56
 SHA256 (p11-kit-0.25.0.tar.xz) = d55583bcdde83d86579cabe3a8f7f2638675fef01d23cace733ff748fc354706

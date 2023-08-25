@@ -21,10 +21,7 @@ cat >> trust/trust-extract-compat << "EOF"
 /usr/sbin/make-ca -f -g
 EOF
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
-        build-meson \
+	build-meson \
 		-Dtest=false \
 		-Dnls=false \
 		-Dmodule_path=/usr/lib/pkcs11 \
