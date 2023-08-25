@@ -14,9 +14,6 @@ build() {
 
 	patch -p1 -i $SRC/${name}-apng.patch
 
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	./configure \
 		--prefix=/usr \
 		--disable-static
