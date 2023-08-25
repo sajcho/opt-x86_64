@@ -11,9 +11,6 @@ source=(https://github.com/Exiv2/${name}/releases/download/v${version}/${name}-$
 build() {
 	cd ${name}-${version}-Source
 
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	mkdir build
 	cd build
 
