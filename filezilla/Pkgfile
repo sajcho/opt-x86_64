@@ -1,7 +1,7 @@
 # Description:	FTP Client
 # URL:		https://filezilla-project.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gnutls gtk3 libfilezilla pugixml wxwidgets
+# Depends on:	libfilezilla pugixml wxwidgets
 
 name=filezilla
 _realname=FileZilla
