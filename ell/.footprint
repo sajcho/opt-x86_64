@@ -40,6 +40,7 @@ drwxr-xr-x	root/root	usr/include/ell/
 -rw-r--r--	root/root	usr/include/ell/signal.h
 -rw-r--r--	root/root	usr/include/ell/string.h
 -rw-r--r--	root/root	usr/include/ell/strv.h
+-rw-r--r--	root/root	usr/include/ell/sysctl.h
 -rw-r--r--	root/root	usr/include/ell/test.h
 -rw-r--r--	root/root	usr/include/ell/tester.h
 -rw-r--r--	root/root	usr/include/ell/time.h
