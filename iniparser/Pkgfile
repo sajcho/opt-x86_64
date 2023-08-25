@@ -14,9 +14,6 @@ build() {
 
 	patch -p1 -i $SRC/rpath.patch
 
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	make V=1
 
 	install -d $PKG/usr/lib $PKG/usr/include
