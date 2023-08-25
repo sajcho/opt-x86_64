@@ -1,7 +1,7 @@
 # Description:	Simple audio library for GTK applications
 # URL:		http://0pointer.de/lennart/projects/libcanberra/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	alsa-lib gstreamer gtk3 libtool libvorbis pulseaudio
+# Depends on:	gstreamer gtk3 pulseaudio
 
 name=libcanberra
 version=0.30
@@ -15,9 +15,6 @@ build() {
 
 	patch -p1 -i $SRC/libcanberra-0.30-wayland-1.patch
 	patch -p1 -i $SRC/libcanberra-multi-backend.patch
-
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--prefix=/usr \
