@@ -12,9 +12,6 @@ source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2 \
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	./configure \
 		--build=$CHOST \
 		--host=$CHOST \
