@@ -12,9 +12,6 @@ source=(https://download.gimp.org/pub/gimp/v${version%.*}/${_realname}-${version
 build() {
 	cd ${_realname}-${version}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	build-meson \
 		-Djavascript=false \
 		-Dlua=false \
