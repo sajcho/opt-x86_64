@@ -14,9 +14,6 @@ source=(https://github.com/${name}/${name}/archive/v${version}/${name}-v${versio
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	build-meson \
 		-Dcgroup-controller=elogind \
 		-Ddefault-hierarchy=hybrid \
