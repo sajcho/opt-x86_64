@@ -11,9 +11,6 @@ source=(https://storage.googleapis.com/downloads.webmproject.org/releases/webp/$
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	./configure \
 		--prefix=/usr \
 		--enable-swap-16bit-csp \
