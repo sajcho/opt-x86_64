@@ -1,7 +1,7 @@
 # Description:	Display dialog boxes from the command line and shell scripts
 # URL:		https://wiki.gnome.org/Projects/Zenity
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gtk3 intltool itstool libnotify libxml2 meson
+# Depends on:	libnotify
 
 name=zenity
 version=3.44.2
