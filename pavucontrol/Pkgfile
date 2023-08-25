@@ -1,7 +1,7 @@
 # Description:	Pulseaudio Volume Control, GTK based mixer for Pulseaudio
 # URL:		https://freedesktop.org/software/pulseaudio/pavucontrol/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gtkmm3 libcanberra pulseaudio
+# Depends on:	gtkmm3 libcanberra
 
 name=pavucontrol
 version=5.0
@@ -10,9 +10,6 @@ source=(https://freedesktop.org/software/pulseaudio/${name}/${name}-${version}.t
 
 build() {
 	cd ${name}-${version}
-
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--prefix=/usr \
