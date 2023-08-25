@@ -10,9 +10,6 @@ source=(https://www.tcpdump.org/release/${name}-${version}.tar.gz)
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	./configure \
 		--prefix=/usr \
 		--enable-ipv6 \
