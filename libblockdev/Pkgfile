@@ -1,7 +1,7 @@
 # Description:	Library for manipulating block devices
 # URL:		https://github.com/storaged-project/libblockdev
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cryptsetup gobject-introspection keyutils libbytesize libnvme ndctl nss parted volume_key yaml
+# Depends on:	gobject-introspection libbytesize libnvme ndctl parted volume_key
 
 name=libblockdev
 version=3.0.2
