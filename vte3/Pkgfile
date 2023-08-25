@@ -1,7 +1,7 @@
 # Description:	Virtual Terminal Emulator library - GTK3, GTK4
 # URL:		https://gitlab.gnome.org/GNOME/vte
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	gtk3 libpcre2 vala
+# Depends on:	gtk3 vala
 
 name=vte3
 _realname=vte
