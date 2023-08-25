@@ -1,7 +1,7 @@
 # Description:	A compiler that makes it easy to integrate C and C++ code with scripting languages
 # URL:		http://www.swig.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	bison libpcre2 zlib
+# Depends on:	bison libpcre2
 
 name=swig
 version=4.1.1
