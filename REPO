@@ -1334,9 +1334,9 @@ f:c208f12bf901415d81693c0af1e072d0:gnome-themes-extra/.signature
 f:01706ab891bda527fb8ff4c0da17870c:gnome-themes-extra/Pkgfile
 f:99076f600572cb9dfa0ff55512108714:firefox/distribution.ini
 f:89794c3d98e728472eba9247c747a1e8:firefox/.footprint
-f:e310959c28a6fd4c0823777317602f32:firefox/.signature
+f:f7071957ccab1a49a25a7ff3f242b9da:firefox/.signature
 f:d8743848c9164555d67d256814b91bd6:firefox/vendor.js
-f:be68f7cf00bf56fa943127b32b859339:firefox/Pkgfile
+f:6a21719ca25709214b707748cf325a8f:firefox/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox/firefox.desktop
 f:1b691b6aaac412b7f94f0efef83474c7:nvme-cli/.footprint
 f:d2830a825ad84aeb7ffb0d0ec2aed5b4:nvme-cli/.signature
