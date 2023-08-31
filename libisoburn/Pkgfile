@@ -1,0 +1,34 @@
+# Description:	Library to enable creation and expansion of ISO-9660 filesystems
+# URL:		https://dev.lovelyhq.com/libburnia/libisoburn
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libburn libedit libisofs
+
+name=libisoburn
+version=1.5.6
+release=1
+source=(https://files.libburnia-project.org/releases/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--enable-libacl \
+		--enable-libedit \
+		--enable-xattr \
+		--enable-zlib \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	ln -s xorriso $PKG/usr/bin/mkisofs
+
+	rm $PKG/usr/bin/xorriso-tcltk
+
+	find $PKG -type f -name '*.la' -delete
+}
