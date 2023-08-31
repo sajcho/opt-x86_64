@@ -1,0 +1,24 @@
+# Description:	Library for reading, mastering and writing optical discs
+# URL:		https://dev.lovelyhq.com/libburnia/web/wiki
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=libburn
+version=1.5.6
+release=1
+source=(https://files.libburnia-project.org/releases/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
+		--prefix=/usr \
+		--disable-static
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
