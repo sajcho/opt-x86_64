@@ -6,6 +6,7 @@ d:iwgtk
 d:inih
 d:graphviz
 d:ruby
+d:libburn
 d:libsoundio
 d:docbook-xsl-nons
 d:mpg123
@@ -52,6 +53,7 @@ d:mypaint-brushes
 d:libwebp
 d:glibmm
 d:json-glib
+d:libisofs
 d:utf8proc
 d:libfm
 d:double-conversion
@@ -95,6 +97,7 @@ d:rust-static
 d:libsndfile
 d:libfm-extra
 d:sudo
+d:libisoburn
 d:libdv
 d:libsrtp
 d:p11-kit
@@ -385,6 +388,9 @@ f:d7224759494b53ba032a654dad348bad:ruby/rubygems-avoid-platform-specific-gems.pa
 f:1c7543faed04dcd1f471e699f182cf8e:ruby/.footprint
 f:1bb970f24d7c09e241e380dec7fb699f:ruby/.signature
 f:43ae50f47a1dc700976ecb60f53e8291:ruby/Pkgfile
+f:1b5037de31850d2a03552d58b75f90d8:libburn/.footprint
+f:588e0a023473b84fd023722913addd11:libburn/.signature
+f:fcc3dcafdcbf39529fddc947c8caaa9c:libburn/Pkgfile
 f:eb6ecafa7c965738084580abf4171570:libsoundio/.footprint
 f:e5a4519635af81e8c391ae13bfcc97c5:libsoundio/.signature
 f:e8551e8af2185d99310dfc17c55e67b6:libsoundio/Pkgfile
@@ -547,6 +553,9 @@ f:ffbe969a21f8fc67c09a8a10e0294fcd:glibmm/Pkgfile
 f:b0308ac60eb8d48a3b641f0fbe9659a7:json-glib/.footprint
 f:def82a66c7070d25f8a3c72508f0e7aa:json-glib/.signature
 f:e2cea854faecc7c018af2d6321144518:json-glib/Pkgfile
+f:8a6068f4af1f3018d96d240e7fe871f3:libisofs/.footprint
+f:52c2645be86929a2418e61b1c6c4b2e3:libisofs/.signature
+f:58304e1aeeed755db751acdbe8bfb554:libisofs/Pkgfile
 f:ace88ab2e77804949a92fe3e4493c80c:utf8proc/.footprint
 f:4dc3cfc23034ecccb7617c5c390218d0:utf8proc/.signature
 f:a4dbe72ce20995920fdcecebcff89261:utf8proc/Pkgfile
@@ -715,6 +724,9 @@ f:1e0801bd202ebcb432eff7e9f50aa0f7:sudo/.footprint
 f:da9728518f469b4e393add240516ec9a:sudo/.signature
 f:f7a34ed69049804bd0b7493838137a27:sudo/Pkgfile
 f:f21530e52d794b03145cc97e2e0694cd:sudo/.md5sum
+f:cb2fd8e087570733f7bcb5008cb719a6:libisoburn/.footprint
+f:fdfda8ecdd8f4dc4cfd3064af0adfca0:libisoburn/.signature
+f:c776242c002b1b2fd76d6d0675ca4b7a:libisoburn/Pkgfile
 f:4399eb558e830520b02a0a0ef1abca51:libdv/.footprint
 f:42dffaafe0c9b36a99bba0f8079ce5c4:libdv/.signature
 f:dd73e13950bcaccaecffea4d10c29820:libdv/Pkgfile
@@ -766,9 +778,9 @@ f:6ea86bc30afa70f353aca6484603248f:ghostscript/Pkgfile
 f:dd64318596cd12b40bd01d3739d4229a:swayidle/.footprint
 f:59ff13d1075e5e2b91e813b36300fb9b:swayidle/.signature
 f:d4b5a9c1b550b1754ff945f6d0d95405:swayidle/Pkgfile
-f:cbf23120679ac5f496bda55af929dec8:gcr3/.footprint
-f:1a00da3e782c741fcf6d8f8d09665cd3:gcr3/.signature
-f:0c056bc0e54e793d1478d083ff71dbde:gcr3/Pkgfile
+f:5ce3f49e9232ac0e60e9abfb69a3c088:gcr3/.footprint
+f:1a18198c4c5d21daa25fcb5fa0df696b:gcr3/.signature
+f:17bba92ee32dae26f0dc27c120627027:gcr3/Pkgfile
 f:6706501df57329ce281d68773d35f202:rlwrap/.footprint
 f:adabdd1488552256d1d1098a31fe7400:rlwrap/.signature
 f:e3c7246d8afc1f224358f56288f4efe6:rlwrap/Pkgfile
@@ -1163,9 +1175,9 @@ f:25e254a6b28adf7d83e55f82ce087037:avahi/.footprint
 f:7280afe507726c7d0a451aebaeb74742:avahi/.signature
 f:a4fc35e5e643a99b67aab5163ccbc4fe:avahi/pre-install
 f:7fa6b672575cd883068c7253cba499a2:avahi/Pkgfile
-f:04d9cdc17f117eb66891fb05b3d98431:fmt/.footprint
-f:51fa40d9348e32984104822c073c4393:fmt/.signature
-f:893f747ec2363f837cbbb188752a5b04:fmt/Pkgfile
+f:81813daba27687e1edc392f1cd8ff8c4:fmt/.footprint
+f:7ffc3763458e06e794c235647f392050:fmt/.signature
+f:b3d1ae370ae9ade6c9b14458f41ca399:fmt/Pkgfile
 f:1428757b51e5fcc227ed51b875f5d34c:flac/.footprint
 f:44198a0b9eccbadcdfbdb5e001aa7813:flac/.signature
 f:37941708df390b2c33380ba85b4b300c:flac/Pkgfile
@@ -1483,8 +1495,8 @@ f:a5c92015a534d871d440f0a32ad9095c:x264/.footprint
 f:d9f89cbf9da91f5b451c16f2164dfc1f:x264/.signature
 f:780acc3364f26ecda164b2088d8d1097:x264/Pkgfile
 f:9438220e6c9864cf612d45aff8482f20:icewm/.footprint
-f:72c80cf98dc94947b8ec10002f8c0272:icewm/.signature
-f:ddb8e2680051d81437c701a15be4cc84:icewm/Pkgfile
+f:1b3b418086089674a9b180b88707a6ca:icewm/.signature
+f:486b2410181fd453f55bf9bf1068e778:icewm/Pkgfile
 f:bfe2a68f8b898b4e4c509f268f80a103:libcaca/.footprint
 f:0709e3351c9f6753affad73589aaf329:libcaca/.signature
 f:62fd0626cea090d6fcff6510ce9f36a4:libcaca/Pkgfile
