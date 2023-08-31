@@ -6,7 +6,7 @@
 name=gcr3
 _realname=gcr
 version=3.41.1
-release=1
+release=2
 source=(https://download.gnome.org/sources/${_realname}/${version%.*}/${_realname}-${version}.tar.xz)
 
 build() {
@@ -14,11 +14,12 @@ build() {
 
 	build-meson \
 		-Dgtk_doc=false \
+		-Dssh_agent=false \
 		-Dgpg_path=/usr/bin/gpg2 \
 		-Dsystemd=disabled \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
