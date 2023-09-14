@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=make-ca
-version=1.10
+version=1.12
 release=1
 source=(https://github.com/lfs-book/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
