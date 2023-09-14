@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAka2jBQknDTEuPm4pR7daDVmlK4Nsm7kaJolRXH7D4LLv9ysO0aBl9KhwSP9mK8t9FcbdvBrIZobmtwy7zEzfQA=
-SHA256 (Pkgfile) = 865d99219644f9705722bbe2f652da737beb495334f2c68a58433aa1b0518e54
-SHA256 (.footprint) = f558e5c1d708fed3c554056f63a9d795a4cdb5b034a69f3f5b3fc1bdea51b874
-SHA256 (libnl-3.7.0.tar.gz) = 9fe43ccbeeea72c653bdcf8c93332583135cda46a79507bfd0a483bb57f65939
+RWQg5aRf982JAryJkUGWi4tzLU8VvbpwWlWFGUf7G3q8hwA7fw2kJJd/Oj43c7S+1PPlKYEErqJPX2vY1zAXjpqKq/BJ/ysOEQg=
+SHA256 (Pkgfile) = 44373ddb06ba467115420fa8ab9295bf40ae4057b9c78a99b873ff8a9bd0d5cb
+SHA256 (.footprint) = 37253cd229c012f13a717ff09add41552a77387ce3d0be6b95e2d6b9ee0cd443
+SHA256 (libnl-3.8.0.tar.gz) = bb726c6d7a08b121978d73ff98425bf313fa26a27a331d465e4f1d7ec5b838c6
