@@ -1,0 +1,28 @@
+# Description:	General-purpose programming language designed for robustness, optimality, and maintainability
+# URL:		https://ziglang.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	llvm-toolchain lld zlib
+
+name=zig
+version=0.11.0
+release=1
+source=(https://github.com/ziglang/${name}/archive/0.11.0/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX="/usr" \
+		-DCMAKE_PREFIX_PATH="/usr" \
+		-DCMAKE_VERBOSE_MAKEFILE=ON \
+		-DZIG_TARGET_MCPU="baseline" \
+		-DZIG_SHARED_LLVM=ON
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
