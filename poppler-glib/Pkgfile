@@ -5,7 +5,7 @@
 
 name=poppler-glib
 _realname=poppler
-version=23.08.0
+version=23.09.0
 release=1
 source=(https://poppler.freedesktop.org/${_realname}-${version}.tar.xz)
 
@@ -15,12 +15,11 @@ build() {
 	mkdir build
 	cd build
 
-	cmake .. \
+	cmake .. -G Ninja \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
 		-DENABLE_GLIB=ON \
-		-DENABLE_ZLIB=ON \
 		-DENABLE_UNSTABLE_API_ABI_HEADERS=OFF \
 		-DENABLE_UTILS=OFF \
 		-DENABLE_CPP=OFF \
@@ -32,9 +31,9 @@ build() {
 		-DWITH_NSS3=OFF \
 		-DRUN_GPERF_IF_PRESENT=OFF
 
-	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+	ninja -v
 
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG ninja install
 
 	rm $PKG/usr/lib/libpoppler.so*
 	rm $PKG/usr/lib/pkgconfig/poppler.pc
