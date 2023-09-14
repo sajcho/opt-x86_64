@@ -1,34 +1,30 @@
 # Description:	Brotli compression library
 # URL:		https://github.com/google/brotli
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cmake
+# Depends on:	cmake samurai
 
 name=brotli
-version=1.0.9
-release=2
-source=(https://github.com/google/${name}/archive/v${version}/${name}-v${version}.tar.gz \
-	add-runtime-linker-path.patch \
-	build-tool-against-shared-lib.patch)
+version=1.1.0
+release=1
+source=(https://github.com/google/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	patch -p1 -i $SRC/add-runtime-linker-path.patch
-	patch -p1 -i $SRC/build-tool-against-shared-lib.patch
-
 	mkdir build
 	cd build
 
-	cmake .. \
+	cmake .. -G Ninja \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
 		-DBUILD_SHARED_LIBS=ON \
+		-DBROTLI_DISABLE_TESTS=ON \
 		-Wno-dev
 
-	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+	ninja -v
 
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG ninja install
 
 	find $PKG -type f -name '*.a' -delete
 }

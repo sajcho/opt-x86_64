@@ -1,7 +1,5 @@
 untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAutXtz37jDamXzSvQ+jFnZ6C0CySWZevYEOZYezM4NlLxrdQzryuyZqjIPMQwajrDnfZLJIJ+Yj+EWHYLrUKPwE=
-SHA256 (Pkgfile) = f7dfb30fd4a3f3f5be6d125583bfd729b1d9fbe56f374db16350f37fe615cccd
-SHA256 (.footprint) = 3cff14ae841d24d16fdc3c439d49a663813a300673fb189311646792b5ae0eaa
-SHA256 (brotli-v1.0.9.tar.gz) = f9e8d81d0405ba66d181529af42a3354f838c939095ff99930da6aa9cdf6fe46
-SHA256 (add-runtime-linker-path.patch) = 8ce282ad246b9aa30aa7b733276f51fc6bbf0fcd661ad92479e94180658935d2
-SHA256 (build-tool-against-shared-lib.patch) = 48612162ac8c62c71ed90ad3b2d8a9352b4719c68345556092c359d968df76bf
+RWQg5aRf982JAn2nFltyf505g48mztMw2VocxR7SeQL4P7zlkSDqategmXYned+BRuqbiFYwL6iI4h08Wp6D5hjMXnE0E8VtWgg=
+SHA256 (Pkgfile) = 2411480a0be7d5bdbe71a85b5b8732012a1e4a9a1bc9cac29fb9a6c1493d5ecf
+SHA256 (.footprint) = 2659a3e66920c8a24d9129e1ebb038209eb54c7f86949fe01bdbd3a7bd813e8b
+SHA256 (brotli-v1.1.0.tar.gz) = e720a6ca29428b803f4ad165371771f5398faba397edf6778837a18599ea13ff
