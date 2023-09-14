@@ -5,13 +5,15 @@
 
 name=hunspell
 version=1.7.2
-release=0
+release=1
 source=(https://github.com/hunspell/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--disable-nls \
 		--disable-static \
