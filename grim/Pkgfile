@@ -4,15 +4,12 @@
 # Depends on:	libjpeg-turbo pixman scdoc wayland-protocols
 
 name=grim
-version=1.4.0
+version=1.4.1
 release=1
-source=(https://github.com/emersion/${name}/archive/v${version}/${name}-${version}.tar.gz \
-	printf-fix.patch)
+source=(https://git.sr.ht/~emersion/${name}/archive/v${version}.tar.gz)
 
 build() {
-	cd ${name}-${version}
-
-	patch -p1 -i $SRC/printf-fix.patch
+	cd ${name}-v${version}
 
 	build-meson . build
 
