@@ -1,0 +1,34 @@
+# Description:	Dynamic Tiling Wayland Compositor
+# URL:		https://github.com/riverwm/river
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	git libevdev libxkbcommon pixman scdoc wayland-protocols wlroots zig
+
+name=river
+version=0.3.0-dev
+_commit=e1326978ab2e1ddd253b8f89f3f4651b38eae9b9
+# Author: Isaac Freund <mail@isaacfreund.com>
+# Date:   Sat Jun 17 12:35:34 2023 +0200
+release=1
+source=()
+
+build() {
+	cd $SRC
+
+	git clone https://github.com/riverwm/river.git
+	cd $SRC/river
+	git checkout --track origin/next-zig
+	git submodule update --init
+	git reset --hard ${_commit}
+
+	# This installs it to $SRC/out
+	DESTDIR=$SRC/${name}/out zig build \
+		-Doptimize=ReleaseSafe \
+		-Dpie -Dxwayland \
+		-Dcpu=baseline \
+		--prefix /usr install
+
+	cp -r out/* "$PKG"
+
+	# Install example configuration
+	install -D -m 0644 example/init -t "$PKG"/usr/share/river/examples
+}
