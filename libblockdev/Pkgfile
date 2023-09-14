@@ -4,7 +4,7 @@
 # Depends on:	gobject-introspection libbytesize libnvme ndctl parted volume_key
 
 name=libblockdev
-version=3.0.2
+version=3.0.3
 release=1
 source=(https://github.com/storaged-project/${name}/releases/download/${version}-1/${name}-${version}.tar.gz)
 
