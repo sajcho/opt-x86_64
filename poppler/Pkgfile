@@ -4,7 +4,7 @@
 # Depends on:	cairo lcms2
 
 name=poppler
-version=23.08.0
+version=23.09.0
 release=1
 source=(https://poppler.freedesktop.org/poppler-$version.tar.xz)
 
@@ -14,7 +14,7 @@ build() {
 	mkdir build
 	cd build
 
-	cmake .. \
+	cmake .. -G Ninja \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
@@ -24,7 +24,6 @@ build() {
 		-DENABLE_GLIB=OFF \
 		-DENABLE_QT5=OFF \
 		-DENABLE_QT6=OFF \
-		-DENABLE_ZLIB=ON \
 		-DENABLE_CMS=lcms2 \
 		-DENABLE_LIBOPENJPEG=none \
 		-DENABLE_BOOST=OFF \
@@ -32,7 +31,7 @@ build() {
 		-DRUN_GPERF_IF_PRESENT=OFF \
 		-Wno-dev
 
-	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+	ninja -v
 
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG ninja install
 }
