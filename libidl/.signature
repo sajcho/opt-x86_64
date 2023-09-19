@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAt3Tvr0cKh622xOxT2PeN/NYnb4x5QPiygoPnu3EwP9jdVVzHI4B43fxAcnf/uU/EOMtLY0UcBbK385Yru+OxAY=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrMzjEHbPgVa1uwqNM6OTeQgoB2RWn5M9KK4JngU0jhLqWQ2WlT+Q3CITaaShHBCEOnZnQmjx/pnp+JgaP6EjIgY=
 SHA256 (Pkgfile) = f0553d1ae7035735e06a818b513c07a8a34bef57ca16c013e3a541eb21f32b0f
 SHA256 (.footprint) = ced46bdc1dbd2c327f7038cd5f484503bc3ac8ccaccf9c3499ef98ae92fedefe
 SHA256 (libIDL-0.8.14.tar.bz2) = c5d24d8c096546353fbc7cedf208392d5a02afe9d56ebcc1cccb258d7c4d2220

@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAnai5USGSqCz1J/mgHbyhJ3s4+ik/i06yAx5H76am8vdQDeeqO6ESCVRW7nesh0Lo+zvIPT7Whj3v5JGQHHi3Qs=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrAMGuif1cr754M5Trb03VxcDrVgQ8uHmRLjUDPqRVQ6fjxLHA+RTA4eaXz6lkN8GhY2tKAiT21psxA1i1UasBQ4=
 SHA256 (Pkgfile) = 72d926e95c73e2b4e5a779433cff11c6eedcf94973176053807306cd585a264d
 SHA256 (.footprint) = c4575ed0855fe330812c99fc5a1cad8647601e5ef70601a67151289b91d16ee6
 SHA256 (itstool-2.0.7.tar.bz2) = 6b9a7cd29a12bb95598f5750e8763cee78836a1a207f85b74d8b3275b27e87ca

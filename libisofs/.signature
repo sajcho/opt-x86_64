@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAhzDMRx06/DrV2MUPgPx5mx1uopOAZcALlyZhKDpjTg8bSEDXW8bAq8ZF7ZfRQwpY2dcPcB1BC0bKmQVmoSCvAg=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrPOdTHbHYU4sRX/CnzwyhwQEIyTDO5FuISCDOl3o/6mRX+jYCB1W0RjcArwhc0wDAKYq7yd45TqM8fd7sEZaBgU=
 SHA256 (Pkgfile) = d07bd040fd31a8b51b329856aef75b3511c45030994c012bd0bf232b4715e147
 SHA256 (.footprint) = 438d04ad7f350597985caa2cfffe03d983a4b4ae32db6d85d0907a742190dfd5
 SHA256 (libisofs-1.5.6.tar.gz) = 0152d66a9d340b659fe9c880eb9190f3570fb477ac07cf52e8bcd134a1d30d70

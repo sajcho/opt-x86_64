@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAhgYhv7nHm66AGqqEyodxnWkxmBOdhaMvXzN4zTN27KPy41kb6jRe3UyBJUqx16J8kasFrCjk34oIJMUwL2XMAU=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrDth4iOwjDITmVLMvpbBV66HYSaGJK8QQjOksc48l5B298L+YAyk10KblT0HHZjL+kq9LWUj5sLUznl0ndnUgAE=
 SHA256 (Pkgfile) = 8bd2a86473ce3abd432fdc11a1d304c5fb2c4eab50976f2d286431b015772f6b
 SHA256 (.footprint) = 7ff0e10838a5c518492d14ef9e24a24ba1be196a3de208f547d798b1e1fc76f9
 SHA256 (appstream-glib-0.8.2.tar.xz) = 71256500add5048d6f08878904708b3d0c3875f402e0adcd358e91d47dcd8b96

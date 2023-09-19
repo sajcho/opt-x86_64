@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JApLOUUz1O4QNLgT/njrYpWVploSFAoIgDIil5u6UQMyr6n0Gd9tK9nfx8mX2foQGatt0+SSYNj/N49Dcmo4emAY=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrGUvFF8MoTEtNNiltRhXkOthkCsgQORGYOHw0wguIa/TJFLUvPuUOHjgCXoK0m/8rnU+gG0NsusOwUaUl8SOOgQ=
 SHA256 (Pkgfile) = 78be4f00d58c5f9bf5511340ce2951df8131aa3b515fdbf2548b28eab7d8cfbe
 SHA256 (.footprint) = ba5c07b14536b3d5558b9f97524d55996b8307941aefeccc9ce91b0a43adbba1
 SHA256 (gstreamer-1.22.5.tar.xz) = 4408d7930f381809e85917acc19712f173261ba85bdf20c5567b2a21b1193b61

@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JApStkTLcul32kFhTEKmXvmTgC/DPrUcxVtLxg9MreYvAAjXWZ3DdKhE9zwPNKkY1KC9z6QpGsTJM5wqY/eFNQAA=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrL8WGEQr6CwCnc1k0o9H0/GcHdgtEEHZL8FIC93jmz48voEBCKaN1Wtm0r/g65SMcYNZlaYEPjp+uHLEnYcI8wo=
 SHA256 (Pkgfile) = 10b99a5c015551a441e65c6ed733600afc513edd910b8a43a414f84e42ea65ab
 SHA256 (.footprint) = f5076a66a0721e29f4a31a236972e6618c7be848cece16cbd8675fabe74528a2
 SHA256 (docbook-xml-4.5.zip) = 4e4e037a2b83c98c6c94818390d4bdd3f6e10f6ec62dd79188594e26190dc7b4

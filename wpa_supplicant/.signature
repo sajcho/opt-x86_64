@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAv0dyaqz5EhYVwlc+nLwXd9kNczJ7JoJ90wGwhAI0sLubhFEYOcYt6j0XUIg34A73E/0nvmeRWkHCl+i8KA+DQw=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrPRThl1W5s16MfPtCxav7KFRSBRqVloDTs0FFu2HagNTKzpomaVITRT9I97i9gZsF+P+sKhAVx1c0K9giI7j2g8=
 SHA256 (Pkgfile) = 89dad18c5bd5395e934e786ee929cd6854d7f4bf945d2db15147a759205fb7e9
 SHA256 (.footprint) = 05b1d9e04b303b30b01be1d00a204b70ec3f173e572646554ba687f96406fbe8
 SHA256 (wpa_supplicant-2.10.tar.gz) = 20df7ae5154b3830355f8ab4269123a87affdea59fe74fe9292a91d0d7e17b2f

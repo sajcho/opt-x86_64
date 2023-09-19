@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAlx4FN3VwpdrDM6MgFLR/nO/sYAg44qb6pH1h1+cWztqFpBfwH7k2jmLbUbapsR3IAvhbCCsJHSRORPBykaxbwY=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrGGxRiQFoiWsGqrGUYuuOyPrBvBp9iBZD2PUJCMAPCf7Oj2sBNHWxjqhKTERE61VeBhuoUzUdK/94pvUIFJNIwg=
 SHA256 (Pkgfile) = 371bf33f9db86ab14e0c0a69b212a0ba0647982bc7d9fb7fa09cf655d85260eb
 SHA256 (.footprint) = e08c1afe201dc6d02af8b30554184d2879f27ed7ec049bca861bf23c305ea803
 SHA256 (imlib2-1.12.0.tar.xz) = 95ff5d4cc17dd9f934c2e7ad151c360f308880a0a7849a6ca43b7c7b9a4bb216

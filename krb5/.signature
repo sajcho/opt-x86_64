@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAteSUIuXCGqxNLZxolkU0YRnA4TNmGWyTT3UKwXmsYeySZg3gVSsB17JUbQBoPOTfCJc00bPiWanbpzAfEBTiQo=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrMYhEE02FNM1cqFuKJ3ouTkqsxCautyeGxDofyLQicn+IxKSVSX2Eg15EFQ0tlcUFptCkxRN813dtQzroqN1mgo=
 SHA256 (Pkgfile) = 2e7e2b0122bbcc4765abb393e4916ca6048adc9501e99de4c665cca3ba12565d
 SHA256 (.footprint) = 72a8e1741a49927d1fbdde477a0965d65f7d32b768634363160ab5f71b8bae01
 SHA256 (krb5-1.20.1.tar.gz) = 704aed49b19eb5a7178b34b2873620ec299db08752d6a8574f95d41879ab8851

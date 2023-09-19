@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAjJ2giARHIl0t58fcBQgUdwpOiN+o4ZSOpTVpA2oc+THgvDRQt8/h/KaBOREnQymND5ssDJB4B2US86U8dbqzw8=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrDRmdV2iOCmKvDDi6NCSKoVEXX2z98wW+Fst5HjR5Cp9Vw9Vl2BuFHbysYpMRH+tpOCyhNorEpz5T8JTMBJPgQI=
 SHA256 (Pkgfile) = ec22bc625bd3e70c87423baf2b3aec8aa7a6f8917c448dffb28443f2c556e362
 SHA256 (.footprint) = be305d15ac2180c67eed11662e0bb3062ac25c45f34683ad56184661921f69d3
 SHA256 (gnome-common-3.18.0.tar.xz) = 22569e370ae755e04527b76328befc4c73b62bfd4a572499fde116b8318af8cf

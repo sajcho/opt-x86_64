@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JApb0wLFWzv/wpcMtTnQ7ileM2E0L1iNhpIA6dLS+ojnIroeJTKsgs0rxPTFVj6rE19mB4ZffXE/YbpFjkJDxBwY=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrP5QTgW+bQTQZW812JJbCfFKiqjlfhpnos3e/6Xz3U8l365zw91WJxoIrWXXT55/RzCWvLuUJ/MAXUzE9WUkWgY=
 SHA256 (Pkgfile) = a9bd713883325e043aee32c2ac2db5442dd5b322318fd34341c85b2ed8f59549
 SHA256 (.footprint) = 29bf7090faa59ca774be1338b7548e38dcc579cd5d33be87d56a57b1408d1759
 SHA256 (gtkmm-3.24.7.tar.xz) = 1d7a35af9c5ceccacb244ee3c2deb9b245720d8510ac5c7e6f4b6f9947e6789c

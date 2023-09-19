@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAtZ+EUyJfPWEf55ey7cw2RuU5ttqapmcqQgyZ5zpeiy6y9yJ114l1xxg+ndVTypbIXBqiJf1JJLJl5HkMT8+3Qw=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrNV0Uv1dQvSbRp/Ifwn/2VwP/o5lGYd2TKowAR6DPBr82yVeDsAFMrimxgicd9riMs6Iw4TLtnnxDbe6lCyMEws=
 SHA256 (Pkgfile) = 732cb6f26312a7668961d8431b2a1b720780039557accbdafa31d491a1a48968
 SHA256 (.footprint) = 685a850d9a5cda49be8d94f010d1ba1faa5168c789fa3342fd2ff2864c8bd328
 SHA256 (go1.19.4.src.tar.gz) = eda74db4ac494800a3e66ee784e495bfbb9b8e535df924a8b01b1a8028b7f368

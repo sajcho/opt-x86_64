@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAkltwtfZ8TpyYxONLxXOyXjccCHW8VMpLeTGEY1QTK9fVQA07fKHKwYIaJB7GGelMc+puERsgMenrKwWPFPusQc=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrJgealSU33svloZsao9d1ijlXJm8bvIpPc+n6cI3l+mvb9mv383+z6QbIRq5/CSn0ALfdPFBFC3bB7EkSNbIiQI=
 SHA256 (Pkgfile) = 41ef26b5c9166ab9529449be48e21ec5eaf9d6b50cb9f62d09b726046612a4f9
 SHA256 (.footprint) = cd8da1d7686a8cee01ec590a3b6898bbeaf6ed72ff07837ca355f8f5739d109d
 SHA256 (vte-0.72.2.tar.gz) = c42a6cf407216439c87ca56109b013d7c640cbb10dafea4a093a9a21377b6698

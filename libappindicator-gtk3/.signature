@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAujuxFs4V/u5c08wgT9SafhBWb+m4FIR6XR3FMH0E4c/HNmqGwbvwQxxCELPTsHk9yyD444j18NY8YMrabtw+Ao=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrJHXObI7vME+Ct+olmVpCoQ9utUsWNbtof3E/RL7qgfDjmOrjI0rtabulqOY+VhDhjFnCqci6pPVNyCwjGOnNgk=
 SHA256 (Pkgfile) = 4396d785124fa6d983a90a82ba004d7ceb1b82a144da2e42ecff5391624a05fe
 SHA256 (.footprint) = 0f344ad028e87844c0bd006fe75421196f846e80ab02b84fd57a88452d9bbc37
 SHA256 (libappindicator_12.10.1+20.10.20200706.1.orig.tar.gz) = 94e7096a49c400628ecddcafe313d63bf917d95a90ab994930909de724604e0a

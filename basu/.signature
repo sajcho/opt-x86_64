@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAlvZSLRQcKGvdDNRzAG2WpQzg5IRX5CJ51v8lznKeKBpnGjcxYPc2d8fJH23q5SB5DMumQqptYSzTa0SazDYGw4=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrClS15A284GYIMW/ukXpwEqV2D31fPDt4YY9aHOOCgr1NDkTbIu+xZDLkPXfgYksVVMjuXPgkV32DmVDtkcWDQI=
 SHA256 (Pkgfile) = 28854072bdbd2849f830574918d5130c85b569fe4a5e41dd0dbfbee9f6fcc53e
 SHA256 (.footprint) = 65dacdf4bf7c03f8ed88cc9733271b759abb9acef92c91b89a5e351b8a323b16
 SHA256 (basu-0.2.0.tar.gz) = e2fda9b69fc6c4530173fcf8db94c29aa5f3ed932d948cc6a31892623cde5e4b

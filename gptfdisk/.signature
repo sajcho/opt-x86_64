@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAt3jvcxf7cTTUSvStL3CVgVBrf04nkQQyXpdsqXNsmev75Ms+h4Zzl/cibXqxBL9UzP9XsbBJ/8EO5YlQiZMhAc=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrEZZh+9M9ncMMuVWr71AG5nwKGITp53K6PA2wnAS4o4RmJ2c9fK+8DUhmQiLQyYhqmN6vzIMgM6HecQ/74g43wE=
 SHA256 (Pkgfile) = b01585aae044afb492cb3146b5f2608cee5f6f714af5acc2cdb6b3ba8c52ec4e
 SHA256 (.footprint) = e428135addb705199e06ad5729a1e36bb3207ddb77dbce1da4bf67109208f50a
 SHA256 (gptfdisk-1.0.9.tar.gz) = dafead2693faeb8e8b97832b23407f6ed5b3219bc1784f482dd855774e2d50c2

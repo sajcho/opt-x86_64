@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAtd4YkZmt91vwWHBZVyAOhP/zjvDJUMJ+IFkE/NMbXV4EoDKOgNObFl0BEK6EjAa1+5VIxJ0Z3bH9uYG30+h0QA=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrNQUHHKBjDj7cTe619L/PCp8mGfAkXda1Ql/hhwQvGStQtlzPkkU3uoty2dSrTvZ/ctO+fV+35PvhrB09jdcMQs=
 SHA256 (Pkgfile) = 5ef689276c4c59f5dde8ba89514cdee7efecec5e7071c2f930ecbe5c7364e335
 SHA256 (.footprint) = afcefdafb32ea8e2bd25e16710f93a8affce514f566136be8ac7fe30111997ab
 SHA256 (libisoburn-1.5.6.tar.gz) = 2b80a6f73dd633a5d243facbe97a15e5c9a07644a5e1a242c219b9375a45f71b

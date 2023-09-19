@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsOp3kzmPsp9dXypjXW7slZTXalbOx8f69W87spXcOWc4h63uiZF5wEGKuzE5VEy2z02NWPPKN75gyDvQcbBfQQ=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrMu+QIYsC+pI64HuffbeuaEEfzS1HxkOHh2kLEj5uVvmLFnd1UuV0uLc1kjabzkUVicPfOh0j0yqKz63jcKnCgI=
 SHA256 (Pkgfile) = 0f6c3f4c714a93c43adf06f5ce96210ca3bd9fbfc5f325ce0fb0b13793fb2b04
 SHA256 (.footprint) = 6e9b801ae5b5f03f7a0e6ff4e7b404c058e5d612ce2e1af4548c1214cf2b0da1
 SHA256 (libtheora-1.1.1.tar.xz) = f36da409947aa2b3dcc6af0a8c2e3144bc19db2ed547d64e9171c59c66561c61

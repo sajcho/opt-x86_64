@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAlifYqqgDrHkFZ31t7Ug5zqxjfS2JUx4yvsziitmOBM2L8pIwek32EO45HCUncuFHDEEoSnF4A9uuIRHnUokXQw=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrH22HnZJhs6PSG6uj3X0QuQjTJe/N33H628m3uFmcDyhXyYv5zqZNAn+I/exk6L6XbyEaR0HJAvbot6ony+jSAI=
 SHA256 (Pkgfile) = 56659d8a896e9cff01c9e7aa1b0f4578badc46f49f26ccdc501e1918f2e2dd60
 SHA256 (.footprint) = f77ee9d1a8f84b5c90908dcefe5d173eee7f3c2751196c197a8bd803bf3ea833
 SHA256 (fribidi-1.0.13.tar.xz) = 7fa16c80c81bd622f7b198d31356da139cc318a63fc7761217af4130903f54a2

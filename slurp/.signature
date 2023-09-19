@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAlsVeGa4GFgxE/9n8QdWguWWOJxh2df+jRTnLA0UDoJAVXW0lCRr1tT2gyMmNH+DyAfmt+noOgxp2HgnOgt/PAg=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrBxWQJnXL4RWiUw+zISFxWWK+qXQHoub2kn7295cg4uiAZ8TkWVoyNNpitlccCVgP7p2GqLiNohITxFTjTtTpw4=
 SHA256 (Pkgfile) = 6e6c636d98b937e8166da85046748892a26fddf20ec907be4d553f4069c55b15
 SHA256 (.footprint) = c1b46591b6652d155ef1d7b97d97e143b3f48e18261ed024ecde7f4369cd925e
 SHA256 (slurp-1.4.0.tar.gz) = a332bd40168eb73361ea811eae01d6d1210f9eadb0a486e2dd7a03efb81a3772

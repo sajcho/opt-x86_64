@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoBalrdNcUZdpEO5IYiFGLQ4inCwwc+EY4HQu2Zpx6434H6Cv3JxEtQ1esEmqFC15ZCNgY0W5WSM9XH/51c4hg8=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrBnzlrDbdGFPBaqfacNxwW1IjaQVRKCIq+iJ2KlxnuWE8rknsX07V7yZsKwbkg8T13JT9/b0Q/NFKSI1ievJTAg=
 SHA256 (Pkgfile) = 93f15cd249b66051683e7dc6545c54aee1e5ff943c95ea9f15d74582d4c3408d
 SHA256 (.footprint) = 594cb426ace98162f64b33503cad5c3050fb8472cb9c02cddf9e1f5ebbc9c037
 SHA256 (rxvt-unicode-9.31.tar.bz2) = aaa13fcbc149fe0f3f391f933279580f74a96fd312d6ed06b8ff03c2d46672e8

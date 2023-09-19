@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAiZV4CheHRG1860jZB8P44qFGVsyOr8L/npOGjmecDRR1DkVPnJzf8BG8u823ygdmmEJWGQjnJJPmvBkyz846wo=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrBbW0yNDpQ9P+Q77sDFmVxs5jEyg2ro8P8ctZXpAng60TkgEGV3tCEunpw7BJs6pGK4qESusGj/TOeCxm1oChQY=
 SHA256 (Pkgfile) = 19da7795e36242e6a28d5a3b597e4edc01cb14697c1bb9a32e054f55c865f7b9
 SHA256 (.footprint) = 00d640e732eaf0a9a9b2b5eeab80340dda7c9b66f23c35bcfcd39fc2ae938e4d
 SHA256 (libpng-1.6.40.tar.gz) = 8f720b363aa08683c9bf2a563236f45313af2c55d542b5481ae17dd8d183bb42

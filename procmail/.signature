@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsDYo2NHI02NP9wnFVYoqiE1Daa5Cfk0w8soXSsufPJb8wn/OCWjET7N/98EPzfCR4pYCzw081VXxPVLPS+b0wM=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrKl5TLFcSHv0HVICme0lPhfPfmE/zv8YWvvceABWecDNd0tOZogOciXjAWkO8OYnHPTuHw7Mdw7/mQAEumkTfgA=
 SHA256 (Pkgfile) = 517dad4d25a92ad011c8e875d998760f70f0eb762d46246343c4c6745d1548b3
 SHA256 (.footprint) = 163bf75bacc7c2e95de87c980114815255cc8e6a0216bb946fe6474317eb460d
 SHA256 (procmail-3.22.tar.gz) = 087c75b34dd33d8b9df5afe9e42801c9395f4bf373a784d9bc97153b0062e117

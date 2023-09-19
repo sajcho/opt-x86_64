@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JApGjEAOc2PCPeL7ARCrlKfdw5KSwPr53nB68KUz/lHrHuAUMFTvluZNMqPNldelXNYdZf2SJI14TN+tTHDCKJwQ=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrOozS9pYe1Qpi/sGnlQJtdjjDsxUi5WP/vZNXKHlnvrKlPjc+1A6g3x+ko4y7XUWSeF2mwDN37+FjM95wMaUsQI=
 SHA256 (Pkgfile) = 7ff37fece957b75137f36457daeb3008eb81985bd3e0f5fb31a1f69bc798210c
 SHA256 (.footprint) = 1fa174baef66dad7b628f9cfbcb1b5f5c6c146379f4d89120cc96cbe2cc04711
 SHA256 (libavc1394-0.5.4.tar.gz) = 7cb1ff09506ae911ca9860bef4af08c2403f3e131f6c913a2cbd6ddca4215b53

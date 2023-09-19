@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAtx1b2J2Qzqp0LgjGAOgyBJW+xEU6dQMQU7RDHhHkmW0o0PvHFHJUB7vn4Tk2RHn1uK387FM9HrTAyTX1V1/5AA=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrIOXtvh47phc3T0e0j1upQ8oZ/XAe0tbKGZMy575zQHOymFR9oKcMdOFqu8HDSlin05G9/fptIcWmFEbeeuvcQ8=
 SHA256 (Pkgfile) = abd8880ecf33d82995b6a401c5a25504f11120fccf9cfbc180062f90e2a52c32
 SHA256 (.footprint) = e5352f5862a3e8dc5a07da90d156d5d4d54345fcf06b76b25d3a3cc556da7ee8
 SHA256 (libsrtp-2.5.0.tar.gz) = 8a43ef8e9ae2b665292591af62aa1a4ae41e468b6d98d8258f91478735da4e09

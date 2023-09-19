@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAnyaQUgYONTJKdAtcX2O1pSXmCwFicc6LfyLxKMOmQfIpN04JK0t+u8RgXyCsyUN4W6rVUGotforDoRQA3SmKgw=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrON/ul3vDzN1X33J6BQl8L0N1bUETYQcJKjiOnR6hAn2BTWAf0h2yyfZr7Ru14mQ2MPwKehYo8M/pfAUQzPEwAg=
 SHA256 (Pkgfile) = 0f433e6877edaa8b46daba6f22e818a310233a662c3162518940d9a46f8362f8
 SHA256 (.footprint) = d1e33ed05553337c6c5418a627e6a8db2a46cdaa0e33d3e23c72853b884a69c2
 SHA256 (MarkupSafe-2.1.3.tar.gz) = af598ed32d6ae86f1b747b82783958b1a4ab8f617b06fe68795c7f026abbdcad

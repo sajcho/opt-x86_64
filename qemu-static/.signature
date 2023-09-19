@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAiQSEo1fB3OTWmblfNbpwfFhJhICo4kd4BFVNCc5s/lcWB/zxN2hx0UQ1DkkLZNCjc1FzLOtDZpkqDwVi9rsNQc=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrP20eufPx7EPXm2XRD47x1c0J8WzzTsK4G+/k44LunQkpF66qYSSwpzCDZ8oNGCh7Wlu0LmbyXS4prTvKSOVRQE=
 SHA256 (Pkgfile) = c26edac4984427235a9ee5cc180b2debe0bb42ad6ccdb5c26fb6fc9e281255f0
 SHA256 (.footprint) = 768c5ddae8e7dd0e57c5f7e9adb2d5832f4d769e0f29ab12f359e2e9a65ec4e5
 SHA256 (qemu-7.2.0.tar.xz) = 5b49ce2687744dad494ae90a898c52204a3406e84d072482a1e1be854eeb2157

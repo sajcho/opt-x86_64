@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAukAWCKiIv1CwCvfAtYBT/3hDSCtXUI5tXD8kBIxfOxW0eh5x58tkLPpKnKTqToHVH2hEWrY4eLuOssQgFp5kw4=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrKZjbNFUxAIw+xhq3yyajwqb8U2gLEtZPoESLHG1un9trED4pkmwIAkbaRTFmjiXu/KA2QC+3NX6b7KKp4KSdAg=
 SHA256 (Pkgfile) = 6c91f5e812bf003b93d7cef3a0124941088364d5483596c68721f4c42c6ffddb
 SHA256 (.footprint) = 643ce9491bbc8ad8160b94b18f2562d3f8029ce187dd7dcf20b73128cfb90981
 SHA256 (gnome-themes-extra-3.28.tar.gz) = 748a9ef16b1a42204c2e874d71bfdc57da8868e1099a2ba60a89a8414e5f4a28

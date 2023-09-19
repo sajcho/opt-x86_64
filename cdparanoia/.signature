@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAjtkzF+4nZR5uoz11Tb8ntG3ouvsBWHq1RYE50aHB7yIOikBkfpghJhhWV3mLMtJOF/Gjy5nUdNUYW2eNToVEQg=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrJ0XKcNnMZsQCBhQZcTicRs3XlX5FCex0MTOwk6j+JUabNirxihw0xL/lfYk7HntDHZ+2eQL3BBKPUsMXzDaIQU=
 SHA256 (Pkgfile) = ace91dc55d76105603d9b649787f7c0252f0cfec4546179913a1c599d22ab704
 SHA256 (.footprint) = ad380eed533da43158f6fb28cbed5a27121b0bd6ad2d47e2e680806aea438da0
 SHA256 (cdparanoia-III-10.2.src.tgz) = 005db45ef4ee017f5c32ec124f913a0546e77014266c6a1c50df902a55fe64df

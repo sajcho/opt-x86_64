@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAqvvF9p18KL/GGxql4cUiTCzDms5216tEFLrQR2hwrX7cDYCypDw0hoH/wrWUyMe227Xz1iHItWb44k24TVmQwY=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrLl5FNMq2iXEfZb/9ErQ460t3nfB7EQnr926KtLo8Jix36DCtom67Knp/9kmluHAq5CcF7THoUo+1hSb3TWYqAs=
 SHA256 (Pkgfile) = c368a51a98d5ad7f70eefe40fae75416296c8b25a549c96f0f0212551bff1789
 SHA256 (.footprint) = df31aa733c3f4e6ad0a4b0752905ac239847f5d61c1a488b2e6ed926523a1b3b
 SHA256 (sway-1.8.1.tar.gz) = e9f575761342fc8fe0cfeea80c90f32ddfa8c543572fec179f40922346f47dff

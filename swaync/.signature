@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAk0gQZYvaEw9hrAKWJJcvgeEm10kklx9lqLSVfMVdgJYm1a+sV+4OOmeRiGejXzRje42pRJyuq2jHeQSRpoPxw0=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrByD3fd8bOL+ou9cKT8LAi+p1hlUEuvZBm1PGPhp2qP/4pur1A1aHRipzQshjpsTRs3Cg365+FqyUstnk0kdwA8=
 SHA256 (Pkgfile) = ccf2d0619f5bc12463344705eaf2e4463801898c59f3628035aad85d85191f45
 SHA256 (.footprint) = 3c49b2f732d520dfa238b736dc8d36e9c331493d37e3530d382103d2149637a6
 SHA256 (swaync-0.7.3.tar.gz) = c17553ac00e3824ea6c9c2ebf777d9e1c73e0cb46dd663b91eab04c71303ced6

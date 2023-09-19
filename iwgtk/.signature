@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAteIXl3sjDTaTglzQL22HKYfKUd8Ymgug/AJ/j6Wg/3oiGcw3pOGPO1+iWLtUCPiixWnYtRrVJlXqj9a1H57cw8=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrFPKeyUQ3MGAeYx0L9lZIo+13e6kZK+AmRAfP9UDa+R/LzjsKUZoylx2TzxMGV0DiEgZ8AfG6JWbM3bHoMXKSA8=
 SHA256 (Pkgfile) = 3c52361f5a7ea5e80eff0cf0895b33b22181b2ed0f4b529667f03c053197113e
 SHA256 (.footprint) = 9a835c83c82f9548c1892667c7c3758f124199d71c7297ac726338e836102f4b
 SHA256 (iwgtk-0.8.tar.gz) = 38e81e67004bbd246b6551ffc812b6ab019f84a7329f134bb8031eb61d9d732c

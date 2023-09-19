@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAp8s/cV/5Dl04YSl78eN7LPuDWFeGOrA66OCsYw8Witl98N/v7cCQqNpxzHWXzzYEIxXEEiDzeEqlJIxqf4bEg0=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrJ0ZBLrgvOiYZ9lUcEMNLtn/ouUnTlaQpbo1a6S159ycX8yBx80cF6iEk2RUdMapidBp9GJoh9pOFVtBMijjaAI=
 SHA256 (Pkgfile) = 4ccbe4f4882080589f79d27a0eac31d037e055d6128ca954ccb1d8d34d609685
 SHA256 (.footprint) = f93766af78ca7ec6a59d8de887d7c62bdf619be3ba5b3039ffa024cffc0dd9a8
 SHA256 (librsvg-2.56.3.tar.xz) = 5a328048a02d014645cd27f61140f4e0b11280fb2c7f2a21864fe0c59ac1ce88

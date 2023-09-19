@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAgr9UmPvikdVudj7dnwnQaKa3ctdCbkrxipy4ReNnIXt9bGFyMuRko40XK7uGReGDIH339ZiIAN2PAL1B7BSOQM=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrKuvg2ZEM7ifOsl90W8Ya5eufCoeE3OyGEKVC/Pn89cMNyOdcqmPZD+lNY4qeaFjXqPAZbr5O5NuT2HVsinh2Ao=
 SHA256 (Pkgfile) = 51a8975a0a398e17501d08523bde12694558c8d014b76f56de6cf92ba070ada5
 SHA256 (.footprint) = a0f60384d9bfd6300d0883d9c46c531cbf77356d9f02526ebd49bf0e0995478a
 SHA256 (libpsl-0.21.2.tar.gz) = e35991b6e17001afa2c0ca3b10c357650602b92596209b7492802f3768a6285f

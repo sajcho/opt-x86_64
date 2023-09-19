@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAptlIbt4C6WdV0uxuC6nmIzEQn8Cu3w3l/8UyNAeiNbT0x+5Z/wnYyAz+Y7x+UUkOkTQtqx1RiVbzbHpbnnBgwA=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrNNzjk9HkIQ/AlVDUbJxhiE/0PqRHOypq0xZQy23BV3L/KxS27eZcUeHKhWAc8Jrt4uGt01YbnvxQUXeEKbWpwk=
 SHA256 (Pkgfile) = c5cd08964efcf0809368f212a7f4bcf17844a5d77e2b241da0ff2b1e4a7d531a
 SHA256 (.footprint) = 82451cefdec4f1a4ec77dc42e7c905c23814eaa79dd37b60f9e148693dbb83b7
 SHA256 (libsecret-0.21.0.tar.xz) = 2735b29d1cc0e5b12ba90bee88bd21774ac8db4ae1a4b716f46c409c19a14613

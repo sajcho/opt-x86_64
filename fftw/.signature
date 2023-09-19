@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAguy9j4rBLgKehzEDG6ImZJiaqDXQ/EpVHGV5eNHfODBOq7eLuNUknstntEo5Ym2RPCpvFzTdsXwMX3XBCtlAw4=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrA2UxBmr78FZ/7WDnxGXEcaLFFbQlkw/DhW6g5JbMaPJ4Z96/OBnf7xj2OHKctxT3JLLjMjqDjFx+1Ej/egblw0=
 SHA256 (Pkgfile) = 57a9b06c48d0c53a0f8b5790c03744105747f9a6c83463081cc629f9124f9328
 SHA256 (.footprint) = 9aec054fff64a50e7328b9c6c9cf5d660ed281165cac43a7566490051b2903aa
 SHA256 (fftw-3.3.10.tar.gz) = 56c932549852cddcfafdab3820b0200c7742675be92179e59e6215b340e26467

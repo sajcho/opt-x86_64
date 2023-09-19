@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAjCzQyDDzn4giAUNTD29oLk1R4lCKyqP25fqX9sJW4+3vsSvmDw97Y0YSlpf6vTTG8Ws/DHWqhM7ChGZ8yd6hgw=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrBUIWBva2eAIm3AkFhELP0TeHrN0QCmN0TdbM1N+CaZRLk/iohgsV+kHXORiKc1pewW7EJCXqhNG8oNWgrBH+A4=
 SHA256 (Pkgfile) = 4ad488e560252ae18d4ad1aad46128c5726db89ab27410bb96f02b7cf1329b37
 SHA256 (.footprint) = 9fc449956c157b6b46d5a2f82193acf43c2a30127e3174e3b215247c09851b72
 SHA256 (numlockx_1.2.orig.tar.gz) = e468eb9121c94c9089dc6a287eeb347e900ce04a14be37da29d7696cbce772e4

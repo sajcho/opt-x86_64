@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAo25CtwvVcORZqgy8zjcwyilY+ymRDLFAnOf6Vqm6BTZBOhugULx/ci9C4BlHElblPawrm/3IoslAFfQ2le2lgY=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrOSrq0oQtWnWPbMG0HWsWIEnZBwk6HVYI6AorS0eit2NdcC07YAeSc13+1kW2METstw9lKtYyQLwi/iZw+PrzQg=
 SHA256 (Pkgfile) = 309005d8c327688de798e44eb0071f75bbb9feb7fcbb68a5c851f7ca6a580319
 SHA256 (.footprint) = 78ecf31c8fdd7132c94c4129136c1e1bd6cd9b29cf8f891b3fad942c5cc5ef71
 SHA256 (libpcap-1.10.4.tar.gz) = ed19a0383fad72e3ad435fd239d7cd80d64916b87269550159d20e47160ebe5f

@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAqleuhG5mA1JcGkS6N2av5Ztehp6eo87skbdgeuTUA6zNv0IFev/zLox3oGFIJVXJBo9FrB6D7Ml9X1G+bMOBQo=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrLTWLBqWgwZWPhtqE3vvmIlLRfj4RWkH3Q6Cfw4wwwVhy3g9j6KUYEm8LngXWGCds1mtnOs0oTHc3iv+3EwmJA0=
 SHA256 (Pkgfile) = 7ac9d1f18d52cb2ba293c56964deccec9ce96393b6465d161207a20912ac14c0
 SHA256 (.footprint) = 16ca7f7070600134aa64cc8b66ecbeb6701a1617256922122cdf6d2b93acd7f6
 SHA256 (mjpegtools-2.2.1.tar.gz) = b180536d7d9960b05e0023a197b00dcb100929a49aab71d19d55f4a1b210f49a

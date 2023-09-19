@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoKybm2xYv4DQU/kOYbDRteVkltln7lXm5pe9oYhmBlbQoNcdAlIYCN7Njr1bBqqmxww4sj02A9T/uyu6eRG3gU=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrII0FMlVpcK9eK1kLT0FZG2Cdc206zjXaYlVaANEhdvJZNZodKidSlQrsKKd8vqZtFsIRksReYOVeosjmef29gs=
 SHA256 (Pkgfile) = 5d45e8c7bee3f6bdf529ccec1377da6a747db8e4f478434b017367cd6805f150
 SHA256 (.footprint) = 514d3a16bcf118673816d23063d647a80088edfc5346644a4e42f8ee7172b80b
 SHA256 (libshout-2.4.6.tar.gz) = 39cbd4f0efdfddc9755d88217e47f8f2d7108fa767f9d58a2ba26a16d8f7c910

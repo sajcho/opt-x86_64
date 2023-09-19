@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAs8WUsyEHoraf0LXGC+bhnn43C7gYkz3HjuJzqBfye4K+GOi8+kds9j0PB58B3F4ZGAd7rgE1v+Et0hLluNo9AY=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrB7+tjjlmPKq6bWQWkjvlP6p+BmR9/U7r02ZPMHNkSrIV4kV2ieioQniDyLCc6h+a8tYBnAMCTXV/k3iamcU/wI=
 SHA256 (Pkgfile) = 2fcd14cf70f85a1139aca07cc25dd39e828bba81d407ebe2688b9a9f4086d7cd
 SHA256 (.footprint) = 18fecfc3905722dba5c412a144b41818547ae1e42e12b9ed540f77a4f6707a68
 SHA256 (libproxy-0.4.18.tar.gz) = 0b4a9218d88f6cf9fa25996a3f38329a11f688a9d026141d9d0e966d8fa63837

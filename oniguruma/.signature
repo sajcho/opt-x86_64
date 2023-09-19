@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAmEJOw5/NtTEsvMYfcyqyBG7yYQSm30dPcQEQdAiiW+E9eSRgRXN4+DgWnuio7CUmaDipz80thnbW+HoyzgwRA4=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrIVQEiOIfwcEpGLV/pJd+pznGGj6WeC/Z3C/hrxeUipQFRS+ZqYEuF2070QGJQocKpWFLMSFPi254A2kxiFltg4=
 SHA256 (Pkgfile) = a09eef3724cc213595060431c42fbb63e032b51fadae8c1be1fe90536250109d
 SHA256 (.footprint) = 80cb191caea46a0f1ee627f5ec1e92de2ab683c64e3a2a487bab5c5aea6ee4ce
 SHA256 (oniguruma-6.9.8.tar.gz) = 26372720bab6733c869a9eb69377f73971138dc5e3eff4a81f5ba8aea5435fb2

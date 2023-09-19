@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAlUh0t+HEhFUOreglSHy8kKR1DPBWN8FAaSrNnJDM3Q7NmYUiLioIkPBZygzYvUek70kRfSmCyb25p1dw1W1nAU=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrMm1p4NEmkkiKWRm55wIa0pRMErb9E2Yrno+sdO/fDAQ2YcwDMq0sMCy3jwiLJFGc65ZohAi5FGL3O7VBf69Ng4=
 SHA256 (Pkgfile) = 722d6436df3719cf120f5ba6b7f0a1fb9a4b34547b25c5fc448fb19fe833351e
 SHA256 (.footprint) = aeae8ca4d565b14f80fc2817d24fff115889e86ce2ca13c6bbf884cd53e2f67b
 SHA256 (ffmpeg-6.0.tar.xz) = 57be87c22d9b49c112b6d24bc67d42508660e6b718b3db89c44e47e289137082

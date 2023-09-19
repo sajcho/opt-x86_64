@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAimJ/reiYIHe2NWea9Nv5Op9DHSFwRtCuhhZJ/0MtRBNdBoO5WQOUXZahGfEZ6DbEy2k1Noslj/gS4UdPKLwsQ0=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrC0jM3JWOoYuf+wZlxEMyy3Et+mp96efxlLMUqEiePNrdUlYgUIG9+d0zCGEvJEcX1zwvFmR32hRl40Kz8X2VwI=
 SHA256 (Pkgfile) = 64930e938581967525200f1a06ba5e6078dbef17d677105b36c6c8083d143bf8
 SHA256 (.footprint) = d090580b51a6657cde9737809193a7c4cca87e9b1193c65e3a0ccaa6f298d904
 SHA256 (1.15.3.tar.gz) = 65006a0643ec185a0e24578365e2e7469ddeba6bd543645a15d9bbb5ec501670

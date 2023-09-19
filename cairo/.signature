@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAiAO/Vhtx5k8ydtHsoIkAYWClBbwDxA0cdNDKLQSs5lALM0g5NJChsY9LPc2M3aFp5/K8pwLvyxr9KiMayDTHgc=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrMKQJmcjb6YM3CJdgtypxD8WhjyKjQy/QkS189elwwodpKu7iXK7Fiw09eAzMN7OSwIjZyT5R148mSwpvl+dHQo=
 SHA256 (Pkgfile) = 76d7704e3f680b4dab65361ed97caa856109215fd44ee8a2ed611fbfa064ee3f
 SHA256 (.footprint) = e6a55907d40233a24fa757881bdd6f87e6e3329a0b1522aa0e6df96c1dcece59
 SHA256 (cairo-1.17.8.tar.bz2) = ead4724423eb969f98b456fe1e3ee1e1741fe1c8dfb1a41ca12afa81a6c1665f

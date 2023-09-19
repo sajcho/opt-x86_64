@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsUEwBf7H3huxGeKtSsv/gjeXB9R5eo3SakHht/1oC/7kpCKWtAo+h8eTcJMpJ2kqcqwM9Y5o38MVD/mOxv83AI=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrE0LkjLOFe+HY1Ln86Qhl4TehZsFG6V5Q9cvuzdm66U7CML7wCAed5KX6/nbgwOcLLiWXFm0KW4T+8NnjAYMUg4=
 SHA256 (Pkgfile) = f24447c11a02b71c1fdc193553e4386f1255d00688a3f07e259da06dd1dd0a09
 SHA256 (.footprint) = 69903a1a1715cb2aa0d53db3230556c8a2e412ead7c2d0b5c5801c2b0d06c7d2
 SHA256 (yasm-1.3.0.tar.gz) = 3dce6601b495f5b3d45b59f7d2492a340ee7e84b5beca17e48f862502bd5603f

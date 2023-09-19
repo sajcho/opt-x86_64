@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAop1Xw8gjlerSdmAqAuM5PJUAK1Bduq5oYD2xPHYxClGPvEbFprc7RdEzf0p9M6NDRTXYgwOHOGdfIwcTAHJ3wg=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrK/EzHwpgOkIaJbWBHtU/6+2ORb9H3QnQG+P0+a6DtPQ2ChTHk6FKW6A3Iskq/nBr39KHzeDqLgY9jBVKl1SGgI=
 SHA256 (Pkgfile) = fc21cdab6c9da8d858788b140dc89c99ad31da9f33da4eecf02b80f6af77e8d1
 SHA256 (.footprint) = 7cef8848ca5e3c3d46ced4bb409bdce953486d16ae3655c6c2930c1ddf7391a4
 SHA256 (mtools-4.0.43.tar.bz2) = 541e179665dc4e272b9602f2074243591a157da89cc47064da8c5829dbd2b339

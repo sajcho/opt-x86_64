@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAlzvGNonnUfMvUwK1+ePID3XR2H/7mKr/nF5Qn0MwC4obRXJ2K+nVIvzFZ3PXlKueD34l4i8pRwL94Tero6bTQ4=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrFlEB6GStzcoR97gcyZma0gz2g0V3JgW5H63THmJNSVD+1L7DCNwGuGZTu9MvYI4+YqNIJuMyEwUFnD1AswTKAQ=
 SHA256 (Pkgfile) = abc71513da1cf52f6ebf24898c09391ddd3909c24d8d507c9c0b7843101979c9
 SHA256 (.footprint) = fce3ac92c564644f9cfd0a1fc4f861c279533e1a708a1f3bea41d5babee6666b
 SHA256 (elogind-v252.9.tar.gz) = 7af8caa8225a406e77fb99c9f33dba5e1f0a94f0e1277c9d91dcfc016f116d85

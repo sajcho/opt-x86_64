@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAiKN1xU8NYf2eoa9xZTZsdepTrZFjtA6EqOm0Y8YNFKvbNzBnOjZDROt8z0Bovng+T9htzNCpaSzjI5dwnhecgc=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrP+ngYgJGnEcHFAN2s91L358rDL4LTCfo55AMqu1MSPiyN+Nlh0OvBMqg6r0hDS5FV9iQxm7whG4B7CPasUBrgw=
 SHA256 (Pkgfile) = 9640325d298447d35cd91b40574a27f1f3d20364eed73013f67414f59c2d1428
 SHA256 (.footprint) = aa203bd383665c63b5879a313b9f0b8f23de7e0b21b149394c5bf4a4feb65e9c
 SHA256 (swaylockd-0.1.0.tar.gz) = 6d3d39def422f087a26143c8e8c9838c9d597f5faeaaec92f000fa01db15c871

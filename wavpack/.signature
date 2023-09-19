@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAk4n/PN51foz09ZDgGYzDp3ysT6StAOi4fMhLO0why0Xzawz3X3l+uoCHCSJJwSL5dxa1uFY/96AvasWmYYGQw4=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrPjUS/ZvEO7/WclFu7Z1y6UX2z09iyoU5KggG9zBe6ja6WrDn81U21+S1bGgcVU6pWMwrmXqO2ORGH3GM1YmMgI=
 SHA256 (Pkgfile) = c5b62a2ee5367a38933520bd6623339d59f9a9eaffba872e9e70ec71fe0d6329
 SHA256 (.footprint) = 2c265614803ce2b6438f53b7fdc9f7184717819392e51cbdb1d86aae0a0d2b3f
 SHA256 (wavpack-5.6.0.tar.xz) = af8035f457509c3d338b895875228a9b81de276c88c79bb2d3e31d9b605da9a9

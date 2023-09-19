@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsQompR5q0Pn8gZW/y3z8IqqODEQCP0CNrmfiY90614Tf1bV89kz548xLESm5YBWxHnoC9RN8gAwtR0QnTrXIgg=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrPk4gvgddljCLPbYPIV8ZrRtt/LcoGQjsH73y8i9ZQQoW3/JuH8B5+toltXtiaIfyImuvTrWduvLTHy403zR/QQ=
 SHA256 (Pkgfile) = 3a058774da5c2ada77dac1a3a2f320b7bb04f0d8a0ce68ba48cd0bbb5009dcd9
 SHA256 (.footprint) = a56a034eb0a03390ccb4a39ea6900ca357eee75322429817cfca444c21a3c29f
 SHA256 (wxWidgets-3.2.2.1.tar.bz2) = dffcb6be71296fff4b7f8840eb1b510178f57aa2eb236b20da41182009242c02

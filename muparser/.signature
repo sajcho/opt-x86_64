@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAivcXWJ1hLorzI5bUPfixz2dFGIQ66mnwiMARHO235uXYUPaTOxntB4TQfSnmJTXzbidPgMl+OEdej8pCFHOhQY=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrNi47Y7CjwWALawu/oWrLYGt89XAwYoRWVhXNaPFGT6lnDI0HCoQq+wqo0qC2hBG5p6b3ArcAyWF+DSSx4zNWQA=
 SHA256 (Pkgfile) = 352e19ae7bd77850c8146a4417ad4548827a9fc2342ee0219b7dce4b33f4ffbf
 SHA256 (.footprint) = a33f24c47ba9b42a48cc34ed7c5cd45f1ef9b6f9e7297d344d064fd004f4a8f6
 SHA256 (muparser-2.3.3.tar.gz) = 91d26d8274ae9cd9c776ee58250aeddc6b574f369eafd03b25045b858a2b8177

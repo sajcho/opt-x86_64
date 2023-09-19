@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAv3onjIexLVlmptI6qxZsODbxc8JTIc/YwRXsySdO/cTrIi9mIsnadNdE7Oji/+VtWQCJvAAMxzcNDTCvbGluQE=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrFTQla2Kq4IBR408ya2pi7aJBsNZWQFMB5CHIQJtnGjpVKLel9BTzNsUL+zYMs0XFNMWBzrjG2bvwb/17JDjagE=
 SHA256 (Pkgfile) = de8a5382ae54ed77890cdc94e28d33ddc82195974e90a5738d6e47951038fcfa
 SHA256 (.footprint) = 999537a9a7d73c5878338d13c481d357afc96bd2676730ecc159fa9ccd825e98
 SHA256 (volume_key-0.3.12.tar.xz) = 6ca3748fc1dad22c450bbf6601d4e706cb11c5e662d11bb4aeb473a9cd77309b

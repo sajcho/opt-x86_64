@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAj8TzsajVoik4VZdfRSoKIXkEisKU1UqkHUitONn71r7qNdHMFGMUiuubBPO53U5A+DCYsB6jO/GdYGdwqLMzAA=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrFBPCANs4B5yf7+T4SBKlrAUMdhvNOgR26S1+lebkYFOV7vJIVYustLdX1iuhWDko2Lq5awSJK6LaQDzSD/SSA0=
 SHA256 (Pkgfile) = a669cba3a7da88590ff0328562c6b1df23d94f2f6af683067abc54de16c6d1a0
 SHA256 (.footprint) = 84689636040d102794769b607d4d85b71aff1cd8014f794dbb0e0a0dfd0d13ec
 SHA256 (libxklavier-5.4.tar.bz2) = 17a34194df5cbcd3b7bfd0f561d95d1f723aa1c87fca56bc2c209514460a9320

@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAqwB9e5QgmGd8c6A1jWXLIp6iMfoMK0rFje5ar+a7SfPdKfBWVCnpZ/cCuO4OYte2MyqXnROkottOWulY7tnkAs=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrN+hzxfNLF7Mk07TsXNDiK+EEUVU7nj/XimVmn6gXU3ELUmUXHu8gIm0lSbWBLmZU2SzhAMovNpKS+r53jHgVAk=
 SHA256 (Pkgfile) = 9dcef05a0f1a47688b876cbee3081b560b65515f8c85e7978e02ba88dc4820b7
 SHA256 (.footprint) = deb7390a27ce5261ea4288133008651e18c18c4558df2c8990899edab5c06324
 SHA256 (light-1.2.2.tar.gz) = 62e889ee9be80fe808a972ef4981acc39e83a20f9a84a66a82cd1f623c868d9c

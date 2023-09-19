@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAuiG+dwvwwDRutCfPanH+dSAHWjM5zpZ/U5gdhHuXoCPyuKOUe5ATIfr/3gYUL/IjWjNvEhXdDoGyjNVa70erAo=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrEt5nokQc1XCSDRi91bfPMOIs80GqkBA/eNKUyWqMx+XPqA0dbFLpLe1jDvwdRbj/BXuZ6KCnUrL7eh46FNnHgU=
 SHA256 (Pkgfile) = 2da053af42ead54d332080da9086b2c4d8c3d4f02103ccfd8994fa6591d37e2f
 SHA256 (.footprint) = 0b7f4cc356d8159c6ecf5ddaaea2c8a6e9a6513861b67612c507074de369c867
 SHA256 (libnice-0.1.21.tar.gz) = 72e73a2acf20f59093e21d5601606e405873503eb35f346fa621de23e99b3b39

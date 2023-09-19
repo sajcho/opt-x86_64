@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAs/l1jjOrxTVOh4cKe/LM+/aYfuOWF+bLWlEGhBp9c7Ow1aW5muKdj1R2DBwCeOnXW3FDA7TgyPbrIZKILLVpwI=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrKGdzWsiBksO5AUa+UpUeGwn9/WGvtV6Ma27/vDa+SwG0Ilz5K9qCe4zLENJpgE4h/+aN5+tk+YApxMXxuX55QE=
 SHA256 (Pkgfile) = fdbbf314ada7c88742bbbf97bec110bd4aae8f28766c793e2d63ad67b347e459
 SHA256 (.footprint) = ab0fffeba86b5962ba6945936d6e2ce1d64e8719d4483e51d02ea95be8f2b9f2
 SHA256 (Mako-1.2.4.tar.gz) = d60a3903dc3bb01a18ad6a89cdbe2e4eadc69c0bc8ef1e3773ba53d44c3f7a34

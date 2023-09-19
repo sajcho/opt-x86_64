@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoklObKcS3hrV6bdwx6uYRBUhBwhfnkRiMVOWuHPB4QZCz7KMXCm0dQObQgTgKn8xE31BAke7AIykp9SbwWw3Qo=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrOv1bZPjEH7pgdkaVsbeWeKtf9iaxy8MRLy69/AUX0JF6yjqU8Yb2uhnrtXmSVIH+k6Q00O1WcPb3JDY5lRBtA0=
 SHA256 (Pkgfile) = 7bde1c54ff2aa9c2a938a5111c7447dc28a25ac2200b849ea4114d47ac5b9b5c
 SHA256 (.footprint) = 121ebe361dd59bbdda5082761d280599830be0fec2e4c058dc1fa8f25787ea34
 SHA256 (rustc-1.65.0-src.tar.xz) = 2d6aa2ea3fedd55acbbd65f78349385f9daa9c14e25db7a8df5d015588eee1cf

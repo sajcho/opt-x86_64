@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAkiz+XnAVmOzq73vy5b7b+nVqAiHRsRLAzmucbxix0yO4JXsnH3xKChB5MTRuOJNg+t2NuvQb33KtKDVrVlwXAU=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrLfgH5+jY/UxlMGeNmuG33kTAYZC73r6qWytav4tsn2vAgX+289l9+JPXMX59QRcT/hQmk/Q7h539l7LnhHU7wY=
 SHA256 (Pkgfile) = 679bfe30bc70f04c3dd8636cae33d138cac18d5caad16112a09be13e4c658ad4
 SHA256 (.footprint) = 2a06e3b7574b6033b717d5608fcc3bf87271d29c9658c274508257cb73a52f29
 SHA256 (libblockdev-3.0.3.tar.gz) = 0f2872830293f3e222832903d80de4c38e06a9c3ea18915b3263272a72095ea8

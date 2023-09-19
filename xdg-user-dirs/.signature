@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAuuxXhdUnZ33xQM5/rSuk7wU05LX8YKwcJqQ4SYmVG+WGhxQ503JSYaHTqNkYBDK/q39D7PGRxrJ/0XYaFKhTwE=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrBB+B12dyuTFny1Ggk8G+ypnAlf8NXDokQJSALDh7o00zBbClK9BRh8L3Gulw5GadVqg24EAz8IDszI5gb5yVgs=
 SHA256 (Pkgfile) = 24846b7a5ad3753fef0200453acc33c6ad7744423be253efacdc22b6ca57ba2b
 SHA256 (.footprint) = f27a5b7f8f752596d7028390667b9db785344a9ef8ee96308a5b4984386d50fa
 SHA256 (xdg-user-dirs-0.18.tar.gz) = ec6f06d7495cdba37a732039f9b5e1578bcb296576fde0da40edb2f52220df3c

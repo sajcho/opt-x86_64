@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAoONuHIOtVvGgQGyPveYMzkYW3TdnE6kh3vX+079p8AblEnQqhpkv3w1XCuCAh0opgDi2Xxwa9oh7ZFG3IWhZwA=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrFNOLQV7QvCKePlYRksJscutzSg62qiJ9klo5ztpu9HLz/KabFWYZYzHwyHFFHtk5ADCb7UYup0MQG3ffuYQeQI=
 SHA256 (Pkgfile) = d77740afa2daa3c742b9b631c996fed72a70282546e652646957d48878ae5d1f
 SHA256 (.footprint) = 21db93c217becdd9962c99d08f2135a8348ff3db40d533c0644197de6f701167
 SHA256 (rlwrap-0.45.2.tar.gz) = 7197559f193918cc8782421b5b1313abbde5e3b965a5f91f9ee25aee9b172ec5

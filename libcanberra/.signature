@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAtu8z/qMz8JIbIxjKzH9rlgrf92Do7UwMrGl2CoMYwrukU+QehRk2yjRcMV//PuAAtF0KCrAS0HMhNay2PeGUgY=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrJkZRSCXgVmo+dXb/J1La3YXH+Y+XGjbYDpmrEaYXcitYGMVlbi09ozwNksYSMoeHgvgJTka7cREaMEGZeFS6Q0=
 SHA256 (Pkgfile) = c0c58d358b6d11a19359b13834d5713febb524652eca08c3cc3705bf25c1eb55
 SHA256 (.footprint) = 55d4b23ecb335d4b8e3f2fb6a7fbe0b8520667dbc5c92d895a5a78b1a21c06f0
 SHA256 (libcanberra-0.30.tar.xz) = c2b671e67e0c288a69fc33dc1b6f1b534d07882c2aceed37004bf48c601afa72

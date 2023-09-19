@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JApl+OiJRpup79DhTLN7Bif6kS0oCN7EYs8iIC4v8gY7/psEd1Dcb83EiHbm/aCO+RwMi4ibYYMAvMkUzkV7r6Qo=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrBe9cwr9hxacDbKfmrVS15hTmCCTPQxmf0ee2zohf8KTC/btibKvcP7pyAh3ud51N9Zm8qfOcmZIt/L4NLcsRA4=
 SHA256 (Pkgfile) = eae00b85d2140cbb9351522b93ed2e532be3c10467f283f7ae31d0a23c932e62
 SHA256 (.footprint) = e3e6af464723fd56911757f05b9f96c3c812e302e46012208aef902c27d40bae
 SHA256 (tftp-hpa-5.2.tar.xz) = afee361df96a2f88344e191f6a25480fd714e1d28d176c3f10cc43fa206b718b

@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAkQg91XSEEGp0AROl47HdxEPzHRfIfk2/mEGMcgPzo/8x/rm6YQm4b9mZSTZ/+A+v9l+Dltsi+BcCnnI5Mt6UwU=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrBnkWnX3oxqROBL6s8YC9/f5ZVzvEXim5oODMSCqmL58wrfpBQFYzZYXIc2TrYB88f2gZjX6m6tM6huvw8ypoAM=
 SHA256 (Pkgfile) = d0eba6cc0cff5a69c8157213d626b90bf76b8728eb94827a72c442eee9b57a05
 SHA256 (.footprint) = 329496cfa310c07f4b8f63ec1a6a69e2dbcc82825f430df777108d134d8a6979
 SHA256 (sakura-3.8.7.tar.bz2) = ba7009ff03cacc19149d82f280413defb019540d2409e6cb9243f0d7ac812922

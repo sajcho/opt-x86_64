@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAnYC5pAYo6VQSgfJfj2xSiZjNOzcJlFplTItsCwxfB3pQrdP7GJaZGfLhiV7llwSG437Br3zMIfdGs5Xn8rxzAg=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrGw/1xdjKQaC3LO3WS1IMRRwEayvC2CGduOqLP8aQBzoPMcRvABc3nV/Mi2Wqq/aazHRml1oZy8MYfedK9Xm6gk=
 SHA256 (Pkgfile) = 589e1a75303abb3d782cfa0e4520b1ebe74a9cee259cc32a70ec9cebcda9aa5c
 SHA256 (.footprint) = 73f15cacda8de3c16e83596b2e406fed155b8b607ee98062f25d6c3b2f7a6395
 SHA256 (tuigreet-0.8.0.tar.gz) = ed371ebe288a3e5782f01681c6c4ed4786b470184af286fa0e7b8898e47c154e

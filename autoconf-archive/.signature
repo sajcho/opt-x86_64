@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAmyObJZ+99V+cFb0KFXE4Ai04rqXonTNI/Vr9UlMloFgJ1LaojqoZri4Niz15u8owxsbnlJ6nvXg+ZTMRaB/1wg=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrFPnXhreF2zOlujc6GP89x0XbjLPtFkrFLaLNYEAX0NqMRcM8kEqooZtiiHod+5Yp2gVBWu8J49EXa+8USGIygA=
 SHA256 (Pkgfile) = ba8e4b47d63914ebebfaf791dc259dfdeba716686994338d7760e06a7b63b6e3
 SHA256 (.footprint) = 9a2de0f27ce2ce9d319905d5039f536cfdf2efdfef675277ec6f15152dc59199
 SHA256 (autoconf-archive-2023.02.20.tar.xz) = 71d4048479ae28f1f5794619c3d72df9c01df49b1c628ef85fde37596dc31a33

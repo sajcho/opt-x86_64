@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAm/dVB09xNT+HePVv5wD6gjG8c6woY1GZtaeUr6g+uerrci/BvbvcRz69gBvFKL8/PzsKvm354c6zMmUscb5OAQ=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrHEbyJK9xFq3dLANOebQeiHlvNsHbOiaiOUy2Tgr9QWYNpVKzui/BQcKL60b1PnJFsk7TYkVOyQ4un6/HSdGoAw=
 SHA256 (Pkgfile) = 3ed021c6f878e698ce18e979f0f4c25d93b6eeec2d6f748c64c6dcb214baec80
 SHA256 (.footprint) = c584fa0a516dec62767c5b7a5b1d29e3d231045f8493ca272fa40d347158dd1f
 SHA256 (libass-0.17.1.tar.xz) = f0da0bbfba476c16ae3e1cfd862256d30915911f7abaa1b16ce62ee653192784

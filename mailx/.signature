@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAsztyCnc3vumyd2Xki1aEOhvRyND8dNvKeu3CiarBiwFw3KsAUyS6ert4KH0EqiD/JfTzNIJMJ1g0QBL9qYKywI=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrOK0rJvtOZz0joxrk0SgGDeO6GcNCMnDR88jQR13e+pIm4rMjt/lIHKTLCOAAzDhvvn6UEQW1fdoPkYo8NdEuAs=
 SHA256 (Pkgfile) = 6528fccf810e049a581b873ae2e2f8b6edd80d67136902682800d1a0054dc791
 SHA256 (.footprint) = e6d08e9b1938620ac5635af8a6cacea0d96c251fc5044af5d1ed3574fd99b88e
 SHA256 (s-nail-14.9.24.tar.xz) = 2714d6b8fb2af3b363fc7c79b76d058753716345d1b6ebcd8870ecd0e4f7ef8c

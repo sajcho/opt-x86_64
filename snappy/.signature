@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JAocOgmmPv0cDlFzg4vdPhUWkawgQVvNKmu9H2hoyJYkORtpqJegAOR0qaptpFRYtGhQzmLuXURJWmuCq5KAxGQg=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrOFkaMjH156lLP2S5AqAzk2ViOZhP50e+PuadTQuD+t+r1i+n8C5xe6QL016N3NYRFjLAfV20PeX1WvUBnVLFAI=
 SHA256 (Pkgfile) = f87e9c7adf9e9fc1f71fcc4b06603929c9df7d687fb67e9e84bc0d0ccdbb74ae
 SHA256 (.footprint) = 01e5a0c13c30895a9b4942feb6a1d12d26e22c58c35a0f19bce564ecc6e8fd0a
 SHA256 (snappy-1.1.10.tar.gz) = 49d831bffcc5f3d01482340fe5af59852ca2fe76c3e05df0e67203ebbe0f1d90

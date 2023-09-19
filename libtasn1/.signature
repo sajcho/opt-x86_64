@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/opt-x86_64.pub
-RWQg5aRf982JApABF4qebmVFps1Aae7bOkIckDGjChM97IOYthTHpXXaKq+cyIP1RINStIwO1gj4jU1ofyC6/cZwrxBkuj93+w8=
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrDAroVpEfwUmpwFHLu+mrmsugy9JoW7mRVy/G6qyNLhkX7Hx/uVoQe/Y3dGMSkvkFuB2bhvf6iaFrz6BOPFSlwc=
 SHA256 (Pkgfile) = 9de8b059e63539136cbf8e0aebd0013391a35caf93e2ec7ccc06d25280a163e5
 SHA256 (.footprint) = b4275466ecfaca7ca14c066267c33cf40e16787070375cef9033ecfc1c480ac8
 SHA256 (libtasn1-4.19.0.tar.gz) = 1613f0ac1cf484d6ec0ce3b8c06d56263cc7242f1c23b30d82d23de345a63f7a
