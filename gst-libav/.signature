@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrJRlJ0ktoVCj2n3kHthGPUeSrkiO6kENO/gz7skRj0lxAjnTnck3gYTw36fLHju+ROtfV9hAFsCcvpPw8V2n7Qw=
-SHA256 (Pkgfile) = afe7cafae4e63f163b40958fa740b988bc60a2fb57afbef8911008345c25c1c5
+RWRkiJhlUJEGrD0yO4z2Eyliq24UWHaXKWbUvUpGfpeua+SLOpHwDIigPVm+FyeDEQl8YHRyMsjgKv3e7ib/+ai8XtE/TaVmEgI=
+SHA256 (Pkgfile) = 39187d5d1616f111eb07c83abee36096bf6d75cad7607de2f652a9c515ab907b
 SHA256 (.footprint) = 2b4603029b15032a74098cf497de9777c10b2c1d1fcca733daa90fdac79a1073
-SHA256 (gst-libav-1.22.5.tar.xz) = 8583f0c1f4fcb01eed11fa1e3c21126543a8bd739ed4fc1db31f756a5ab01d9a
+SHA256 (gst-libav-1.22.6.tar.xz) = 7789e6408388a25f23cbf948cfc5c6230d735bbcd8b7f37f4a01c9e348a1e3a7
