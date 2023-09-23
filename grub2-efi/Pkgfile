@@ -1,0 +1,81 @@
+# Description:	GNU GRand Unified Bootloader (2)
+# URL:		https://www.gnu.org/software/grub/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	efibootmgr freetype fuse3 gettext git help2man libdevmapper python3 texinfo xz
+
+name=grub2-efi
+_realname=grub
+version=2.12-rc1
+_commit=7a994c87f571ac99745645be0bdde9827297321a
+release=1
+source=(grub.default saux-grub-theme.tar.xz unifont-15.1.01.bdf)
+
+build() {
+	cd $SRC
+
+	git clone https://git.savannah.gnu.org/git/grub.git
+	git clone https://git.savannah.gnu.org/git/gnulib.git
+
+	cd $SRC/${_realname}
+	git checkout ${_realname}-${version}
+	git reset --hard ${_commit}
+
+	cp $SRC/unifont-15.1.01.bdf $SRC/${_realname}/
+
+	sed '/docs/d' -i configure.ac
+	sed 's|docs||' -i Makefile.am
+	sed "s|GNU/Linux|Linux|g" -i util/grub.d/10_linux.in
+
+	unset CFLAGS
+	unset CPPFLAGS
+	unset CXXFLAGS
+	unset LDFLAGS
+	unset MAKEFLAGS
+
+	./linguas.sh
+
+	./bootstrap \
+		--gnulib-srcdir=$SRC/gnulib/ \
+		--no-git
+
+	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
+		--target=$CHOST \
+		--prefix="/usr" \
+		--sysconfdir="/etc" \
+		--bindir="/usr/sbin" \
+		--sbindir="/usr/sbin" \
+		--program-prefix="" \
+		--enable-device-mapper \
+		--enable-cache-stats \
+		--enable-grub-mkfont \
+		--enable-grub-mount \
+		--enable-boot-time \
+		--disable-efiemu \
+		--disable-werror \
+		--with-bootdir="/boot" \
+		--with-grubdir="grub" \
+		--with-platform="efi"
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	install -d $PKG/usr/lib/grub/fonts
+	./grub-mkfont -o $PKG/usr/lib/grub/fonts/unifont.pf2 \
+		$SRC/unifont-15.1.01.bdf
+	ln -s /usr/lib/grub/fonts/unifont.pf2 \
+		$PKG/usr/share/grub/unicode.pf2
+
+	install -d $PKG/usr/share/grub/themes/
+	cp -R $SRC/saux-grub-theme/saux/ \
+		$PKG/usr/share/grub/themes/
+
+	install -D -m 0644 $SRC/grub.default $PKG/etc/default/grub
+
+	rm -rf $PKG/usr/share/grub/themes/starfield
+	rm -r $PKG/etc/bash_completion.d
+	rm $PKG/usr/lib/grub/x86_64-efi/*.module
+	rm $PKG/usr/lib/grub/x86_64-efi/{kernel.exec,gdb_grub,gdb_helper.py}
+}
