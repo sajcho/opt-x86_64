@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrHuM0qbepWtgdDEFdpf8xEFSyc7f1DMybWGj0ezzZlDgiJAjJYkuNSB1y5yFHOCjcUswUqEgJEUMdG7DmIcoego=
-SHA256 (Pkgfile) = 46892a65c3d66b9c7f82fa69410d4c30df5fbb54ed042197a961a07b4609ff06
+RWRkiJhlUJEGrPRB09w+0F+MAlmApoAw712YapMG67fZLIvHa5vqjBmQn8OvFfnBTpyEtyyw8RBeRw5f6SpQlggl4U0gZfcA6wU=
+SHA256 (Pkgfile) = e1b5005a346488752e560db18223d75de00df9cbc52c61a80c31d45580b40f44
 SHA256 (.footprint) = 8935f87dbda0998a057ae65a1365c8899bbca101cd5a1cf3f60edaef7c14311b
-SHA256 (gsettings-desktop-schemas-44.0.tar.xz) = eb2de45cad905994849e642a623adeb75d41b21b0626d40d2a07b8ea281fec0e
+SHA256 (gsettings-desktop-schemas-45.0.tar.xz) = 365c8d04daf79b38c8b3dc9626349a024f9e4befdd31fede74b42f7a9fbe0ae2
