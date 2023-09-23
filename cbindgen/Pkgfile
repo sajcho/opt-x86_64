@@ -4,7 +4,7 @@
 # Depends on:	rust
 
 name=cbindgen
-version=0.25.0
+version=0.26.0
 release=1
 source=(https://github.com/eqrion/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
@@ -18,5 +18,5 @@ build() {
 
 	cargo build --verbose --release --frozen --all-targets
 
-	install -Dt $PKG/usr/bin target/release/cbindgen
+	install -D -m 0755 -t $PKG/usr/bin target/release/cbindgen
 }
