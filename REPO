@@ -74,9 +74,7 @@ d:wavpack
 d:lame
 d:nmap
 d:libappindicator-gtk3
-d:labwc
 d:libasyncns
-d:sakura
 d:speex
 d:libass
 d:yaml
@@ -94,7 +92,6 @@ d:gtk-doc
 d:dbus
 d:menu-cache
 d:libnotify
-d:rust-static
 d:libsndfile
 d:libfm-extra
 d:sudo
@@ -144,13 +141,11 @@ d:go
 d:python3-jinja2
 d:gst-plugins-base
 d:harfbuzz
-d:geany
 d:libatasmart
 d:poppler-glib
 d:potrace
 d:gnupg
 d:libraw1394
-d:tmux
 d:gnutls
 d:sdl2
 d:srt
@@ -298,7 +293,6 @@ d:libsamplerate
 d:libsigc++3
 d:cairomm14
 d:adwaita-icon-theme
-d:fzf
 d:keyutils
 d:libpng
 d:libgpg-error
@@ -329,7 +323,6 @@ d:squashfs-tools
 d:itstool
 d:mc
 d:graphite2
-d:plasma-wayland-protocols
 d:wl-clipboard-rs
 d:swayimg
 d:wlopm
@@ -638,15 +631,9 @@ f:8b60a5e11c7878fff06e870d595dd7c6:libappindicator-gtk3/.signature
 f:f03bed6e70480658dff2392e1468daa3:libappindicator-gtk3/Pkgfile
 f:ef90d6849e880c7b64b8c64d01f36568:libappindicator-gtk3/improved-plasma.patch
 f:47e1f02d31eeb3f930906166ab7ce7b1:libappindicator-gtk3/no-gtk-doc-make.patch
-f:d766736781e3e3eb1eaa8a5abde8a06b:labwc/.footprint
-f:9794d5f467ac721986157f0a58c174ee:labwc/.signature
-f:de506fb181aa6d233e77e5f3cd5efdf8:labwc/Pkgfile
 f:2a1e558cf9685aad8130cb9705568537:libasyncns/.footprint
 f:ae648e12ad935ccb64ca75f660432b88:libasyncns/.signature
 f:0a8b83a5699e555d3d0c7ec2cc0c3963:libasyncns/Pkgfile
-f:5db51ce2d20df9a3762d4def35f7a175:sakura/.footprint
-f:198777845d60cd4b646ec7447157576e:sakura/.signature
-f:ebfd911a60400a124b426fca6a7eafe7:sakura/Pkgfile
 f:20505552fbb39f5e139c59ab347904d4:speex/.footprint
 f:971d83d79905987b55c66150aff3b05d:speex/.signature
 f:d0b61ea41332049b23cccd9ac4bf22c8:speex/Pkgfile
@@ -714,11 +701,6 @@ f:1980e7bf4f360e1d9b80261382083932:menu-cache/menu-cache-1.1.0-0001-Support-gcc1
 f:3a09e87aa9f3e487cf98edb75cde3d12:libnotify/.footprint
 f:30f9ab8249f5ca36c2d60bec180b5a63:libnotify/.signature
 f:7590345b8b2c12a12e12307765b7bbfd:libnotify/Pkgfile
-f:a68528b0fd1e5420b6f851ae579e97a4:rust-static/.nostrip
-f:5c86e9185803da05baffe89e44b8e9cd:rust-static/libexec.patch
-f:f67dab5b71b3356ef1b99eb896428ea4:rust-static/.footprint
-f:e464fdc741649be306143fb6f802f349:rust-static/.signature
-f:393f4431eb8eefc15bdf57db6741f595:rust-static/Pkgfile
 f:dedc314e70dd256556fd7390ed3c67b5:libsndfile/.footprint
 f:13d2344957a784b64e457a09e5593259:libsndfile/.signature
 f:3fcf3a663ca39f44d71246748093a762:libsndfile/Pkgfile
@@ -885,9 +867,6 @@ f:6e0cb1fe7fed8776e130cdd58ef0baa8:gst-plugins-base/Pkgfile
 f:28e0f1bceceb5932ae94550a18e22aa0:harfbuzz/.footprint
 f:e79c78b552a3688caee9618596657db1:harfbuzz/.signature
 f:26a274ab97dd27116cd3fef0c9dbced1:harfbuzz/Pkgfile
-f:7b53597c81a09afcb5ba1b4dfa8e140b:geany/.footprint
-f:8a44a130bc4097ff515d9d85a92209d9:geany/.signature
-f:d4e46c480125265f71183352da2b855f:geany/Pkgfile
 f:076c350230a7e161f1feab580ecbcb42:libatasmart/.footprint
 f:022e13b8536015c77f48698f7458abd1:libatasmart/.signature
 f:f0a9b8302a17ccc8e848957f4da52012:libatasmart/Pkgfile
@@ -903,9 +882,6 @@ f:fe491998f31b9cc0ab1b8d2b7043a2b8:gnupg/Pkgfile
 f:587ca4159ae06b1d0572132c26cab9e7:libraw1394/.footprint
 f:b7eec5d256d4c8a9e75e0095bdb12b22:libraw1394/.signature
 f:4ae69dff53fb0a45b3a83ecc335c8920:libraw1394/Pkgfile
-f:dda9286a45a0b08df5def55eefd6cd4f:tmux/.footprint
-f:cb43debd673a79993815ce8b3daab172:tmux/.signature
-f:9159d2b5e56846d3fb1ef3dcb639ffc7:tmux/Pkgfile
 f:581e5b5d0dee1d652b37a40162cad546:gnutls/.footprint
 f:b4527cb0411c870f8800fe7f59fc4773:gnutls/.signature
 f:b09d942ba232f29517e1653a0633ea09:gnutls/Pkgfile
@@ -1427,9 +1403,6 @@ f:65665f1d29cb1ea972b3e3353dae6dd8:adwaita-icon-theme/post-install
 f:394f3a315a4f812e42ff33230b117d92:adwaita-icon-theme/.footprint
 f:dfe5a66948f59d4df79fd8039255aa87:adwaita-icon-theme/.signature
 f:311941b5b224fedaec742207ffeb28bb:adwaita-icon-theme/Pkgfile
-f:8c2e55f1593f19c1e2e6af31b7c03da9:fzf/.footprint
-f:163d848fa8519ef20fefa0f393ee415f:fzf/.signature
-f:875ba5e2bbef0f00d5424842f1a2ed79:fzf/Pkgfile
 f:f0687244cedb09384920e01b8bf04754:keyutils/.footprint
 f:6bc28e35d70887e72a9930f6ff79b76d:keyutils/.signature
 f:8eb1655c31cb333be5e8098b592aaf16:keyutils/Pkgfile
@@ -1523,9 +1496,6 @@ f:fb8eec37cf6f40d26ff7b4b7dfe2786e:mc/Pkgfile
 f:52114c03a978e8c788d3bba8688c028b:graphite2/.footprint
 f:df953a153ef5abd666d7490bd69af7a4:graphite2/.signature
 f:c2324fe638949918e6e6afbe15853ff5:graphite2/Pkgfile
-f:48368d0b10ba7abbe97f08e8f9fe17cb:plasma-wayland-protocols/.footprint
-f:6eea361d8063d236e91d9bc918853fd8:plasma-wayland-protocols/.signature
-f:3cd68a26940dd468dc6c2d0fc6ee1b5c:plasma-wayland-protocols/Pkgfile
 f:7351ad1bb7b759ad7618c9d9c272af51:wl-clipboard-rs/.footprint
 f:6009d4d15211b1fc0e21f2c7a7c65ab0:wl-clipboard-rs/.signature
 f:414572fadf52d539b7d5cd840c9696d5:wl-clipboard-rs/Pkgfile
