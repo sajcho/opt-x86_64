@@ -4,7 +4,7 @@
 # Depends on:	chromaprint faac faad2 ladspa libmodplug libnice libsrtp openjpeg2 soundtouch libgudev openal vulkan-loader neon shaderc
 
 name=gst-plugins-bad
-version=1.22.5
+version=1.22.6
 release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
