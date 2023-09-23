@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrLjncMkCE3ea02HLwxZB4yw1hzqlDMHrQDnsqmH1IwOSgNY5JjKr17rLcR1E6D2bk7Tl+YZdpGO1wFDY9lNIzQM=
-SHA256 (Pkgfile) = 4768782176eccec5fb29f8a8d55cadf81ff008566c0114d13d30faf04922943a
-SHA256 (.footprint) = 50d5475c70425b308fdec5856c96516e1efe345b0ecf6011586de5dd7d013432
-SHA256 (json-glib-1.6.6.tar.xz) = 96ec98be7a91f6dde33636720e3da2ff6ecbb90e76ccaa49497f31a6855a490e
+RWRkiJhlUJEGrAFdv7g7VT/4+MRbYsCttoymzumuEEv8XdvjJxRZqU7rYfVX2WaX37RCQkTYiHjPajVA2vLFG+8mA0GRRGx9pAc=
+SHA256 (Pkgfile) = e86d7928976e66f59c1ea7a49a124d2df9b82a82ae7e55a9bd6bd872163ceecf
+SHA256 (.footprint) = ddf6d00f8dc3a1a1aa54c58a50f9de0caff656e747b9aea3f7a1e2a525dd4eec
+SHA256 (json-glib-1.8.0.tar.xz) = 97ef5eb92ca811039ad50a65f06633f1aae64792789307be7170795d8b319454
