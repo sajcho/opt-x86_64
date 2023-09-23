@@ -1,3 +1,9 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/sv/
+drwxr-xr-x	root/root	etc/sv/alsa/
+-rwxr-xr-x	root/root	etc/sv/alsa/finish
+-rwxr-xr-x	root/root	etc/sv/alsa/run
+lrwxrwxrwx	root/root	etc/sv/alsa/supervise -> /run/runit/supervise.alsa
 drwxr-xr-x	root/root	lib/
 drwxr-xr-x	root/root	lib/udev/
 drwxr-xr-x	root/root	lib/udev/rules.d/
@@ -19,13 +25,13 @@ lrwxrwxrwx	root/root	usr/bin/arecord -> aplay
 -rwxr-xr-x	root/root	usr/bin/aseqnet
 -rwxr-xr-x	root/root	usr/bin/axfer
 -rwxr-xr-x	root/root	usr/bin/iecset
+-rwxr-xr-x	root/root	usr/bin/nhlt-dmic-info
 -rwxr-xr-x	root/root	usr/bin/speaker-test
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/alsa-topology/
 -rwxr-xr-x	root/root	usr/lib/alsa-topology/libalsatplg_module_nhlt.so
 drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/alsa-info.sh
--rwxr-xr-x	root/root	usr/sbin/alsaconf
 -rwxr-xr-x	root/root	usr/sbin/alsactl
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/alsa/
@@ -58,9 +64,8 @@ lrwxrwxrwx	root/root	usr/share/man/man1/arecord.1.gz -> aplay.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/axfer-transfer.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/axfer.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/iecset.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/nhlt-dmic-info.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/speaker-test.1.gz
-drwxr-xr-x	root/root	usr/share/man/man8/
--rw-r--r--	root/root	usr/share/man/man8/alsaconf.8.gz
 drwxr-xr-x	root/root	usr/share/sounds/
 drwxr-xr-x	root/root	usr/share/sounds/alsa/
 -rw-r--r--	root/root	usr/share/sounds/alsa/Front_Center.wav
