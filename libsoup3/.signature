@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrLhSOCkVFLVlRH/mYNO+tz3DVauiiib6qpKhsMCeeksDd2o/788pGwwuS5GzsRQgyW71vdTP1JoKUZy2pjcIfAM=
-SHA256 (Pkgfile) = 691f433cb0e40f38b6bde5335f0bec44e35f987c7e7f842802ceeb005408f1df
+RWRkiJhlUJEGrEAAaMz2wPPE5yHJs2meDooz1o+hjCvjBT50v1IEaF1aFjz5IByWfVnUAI3D8DMYqbFJeiYX5Q5AC1UY6RSRuQ0=
+SHA256 (Pkgfile) = 9acd8b7764e819b6dff2184ae3b015cecc13616272e438475c638431a1540ba3
 SHA256 (.footprint) = cfb8d4f6b0ae74df6d23f2830ed3380be0e60300d399b586e1f552168807921d
-SHA256 (libsoup-3.4.2.tar.xz) = 78c8fa37cb152d40ec8c4a148d6155e2f6947f3f1602a7cda3a31ad40f5ee2f3
+SHA256 (libsoup-3.4.3.tar.xz) = b7f1bbaeeb43f5812daba3ee258a72e1b4b14c2fd91f4a1a75d4eea10dcf288f
