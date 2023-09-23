@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrLHZtpRxQk5Nd32QSWfWPISwDhqEiTnbI/mek/IjQJuLc3IcQl5Nn6FvHKAPUIQOs9eA7niMR5Rf0VH7vpCAvAc=
-SHA256 (Pkgfile) = 4b2bfb82672cc4bb4bc24a5fd6c952c425d4a4cfac09094c15266554fe16a8c7
-SHA256 (.footprint) = c8709b17c6f7cc7c176d84cec0aab766dc2db7d0e12fbfa5b8ec9b26c9f5b879
-SHA256 (harfbuzz-8.2.0.tar.xz) = 8cb7117a62f42d5ad25d4a697e1bbfc65933b3eed2ee7f247203c79c9f1b514c
+RWRkiJhlUJEGrKcCbuwGlQB6tsc77BmNwthQkZOvlPhGY5A/OpxmyYyDKA+FwVQVxz0e+5kd53TMibkJKXZe1diyLqbHJ5jvuwI=
+SHA256 (Pkgfile) = 747da7c2ceb66fe0af5303b844801b3a3e78c6df48cce1f086548f51a20e5708
+SHA256 (.footprint) = 7bcaa9ffb62407532fa1f82fb309bf36340c8f4a8b58edef97656dd8474866df
+SHA256 (harfbuzz-8.2.1.tar.xz) = 0fec78f98c9c8faf228957a201c8846f809452c20f8445eb092a1ba6f22dbea5
