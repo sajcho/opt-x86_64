@@ -1029,8 +1029,8 @@ f:c85079242d54888819e6be5f07b9f4a3:libbytesize/.footprint
 f:c733f4f9653e8363208255122d8eba3c:libbytesize/.signature
 f:f40264fcb8cf9a690e06f4d074e77546:libbytesize/Pkgfile
 f:d1592c76c17012341e118dd7bf2c95a0:imagemagick/.footprint
-f:5aeda1b0ee865043d4c9098a4ebbad45:imagemagick/.signature
-f:1a91ba20de85e6de573f4afb5448be4c:imagemagick/Pkgfile
+f:2dbd29a314f46c9ecc9a93caa883e5ce:imagemagick/.signature
+f:b2a95b2409d8cb77eabab2c8bc73a8a5:imagemagick/Pkgfile
 f:9c54e647eadb86c2ca42143664d9ef26:sassc/.footprint
 f:c9eadce41afaa3a19a5b2efb3dfa66f2:sassc/.signature
 f:3058ec0c5bee6d768ef7f62ff6e3de27:sassc/Pkgfile
