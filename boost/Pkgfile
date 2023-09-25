@@ -6,7 +6,7 @@
 name=boost
 version=1.83.0
 _pkgversion=1_83_0
-release=1
+release=2
 source=(https://boostorg.jfrog.io/artifactory/main/release/${version}/source/${name}_${_pkgversion//./_}.tar.bz2)
 
 build() {
@@ -36,7 +36,7 @@ build() {
 		runtime-link=shared \
 		link=shared \
 		toolset=gcc \
-		python=3.11 \
+		python=3.12 \
 		cflags="$CFLAGS" \
 		cxxflags="$CXXFLAGS" \
 		--without-graph_parallel \
@@ -52,7 +52,7 @@ build() {
 		runtime-link=shared \
 		link=shared \
 		toolset=gcc \
-		python=3.11 \
+		python=3.12 \
 		cflags="$CFLAGS" \
 		cxxflags="$CXXFLAGS" \
 		--without-graph_parallel \
