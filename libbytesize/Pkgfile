@@ -5,7 +5,7 @@
 
 name=libbytesize
 version=2.9
-release=1
+release=2
 source=(https://github.com/storaged-project/${name}/releases/download/${version}/${name}-${version}.tar.gz)
 
 build() {
