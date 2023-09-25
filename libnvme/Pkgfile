@@ -5,7 +5,7 @@
 
 name=libnvme
 version=1.5
-release=1
+release=2
 source=(https://github.com/linux-nvme/${name}/archive/v${version}/${name}-v${version}.tar.gz \
 	doc-test.patch)
 
