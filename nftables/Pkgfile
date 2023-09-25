@@ -5,7 +5,7 @@
 
 name=nftables
 version=1.0.8
-release=1
+release=2
 source=(https://netfilter.org/projects/${name}/files/${name}-${version}.tar.xz \
 	nftables-basic-firewall.nft \
 	nftables.conf \
@@ -20,7 +20,7 @@ build() {
 		--host=$CHOST \
 		--prefix=/usr \
 		--sysconfdir=/etc \
-		--enable-python \
+		--disable-python \
 		--disable-static \
 		--with-json \
 		--with-python-bin=/usr/bin/python3
