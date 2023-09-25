@@ -5,7 +5,7 @@
 
 name=libblockdev
 version=3.0.3
-release=1
+release=2
 source=(https://github.com/storaged-project/${name}/releases/download/${version}-1/${name}-${version}.tar.gz)
 
 build() {
