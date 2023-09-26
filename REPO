@@ -317,6 +317,7 @@ d:tree
 d:x264
 d:icewm
 d:libcaca
+d:lxterminal
 d:squashfs-tools
 d:itstool
 d:mc
@@ -1481,6 +1482,10 @@ f:486b2410181fd453f55bf9bf1068e778:icewm/Pkgfile
 f:bfe2a68f8b898b4e4c509f268f80a103:libcaca/.footprint
 f:d70a92ccb70a3d4df2a755482d36d6bf:libcaca/.signature
 f:62fd0626cea090d6fcff6510ce9f36a4:libcaca/Pkgfile
+f:54e0a13fe25017a90ba8a36d36698c5e:lxterminal/post-install
+f:0aec872de5dbe280cd3948b8ae02c4ab:lxterminal/.footprint
+f:9871f8512f8825d68fc2fc8304b02337:lxterminal/.signature
+f:afcea9fb73e53f20781e66eae1b014f3:lxterminal/Pkgfile
 f:b26c6b7857efac85a5b54c28690c792a:squashfs-tools/.footprint
 f:c0d3c92db355d455f32dabf38699eb2b:squashfs-tools/.signature
 f:a66ba8250d57360d1e6f472f6f560078:squashfs-tools/Pkgfile
