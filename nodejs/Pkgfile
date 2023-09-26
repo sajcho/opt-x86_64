@@ -5,14 +5,22 @@
 
 name=nodejs
 version=20.7.0
-release=1
+release=2
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
 build() {
 	cd node-v${version}
 
-	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/}"
-	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/}"
+	# fix - python version
+	sed -e "s|3.11|3.12|g" -e "s|3, 11|3, 12|g" -i configure
+
+	# Use -flto=auto to use GNU make’s job server, if available,
+	# or otherwise fall back to autodetection of the number
+	# of CPU threads present in your system.
+	sed "s|lto=4|lto=auto|" -i common.gypi
+
+	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
+	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
 
 	./configure \
 		--prefix=/usr \
