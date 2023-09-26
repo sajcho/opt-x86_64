@@ -79,3 +79,6 @@ drwxr-xr-x	root/root	usr/share/gir-1.0/
 -rw-r--r--	root/root	usr/share/gir-1.0/PangoFc-1.0.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/PangoOT-1.0.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/PangoXft-1.0.gir
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/pango-view.1.gz
