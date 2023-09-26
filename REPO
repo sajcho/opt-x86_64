@@ -285,6 +285,7 @@ d:grub2-efi
 d:libnfs
 d:dos2unix
 d:http-parser
+d:help2man
 d:ndctl
 d:dialog
 d:libsamplerate
@@ -888,9 +889,9 @@ f:2e25829f8aab5d3b0fd7c27511a0383b:srt/.footprint
 f:a67e6cffe3a63911ce88974479eef12c:srt/.signature
 f:3c21c0867acee4b5828887adbc877eb9:srt/Pkgfile
 f:f329ba6c67413624bc980ab137fe1bbc:srt/fix-cmake.patch
-f:9eefaa8e966ffa0c760872451d0fadc8:pango/.footprint
-f:34682465699dee854181794c045c4aaf:pango/.signature
-f:35b882d0cfec4d2afce113a527cd728f:pango/Pkgfile
+f:a4dd5eceaefcb777a4f7f4342af6e8ce:pango/.footprint
+f:50bbcb988eea248c9ad157ef24322cd8:pango/.signature
+f:ad3e697d3cdfe9e282153aac7d613f2c:pango/Pkgfile
 f:d115e787184d9e25ca9dfecfd72a9831:gtkmm3/.footprint
 f:485d6f26ed6d1bf121c83320ba8af2f8:gtkmm3/.signature
 f:843237b114ee775fa9974d765db0adb9:gtkmm3/Pkgfile
@@ -1088,10 +1089,10 @@ f:ad138f0e86d7e232558e300217847c73:zig/.footprint
 f:732478f666caaea11eeaf1a09b00fbd5:zig/.signature
 f:5f37e7384209dc78fdfe94159c64dcbd:zig/Pkgfile
 f:e5f74be27525658dae59401455944186:glib/post-install
-f:bb5f9de3294b2100cb8cbc4da49aaf18:glib/.footprint
+f:ec1283f85c4b0ba3c54bbdc3f29683f9:glib/.footprint
 f:ebd1ee90e4f81e6c6cc03c29ab8b6bea:glib/gschemas.compiled
-f:3f76d3cd89b32ceb1d21b9b3e569f45c:glib/.signature
-f:9f3d10b69d62cf99a9136b024a52136d:glib/Pkgfile
+f:7a06f00a6d3b90325baea18152222715:glib/.signature
+f:3370ad99db38aa555a770750f132c66b:glib/Pkgfile
 f:08b95225e98724a67fb2c765acea8ef9:glib/deprecated-no-warn.patch
 f:c4ed2bbb391d014531d2b54476f0c30c:gst-plugins-bad/.footprint
 f:233f648f776dda6c5a38cfc91fce92ec:gst-plugins-bad/.signature
@@ -1378,6 +1379,9 @@ f:6c489f89a79f19cead4748add8004916:dos2unix/Pkgfile
 f:f09ae24e1d84463beb3a1285e79da4f1:http-parser/.footprint
 f:4c02bbc54bfc3a20e0ee1cd6a0c92b2d:http-parser/.signature
 f:481acc63b6588d752e1cb0b41efcf93d:http-parser/Pkgfile
+f:1abe4d287ed5dfefd4eb4deed60a4f1e:help2man/.footprint
+f:fd72b9ff1e7d4c49b4a44916f2f013f5:help2man/.signature
+f:907f35c20a9af0c3f53ade7d27fd463c:help2man/Pkgfile
 f:a813937f550f79e1511862fc4e4e905b:ndctl/.footprint
 f:d86040b9757fbc016916fe6778964151:ndctl/.signature
 f:c3d3a77e24d04c95dbd47b2519354903:ndctl/Pkgfile
