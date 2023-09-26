@@ -1485,8 +1485,8 @@ f:b26c6b7857efac85a5b54c28690c792a:squashfs-tools/.footprint
 f:c0d3c92db355d455f32dabf38699eb2b:squashfs-tools/.signature
 f:a66ba8250d57360d1e6f472f6f560078:squashfs-tools/Pkgfile
 f:3fcccef151712aa244e8f2462e604fe6:itstool/.footprint
-f:ddf3e0e00433552eb7358bcab560037f:itstool/.signature
-f:8826b22d2dd4b3c2b3927be5301a224a:itstool/Pkgfile
+f:5593c84f120cace373795af7be0582da:itstool/.signature
+f:0cf9a3b2aafe5495d40c04e2854b7f3a:itstool/Pkgfile
 f:01b055ecc4b9c89a4acc7199725b6bbf:mc/.footprint
 f:abb4f3038d26077368d257e188a56b66:mc/.signature
 f:fb8eec37cf6f40d26ff7b4b7dfe2786e:mc/Pkgfile
