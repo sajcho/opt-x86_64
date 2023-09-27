@@ -6,7 +6,7 @@
 name=firefox-releases
 _realname=firefox
 version=117.0.1
-release=1
+release=2
 source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
 	distribution.ini \
 	firefox.desktop \
@@ -118,5 +118,5 @@ EOF
 
 	# Exclude library for revdep.
 	install -d $PKG/etc/revdep.d
-	echo "/usr/lib/firefox/" > $PKG/etc/revdep.d/firefox
+	echo "/usr/lib/firefox/" > $PKG/etc/revdep.d/firefox-releases
 }
