@@ -1452,12 +1452,11 @@ f:6d3edd27125a8631cc716eafcebd653d:poppler-data/Pkgfile
 f:21651f2bd128ed6fec0c6fb936404d4d:libgudev/.footprint
 f:042bf34660e3dcd355bcb57c5cca9b06:libgudev/.signature
 f:60d4508fde010e161ada836599c01178:libgudev/Pkgfile
-f:395bab8105877269423bc64e6b65244d:firefox-releases/mozilla-1669639.patch
 f:99076f600572cb9dfa0ff55512108714:firefox-releases/distribution.ini
-f:89794c3d98e728472eba9247c747a1e8:firefox-releases/.footprint
-f:e68f1a8ea88e819f07d463a0f2910548:firefox-releases/.signature
+f:6d0d3741ec0724b7a1b7e45418b3176e:firefox-releases/.footprint
+f:70c1ef0813f432560ee2c502ca1d0bae:firefox-releases/.signature
 f:d8743848c9164555d67d256814b91bd6:firefox-releases/vendor.js
-f:b77bac9ab78da9a897e3f517459c7266:firefox-releases/Pkgfile
+f:f5041372e4a25a18f98e143480d213c7:firefox-releases/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox-releases/firefox.desktop
 f:67714d589e1ea7dcfca45fee7d19304b:x265/.footprint
 f:a20a956d351d2726b369f99c3992fe0f:x265/.signature
