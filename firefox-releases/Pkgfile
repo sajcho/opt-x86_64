@@ -5,8 +5,8 @@
 
 name=firefox-releases
 _realname=firefox
-version=117.0.1
-release=2
+version=118.0
+release=1
 source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
 	distribution.ini \
 	firefox.desktop \
