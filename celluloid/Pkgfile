@@ -1,0 +1,24 @@
+# Description:	A simple GTK+ frontend for mpv (formerly gnome-mpv)
+# URL:		https://celluloid-player.github.io/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	appstream-glib desktop-file-utils glib gtk3 libadwaita libepoxy meson mpv
+
+name=celluloid
+version=0.26
+release=1
+source=(https://github.com/celluloid-player/${name}/releases/download/v${version}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson . build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/usr/share/{locale,metainfo}
+
+	find $PKG/usr/share -type f -name '*.desktop' \
+		-exec sed -r -e '/\[.+\]=/d' -e '/#/d' -i {} \;
+}
