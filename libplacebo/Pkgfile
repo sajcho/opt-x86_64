@@ -4,14 +4,13 @@
 # Depends on:	ffmpeg glad glfw3 lcms2 shaderc
 
 name=libplacebo
-version=5.264.1
+version=6.292.1
 release=1
 source=(https://code.videolan.org/videolan/${name}/-/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
 	cd ${name}-v${version}
 
-	CXXFLAGS+=' -I/usr/include/glslang' \
 	build-meson \
 		-Dglslang=enabled \
 		-Dlcms=enabled \
