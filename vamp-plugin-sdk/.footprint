@@ -28,13 +28,9 @@ drwxr-xr-x	root/root	usr/include/vamp-sdk/
 drwxr-xr-x	root/root	usr/include/vamp/
 -rw-r--r--	root/root	usr/include/vamp/vamp.h
 drwxr-xr-x	root/root	usr/lib/
--rw-r--r--	root/root	usr/lib/libvamp-hostsdk.a
--rw-r--r--	root/root	usr/lib/libvamp-hostsdk.la
 lrwxrwxrwx	root/root	usr/lib/libvamp-hostsdk.so -> libvamp-hostsdk.so.3.10.0
 lrwxrwxrwx	root/root	usr/lib/libvamp-hostsdk.so.3 -> libvamp-hostsdk.so.3.10.0
 -rwxr-xr-x	root/root	usr/lib/libvamp-hostsdk.so.3.10.0
--rw-r--r--	root/root	usr/lib/libvamp-sdk.a
--rw-r--r--	root/root	usr/lib/libvamp-sdk.la
 lrwxrwxrwx	root/root	usr/lib/libvamp-sdk.so -> libvamp-sdk.so.2.10.0
 lrwxrwxrwx	root/root	usr/lib/libvamp-sdk.so.2 -> libvamp-sdk.so.2.10.0
 -rwxr-xr-x	root/root	usr/lib/libvamp-sdk.so.2.10.0
