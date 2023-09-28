@@ -1,0 +1,24 @@
+# Description:	Library to help create and query binary XML blobs
+# URL:		https://github.com/hughsie/libxmlb
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	gobject-introspection
+
+name=libxmlb
+version=0.3.14
+release=1
+source=(https://github.com/hughsie/${name}/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dintrospection=true \
+		-Dgtkdoc=false \
+		-Dstemmer=false \
+		-Dtests=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
