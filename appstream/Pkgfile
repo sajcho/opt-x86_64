@@ -1,0 +1,33 @@
+# Description:	Provides a standard for creating app stores across distributions
+# URL:		https://distributions.freedesktop.org/wiki/AppStream
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cairo curl fontconfig gdk-pixbuf glib gobject-introspection gperf itstool librsvg libxml2 libxmlb meson pango yaml
+
+name=appstream
+_realname=AppStream
+version=0.16.3
+release=1
+source=(https://www.freedesktop.org/software/${name}/releases/${_realname}-${version}.tar.xz)
+
+build() {
+	cd ${_realname}-${version}
+
+	build-meson \
+		-Dgir=true \
+		-Dcompose=true \
+		-Dsystemd=false \
+		-Ddocs=false \
+		-Dapidocs=false \
+		-Dinstall-docs=false \
+		-Dstemming=false \
+		-Dvapi=false \
+		-Dapt-support=false \
+		-Dqt=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/usr/share/{gettext,installed-tests,locale,metainfo}
+}
