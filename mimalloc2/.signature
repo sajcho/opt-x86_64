@@ -1,0 +1,5 @@
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrJp6wMrlQmpB/O5HH7BKFUevPFnB8LIZsqCLO7K26l1rrzjFGXVFozWnMKIgabMACIx5m65a3JDZSnNVpevxYwI=
+SHA256 (Pkgfile) = f134b4e3e91cd3a132daaaa6c8a9535d3a1882cd21ceda479054f28b6a076b5b
+SHA256 (.footprint) = 4f4c1efddd488258328bd72409c87641fad6f1a5f24badb1b1edb4a5699d5b46
+SHA256 (mimalloc2-2.1.2.tar.gz) = 2b1bff6f717f9725c70bf8d79e4786da13de8a270059e4ba0bdd262ae7be46eb
