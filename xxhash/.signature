@@ -1,0 +1,5 @@
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrImkuqsmzzVzTN4J8qgFEeEwJJr1y7FDvIlhy7sU1ldNO/hFaAMW4w7zqzJ/+hGQwgxvCuRdqcNB0XBOAryNMwA=
+SHA256 (Pkgfile) = dcd6ef9684c44dddc1dcd2045c22e174363f45d25eccccf3daf72bc22e1d1c61
+SHA256 (.footprint) = 3079fae96a0b7a72eee586ada05ebb531d4c888aaffe2cc670b5875f280f2f68
+SHA256 (xxhash-0.8.2.tar.gz) = baee0c6afd4f03165de7a4e67988d16f0f2b257b51d0e3cb91909302a26a79c4
