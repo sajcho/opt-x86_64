@@ -16,6 +16,7 @@ d:mm-common
 d:gtk3
 d:libmypaint
 d:gtk4
+d:rust72
 d:foot
 d:pangomm
 d:qemu-static
@@ -39,6 +40,7 @@ d:gnome-common
 d:libidl
 d:dosfstools
 d:ffmpegthumbnailer
+d:mimalloc2
 d:libcanberra
 d:make-ca
 d:faad2
@@ -118,6 +120,7 @@ d:swaylockd
 d:neon
 d:refind
 d:python3-tqdm
+d:python3.11
 d:vte3
 d:rpcsvc-proto
 d:wireless-regdb
@@ -170,6 +173,7 @@ d:mpv
 d:libaio
 d:argon2
 d:fftw
+d:xxhash
 d:chromaprint
 d:c-ares
 d:pinentry
@@ -184,6 +188,7 @@ d:autoconf-2.13
 d:taglib
 d:iwd
 d:soxr
+d:mold
 d:intltool
 d:libde265
 d:cryptsetup
@@ -217,6 +222,7 @@ d:gimp
 d:at-spi2-core
 d:cairo
 d:glib-networking
+d:llvm-toolchain
 d:rxvt-unicode
 d:seatd
 d:libgcrypt
@@ -271,6 +277,7 @@ d:mutt
 d:asciidoctor
 d:wpa_supplicant
 d:imlib2
+d:rust-bindgen
 d:hunspell
 d:gnome-themes-extra
 d:nvme-cli
@@ -344,10 +351,12 @@ d:freetype
 d:md4c
 d:spdlog
 d:soundtouch
+d:lld
 d:faac
 d:nfs-utils
 d:libmpdclient
 d:duktape
+d:rust
 d:freetds
 d:popt
 d:yasm
@@ -421,6 +430,13 @@ f:29e8b5cc9e7e7ab649f1f09dc8d70dc0:gtk4/post-install
 f:7159bb809a1d26e9a6a2f1a42867fe52:gtk4/.footprint
 f:48a2ddb3aac0feb29c84af1b58bb0162:gtk4/.signature
 f:48bbc019ba679bb6bdcc58b9a3605408:gtk4/Pkgfile
+f:e650e22565672241bc86cff013ff959d:rust72/0001-bootstrap-Change-libexec-dir.patch
+f:a68528b0fd1e5420b6f851ae579e97a4:rust72/.nostrip
+f:153e87084d059604ff7d47ee236a8ad5:rust72/0001-cargo-Change-libexec-dir.patch
+f:89c4a037dc9cc90473428171246e48c9:rust72/.footprint
+f:40506025b8ed506079237a35c7e5589a:rust72/.signature
+f:0dbc7713a2d65119f6eb6b7d78d361e1:rust72/Pkgfile
+f:8570861063b945ec436ad79503051634:rust72/README
 f:03357088c2f165d5a89ce91573a82fc2:foot/.footprint
 f:1848882bd40cfc251729a3d1601d5acd:foot/.signature
 f:cadfd52acfaeec00f42103a0d950899a:foot/Pkgfile
@@ -504,6 +520,9 @@ f:f035ef668be4de3de6cf1985b30d6c3d:ffmpegthumbnailer/ffmpeg5.patch
 f:2e44b4d393c09b5c468aa77dcb5ee347:ffmpegthumbnailer/.footprint
 f:6ec91e6ad836733deeba095f60453af2:ffmpegthumbnailer/.signature
 f:ea850acad8d39cc8eff4409cfc844b6c:ffmpegthumbnailer/Pkgfile
+f:173c772ad3b8cc2158e5df0918adda64:mimalloc2/.footprint
+f:dd527327c75ff9571f9397222a573376:mimalloc2/.signature
+f:6b5adf5becc5e420eeafc894a1d63359:mimalloc2/Pkgfile
 f:63b8aa3272610d39c3114ffee292f1bc:libcanberra/libcanberra-0.30-wayland-1.patch
 f:a7d538151a41689f42a2a6b589ef0a3e:libcanberra/libcanberra-multi-backend.patch
 f:4a11e7470aabebc6a33b31300415dea7:libcanberra/.footprint
@@ -796,6 +815,9 @@ f:5b00c727f5918d440b62081d4af031a8:refind/Pkgfile
 f:765888c15358e3f4f042356e1b6e022e:python3-tqdm/.footprint
 f:089bae8c336f004d43ab9d59a08238ef:python3-tqdm/.signature
 f:be74205d4321ee1117ea62e2f763810c:python3-tqdm/Pkgfile
+f:02fed94aa58805e3bfcc999b46c9c6ae:python3.11/.footprint
+f:b6eb2f4c345a560d86402a0a2c5caa1a:python3.11/.signature
+f:13aec29a21796475d30a7e6d33a9268b:python3.11/Pkgfile
 f:5f503284170a4c0d7f9f96a026e53eb9:vte3/syscall.patch
 f:f19005558cfaa762230f4cbd14782f1b:vte3/.footprint
 f:a1e32f1b21016a9642640c5ae7307ebf:vte3/.signature
@@ -961,6 +983,9 @@ f:f2826f78dfd048c73ef6c25166b1f73f:argon2/Pkgfile
 f:9b7fcaa3d9b09d6c27560ac6905c8899:fftw/.footprint
 f:ba27be6c44962a12dcd77d3938a2b02c:fftw/.signature
 f:c5b10add73540136fb07a4416139b280:fftw/Pkgfile
+f:c34b615013cc6b4035d0ed00856b3596:xxhash/.footprint
+f:a7851e84749968ce0228b1a6348c1ab0:xxhash/.signature
+f:3a697e894ac786728cb0c7db14bc59c0:xxhash/Pkgfile
 f:8da2437617bd948352dac3de028958fc:chromaprint/ffmpeg5.patch
 f:18ae8d34320e6f8d33f882c9606eaf22:chromaprint/.footprint
 f:90677be86c3b4ee24392fd85d2d9169f:chromaprint/.signature
@@ -1015,6 +1040,9 @@ f:8e6e572ac99e01bdf5ca72621f5f41f5:iwd/ead.log
 f:29dad3b5d1f412155a338f56e09c658d:soxr/.footprint
 f:f6339bab6305b3ad0d1dfa8269d36004:soxr/.signature
 f:62d3dadcb01e4f423249086583532909:soxr/Pkgfile
+f:5049919a02290b388543a9a483587319:mold/.footprint
+f:9f3bbc1b7e24a234dfd34abc1c9536d7:mold/.signature
+f:4bed39c14656b3f3bd72a146c3dc28a2:mold/Pkgfile
 f:38bec379ca1158fa00afa94c99b9ebe5:intltool/intltool-perl-regexp.patch
 f:0fb5cd7dbe852bbac973124b5afdda9d:intltool/.footprint
 f:92b24e3f586771363a8d8c73f685a52f:intltool/.signature
@@ -1131,6 +1159,10 @@ f:826a4ee1974d64679dd536368a3c9e8b:cairo/Pkgfile
 f:38a3c28e80976d369663407930f8ecde:glib-networking/.footprint
 f:17e628b93d9a171048e54a0d0dd80500:glib-networking/.signature
 f:2a7959fbfe9804d7ea4a26d189d30a29:glib-networking/Pkgfile
+f:551c7cd7be65ebcd4016d645f68d4b9e:llvm-toolchain/.footprint
+f:fbeeca7b51495a1bc8b11d6202a5931c:llvm-toolchain/.signature
+f:49f083d6ab87f624673c9901fd607783:llvm-toolchain/Pkgfile
+f:3a56a4e09450a4bc9e2a6d17478f8679:llvm-toolchain/README
 f:105d79e77f2aedc2520791177c74feda:rxvt-unicode/gentables.patch
 f:adbc706ffaae32ebc5d2669e47231c20:rxvt-unicode/.footprint
 f:010d5653ee267d2cf5370a02191243ff:rxvt-unicode/.signature
@@ -1334,6 +1366,9 @@ f:d658c63a941e393b836cfbe9747d5846:wpa_supplicant/wpa_supplicant.conf
 f:7e5a69e20d90ed9480ced4e593e56fd9:imlib2/.footprint
 f:ad532c8c75efe6771170f2777c093906:imlib2/.signature
 f:12a5ddcfb5fcfd3913bd394f42028dfe:imlib2/Pkgfile
+f:8c548635b6b6e04ef05b3bcca82bb071:rust-bindgen/.footprint
+f:5b29cd3bef7d3438c1c54a1457f42c0e:rust-bindgen/.signature
+f:83217d1f8c78e3bb77b1cf7a0ca75c25:rust-bindgen/Pkgfile
 f:1a8b91e11605b24a638bcca7ceb636ee:hunspell/.footprint
 f:8d501ec64657e107d55f899e13ac3abd:hunspell/.signature
 f:a789c337cc687106f9734e5ed00c88d2:hunspell/Pkgfile
@@ -1578,6 +1613,9 @@ f:f512d6d7708938dd928fe2ca48faaa95:spdlog/Pkgfile
 f:e99578b95db0bfd1ced3c031d7db2b8f:soundtouch/.footprint
 f:4be0498464486e595e5ca04e977999f3:soundtouch/.signature
 f:78dc5f594ab2afef0a023ed39707d4ff:soundtouch/Pkgfile
+f:c9b98d6fc38365b7c6555036f2e1d8ab:lld/.footprint
+f:3e7c3753c92aa4218171a426d1bc455d:lld/.signature
+f:8ba8493f9b07f4e676f1697afb386ccc:lld/Pkgfile
 f:11db8533dd7031a579ac5fe6f0931a45:faac/.footprint
 f:cf620cb9684865a806cee07930a797b2:faac/.signature
 f:f6a631641d5773d835e4028e29723a41:faac/Pkgfile
@@ -1600,6 +1638,13 @@ f:19a8ae831a2b6799d31bcd666d77bab7:libmpdclient/Pkgfile
 f:bedf5da59237ffd0e91218da040cbd29:duktape/.footprint
 f:2d924ee4bf3777c3b1b6236854d203c8:duktape/.signature
 f:360264a94d316a27b52993ea663bd6ed:duktape/Pkgfile
+f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
+f:3686bc28fd0048a4668259fe60306697:rust/.footprint
+f:71e7105e80b4875df4e6db444ce124b2:rust/.signature
+f:f902f4f75a2ece6ed85c6b8a29682853:rust/0002-tool.rs-change-dir-libexec-to-lib.patch
+f:d341c3dddbae2e2271f7ade6814eb4b3:rust/Pkgfile
+f:8570861063b945ec436ad79503051634:rust/README
+f:acfe401e3bb660090f61f84ce2869573:rust/0001-dist.rs-change-dir-libexec-to-lib.patch
 f:cdab1b90c631b0eb1fdceb7c960f0ee4:freetds/.footprint
 f:976f0e77ee4d8ebda7e634daa25606fe:freetds/.signature
 f:2a02ea58534bccca305b3ab3e8edc5c1:freetds/Pkgfile
