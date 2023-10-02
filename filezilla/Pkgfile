@@ -1,16 +1,14 @@
 # Description:	FTP Client
 # URL:		https://filezilla-project.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libfilezilla pugixml wxwidgets
+# Depends on:	boost libfilezilla pugixml wxwidgets
 
 name=filezilla
 _realname=FileZilla
-version=3.64.0
+version=3.65.0
 release=1
 source=(https://download.filezilla-project.org/client/${_realname}_${version}_src.tar.xz \
 	disable-xdg-open.patch \
-	libfilezilla-compat-1.patch \
-	libfilezilla-compat-2.patch  \
 	wxwidgets-3.2.patch)
 
 build() {
@@ -19,8 +17,6 @@ build() {
 	# disable xdg-open: requires additional ports - useless?!
 	patch -p1 -i $SRC/disable-xdg-open.patch
 
-	patch -p1 -i $SRC/libfilezilla-compat-1.patch
-	patch -p1 -i $SRC/libfilezilla-compat-2.patch
 	patch -p1 -i $SRC/wxwidgets-3.2.patch
 
 	NOCONFIGURE=1 autoreconf -fiv

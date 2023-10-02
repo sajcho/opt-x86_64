@@ -1,9 +1,7 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrC8fHK2BIdKFcFQLd0rlxO9b5rIleL7HXlMDXi/25UVbeoXXz1sUi7z3/NDWbL2efCA29ckPun8n46jynQk/CQc=
-SHA256 (Pkgfile) = 592df0ba884f02489a30cd7cb6daa5c5d5da95a03e568eed0a7443a4a8923eef
-SHA256 (.footprint) = a84070d702318e95f9dab81da40b77ec5e5e3ec35b2f4ebc8c3fd7686963c2ad
-SHA256 (FileZilla_3.64.0_src.tar.xz) = 813d184d54984cf0fb27a455423089070e273b2ef8a70cb613e741170edf479a
+RWRkiJhlUJEGrH4XuT9hmB6vK4VOZ7Yqpz5JRMeXzhyfy8+IjNOjyHIepw7GQpo1xu1rG6ob0TbLTUgXVTzICEaE52pUhP5NpQU=
+SHA256 (Pkgfile) = dfa9e1d8cad155fd8b7264e776b4c43691720b58b5f7e1ded95726fda5aa48b2
+SHA256 (.footprint) = 5cf93cdbd75758f68026b0fb735f409b1680e0db5c6dfe45a077b968781ad291
+SHA256 (FileZilla_3.65.0_src.tar.xz) = d2bce4dbaa80fe035836db19441e90befcbabdef5556e9a4b3d4dd233638bdea
 SHA256 (disable-xdg-open.patch) = e03551cbbcaf66d9b113eab3ebff957c23357a3ba8b5449b74e0513d94261622
-SHA256 (libfilezilla-compat-1.patch) = 8a1291fd6552afff5a68487918c983654bf69e555d01217801ce193d89069464
-SHA256 (libfilezilla-compat-2.patch) = f62b6438bbd94aabb0759396319ec2df1b4dc344d4b8bb264e773d2a5d95dff3
 SHA256 (wxwidgets-3.2.patch) = 1420610ad579cdf8a2864c2ab1ce784f43192bc28d0a7af7fee985593ffe51ef
