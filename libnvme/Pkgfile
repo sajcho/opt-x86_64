@@ -1,7 +1,7 @@
 # Description:	C Library for NVM Express on Linux
 # URL:		https://github.com/linux-nvme/libnvme/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	dbus json-c keyutils meson openssl swig util-linux
+# Depends on:	dbus json-c keyutils meson openssl3 swig util-linux
 
 name=libnvme
 version=1.5

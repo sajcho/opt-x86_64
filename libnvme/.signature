@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrFhjm5Fh/n7lTOPcP6fqCRKA4+58ChSK75k/hgaJ9FPrwHMkXwvGfNnX/Ni6c3/bkcRhcJ8qflq8/360+MDIPwo=
-SHA256 (Pkgfile) = ca5d02b185ac15648ec290155b7780fdf7c670ef364b09e4d3e264bef02c3c91
+RWRkiJhlUJEGrLZm2bTtU46ru7FeWwG8NVntkq+Mwnz+BriNU/3gKkip2p4LPzmwICijNuOA/QOgUrSfGy3PYsLjPzMOTRUdCA4=
+SHA256 (Pkgfile) = 07ef5a5e73b81f5e4b87ab583d2e12e399e0b647335fbd8198ab2238aa0dc320
 SHA256 (.footprint) = 8ecc24e9cc60f4e6aa4771e66d75bb486851d9d5c47c3fc69a863f81f710c361
 SHA256 (libnvme-v1.5.tar.gz) = f73ba1edde059b2d5e7c1048ad4f895e6047bff241c94b34a7aff5894779d086
 SHA256 (doc-test.patch) = 35c248773562b52de66acfbcf1023fc195b81e6e5fefb3677786d61a1be1f5db
