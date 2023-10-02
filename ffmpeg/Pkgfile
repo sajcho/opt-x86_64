@@ -1,11 +1,11 @@
 # Description:	Complete and free Internet live audio and video broadcasting solution for Linux/Unix
 # URL:		https://ffmpeg.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	aom dav1d fdk-aac gnutls lame libass libssh libvpx libwebp pulseaudio sdl2 srt x264 x265
+# Depends on:	aom dav1d fdk-aac gnutls lame libass libssh libtheora libvpx libwebp pulseaudio sdl2 srt x264 x265
 
 name=ffmpeg
 version=6.0
-release=3
+release=4
 source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz \
 	ffmpeg-6.0-binutils_2.41-1.patch)
 
@@ -49,6 +49,7 @@ build() {
 		--enable-libsoxr \
 		--enable-nonfree \
 		--enable-libaom \
+		--enable-libtheora \
 		--enable-vulkan \
 		--disable-doc \
 		--disable-libjack \
