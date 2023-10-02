@@ -6,7 +6,7 @@
 name=wxwidgets
 _realname=wxWidgets
 version=3.2.2.1
-release=1
+release=2
 source=(https://github.com/${_realname}/${_realname}/releases/download/v${version}/${_realname}-${version}.tar.bz2)
 
 build() {
@@ -26,10 +26,15 @@ build() {
 	-DwxUSE_LIBPNG=sys \
 	-DwxUSE_LIBTIFF=sys \
 	-DwxUSE_REGEX=sys \
+	-DwxUSE_LIBSDL=sys \
 	-DwxUSE_ZLIB=sys \
 	-DwxBUILD_PRECOMP=OFF \
 	-DwxBUILD_TESTS=OFF \
 	-DwxUSE_GTKPRINT=OFF \
+	-DwxUSE_MEDIACTRL=OFF \
+	-DwxUSE_LIBMSPACK=OFF \
+	-DwxUSE_LIBSDL=OFF \
+	-DwxUSE_WEBVIEW=OFF \
 	-Wno-dev
 
 	ninja -v

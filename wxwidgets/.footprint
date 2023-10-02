@@ -1592,9 +1592,6 @@ lrwxrwxrwx	root/root	usr/lib/libwx_gtk3u_gl-3.2.so.0 -> libwx_gtk3u_gl-3.2.so.0.
 lrwxrwxrwx	root/root	usr/lib/libwx_gtk3u_html-3.2.so -> libwx_gtk3u_html-3.2.so.0
 lrwxrwxrwx	root/root	usr/lib/libwx_gtk3u_html-3.2.so.0 -> libwx_gtk3u_html-3.2.so.0.2.1
 -rwxr-xr-x	root/root	usr/lib/libwx_gtk3u_html-3.2.so.0.2.1
-lrwxrwxrwx	root/root	usr/lib/libwx_gtk3u_media-3.2.so -> libwx_gtk3u_media-3.2.so.0
-lrwxrwxrwx	root/root	usr/lib/libwx_gtk3u_media-3.2.so.0 -> libwx_gtk3u_media-3.2.so.0.2.1
--rwxr-xr-x	root/root	usr/lib/libwx_gtk3u_media-3.2.so.0.2.1
 lrwxrwxrwx	root/root	usr/lib/libwx_gtk3u_propgrid-3.2.so -> libwx_gtk3u_propgrid-3.2.so.0
 lrwxrwxrwx	root/root	usr/lib/libwx_gtk3u_propgrid-3.2.so.0 -> libwx_gtk3u_propgrid-3.2.so.0.2.1
 -rwxr-xr-x	root/root	usr/lib/libwx_gtk3u_propgrid-3.2.so.0.2.1
