@@ -5,15 +5,12 @@
 
 name=vte3
 _realname=vte
-version=0.72.2
+version=0.74.0
 release=1
-source=(https://gitlab.gnome.org/GNOME/${_realname}/-/archive/${version}/${_realname}-${version}.tar.gz \
-	syscall.patch)
+source=(https://gitlab.gnome.org/GNOME/${_realname}/-/archive/${version}/${_realname}-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-${version}
-
-	patch -p1 -i $SRC/syscall.patch
 
 	# Fix - we have include dir in /usr/include
 	sed \
