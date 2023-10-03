@@ -1,10 +1,10 @@
 # Description:	PDF rendering library based on xpdf 3.0
 # URL:		https://poppler.freedesktop.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cairo lcms2
+# Depends on:	cairo lcms2 gpgme
 
 name=poppler
-version=23.09.0
+version=23.10.0
 release=1
 source=(https://poppler.freedesktop.org/poppler-$version.tar.xz)
 
