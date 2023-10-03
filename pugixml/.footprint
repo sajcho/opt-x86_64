@@ -10,7 +10,7 @@ drwxr-xr-x	root/root	usr/lib/cmake/pugixml/
 -rw-r--r--	root/root	usr/lib/cmake/pugixml/pugixml-targets-none.cmake
 -rw-r--r--	root/root	usr/lib/cmake/pugixml/pugixml-targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libpugixml.so -> libpugixml.so.1
-lrwxrwxrwx	root/root	usr/lib/libpugixml.so.1 -> libpugixml.so.1.13
--rwxr-xr-x	root/root	usr/lib/libpugixml.so.1.13
+lrwxrwxrwx	root/root	usr/lib/libpugixml.so.1 -> libpugixml.so.1.14
+-rwxr-xr-x	root/root	usr/lib/libpugixml.so.1.14
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/pugixml.pc

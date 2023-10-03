@@ -4,7 +4,7 @@
 # Depends on:	cmake
 
 name=pugixml
-version=1.13
+version=1.14
 release=1
 source=(https://github.com/zeux/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
