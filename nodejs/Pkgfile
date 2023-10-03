@@ -4,8 +4,8 @@
 # Depends on:	brotli c-ares icu
 
 name=nodejs
-version=20.7.0
-release=2
+version=20.8.0
+release=1
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
 build() {
