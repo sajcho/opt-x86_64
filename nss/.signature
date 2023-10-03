@@ -1,8 +1,8 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrM3MSLRt7xbRHNNiq827G6B1J7hkYpOMu5cjphg9PptPJQaxanl9T+hK/C4p8j2FHMNoiyhoR435cTo5Xrz0gwQ=
-SHA256 (Pkgfile) = ae8db9ef1173ce1a668b20257d1683f3f7e51d6f73939cf8c4a82df4e0c75e84
+RWRkiJhlUJEGrJPTX2gZ23wElzG+WjW33+b7m0dnJvuyRoitKvBmzosiQv4dsK4h4cXXWFWulf4DOAdJPYbYGWsTW+NdxUokvA8=
+SHA256 (Pkgfile) = 9b9bbe0c24d9a5d0e914d0076200e36751808d9af4fb721e42d5e7f65d1ac722
 SHA256 (.footprint) = 89a8ed3c70ba3dbc1e9005dd35aa5ce9614cc4b7aef24caf6a2f92867f680ecd
-SHA256 (nss-3.93.tar.gz) = 15f54bb72048eb105f8c0e936a04b899e74c3db9a19bbc1e00acee2af9476a8a
+SHA256 (nss-3.94.tar.gz) = 463ae180ee9e5ee9e3ad4f629326657e236780cc865572a930a16520abad9dd8
 SHA256 (nss-3.54-standalone-2.patch) = 607a29650c767f9451eaec1e35a48a3c8c9ce6a7099234417eb521a44653a371
 SHA256 (nss-config.in) = 08dbc1202186308e86125b5c5e7e2d0e1bd1bd5ed65eab011b9af210f656aff5
 SHA256 (nss.pc.in) = 135fbde6866e422b7a436e18d5b8e0defbb67dde6b8e1dc9e84de14b5c645626
