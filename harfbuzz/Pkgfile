@@ -21,6 +21,7 @@ build() {
 		-Dgraphite=enabled \
 		-Dbenchmark=disabled \
 		-Ddocs=disabled \
+		-Dtests=disabled \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
