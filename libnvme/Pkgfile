@@ -4,8 +4,8 @@
 # Depends on:	dbus json-c keyutils meson openssl3 swig util-linux
 
 name=libnvme
-version=1.5
-release=2
+version=1.6
+release=1
 source=(https://github.com/linux-nvme/${name}/archive/v${version}/${name}-v${version}.tar.gz \
 	doc-test.patch)
 
