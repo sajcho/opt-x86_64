@@ -428,8 +428,8 @@ f:4b4a69802de42aaebbd37d0c41a69078:libmypaint/.signature
 f:daf25cc2fc586a0c28bfe893d21c3645:libmypaint/Pkgfile
 f:29e8b5cc9e7e7ab649f1f09dc8d70dc0:gtk4/post-install
 f:7159bb809a1d26e9a6a2f1a42867fe52:gtk4/.footprint
-f:48a2ddb3aac0feb29c84af1b58bb0162:gtk4/.signature
-f:48bbc019ba679bb6bdcc58b9a3605408:gtk4/Pkgfile
+f:024bacc03ba62fa7fd51f1e8075b4c60:gtk4/.signature
+f:139a93fb42a82ae343cf6af33d5c7083:gtk4/Pkgfile
 f:e650e22565672241bc86cff013ff959d:rust72/0001-bootstrap-Change-libexec-dir.patch
 f:a68528b0fd1e5420b6f851ae579e97a4:rust72/.nostrip
 f:153e87084d059604ff7d47ee236a8ad5:rust72/0001-cargo-Change-libexec-dir.patch
@@ -861,9 +861,9 @@ f:51babc65319d02dfe85e4be781fff9e8:libzip/Pkgfile
 f:0c46c47371a1d196b17575ca175b7408:mailx/.footprint
 f:86e84637256c0b48ec5a72dcc48c9de5:mailx/.signature
 f:43b2fb19aba4dde6983f588e0176f0d6:mailx/Pkgfile
-f:9ab39cbab1638061fcf1714845aec9bb:python3-cairo/.footprint
-f:d4353b72a07e78eb49945eb7ecb11b9a:python3-cairo/.signature
-f:02e6d838c31c2d6be21720d02cf22316:python3-cairo/Pkgfile
+f:1416b57f2df2eb4d01bd0ce9bb8e5b6d:python3-cairo/.footprint
+f:28197c29846c787b4941547a8058575a:python3-cairo/.signature
+f:36daaac541c0c147af611adccde7522f:python3-cairo/Pkgfile
 f:3b9512d3f15ad3f787d236ab00f999e9:lxappearance-gtk3/.footprint
 f:046319b39e07518da4ab442982b2d8b8:lxappearance-gtk3/.signature
 f:61e4a0c032ba1ca0788fa05f7af2f8e5:lxappearance-gtk3/Pkgfile
@@ -1295,9 +1295,9 @@ f:d24cd57ce71a52389eb6a9aa09c5059b:gst-plugins-good/Pkgfile
 f:b43bd71131a88d453702338c4eeb8827:libksba/.footprint
 f:274ea9332915adf2500b42f856a325e2:libksba/.signature
 f:f0c5d305fd71c595d51f9584d3ce97f7:libksba/Pkgfile
-f:0655d87e945226ef251ccd4373c4636d:dav1d/.footprint
-f:d265a2f9c2cac8b77a2026a2afc5379e:dav1d/.signature
-f:603c7cc063cb8202a82b95f77bd5a858:dav1d/Pkgfile
+f:811492fb9ad3f215497e33933ea0aa07:dav1d/.footprint
+f:e45f7310c3419747d76e3b37fcbfc057:dav1d/.signature
+f:e6b892b0a0c6480d65f55f668ad9fdaf:dav1d/Pkgfile
 f:5a169dfcf160a06fc7bc56f4ac08f370:poppler/.footprint
 f:a500c35b91cdb212274348eaeeeebf15:poppler/.signature
 f:fa00d569a1adef732524da991730c897:poppler/Pkgfile
