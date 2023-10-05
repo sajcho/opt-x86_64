@@ -5,7 +5,7 @@
 
 name=mpg123
 version=1.32.3
-release=1
+release=2
 source=(https://www.mpg123.de/download/${name}-${version}.tar.bz2)
 
 build() {
@@ -16,8 +16,7 @@ build() {
 		--enable-int-quality \
 		--disable-dependency-tracking \
 		--with-pic \
-		--with-audio="alsa" \
-		--with-cpu="x86-64"
+		--with-audio="alsa"
 
 	sed -i 's/ -shared / -Wl,--as-needed\0/g' libtool
 
