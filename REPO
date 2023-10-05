@@ -1263,8 +1263,8 @@ f:f6552b1ea673bcfc2584d4c7050244f9:scdoc/.footprint
 f:72315522582995b22decdaa9d3a75182:scdoc/.signature
 f:cac2211fc69e1f61168e262be3778333:scdoc/Pkgfile
 f:691ffda8a1a2960cd92da75086753be1:chrpath/.footprint
-f:a3de2fe0e3c3936030b658e01d0b2726:chrpath/.signature
-f:0178b3df16da77c4ba972cef0da70c15:chrpath/Pkgfile
+f:b47e88ff741cf8b2b18eb738c9632dcb:chrpath/.signature
+f:dc5236b6c30508342605cc8ffc1efa86:chrpath/Pkgfile
 f:89110b96d106e7ff0f2eafbfc9526163:sway/sway_6249.patch
 f:f24cc0e90aa47f215eb812f6ee593905:sway/.footprint
 f:402719855da87e9cb5a662185fbe4a40:sway/.signature
@@ -1503,8 +1503,8 @@ f:d8743848c9164555d67d256814b91bd6:firefox-releases/vendor.js
 f:47b43cfb07aa8f4d90a82be3a91b724d:firefox-releases/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox-releases/firefox.desktop
 f:67714d589e1ea7dcfca45fee7d19304b:x265/.footprint
-f:a20a956d351d2726b369f99c3992fe0f:x265/.signature
-f:0734100777406f3f49e03fbe4d7753cc:x265/Pkgfile
+f:bc47bf34a5fbd0bbcb7d85c29aa06278:x265/.signature
+f:314922dd7c72e307f4856ee465f764d3:x265/Pkgfile
 f:6d9837eb6e4845b412795a25d3c22316:npth/.footprint
 f:c7253a7d3b0a3c44c7c66dd615435cd7:npth/.signature
 f:e2c60a2dc3b47e3fd7e4306d83a65cf1:npth/Pkgfile
