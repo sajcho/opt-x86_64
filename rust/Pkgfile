@@ -5,17 +5,15 @@
 
 name=rust
 _realname=rustc
-version=1.73.0-beta.7
-_nameversion=beta
-realversion="rustc 1.73.0-beta.7 (7c76587ed 2023-09-22)"
+version=1.73.0
 release=1
 
-source=(https://static.rust-lang.org/dist/${_realname}-${_nameversion}-src.tar.xz \
+source=(https://static.rust-lang.org/dist/${_realname}-${version}-src.tar.xz \
 	0001-dist.rs-change-dir-libexec-to-lib.patch \
 	0002-tool.rs-change-dir-libexec-to-lib.patch)
 
 build() {
-	cd ${_realname}-${_nameversion}-src
+	cd ${_realname}-${version}-src
 
 	export CC="gcc"
 	export CXX="g++"
@@ -43,7 +41,7 @@ cat <<- EOF > $SRC/config.toml
 	prefix = "/usr"
 
 	[rust]
-	channel = "beta"
+	channel = "stable"
 	codegen-units-std = 1
 	debuginfo-level-std = 2
 	rpath = false
