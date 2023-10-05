@@ -1634,10 +1634,10 @@ f:bedf5da59237ffd0e91218da040cbd29:duktape/.footprint
 f:2d924ee4bf3777c3b1b6236854d203c8:duktape/.signature
 f:360264a94d316a27b52993ea663bd6ed:duktape/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
-f:3686bc28fd0048a4668259fe60306697:rust/.footprint
-f:71e7105e80b4875df4e6db444ce124b2:rust/.signature
+f:242fd7b04def5c3e438c92a287e0e82c:rust/.footprint
+f:1339538521a15362b4447164360b1dd1:rust/.signature
 f:f902f4f75a2ece6ed85c6b8a29682853:rust/0002-tool.rs-change-dir-libexec-to-lib.patch
-f:d341c3dddbae2e2271f7ade6814eb4b3:rust/Pkgfile
+f:3c1bbc9dfde96af3da939793cff3cfc8:rust/Pkgfile
 f:8570861063b945ec436ad79503051634:rust/README
 f:acfe401e3bb660090f61f84ce2869573:rust/0001-dist.rs-change-dir-libexec-to-lib.patch
 f:cdab1b90c631b0eb1fdceb7c960f0ee4:freetds/.footprint
