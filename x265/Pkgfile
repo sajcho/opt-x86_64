@@ -24,7 +24,6 @@ build() {
 		-DENABLE_CLI=FALSE \
 		-DENABLE_SHARED=FALSE \
 		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
-		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
 		-DENABLE_ASSEMBLY=OFF \
 		-Wno-dev
 
@@ -38,7 +37,6 @@ build() {
 		-DENABLE_CLI=FALSE \
 		-DENABLE_SHARED=FALSE \
 		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
-		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
 		-DENABLE_ASSEMBLY=OFF \
 		-Wno-dev
 
@@ -54,7 +52,6 @@ build() {
 		-DLINKED_10BIT=TRUE \
 		-DLINKED_12BIT=TRUE \
 		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
-		-DCMAKE_ASM_NASM_FLAGS_RELEASE=' -wno-macro-params-legacy' \
 		-DENABLE_ASSEMBLY=OFF \
 		-Wno-dev
 
