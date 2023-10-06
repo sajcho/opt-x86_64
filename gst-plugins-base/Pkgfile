@@ -5,7 +5,7 @@
 
 name=gst-plugins-base
 version=1.22.6
-release=1
+release=2
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
@@ -16,7 +16,6 @@ build() {
 
 	build-meson \
 		-Dnls=disabled \
-		-Dpackage-name="GStreamer (SAUX-x86_64)" \
 		-Dpackage-origin="https://github.com/sajcho/" \
 		. build
 
