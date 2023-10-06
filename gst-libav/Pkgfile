@@ -5,7 +5,7 @@
 
 name=gst-libav
 version=1.22.6
-release=1
+release=2
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
@@ -15,7 +15,6 @@ build() {
 	sed '/Wmissing-include-dirs/d' -i meson.build
 
 	build-meson \
-		-Dpackage-name="GStreamer (SAUX-x86_64)" \
 		-Dpackage-origin="https://github.com/sajcho/" \
 		. build
 
