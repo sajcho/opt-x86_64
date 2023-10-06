@@ -411,8 +411,8 @@ f:5261be5abad8a8ca0f537d2bdcfce4e2:mpg123/.footprint
 f:73081b4e6a8327a047d9091572cd02d0:mpg123/.signature
 f:0d222be49dc54c6761608c0243c085eb:mpg123/Pkgfile
 f:546b1060b8196fcaa157a7e9551bab9f:gstreamer/.footprint
-f:b2be368dbc0c538bce48914435413ba1:gstreamer/.signature
-f:ae0c7b09d37f07046f1eac50ac1b64f3:gstreamer/Pkgfile
+f:5076007fa94d323978b677de6d7f4adc:gstreamer/.signature
+f:b66db8a8d062deca7b261c0796d0313c:gstreamer/Pkgfile
 f:5a87b970907bca8f785b783e2a6e6f21:swaybg/.footprint
 f:1f4c62031017180c5651bd660b47e7f1:swaybg/.signature
 f:6e6a7d4a22ddc41cba611070ff982a47:swaybg/Pkgfile
@@ -885,8 +885,8 @@ f:aed0b491f1fce4b284330a63e24b0635:python3-jinja2/.footprint
 f:005d447e9507e21b8ae68338bb028edf:python3-jinja2/.signature
 f:c5db79811bb00a68576dbad27e8ef16c:python3-jinja2/Pkgfile
 f:d13df62a2111149b9610bb9f0aeffc7c:gst-plugins-base/.footprint
-f:efb9a97046f86f23f7f02c24a8f66225:gst-plugins-base/.signature
-f:5350b16c80c19e0050425ce6f5030f6f:gst-plugins-base/Pkgfile
+f:6b36b36d63e07be653125c021e112bb9:gst-plugins-base/.signature
+f:5fc5be9a7c274cf856551f3ccb75cfa8:gst-plugins-base/Pkgfile
 f:0162351139dd8492dc82e6e6f29f8cac:harfbuzz/.footprint
 f:5e06fc4a8440b1ec6a875592852d22be:harfbuzz/.signature
 f:b1b4bc8aca6df6861c7de8c8cde733c1:harfbuzz/Pkgfile
@@ -1016,8 +1016,8 @@ f:de47ee5013dced34440c25f82a492e46:fcft/.footprint
 f:3232775842d1dd0fd0d085b79f835358:fcft/.signature
 f:a77b9d285313dc46e50070f80a90ae0e:fcft/Pkgfile
 f:4cf6d310009d89211cbbaa8cf4315201:gst-libav/.footprint
-f:c0cfd798f06e0efb0d4f2f07431b8300:gst-libav/.signature
-f:b07e32fa72b6db1e78dbb7c0af2ffca7:gst-libav/Pkgfile
+f:2a2d912643185fe065551f25d44141e8:gst-libav/.signature
+f:1a97f2409ad72e6705b9a09cdae3bd4e:gst-libav/Pkgfile
 f:113e244a8e5a59590ffa6c5020357aa6:autoconf-2.13/.footprint
 f:06a62bb5be3369e9904c54609b1b8849:autoconf-2.13/.signature
 f:3751fe0588ed07afc55957af740b58d9:autoconf-2.13/Pkgfile
@@ -1134,8 +1134,8 @@ f:7a06f00a6d3b90325baea18152222715:glib/.signature
 f:3370ad99db38aa555a770750f132c66b:glib/Pkgfile
 f:08b95225e98724a67fb2c765acea8ef9:glib/deprecated-no-warn.patch
 f:c4ed2bbb391d014531d2b54476f0c30c:gst-plugins-bad/.footprint
-f:233f648f776dda6c5a38cfc91fce92ec:gst-plugins-bad/.signature
-f:0ffaa6e212efa366ad052362c5957f84:gst-plugins-bad/Pkgfile
+f:21c3758b4b3f2f91dcd2cca228632d46:gst-plugins-bad/.signature
+f:6d3f498dc6f6feaeca1f3e42bc6aacf5:gst-plugins-bad/Pkgfile
 f:269d983aaad997b30fc3f1a17c7c0a29:fontconfig/fonts.conf
 f:e3144b54cf4de7faa73c59a6df217f41:fontconfig/post-install
 f:fd1773a780294fe2d9aeab41227482db:fontconfig/.footprint
@@ -1290,8 +1290,8 @@ f:c23cafdbf153adcbd1868a07be37f171:swig/.footprint
 f:cd3217e6c8c36cbe71a579343fc9a159:swig/.signature
 f:7910695f49716ea4237b0ec68aac615d:swig/Pkgfile
 f:3ad4302f7ee341f5de454e05a94674c9:gst-plugins-good/.footprint
-f:3df897b131237bdeaa8c5da4c48da207:gst-plugins-good/.signature
-f:d24cd57ce71a52389eb6a9aa09c5059b:gst-plugins-good/Pkgfile
+f:16d3da6ac4cd67abff86ebc0aaa021b1:gst-plugins-good/.signature
+f:fcefc96048b10520aa9f70479f80ccfc:gst-plugins-good/Pkgfile
 f:b43bd71131a88d453702338c4eeb8827:libksba/.footprint
 f:274ea9332915adf2500b42f856a325e2:libksba/.signature
 f:f0c5d305fd71c595d51f9584d3ce97f7:libksba/Pkgfile
