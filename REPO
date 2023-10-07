@@ -1657,9 +1657,9 @@ f:31d49bf1763892f906b8ba6d29417202:libnvme/doc-test.patch
 f:2b825cc4103836f11211b24c051122fc:libnvme/.footprint
 f:707897154ab76dbf36ebb5a3a021af16:libnvme/.signature
 f:cad810d150fe3fde76c1aeaa51b7259d:libnvme/Pkgfile
-f:e182a50fa3f79a0941ccd3f6520d0788:icu/.footprint
-f:97f26cfc74a7c6b06f2f63230f7e7f90:icu/.signature
-f:a6d6bbe3e3af71da40e67d881af951cb:icu/Pkgfile
+f:d6d19fb185d00714be27c15b88ff59a1:icu/.footprint
+f:ffca30f10d71b1b48c52750470740469:icu/.signature
+f:c218da75509219f2b2085e5971ded1da:icu/Pkgfile
 f:3bf548825196650ea2e3a62679262610:icu/README
 f:52e281aa9836fa6d4c40615079fc3606:appstream-glib/.footprint
 f:14e798549789a2aaa82ebcbabe6f8c21:appstream-glib/.signature
