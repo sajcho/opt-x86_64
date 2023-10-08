@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrPGVirlq0xAXCV4+f57w+hs89VRczgcxi/m8geg+KdNn+hhg6/cg2lmT9EMdAOVq9yH9el6i5dcmOCXaQRtWGgc=
-SHA256 (Pkgfile) = 7eed10f43ea6f8511dea8f151b837dd377b343c5d2c91f931696bf53f4df8ac5
+RWRkiJhlUJEGrKWxRdM248ztHUMGeYmcPIS/1WH38cK1CdyAhSWz0SpAuFX+OTgqYidUwxfjjypZ8EsIVITPkeWCKy4gWgL/9AU=
+SHA256 (Pkgfile) = c29fccc18a1ba6a5e372e07027aeb85e1f6422e98759abc4127f0b147d96b55b
 SHA256 (.footprint) = 28e3c2a81a37853bbfcb5ca25248f1a947b7760efdda18b395b7bbcbb034784c
-SHA256 (libgudev-237.tar.xz) = 0d06b21170d20c93e4f0534dbb9b0a8b4f1119ffb00b4031aaeb5b9148b686aa
+SHA256 (libgudev-238.tar.xz) = 61266ab1afc9d73dbc60a8b2af73e99d2fdff47d99544d085760e4fa667b5dd1
