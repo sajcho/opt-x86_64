@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrFYeJ8x3wkxKiFNvtQeymOSsdg/qhMPja85VCdKblD5uxSbLw3Ysezm7U7hYdPsBdGyLqdOgZsioBCDaQHsGBgs=
-SHA256 (Pkgfile) = ef925d1bc3365e854bc77af0c7296a9e229be62f0fbb82550006dd34a165e9a0
-SHA256 (.footprint) = db879b04e4e092e61c0e3382077b0d6cb94455fe8d8e2b842afcd6b74590cf02
-SHA256 (gtk-4.12.2.tar.xz) = 2f4f4d4f92e09f216d386cfdadd54d33d97f23a4555d67b97decfa6f815b6b81
+RWRkiJhlUJEGrMy/xaA/dHsdcChEYP5atsD1m2GQHEal9ZIhcD9Gy2ylxcDA8NOlbtM7LbXlzMpICloe8Jd1SmBv2NmK4FfE/w0=
+SHA256 (Pkgfile) = b17cfebb31a444fc7f8afac50ff71d5dd25181a225482bcb24168e238ea45a1c
+SHA256 (.footprint) = aa9f1c00e0823d5f1601c1ecc22ac62ae9809faa6ac53f44791ba5e876cbd56a
+SHA256 (gtk-4.12.3.tar.xz) = 148ce262f6c86487455fb1d9793c3f58bc3e1da477a29617fadb0420f5870a89
