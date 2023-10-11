@@ -1,8 +1,8 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrMkf1kNszNt6w4NYGiPtM9qFj46h1AbOKLN4RBkN1zqE/QAtV2O6GiWzPYR45vYujwfBPEkT3tShjI526yx+9gM=
-SHA256 (Pkgfile) = 4ce1b608e8ff3384709f84e55bb4f57823890a239597b847529fb76355d8fd27
+RWRkiJhlUJEGrMGDyZQCWKemNRkubf/awPHNk0Tx8/+wNxelw6dQ6MP0nPCk+dksgaFxSrMkKKYlMCgUtywc7MNbCohtadegeQ0=
+SHA256 (Pkgfile) = f62d46d9aaf9e1fb8be48e226af6f02de6e547098f0426f0cd59b0ccc9e0aa19
 SHA256 (.footprint) = 5fe166d4d95385fc4c3256c0399adb068f1dd7e85adf52e4658c83b5ad8f183f
-SHA256 (firefox-118.0.1.source.tar.xz) = a3f4da56d13605d615a740c739e3504261649d040bc473ae2ed609336d79fd95
+SHA256 (firefox-118.0.2.source.tar.xz) = 89626520f2f0f782f37c074b94690e0f08dcf416be2b992f4aad68df5d727b21
 SHA256 (distribution.ini) = aa7f1e13ed20f61db3550879eedb14434c4b2a06ee2fa7e9522afaa2acdea4be
 SHA256 (firefox.desktop) = 8ba3439f3dfc5cab883641969c93d8d15f8f20d7188d9568346b2edad52d6f91
 SHA256 (vendor.js) = ceadf102b784b0b494caf15d60351f0a803a3d1dc3b6c892705b3fdebec57a48
