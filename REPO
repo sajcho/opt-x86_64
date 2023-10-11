@@ -1496,11 +1496,12 @@ f:6d3edd27125a8631cc716eafcebd653d:poppler-data/Pkgfile
 f:21651f2bd128ed6fec0c6fb936404d4d:libgudev/.footprint
 f:8f3e8fb6e1811feeb378311b6b926358:libgudev/.signature
 f:81e0dc1ee96a376fcf7eff47a6e5e6ed:libgudev/Pkgfile
+f:8c82f719303cb30d688cdc95bc282c1a:firefox-releases/0001-Bug-1849874-Update-from-packed_simd_2-to-packed_simd.patch
 f:99076f600572cb9dfa0ff55512108714:firefox-releases/distribution.ini
 f:74e3deeddfef604bfd95a01830b8e11b:firefox-releases/.footprint
-f:547759d007f01a39c4210fb52161250b:firefox-releases/.signature
+f:3c34a07a258d6804de3b0bf16a1d5563:firefox-releases/.signature
 f:d8743848c9164555d67d256814b91bd6:firefox-releases/vendor.js
-f:8a1d5583c663f5f9bc6088aad4ab8107:firefox-releases/Pkgfile
+f:54dbf6e396a56d6ce8dfba33095c9f57:firefox-releases/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox-releases/firefox.desktop
 f:67714d589e1ea7dcfca45fee7d19304b:x265/.footprint
 f:bc47bf34a5fbd0bbcb7d85c29aa06278:x265/.signature
