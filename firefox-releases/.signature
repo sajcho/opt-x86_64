@@ -1,8 +1,9 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrMGDyZQCWKemNRkubf/awPHNk0Tx8/+wNxelw6dQ6MP0nPCk+dksgaFxSrMkKKYlMCgUtywc7MNbCohtadegeQ0=
-SHA256 (Pkgfile) = f62d46d9aaf9e1fb8be48e226af6f02de6e547098f0426f0cd59b0ccc9e0aa19
+RWRkiJhlUJEGrAxtB16vCIxg94lEhk58Xgpz8jXxlIxVFtnO/qu45PgdYFOjX5oATrrn3WyFLJSkvwOPKqM6jD42HGReySjZjAQ=
+SHA256 (Pkgfile) = c9613a04c87df237d4ade7c79f02df7e7387b84014c79cc66d7dde51c7396fbb
 SHA256 (.footprint) = 5fe166d4d95385fc4c3256c0399adb068f1dd7e85adf52e4658c83b5ad8f183f
 SHA256 (firefox-118.0.2.source.tar.xz) = 89626520f2f0f782f37c074b94690e0f08dcf416be2b992f4aad68df5d727b21
+SHA256 (0001-Bug-1849874-Update-from-packed_simd_2-to-packed_simd.patch) = 2406c4c2e18d535c0c7900fe7b176137ae130a75806a19516854894555b69e72
 SHA256 (distribution.ini) = aa7f1e13ed20f61db3550879eedb14434c4b2a06ee2fa7e9522afaa2acdea4be
 SHA256 (firefox.desktop) = 8ba3439f3dfc5cab883641969c93d8d15f8f20d7188d9568346b2edad52d6f91
 SHA256 (vendor.js) = ceadf102b784b0b494caf15d60351f0a803a3d1dc3b6c892705b3fdebec57a48
