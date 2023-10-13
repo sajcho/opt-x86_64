@@ -1,0 +1,22 @@
+From d8d23a660601a406a1e1aa07380b5b1c5781c190 Mon Sep 17 00:00:00 2001
+From: Gabi Melman <gmelman1@gmail.com>
+Date: Fri, 21 Jul 2023 00:37:03 +0300
+Subject: [PATCH] Fix #2820
+
+---
+ include/spdlog/details/circular_q.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/spdlog/details/circular_q.h b/include/spdlog/details/circular_q.h
+index e4fd5fd4a..d40e14189 100644
+--- a/include/spdlog/details/circular_q.h
++++ b/include/spdlog/details/circular_q.h
+@@ -82,7 +82,7 @@ class circular_q
+         }
+         else
+         {
+-            return max_items_ - (head_ - tail_);
++            return max_items_ - 1 - (head_ - tail_);
+         }
+     }
+ 

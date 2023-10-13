@@ -5,11 +5,16 @@
 
 name=spdlog
 version=1.12.0
-release=1
-source=(https://github.com/gabime/${name}/archive/v${version}/${name}-${version}.tar.gz)
+release=2
+source=(https://github.com/gabime/${name}/archive/v${version}/${name}-${version}.tar.gz \
+	spdlog-1.12.0-circular_q-size-fix.patch \
+	spdlog-1.12.0-level_to_string_view-fix.patch)
 
 build() {
 	cd ${name}-${version}
+
+	patch -p1 -i $SRC/spdlog-1.12.0-circular_q-size-fix.patch
+	patch -p1 -i $SRC/spdlog-1.12.0-level_to_string_view-fix.patch
 
 	mkdir build
 	cd build
@@ -19,6 +24,7 @@ build() {
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DSPDLOG_BUILD_SHARED=ON \
+		-DSPDLOG_FMT_EXTERNAL=ON \
 		-DSPDLOG_BUILD_BENCH=OFF \
 		-DSPDLOG_BUILD_EXAMPLE=OFF \
 		-DSPDLOG_SANITIZE_ADDRESS=OFF \
@@ -28,7 +34,4 @@ build() {
 	ninja -v
 
 	DESTDIR=$PKG ninja install
-
-	sed -e 's|.*#define SPDLOG_FMT_EXTERNAL|#define SPDLOG_FMT_EXTERNAL|' \
-		-i $PKG/usr/include/spdlog/tweakme.h
 }
