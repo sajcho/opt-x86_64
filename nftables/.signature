@@ -1,9 +1,0 @@
-untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrGMJR+52ImYXP5+xuJlMDYy6CDYsLxXO04qmeWvoIHURBKRjr7b7o8S5fLBsHQvlun+VZ8B6R2H0xjuPAv8iAg8=
-SHA256 (Pkgfile) = 2beb1789bf3b29ca8b208dd752ac8b21fc771e8d3e8224edac2002da2026c60b
-SHA256 (.footprint) = be202c25ca3c4b2b6b897a580134b2db310eac62cc1a8495e7aa295d39d2de5b
-SHA256 (nftables-1.0.8.tar.xz) = 9373740de41a82dbc98818e0a46a073faeb8a8d0689fa4fa1a74399c32bf3d50
-SHA256 (nftables-basic-firewall.nft) = 4fe63b07304af44f0c98c6453b7d98ded50cac3b8877e5daf1c95f5ff6f99a42
-SHA256 (nftables.conf) = 4d2f8fd036dead63503674cdca3c212e8cf81bf5ae9abb54e7808c521b02fce0
-SHA256 (nftables.finish) = ab2aa5c244e957f429308e722267f95655d15c716436c216977bb12b359e3eb7
-SHA256 (nftables.run) = 00c18977a3dfad7f59a0d419929cfa567fdf1478519197e53b7f79e9cc57cb53
