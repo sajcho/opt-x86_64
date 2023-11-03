@@ -5,7 +5,7 @@
 
 name=vte3
 _realname=vte
-version=0.74.0
+version=0.74.1
 release=1
 source=(https://gitlab.gnome.org/GNOME/${_realname}/-/archive/${version}/${_realname}-${version}.tar.gz)
 
