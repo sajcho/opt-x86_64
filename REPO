@@ -79,7 +79,6 @@ d:speex
 d:libass
 d:yaml
 d:gvfs
-d:nftables
 d:river
 d:oniguruma
 d:filezilla
@@ -103,7 +102,6 @@ d:tslib
 d:pulseaudio
 d:libgd
 d:cdparanoia
-d:jansson
 d:libxmlb
 d:libvorbis
 d:muparser
@@ -246,7 +244,6 @@ d:libexif
 d:libproxy
 d:numlockx
 d:gdk-pixbuf
-d:libnftnl
 d:procmail
 d:btrfs-progs
 d:gtk-layer-shell
@@ -664,14 +661,6 @@ f:e5f74be27525658dae59401455944186:gvfs/post-install
 f:80e118ca881be4639de72dcccc342c9d:gvfs/.footprint
 f:2ea2a75be80f3eadfe9d9c19fd714941:gvfs/.signature
 f:9233ea50bcea87a9ac0e26565da157c2:gvfs/Pkgfile
-f:bdcd76392d638d165f36835619e97c8a:nftables/nftables.nft
-f:be5cf6d2e9bc2a64f436c88c6f32a54d:nftables/nftables-basic-firewall.nft
-f:3e0df138de861b9f829eb2a7cf8f8c58:nftables/nftables.finish
-f:8bcd0f2c1aafc5af9b3338bb94705fe2:nftables/.footprint
-f:afff0b30e3ef6904c04a47977aaaddfd:nftables/nftables.run
-f:6444043b032e8938e8a995ae97af7b9a:nftables/.signature
-f:0ca396205e20ea0507f086ac3e478eef:nftables/nftables.conf
-f:853aa01d5dbdb00c6ef3a7db0f6db782:nftables/Pkgfile
 f:233d735f6430cf9a5bae8ebb12d2ec84:river/.footprint
 f:499aa536cc33ea4b74da4397d0680a5c:river/.signature
 f:3eb84b37904034b85a4a50006e54511b:river/Pkgfile
@@ -757,9 +746,6 @@ f:4d6a164f760b59c2f0d82d0997dbdce1:cdparanoia/cdparanoia-III-10.2-gcc_fixes-1.pa
 f:a9803cc773c416697e5225dccdd67526:cdparanoia/.footprint
 f:6efd7e1e9d9b6c1a3270bfd6bfb28988:cdparanoia/.signature
 f:9fea0b5b8e933bc8c81a945bc5f6b93c:cdparanoia/Pkgfile
-f:72530c95b928f84bb87dce766c148938:jansson/.footprint
-f:ec68ce8b3dfd6986de0ce2eb158dddb6:jansson/.signature
-f:3ce619c79c15dc9896bfd59017ce8df3:jansson/Pkgfile
 f:5a69c6987628242eb605b872228f7ed8:libxmlb/.footprint
 f:99117e1c84dbbdd15bfa73dccd0c5f76:libxmlb/.signature
 f:38b91b69d8e64e2408fa8d724a34f606:libxmlb/Pkgfile
@@ -1241,9 +1227,6 @@ f:7028a27cfa648bbacf5890613fb91aef:gdk-pixbuf/post-install
 f:626c84aa82312b293e6c3ca3746e598f:gdk-pixbuf/.footprint
 f:de6d3e1bc539ce541875293c4b78ba23:gdk-pixbuf/.signature
 f:8ec8f57ec8490ed2c51735bd1eedcea8:gdk-pixbuf/Pkgfile
-f:3bd3fee084309610d69d1937f1a157de:libnftnl/.footprint
-f:f1cbe22206d4d24bfe8af1b7553219e1:libnftnl/.signature
-f:94090e6fc14fdb379a424510edf7be43:libnftnl/Pkgfile
 f:08ab919cc740421a054f28ce7a3eb7de:procmail/fix_memory_allocation_bug.diff
 f:6ff3fbbf6b31fe869a1312c3566eb52c:procmail/formisc.c.patch
 f:8337a75e3864026e3d17cd82646965b0:procmail/.footprint
