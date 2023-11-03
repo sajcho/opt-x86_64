@@ -3263,7 +3263,7 @@ drwxr-xr-x	root/root	usr/lib/cmake/llvm/
 -rw-r--r--	root/root	usr/lib/cmake/llvm/UseLibtool.cmake
 -rw-r--r--	root/root	usr/lib/cmake/llvm/VersionFromVCS.cmake
 -rw-r--r--	root/root	usr/lib/cmake/llvm/llvm-driver-template.cpp.in
-lrwxrwxrwx	root/root	usr/lib/libLLVM-17.0.2.so -> libLLVM-17.so
+lrwxrwxrwx	root/root	usr/lib/libLLVM-17.0.4.so -> libLLVM-17.so
 -rwxr-xr-x	root/root	usr/lib/libLLVM-17.so
 lrwxrwxrwx	root/root	usr/lib/libLLVM.so -> libLLVM-17.so
 -rw-r--r--	root/root	usr/lib/libLLVMAArch64AsmParser.a
@@ -3461,8 +3461,8 @@ lrwxrwxrwx	root/root	usr/lib/libRemarks.so -> libRemarks.so.17
 lrwxrwxrwx	root/root	usr/lib/libclang-cpp.so -> libclang-cpp.so.17
 -rwxr-xr-x	root/root	usr/lib/libclang-cpp.so.17
 lrwxrwxrwx	root/root	usr/lib/libclang.so -> libclang.so.17
-lrwxrwxrwx	root/root	usr/lib/libclang.so.17 -> libclang.so.17.0.2
--rwxr-xr-x	root/root	usr/lib/libclang.so.17.0.2
+lrwxrwxrwx	root/root	usr/lib/libclang.so.17 -> libclang.so.17.0.4
+-rwxr-xr-x	root/root	usr/lib/libclang.so.17.0.4
 -rw-r--r--	root/root	usr/lib/libclangAPINotes.a
 -rw-r--r--	root/root	usr/lib/libclangARCMigrate.a
 -rw-r--r--	root/root	usr/lib/libclangAST.a
@@ -3524,13 +3524,13 @@ drwxr-xr-x	root/root	usr/lib/libscanbuild/resources/
 -rw-r--r--	root/root	usr/lib/libscanbuild/shell.py
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/lit-17.0.2.dev0-py3.12.egg-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.2.dev0-py3.12.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.2.dev0-py3.12.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.2.dev0-py3.12.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.2.dev0-py3.12.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.2.dev0-py3.12.egg-info/not-zip-safe
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.2.dev0-py3.12.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/lit-17.0.4.dev0-py3.12.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.4.dev0-py3.12.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.4.dev0-py3.12.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.4.dev0-py3.12.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.4.dev0-py3.12.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.4.dev0-py3.12.egg-info/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit-17.0.4.dev0-py3.12.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/lit/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit/BooleanExpression.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/lit/LitConfig.py

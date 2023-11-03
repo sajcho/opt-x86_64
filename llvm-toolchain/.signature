@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrL+A7jsRcziiknlxU0N+dwvp3oIQbGaTyEEljnLsIquYFH/b7qwfAHUaFwG255EBHggL5jykKE73WLXg3tbjUwA=
-SHA256 (Pkgfile) = ea5b51d45a4d27b69e3571d876f5d7d5e68ce075a032edf8ba19d04519b76c3b
-SHA256 (.footprint) = 9b9ed0175d5ac194f9469b8ded09369393766c5d2514942bf26e65daccb9f355
-SHA256 (llvm-project-17.0.2.src.tar.xz) = 351562b14d42fcefcbf00cc1f327680a1062bbbf67a1e1ca6acb64c473b06394
+RWRkiJhlUJEGrFdT7NT9NqtJ2VZYLKBpnlD8WF2MuBQqZUnMcMD1s8hSRD5BP3T8C9f0tIeY7NBzaWLFhew3iKUSd2bFk8gTVg4=
+SHA256 (Pkgfile) = 0c89dc9532fe8378e96090f514ec5d4dfdbc5bffc17e8f5a13ddf5b96f04422e
+SHA256 (.footprint) = c7717bfb8f79090f7d97e3bbd273aa9f4ca72e8745004d0b152e2582322a9572
+SHA256 (llvm-project-17.0.4.src.tar.xz) = a225eb96f52e7d8c6c275b351fcc66d7a21d925eecff53730900404f244ff16a
