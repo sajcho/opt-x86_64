@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=utf8proc
-version=2.8.0
+version=2.9.0
 release=1
 source=(https://github.com/JuliaStrings/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
