@@ -1,22 +1,19 @@
 # Description:	Firefox web browser
 # URL:		https://www.firefox.com/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt python3.11 rust72 zip
+# Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt python3.11 zip
 
 name=firefox-releases
 _realname=firefox
-version=118.0.2
-release=2
+version=119.0
+release=1
 source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
-	0001-Bug-1849874-Update-from-packed_simd_2-to-packed_simd.patch \
 	distribution.ini \
 	firefox.desktop \
 	vendor.js)
 
 build() {
 	cd ${_realname}-${version}
-
-	patch -p1 -i $SRC/0001-Bug-1849874-Update-from-packed_simd_2-to-packed_simd.patch
 
 	export PYTHON="/opt/bin/python3.11"
 	export SHELL="/bin/bash"
