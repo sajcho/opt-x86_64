@@ -78,6 +78,7 @@ drwxr-xr-x	root/root	usr/include/node/libplatform/
 -rw-r--r--	root/root	usr/include/node/v8-forward.h
 -rw-r--r--	root/root	usr/include/node/v8-function-callback.h
 -rw-r--r--	root/root	usr/include/node/v8-function.h
+-rw-r--r--	root/root	usr/include/node/v8-handle-base.h
 -rw-r--r--	root/root	usr/include/node/v8-initialization.h
 -rw-r--r--	root/root	usr/include/node/v8-internal.h
 -rw-r--r--	root/root	usr/include/node/v8-isolate.h
@@ -100,6 +101,7 @@ drwxr-xr-x	root/root	usr/include/node/libplatform/
 -rw-r--r--	root/root	usr/include/node/v8-regexp.h
 -rw-r--r--	root/root	usr/include/node/v8-script.h
 -rw-r--r--	root/root	usr/include/node/v8-snapshot.h
+-rw-r--r--	root/root	usr/include/node/v8-source-location.h
 -rw-r--r--	root/root	usr/include/node/v8-statistics.h
 -rw-r--r--	root/root	usr/include/node/v8-template.h
 -rw-r--r--	root/root	usr/include/node/v8-traced-handle.h
