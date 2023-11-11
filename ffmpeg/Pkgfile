@@ -4,15 +4,12 @@
 # Depends on:	aom dav1d fdk-aac gnutls lame libass libssh libtheora libvpx libwebp pulseaudio sdl2 srt x264 x265
 
 name=ffmpeg
-version=6.0
-release=4
-source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz \
-	ffmpeg-6.0-binutils_2.41-1.patch)
+version=6.1
+release=1
+source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
-
-	patch -p1 -i $SRC/ffmpeg-6.0-binutils_2.41-1.patch
 
 	./configure \
 		--prefix=/usr \
@@ -35,8 +32,8 @@ build() {
 		--enable-libopus \
 		--enable-libfdk-aac \
 		--enable-postproc \
-		--enable-lto \
 		--enable-pic \
+		--enable-lto \
 		--enable-pthreads \
 		--enable-shared \
 		--enable-libxcb \
