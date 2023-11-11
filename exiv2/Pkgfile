@@ -4,12 +4,12 @@
 # Depends on:	cmake inih
 
 name=exiv2
-version=0.28.0
+version=0.28.1
 release=1
-source=(https://github.com/Exiv2/${name}/releases/download/v${version}/${name}-${version}-Source.tar.gz)
+source=(https://github.com/Exiv2/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
-	cd ${name}-${version}-Source
+	cd ${name}-${version}
 
 	mkdir build
 	cd build
