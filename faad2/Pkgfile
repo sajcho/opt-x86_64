@@ -3,22 +3,24 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=faad2
-version=2.10.1
+version=2.11.0
 release=1
 source=(https://github.com/knik0/$name/archive/${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	autoreconf -fiv
+	mkdir build
+	cd build
 
-	./configure \
-		--prefix=/usr \
-		--disable-static
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-Wno-dev
 
-	make V=1
+	ninja -v
 
-	make DESTDIR=$PKG install
-
-	find $PKG -type f -name '*.la' -delete
+	DESTDIR=$PKG ninja install
 }
