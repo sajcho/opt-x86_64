@@ -1140,9 +1140,9 @@ f:ec41225f6dfd8991a7e974e53ec14c51:cairo/Pkgfile
 f:38a3c28e80976d369663407930f8ecde:glib-networking/.footprint
 f:17e628b93d9a171048e54a0d0dd80500:glib-networking/.signature
 f:2a7959fbfe9804d7ea4a26d189d30a29:glib-networking/Pkgfile
-f:16fad234fb93a958290df4ab67f1f3b7:llvm-toolchain/.footprint
-f:d6e185890bc6f8d083afe84f6e3ac168:llvm-toolchain/.signature
-f:ec8539a6f6f86643a4aee2fc7af22aae:llvm-toolchain/Pkgfile
+f:16e1a256dd79a7b71d96779bf9b2e1dd:llvm-toolchain/.footprint
+f:972ae653a979b4a093f70edd8b5f416d:llvm-toolchain/.signature
+f:54568ca1ac0ad57676dbbf1c65b7812b:llvm-toolchain/Pkgfile
 f:3a56a4e09450a4bc9e2a6d17478f8679:llvm-toolchain/README
 f:105d79e77f2aedc2520791177c74feda:rxvt-unicode/gentables.patch
 f:adbc706ffaae32ebc5d2669e47231c20:rxvt-unicode/.footprint
@@ -1593,8 +1593,8 @@ f:e99578b95db0bfd1ced3c031d7db2b8f:soundtouch/.footprint
 f:4be0498464486e595e5ca04e977999f3:soundtouch/.signature
 f:78dc5f594ab2afef0a023ed39707d4ff:soundtouch/Pkgfile
 f:c9b98d6fc38365b7c6555036f2e1d8ab:lld/.footprint
-f:f71076eb37256134be9eb61cfa0e6c4e:lld/.signature
-f:30f97cc37e797dea3b3cdbf96b2e631e:lld/Pkgfile
+f:8756e0fbefb7e052c71fc772c111c1e9:lld/.signature
+f:9088b3bf52ccfe87182a804ee6c6334e:lld/Pkgfile
 f:11db8533dd7031a579ac5fe6f0931a45:faac/.footprint
 f:cf620cb9684865a806cee07930a797b2:faac/.signature
 f:f6a631641d5773d835e4028e29723a41:faac/Pkgfile
@@ -1618,10 +1618,10 @@ f:bedf5da59237ffd0e91218da040cbd29:duktape/.footprint
 f:2d924ee4bf3777c3b1b6236854d203c8:duktape/.signature
 f:360264a94d316a27b52993ea663bd6ed:duktape/Pkgfile
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
-f:242fd7b04def5c3e438c92a287e0e82c:rust/.footprint
-f:1339538521a15362b4447164360b1dd1:rust/.signature
+f:81aaf8270e6d8c668189dc61bd96f57c:rust/.footprint
+f:0c6df0b7b02182e569b8cd42c87f1504:rust/.signature
 f:f902f4f75a2ece6ed85c6b8a29682853:rust/0002-tool.rs-change-dir-libexec-to-lib.patch
-f:3c1bbc9dfde96af3da939793cff3cfc8:rust/Pkgfile
+f:3b2a1af3f369cbc19278b9f080d003f8:rust/Pkgfile
 f:8570861063b945ec436ad79503051634:rust/README
 f:acfe401e3bb660090f61f84ce2869573:rust/0001-dist.rs-change-dir-libexec-to-lib.patch
 f:cdab1b90c631b0eb1fdceb7c960f0ee4:freetds/.footprint
