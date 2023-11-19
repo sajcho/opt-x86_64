@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrMR6ikir40faobUyEoLxOVMBNbml6LinR5Oxr/JX+Dqz6W8NBSA4bgtO5pu/ZdFu4y7VUZKruhtEgF+Z3JuLqgc=
-SHA256 (Pkgfile) = fdd233203e969ea745eea3f4e49e2803092db79f7023aadd50280bfae3bc0ab8
-SHA256 (.footprint) = 8709f8ef2041e51c086d6350c7bc0619f4a2fb85d23a0c0abde8e629ad14b5e1
-SHA256 (gnutls-3.8.1.tar.xz) = ba8b9e15ae20aba88f44661978f5b5863494316fe7e722ede9d069fe6294829c
+RWRkiJhlUJEGrNhYGRHj62aS66iqiRvRgaFbCZzp6SjR/Y6awbDCzxNBKCkELJgghwEEm1A02hqFuhRMz++9P0gWfqxOVB9BDAc=
+SHA256 (Pkgfile) = accb3f35e70ae8afcc81e8c0e20685784fefd985ab6df60cb982c17a652792be
+SHA256 (.footprint) = 0aa677a32006f37226a941a3fe2d2207a21890b33f753155f986201c572b7bbd
+SHA256 (gnutls-3.8.2.tar.xz) = e765e5016ffa9b9dd243e363a0460d577074444ee2491267db2e96c9c2adef77
