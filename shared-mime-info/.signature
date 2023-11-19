@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrHRlyqbwnbrO3Aag2HTIGHG6xzjmaN6Gv5EmgJtPYiDIe3bAogizpWTCpYCqiWD1lsdg6pW9jCT1GpSr0X//www=
-SHA256 (Pkgfile) = a248c0c1cb99751c79bd13fdef4c8ca140150772ec79c4560b2c4757ba685e9e
-SHA256 (.footprint) = 9de564a3f06c0c1189b28c408fc63a50b62689c70198f8ef27c2af3b91c49b6d
-SHA256 (shared-mime-info-2.3.tar.gz) = 78eb7d0d6874e2116649067100d72e0d363eb6a51227797140dad3bd5643e6a9
+RWRkiJhlUJEGrIKjl/LkIJor0z1OI4JbN3Wffj5qfuLhHRIeq+wVZkOvVMVG86efRuC84Gg6zmFAlrFUwZr6jikNfaro9Nt/FAw=
+SHA256 (Pkgfile) = b2d410bfffa29334c459ab518c108526a1bbbc9680faf6e77b3842a902e92c35
+SHA256 (.footprint) = 08a748c1ed7af0b281888516c512131868a71b99ba18c50a8dfd4919d6cffa49
+SHA256 (shared-mime-info-2.4.tar.gz) = 531291d0387eb94e16e775d7e73788d06d2b2fdd8cd2ac6b6b15287593b6a2de
 SHA256 (no-xmlto.patch) = 7b1b6ddcf10e4bc726131f9de2ffae6c4cab6b0b74459b3391044e74760cd814
