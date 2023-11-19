@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrFiyp9ePvHU29JewG8cq1ES6EqV7LJcMkhUSEkKDWETgP1wrpQTRwEqZl9t/OO7/v8KaCVmC13ycwKXjRwa90go=
-SHA256 (Pkgfile) = 735b21e64fef78d508030e57a2cd6b96cb6a4b7564bf01b5e6347f5527ff1bba
-SHA256 (.footprint) = 0e4aa95a85049bb5ebc873b72aafb32de2e3f98d1fa60c90c42bd3849b1c390c
-SHA256 (gstreamer-1.22.6.tar.xz) = f500e6cfddff55908f937711fc26a0840de28a1e9ec49621c0b6f1adbd8f818e
+RWRkiJhlUJEGrGlgxXtCbsytoRXyxyPu/AOBvT4yDn1JAu0jMfJIHKvA1NutfWO/bbOVMGVRHr3/shABE/Pfn6/qnmEuwMsStwo=
+SHA256 (Pkgfile) = 19550d913d99ad14666ab88b4b6fd6704a151e7aa5b00d5a5063568ec6374cbb
+SHA256 (.footprint) = 5f088e16176b0f66a65e6e99cec04a0e87db2c824ba70cd9720cd55f590db6ab
+SHA256 (gstreamer-1.22.7.tar.xz) = 01e42c6352a06bdfa4456e64b06ab7d98c5c487a25557c761554631cbda64217
