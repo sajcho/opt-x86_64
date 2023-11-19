@@ -4,8 +4,8 @@
 # Depends on:	ffmpeg gst-plugins-base
 
 name=gst-libav
-version=1.22.6
-release=2
+version=1.22.7
+release=1
 source=(https://gstreamer.freedesktop.org/src/${name}/${name}-${version}.tar.xz)
 
 build() {
