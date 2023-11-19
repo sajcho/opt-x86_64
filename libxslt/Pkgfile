@@ -4,7 +4,7 @@
 # Depends on:	libxml2
 
 name=libxslt
-version=1.1.38
+version=1.1.39
 release=1
 source=(https://download.gnome.org/sources/${name}/${version:0:3}/${name}-${version}.tar.xz)
 
@@ -12,6 +12,8 @@ build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--disable-static \
 		--without-python \
