@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrNRKk5tYzleb0hSeifnY/rq5polb3+ZTNVyaNYH2qA03SPAPQ1CB3Rvb2H8i6zwjVPch7IKI/ntZDWfp1dDfCAE=
-SHA256 (Pkgfile) = babf5ce81e32bc885baff1e19fffb4b3208b2228648067f32a4ac4ff60849f93
-SHA256 (.footprint) = f6b05d4a6bab8a096d1ce00f01c3f3ccef4f316bc71db66b5d43fd347cda2dc9
-SHA256 (faad2-2.11.0.tar.gz) = 720c1dc404439e0a9117aa144dc7ead56f1658adf4badbb39f959d6ad8eed489
+RWRkiJhlUJEGrG3IuKTnXkaGuTdeHSd5uOysivmCEpWNfYmCKbMzXrwJPv5CkDEstYFCFnZ99a926/NtPVdbizfrgxMSPD5rxwg=
+SHA256 (Pkgfile) = a30dc5aaefa18e461b1828ce5160a4d825bc7f6b561d96630297d5ffc515ce4f
+SHA256 (.footprint) = c4a41452fb15066a9fd6d0fea5c0e51f25d0a243d10b339c659395132be6122c
+SHA256 (faad2-2.11.1.tar.gz) = 72dbc0494de9ee38d240f670eccf2b10ef715fd0508c305532ca3def3225bb06

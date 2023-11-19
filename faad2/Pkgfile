@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=faad2
-version=2.11.0
+version=2.11.1
 release=1
 source=(https://github.com/knik0/$name/archive/${version}/${name}-${version}.tar.gz)
 
