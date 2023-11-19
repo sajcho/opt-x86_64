@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=c-ares
-version=1.21.0
+version=1.22.0
 release=1
 source=(https://c-ares.haxx.se/download/${name}-${version}.tar.gz)
 
