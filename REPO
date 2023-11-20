@@ -1272,8 +1272,8 @@ f:c23cafdbf153adcbd1868a07be37f171:swig/.footprint
 f:cd3217e6c8c36cbe71a579343fc9a159:swig/.signature
 f:7910695f49716ea4237b0ec68aac615d:swig/Pkgfile
 f:3ad4302f7ee341f5de454e05a94674c9:gst-plugins-good/.footprint
-f:e8040fa68d63f55750380ba6cfbd1f7b:gst-plugins-good/.signature
-f:ec798d887d42dd4af3258cb650d1429b:gst-plugins-good/Pkgfile
+f:e66bc60e830ae3d97fcf0f2451f424a0:gst-plugins-good/.signature
+f:ac597ef0cea44cad8154b909de2a830a:gst-plugins-good/Pkgfile
 f:5237fa573f55c00fa59b12a43d528b9c:libksba/.footprint
 f:7d19e32c55bdb8a6ec7a938e153e8901:libksba/.signature
 f:d7e7b52ec0cade7cff4fc44a21437ab8:libksba/Pkgfile
@@ -1646,8 +1646,8 @@ f:ffca30f10d71b1b48c52750470740469:icu/.signature
 f:c218da75509219f2b2085e5971ded1da:icu/Pkgfile
 f:3bf548825196650ea2e3a62679262610:icu/README
 f:52e281aa9836fa6d4c40615079fc3606:appstream-glib/.footprint
-f:14e798549789a2aaa82ebcbabe6f8c21:appstream-glib/.signature
-f:5e4f71d008867245c8ebac896a1ea4d5:appstream-glib/Pkgfile
+f:8f1533699556ba9d537131ce6d12d9ab:appstream-glib/.signature
+f:452c9b3672014491781d26b159c3a8ba:appstream-glib/Pkgfile
 f:6d6f06ec05b6678abe88fe796dca8721:greetd/greetd.run
 f:579c79bb40604a1977718ac389c34290:greetd/.footprint
 f:eef0150b420574b2047b1a5e2c2a4478:greetd/.signature
