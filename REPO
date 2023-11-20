@@ -305,7 +305,6 @@ d:libgpg-error
 d:libavc1394
 d:iniparser
 d:atkmm
-d:libsoup
 d:dtc
 d:tiff
 d:hicolor-icon-theme
@@ -1447,9 +1446,6 @@ f:37390c080fb683394a7c74253ebd0d81:iniparser/Pkgfile
 f:2a2f6a2d65235673eb3b6cc551c24d6b:atkmm/.footprint
 f:f297446e58afb4a269a6ec7890a88c6e:atkmm/.signature
 f:ce8e6bfa898542b386c81de2ea0526df:atkmm/Pkgfile
-f:a32a9bd224c22a530583ee45d096fced:libsoup/.footprint
-f:d10e5b6d00cabcfdc0c37816070d0fde:libsoup/.signature
-f:bc76d2e987b46a0efb1be19e851761da:libsoup/Pkgfile
 f:c3fa4aa57480925a809cb1b52ad1ba1d:dtc/.footprint
 f:a1d783861bb208b472d4f0beee1c4e78:dtc/.signature
 f:7fc4c171aed636bef5edcb6ba7264933:dtc/increase_max_srcfile_depth.patch
