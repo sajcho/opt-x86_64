@@ -1476,9 +1476,9 @@ f:8f3e8fb6e1811feeb378311b6b926358:libgudev/.signature
 f:81e0dc1ee96a376fcf7eff47a6e5e6ed:libgudev/Pkgfile
 f:99076f600572cb9dfa0ff55512108714:firefox-releases/distribution.ini
 f:2bd10817bcd61ae3122bfaf550a9ba21:firefox-releases/.footprint
-f:5eb1437829d8816b09feb4caaa560406:firefox-releases/.signature
+f:af2ef93e2462d08aa257915aa9173d28:firefox-releases/.signature
 f:d8743848c9164555d67d256814b91bd6:firefox-releases/vendor.js
-f:385c11e49ab2fc79dafe3ba31768a899:firefox-releases/Pkgfile
+f:4fde1497cc5dec5768d1e50130681ed9:firefox-releases/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox-releases/firefox.desktop
 f:67714d589e1ea7dcfca45fee7d19304b:x265/.footprint
 f:bc47bf34a5fbd0bbcb7d85c29aa06278:x265/.signature
