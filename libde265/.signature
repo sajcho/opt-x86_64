@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrNk3fYabiq79Nen7lc+/xVXO7l7rbIMHrnHR1QQUnXif+MDWRO3cQOWu7v1K+YdIKozHie6trGP6yWtUbfF6cAI=
-SHA256 (Pkgfile) = 8de85ba903c63cb7ed20d64cc321f57dd0cd303428d808525965ab337fb2ed6d
-SHA256 (.footprint) = 9b61eed31da9e7d2be200a75f086d036afccec6faf53f5695d5f4c9e5569460e
-SHA256 (libde265-1.0.12.tar.gz) = 62185ea2182e68cf68bba20cc6eb4c287407b509cf0a827d7ddb75614db77b5c
+RWRkiJhlUJEGrGZXdT79x5VCQo/W31IqzUBKuSpR98OQK4pY/SoWd2ThGl6ufmknGiQxXWbQ4hzxkCuy+bSqr1uwcZbCLAgJUws=
+SHA256 (Pkgfile) = bff6cab225b7265eb7906bb87327e8eb5fbc448eefc94a936b4d49d7ab265835
+SHA256 (.footprint) = 11c68586bbadd09ad3e0ed330fe105a46577b25c5867f9ec8c568c1b32f56c84
+SHA256 (libde265-1.0.14.tar.gz) = 99f46ef77a438be639aa3c5d9632c0670541c5ed5d386524d4199da2d30df28f
