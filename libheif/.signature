@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrJEPkRBf0eG3r2L+Rvt1HhnV+/RkEttkKc8h44nOOzXX55njh0cIGN6LNL9f7TirBBvsLVjk42YDoM0QS31r/gM=
-SHA256 (Pkgfile) = af28f4013219e0804ee52c4947eb5eed1f777c9236d39d1eb53499415faa6da5
-SHA256 (.footprint) = 37f0cab3127518cba4071aac559d21a7a1869b500e748e53ffef790c75c6a20f
-SHA256 (libheif-1.17.3.tar.gz) = 8d5b6292e7931324f81f871f250ecbb9f874aa3c66b4f6f35ceb0bf3163b53ea
+RWRkiJhlUJEGrAXMc3Ua7bmoevrdAh/9lhIV0VKuDix1ZaD6kTu3DlD38gG344s3I/0ZkvGcs7EKAJLgt+fmtUedef5ORv4XIwc=
+SHA256 (Pkgfile) = a9ed5e382b71bea5b7b8bc767f763f18d2fe1d200bd3764fbdcabccaa6682bc9
+SHA256 (.footprint) = 887320b15d5fb7c4e4e550f2a1b82cb7cf7c64b531d9bfed3c8260e71b1d4813
+SHA256 (libheif-1.17.5.tar.gz) = 38ab01938ef419dbebb98346dc0b1c8bb503a0449ea61a0e409a988786c2af5b
