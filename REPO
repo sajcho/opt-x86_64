@@ -16,7 +16,6 @@ d:mm-common
 d:gtk3
 d:libmypaint
 d:gtk4
-d:rust72
 d:foot
 d:pangomm
 d:qemu-static
@@ -118,7 +117,6 @@ d:swaylockd
 d:neon
 d:refind
 d:python3-tqdm
-d:python3.11
 d:vte3
 d:rpcsvc-proto
 d:wireless-regdb
@@ -426,13 +424,6 @@ f:29e8b5cc9e7e7ab649f1f09dc8d70dc0:gtk4/post-install
 f:19a0311fc835cfec6d3dab18c14902ee:gtk4/.footprint
 f:24a219a1652d4018aad4fc9859cb06bf:gtk4/.signature
 f:2e736780da36191328a9d89bf3b9f085:gtk4/Pkgfile
-f:e650e22565672241bc86cff013ff959d:rust72/0001-bootstrap-Change-libexec-dir.patch
-f:a68528b0fd1e5420b6f851ae579e97a4:rust72/.nostrip
-f:153e87084d059604ff7d47ee236a8ad5:rust72/0001-cargo-Change-libexec-dir.patch
-f:89c4a037dc9cc90473428171246e48c9:rust72/.footprint
-f:40506025b8ed506079237a35c7e5589a:rust72/.signature
-f:0dbc7713a2d65119f6eb6b7d78d361e1:rust72/Pkgfile
-f:8570861063b945ec436ad79503051634:rust72/README
 f:e04591bd38cf63cd79918efa8f702d86:foot/.footprint
 f:5843814ae9a5c5b0cd889541a52ef809:foot/.signature
 f:efe80b95d4e79401e16792d9696ada8e:foot/Pkgfile
@@ -798,9 +789,6 @@ f:5b00c727f5918d440b62081d4af031a8:refind/Pkgfile
 f:765888c15358e3f4f042356e1b6e022e:python3-tqdm/.footprint
 f:089bae8c336f004d43ab9d59a08238ef:python3-tqdm/.signature
 f:be74205d4321ee1117ea62e2f763810c:python3-tqdm/Pkgfile
-f:5e0a79f7f7b7c30cb01286a291b1e43d:python3.11/.footprint
-f:63764bfebb8b7b5812d71f968737c7d7:python3.11/.signature
-f:8dcac9cbbef8d0e87a6b7c8dd5ce1bc8:python3.11/Pkgfile
 f:73cd4e4a5de152519307354324c87896:vte3/.footprint
 f:9993ae763cbc358afb8bfe5c97d07a5e:vte3/.signature
 f:53f7da209ab3da2052038089ff12dfe1:vte3/Pkgfile
