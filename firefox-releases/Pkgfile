@@ -1,13 +1,14 @@
 # Description:	Firefox web browser
 # URL:		https://www.firefox.com/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt python3.11 zip
+# Depends on:	autoconf-2.13 cbindgen dbus-glib ffmpeg libidl libnotify nodejs nss libxcomposite libxinerama libxt zip
 
 name=firefox-releases
 _realname=firefox
 version=120.0
-release=1
+release=2
 source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
+	icu74.patch \
 	distribution.ini \
 	firefox.desktop \
 	vendor.js)
@@ -15,11 +16,12 @@ source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_r
 build() {
 	cd ${_realname}-${version}
 
-	export PYTHON="/opt/bin/python3.11"
+	patch -p1 -i $SRC/icu74.patch
+
 	export SHELL="/bin/bash"
 	export BUILD_OFFICIAL=1
 	export MOZILLA_OFFICIAL=1
-	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE="system"
+	export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE="none"
 	export MOZBUILD_STATE_PATH="$PKGMK_SOURCE_DIR/mozbuild"
 	export MOZ_NOSPAM=1
 	export MOZ_DEBUG_FLAGS=" "
@@ -90,11 +92,12 @@ EOF
 	export CXX=clang++
 	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
 	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
+	export PYTHONWARNINGS="ignore"
 
 
-	/opt/bin/python3.11 mach -v build
+	./mach build
 
-	DESTDIR=$PKG /opt/bin/python3.11 mach install
+	DESTDIR=$PKG ./mach install
 
 	# optional - change to suit your needs
 	#install -D -m 0644 $SRC/distribution.ini \
