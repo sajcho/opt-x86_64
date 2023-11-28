@@ -1,5 +1,5 @@
-untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrCW4WFlHY8RuqnTI+VCcmRu6Gn0X48rSIDPf50NObjwzMx4I1+ItHXKKrmBmkGJFzuudwCYBl0WbjnAj2Z9eyQ8=
-SHA256 (Pkgfile) = 1d727054bbed642b3f3cbf451530a23cbfeaa0354eda2a3d3392a8421932669a
-SHA256 (.footprint) = 42e272814344a33dc53cff7204fd9ad94802f33692d575b2fbd90b4aa5a9c23d
-SHA256 (icu4c-73_2-src.tgz) = 818a80712ed3caacd9b652305e01afc7fa167e6f2e94996da44b90c2ab604ce1
+untrusted comment: verify with core-x86_64.pub
+RWQ0XEjKMixyZ0mprlGZyOm3eHyAV8XsY9Urifvxi/3yZb32/lPePbCYFTZaJVIzSx8b/kd26bMjjHQ3Yz8qcimXX8wmDESWewg=
+SHA256 (Pkgfile) = ccf4566c2dd43c6bc9d63c98678022646d8f5545ad6b22fd2d45d528ed67653f
+SHA256 (.footprint) = ff0818a2183881205914a8aa4e029dc186253703c3cc70de18da2cfeb727a5b9
+SHA256 (icu4c-74_1-src.tgz) = 86ce8e60681972e60e4dcb2490c697463fcec60dd400a5f9bffba26d0b52b8d0

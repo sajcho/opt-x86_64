@@ -3,8 +3,8 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=icu
-version=73.2
-release=3
+version=74.1
+release=1
 source=(https://github.com/unicode-org/${name}/releases/download/release-${version//./-}/icu4c-${version/./_}-src.tgz)
 
 build() {
