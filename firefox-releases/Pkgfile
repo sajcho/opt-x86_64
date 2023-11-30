@@ -5,8 +5,8 @@
 
 name=firefox-releases
 _realname=firefox
-version=120.0
-release=2
+version=120.0.1
+release=1
 source=(https://ftp.mozilla.org/pub/${_realname}/releases/${version}/source/${_realname}-${version}.source.tar.xz \
 	icu74.patch \
 	distribution.ini \
@@ -17,6 +17,9 @@ build() {
 	cd ${_realname}-${version}
 
 	patch -p1 -i $SRC/icu74.patch
+
+	# We are using python 3.12
+	sed 's|3, 11|3, 12|' -i mach
 
 	export SHELL="/bin/bash"
 	export BUILD_OFFICIAL=1
@@ -92,6 +95,7 @@ EOF
 	export CXX=clang++
 	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
 	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
+	# clean out - harmless SyntaxWarnings messages
 	export PYTHONWARNINGS="ignore"
 
 
