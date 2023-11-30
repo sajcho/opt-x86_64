@@ -7,7 +7,7 @@ name=grub2-efi
 _realname=grub
 version=2.12-rc1
 _commit=7a994c87f571ac99745645be0bdde9827297321a
-release=1
+release=2
 source=(grub.default saux-grub-theme.tar.xz unifont-15.1.01.bdf)
 
 build() {
@@ -31,6 +31,7 @@ build() {
 	unset CXXFLAGS
 	unset LDFLAGS
 	unset MAKEFLAGS
+	export PYTHONWARNINGS="ignore"
 
 	./linguas.sh
 

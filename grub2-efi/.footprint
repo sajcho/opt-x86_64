@@ -423,6 +423,9 @@ drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/gl/
 drwxr-xr-x	root/root	usr/share/locale/gl/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/gl/LC_MESSAGES/grub.mo
+drwxr-xr-x	root/root	usr/share/locale/he/
+drwxr-xr-x	root/root	usr/share/locale/he/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/he/LC_MESSAGES/grub.mo
 drwxr-xr-x	root/root	usr/share/locale/hr/
 drwxr-xr-x	root/root	usr/share/locale/hr/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/hr/LC_MESSAGES/grub.mo
