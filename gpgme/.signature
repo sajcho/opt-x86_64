@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrJiMBRg2e207Ht9UU0vHihowhmke/Hxc1oZRRaKq6OayzuRdakSf7WOKiYnJQOJqOuPVmgtvA/B3L9LH7Jx7qAo=
-SHA256 (Pkgfile) = 480930b6b3909f4a2ad10aeae93d2e5f63ec77d90cf7bb5ceaf8b4bbd6933b4a
-SHA256 (.footprint) = 76f0c9f1b8779fdc00144435b37dc8f19160abf41636324eec32e9911bbc00cb
-SHA256 (gpgme-1.23.1.tar.bz2) = a0c316f7ab7d3bfb01a8753c3370dc906e5b61436021f3b54ff1483b513769bd
+RWRkiJhlUJEGrA/W/Hy8cHfs8NDaaYQXcCGtG0uzjCqgsW+zBraRhnzVdzjKeNfCKCSozSqqpIubDRG4YLUeNNiF6K4ij9tR2wE=
+SHA256 (Pkgfile) = 171de904e71e701f1559a90b6036e724e46261f578ab2aebf7f0233edafc6d69
+SHA256 (.footprint) = 061e7ac38cf13472bee22734de8a0aa8535d5dbbb9edc602345450d94456f2fb
+SHA256 (gpgme-1.23.2.tar.bz2) = 9499e8b1f33cccb6815527a1bc16049d35a6198a6c5fae0185f2bd561bce5224
