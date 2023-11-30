@@ -972,9 +972,9 @@ f:92e38db22584027741a4a13079cfd81e:alsa-utils/alsa.run
 f:c36ffa302335915a181e2d2932af3683:alsa-utils/.footprint
 f:e9155cb1046cde0b22242f78338e6e17:alsa-utils/.signature
 f:6cd51ecba7c4f4527e2ce988bbcda786:alsa-utils/Pkgfile
-f:3f0c4bb24d45f564cc89cd8f86dbea43:gpgme/.footprint
-f:82261376be1472eff1789ab5a9a67a60:gpgme/.signature
-f:f6572330d10129d38298aac60069ced4:gpgme/Pkgfile
+f:1f0d8e1a1e561d8ccb910f8eec097a8a:gpgme/.footprint
+f:0578b0139aeca1bd7858dc8b1d53af9e:gpgme/.signature
+f:ca947321257450b3be51e4a961eedcf1:gpgme/Pkgfile
 f:91de87bf7435e9b3f4190db815c43390:libgit2/.footprint
 f:7ad4100bf20542f98fe0ed276d4e5b35:libgit2/.signature
 f:70d6bcd5d9224e4bd73d24432b303ca0:libgit2/Pkgfile
@@ -1377,9 +1377,9 @@ f:6cc5559bd80ea4ef61c74fb221a11569:libstatgrab/.footprint
 f:78d3142910431ac0ea38a1298c8fb234:libstatgrab/.signature
 f:a39c0532702dd1c2c1aa84dbe2029085:libstatgrab/Pkgfile
 f:6807357a87869289ae92809d8a04cba6:grub2-efi/unifont-15.1.01.bdf
-f:6faa1d16024f00cfef36a5d62a2a7dbc:grub2-efi/.footprint
-f:984700f04f38e8d3b531b23a2bfe0c88:grub2-efi/.signature
-f:94716ce7f7bc4bb974086c399f5bc7e1:grub2-efi/Pkgfile
+f:49c95df6c1bd78a0405afb141de9b87c:grub2-efi/.footprint
+f:20a7e5a4da9fd2a3c8956063a72e3a99:grub2-efi/.signature
+f:0e206062df5d26c9bb46135e61bf43a5:grub2-efi/Pkgfile
 f:44c716526c2225053d2e4a4f23b3d3c0:grub2-efi/grub.default
 f:00af920c8299f318646d8b7e6bd34cb0:grub2-efi/saux-grub-theme.tar.xz
 f:0ccd4019186e2383dd8741c2fcb3e00a:libnfs/fix-includes.patch
@@ -1465,9 +1465,9 @@ f:81e0dc1ee96a376fcf7eff47a6e5e6ed:libgudev/Pkgfile
 f:99076f600572cb9dfa0ff55512108714:firefox-releases/distribution.ini
 f:73472eae5b4777be69fb33cc08441db0:firefox-releases/icu74.patch
 f:2bd10817bcd61ae3122bfaf550a9ba21:firefox-releases/.footprint
-f:91ec216be743e8aa569046f9bc1e1e86:firefox-releases/.signature
+f:e0916230e69e27beb9988901ee99390c:firefox-releases/.signature
 f:d8743848c9164555d67d256814b91bd6:firefox-releases/vendor.js
-f:997caef306feb9517f59e9e03333449e:firefox-releases/Pkgfile
+f:405ed0715c651e9f507aef1896cac57f:firefox-releases/Pkgfile
 f:cf6971669f70b440cb6ff8df8b2722ae:firefox-releases/firefox.desktop
 f:67714d589e1ea7dcfca45fee7d19304b:x265/.footprint
 f:bc47bf34a5fbd0bbcb7d85c29aa06278:x265/.signature
