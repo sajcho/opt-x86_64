@@ -4,15 +4,12 @@
 # Depends on:	brotli c-ares icu
 
 name=nodejs
-version=21.2.0
+version=21.3.0
 release=1
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
 build() {
 	cd node-v${version}
-
-	# fix - python version
-	sed -e "s|3.11|3.12|g" -e "s|3, 11|3, 12|g" -i configure
 
 	# Use -flto=auto to use GNU make’s job server, if available,
 	# or otherwise fall back to autodetection of the number
