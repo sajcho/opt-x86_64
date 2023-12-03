@@ -672,8 +672,8 @@ f:8e0e835e79536071261c9b70ecf7183c:libssh/.footprint
 f:3e8e372ab61f6f32bebc0971aad48de8:libssh/.signature
 f:c4c718c963af7c9d0d626ec2889e7860:libssh/Pkgfile
 f:8e3e133575e9820900e5cff14e75ec6c:nodejs/.footprint
-f:ec2c6b2c6d6ffc0df8a452ce172bb87f:nodejs/.signature
-f:29e61de11493bfe59899efc88c3f6026:nodejs/Pkgfile
+f:e74bea5dc3b9efabe30ffa894bbf8314:nodejs/.signature
+f:067cfaff884e5661e1d9773a2dea6ef8:nodejs/Pkgfile
 f:0a4ff1a49b94567ca211ff8e78164cf4:wireless-tools/.footprint
 f:b6053751d5c7e11cd039493d851dcfe5:wireless-tools/.signature
 f:b13a9c8682772e47589816d19aaf7e13:wireless-tools/Pkgfile
@@ -870,8 +870,8 @@ f:076c350230a7e161f1feab580ecbcb42:libatasmart/.footprint
 f:022e13b8536015c77f48698f7458abd1:libatasmart/.signature
 f:f0a9b8302a17ccc8e848957f4da52012:libatasmart/Pkgfile
 f:a437b516d85a4115257280180b84c115:poppler-glib/.footprint
-f:7376178adb6cbb6dda92dfd162275efa:poppler-glib/.signature
-f:98c9aa704dde9f1b224ef1dd78bab648:poppler-glib/Pkgfile
+f:dc9846b3d2cfdfe4591d687e78cc0375:poppler-glib/.signature
+f:e6fe37a129f34b94cc040d894f554836:poppler-glib/Pkgfile
 f:a7d1fd3c79971deb83cc695da2a32927:potrace/.footprint
 f:3bd7005b302110169e3121d365426c60:potrace/.signature
 f:6d080af3488cf1f211d4a8e580b24bd7:potrace/Pkgfile
@@ -960,9 +960,9 @@ f:8da2437617bd948352dac3de028958fc:chromaprint/ffmpeg5.patch
 f:18ae8d34320e6f8d33f882c9606eaf22:chromaprint/.footprint
 f:90677be86c3b4ee24392fd85d2d9169f:chromaprint/.signature
 f:1b8b9c950c00431493be7d90fdf26851:chromaprint/Pkgfile
-f:faa6e7f5edb0eee7932b5ed2648d2380:c-ares/.footprint
-f:7f5fcdb2f0ff4ffc986dd76a027004ba:c-ares/.signature
-f:09aff6da931b13a9087d946479651c8d:c-ares/Pkgfile
+f:a3ad9f570531d4f93daa3e4ab79c36de:c-ares/.footprint
+f:7b798f61d4e852c91a745bc587e5e97c:c-ares/.signature
+f:f284ecbab45da4352dc35b310f19b389:c-ares/Pkgfile
 f:b3f2692e792f14df7d0ccfcc19399f66:pinentry/pinentry
 f:1fbfe9066a404b98181f6d93c4fcd30c:pinentry/.footprint
 f:adb0fff9662bbb500974aed81af4fab4:pinentry/.signature
@@ -1268,8 +1268,8 @@ f:811492fb9ad3f215497e33933ea0aa07:dav1d/.footprint
 f:e45f7310c3419747d76e3b37fcbfc057:dav1d/.signature
 f:e6b892b0a0c6480d65f55f668ad9fdaf:dav1d/Pkgfile
 f:148a4b9b6987d56c506b908978697c62:poppler/.footprint
-f:8d5cecb2fe374b08b54e4962f0c7db00:poppler/.signature
-f:bddd5d72ae491a482aa5f830f9b41bce:poppler/Pkgfile
+f:e2677b1e389cc41d96be7c49fc75f73d:poppler/.signature
+f:d8a23fb1859fe521a49b931f185e2737:poppler/Pkgfile
 f:0d151f46eac8f1648ce80fa71805b669:libsdl/0001-CVE-2019-7574.patch
 f:c84a5117a57457f51efd8813abb64682:libsdl/0002-CVE-2019-7577.patch
 f:d6a1bfa054507f281338626e5f12d74b:libsdl/SDL-1.2.15-const_XData32.patch
@@ -1635,9 +1635,9 @@ f:8f1533699556ba9d537131ce6d12d9ab:appstream-glib/.signature
 f:452c9b3672014491781d26b159c3a8ba:appstream-glib/Pkgfile
 f:6d6f06ec05b6678abe88fe796dca8721:greetd/greetd.run
 f:579c79bb40604a1977718ac389c34290:greetd/.footprint
-f:eef0150b420574b2047b1a5e2c2a4478:greetd/.signature
+f:9cff8e3e993c9796d56eff9e29953dcf:greetd/.signature
 f:f4d0f4570b6ffa03d3aecb2ca6114cce:greetd/pre-install
-f:1e5c7b5af33523b94bcddab432170ee0:greetd/Pkgfile
+f:c18615b6251af411014cbe6c2078b8c5:greetd/Pkgfile
 f:00ef4e1a9c70bc9dcac1be71c31f1230:greetd/greetd.pam
 f:b1569c88467151b0d96ad272bf875dea:xdg-user-dirs/.footprint
 f:dea84c0955d77e475357c6ac5a5ce45a:xdg-user-dirs/.signature
