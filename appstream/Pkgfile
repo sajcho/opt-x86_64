@@ -5,7 +5,7 @@
 
 name=appstream
 _realname=AppStream
-version=0.16.3
+version=1.0.0
 release=1
 source=(https://www.freedesktop.org/software/${name}/releases/${_realname}-${version}.tar.xz)
 
