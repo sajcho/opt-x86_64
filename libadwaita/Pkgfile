@@ -4,7 +4,7 @@
 # Depends on:	appstream fribidi glib gobject-introspection gtk4 sassc
 
 name=libadwaita
-version=1.4.0
+version=1.4.2
 release=1
 source=(https://gitlab.gnome.org/GNOME/libadwaita/-/archive/${version}/${name}-${version}.tar.gz)
 
