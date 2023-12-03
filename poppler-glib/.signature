@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrFUmJVcSTkXfkOHDq634hui3vNJDn8WKwJTxLLd1Hxrh5ljRf2X9ltLg2iV8l5eLISaTcHpyxkh9Tm2b7kvfHw4=
-SHA256 (Pkgfile) = 0995c2996dfe8b70b624548b85cf9506206ad66cce1381105a7718f01a866d15
+RWRkiJhlUJEGrNA5TqSI/Otv/RLvOzgwM9vHmVu2BhEVDuPFriMI7pvZMDCcU6WiPTKiN0NtDxVgi2FSN5HaJeZwDI+KuffD6wE=
+SHA256 (Pkgfile) = cd2c87a255a79b37c5b4ab6fa0eb4aa5442d51391dc21370144ad3ef0acaf29a
 SHA256 (.footprint) = bdf2780eaea40958a7832649dd384f62b7acaecfa1b61c2ddbcb80f7f29b768a
-SHA256 (poppler-23.11.0.tar.xz) = f99cca6799cb9cb6c92fc1e0eb78547b611cb733750ab7cb047cb0e6c246539c
+SHA256 (poppler-23.12.0.tar.xz) = beba398c9d37a9b6d02486496635e08f1df3d437cfe61dab2593f47c4d14cdbb
