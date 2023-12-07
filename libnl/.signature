@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrHc10OP0XPIH6cMVbxn3Xfk/m2nHIlO4E7o435NlxIryMe2tAjBGUTYRo17qp4G+fy7BGSjCilr8+tUGFdfpowQ=
-SHA256 (Pkgfile) = 44373ddb06ba467115420fa8ab9295bf40ae4057b9c78a99b873ff8a9bd0d5cb
+RWRkiJhlUJEGrJoWJGcVwA7xCmK2yX1lwz3lzxWYB64girXD13+MRnT2Dq4SeMGLGal+3gaZV+fwK2yu3pR6ycm0C+5mkWMbiQ0=
+SHA256 (Pkgfile) = eea27b012afe5a012f4b4ffd26521217eadba88b6c2db4e92d4699c63e4122c3
 SHA256 (.footprint) = 37253cd229c012f13a717ff09add41552a77387ce3d0be6b95e2d6b9ee0cd443
-SHA256 (libnl-3.8.0.tar.gz) = bb726c6d7a08b121978d73ff98425bf313fa26a27a331d465e4f1d7ec5b838c6
+SHA256 (libnl-3.9.0.tar.gz) = aed507004d728a5cf11eab48ca4bf9e6e1874444e33939b9d3dfed25018ee9bb
