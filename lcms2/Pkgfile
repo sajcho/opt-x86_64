@@ -4,7 +4,7 @@
 # Depends on:	tiff
 
 name=lcms2
-version=2.15
+version=2.16
 release=1
 source=(http://downloads.sourceforge.net/project/lcms/lcms/${version:0:4}/${name}-${version}.tar.gz)
 
@@ -12,6 +12,8 @@ build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--disable-static \
 		--with-jpeg \
