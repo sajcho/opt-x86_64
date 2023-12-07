@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrCOZH/svxn1zinBQJB7Z358Vvso81rk4s2/6w2D+qZQBPl9TsPJq0Eci+bWiOdeT/iXix+AFiL/wA5EFp9ZK2AY=
-SHA256 (Pkgfile) = 79eae75b9b752ce7b56caff242a35e21ba670586b48014504fe062179736e7e0
-SHA256 (.footprint) = 3cfb650f8facee280cb0dd162e84c7b8ced43acc27a0202904ac7cf617b05ed8
-SHA256 (libaom-3.7.1.tar.gz) = 97e0e4b52f9ef64c3e397257f95fd171a952cb72f1ae030750a162f7dea8f6a5
+RWRkiJhlUJEGrCEH+qAVSqk/ifap6hRroSaE1G380MjmLO96Oaa4CZoZdj1xB8aHRDfsReTO57BCLX125eTYdvyKB17cHNiaKAE=
+SHA256 (Pkgfile) = 6059761c0cd789f98bbabd1da8a7cb8bfb65cdc4fad2ec0a6c762ec8c05f9848
+SHA256 (.footprint) = d5a2b0ed94ca7da217555278d014607bcb9afaa2dfe6cd809018508f7e94b62e
+SHA256 (libaom-3.8.0.tar.gz) = a768d3e54c7f00cd38b01208d1ae52d671be410cfc387ff7881ea71c855f3600
