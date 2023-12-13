@@ -1034,8 +1034,8 @@ f:092b6bafa9c1cb7edf5b27ee1ce127bc:libbytesize/.footprint
 f:a0973f7c1106addeda4ead477383c138:libbytesize/.signature
 f:6aaf259732535140d5aed595fc85cdb2:libbytesize/Pkgfile
 f:d1592c76c17012341e118dd7bf2c95a0:imagemagick/.footprint
-f:77f21feea8e40b6498406f97cc024cb4:imagemagick/.signature
-f:f3cfc5370ae3c205d39b8b31f718742b:imagemagick/Pkgfile
+f:6608f69630d165ed541864ce77833e73:imagemagick/.signature
+f:4eb96d47af1c3580fb6a03e4a6a13a29:imagemagick/Pkgfile
 f:9c54e647eadb86c2ca42143664d9ef26:sassc/.footprint
 f:c9eadce41afaa3a19a5b2efb3dfa66f2:sassc/.signature
 f:3058ec0c5bee6d768ef7f62ff6e3de27:sassc/Pkgfile
@@ -1232,8 +1232,8 @@ f:f6552b1ea673bcfc2584d4c7050244f9:scdoc/.footprint
 f:72315522582995b22decdaa9d3a75182:scdoc/.signature
 f:cac2211fc69e1f61168e262be3778333:scdoc/Pkgfile
 f:691ffda8a1a2960cd92da75086753be1:chrpath/.footprint
-f:b47e88ff741cf8b2b18eb738c9632dcb:chrpath/.signature
-f:dc5236b6c30508342605cc8ffc1efa86:chrpath/Pkgfile
+f:7ab5b2a52f4fa8700e9ebf5b771563d4:chrpath/.signature
+f:2b96d87c08fbcc2adecda1740199818f:chrpath/Pkgfile
 f:89110b96d106e7ff0f2eafbfc9526163:sway/sway_6249.patch
 f:f24cc0e90aa47f215eb812f6ee593905:sway/.footprint
 f:402719855da87e9cb5a662185fbe4a40:sway/.signature
@@ -1346,8 +1346,8 @@ f:c3e72bb884ee66e10f50af55c2beddf1:perl-xml-simple/.footprint
 f:12637ddef8302848d9d3969c6f2de930:perl-xml-simple/.signature
 f:fb0257ca8f203545751417155f12e549:perl-xml-simple/Pkgfile
 f:a755679232e89d55214034be8b5d4324:libsecret/.footprint
-f:fb2650517efee777093b01c0f487d85f:libsecret/.signature
-f:8e871790f4673027f8695ea31dd8c8c8:libsecret/Pkgfile
+f:d170cd7b3ede06a60a64760c9f5a1f97:libsecret/.signature
+f:7a9c2710bfa2149e5511130a485b0aa0:libsecret/Pkgfile
 f:8e59fc2e13e0a6075d9ae30acfaed28a:libfilezilla/.footprint
 f:29abf7aa867f30365f884ac397a95bef:libfilezilla/.signature
 f:801d5849fbb617ae2df7421faea7723d:libfilezilla/Pkgfile
