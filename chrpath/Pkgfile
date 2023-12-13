@@ -3,13 +3,15 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=chrpath
-version=0.16
+version=0.17
 release=1
-source=(http://cdn-fastly.deb.debian.org/debian/pool/main/c/${name}/${name}_${version}.orig.tar.gz)
+source=(https://codeberg.org/pere/chrpath/archive/release-$version.tar.gz)
+renames=(${name}-${version}.tar.gz)
 
 build() {
-	cd ${name}-${version}
+	cd ${name}
 
+	./bootstrap
 	./configure \
 		--build=$CHOST \
 		--host=$CHOST \
