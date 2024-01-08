@@ -1,11 +1,11 @@
 # Description:	Libraries for working with WebP images
 # URL:		https://developers.google.com/speed/webp
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libpng tiff freeglut giflib
+# Depends on:	libpng tiff giflib
 
 name=libwebp
 version=1.3.2
-release=1
+release=2
 source=(https://storage.googleapis.com/downloads.webmproject.org/releases/webp/${name}-${version}.tar.gz)
 
 build() {
