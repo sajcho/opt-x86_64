@@ -9,7 +9,6 @@ d:libburn
 d:libsoundio
 d:docbook-xsl-nons
 d:mpg123
-d:gstreamer
 d:swaybg
 d:mm-common
 d:gtk3
@@ -36,7 +35,6 @@ d:fuse3
 d:gnome-common
 d:libidl
 d:dosfstools
-d:mimalloc2
 d:libcanberra
 d:make-ca
 d:faad2
@@ -51,7 +49,6 @@ d:glibmm
 d:json-glib
 d:libisofs
 d:utf8proc
-d:libfm
 d:double-conversion
 d:json-c
 d:libsoup3
@@ -73,8 +70,6 @@ d:libasyncns
 d:speex
 d:libass
 d:yaml
-d:gvfs
-d:river
 d:oniguruma
 d:filezilla
 d:waybar
@@ -82,13 +77,10 @@ d:iso-codes
 d:libssh
 d:nodejs
 d:wireless-tools
-d:gtk-doc
 d:dbus
 d:menu-cache
 d:libnotify
 d:libsndfile
-d:libfm-extra
-d:sudo
 d:libisoburn
 d:libdv
 d:libsrtp
@@ -119,7 +111,6 @@ d:wxwidgets
 d:grim
 d:python3-markupsafe
 d:efivar
-d:libblockdev
 d:clutter
 d:cyrus-sasl
 d:opus
@@ -129,7 +120,6 @@ d:rpcbind
 d:libheif
 d:go
 d:python3-jinja2
-d:gst-plugins-base
 d:harfbuzz
 d:libadwaita
 d:poppler-glib
@@ -167,18 +157,15 @@ d:gpgme
 d:libgit2
 d:docbook-xml
 d:fcft
-d:gst-libav
 d:autoconf-2.13
 d:taglib
 d:iwd
 d:soxr
-d:mold
 d:intltool
 d:libde265
 d:cryptsetup
 d:sbc
 d:gptfdisk
-d:libbytesize
 d:imagemagick
 d:sassc
 d:libvisual
@@ -197,7 +184,6 @@ d:openjpeg2
 d:enca
 d:swaync
 d:glib
-d:gst-plugins-bad
 d:fontconfig
 d:gimp
 d:at-spi2-core
@@ -213,7 +199,6 @@ d:mako
 d:cogl
 d:parted
 d:gsettings-desktop-schemas
-d:avahi
 d:fmt
 d:flac
 d:feh
@@ -237,7 +222,6 @@ d:libnice
 d:speexdsp
 d:xmlto
 d:swig
-d:gst-plugins-good
 d:libksba
 d:dav1d
 d:poppler
@@ -263,7 +247,6 @@ d:perl-xml-simple
 d:libsecret
 d:libfilezilla
 d:libdaemon
-d:udisks2
 d:libshout
 d:libassuan
 d:shared-mime-info
@@ -379,9 +362,6 @@ f:05436bda655614b6302cebbd38aa7a7b:docbook-xsl-nons/Pkgfile
 f:5261be5abad8a8ca0f537d2bdcfce4e2:mpg123/.footprint
 f:73081b4e6a8327a047d9091572cd02d0:mpg123/.signature
 f:0d222be49dc54c6761608c0243c085eb:mpg123/Pkgfile
-f:97dcaf1bd1dc4db38901fdf01d7911f9:gstreamer/.footprint
-f:7b57ab4ef10cedd748462cccfe249f69:gstreamer/.signature
-f:9ce8e3ff00920979d2524f002fcfe649:gstreamer/Pkgfile
 f:5a87b970907bca8f785b783e2a6e6f21:swaybg/.footprint
 f:1f4c62031017180c5651bd660b47e7f1:swaybg/.signature
 f:6e6a7d4a22ddc41cba611070ff982a47:swaybg/Pkgfile
@@ -475,9 +455,6 @@ f:0a83449c0e48d05bfc718dcbeb5b8a44:libidl/Pkgfile
 f:7234fb41dc6171ac68dcb02681388726:dosfstools/.footprint
 f:2aeaf330709bc3708caa69831ff1bfb5:dosfstools/.signature
 f:cafc3a2b9ee591bfc27dc89b34e04714:dosfstools/Pkgfile
-f:173c772ad3b8cc2158e5df0918adda64:mimalloc2/.footprint
-f:dd527327c75ff9571f9397222a573376:mimalloc2/.signature
-f:6b5adf5becc5e420eeafc894a1d63359:mimalloc2/Pkgfile
 f:63b8aa3272610d39c3114ffee292f1bc:libcanberra/libcanberra-0.30-wayland-1.patch
 f:a7d538151a41689f42a2a6b589ef0a3e:libcanberra/libcanberra-multi-backend.patch
 f:4a11e7470aabebc6a33b31300415dea7:libcanberra/.footprint
@@ -527,9 +504,6 @@ f:58304e1aeeed755db751acdbe8bfb554:libisofs/Pkgfile
 f:fe74671dc045a05a0990026b0dd2e9c2:utf8proc/.footprint
 f:126ececb4259e4be4bfecc1f9dcc8550:utf8proc/.signature
 f:20a8841cf6d001edc752bd90e8023255:utf8proc/Pkgfile
-f:d34ffde075494185634bfb37e3691229:libfm/.footprint
-f:4e8de46958ac7809e3b631eb524fc11f:libfm/.signature
-f:97d70c768b8a09d0913f057d6c9b05bd:libfm/Pkgfile
 f:ad2e5913fb2ae1efded952de7c2b1bae:double-conversion/.footprint
 f:95a297a61605fb0366df9c02ab57b257:double-conversion/.signature
 f:021086f09a94ab40b7ee75bdaa2c93f1:double-conversion/Pkgfile
@@ -612,13 +586,6 @@ f:de5c3f918883cb2827762368883ef026:libass/Pkgfile
 f:cb3e1030187e55d3b4667c1609e87697:yaml/.footprint
 f:ae55156a28ab576a664a73ddb0841572:yaml/.signature
 f:e4de846fa56243feb44f1feaaf108422:yaml/Pkgfile
-f:e5f74be27525658dae59401455944186:gvfs/post-install
-f:80e118ca881be4639de72dcccc342c9d:gvfs/.footprint
-f:2ea2a75be80f3eadfe9d9c19fd714941:gvfs/.signature
-f:9233ea50bcea87a9ac0e26565da157c2:gvfs/Pkgfile
-f:233d735f6430cf9a5bae8ebb12d2ec84:river/.footprint
-f:499aa536cc33ea4b74da4397d0680a5c:river/.signature
-f:3eb84b37904034b85a4a50006e54511b:river/Pkgfile
 f:a0a7d1e8f50031e71e4b4b20abd01733:oniguruma/.footprint
 f:c492e8435e001a5217d77732eb61c369:oniguruma/.signature
 f:11bb1d9636af299cf63779b75239fa8e:oniguruma/Pkgfile
@@ -642,9 +609,6 @@ f:9c9451a9e2384d587decf1122f0bc61a:nodejs/Pkgfile
 f:0a4ff1a49b94567ca211ff8e78164cf4:wireless-tools/.footprint
 f:b6053751d5c7e11cd039493d851dcfe5:wireless-tools/.signature
 f:b13a9c8682772e47589816d19aaf7e13:wireless-tools/Pkgfile
-f:aed88784d1c1a4e30aa4634da8d24b2f:gtk-doc/.footprint
-f:af8503c226074f9e6366d7da1db017b2:gtk-doc/.signature
-f:9fba278f81953641f6fb76e63b8bd5cd:gtk-doc/Pkgfile
 f:9fa2fe9767a6bb2bd194fb558fc3e3e8:dbus/dbus.check
 f:bf567c5e6650b609d4dd8e48efb18864:dbus/dbus-enable-elogind.patch
 f:76c4a419ab5c93362976908ec968ef93:dbus/dbus-daemon-optional.patch
@@ -663,14 +627,6 @@ f:67b0238c36cbf8cd70e3122d65fbc5d8:libnotify/Pkgfile
 f:dedc314e70dd256556fd7390ed3c67b5:libsndfile/.footprint
 f:13d2344957a784b64e457a09e5593259:libsndfile/.signature
 f:3fcf3a663ca39f44d71246748093a762:libsndfile/Pkgfile
-f:b35cb55bb77e66f14dd7b5c5ff01ac90:libfm-extra/.footprint
-f:261dbe609d85d03f673e140cdd92d517:libfm-extra/.signature
-f:6d1a5b55807c9d5916263aa350e740ea:libfm-extra/Pkgfile
-f:41050d7eed38ca0fb8d8489e27b17d83:sudo/sudo.pam
-f:1e0801bd202ebcb432eff7e9f50aa0f7:sudo/.footprint
-f:41a19fb33b497e6af378c0f893160b02:sudo/.signature
-f:f7a34ed69049804bd0b7493838137a27:sudo/Pkgfile
-f:f21530e52d794b03145cc97e2e0694cd:sudo/.md5sum
 f:cb2fd8e087570733f7bcb5008cb719a6:libisoburn/.footprint
 f:423de983941c0cf47cc330be3de54498:libisoburn/.signature
 f:c776242c002b1b2fd76d6d0675ca4b7a:libisoburn/Pkgfile
@@ -772,9 +728,6 @@ f:538b18d6eace89d6feea3c1384d0c04d:python3-markupsafe/Pkgfile
 f:9c3e7221db89db68b4a63d3c1a353647:efivar/.footprint
 f:361b69fa12383f001c9a53ffd85da8e2:efivar/.signature
 f:b67a27a365c6b55b5b1dd36deefc2c3f:efivar/Pkgfile
-f:cd6ae9752a35bc45ae5ffe26c0ee13f0:libblockdev/.footprint
-f:6f96200e0b7812dee6786777a891a64a:libblockdev/.signature
-f:7510172b9bc549eef2cbc2fb0ca77fdd:libblockdev/Pkgfile
 f:694a199ec4486de3ca02d86382965392:clutter/.footprint
 f:73e5e4324e13dc135a8e6c70aa3b0dd8:clutter/.signature
 f:3b2060e13387b176a8ef398b2de8542b:clutter/Pkgfile
@@ -807,9 +760,6 @@ f:bf405415bf992202ff52ffece9c5eb5e:go/Pkgfile
 f:aed0b491f1fce4b284330a63e24b0635:python3-jinja2/.footprint
 f:005d447e9507e21b8ae68338bb028edf:python3-jinja2/.signature
 f:c5db79811bb00a68576dbad27e8ef16c:python3-jinja2/Pkgfile
-f:3320de8ecd8c45dd014360d131063c2f:gst-plugins-base/.footprint
-f:7c93615e58f743777a9b0558264d680b:gst-plugins-base/.signature
-f:fbcad9c2b9156432b3d3f8e0cd11e9e9:gst-plugins-base/Pkgfile
 f:7f46599248aa625bd9303e1424392950:harfbuzz/.footprint
 f:56165ece356ce2b0ce02dfcd4ceefe76:harfbuzz/.signature
 f:515806cc9270b86d06b394373771ba6d:harfbuzz/Pkgfile
@@ -929,9 +879,6 @@ f:7f1f1e06a536415574e94ecbec4f1dad:docbook-xml/Pkgfile
 f:de47ee5013dced34440c25f82a492e46:fcft/.footprint
 f:3232775842d1dd0fd0d085b79f835358:fcft/.signature
 f:a77b9d285313dc46e50070f80a90ae0e:fcft/Pkgfile
-f:4cf6d310009d89211cbbaa8cf4315201:gst-libav/.footprint
-f:cee1f2adb2b98d8803f58806d833efdd:gst-libav/.signature
-f:481337fe6c0219784c86be9be135794e:gst-libav/Pkgfile
 f:113e244a8e5a59590ffa6c5020357aa6:autoconf-2.13/.footprint
 f:06a62bb5be3369e9904c54609b1b8849:autoconf-2.13/.signature
 f:3751fe0588ed07afc55957af740b58d9:autoconf-2.13/Pkgfile
@@ -951,9 +898,6 @@ f:8e6e572ac99e01bdf5ca72621f5f41f5:iwd/ead.log
 f:29dad3b5d1f412155a338f56e09c658d:soxr/.footprint
 f:f6339bab6305b3ad0d1dfa8269d36004:soxr/.signature
 f:62d3dadcb01e4f423249086583532909:soxr/Pkgfile
-f:5049919a02290b388543a9a483587319:mold/.footprint
-f:9f3bbc1b7e24a234dfd34abc1c9536d7:mold/.signature
-f:4bed39c14656b3f3bd72a146c3dc28a2:mold/Pkgfile
 f:38bec379ca1158fa00afa94c99b9ebe5:intltool/intltool-perl-regexp.patch
 f:0fb5cd7dbe852bbac973124b5afdda9d:intltool/.footprint
 f:92b24e3f586771363a8d8c73f685a52f:intltool/.signature
@@ -971,9 +915,6 @@ f:d6c2e73c95b616b82136889151c420ba:gptfdisk/gptfdisk-1.0.9-convenience-1.patch
 f:1aee552ff947094a2362e42cff03e2d0:gptfdisk/.footprint
 f:ed657094a5984e429241d8579b8289c1:gptfdisk/.signature
 f:2a6fd96de59b5648860a400cf0c7676c:gptfdisk/Pkgfile
-f:092b6bafa9c1cb7edf5b27ee1ce127bc:libbytesize/.footprint
-f:a0973f7c1106addeda4ead477383c138:libbytesize/.signature
-f:6aaf259732535140d5aed595fc85cdb2:libbytesize/Pkgfile
 f:d1592c76c17012341e118dd7bf2c95a0:imagemagick/.footprint
 f:6608f69630d165ed541864ce77833e73:imagemagick/.signature
 f:4eb96d47af1c3580fb6a03e4a6a13a29:imagemagick/Pkgfile
@@ -1037,9 +978,6 @@ f:ebd1ee90e4f81e6c6cc03c29ab8b6bea:glib/gschemas.compiled
 f:deefde4182a8a881899e5261d764006d:glib/.signature
 f:a99371331c5060aa5fa6cd573d2025c1:glib/Pkgfile
 f:08b95225e98724a67fb2c765acea8ef9:glib/deprecated-no-warn.patch
-f:31e4237fc7a2e46e878b6e6eac4392d7:gst-plugins-bad/.footprint
-f:5db640f88d415e492fed7d7bd20f1fef:gst-plugins-bad/.signature
-f:ecbbcac8aa4c5290af0f41091fbc0784:gst-plugins-bad/Pkgfile
 f:269d983aaad997b30fc3f1a17c7c0a29:fontconfig/fonts.conf
 f:e3144b54cf4de7faa73c59a6df217f41:fontconfig/post-install
 f:fd1773a780294fe2d9aeab41227482db:fontconfig/.footprint
@@ -1093,12 +1031,6 @@ f:e5f74be27525658dae59401455944186:gsettings-desktop-schemas/post-install
 f:490fcdf4396e349c2a57d0560081101c:gsettings-desktop-schemas/.footprint
 f:1513d868668e98f1ab45a8d7b2394803:gsettings-desktop-schemas/.signature
 f:799898018e303cc8facd81964433386a:gsettings-desktop-schemas/Pkgfile
-f:c82a8c2a19c5dd7373fb4644ef8e84b3:avahi/avahi-0.8-ipv6_race_condition_fix-1.patch
-f:9e7da50f28e8ec4e11f265086e2add38:avahi/avahi-daemon.run
-f:25e254a6b28adf7d83e55f82ce087037:avahi/.footprint
-f:6990b7ff8afb20c12d22e1270731b308:avahi/.signature
-f:a4fc35e5e643a99b67aab5163ccbc4fe:avahi/pre-install
-f:7fa6b672575cd883068c7253cba499a2:avahi/Pkgfile
 f:81813daba27687e1edc392f1cd8ff8c4:fmt/.footprint
 f:2eb8ab7eea5f90c8780497945fe912f8:fmt/.signature
 f:b3d1ae370ae9ade6c9b14458f41ca399:fmt/Pkgfile
@@ -1180,9 +1112,6 @@ f:7f9586fde2e608f933ddb091447fd6d1:xmlto/Pkgfile
 f:c23cafdbf153adcbd1868a07be37f171:swig/.footprint
 f:cd3217e6c8c36cbe71a579343fc9a159:swig/.signature
 f:7910695f49716ea4237b0ec68aac615d:swig/Pkgfile
-f:3ad4302f7ee341f5de454e05a94674c9:gst-plugins-good/.footprint
-f:e66bc60e830ae3d97fcf0f2451f424a0:gst-plugins-good/.signature
-f:ac597ef0cea44cad8154b909de2a830a:gst-plugins-good/Pkgfile
 f:5237fa573f55c00fa59b12a43d528b9c:libksba/.footprint
 f:7d19e32c55bdb8a6ec7a938e153e8901:libksba/.signature
 f:d7e7b52ec0cade7cff4fc44a21437ab8:libksba/Pkgfile
@@ -1276,10 +1205,6 @@ f:801d5849fbb617ae2df7421faea7723d:libfilezilla/Pkgfile
 f:fbd15d672ca662f8fa35161fac0860a8:libdaemon/.footprint
 f:119982547bd1b3711c2982c825ec8310:libdaemon/.signature
 f:3767852e11f53375f35b9247404a67dd:libdaemon/Pkgfile
-f:fd70ee4163c5bfd9bd474c28a2548c46:udisks2/O_CLOEXEC.patch
-f:f40ad59fcdd03e1d0c3932195a4811f0:udisks2/.footprint
-f:7b81c814b5d201afd12e2873f1eb9d51:udisks2/.signature
-f:aefb3b34f1f8d592b447f0f45c98db9f:udisks2/Pkgfile
 f:4aab48f1bdacaa946d828b64aea26388:libshout/.footprint
 f:6897db9790cf9f52dd6f95b4fe9e902f:libshout/.signature
 f:54d3fa4cc3597c88a46712bfb4370f17:libshout/Pkgfile
