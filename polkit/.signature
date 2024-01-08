@@ -1,7 +1,0 @@
-untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrN3e9FIKSzgNm9GUQ1pyY7sEz4lVo43etl7qMPa3jrSSWjU3tyME5xC52SjcXH74bHkqdvCuP9sLxWYhwmUTCwY=
-SHA256 (Pkgfile) = c55a161ff4377c0b7cf14b430248027ac2512507d840c097947142f249a29b50
-SHA256 (.footprint) = f3f2557bf77d3e7e444a1029af502e8d9de51ef50a4813d4d3b4b732246c6aff
-SHA256 (polkit-123.tar.bz2) = 72d9119b0aa35da871fd0660601d812c7a3d6af7e4e53e237840b71bb43d0c63
-SHA256 (polkit-99-saux.rules) = 012678e2134fb8dec629d6c41c53b9db5c0ccdf1e8b530b7f6ee6bab599c5d1c
-SHA256 (polkit-1) = 9045eb2a1e2e403b0144d14a5cfe903dc97cfef979c956815a56777c0eb1bf1a
