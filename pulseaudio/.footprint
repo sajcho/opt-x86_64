@@ -11,11 +11,6 @@ drwxr-xr-x	root/root	etc/sv/
 drwxr-xr-x	root/root	etc/sv/pulseaudio/
 -rwxr-xr-x	root/root	etc/sv/pulseaudio/run
 lrwxrwxrwx	root/root	etc/sv/pulseaudio/supervise -> /run/runit/supervise.pulseaudio
-drwxr-xr-x	root/root	etc/xdg/
-drwxr-xr-x	root/root	etc/xdg/Xwayland-session.d/
--rwxr-xr-x	root/root	etc/xdg/Xwayland-session.d/00-pulseaudio-x11
-drwxr-xr-x	root/root	etc/xdg/autostart/
--rw-r--r--	root/root	etc/xdg/autostart/pulseaudio.desktop
 drwxr-xr-x	root/root	lib/
 drwxr-xr-x	root/root	lib/udev/
 drwxr-xr-x	root/root	lib/udev/rules.d/
@@ -34,10 +29,8 @@ lrwxrwxrwx	root/root	usr/bin/paplay -> pacat
 lrwxrwxrwx	root/root	usr/bin/parec -> pacat
 lrwxrwxrwx	root/root	usr/bin/parecord -> pacat
 -rwxr-xr-x	root/root	usr/bin/pasuspender
--rwxr-xr-x	root/root	usr/bin/pax11publish
 -rwxr-xr-x	root/root	usr/bin/pulseaudio
 -rwxr-xr-x	root/root	usr/bin/qpaeq
--rwxr-xr-x	root/root	usr/bin/start-pulseaudio-x11
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/pulse/
 -rw-r--r--	root/root	usr/include/pulse/cdecl.h
@@ -98,7 +91,6 @@ drwxr-xr-x	root/root	usr/lib/pulseaudio/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsedsp.so
 drwxr-xr-x	root/root	usr/lib/pulseaudio/modules/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/libalsa-util.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/libavahi-wrap.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/libcli.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/liboss-util.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/libprotocol-cli.so
@@ -147,7 +139,6 @@ drwxr-xr-x	root/root	usr/lib/pulseaudio/modules/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-pipe-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-pipe-source.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-position-event-sounds.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-raop-discover.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-raop-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-remap-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-remap-source.so
@@ -175,12 +166,6 @@ drwxr-xr-x	root/root	usr/lib/pulseaudio/modules/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-virtual-source.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-virtual-surround-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-volume-restore.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-x11-bell.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-x11-cork-request.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-x11-publish.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-x11-xsmp.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-zeroconf-discover.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-zeroconf-publish.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/GConf/
 drwxr-xr-x	root/root	usr/share/GConf/gsettings/
@@ -199,7 +184,6 @@ lrwxrwxrwx	root/root	usr/share/man/man1/paplay.1.gz -> pacat.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/parec.1.gz -> pacat.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/parecord.1.gz -> pacat.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pasuspender.1.gz
--rw-r--r--	root/root	usr/share/man/man1/pax11publish.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pulseaudio.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/start-pulseaudio-x11.1.gz
 drwxr-xr-x	root/root	usr/share/man/man5/

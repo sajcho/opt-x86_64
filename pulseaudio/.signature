@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrCAvZuhxuf5yud1y4cD4lIhdKxN35hq97oW7ym5XPvKudvlEXiOsMKt33FgCdgZxxF+BlBJWFQoRY2zResEa1wY=
-SHA256 (Pkgfile) = 4cca21db722395101998950a30d034e3869fd6a0a6039ae09fc0b2e5c07bf39b
-SHA256 (.footprint) = ee29170809202bc6f35902265fe2cabfba3dad184aa39e1b3f744a2b31abd41a
+RWRkiJhlUJEGrKYKXgMF7cSs0D9vvqjExh+MD8xG6EU1Bq9KRJmeoW6f2xoGlalHu+suybQkIK10dQVn/4qLeR/W1H78N6zRqgc=
+SHA256 (Pkgfile) = 2e9bb4823a688f6a3ad319f1dd753bec0632bb848e0ad593908a346bbb1fc4d5
+SHA256 (.footprint) = e9d1900501cc289e8c0eafd48371774ba3d2d4d5a9265756b30eb4798ed55272
 SHA256 (pulseaudio-16.1.tar.xz) = 8eef32ce91d47979f95fd9a935e738cd7eb7463430dabc72863251751e504ae4
 SHA256 (pulseaudio.run) = 9640d8ff307b75a9b2952fb0a8346280e30b395c88ed8ca6ba89bf2959e53ee6
