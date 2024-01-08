@@ -1,4 +1,3 @@
-d:vamp-plugin-sdk
 d:unixodbc
 d:libqrencode
 d:librsvg
@@ -28,7 +27,6 @@ d:giflib
 d:wlsunset
 d:libevent
 d:slurp
-d:volume_key
 d:efibootmgr
 d:l-smash
 d:nspr
@@ -134,7 +132,6 @@ d:python3-jinja2
 d:gst-plugins-base
 d:harfbuzz
 d:libadwaita
-d:libatasmart
 d:poppler-glib
 d:potrace
 d:gnupg
@@ -184,7 +181,6 @@ d:gptfdisk
 d:libbytesize
 d:imagemagick
 d:sassc
-d:yambar
 d:libvisual
 d:startup-notification
 d:libsass
@@ -200,7 +196,6 @@ d:cairomm16
 d:openjpeg2
 d:enca
 d:swaync
-d:zig
 d:glib
 d:gst-plugins-bad
 d:fontconfig
@@ -217,7 +212,6 @@ d:pax-utils
 d:mako
 d:cogl
 d:parted
-d:openbox
 d:gsettings-desktop-schemas
 d:avahi
 d:fmt
@@ -230,7 +224,6 @@ d:lsof
 d:lrzsz
 d:libexif
 d:libproxy
-d:numlockx
 d:gdk-pixbuf
 d:procmail
 d:btrfs-progs
@@ -307,7 +300,6 @@ d:mtd-utils
 d:python3-gobject
 d:tree
 d:x264
-d:icewm
 d:libcaca
 d:squashfs-tools
 d:itstool
@@ -348,9 +340,6 @@ d:greetd
 d:xdg-user-dirs
 d:aom
 d:fdk-aac
-f:0bae8698c63ecdff9039f5e20832635e:vamp-plugin-sdk/.footprint
-f:f2b53be027c9d8bf440dd326dd7cefbc:vamp-plugin-sdk/.signature
-f:44e6bf364b91af9a8a480059017e2bde:vamp-plugin-sdk/Pkgfile
 f:d736d2be8fe0d430ab92a2ddeb1ac902:unixodbc/.footprint
 f:ba1057a8767a8765dd84afcd4649d3ff:unixodbc/.signature
 f:0c851d79a44f08fe7ec0276afd026249:unixodbc/Pkgfile
@@ -448,9 +437,6 @@ f:0d5bab222598eb16cf07f2851f24f4e7:libevent/Pkgfile
 f:16e733cbe41f2234f2b92c34eeb1288c:slurp/.footprint
 f:06bf96795fb8fa2261b206045ee8af58:slurp/.signature
 f:c40d5a63d186d193eca325d10a857433:slurp/Pkgfile
-f:926f56c97dd84d62bcbdc2088e884c0c:volume_key/.footprint
-f:0495f9c7e1e552ab06882065628985b0:volume_key/.signature
-f:eca7fc9bcae1d2a7b9458bffff8c0a39:volume_key/Pkgfile
 f:f7cfede7c801951a0ff658d78ae3d053:efibootmgr/.footprint
 f:341504d775c5eeb5fc34fc55b8b111d7:efibootmgr/.signature
 f:365a31a30f24535777220c111bc25017:efibootmgr/Pkgfile
@@ -830,9 +816,6 @@ f:515806cc9270b86d06b394373771ba6d:harfbuzz/Pkgfile
 f:43c07d259fc295ae68663abbfe513b9e:libadwaita/.footprint
 f:40eeaa64de2e823366ef20420bb3863f:libadwaita/.signature
 f:069374714a2f5d7c922bddd9fb6e9132:libadwaita/Pkgfile
-f:076c350230a7e161f1feab580ecbcb42:libatasmart/.footprint
-f:022e13b8536015c77f48698f7458abd1:libatasmart/.signature
-f:f0a9b8302a17ccc8e848957f4da52012:libatasmart/Pkgfile
 f:a437b516d85a4115257280180b84c115:poppler-glib/.footprint
 f:dc9846b3d2cfdfe4591d687e78cc0375:poppler-glib/.signature
 f:e6fe37a129f34b94cc040d894f554836:poppler-glib/Pkgfile
@@ -997,9 +980,6 @@ f:4eb96d47af1c3580fb6a03e4a6a13a29:imagemagick/Pkgfile
 f:9c54e647eadb86c2ca42143664d9ef26:sassc/.footprint
 f:c9eadce41afaa3a19a5b2efb3dfa66f2:sassc/.signature
 f:3058ec0c5bee6d768ef7f62ff6e3de27:sassc/Pkgfile
-f:641a48e8146b19fb451cae702df718d9:yambar/.footprint
-f:9dca35efdba086d9bad59fd98c475551:yambar/.signature
-f:839924770992de86d00e86ae540758a8:yambar/Pkgfile
 f:d7af0e3de91c0dacfb2bbc2f7e3cdd56:libvisual/.footprint
 f:2855d2d1e297ebd0e3347df98c5001bc:libvisual/.signature
 f:bfa65b48af83e2c0499c7e7e298bea8a:libvisual/Pkgfile
@@ -1051,9 +1031,6 @@ f:e5f74be27525658dae59401455944186:swaync/post-install
 f:b55b5175376b3de0173eba4650d80b8f:swaync/.footprint
 f:08ef8fb398391aa2b44cf19a31809a8b:swaync/.signature
 f:a90be6655378209fc21bba2206cf4316:swaync/Pkgfile
-f:ad138f0e86d7e232558e300217847c73:zig/.footprint
-f:732478f666caaea11eeaf1a09b00fbd5:zig/.signature
-f:5f37e7384209dc78fdfe94159c64dcbd:zig/Pkgfile
 f:e5f74be27525658dae59401455944186:glib/post-install
 f:eca9673557b6dda439e0e2cce1f1400a:glib/.footprint
 f:ebd1ee90e4f81e6c6cc03c29ab8b6bea:glib/gschemas.compiled
@@ -1112,10 +1089,6 @@ f:bdeafa5a021fc6f918780273572bb527:cogl/Pkgfile
 f:fda095ecaf2db45eacb2863e313f6849:parted/.footprint
 f:3fd75dc47e5d2565f39d44bacecd1fa1:parted/.signature
 f:d48bec492b6bf7fdaabdaea545644f71:parted/Pkgfile
-f:79d3fc4f1a241422ac1bebbb5e9358c9:openbox/python3.patch
-f:edbf7755a5c5e5062eb7eb7551a74a61:openbox/.footprint
-f:1a93a89a6c0af46b39087528018ca289:openbox/.signature
-f:d96b21ca69617317f3e231ea71f5949b:openbox/Pkgfile
 f:e5f74be27525658dae59401455944186:gsettings-desktop-schemas/post-install
 f:490fcdf4396e349c2a57d0560081101c:gsettings-desktop-schemas/.footprint
 f:1513d868668e98f1ab45a8d7b2394803:gsettings-desktop-schemas/.signature
@@ -1158,11 +1131,6 @@ f:6d1e4c542f2be8baaa03f2c59353720a:libexif/Pkgfile
 f:d62c5859c3ac50a7dd9e8d9a6e531d43:libproxy/.footprint
 f:c7f293f5265a80d27e06e1d9f82ae36a:libproxy/.signature
 f:07cd448261199896e54934ab1968a15f:libproxy/Pkgfile
-f:cce48b5c34fa1b441277e680ca133da9:numlockx/improve-help.patch
-f:f00b3afdbd06a274d7bf233082fa201a:numlockx/.footprint
-f:9af432030df4896df0edf7fca3fe61e6:numlockx/.signature
-f:c00817271494e80bb07257f302151ee3:numlockx/Pkgfile
-f:574ab10d9892edfc286a1e7d7864a513:numlockx/get-state.patch
 f:7028a27cfa648bbacf5890613fb91aef:gdk-pixbuf/post-install
 f:626c84aa82312b293e6c3ca3746e598f:gdk-pixbuf/.footprint
 f:de6d3e1bc539ce541875293c4b78ba23:gdk-pixbuf/.signature
@@ -1435,9 +1403,6 @@ f:9847ddb58f3bef5b1e8917ef8dacc18c:tree/Pkgfile
 f:a5c92015a534d871d440f0a32ad9095c:x264/.footprint
 f:3777eab0cb033ef5ab4bd78865ab9a1b:x264/.signature
 f:780acc3364f26ecda164b2088d8d1097:x264/Pkgfile
-f:9438220e6c9864cf612d45aff8482f20:icewm/.footprint
-f:4e551f64671817d5077e27c2243bfdee:icewm/.signature
-f:1a317af9ad117a851dd2501905d60ace:icewm/Pkgfile
 f:bfe2a68f8b898b4e4c509f268f80a103:libcaca/.footprint
 f:d70a92ccb70a3d4df2a755482d36d6bf:libcaca/.signature
 f:62fd0626cea090d6fcff6510ce9f36a4:libcaca/Pkgfile
