@@ -1,7 +1,0 @@
-untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrJZJYJ/fO/SLqgvtro0V/3euvfxgdrF0ZISPLRIxw8FTYLTiP8d8AYGVFKCOrXCNmB4uyvbEtzGosBRY29/hfw8=
-SHA256 (Pkgfile) = d27e376695698a092c8f3be6e7ddb13eed5c5300fb5ac55afbcd619c8cd80db3
-SHA256 (.footprint) = 9620a94d81ccadf4977f745292e25544551af1ab0c7048c0be4e03878e6d18a7
-SHA256 (avahi-0.8.tar.gz) = 060309d7a333d38d951bc27598c677af1796934dbd98e1024e7ad8de798fedda
-SHA256 (avahi-0.8-ipv6_race_condition_fix-1.patch) = 218c909581d0ca2c86c8145bb0797050d987a6b0ae3417949dbe2a6d55c49360
-SHA256 (avahi-daemon.run) = 46ea509ae7bab80c1dc5f8c638454bfb6ed2d0de0459e86e0a08826f63b34617

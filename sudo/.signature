@@ -1,6 +1,0 @@
-untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrIEuBlju7mh6FWSuIwsyQ8v0CZ9Utm7xjn0tCviJw9AsQSrEEbjhOuxiprN36JI2Mk1/GKIRJEhzBKqKvceC7AI=
-SHA256 (Pkgfile) = 77ab27e69fb3cc938c8116589a68e82f1f0d5ff1b6c440a8cde35ecb6475b667
-SHA256 (.footprint) = 8cfda962be1b78137740b31842c461f29e7aa0b079154ffbb6475d142ae60925
-SHA256 (sudo-1.9.13p3.tar.gz) = 92334a12bb93e0c056b09f53e255ccb7d6f67c6350e2813cd9593ceeca78560b
-SHA256 (sudo.pam) = d56499ea47e4c654032b278923ebee0caba4ca5b0fd242ea9c47204afc8a09e1
