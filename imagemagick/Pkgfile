@@ -1,11 +1,11 @@
 # Description:	ImageMagick - create, edit, compose, or convert digital images
 # URL:		http://www.imagemagick.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	chrpath libheif librsvg libwebp libxt libzip openjpeg2
+# Depends on:	chrpath librsvg libwebp libzip
 
 name=imagemagick
 _realname=ImageMagick
-version=7.1.1-23
+version=7.1.1-26
 release=1
 source=(https://imagemagick.org/archive/releases/${_realname}-${version}.tar.xz)
 
@@ -21,7 +21,10 @@ build() {
 		--with-perl=yes \
 		--with-lcms=yes \
 		--with-rsvg \
-		--with-gvc=no
+		--with-gvc=no \
+		--with-x=no \
+		--without-heic \
+		--without-openjp2
 
 	make V=1
 
