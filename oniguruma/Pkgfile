@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=oniguruma
-version=6.9.8
+version=6.9.9
 release=1
 source=(https://github.com/kkos/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
