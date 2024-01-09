@@ -1,16 +1,16 @@
-From 3d70356c09d0612ccdf88ae1e01126039e25e76f Mon Sep 17 00:00:00 2001
+From 0540f1878c0702f7e973e87287a8b6d2d5f72158 Mon Sep 17 00:00:00 2001
 From: sajcho <saux.aarch64@gmail.com>
-Date: Fri, 8 Sep 2023 10:35:36 +0200
+Date: Fri, 29 Dec 2023 12:31:26 +0100
 Subject: [PATCH] dist.rs: change dir libexec to lib
 
 ---
- src/bootstrap/dist.rs | 2 +-
+ src/bootstrap/src/core/build_steps/dist.rs | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/src/bootstrap/dist.rs b/src/bootstrap/dist.rs
-index 32da4ac29a4..78a5faeae04 100644
---- a/src/bootstrap/dist.rs
-+++ b/src/bootstrap/dist.rs
+diff --git a/src/bootstrap/src/core/build_steps/dist.rs b/src/bootstrap/src/core/build_steps/dist.rs
+index dd89f9ee4e2..52263e3a74b 100644
+--- a/src/bootstrap/src/core/build_steps/dist.rs
++++ b/src/bootstrap/src/core/build_steps/dist.rs
 @@ -423,7 +423,7 @@ fn prepare_image(builder: &Builder<'_>, compiler: Compiler, image: &Path) {
                  },
                  builder.kind,
@@ -21,5 +21,5 @@ index 32da4ac29a4..78a5faeae04 100644
  
              let libdir_relative = builder.libdir_relative(compiler);
 -- 
-2.42.0
+2.43.0
 
