@@ -4,17 +4,12 @@
 # Depends on:	gmp yaml
 
 name=ruby
-version=3.2.2
-release=4
-source=(http://cache.ruby-lang.org/pub/${name}/${version%.*}/${name}-${version}.tar.xz \
-	rubygems-avoid-platform-specific-gems.patch)
+version=3.3.0
+release=1
+source=(http://cache.ruby-lang.org/pub/${name}/${version%.*}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
-
-	patch -p1 -i $SRC/rubygems-avoid-platform-specific-gems.patch
-
-	./autogen.sh
 
 	./configure \
 		--build=$CHOST \

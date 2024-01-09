@@ -1,6 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrIavjrdgro5/TiaZYvE005Uf4uFJwlvhewhDR/C9o6xPxre8ew5ffDFZMjhWb1M+x9dQz8hGb6U+k1y4kfmZ6gI=
-SHA256 (Pkgfile) = b06d3f9ea6802bd7321c39836b07e5ef21a594e8becf54582d66a8e1c8c2ee26
-SHA256 (.footprint) = 43e42de8e324e62e52a4c9644144cfaf3f51059dabf4a755bc02e9aba93aadaa
-SHA256 (ruby-3.2.2.tar.xz) = 4b352d0f7ec384e332e3e44cdbfdcd5ff2d594af3c8296b5636c710975149e23
-SHA256 (rubygems-avoid-platform-specific-gems.patch) = f5746a3480072defb911059e7dbf38f991a9ce6d7c0764a80b02e8c12fd3bcc5
+RWRkiJhlUJEGrBuK5n1GqcyQjPPO+SCIt5E0pYzBHuirNrF3MC3miRD7f81wKN4JTm4uUtS2wKNTxsXjPWyYArlP2LeRDcqPqQ4=
+SHA256 (Pkgfile) = 32b1927302a6b0615f7d722ab785f63eae6c1378e93d56b0d2b7dd9d3632ae31
+SHA256 (.footprint) = 4b1aca79779f4094188295f20dd0bbceed75a58035b8d18349907863b9af8ec0
+SHA256 (ruby-3.3.0.tar.xz) = 676b65a36e637e90f982b57b059189b3276b9045034dcd186a7e9078847b975b
