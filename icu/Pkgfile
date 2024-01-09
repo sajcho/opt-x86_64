@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=icu
-version=74.1
+version=74.2
 release=1
 source=(https://github.com/unicode-org/${name}/releases/download/release-${version//./-}/icu4c-${version/./_}-src.tgz)
 
@@ -18,6 +18,8 @@ build() {
 		--disable-static \
 		--disable-samples \
 		--disable-tests
+
+	touch ../LICENSE
 
 	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
