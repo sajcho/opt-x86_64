@@ -94,7 +94,6 @@ d:libheif
 d:go
 d:harfbuzz
 d:libadwaita
-d:poppler-glib
 d:potrace
 d:gnupg
 d:libraw1394
@@ -605,9 +604,6 @@ f:515806cc9270b86d06b394373771ba6d:harfbuzz/Pkgfile
 f:43c07d259fc295ae68663abbfe513b9e:libadwaita/.footprint
 f:40eeaa64de2e823366ef20420bb3863f:libadwaita/.signature
 f:069374714a2f5d7c922bddd9fb6e9132:libadwaita/Pkgfile
-f:a437b516d85a4115257280180b84c115:poppler-glib/.footprint
-f:dc9846b3d2cfdfe4591d687e78cc0375:poppler-glib/.signature
-f:e6fe37a129f34b94cc040d894f554836:poppler-glib/Pkgfile
 f:a7d1fd3c79971deb83cc695da2a32927:potrace/.footprint
 f:3bd7005b302110169e3121d365426c60:potrace/.signature
 f:6d080af3488cf1f211d4a8e580b24bd7:potrace/Pkgfile
