@@ -771,8 +771,8 @@ f:010d5653ee267d2cf5370a02191243ff:rxvt-unicode/.signature
 f:5c6835e8c30d3b77de6d01184ad79f0e:rxvt-unicode/Pkgfile
 f:585157318cb78733804eed507b77c37c:rxvt-unicode/rxvt-unicode-kerning.patch
 f:f8a4b148ef021871742364d63887004d:seatd/.footprint
-f:dedac92137f300652422a06f5bf34860:seatd/.signature
-f:a07461469fc8c59229d307b88239237f:seatd/Pkgfile
+f:ad0cd89a417b7477de845f6d03028280:seatd/.signature
+f:629ae1a42619f4b1c1365185275d46e6:seatd/Pkgfile
 f:a9be0a283a8be2cc0ccb6fdcebbb4ff5:seatd/seatd.run
 f:f5e6076ea87ca5218d8db7e53eeabc3c:libgcrypt/.footprint
 f:9059c6dfed8d53efdec74e140ef79aa8:libgcrypt/.signature
