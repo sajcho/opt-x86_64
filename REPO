@@ -48,7 +48,6 @@ d:toml11
 d:wavpack
 d:lame
 d:nmap
-d:libappindicator-gtk3
 d:libasyncns
 d:speex
 d:libass
@@ -439,11 +438,6 @@ f:4faa8318fd5652e6b1016f14a6fecb4c:lame/Pkgfile
 f:a6e3841a79b70f7e393eb7d5a8c79016:nmap/.footprint
 f:b73d9e2bd341781cea96f3ff59636a28:nmap/.signature
 f:f7aba948fe6f30de9dae2640ab541db7:nmap/Pkgfile
-f:07df0409a73061a359f3ccfc4024d8d6:libappindicator-gtk3/.footprint
-f:8b60a5e11c7878fff06e870d595dd7c6:libappindicator-gtk3/.signature
-f:f03bed6e70480658dff2392e1468daa3:libappindicator-gtk3/Pkgfile
-f:ef90d6849e880c7b64b8c64d01f36568:libappindicator-gtk3/improved-plasma.patch
-f:47e1f02d31eeb3f930906166ab7ce7b1:libappindicator-gtk3/no-gtk-doc-make.patch
 f:2a1e558cf9685aad8130cb9705568537:libasyncns/.footprint
 f:ae648e12ad935ccb64ca75f660432b88:libasyncns/.signature
 f:0a8b83a5699e555d3d0c7ec2cc0c3963:libasyncns/Pkgfile
