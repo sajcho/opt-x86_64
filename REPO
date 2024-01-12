@@ -1,7 +1,6 @@
 d:unixodbc
 d:libqrencode
 d:librsvg
-d:iwgtk
 d:inih
 d:ruby
 d:libburn
@@ -123,7 +122,6 @@ d:gpgme
 d:libgit2
 d:docbook-xml
 d:taglib
-d:iwd
 d:soxr
 d:intltool
 d:libde265
@@ -138,7 +136,6 @@ d:libsass
 d:libtheora
 d:babl
 d:perl-uri
-d:libindicator-gtk3
 d:fetchmail
 d:greetd-gtkgreet
 d:tuigreet
@@ -186,7 +183,6 @@ d:jq
 d:autoconf-archive
 d:mutt
 d:asciidoctor
-d:wpa_supplicant
 d:imlib2
 d:rust-bindgen
 d:hunspell
@@ -227,7 +223,6 @@ d:squashfs-tools
 d:itstool
 d:mc
 d:graphite2
-d:wl-clipboard-rs
 d:swayimg
 d:wlopm
 d:libssh2
@@ -269,10 +264,6 @@ f:07211a6ee982beb58a831b4e1769a030:librsvg/.footprint
 f:28f3c2cc0d909f99294241e31553d0ad:librsvg/.signature
 f:c0c9e52466a3d7f73d10419c07ee2016:librsvg/Pkgfile
 f:c024158fd609ff37ba4789c23ad12c06:librsvg/README
-f:637b649063f44153ad85cfba6b78c329:iwgtk/post-install
-f:1a6ebd62046c111f036d6cde7b527c17:iwgtk/.footprint
-f:422a88096e992e6245514f9fd3a49b57:iwgtk/.signature
-f:ec4141931d5f63f18ea90781ab495f10:iwgtk/Pkgfile
 f:17a6ad11b579f0e8986887f714a228c6:inih/.footprint
 f:eb8c929a1d8e09b7212c30287af3d63b:inih/.signature
 f:34a8f05dac670b7c651c03963093fb91:inih/Pkgfile
@@ -697,16 +688,6 @@ f:7f1f1e06a536415574e94ecbec4f1dad:docbook-xml/Pkgfile
 f:9ee923d02a8f7d074051ae16d3de20f7:taglib/.footprint
 f:895f7a818d4f842c1c04b65f396f46bd:taglib/.signature
 f:e51dfa6cf57889e2e7698431ff3ea63d:taglib/Pkgfile
-f:588c1f366396d4cbf79b27caf2fc44c7:iwd/03-resolvconf-default.patch
-f:d4d5b1d3b1ddb08c2bbf21b27fd618d2:iwd/ead.run
-f:c4e43099a3e50b598bca193d798b2117:iwd/iwd.log
-f:9664c529c4f51016beea55973ab78851:iwd/.footprint
-f:67a119bdb45ee211867830534fedd9ba:iwd/.signature
-f:cf80ac1cabd48381f8f7f782ecccf57f:iwd/Pkgfile
-f:259cf23a9c2541e82acc6ef1529148de:iwd/01-dbus.conf-remove-netdev-group.patch
-f:522c03d191657248af4aaf6df0eae481:iwd/iwd.run
-f:7381bc9b63fb6fffed2a1fc9b1a2ea1b:iwd/02-fix-name-request.patch
-f:8e6e572ac99e01bdf5ca72621f5f41f5:iwd/ead.log
 f:29dad3b5d1f412155a338f56e09c658d:soxr/.footprint
 f:f6339bab6305b3ad0d1dfa8269d36004:soxr/.signature
 f:62d3dadcb01e4f423249086583532909:soxr/Pkgfile
@@ -752,9 +733,6 @@ f:6cdc24fecc99592f883f5a3ffc8a4f3a:babl/Pkgfile
 f:d302a8e186cd5609299ddc146549871c:perl-uri/.footprint
 f:e4a4f7ce42ad7b4f9cc1b5835c834b83:perl-uri/.signature
 f:bb0790ff6102a19f72069364c72fe493:perl-uri/Pkgfile
-f:27429c7d0231f91a56639795a35e9f59:libindicator-gtk3/.footprint
-f:8619b9a8202a6f8591123f48dec42d03:libindicator-gtk3/.signature
-f:e7d3e5f2e305f731b063e31248538386:libindicator-gtk3/Pkgfile
 f:9843e771e138a4c59d25a572d29fb8c1:fetchmail/.footprint
 f:72512ef3e6c2ed9490758b6e6dff07f1:fetchmail/.signature
 f:d63a2a141ec9e09f83da96d8339c8a86:fetchmail/Pkgfile
@@ -932,12 +910,6 @@ f:4efcd84634dda24d047ebce1d4480b54:mutt/Pkgfile
 f:1ddc7a9207a0968f76e044a04a5a4cc0:asciidoctor/.footprint
 f:98d6831a0cd9a83e2069ee7f8596f827:asciidoctor/.signature
 f:b67ffbbea43eb40637eb9cce8f08e06a:asciidoctor/Pkgfile
-f:ac03deec6e23c5a7796e77e77f4d9b78:wpa_supplicant/wpa_supplicant-config
-f:5e35339584aac04496f4fafa8ecc2ac3:wpa_supplicant/.footprint
-f:92743501dd7f1bf277c2586f17dfaa79:wpa_supplicant/wpa_supplicant.run
-f:3ae13043c7d79d7158fe32e6870c846b:wpa_supplicant/.signature
-f:a49b72841235ed7557f4cec281c3a6a7:wpa_supplicant/Pkgfile
-f:d658c63a941e393b836cfbe9747d5846:wpa_supplicant/wpa_supplicant.conf
 f:7e5a69e20d90ed9480ced4e593e56fd9:imlib2/.footprint
 f:ad532c8c75efe6771170f2777c093906:imlib2/.signature
 f:12a5ddcfb5fcfd3913bd394f42028dfe:imlib2/Pkgfile
@@ -1068,9 +1040,6 @@ f:fb8eec37cf6f40d26ff7b4b7dfe2786e:mc/Pkgfile
 f:52114c03a978e8c788d3bba8688c028b:graphite2/.footprint
 f:df953a153ef5abd666d7490bd69af7a4:graphite2/.signature
 f:c2324fe638949918e6e6afbe15853ff5:graphite2/Pkgfile
-f:7351ad1bb7b759ad7618c9d9c272af51:wl-clipboard-rs/.footprint
-f:6009d4d15211b1fc0e21f2c7a7c65ab0:wl-clipboard-rs/.signature
-f:414572fadf52d539b7d5cd840c9696d5:wl-clipboard-rs/Pkgfile
 f:64b060fec7776ad7231a1845ea3ba6f0:swayimg/.footprint
 f:4d8068eac6cb7c9f2ded17d7ec1cb33a:swayimg/.signature
 f:b08ce3c0281f596e33b09f3530c44e4c:swayimg/Pkgfile
