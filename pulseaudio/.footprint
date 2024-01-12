@@ -1,7 +1,4 @@
 drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/dbus-1/
-drwxr-xr-x	root/root	etc/dbus-1/system.d/
--rw-r--r--	root/root	etc/dbus-1/system.d/pulseaudio-system.conf
 drwxr-xr-x	root/root	etc/pulse/
 -rw-r--r--	root/root	etc/pulse/client.conf
 -rw-r--r--	root/root	etc/pulse/daemon.conf
@@ -30,7 +27,6 @@ lrwxrwxrwx	root/root	usr/bin/parec -> pacat
 lrwxrwxrwx	root/root	usr/bin/parecord -> pacat
 -rwxr-xr-x	root/root	usr/bin/pasuspender
 -rwxr-xr-x	root/root	usr/bin/pulseaudio
--rwxr-xr-x	root/root	usr/bin/qpaeq
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/pulse/
 -rw-r--r--	root/root	usr/include/pulse/cdecl.h
@@ -112,14 +108,11 @@ drwxr-xr-x	root/root	usr/lib/pulseaudio/modules/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-cli.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-combine-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-combine.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-console-kit.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-dbus-protocol.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-default-device-restore.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-detect.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-device-manager.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-device-restore.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-echo-cancel.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-equalizer-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-filter-apply.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-filter-heuristics.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-gsettings.so
@@ -147,7 +140,6 @@ drwxr-xr-x	root/root	usr/lib/pulseaudio/modules/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-role-ducking.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-rtp-recv.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-rtp-send.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-rygel-media-server.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-simple-protocol-tcp.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-simple-protocol-unix.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-sine-source.so
@@ -156,7 +148,6 @@ drwxr-xr-x	root/root	usr/lib/pulseaudio/modules/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-suspend-on-idle.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-switch-on-connect.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-switch-on-port-available.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-systemd-login.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-tunnel-sink-new.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-tunnel-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/module-tunnel-source-new.so
