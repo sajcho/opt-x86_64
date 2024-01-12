@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrNe9j4igqLgWMz3VsHHiRu3ZvW62wwJCWeRfKujnf3BieC61nCz+Gd0osNxJ2MO0MuN2eYXbyGCExF//XLgosAw=
-SHA256 (Pkgfile) = 01aa25e7bad9ba9321ae2acfa3a8bd69320d0c3ad59e601254bf93f560134323
+RWRkiJhlUJEGrHP60UTPhHB2DKg7amL+zwPiXklcUmg6FvSBLL40wa13y3MEGQdSdnemULqpgkEh5y+Ogmd5HNmsLQG+2q/I0gY=
+SHA256 (Pkgfile) = 4f70f4887a318dee0fbf103865769f66deb2cd5c3ce3ed26e03343b002dedfd5
 SHA256 (.footprint) = b376152ecab390370d97415ab520f378d2ec705689d20151a1de6bf0281d880f
 SHA256 (seatd-0.8.0.tar.gz) = a562a44ee33ccb20954a1c1ec9a90ecb2db7a07ad6b18d0ac904328efbcf65a0
 SHA256 (seatd.run) = 3300d9f2c17aafd9b04a74ccca2621ea8994c96685b9d530f8e0a18be6587983
