@@ -55,7 +55,6 @@ d:speex
 d:libass
 d:yaml
 d:oniguruma
-d:waybar
 d:iso-codes
 d:libssh
 d:nodejs
@@ -101,7 +100,6 @@ d:gnutls
 d:sdl2
 d:srt
 d:python3-docutils
-d:libdbusmenu
 d:graphene
 d:cbindgen
 d:perl-xml-parser
@@ -470,9 +468,6 @@ f:e4de846fa56243feb44f1feaaf108422:yaml/Pkgfile
 f:40957a6aa041b5bca42f3934e3c7330f:oniguruma/.footprint
 f:91c8c335cec84ab4fb83ba6e0f378ee6:oniguruma/.signature
 f:b682838714181010bfef428d51faf115:oniguruma/Pkgfile
-f:4640c6180201cede02c2dce172199df8:waybar/.footprint
-f:9c2eed916db3b1e84c3aee15f5f6d6e1:waybar/.signature
-f:b2c7a9f582f90f60ed4043d4aeb743cf:waybar/Pkgfile
 f:bab1e8510a673dc09cc3200f80d1877e:iso-codes/.footprint
 f:06b4b4eb3b6f726ecbd9745621ec9a17:iso-codes/.signature
 f:cb5099258fdbbfda35b5a313de339f25:iso-codes/Pkgfile
@@ -626,9 +621,6 @@ f:f329ba6c67413624bc980ab137fe1bbc:srt/fix-cmake.patch
 f:7b692e41486fcaa68f4ebae794c69771:python3-docutils/.footprint
 f:8f49ac194148218d3a6f0ea4800e3f41:python3-docutils/.signature
 f:8655e7c8fce021215ea70b1da2759509:python3-docutils/Pkgfile
-f:d197ea5158ca31b2e753239c135a5841:libdbusmenu/.footprint
-f:354c20f46e2c96dba41f029cfcdb0767:libdbusmenu/.signature
-f:df468a96080e031ac5f896bb4494fa34:libdbusmenu/Pkgfile
 f:4bfc5127f9d65f664f502ea5e7ab9774:graphene/.footprint
 f:1783f34c2f3d6736f6020a9bbe87a64a:graphene/.signature
 f:be99d26502f30d8a90051f9da89c4259:graphene/Pkgfile
