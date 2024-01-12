@@ -160,7 +160,6 @@ d:ffmpeg
 d:lsof
 d:lrzsz
 d:libexif
-d:libproxy
 d:procmail
 d:btrfs-progs
 d:mjpegtools
@@ -490,10 +489,10 @@ f:e90b30010d4d30f4228d38e0ef3591bd:tslib/.signature
 f:d1513d4201b5297a07ec8ceb35644c65:tslib/Pkgfile
 f:c884a5dd8ca9cb3477e6c0acc446b009:pulseaudio/pulseaudio.run
 f:e5f74be27525658dae59401455944186:pulseaudio/post-install
-f:00503689963b46dad54689deefa9fe7a:pulseaudio/.footprint
-f:30027283a8ce9d3a567552f339fca590:pulseaudio/.signature
+f:4059bd9496630c6e1a52531860cd3cb2:pulseaudio/.footprint
+f:3608fa5ab37509f0d89913564ac5d0ff:pulseaudio/.signature
 f:9ccc7331c2a8c77a4bda07ef08452f58:pulseaudio/pre-install
-f:9113ccc2850cf747cdeff834f61fc863:pulseaudio/Pkgfile
+f:bc582c2b5e3d37d4de17cdaa41d18929:pulseaudio/Pkgfile
 f:bb406426f3e6425340dfb87dd694f181:pulseaudio/README
 f:4d6a164f760b59c2f0d82d0997dbdce1:cdparanoia/cdparanoia-III-10.2-gcc_fixes-1.patch
 f:a9803cc773c416697e5225dccdd67526:cdparanoia/.footprint
@@ -816,9 +815,6 @@ f:0d6b7775645d90f3ba04ff540cdc3ecb:lrzsz/Pkgfile
 f:0b22977ed831f6956dc58cd2667ca42d:libexif/.footprint
 f:3e63048820aed67facc9febf21750fdc:libexif/.signature
 f:6d1e4c542f2be8baaa03f2c59353720a:libexif/Pkgfile
-f:d62c5859c3ac50a7dd9e8d9a6e531d43:libproxy/.footprint
-f:c7f293f5265a80d27e06e1d9f82ae36a:libproxy/.signature
-f:07cd448261199896e54934ab1968a15f:libproxy/Pkgfile
 f:08ab919cc740421a054f28ce7a3eb7de:procmail/fix_memory_allocation_bug.diff
 f:6ff3fbbf6b31fe869a1312c3566eb52c:procmail/formisc.c.patch
 f:8337a75e3864026e3d17cd82646965b0:procmail/.footprint
@@ -1130,8 +1126,8 @@ f:fe9a98ed932d9e60d12f0ed9f54084cc:libptytty/.signature
 f:89b9b061099a814883af00974840de4d:libptytty/Pkgfile
 f:31d49bf1763892f906b8ba6d29417202:libnvme/doc-test.patch
 f:2b825cc4103836f11211b24c051122fc:libnvme/.footprint
-f:707897154ab76dbf36ebb5a3a021af16:libnvme/.signature
-f:cad810d150fe3fde76c1aeaa51b7259d:libnvme/Pkgfile
+f:73de037e942a85b6c9007e4668c19047:libnvme/.signature
+f:32bae9f2a663795fb9cc5a88c4547db5:libnvme/Pkgfile
 f:e2117d195a9f5ef84afa75a573564447:icu/.footprint
 f:9ecdaf012e75b83822f6d2d8d1eb038a:icu/.signature
 f:5334b47a195862dae3b057854008218d:icu/Pkgfile
