@@ -1,7 +1,9 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrCFMIWxUT9ZNkne5/JQX+P0qiiIf/ycr3BcWlouDdSozgKbBocEUCiT+g1Vn7kjTl8WiUjhPFVVm/ELNrkPCsg0=
-SHA256 (Pkgfile) = a1165c1539800faef6ea7cd3d2eb8d58f888c30a1316c0a1311cb6efffb30be3
+RWRkiJhlUJEGrNWGxIR3HxCLgGDpxUvfizDh4QYlSdTVjG6YScC7iXaYMxTQreEQCiZ4hWKzeVjGdp9vvIJl0CjzgMTCPaUWzww=
+SHA256 (Pkgfile) = 761c3f1e4ebabc99d09145a6459f3c2d20036dd063accc377b557891f95e9025
 SHA256 (.footprint) = 7a2af2fe0927fe53dc7ed7912479e37068948828d48d2f123416604952600ca6
+SHA256 (grub-2.12.tar.xz) = f3c97391f7c4eaa677a78e090c7e97e6dc47b16f655f04683ebd37bef7fe0faa
+SHA256 (extra_deps.lst) = 78d83a1c8ed69220853ac90114e0c7ea13fda00fbe6c81b1fedb1296479e62b4
 SHA256 (grub.default) = 7b64fd148590acb992bdedece051313581ea13471c5bd91066059c4cb460ae0c
 SHA256 (saux-grub-theme.tar.xz) = b7ffbc5bb0a56aca94f3a8a838e649cc54421b79a6fa5ebb17e3ccc58cade5c9
 SHA256 (unifont-15.1.01.bdf) = 62fc033e1141743b69aa6a3e67dc69f27a6200d17e290b220a7a9e21405f984e
