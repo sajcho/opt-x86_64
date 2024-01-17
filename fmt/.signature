@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrAw1mTt/hjrT4OhjmQv6ZxIzrUtlENO+wn9EiiyreK1hVC6KkCr0Nz63IfCqcahwI5A3jRtSwGnYV9vWjOYRewE=
-SHA256 (Pkgfile) = 81d6987b9e96ee9fd94feebbb17e34233eaef7a02e9ad9e37cfce0e20bffcea9
-SHA256 (.footprint) = a50a7002f6844578075c24edcfce5ca361beb218ec694cab62e7b2fab117074c
-SHA256 (fmt-10.1.1.tar.gz) = 78b8c0a72b1c35e4443a7e308df52498252d1cefc2b08c9a97bc9ee6cfe61f8b
+RWRkiJhlUJEGrOYro3SHIdH7vIEwJXlVXdIaZmwNu555ogYcK0k8E7PTLSdxutCvJKYJJWfxCbnXPwuCRuMEzNsd54AnNKlmpQk=
+SHA256 (Pkgfile) = 87d61ea8641b2fa7857fe666bb7acded934d6da5a0e0681d72235df9efa68101
+SHA256 (.footprint) = 488ad29952d33973d77b09bbc6c805884449d65d96db660f9f48e5bef6fba834
+SHA256 (fmt-10.2.1.tar.gz) = 1250e4cc58bf06ee631567523f48848dc4596133e163f02615c97f78bab6c811
