@@ -73,8 +73,8 @@ lrwxrwxrwx	root/root	usr/lib/libpulse-simple.so -> libpulse-simple.so.0
 lrwxrwxrwx	root/root	usr/lib/libpulse-simple.so.0 -> libpulse-simple.so.0.1.1
 -rwxr-xr-x	root/root	usr/lib/libpulse-simple.so.0.1.1
 lrwxrwxrwx	root/root	usr/lib/libpulse.so -> libpulse.so.0
-lrwxrwxrwx	root/root	usr/lib/libpulse.so.0 -> libpulse.so.0.24.2
--rwxr-xr-x	root/root	usr/lib/libpulse.so.0.24.2
+lrwxrwxrwx	root/root	usr/lib/libpulse.so.0 -> libpulse.so.0.24.3
+-rwxr-xr-x	root/root	usr/lib/libpulse.so.0.24.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libpulse-mainloop-glib.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libpulse-simple.pc
@@ -82,8 +82,8 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/lib/pulse/
 -rwxr-xr-x	root/root	usr/lib/pulse/gsettings-helper
 drwxr-xr-x	root/root	usr/lib/pulseaudio/
--rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecommon-16.1.so
--rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecore-16.1.so
+-rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecommon-17.0.so
+-rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecore-17.0.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsedsp.so
 drwxr-xr-x	root/root	usr/lib/pulseaudio/modules/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/modules/libalsa-util.so
@@ -231,6 +231,7 @@ drwxr-xr-x	root/root	usr/share/pulseaudio/alsa-mixer/paths/
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-stereo.conf
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/paths/virtual-surround-7.1.conf
 drwxr-xr-x	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/
+-rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/asus-xonar-se.conf
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/audigy.conf
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/cmedia-high-speed-true-hdaudio.conf
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf

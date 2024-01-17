@@ -4,8 +4,8 @@
 # Depends on:	fftw glib libasyncns orc sbc soxr speexdsp
 
 name=pulseaudio
-version=16.1
-release=5
+version=17.0
+release=1
 source=(https://freedesktop.org/software/${name}/releases/${name}-${version}.tar.xz \
 	pulseaudio.run)
 
