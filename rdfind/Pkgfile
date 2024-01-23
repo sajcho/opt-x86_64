@@ -1,0 +1,22 @@
+# Description:	Redundant data find - a program that finds duplicate files
+# URL:		http://rdfind.pauldreik.se
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	nettle
+
+name=rdfind
+version=1.6.0
+release=1
+source=(https://rdfind.pauldreik.se/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./bootstrap.sh
+
+	./configure \
+		--prefix=/usr
+
+	make V=1
+
+	make DESTDIR=$PKG install
+}
