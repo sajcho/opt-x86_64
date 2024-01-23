@@ -52,6 +52,7 @@ d:libasyncns
 d:speex
 d:libass
 d:yaml
+d:rdfind
 d:oniguruma
 d:iso-codes
 d:libssh
@@ -160,6 +161,7 @@ d:ffmpeg
 d:lsof
 d:lrzsz
 d:libexif
+d:os-prober
 d:procmail
 d:btrfs-progs
 d:mjpegtools
@@ -249,6 +251,7 @@ d:libnvme
 d:icu
 d:greetd
 d:xdg-user-dirs
+d:linux-firmware
 d:aom
 d:fdk-aac
 f:d736d2be8fe0d430ab92a2ddeb1ac902:unixodbc/.footprint
@@ -449,6 +452,9 @@ f:de5c3f918883cb2827762368883ef026:libass/Pkgfile
 f:cb3e1030187e55d3b4667c1609e87697:yaml/.footprint
 f:ae55156a28ab576a664a73ddb0841572:yaml/.signature
 f:e4de846fa56243feb44f1feaaf108422:yaml/Pkgfile
+f:198263d6e5c112c633907784cc183103:rdfind/.footprint
+f:df57625aa6dada1ebc831cf1e6bd2acf:rdfind/.signature
+f:3601efd2a3469797bd96e82cd0c3ffd6:rdfind/Pkgfile
 f:40957a6aa041b5bca42f3934e3c7330f:oniguruma/.footprint
 f:91c8c335cec84ab4fb83ba6e0f378ee6:oniguruma/.signature
 f:b682838714181010bfef428d51faf115:oniguruma/Pkgfile
@@ -814,6 +820,14 @@ f:0d6b7775645d90f3ba04ff540cdc3ecb:lrzsz/Pkgfile
 f:0b22977ed831f6956dc58cd2667ca42d:libexif/.footprint
 f:3e63048820aed67facc9febf21750fdc:libexif/.signature
 f:6d1e4c542f2be8baaa03f2c59353720a:libexif/Pkgfile
+f:e8a5174de93fd4f311fb77376005625e:os-prober/os-prober-1.79-btrfs-subvolume-detection.patch
+f:cad2f71105426129229ca6662b5bdcf1:os-prober/os-prober-1.79-mounted-boot-partition-fix.patch
+f:f8c7e2449b2016c1c88fadebf103e553:os-prober/os-prober-1.79-fix-busy-umount-message.patch
+f:d6df03373d469831e56e08af65866c89:os-prober/.footprint
+f:5706d3a64a557913c67e7d7d981a62e6:os-prober/.signature
+f:8eec445840aca5503463ff5244850e61:os-prober/Pkgfile
+f:870e86fbdf2b08530cb95b431c27dea2:os-prober/os-prober-1.79-efi-chroot-blkid-fallback.patch
+f:447a5f191f4cd79f2ff419560740219c:os-prober/os-prober-1.79-use-fstab-name.patch
 f:08ab919cc740421a054f28ce7a3eb7de:procmail/fix_memory_allocation_bug.diff
 f:6ff3fbbf6b31fe869a1312c3566eb52c:procmail/formisc.c.patch
 f:8337a75e3864026e3d17cd82646965b0:procmail/.footprint
@@ -903,8 +917,8 @@ f:7e5a69e20d90ed9480ced4e593e56fd9:imlib2/.footprint
 f:ad532c8c75efe6771170f2777c093906:imlib2/.signature
 f:12a5ddcfb5fcfd3913bd394f42028dfe:imlib2/Pkgfile
 f:8c548635b6b6e04ef05b3bcca82bb071:rust-bindgen/.footprint
-f:1b34cf45226cc143eb29fac4a1d2e5d8:rust-bindgen/.signature
-f:716baa229e9113df4a21a79e6afd0d05:rust-bindgen/Pkgfile
+f:6addaab48b34932ebe5cfb708a706ef7:rust-bindgen/.signature
+f:55b12ea47c84dcf08a37b8ff298a29db:rust-bindgen/Pkgfile
 f:1a8b91e11605b24a638bcca7ceb636ee:hunspell/.footprint
 f:8d501ec64657e107d55f899e13ac3abd:hunspell/.signature
 f:a789c337cc687106f9734e5ed00c88d2:hunspell/Pkgfile
@@ -1139,6 +1153,10 @@ f:00ef4e1a9c70bc9dcac1be71c31f1230:greetd/greetd.pam
 f:b1569c88467151b0d96ad272bf875dea:xdg-user-dirs/.footprint
 f:dea84c0955d77e475357c6ac5a5ce45a:xdg-user-dirs/.signature
 f:4cb5724bbb4542be4e14404e1f2c44a0:xdg-user-dirs/Pkgfile
+f:174d6913a56af939eacfaeff127f216b:linux-firmware/.nostrip
+f:4e58227d7f7d12c5e488c9eb9d0c57e2:linux-firmware/.footprint
+f:534a3ea4f3b4cc53c33fb200c0e04a44:linux-firmware/.signature
+f:3ebd222d3f3189219b35ee26b95c5bfb:linux-firmware/Pkgfile
 f:81e4180ce21a0d8e57efba5cd0e7d4e3:aom/.footprint
 f:ad66602e0d5d705524941e64c8e4316f:aom/.signature
 f:014b76d375982c5eec550ab8e10f5021:aom/Pkgfile
