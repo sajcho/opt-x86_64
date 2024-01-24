@@ -1,6 +1,0 @@
-untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrKsba2r6KQgdQMsERHa+RSfdnUZSLXYm7CaI/gOW5yj1e9pd/UfmgMKTrr/3rkOOko+YyHyiZ+54lIDqpTXCKgM=
-SHA256 (Pkgfile) = f4d3ca9f693fc17d049d0cb4a0bbf950cb5041dfd8d9239cc3941316651a4368
-SHA256 (refind-src-0.13.3.1.tar.gz) = 7a3e3f0f81bd4ae95f24e120f44e01319231f488fef7cc8bf03a1aea23c6cfd1
-SHA256 (01-missing-always-inline.patch) = 9abdac280a5c1624eec5a781cb2348c974fabf06fdd427e4c1f9cf4c210922b5
-SHA256 (10-refind-disable-fortify.patch) = 177f5757218171818333be500776501bc6c19809d6b1a8a4841b496179bec509
