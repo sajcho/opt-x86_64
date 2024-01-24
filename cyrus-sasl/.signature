@@ -1,7 +1,0 @@
-untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrNqeX2AEZ/OCtgpJFXoKnQONu+m6u75fk0FKkx8WGWHlLSo1xX1XVp2GmM2QTaxUq4zoIexEhY3oCPN/PMRFsAg=
-SHA256 (Pkgfile) = 2880eb1e3aa8301d1b1e1b5c87b78eae8709b651f74fdf3e08bfe1276ca1b294
-SHA256 (.footprint) = a9cab9d5f55b904342432d659be31b9b889061a93f99db9e2a2698b6a31ea445
-SHA256 (cyrus-sasl-2.1.28.tar.gz) = 7ccfc6abd01ed67c1a0924b353e526f1b766b21f42d4562ee635a8ebfc5bb38c
-SHA256 (saslauthd-sv.conf) = 44aa8b4758c59455b1605929648657a57fa4dbb45168cceda908d7157c883153
-SHA256 (saslauthd.run) = 4025fb19c6396525cd7afd7ee207953ae5b2fc947c5bf90af9faa34d643f6605
