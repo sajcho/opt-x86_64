@@ -1,7 +1,7 @@
 # Description:	Sound sample rate conversion library.
 # URL:		https://libsndfile.github.io/libsamplerate/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cmake fftw libsndfile samurai
+# Depends on:	cmake fftw libsndfile
 
 name=libsamplerate
 version=0.2.2
