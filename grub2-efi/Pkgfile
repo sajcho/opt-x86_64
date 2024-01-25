@@ -1,7 +1,7 @@
 # Description:	GNU GRand Unified Bootloader (2)
 # URL:		https://www.gnu.org/software/grub/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	efibootmgr freetype fuse3 gettext git help2man libdevmapper python3 texinfo xz
+# Depends on:	efibootmgr freetype fuse3 git help2man libdevmapper texinfo
 
 name=grub2-efi
 _realname=grub
