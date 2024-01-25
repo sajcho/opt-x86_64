@@ -83,7 +83,6 @@ d:libtheora
 d:babl
 d:perl-uri
 d:lm-sensors
-d:cairomm16
 d:enca
 d:glib
 d:llvm-toolchain
@@ -447,9 +446,6 @@ f:7eaabe24e8aa1dcdab10d17693f12f75:lm-sensors/.footprint
 f:c8c47976b6130acc213f275f3185d46e:lm-sensors/.signature
 f:cb248bae1ff814f1932f5779c496367a:lm-sensors/Pkgfile
 f:c78da831c375e0c2d8d187dc4fabd272:lm-sensors/README
-f:58cb2524ccfc600eaca7bdc68d4c35cd:cairomm16/.footprint
-f:e6200347e3ac9022333ac327ec02124a:cairomm16/.signature
-f:c13999c9b93ef0374608bfd99a61a05a:cairomm16/Pkgfile
 f:d4e204209bccffea4dcc1aec62d4cadf:enca/enca-bad-file-descriptor.patch
 f:8acfa16b629095235b8b9a25330853d4:enca/.footprint
 f:4d075849421fcb7d413c58920a024e29:enca/.signature
