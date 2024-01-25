@@ -1,7 +1,7 @@
 # Description:	Common C routines used by Gtk+ and other libs
 # URL:		https://developer.gnome.org/glib/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libpcre2 meson util-linux
+# Depends on:	libpcre2 util-linux
 
 name=glib
 version=2.78.4
