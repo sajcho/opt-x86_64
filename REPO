@@ -80,7 +80,6 @@ d:imagemagick
 d:libvisual
 d:libsass
 d:libtheora
-d:babl
 d:perl-uri
 d:lm-sensors
 d:enca
@@ -436,9 +435,6 @@ f:33e330f333e242cf2590e8013f1beba8:libsass/Pkgfile
 f:94a58c67e2f1c595743b90cb90e1963c:libtheora/.footprint
 f:7f4b8f1be77749c3b98d7b7803a34aff:libtheora/.signature
 f:a456b2ae37b7f0433dd5133cc277596c:libtheora/Pkgfile
-f:79c1c055d829bf6e4c091206046c42d7:babl/.footprint
-f:db02b0f27debb2a172c7f8466862b6e8:babl/.signature
-f:6cdc24fecc99592f883f5a3ffc8a4f3a:babl/Pkgfile
 f:d302a8e186cd5609299ddc146549871c:perl-uri/.footprint
 f:e4a4f7ce42ad7b4f9cc1b5835c834b83:perl-uri/.signature
 f:bb0790ff6102a19f72069364c72fe493:perl-uri/Pkgfile
