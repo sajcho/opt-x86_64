@@ -4,9 +4,9 @@
 # Depends on:	cmake nasm
 
 name=libjpeg-turbo
-version=3.0.1
+version=3.0.2
 release=1
-source=(http://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
+source=(https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
