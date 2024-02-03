@@ -337,9 +337,9 @@ f:bf2e0511a44f08127dd76276bcf9f5c6:wireless-regdb/Pkgfile
 f:8baf07fc62338a1023a2a4d5203273bb:libxslt/.footprint
 f:2a4dc764e5bc05b6a7982c1d8855b17f:libxslt/.signature
 f:42e1d1bb349c61c46ad506007f2e69bd:libxslt/Pkgfile
-f:9c3e7221db89db68b4a63d3c1a353647:efivar/.footprint
-f:361b69fa12383f001c9a53ffd85da8e2:efivar/.signature
-f:b67a27a365c6b55b5b1dd36deefc2c3f:efivar/Pkgfile
+f:5387ad06a1dc0774320b4482f95580be:efivar/.footprint
+f:dd519b23156b58045388ff13a9d3de71:efivar/.signature
+f:307dfcf14a50ae6c7068a4ee5fbc37a6:efivar/Pkgfile
 f:842cc46f8dac08b5f97f2924201a5aa2:opus/arm32.patch
 f:374070b50c8244a68857f578120ebd5d:opus/.footprint
 f:64dca8225c73c58856afbca0a1921ec6:opus/.signature
