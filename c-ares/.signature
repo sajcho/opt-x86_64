@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrC3RfgWBc0d7riyZxol80ptZsjqppxDwcZ6BZYpexuo5Uqp0eJnK8FOZTzIGd0p8qU7VZ+kqvcUXSH0TxficQgI=
-SHA256 (Pkgfile) = 9695834ce50e49e370b35960c15e57ac97a778afe79b7aa9ee915547f2a84848
-SHA256 (.footprint) = 3e2f6f6b0a9b8f8c8280b2c88625d51a155f1c1ddc3990d1def241a50eaf3edd
-SHA256 (c-ares-1.25.0.tar.gz) = 71832b93a48f5ff579c505f4869120c14e57b783275367207f1a98314aa724e5
+RWRkiJhlUJEGrL9+v1RhnKeWRCemig8Vpt8izCa/puiV7QDkYX9euJy1BFoM8zPfj4oKMZdu6UrKrPnjab9q6PbefPe5/D4JVQE=
+SHA256 (Pkgfile) = 06caf0608513dafd975f4799e8cb40f8a35fb8de4f310642ea611238988ab58f
+SHA256 (.footprint) = 5dc719d310c52a383a6183ed3e3ec7eb0fc246e37771ace6cd9232e98ebdbeef
+SHA256 (c-ares-1.26.0.tar.gz) = bed58c4f02b009080ebda6c2467ba469722ac6aebbf4497dc44a83d8c6194e50
