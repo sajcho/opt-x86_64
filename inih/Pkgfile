@@ -4,7 +4,7 @@
 # Depends on:	meson
 
 name=inih
-version=57
+version=58
 release=1
 source=(https://github.com/benhoyt/${name}/archive/r${version}/${name}-${version}.tar.gz)
 
