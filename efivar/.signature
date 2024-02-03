@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrJRqilDzKNehYtSvvv6gsbjMaAYmJHG5DPaLuQgPVyAB5ClPVWbjFU/Fw1Ooe7qlCay7ys7oEJn1Owwh495OqAk=
-SHA256 (Pkgfile) = 5d20c7d79ed9394896caa2a9525dd9bae73418a41ec9f5f4706e010cce489768
-SHA256 (.footprint) = 4d6084117a11231abe7ebb2948468cd50b96595968bdde40de52b65c8ad269e8
-SHA256 (efivar-38.tar.bz2) = f018ed6e49c5f1c16d336d9fd7687ce87023276591921db1e49a314ad6515349
+RWRkiJhlUJEGrJkeS/Ym/c0odugSrs2xd2vDbzNVGOZx/dyUABwK8cv81o0BuvtYyxg0tP67GeCVoXIErjUob35nxrhpABVadA4=
+SHA256 (Pkgfile) = e643829090719774c0c91875eb1e3fb2c468ca8f02a5cfde6e7e8e6d9b3cea5b
+SHA256 (.footprint) = cda25328607e977632487a52459e8c0627171d2d565cf152bbf429bf1acd095e
+SHA256 (efivar-39.tar.gz) = c9edd15f2eeeea63232f3e669a48e992c7be9aff57ee22672ac31f5eca1609a6
