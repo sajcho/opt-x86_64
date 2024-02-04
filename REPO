@@ -692,7 +692,7 @@ f:221d3c5c66280c24017636318506003c:yasm/.signature
 f:204f8f7989f616e06e28ce0313b1a7f3:yasm/fix-memory-using-gas-processor.patch
 f:8201f396c7577219987845f9da6a4923:yasm/Pkgfile
 f:e2117d195a9f5ef84afa75a573564447:icu/.footprint
-f:9ecdaf012e75b83822f6d2d8d1eb038a:icu/.signature
+f:e71a2265c89e4051cde72e4ecd3eac76:icu/.signature
 f:5334b47a195862dae3b057854008218d:icu/Pkgfile
 f:3bf548825196650ea2e3a62679262610:icu/README
 f:b1569c88467151b0d96ad272bf875dea:xdg-user-dirs/.footprint
