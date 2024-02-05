@@ -1,5 +1,5 @@
 #!/bin/sh
 exec 2>&1
 set -e
-alsactl restore
+alsactl -U restore
 exec chpst -b alsa pause
