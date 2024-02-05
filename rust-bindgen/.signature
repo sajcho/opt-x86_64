@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrM4IMVBqxUp0CYyRr9SrmfxkpLgeauDq2eCTLck8dE6rRW8Ady6OtnWVXHaAqLvuRpZRVq58tQX+E3DIgRV1pwY=
-SHA256 (Pkgfile) = aaa763c7c9eacc0f1100780d72e24eeb85b306e0598099c85dc89f18daad3fb5
+RWRkiJhlUJEGrAaqRI9CemmmH9DHOvQXAE/Vntp8nQkzA1Rp+XwN+7P+rEDNjKCr0uFEcdl6+nEiqu7bCXONGET5ij/pZg6fRgk=
+SHA256 (Pkgfile) = 803873c1fd47475fe8b44a62846f188018251654ebc4f03b3c06cede3b6a9797
 SHA256 (.footprint) = 1662dbff2de9322f2626322d56660c935d19188a9072045946af4a44c3ac3b13
-SHA256 (rust-bindgen-0.69.2.tar.gz) = 78fbb8bd100e145d1effc982eaab21b555ccc3fc1cbe6e734f17cdfe5c33af32
+SHA256 (rust-bindgen-0.69.4.tar.gz) = c02ce18b95c4e5021b95b8b461e5dbe6178edffc52a5f555cbca35b910559b5e
