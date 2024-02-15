@@ -382,9 +382,9 @@ f:868306a4f039e4f8de938257325f2b4d:translate-shell/Pkgfile
 f:3cdc3efa9ead2b6297520d45f1372b34:libtasn1/.footprint
 f:6bc3be7a057c603fbb8fc3bd56646db9:libtasn1/.signature
 f:2489301fe4e5c71aad9dac934018969e:libtasn1/Pkgfile
-f:e6359a094ec88d2aeb3600e46f09fe55:orc/.footprint
-f:c9c201ea1e7533b80177e892baa94f10:orc/.signature
-f:afe61aca70e71772c791cba1359e00cc:orc/Pkgfile
+f:d0dc9f76b52b136c5c800226c65e4bdd:orc/.footprint
+f:384b4982538c64ed370d3e28fc871d10:orc/.signature
+f:bce51b7baac8cecb793e6dec9f414142:orc/Pkgfile
 f:b263c7541c07728cf9a94c9fb949735d:gobject-introspection/.footprint
 f:195933557a2c341a56641cb62e404a02:gobject-introspection/.signature
 f:d76ba26508fbd2914b20618c247a2a07:gobject-introspection/Pkgfile
@@ -423,8 +423,8 @@ f:5d4838d1f3798bced7bfcdb08f04192a:sbc/.footprint
 f:ca22bcab056bd2bc761c27eba23caf41:sbc/.signature
 f:296019fc8ea5df44fd477d3de000961e:sbc/Pkgfile
 f:59ec4e66886d0eff6f5efdfa4ae1fe62:imagemagick/.footprint
-f:b0d1dbc7d1787ea7492e00329edd6146:imagemagick/.signature
-f:c30c4e376ae4f03d86e812cafb14e1e7:imagemagick/Pkgfile
+f:20769133d7426cf12612618ddaaf27f1:imagemagick/.signature
+f:1cf249d703ae7934489248ddb5d75f9b:imagemagick/Pkgfile
 f:d7af0e3de91c0dacfb2bbc2f7e3cdd56:libvisual/.footprint
 f:2855d2d1e297ebd0e3347df98c5001bc:libvisual/.signature
 f:bfa65b48af83e2c0499c7e7e298bea8a:libvisual/Pkgfile
@@ -678,10 +678,10 @@ f:100e5686ab15fcbcd16c7ab52226c2c5:nfs-utils/Pkgfile
 f:ed41f310f39a6697ff3c8f89faa889d2:nfs-utils/rpcsvcgssd.run
 f:4ca7cdd25e6fb920e201e473e23fda03:nfs-utils/rpcgssd.run
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
-f:be861c565e3f5462adb87888d0d486eb:rust/.footprint
-f:7c44e0e489d201057fc3e3983b0c2579:rust/.signature
+f:5d749f37f81279d15ef2471c11838cb1:rust/.footprint
+f:3912285f676943ffeda78b75eba2a2a2:rust/.signature
 f:382ba54edb3c0c96b923f7d14b54ff94:rust/0002-tool.rs-change-dir-libexec-to-lib.patch
-f:3d950f9f986ddc1f9ac35ea0f3d08194:rust/Pkgfile
+f:6a2f7830b6ce97e0ee7e48c15acf2dc2:rust/Pkgfile
 f:8570861063b945ec436ad79503051634:rust/README
 f:446f2b8a3e4b6e780af8a70c6f441e5b:rust/0001-dist.rs-change-dir-libexec-to-lib.patch
 f:23597c500f768a1e0d91d27185e46c32:popt/.footprint
