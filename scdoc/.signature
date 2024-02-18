@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrJt8Go27UyCNYNdVJhjDeRjnOm08avhT7El6qBLFmQzGfHuQezQfepCgf+ImE/ueJVLUDPdr1cagJ5E0O7KNYgM=
-SHA256 (Pkgfile) = ad842866540a3603515c09f9089392191507b815536eaa00b2b8b5e590a90998
+RWRkiJhlUJEGrIyUnbEXpc4ysikyumh+Tb9+kiwkUA2LWZQDNOXezbiRnewumwDWgERpi6diUTqPn4dwENlHCWPMNbEbQnewrQ0=
+SHA256 (Pkgfile) = aa0f5e2dd82fb847a7f6f8cedfd233155ea52ffc0ad685c85b753fc1418fb7e2
 SHA256 (.footprint) = 5245fbbe08eff185aa40a44693cbb7fd360d6ebf28d099d5e91b35576d91aa10
-SHA256 (scdoc-1.11.2.tar.gz) = e9ff9981b5854301789a6778ee64ef1f6d1e5f4829a9dd3e58a9a63eacc2e6f0
+SHA256 (scdoc-1.11.3.tar.gz) = 4c5c6136540384e5455b250f768e7ca11b03fdba1a8efc2341ee0f1111e57612
