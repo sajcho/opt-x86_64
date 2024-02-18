@@ -4,7 +4,7 @@
 # Depends on:	cmake inih
 
 name=exiv2
-version=0.28.1
+version=0.28.2
 release=1
 source=(https://github.com/Exiv2/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
