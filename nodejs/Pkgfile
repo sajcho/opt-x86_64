@@ -4,7 +4,7 @@
 # Depends on:	brotli c-ares icu
 
 name=nodejs
-version=21.6.1
+version=21.6.2
 release=1
 source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
 
