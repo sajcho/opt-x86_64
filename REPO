@@ -292,8 +292,8 @@ f:c8dc927df59cccb56c293f958c67fb27:libssh/.footprint
 f:27906fa6e699e7ec3d76077dd274053e:libssh/.signature
 f:c64ebb7bf171475c04138de7fdbe7c47:libssh/Pkgfile
 f:8e3e133575e9820900e5cff14e75ec6c:nodejs/.footprint
-f:e4588dc1b5604e2d3e8463d6449e56c7:nodejs/.signature
-f:4d81abe37af86fee74c285330f5a17c9:nodejs/Pkgfile
+f:981788b8fb45ac356d829214fb11d33c:nodejs/.signature
+f:eb2d93695bd7a5ee0bbca9dbbbf19328:nodejs/Pkgfile
 f:0a4ff1a49b94567ca211ff8e78164cf4:wireless-tools/.footprint
 f:b6053751d5c7e11cd039493d851dcfe5:wireless-tools/.signature
 f:b13a9c8682772e47589816d19aaf7e13:wireless-tools/Pkgfile
@@ -463,9 +463,9 @@ f:a9be0a283a8be2cc0ccb6fdcebbb4ff5:seatd/seatd.run
 f:f5e6076ea87ca5218d8db7e53eeabc3c:libgcrypt/.footprint
 f:9059c6dfed8d53efdec74e140ef79aa8:libgcrypt/.signature
 f:6e497f89d1984efb2f392c2ccdb3b08f:libgcrypt/Pkgfile
-f:29634aa2c71edb5df366765d32b9fd63:exiv2/.footprint
-f:45c8835c18284da47c4503191228774a:exiv2/.signature
-f:5b25fdf5c32b14aeed654f5025793197:exiv2/Pkgfile
+f:e8dd04905614c2ec78d3bf1cb5c86ba0:exiv2/.footprint
+f:b540751b08189a38843701f52d8027c7:exiv2/.signature
+f:299b4d3a41eb4b14f60c5415bca38ab4:exiv2/Pkgfile
 f:0dcb45d3e7af1d028a0c42ca11a893a2:fmt/.footprint
 f:e8895cb9435e5cc8e0e2d1c6441fa13a:fmt/.signature
 f:988dbefe874938da120e4cb61462f797:fmt/Pkgfile
@@ -507,8 +507,8 @@ f:43a2cd215b7ffdbe783d63a79d4ab031:mjpegtools/.footprint
 f:a5e9d7a366365212a5f8fd06a599671d:mjpegtools/.signature
 f:856a9c4ca00edb3f22b890b08ec0c8eb:mjpegtools/Pkgfile
 f:f6552b1ea673bcfc2584d4c7050244f9:scdoc/.footprint
-f:ad9b60c61ed7c4edd21bfdcddee24743:scdoc/.signature
-f:b26ac02e70819f5bcc3fb523b5b54a9d:scdoc/Pkgfile
+f:7cecfc82430d4d543b1e236c2a97b8bf:scdoc/.signature
+f:abae6e32076514343e6f6c2196d35d06:scdoc/Pkgfile
 f:691ffda8a1a2960cd92da75086753be1:chrpath/.footprint
 f:7ab5b2a52f4fa8700e9ebf5b771563d4:chrpath/.signature
 f:2b96d87c08fbcc2adecda1740199818f:chrpath/Pkgfile
@@ -525,8 +525,8 @@ f:5237fa573f55c00fa59b12a43d528b9c:libksba/.footprint
 f:7d19e32c55bdb8a6ec7a938e153e8901:libksba/.signature
 f:d7e7b52ec0cade7cff4fc44a21437ab8:libksba/Pkgfile
 f:811492fb9ad3f215497e33933ea0aa07:dav1d/.footprint
-f:e45f7310c3419747d76e3b37fcbfc057:dav1d/.signature
-f:e6b892b0a0c6480d65f55f668ad9fdaf:dav1d/Pkgfile
+f:ab8502a683c19596f1f332da7ed30878:dav1d/.signature
+f:a4e2befef9ba8815193a14092b0b66e2:dav1d/Pkgfile
 f:03e29f29294455ec5556b61e01e80072:libsigc++2/.footprint
 f:dda80e40024aba22a7762ebd99db4934:libsigc++2/.signature
 f:bb1cd9362713a9b9d1d389aa85741f9e:libsigc++2/Pkgfile
