@@ -5,22 +5,33 @@
 
 name=zip
 version=3.0
-release=1
+release=2
 source=(http://downloads.sourceforge.net/sourceforge/infozip/${name}${version//./}.tar.gz \
-	10-zip-3.0-build.patch \
-	20-zip-3.0-exec-stack.patch \
-	30-zip-3.0-pic.patch \
-	40-fix-zipnote.patch)
+	buffer_overflow.patch \
+	man.patch \
+	zip-3.0-currdir.patch \
+	zip-3.0-exec-shield.patch \
+	zip-3.0-format-security.patch \
+	zip-3.0-time.patch \
+	zip-gnu89-build.patch \
+	zipnote.patch)
 
 build() {
 	cd ${name}${version//./}
 
-	patch -p1 -i $SRC/10-zip-3.0-build.patch
-	patch -p1 -i $SRC/20-zip-3.0-exec-stack.patch
-	patch -p1 -i $SRC/30-zip-3.0-pic.patch
-	patch -p1 -i $SRC/40-fix-zipnote.patch
+	# from fedora
+	patch -p1 -i $SRC/buffer_overflow.patch
+	patch -p1 -i $SRC/man.patch
+	patch -p1 -i $SRC/zip-3.0-currdir.patch
+	patch -p1 -i $SRC/zip-3.0-exec-shield.patch
+	patch -p1 -i $SRC/zip-3.0-format-security.patch
+	patch -p1 -i $SRC/zip-3.0-time.patch
+	patch -p1 -i $SRC/zip-gnu89-build.patch
+	patch -p1 -i $SRC/zipnote.patch
 
-	make V=1 -f unix/Makefile LOCAL_ZIP="$CFLAGS" prefix=/usr generic
+	CFLAGS+=" -Wno-stringop-overflow"
+
+	make V=1 -f unix/Makefile prefix=/usr "CFLAGS_NOOPT=-I. -DUNIX $CFLAGS" generic_gcc
 
 	make -f unix/Makefile INSTALL=install prefix=$PKG/usr MANDIR=$PKG/usr/share/man/man1 install
 }

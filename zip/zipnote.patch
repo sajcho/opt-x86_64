@@ -1,5 +1,3 @@
-Fixes zipnote, see https://gitlab.alpinelinux.org/alpine/aports/issues/8602
-
 diff --git a/zipnote.c b/zipnote.c
 index 5e02cb6..996f012 100644
 --- a/zipnote.c
