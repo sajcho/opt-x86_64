@@ -4,8 +4,8 @@
 # Depends on:	glibc
 
 name=libgpg-error
-version=1.47
-release=2
+version=1.48
+release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
 build() {
