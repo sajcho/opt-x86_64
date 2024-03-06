@@ -4,7 +4,7 @@
 # Depends on:	bison libpcre2
 
 name=swig
-version=4.2.0
+version=4.2.1
 release=1
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
 
