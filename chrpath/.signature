@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrC4yJysNhgXU32p45qsDLdzhqNjRppCKVGU+wi2OuoD7q9dSYzQyM1zq5MUzOY2fxbJYrkzfDEr5L9T2RL6z3wI=
+RWRkiJhlUJEGrH3O16vl9kVHmU7r7EPZdwx2gUgxOTGIoEKoeN0g+xYi3L2tQhfKwiErpSYPM9cZSJ51hFJ8UT9KsUUJWOpmIgk=
 SHA256 (Pkgfile) = 9a99d4ab311b00fa54d7ee5f9cc87fdefc8b8929d78934524305555c888550ce
 SHA256 (.footprint) = 63bf775cb82da089e4f0bd8e323b033d906ac04eab1858e2a603855d440ea955
-SHA256 (chrpath-0.17.tar.gz) = 199444d0831553c31e4655ad0e87bd825d650f2011f109dbfeddb38eca0b4356
+SHA256 (chrpath-0.17.tar.gz) = 4a1dacc91f4eaf1c8c3f767fd881eb1fe3a509a20d0628bf9760d90ac124bd0c
