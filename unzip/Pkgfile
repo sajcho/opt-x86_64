@@ -4,36 +4,84 @@
 
 name=unzip
 version=6.0
-release=1
+release=2
 source=(http://downloads.sourceforge.net/sourceforge/infozip/${name}${version//./}.tar.gz \
-	unzip-6.0-overflow.patch unzip-6.0-attribs-overflow.patch \
-	unzip-6.0-heap-overflow-infloop.patch \
+	0001-Fix-CVE-2016-9844-rhbz-1404283.patch \
+	unzip-6.0-alt-iconv-utf8.patch \
+	unzip-6.0-alt-iconv-utf8-print.patch \
+	unzip-6.0-attribs-overflow.patch \
+	unzip-6.0-bzip2-configure.patch \
+	unzip-6.0-close.patch \
+	unzip-6.0-configure.patch \
+	unzip-6.0-COVSCAN-fix-unterminated-string.patch \
 	unzip-6.0-cve-2014-8139.patch \
 	unzip-6.0-cve-2014-8140.patch \
 	unzip-6.0-cve-2014-8141.patch \
-	0001-Fix-CVE-2016-9844-rhbz-1404283.patch \
 	unzip-6.0-cve-2018-1000035-heap-based-overflow.patch \
-	unzip-6.0-alt-iconv-utf8-print.patch)
+	unzip-6.0-exec-shield.patch \
+	unzip-6.0-fix-recmatch.patch \
+	unzip-6.0-format-secure.patch \
+	unzip-6.0-heap-overflow-infloop.patch \
+	unzip-6.0-manpage-fix.patch \
+	unzip-6.0-overflow-long-fsize.patch \
+	unzip-6.0-overflow.patch \
+	unzip-6.0-symlink.patch \
+	unzip-6.0-timestamp.patch \
+	unzip-6.0-valgrind.patch \
+	unzip-6.0-wcstombs-fortify.patch \
+	unzip-6.0-x-option.patch \
+	unzip-gnu89-build.patch \
+	unzip-zipbomb-manpage.patch \
+	unzip-zipbomb-part1.patch \
+	unzip-zipbomb-part2.patch \
+	unzip-zipbomb-part3.patch \
+	unzip-zipbomb-part4.patch \
+	unzip-zipbomb-part5.patch \
+	unzip-zipbomb-part6.patch \
+	unzip-zipbomb-switch.patch)
 
 build() {
 	cd ${name}${version//./}
 
-	patch -p1 -i $SRC/unzip-6.0-overflow.patch
+	# from fedora
+	patch -p1 -i $SRC/0001-Fix-CVE-2016-9844-rhbz-1404283.patch
+	patch -p1 -i $SRC/unzip-6.0-alt-iconv-utf8.patch
+	patch -p1 -i $SRC/unzip-6.0-alt-iconv-utf8-print.patch
 	patch -p1 -i $SRC/unzip-6.0-attribs-overflow.patch
-	patch -p1 -i $SRC/unzip-6.0-heap-overflow-infloop.patch
+	patch -p1 -i $SRC/unzip-6.0-bzip2-configure.patch
+	patch -p1 -i $SRC/unzip-6.0-close.patch
+	patch -p1 -i $SRC/unzip-6.0-configure.patch
+	patch -p1 -i $SRC/unzip-6.0-COVSCAN-fix-unterminated-string.patch
 	patch -p1 -i $SRC/unzip-6.0-cve-2014-8139.patch
 	patch -p1 -i $SRC/unzip-6.0-cve-2014-8140.patch
 	patch -p1 -i $SRC/unzip-6.0-cve-2014-8141.patch
-	patch -p1 -i $SRC/0001-Fix-CVE-2016-9844-rhbz-1404283.patch
 	patch -p1 -i $SRC/unzip-6.0-cve-2018-1000035-heap-based-overflow.patch
-	patch -p1 -i $SRC/unzip-6.0-alt-iconv-utf8-print.patch
-
-	sed -i 's/-O3/-O2/' unix/configure
+	patch -p1 -i $SRC/unzip-6.0-exec-shield.patch
+	patch -p1 -i $SRC/unzip-6.0-fix-recmatch.patch
+	patch -p1 -i $SRC/unzip-6.0-format-secure.patch
+	patch -p1 -i $SRC/unzip-6.0-heap-overflow-infloop.patch
+	patch -p1 -i $SRC/unzip-6.0-manpage-fix.patch
+	patch -p1 -i $SRC/unzip-6.0-overflow-long-fsize.patch
+	patch -p1 -i $SRC/unzip-6.0-overflow.patch
+	patch -p1 -i $SRC/unzip-6.0-symlink.patch
+	patch -p1 -i $SRC/unzip-6.0-timestamp.patch
+	patch -p1 -i $SRC/unzip-6.0-valgrind.patch
+	patch -p1 -i $SRC/unzip-6.0-wcstombs-fortify.patch
+	patch -p1 -i $SRC/unzip-6.0-x-option.patch
+	patch -p1 -i $SRC/unzip-gnu89-build.patch
+	patch -p1 -i $SRC/unzip-zipbomb-manpage.patch
+	patch -p1 -i $SRC/unzip-zipbomb-part1.patch
+	patch -p1 -i $SRC/unzip-zipbomb-part2.patch
+	patch -p1 -i $SRC/unzip-zipbomb-part3.patch
+	patch -p1 -i $SRC/unzip-zipbomb-part4.patch
+	patch -p1 -i $SRC/unzip-zipbomb-part5.patch
+	patch -p1 -i $SRC/unzip-zipbomb-part6.patch
+	patch -p1 -i $SRC/unzip-zipbomb-switch.patch
 
 	make -f unix/Makefile \
 		CC="$CHOST-gcc" \
-		LOCAL_UNZIP="$CFLAGS $CPPFLAGS -DNO_LCHMOD" \
-		prefix=/usr generic
+		CF_NOOPT="-I. -DUNIX $CFLAGS -DNOMEMCPY -DIZ_HAVE_UXUIDGID -DNO_LCHMOD" \
+		prefix=/usr generic_gcc
 
 	make -f unix/Makefile \
 		prefix=$PKG/usr \

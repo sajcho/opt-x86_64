@@ -15,7 +15,7 @@ index a0a4929..9ef80b3 100644
          return IZ_EF_TRUNC;               /* no compressed data! */
  
 +    method = makeword(eb + (EB_HEADSIZE + compr_offset));
-+    if ((method == STORED) && (eb_size - compr_offset != eb_ucsize))
++    if ((method == STORED) && (eb_size != compr_offset + EB_CMPRHEADLEN + eb_ucsize))
 +        return PK_ERR;            /* compressed & uncompressed
 +                                   * should match in STORED
 +                                   * method */
@@ -23,5 +23,3 @@ index a0a4929..9ef80b3 100644
      if (
  #ifdef INT_16BIT
          (((ulg)(extent)eb_ucsize) != eb_ucsize) ||
-
-
