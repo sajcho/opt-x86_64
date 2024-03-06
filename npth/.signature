@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrMFwNYYw8peJ9w5IhAX7MUqtd6em/RWGWzt2GscIqaZD8z+zmpw22TerIm2pCc2cgnDJi9imwG28mQP67z+pUAY=
-SHA256 (Pkgfile) = fbf7ee20fd6d1dddb98dfc2cf413fb0dae1c36fbeeb45cdd3b046b555ed8169c
-SHA256 (.footprint) = 07bc1b7f4acd324e4f70ce626ba96a095c050150ff66c97dcbd1aa9fbb7dd7b1
-SHA256 (npth-1.6.tar.bz2) = 1393abd9adcf0762d34798dc34fdcf4d0d22a8410721e76f1e3afcd1daa4e2d1
+RWRkiJhlUJEGrEy4ltwFDctw8EhmCoThuYt8fDFbbzbRXIbERQZKHWU5mVCdGHn9dQ7bARTJLry0axuTKq5Z+rXxOpop2SmQ2AA=
+SHA256 (Pkgfile) = 46a7814e953b14a6e7a1cf39c50e6e3b9b974cfc73150d259c87f8f0fdf0f3cc
+SHA256 (.footprint) = 166a762cf84d5e1be6dde316b2b97f235600f5c44efa5d9d61940fca01ab96a2
+SHA256 (npth-1.7.tar.bz2) = 8589f56937b75ce33b28d312fccbf302b3b71ec3f3945fde6aaa74027914ad05
