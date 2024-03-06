@@ -4,17 +4,23 @@
 # Depends on:	zlib
 
 name=libpng
-version=1.6.42
+version=1.6.43
 release=1
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz \
-	${name}-apng.patch)
+	${name}-${version}-apng.patch \
+	${name}-fix-arm-neon.patch)
 
 build() {
 	cd ${name}-${version}
 
-	patch -p1 -i $SRC/${name}-apng.patch
+	patch -p1 -i $SRC/${name}-${version}-apng.patch
+	patch -p1 -i $SRC/${name}-fix-arm-neon.patch
+
+	autoreconf -fiv
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--disable-static
 
