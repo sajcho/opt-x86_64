@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrGikJJQCeqWZoABerV+pfgOMF12TjxH8Rm+caQZq248cMK/d2dCdV5mo2Odl9tCd4kyWpnypDmiKyS6v92d23gs=
-SHA256 (Pkgfile) = ef611504c47ef9d8c445d66f10f03d9c7b285da78f19021cc69ca188b3ca1d74
+RWRkiJhlUJEGrDRSq9FPvdrDIdQ+Sp3aHW34nxY5vLQ9e7LGVePJ3hfJG7TeYSNWCgn19VwyoLmwm4CfXyC92LnvL4oZNEG/Hws=
+SHA256 (Pkgfile) = 197dbb575cadfa61391f250b086b7ca0e75e17ce12cd5cefdeb15de8083c7b50
 SHA256 (.footprint) = 6612e8ef9d3af2becfa944097613df636a4eef29c9e6d5c4803e8ffad477fa1f
-SHA256 (node-v21.6.2.tar.xz) = 191294d445d1e6800359acc8174529b1e18e102147dc5f596030d3dce96931e5
+SHA256 (node-v22.0.0-nightly20240304b34512e38e.tar.xz) = 364d03bcd0c3fdedd2c7efa087fcf6711e2c84e605e15ab4054ca85a95ade3b9

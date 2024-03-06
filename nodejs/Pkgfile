@@ -4,9 +4,9 @@
 # Depends on:	brotli c-ares icu
 
 name=nodejs
-version=21.6.2
+version=22.0.0-nightly20240304b34512e38e
 release=1
-source=(https://nodejs.org/dist/v${version}/node-v${version}.tar.xz)
+source=(https://nodejs.org/download/nightly/v22.0.0-nightly20240304b34512e38e/node-v22.0.0-nightly20240304b34512e38e.tar.xz)
 
 build() {
 	cd node-v${version}
