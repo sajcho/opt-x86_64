@@ -679,8 +679,8 @@ f:45ea3623a7a74b23d2fde9a1c4c02df2:lcms2/.footprint
 f:1ace1023844865869f56846ae62dd6cd:lcms2/.signature
 f:c3dbdcb95d7b7001c1553ce59d65d2dd:lcms2/Pkgfile
 f:c87dab800d4396d43311d836e58ec20b:hwdata/.footprint
-f:4733f99b0f8088d5e2ce9c4b35d96555:hwdata/.signature
-f:15dfed4d6b6b275e9fdc9ad84484e3c9:hwdata/Pkgfile
+f:3ef0c31f53554fa5927a2c2f776091f7:hwdata/.signature
+f:290faba7e6bd2c680a52d64658bf5871:hwdata/Pkgfile
 f:1690704de94997b08e079ccef035f540:freetype/0002-Enable-subpixel-rendering.patch
 f:b2967f3a0407e87e02c1bce459d70515:freetype/.footprint
 f:7a38778779e423d4550b9b30cf04c47b:freetype/.signature
