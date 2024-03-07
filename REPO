@@ -322,8 +322,8 @@ f:c8dc927df59cccb56c293f958c67fb27:libssh/.footprint
 f:27906fa6e699e7ec3d76077dd274053e:libssh/.signature
 f:c64ebb7bf171475c04138de7fdbe7c47:libssh/Pkgfile
 f:8e3e133575e9820900e5cff14e75ec6c:nodejs/.footprint
-f:e20e0e2821e9e9d61334de8c2e3fb7c8:nodejs/.signature
-f:615886793e80ec705a8b16153f2071ee:nodejs/Pkgfile
+f:803777f98f0644ab833a0320e7dee09f:nodejs/.signature
+f:261c1c147926acaac234085ba2f82b65:nodejs/Pkgfile
 f:0a4ff1a49b94567ca211ff8e78164cf4:wireless-tools/.footprint
 f:b6053751d5c7e11cd039493d851dcfe5:wireless-tools/.signature
 f:b13a9c8682772e47589816d19aaf7e13:wireless-tools/Pkgfile
@@ -370,10 +370,9 @@ f:42e1d1bb349c61c46ad506007f2e69bd:libxslt/Pkgfile
 f:5387ad06a1dc0774320b4482f95580be:efivar/.footprint
 f:dd519b23156b58045388ff13a9d3de71:efivar/.signature
 f:307dfcf14a50ae6c7068a4ee5fbc37a6:efivar/Pkgfile
-f:842cc46f8dac08b5f97f2924201a5aa2:opus/arm32.patch
-f:374070b50c8244a68857f578120ebd5d:opus/.footprint
-f:64dca8225c73c58856afbca0a1921ec6:opus/.signature
-f:cdce26d0477cd66d7901925f3e8541bc:opus/Pkgfile
+f:4c62cd6dd29374e3d3c3628ad38576ac:opus/.footprint
+f:c972fd8fe3959bc092e2af07a1dccdc1:opus/.signature
+f:df060bad87a4ec7128041a696edc181b:opus/Pkgfile
 f:431c6b28d0d1effbce50bfe769f02b23:libzip/.footprint
 f:9aa2f475abcaac14198f3a75805b7fbc:libzip/.signature
 f:8f7226e1a22da72a5886b7ae6126c583:libzip/Pkgfile
