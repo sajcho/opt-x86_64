@@ -4,12 +4,13 @@
 # Depends on:	brotli c-ares icu
 
 name=nodejs
-version=22.0.0-nightly20240304b34512e38e
+_realname=node
+version=21.7.0
 release=1
-source=(https://nodejs.org/download/nightly/v22.0.0-nightly20240304b34512e38e/node-v22.0.0-nightly20240304b34512e38e.tar.xz)
+source=(https://nodejs.org/download/release/v${version}/${_realname}-v${version}.tar.xz)
 
 build() {
-	cd node-v${version}
+	cd ${_realname}-v${version}
 
 	# Use -flto=auto to use GNU make’s job server, if available,
 	# or otherwise fall back to autodetection of the number
