@@ -3,18 +3,18 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=opus
-version=1.4
-release=2
-source=(https://github.com/xiph/${name}/releases/download/v${version}/${name}-${version}.tar.gz \
-	arm32.patch)
+version=1.5.1
+release=1
+source=(https://downloads.xiph.org/releases/opus/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	patch -p1 -i $SRC/arm32.patch
-
 	build-meson \
 		-Dcustom-modes=true \
+		-Denable-deep-plc=true \
+		-Denable-dred=true \
+		-Denable-osce=true \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -C build
