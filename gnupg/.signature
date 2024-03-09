@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrKBw6UiO/hawIuN8e8O1Ruu5uTc8l1ma99y8/cYI7g3tRVI5BpT7jUXutoBgAWPRmHtyBlWRl6OiRUm1l1lxIQ0=
-SHA256 (Pkgfile) = ed0b21d9f62ab5e4b7ef2e1a1adfe235d9c944632fb188de2e5fe379aeec70b2
+RWRkiJhlUJEGrP4V+SAZJFAMS+/5J7t96IcXsiBwimDdotY5cco1SEVuz94jVReFpDFERjNF+PuaXYaEflm8Tq4G/Rj/+ETPZwQ=
+SHA256 (Pkgfile) = 7f668bdb3e1452583fef26ef2d4619b41e85a0170cdea60b7d498168cc29032e
 SHA256 (.footprint) = 97250a14297ddb70e97f9deac2ebf3d7cfb2406322c0040a446279e2fdfd5c69
-SHA256 (gnupg-2.4.4.tar.bz2) = 67ebe016ca90fa7688ce67a387ebd82c6261e95897db7b23df24ff335be85bc6
+SHA256 (gnupg-2.4.5.tar.bz2) = f68f7d75d06cb1635c336d34d844af97436c3f64ea14bcb7c869782f96f44277
