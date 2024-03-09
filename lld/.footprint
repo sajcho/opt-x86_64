@@ -29,15 +29,15 @@ drwxr-xr-x	root/root	usr/lib/cmake/lld/
 -rw-r--r--	root/root	usr/lib/cmake/lld/LLDConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/lld/LLDTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/lld/LLDTargets.cmake
-lrwxrwxrwx	root/root	usr/lib/liblldCOFF.so -> liblldCOFF.so.17
--rwxr-xr-x	root/root	usr/lib/liblldCOFF.so.17
-lrwxrwxrwx	root/root	usr/lib/liblldCommon.so -> liblldCommon.so.17
--rwxr-xr-x	root/root	usr/lib/liblldCommon.so.17
-lrwxrwxrwx	root/root	usr/lib/liblldELF.so -> liblldELF.so.17
--rwxr-xr-x	root/root	usr/lib/liblldELF.so.17
-lrwxrwxrwx	root/root	usr/lib/liblldMachO.so -> liblldMachO.so.17
--rwxr-xr-x	root/root	usr/lib/liblldMachO.so.17
-lrwxrwxrwx	root/root	usr/lib/liblldMinGW.so -> liblldMinGW.so.17
--rwxr-xr-x	root/root	usr/lib/liblldMinGW.so.17
-lrwxrwxrwx	root/root	usr/lib/liblldWasm.so -> liblldWasm.so.17
--rwxr-xr-x	root/root	usr/lib/liblldWasm.so.17
+lrwxrwxrwx	root/root	usr/lib/liblldCOFF.so -> liblldCOFF.so.18.1
+-rwxr-xr-x	root/root	usr/lib/liblldCOFF.so.18.1
+lrwxrwxrwx	root/root	usr/lib/liblldCommon.so -> liblldCommon.so.18.1
+-rwxr-xr-x	root/root	usr/lib/liblldCommon.so.18.1
+lrwxrwxrwx	root/root	usr/lib/liblldELF.so -> liblldELF.so.18.1
+-rwxr-xr-x	root/root	usr/lib/liblldELF.so.18.1
+lrwxrwxrwx	root/root	usr/lib/liblldMachO.so -> liblldMachO.so.18.1
+-rwxr-xr-x	root/root	usr/lib/liblldMachO.so.18.1
+lrwxrwxrwx	root/root	usr/lib/liblldMinGW.so -> liblldMinGW.so.18.1
+-rwxr-xr-x	root/root	usr/lib/liblldMinGW.so.18.1
+lrwxrwxrwx	root/root	usr/lib/liblldWasm.so -> liblldWasm.so.18.1
+-rwxr-xr-x	root/root	usr/lib/liblldWasm.so.18.1
