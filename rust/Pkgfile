@@ -5,13 +5,12 @@
 
 name=rust
 _realname=rustc
-version=1.76.0
-release=2
+version=1.77.0
+release=1
 
 source=(https://static.rust-lang.org/dist/${_realname}-${version}-src.tar.xz \
 	0001-dist.rs-change-dir-libexec-to-lib.patch \
-	0002-tool.rs-change-dir-libexec-to-lib.patch \
-	llvm18.patch)
+	0002-tool.rs-change-dir-libexec-to-lib.patch)
 
 build() {
 	cd ${_realname}-${version}-src
@@ -24,14 +23,13 @@ build() {
 	# use /usr/lib instead of /usr/libexec
 	patch -p1 -i $SRC/0001-dist.rs-change-dir-libexec-to-lib.patch
 	patch -p1 -i $SRC/0002-tool.rs-change-dir-libexec-to-lib.patch
-	patch -p1 -i $SRC/llvm18.patch
 
 	# Remove bundled dependencies.
 	rm -rf src/llvm-project/*
 	install -d src/llvm-project/libunwind
 
 cat <<- EOF > $SRC/config.toml
-	change-id = 118703
+	change-id = 102579
 	profile = "user"
 
 	[llvm]
@@ -54,11 +52,12 @@ cat <<- EOF > $SRC/config.toml
 	target = ["$CHOST"]
 	verbose = 0
 	extended = true
+	locked-deps = true
+	sanitizers = true
 	vendor = true
 	docs = false
+	optimized-compiler-builtins = false
 	profiler = false
-	sanitizers = true
-	locked-deps = true
 	python = "/usr/bin/python3"
 	cargo = "/usr/bin/cargo"
 	rustc = "/usr/bin/rustc"
@@ -96,9 +95,8 @@ EOF
 	rm -r $PKG/usr/share/doc
 	rm -r $PKG/usr/share/zsh
 	rm $PKG/usr/lib/rustlib/{components,install.log,manifest-*,rust-installer-version,uninstall.sh}
-	rm $PKG/usr/lib/{libstd-*,libtest-*}
 
 	ln -srft $PKG/usr/lib $PKG/usr/lib/rustlib/$CHOST/lib/*.so
 
-	find $PKG -type f -name 'README.md' -delete
+	find $PKG -type f -name '*.md' -or -name 'LICENSE-*' | xargs rm
 }
