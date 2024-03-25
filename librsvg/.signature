@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrAw5JDWb7iivmfvYIt+HzjJdsMBIaEcyQ5Q8m25L/abZrybLTfzmQJBD8hfVERDazMFcrjBSKK/ewdtajKtAlAE=
-SHA256 (Pkgfile) = 0214b6283ab9791d34f4a2fc9947fce1f6a382b3f4d82f8694bdc86eaab566d9
-SHA256 (.footprint) = f93766af78ca7ec6a59d8de887d7c62bdf619be3ba5b3039ffa024cffc0dd9a8
-SHA256 (librsvg-2.57.1.tar.xz) = 074671a3ed6fbcd67cae2a40e539107f4f097ca8a4ab1a894c05e2524ff340ef
+RWRkiJhlUJEGrH2xQr8TcJ8aeg7aWGwdGbT4Uo2JQiZmRlArtghmnCW2pv/16e/QWV71rWA91zSbGFUiL9h+kBTgq1VdKC+P1wM=
+SHA256 (Pkgfile) = c504f6fe20addcf3364c71ea0563b4214f906af64c9e6492267e1df79cc744c1
+SHA256 (.footprint) = d2cfe5e462e8e935b267f4b52313f2947c300323b8bef3786d567f6c708caf88
+SHA256 (librsvg-2.58.0.tar.xz) = d7c444a926406b59790be0deae196e18ed26059da573fa1aa9ec9ca7658a559c
