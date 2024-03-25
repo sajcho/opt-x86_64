@@ -1,0 +1,19 @@
+# Description:	General-purpose programming language designed for robustness, optimality, and maintainability
+# URL:		https://ziglang.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=zig-bin
+_realname=zig
+version=0.11.0
+release=1
+source=(https://ziglang.org/download/0.11.0/zig-linux-x86_64-0.11.0.tar.xz)
+
+build() {
+	cd ${_realname}-linux-x86_64-${version}
+
+	install -d $PKG/usr/{bin,lib/zig}
+	cp zig $PKG/usr/bin/
+	cp -r lib/* $PKG/usr/lib/zig/
+
+	rm -r $PKG/usr/lib/zig/docs
+}
