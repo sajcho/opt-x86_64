@@ -4,7 +4,7 @@
 # Depends on:	libidn2 libseccomp nettle p11-kit
 
 name=gnutls
-version=3.8.3
+version=3.8.4
 release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/v3.8/${name}-${version}.tar.xz)
 
