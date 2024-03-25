@@ -58,6 +58,7 @@ drwxr-xr-x	root/root	usr/lib/gnuefi/apps/
 -rw-r--r--	root/root	usr/lib/gnuefi/apps/AllocPages.efi
 -rw-r--r--	root/root	usr/lib/gnuefi/apps/FreePages.efi
 -rw-r--r--	root/root	usr/lib/gnuefi/apps/bltgrid.efi
+-rw-r--r--	root/root	usr/lib/gnuefi/apps/ctors_dtors_priority_test.efi
 -rw-r--r--	root/root	usr/lib/gnuefi/apps/ctors_test.efi
 -rw-r--r--	root/root	usr/lib/gnuefi/apps/debughook.efi
 -rw-r--r--	root/root	usr/lib/gnuefi/apps/debughook.efi.debug
