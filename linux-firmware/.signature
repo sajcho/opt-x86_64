@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrJP2fyGQhmVclZxIdh44aP7NkHgYlflaSLx7LXw1NsBDolzhbvOLAFaeFEnwEQvlyMMWJTsRY4zuWTWCRjbu4g4=
-SHA256 (Pkgfile) = 49fc50807a7f4b1239302ce31a25d4003a8a79b8d700201aa5b3d4d4d7c7a4ac
-SHA256 (.footprint) = 9704439d8b5266613ad0a72ef1989a70729432b3fbec6b0bdc25ea7b02893ac2
-SHA256 (linux-firmware-20240115.tar.gz) = 86c2799516c9dc24e73214bd58ccd8297356186e97c5458baf4eb7cc8dbfea0a
+RWRkiJhlUJEGrAFTA9otukb2O7x/vkyhGEzTbUd72IuetVA0SoRCp7iPwQ03UwlNP/r/2lvy+h2vLISTKXwoCndFXCgl9HYzfw0=
+SHA256 (Pkgfile) = 75a25bce881683ab968464bc6b448dfde2eb3da5791e3cffeb219a0b241c9a85
+SHA256 (.footprint) = 4d33723ad39ea4f71e145ef3da8fa955b4314ece4c7b568c7a3f24db509d3031
+SHA256 (linux-firmware-20240312.tar.gz) = 89cbac35d1bd21ebf64936d764ccd01d4e0b6cde973e3b940f8ad2bac9086ec8
