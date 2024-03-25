@@ -1,0 +1,28 @@
+# Description:	Lightweight C++ command line option parser as a header only library
+# URL:		https://github.com/jarro2783/cxxopts
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake samurai
+
+name=cxxopts
+version=3.1.1
+release=1
+source=(https://github.com/jarro2783/cxxopts/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE="None" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DCXXOPTS_BUILD_TESTS=OFF \
+		-Wno-dev
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
