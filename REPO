@@ -737,8 +737,8 @@ f:41f65843bc87d4edad6884f527761ef5:cxxopts/.footprint
 f:bd8de8857c67769ad85a8aab3f37fde3:cxxopts/.signature
 f:dd7fa87d8dea6ca851b4d633ddeb98ca:cxxopts/Pkgfile
 f:e2117d195a9f5ef84afa75a573564447:icu/.footprint
-f:e71a2265c89e4051cde72e4ecd3eac76:icu/.signature
-f:5334b47a195862dae3b057854008218d:icu/Pkgfile
+f:7406be31ed89acd2ef8efaeed839fe4c:icu/.signature
+f:d0c7150c3180c50f58b34dc84a9012ee:icu/Pkgfile
 f:3bf548825196650ea2e3a62679262610:icu/README
 f:b1569c88467151b0d96ad272bf875dea:xdg-user-dirs/.footprint
 f:dea84c0955d77e475357c6ac5a5ce45a:xdg-user-dirs/.signature
