@@ -5,7 +5,7 @@
 
 name=libisoburn
 version=1.5.6
-release=1
+release=2
 source=(https://files.libburnia-project.org/releases/${name}-${version}.tar.gz)
 
 build() {
@@ -29,6 +29,7 @@ build() {
 	ln -s xorriso $PKG/usr/bin/mkisofs
 
 	rm $PKG/usr/bin/xorriso-tcltk
+	rm -r $PKG/usr/share/info
 
 	find $PKG -type f -name '*.la' -delete
 }
