@@ -5,8 +5,8 @@
 
 name=python3-docutils
 _realname=docutils
-version=0.20.1
-release=2
+version=0.21.1
+release=1
 source=(https://files.pythonhosted.org/packages/source/d/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
@@ -24,10 +24,6 @@ build() {
 		--no-index \
 		--isolated \
 		--root=$PKG
-
-	for f in $PKG/usr/bin/rst*.py; do
-		ln -svf $(basename $f) $PKG/usr/bin/$(basename $f .py)
-	done
 
 	rm -rf $PKG/usr/bin/__pycache__
 }
