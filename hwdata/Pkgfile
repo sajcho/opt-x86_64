@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=hwdata
-version=0.380
+version=0.381
 release=1
 source=(https://github.com/vcrhonek/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
