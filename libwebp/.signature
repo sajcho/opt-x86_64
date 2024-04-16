@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrDLfeXhRsnnwoJbKekruM9EpCPV7qoff8u1NHRk+QFcnHw3WdMOcF1tjIqfkjbkclgWHIg+/GSlxPluP6/U5bwk=
-SHA256 (Pkgfile) = 8f967791661a9e920f756b24905f1a8aa3d0acc3d16a0ac2d34822f123c7b5a1
-SHA256 (.footprint) = 0c526f3fdff6757120d197e8cfd51ed6ee59b704103e49082c34f6a4b56e5c8e
-SHA256 (libwebp-1.3.2.tar.gz) = 2a499607df669e40258e53d0ade8035ba4ec0175244869d1025d460562aa09b4
+RWRkiJhlUJEGrO7+yEgH6BIs8Ltbk9AY/fit7VxVQWqeCbAENEveyYzv60T0wlZfvQBuyvgo/2iFs8CRmTQdr6dXdtzbqoHxZAU=
+SHA256 (Pkgfile) = 65f75b97a6958e48af43921d5f4f1c7e25d7ddabd6a47ab474859eab5afaa7f7
+SHA256 (.footprint) = 2501177ede6f48b75715f37b601c221d4c5be75eaedc3565fee8b45219b30c41
+SHA256 (libwebp-1.4.0.tar.gz) = 61f873ec69e3be1b99535634340d5bde750b2e4447caa1db9f61be3fd49ab1e5
