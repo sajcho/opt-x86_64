@@ -3,7 +3,7 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=opus
-version=1.5.1
+version=1.5.2
 release=1
 source=(https://downloads.xiph.org/releases/opus/${name}-${version}.tar.gz)
 
@@ -12,9 +12,7 @@ build() {
 
 	build-meson \
 		-Dcustom-modes=true \
-		-Denable-deep-plc=true \
-		-Denable-dred=true \
-		-Denable-osce=true \
+		-Dtests=disabled \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -C build
