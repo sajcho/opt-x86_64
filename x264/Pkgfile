@@ -1,33 +1,50 @@
-# Description:	Free library for encoding H264/AVC video streams.
-# URL:		http://www.videolan.org/developers/x264.html
+# Description:	Library for encoding H264/AVC video streams (snapshot).
+# URL:		https://www.videolan.org/developers/x264.html
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	l-smash nasm
+# Depends on:	nasm
 
 name=x264
-version=0.164.x.20221005
-_commit=b093bbe7d9bc642c8f24067cbdcc73bb43562eab
-# commit 05 Oct, 2022
+version=0.164.7ed753b
 release=1
-source=(https://code.videolan.org/videolan/${name}/-/archive/${_commit}/${name}-${_commit}.tar.bz2)
+_commit=7ed753b10a61d0be95f683289dfb925b800b0676
+source=(https://code.videolan.org/videolan/x264/-/archive/${_commit}/${name}-${_commit}.tar.bz2)
 
 build() {
-	cd ${name}-${_commit}
+	cp -al ${name}-${_commit} $name-10
 
-	./version.sh | grep X264_POINTVER | sed -r 's/^#define X264_POINTVER "([0-9]+\.[0-9]+)\.([0-9]+) (.*)"$/\1.r\2.\3/'
+	cd ${name}-10
 
 	./configure \
-		--host=$CHOST \
 		--prefix=/usr \
-		--system-libx264 \
-		--enable-shared \
-		--enable-lto \
+		--host=$CHOST \
+		--libdir=/usr/lib/libx264-10bit \
+		--includedir=/usr/lib/libx264-10bit/include \
 		--enable-pic \
-		--bit-depth=all
+		--enable-shared \
+		--bit-depth='10' \
+		--disable-cli \
+		--disable-interlaced \
+		--disable-asm \
+		--extra-cflags="$CFLAGS"
 
 	make V=1
 
-	make DESTDIR=$PKG \
-		bindir=/usr/bin \
-		libdir=/usr/lib \
-		includedir=/usr/include install
+	make DESTDIR=$PKG install-lib-shared
+
+	cd $SRC/${name}-${_commit}
+		./configure \
+		--host=$CHOST \
+		--prefix=/usr \
+		--enable-pic \
+		--enable-shared \
+		--bit-depth='8' \
+		--disable-cli \
+		--disable-asm \
+		--extra-cflags="$CFLAGS"
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	chmod a-x $PKG/usr/lib/*.so $PKG/usr/lib/libx264-10bit/*.so
 }
