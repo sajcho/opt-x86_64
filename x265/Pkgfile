@@ -4,18 +4,14 @@
 # Depends on:	cmake nasm
 
 name=x265
-version=3.5
-release=3
+version=3.6
+release=1
 source=(https://bitbucket.org/multicoreware/${name}_git/downloads/${name}_${version}.tar.gz)
 
 build() {
-	# fix build for aarch64
-	sed 's| -mfloat-abi=hard -mfpu=neon -marm||' \
-		-i $SRC/${name}_${version}/source/CMakeLists.txt
-	sed 's| -mfloat-abi=hard -mfpu=neon -marm||' \
-		-i $SRC/${name}_${version}/source/dynamicHDR10/CMakeLists.txt
+	cd $SRC
 
-	cmake -S x265_3.5/source -B build-12 \
+	cmake -S x265_3.6/source -B build-12 \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DHIGH_BIT_DEPTH=TRUE \
@@ -23,35 +19,36 @@ build() {
 		-DEXPORT_C_API=FALSE \
 		-DENABLE_CLI=FALSE \
 		-DENABLE_SHARED=FALSE \
-		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
 		-DENABLE_ASSEMBLY=OFF \
 		-Wno-dev
 
 	make ${JOBS:+-j ${JOBS}} VERBOSE=1 -C build-12
 
-	cmake -S x265_3.5/source -B build-10 \
+	cmake -S x265_3.6/source -B build-10 \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DHIGH_BIT_DEPTH=TRUE \
 		-DEXPORT_C_API=FALSE \
 		-DENABLE_CLI=FALSE \
 		-DENABLE_SHARED=FALSE \
-		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
 		-DENABLE_ASSEMBLY=OFF \
 		-Wno-dev
 
 	make ${JOBS:+-j ${JOBS}} VERBOSE=1 -C build-10
 
-	cmake -S x265_3.5/source -B build \
+	cmake -S x265_3.6/source -B build \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DENABLE_SHARED=TRUE \
 		-DENABLE_HDR10_PLUS=TRUE \
+		-DENABLE_CLI=FALSE \
 		-DEXTRA_LIB='x265_main10.a;x265_main12.a' \
 		-DEXTRA_LINK_FLAGS='-L .' \
 		-DLINKED_10BIT=TRUE \
 		-DLINKED_12BIT=TRUE \
-		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wno-restrict -Wno-format-overflow -Wno-unused-result" \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
 		-DENABLE_ASSEMBLY=OFF \
 		-Wno-dev
 
