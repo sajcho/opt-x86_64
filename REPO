@@ -488,9 +488,9 @@ f:ebd1ee90e4f81e6c6cc03c29ab8b6bea:glib/gschemas.compiled
 f:96db8e78df8d52dcd06ee20d46cc568d:glib/.signature
 f:7e6e9ae24caf6034388b435ce32803c6:glib/Pkgfile
 f:08b95225e98724a67fb2c765acea8ef9:glib/deprecated-no-warn.patch
-f:e023af5a723b5bff2e3ddddbf4fb14cc:llvm-toolchain/.footprint
-f:d1b9d66e532fe64a98b0dd760df93056:llvm-toolchain/.signature
-f:1ae8dffbcbfdd4a90728f82141e0a37e:llvm-toolchain/Pkgfile
+f:ec68e66fcf9515e2568570f9c9a291a2:llvm-toolchain/.footprint
+f:ec85f963620ff60d906c8ad996413fad:llvm-toolchain/.signature
+f:2563e411b5ad36d5be5f8750c522fe5f:llvm-toolchain/Pkgfile
 f:3a56a4e09450a4bc9e2a6d17478f8679:llvm-toolchain/README
 f:f8a4b148ef021871742364d63887004d:seatd/.footprint
 f:ad0cd89a417b7477de845f6d03028280:seatd/.signature
@@ -705,8 +705,8 @@ f:f6e16f618c6c8fcbc89d1f0c7a7302d9:spdlog/.footprint
 f:3ec82900f03b56ff3c86f9ff614ea05e:spdlog/.signature
 f:3a3b89abe864eedf751e63c2f614a955:spdlog/Pkgfile
 f:e942ebcafc3d7099a2e417c305bed664:lld/.footprint
-f:11f25e3d252e463fa656e7a2c9813624:lld/.signature
-f:a4dbba37ef230613f4b95791a7c0afbc:lld/Pkgfile
+f:42c8f1a11b0b10275b800850c4e243f1:lld/.signature
+f:160228d4d8002bbc667233db6981aba8:lld/Pkgfile
 f:3f3972e3357a6414034d4a5825397f8a:nfs-utils/start-statd
 f:970a684d9a6fc41b23737fd7bdade3e7:nfs-utils/nfs-server.run
 f:23ee8945ead986056b2373a2cc411323:nfs-utils/rpcblkmapd.run
@@ -721,10 +721,10 @@ f:100e5686ab15fcbcd16c7ab52226c2c5:nfs-utils/Pkgfile
 f:ed41f310f39a6697ff3c8f89faa889d2:nfs-utils/rpcsvcgssd.run
 f:4ca7cdd25e6fb920e201e473e23fda03:nfs-utils/rpcgssd.run
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
-f:04ee03d282856ea7876a9eb61c8f3e88:rust/.footprint
-f:e4e005934a02516a98b7d6cbf4226e7f:rust/.signature
+f:3f33e5201dbe73e80e91f72c9b449c61:rust/.footprint
+f:51830838f3caa4ef874ae0d754fc2a4b:rust/.signature
 f:382ba54edb3c0c96b923f7d14b54ff94:rust/0002-tool.rs-change-dir-libexec-to-lib.patch
-f:ecc2173a834fc95e04dc994b6a2f6150:rust/Pkgfile
+f:6635d1cabeaa2c2150c8a231156c29d2:rust/Pkgfile
 f:446f2b8a3e4b6e780af8a70c6f441e5b:rust/0001-dist.rs-change-dir-libexec-to-lib.patch
 f:23597c500f768a1e0d91d27185e46c32:popt/.footprint
 f:6838f0a1be73bfe1ecef8e9a742571e3:popt/.signature
