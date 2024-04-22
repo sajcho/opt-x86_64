@@ -4,8 +4,8 @@
 # Depends on:	icu python3
 
 name=boost
-version=1.84.0
-_pkgversion=1_84_0
+version=1.85.0
+_pkgversion=1_85_0
 release=1
 source=(https://boostorg.jfrog.io/artifactory/main/release/${version}/source/${name}_${_pkgversion//./_}.tar.bz2)
 
