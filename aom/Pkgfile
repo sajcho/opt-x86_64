@@ -5,7 +5,7 @@
 
 name=aom
 _realname=libaom
-version=3.8.2
+version=3.9.0
 release=1
 source=(https://storage.googleapis.com/aom-releases/${_realname}-${version}.tar.gz)
 
