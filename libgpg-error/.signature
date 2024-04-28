@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrDg4SengSTQ+I7MxtqbEkps3AQkrpu/cfhcuL/pifqMdL0/W6lT23DBzzOlUt9zOpG4TjszL6ngOP12tdiDbQgk=
-SHA256 (Pkgfile) = 6bc3356c3731c78be5edadc5774c852cf6f9c394cf22b1f1fe31f520399cc8e6
-SHA256 (.footprint) = 946cda4dec4af5af8598b0d29a6b7ce828e685b31d55a00b229fdf051558c833
-SHA256 (libgpg-error-1.48.tar.bz2) = 89ce1ae893e122924b858de84dc4f67aae29ffa610ebf668d5aa539045663d6f
+RWRkiJhlUJEGrIJyTK4eTxD5eZKxJnfHyXJGSQFyljwtfWrT4HcWfrl7GFwBFl4/8/XA0TzCnutuaK1hYfGbLYjkiAVNVyZ3KAw=
+SHA256 (Pkgfile) = 4f6db836793e43b51cb3f9e3a2db534b24258f2010a1eaf935d09a87ff4b2d1e
+SHA256 (.footprint) = eeb5dd042b87e7c0cc2653aab606912f5d4b6cfb910ac10398e29fec1413041f
+SHA256 (libgpg-error-1.49.tar.bz2) = 8b79d54639dbf4abc08b5406fb2f37e669a2dec091dd024fb87dd367131c63a9
