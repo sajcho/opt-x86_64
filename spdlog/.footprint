@@ -52,6 +52,7 @@ drwxr-xr-x	root/root	usr/include/spdlog/fmt/
 -rw-r--r--	root/root	usr/include/spdlog/fwd.h
 -rw-r--r--	root/root	usr/include/spdlog/logger-inl.h
 -rw-r--r--	root/root	usr/include/spdlog/logger.h
+-rw-r--r--	root/root	usr/include/spdlog/mdc.h
 -rw-r--r--	root/root	usr/include/spdlog/pattern_formatter-inl.h
 -rw-r--r--	root/root	usr/include/spdlog/pattern_formatter.h
 drwxr-xr-x	root/root	usr/include/spdlog/sinks/
@@ -101,8 +102,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/spdlog/
 -rw-r--r--	root/root	usr/lib/cmake/spdlog/spdlogConfigTargets-none.cmake
 -rw-r--r--	root/root	usr/lib/cmake/spdlog/spdlogConfigTargets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/spdlog/spdlogConfigVersion.cmake
-lrwxrwxrwx	root/root	usr/lib/libspdlog.so -> libspdlog.so.1.13
-lrwxrwxrwx	root/root	usr/lib/libspdlog.so.1.13 -> libspdlog.so.1.13.0
--rwxr-xr-x	root/root	usr/lib/libspdlog.so.1.13.0
+lrwxrwxrwx	root/root	usr/lib/libspdlog.so -> libspdlog.so.1.14
+lrwxrwxrwx	root/root	usr/lib/libspdlog.so.1.14 -> libspdlog.so.1.14.0
+-rwxr-xr-x	root/root	usr/lib/libspdlog.so.1.14.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/spdlog.pc
