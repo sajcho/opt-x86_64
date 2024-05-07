@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrD8r2Ei5X5cnc9woTH5A8ZEcSf/XChZ+bD5Q/PorScBXnY7tXWvScEzNlVS0Rpo72l8yqVRv2nw79WOXNWB+Cgo=
-SHA256 (Pkgfile) = ed4f99ff8b3ded82b0ff95657d266c9b091c5e34eea0f11f34227acc89264ddd
-SHA256 (.footprint) = 77dd567a40b2687e8e7435b42686368255d83bf101cd8f8893c7062936e975c6
-SHA256 (spdlog-1.14.0.tar.gz) = 429a6b73ade8285cb21f83bacf89e2821dd1720ea7faa3cb518ffe04b4e00efc
+RWRkiJhlUJEGrBLA28yznQu6alOI/lDPl/BEYNq7FeqoZfwBh6Sk5YkFKTt+L+uYErUxrVR5LqEzJGe/KBLRv9pclOeXrXpmhQY=
+SHA256 (Pkgfile) = 5e29bf4ea94c6d9189c2db5aa021d5493eace89310d9066a05ade2ec943c7ece
+SHA256 (.footprint) = 1893916ffe0d7c8b4216dac9ceae34bfce9e8a7f8d908c0efe41fd5714083bf6
+SHA256 (spdlog-1.14.1.tar.gz) = 1586508029a7d0670dfcb2d97575dcdc242d3868a259742b69f100801ab4e16b
