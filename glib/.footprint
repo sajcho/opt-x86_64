@@ -334,37 +334,44 @@ drwxr-xr-x	root/root	usr/include/glib-2.0/gobject/
 -rw-r--r--	root/root	usr/include/glib-2.0/gobject/gvaluecollector.h
 -rw-r--r--	root/root	usr/include/glib-2.0/gobject/gvaluetypes.h
 drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/gio-launch-desktop
 drwxr-xr-x	root/root	usr/lib/gio/
 drwxr-xr-x	root/root	usr/lib/gio/modules/
+drwxr-xr-x	root/root	usr/lib/girepository-1.0/
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GIRepository-3.0.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GLib-2.0.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GLibUnix-2.0.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GModule-2.0.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GObject-2.0.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/Gio-2.0.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GioUnix-2.0.typelib
 drwxr-xr-x	root/root	usr/lib/glib-2.0/
 drwxr-xr-x	root/root	usr/lib/glib-2.0/include/
 -rw-r--r--	root/root	usr/lib/glib-2.0/include/glibconfig.h
-drwxr-xr-x	root/root	usr/lib/glib/
--rwxr-xr-x	root/root	usr/lib/glib/gio-launch-desktop
 -rw-r--r--	root/root	usr/lib/libgio-2.0.a
 lrwxrwxrwx	root/root	usr/lib/libgio-2.0.so -> libgio-2.0.so.0
-lrwxrwxrwx	root/root	usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.8000.0
--rwxr-xr-x	root/root	usr/lib/libgio-2.0.so.0.8000.0
+lrwxrwxrwx	root/root	usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.8000.2
+-rwxr-xr-x	root/root	usr/lib/libgio-2.0.so.0.8000.2
 -rw-r--r--	root/root	usr/lib/libgirepository-2.0.a
 lrwxrwxrwx	root/root	usr/lib/libgirepository-2.0.so -> libgirepository-2.0.so.0
-lrwxrwxrwx	root/root	usr/lib/libgirepository-2.0.so.0 -> libgirepository-2.0.so.0.8000.0
--rwxr-xr-x	root/root	usr/lib/libgirepository-2.0.so.0.8000.0
+lrwxrwxrwx	root/root	usr/lib/libgirepository-2.0.so.0 -> libgirepository-2.0.so.0.8000.2
+-rwxr-xr-x	root/root	usr/lib/libgirepository-2.0.so.0.8000.2
 -rw-r--r--	root/root	usr/lib/libglib-2.0.a
 lrwxrwxrwx	root/root	usr/lib/libglib-2.0.so -> libglib-2.0.so.0
-lrwxrwxrwx	root/root	usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.8000.0
--rwxr-xr-x	root/root	usr/lib/libglib-2.0.so.0.8000.0
+lrwxrwxrwx	root/root	usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.8000.2
+-rwxr-xr-x	root/root	usr/lib/libglib-2.0.so.0.8000.2
 -rw-r--r--	root/root	usr/lib/libgmodule-2.0.a
 lrwxrwxrwx	root/root	usr/lib/libgmodule-2.0.so -> libgmodule-2.0.so.0
-lrwxrwxrwx	root/root	usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.8000.0
--rwxr-xr-x	root/root	usr/lib/libgmodule-2.0.so.0.8000.0
+lrwxrwxrwx	root/root	usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.8000.2
+-rwxr-xr-x	root/root	usr/lib/libgmodule-2.0.so.0.8000.2
 -rw-r--r--	root/root	usr/lib/libgobject-2.0.a
 lrwxrwxrwx	root/root	usr/lib/libgobject-2.0.so -> libgobject-2.0.so.0
-lrwxrwxrwx	root/root	usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.8000.0
--rwxr-xr-x	root/root	usr/lib/libgobject-2.0.so.0.8000.0
+lrwxrwxrwx	root/root	usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.8000.2
+-rwxr-xr-x	root/root	usr/lib/libgobject-2.0.so.0.8000.2
 -rw-r--r--	root/root	usr/lib/libgthread-2.0.a
 lrwxrwxrwx	root/root	usr/lib/libgthread-2.0.so -> libgthread-2.0.so.0
-lrwxrwxrwx	root/root	usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.8000.0
--rwxr-xr-x	root/root	usr/lib/libgthread-2.0.so.0.8000.0
+lrwxrwxrwx	root/root	usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.8000.2
+-rwxr-xr-x	root/root	usr/lib/libgthread-2.0.so.0.8000.2
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gio-2.0.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gio-unix-2.0.pc
@@ -380,40 +387,34 @@ drwxr-xr-x	root/root	usr/share/aclocal/
 -rw-r--r--	root/root	usr/share/aclocal/glib-2.0.m4
 -rw-r--r--	root/root	usr/share/aclocal/glib-gettext.m4
 -rw-r--r--	root/root	usr/share/aclocal/gsettings.m4
+drwxr-xr-x	root/root	usr/share/bash-completion/
+drwxr-xr-x	root/root	usr/share/bash-completion/completions/
+-rw-r--r--	root/root	usr/share/bash-completion/completions/gapplication
+-rw-r--r--	root/root	usr/share/bash-completion/completions/gdbus
+-rw-r--r--	root/root	usr/share/bash-completion/completions/gio
+-rw-r--r--	root/root	usr/share/bash-completion/completions/gresource
+-rw-r--r--	root/root	usr/share/bash-completion/completions/gsettings
 drwxr-xr-x	root/root	usr/share/gdb/
 drwxr-xr-x	root/root	usr/share/gdb/auto-load/
 drwxr-xr-x	root/root	usr/share/gdb/auto-load/usr/
 drwxr-xr-x	root/root	usr/share/gdb/auto-load/usr/lib/
--rw-r--r--	root/root	usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8000.0-gdb.py
--rw-r--r--	root/root	usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8000.0-gdb.py
+-rw-r--r--	root/root	usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8000.2-gdb.py
+-rw-r--r--	root/root	usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8000.2-gdb.py
 drwxr-xr-x	root/root	usr/share/gettext/
 drwxr-xr-x	root/root	usr/share/gettext/its/
 -rw-r--r--	root/root	usr/share/gettext/its/gschema.its
 -rw-r--r--	root/root	usr/share/gettext/its/gschema.loc
+drwxr-xr-x	root/root	usr/share/gir-1.0/
+-rw-r--r--	root/root	usr/share/gir-1.0/GIRepository-3.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/GLib-2.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/GLibUnix-2.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/GModule-2.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/GObject-2.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/Gio-2.0.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/GioUnix-2.0.gir
 drwxr-xr-x	root/root	usr/share/glib-2.0/
 drwxr-xr-x	root/root	usr/share/glib-2.0/codegen/
 -rw-r--r--	root/root	usr/share/glib-2.0/codegen/__init__.py
-drwxr-xr-x	root/root	usr/share/glib-2.0/codegen/__pycache__/
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/__init__.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/__init__.cpython-312.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen.cpython-312.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen_docbook.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen_docbook.cpython-312.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen_main.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen_main.cpython-312.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen_md.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen_md.cpython-312.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen_rst.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/codegen_rst.cpython-312.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/config.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/config.cpython-312.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/dbustypes.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/dbustypes.cpython-312.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/parser.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/parser.cpython-312.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/utils.cpython-312.opt-1.pyc
--rw-r--r--	root/root	usr/share/glib-2.0/codegen/__pycache__/utils.cpython-312.pyc
 -rw-r--r--	root/root	usr/share/glib-2.0/codegen/codegen.py
 -rw-r--r--	root/root	usr/share/glib-2.0/codegen/codegen_docbook.py
 -rw-r--r--	root/root	usr/share/glib-2.0/codegen/codegen_main.py
@@ -428,8 +429,30 @@ drwxr-xr-x	root/root	usr/share/glib-2.0/dtds/
 drwxr-xr-x	root/root	usr/share/glib-2.0/gdb/
 -rw-r--r--	root/root	usr/share/glib-2.0/gdb/glib_gdb.py
 -rw-r--r--	root/root	usr/share/glib-2.0/gdb/gobject_gdb.py
+drwxr-xr-x	root/root	usr/share/glib-2.0/gettext/
+drwxr-xr-x	root/root	usr/share/glib-2.0/gettext/po/
+-rw-r--r--	root/root	usr/share/glib-2.0/gettext/po/Makefile.in.in
 drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/gschema.dtd
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/gschemas.compiled
 drwxr-xr-x	root/root	usr/share/glib-2.0/valgrind/
 -rw-r--r--	root/root	usr/share/glib-2.0/valgrind/glib.supp
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/gapplication.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gdbus-codegen.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gdbus.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gi-compile-repository.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gi-decompile-typelib.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gi-inspect-typelib.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gio-querymodules.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gio.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/glib-compile-resources.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/glib-compile-schemas.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/glib-genmarshal.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/glib-gettextize.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/glib-mkenums.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gobject-query.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gresource.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gsettings.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gtester-report.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gtester.1.gz
