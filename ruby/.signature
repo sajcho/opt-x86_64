@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrH4gBSj8CroQqjLb7tFvcgm2gvbi/7POcMhTBaP3VIeb5ubt9To7UQFfcdLiYTE/xuyoSfsEFXObIkX/JaBbqgk=
-SHA256 (Pkgfile) = 0f02b808b333e106831bf3b57d6d8dfb94b3d4afbb50daf4a7092536df95a544
-SHA256 (.footprint) = dd013e8c1ebcd72559699264a850a7ce3a2f527e3be48e32d826c3e6200502d2
-SHA256 (ruby-3.3.1.tar.xz) = 0686941a3ec395a15ae2a852487b2a88e5fb8a5518e188df00d8d1bb71a6349b
+RWRkiJhlUJEGrNtpiT3PE4tyIukIDNTAGiQd0L5CYLi4eGpa3MIv4wjaox+Wet7B0huo9ogP5XVm6Yh4CjLFyB6p4utkSMV2kwA=
+SHA256 (Pkgfile) = fcaece8dd1cbf87bf2e9175b265769e54f4eb6f00bcd7b9e593a232969a5514a
+SHA256 (.footprint) = e85bfe09b9326905573f727efe86f6e340fd7c57ba4182e88ada6dfb48ebaead
+SHA256 (ruby-3.3.2.tar.xz) = b5e8a8ed4a47cdd9a3358b5bdd998c37bd9e971ca63766a37d5ae5933fdb69f1
