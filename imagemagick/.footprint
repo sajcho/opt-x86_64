@@ -155,7 +155,6 @@ drwxr-xr-x	root/root	usr/include/ImageMagick-7/MagickWand/
 -rw-r--r--	root/root	usr/include/ImageMagick-7/MagickWand/compare.h
 -rw-r--r--	root/root	usr/include/ImageMagick-7/MagickWand/composite.h
 -rw-r--r--	root/root	usr/include/ImageMagick-7/MagickWand/conjure.h
--rw-r--r--	root/root	usr/include/ImageMagick-7/MagickWand/convert.h
 -rw-r--r--	root/root	usr/include/ImageMagick-7/MagickWand/deprecate.h
 -rw-r--r--	root/root	usr/include/ImageMagick-7/MagickWand/display.h
 -rw-r--r--	root/root	usr/include/ImageMagick-7/MagickWand/drawing-wand.h
