@@ -3,9 +3,9 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=c-ares
-version=1.28.1
+version=1.29.0
 release=1
-source=(https://c-ares.haxx.se/download/${name}-${version}.tar.gz)
+source=(https://github.com/c-ares/c-ares/releases/download/cares-1_29_0/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
