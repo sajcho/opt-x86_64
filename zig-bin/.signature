@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrKCFub3b0xycECplkr+nSZ+jXn1rjnaXt/gXjqA/VzQQX3PHA/u1ydqyVMLFn3sDprH+rm2HRofz5Qpdxm2wTAk=
-SHA256 (Pkgfile) = 0dc6e9a63a91fa924e2dae48488eb8b0b7cf3a6f8c324fcf5255a1f71d3250d3
-SHA256 (.footprint) = 37435499f7eac52ef4f5e1c1b09baee6dd7914395aa18b8095919325ca443ccc
-SHA256 (zig-linux-x86_64-0.11.0.tar.xz) = 2d00e789fec4f71790a6e7bf83ff91d564943c5ee843c5fd966efc474b423047
+RWRkiJhlUJEGrBk4Hvsi00/e/zlMzXuDRVJKGvgPj/cN0y+XMdmhXNgt5MUvPgX7/AIhFTXcDp6xaNfQ1YZZazpm+wN/A9ejUA4=
+SHA256 (Pkgfile) = ce465b2813cd301ac7c37cccd799f26f27f034c577649aeb45141f49b7abbbb7
+SHA256 (.footprint) = bf8c065f56472380a9105802267ec2231168de7d40e3e8c882565a07b89ddcd1
+SHA256 (zig-linux-x86_64-0.12.0.tar.xz) = c7ae866b8a76a568e2d5cfd31fe89cdb629bdd161fdd5018b29a4a0a17045cad

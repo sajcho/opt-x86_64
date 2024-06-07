@@ -4,9 +4,9 @@
 
 name=zig-bin
 _realname=zig
-version=0.11.0
+version=0.12.0
 release=1
-source=(https://ziglang.org/download/0.11.0/zig-linux-x86_64-0.11.0.tar.xz)
+source=(https://ziglang.org/download/${version}/${_realname}-linux-x86_64-${version}.tar.xz)
 
 build() {
 	cd ${_realname}-linux-x86_64-${version}
