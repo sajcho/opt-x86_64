@@ -4,7 +4,7 @@
 # Depends on:	libtool automake texinfo flex bison gettext python3
 
 name=recode
-version=3.7.11
+version=3.7.14
 release=1
 source=(https://github.com/rrthomas/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
 
@@ -12,9 +12,12 @@ build() {
 	cd ${name}-${version}
 
 	rm -f acinclude.m4 m4/libtool.m4
+
 	autoreconf -fiv
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--disable-nls \
 		--disable-static
