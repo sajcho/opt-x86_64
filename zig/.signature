@@ -1,0 +1,5 @@
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrGk9PFTsxe9T0mzLEqivFz+8aoR06PIJ6c0/I9WDEml2rHSkNUy8pqayFfGutwaPpN92nKBpa0rHc5vdn46hvgw=
+SHA256 (Pkgfile) = 8455f063079e96a49545e08a896cbb3623b0818bde232873b2c772f1021e5b3d
+SHA256 (.footprint) = f2a9f3e69e59176a6a5e62ad425054d362dfb9c4259d0b30546552cc2778dd2f
+SHA256 (zig-0.13.0.tar.xz) = 06c73596beeccb71cc073805bdb9c0e05764128f16478fa53bf17dfabc1d4318
