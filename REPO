@@ -84,6 +84,7 @@ d:libtheora
 d:perl-uri
 d:lm-sensors
 d:enca
+d:zig
 d:glib
 d:llvm-toolchain
 d:seatd
@@ -125,7 +126,6 @@ d:keyutils
 d:libpng
 d:libgpg-error
 d:iniparser
-d:zig-bin
 d:dtc
 d:tiff
 d:light
@@ -482,6 +482,9 @@ f:d4e204209bccffea4dcc1aec62d4cadf:enca/enca-bad-file-descriptor.patch
 f:8acfa16b629095235b8b9a25330853d4:enca/.footprint
 f:4d075849421fcb7d413c58920a024e29:enca/.signature
 f:9d157fe26612821f6ef830bcb78268f6:enca/Pkgfile
+f:7ef0ad95d9c04da467cecc3b0c8b1063:zig/.footprint
+f:3c3b072936a434d1cb1e12f189021fcd:zig/.signature
+f:86a8df02956e678db3ea187f27c8f4aa:zig/Pkgfile
 f:e5f74be27525658dae59401455944186:glib/post-install
 f:f096fd7fc8f22fc6759df2c1e74bdb33:glib/.footprint
 f:ebd1ee90e4f81e6c6cc03c29ab8b6bea:glib/gschemas.compiled
@@ -630,9 +633,6 @@ f:3026cbdc3cd2f9f8fa9cefd115789500:iniparser/.footprint
 f:616e915b6c2a4d323bc24cded90255a3:iniparser/.signature
 f:449314702cb0ed957d6a104861c89cf5:iniparser/rpath.patch
 f:37390c080fb683394a7c74253ebd0d81:iniparser/Pkgfile
-f:b3efcb0b3470682e1f950acbb5da7a16:zig-bin/.footprint
-f:668d280fe206e0f210730eb40997b5bf:zig-bin/.signature
-f:6d78dbf6303f26dc0202007ed23ea0f7:zig-bin/Pkgfile
 f:c3fa4aa57480925a809cb1b52ad1ba1d:dtc/.footprint
 f:a1d783861bb208b472d4f0beee1c4e78:dtc/.signature
 f:7fc4c171aed636bef5edcb6ba7264933:dtc/increase_max_srcfile_depth.patch
