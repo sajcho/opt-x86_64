@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrGUB/5ozhnnGKm0cySYQBloN+7i6clcxVkDlD5RdXyDFXaFehz4+Q4GuQslgHDD8qucffql9x2d8t3qBWyc/Zg8=
-SHA256 (Pkgfile) = 24ded51b0bc1e195e742d05f2fda50982296358c11dea47293b4091223d72645
-SHA256 (.footprint) = 5bc8fd9faaac76df84bf9e2df9e15ba37dc91ada53797bf3df3470cdb6a7b050
-SHA256 (ffmpeg-6.1.1.tar.xz) = 8684f4b00f94b85461884c3719382f1261f0d9eb3d59640a1f4ac0873616f968
+RWRkiJhlUJEGrFo9qyZotkt/mGCaaM46Jdafgy9SbO7++BKUPkpctVOOfzlZus/y9KnV594SlZIor3dmfP/qF2AB/4iZKHCLoQM=
+SHA256 (Pkgfile) = 24e5577ecf941559a03b01c270425c89788edce6a92de06d1607a05c6c5da893
+SHA256 (.footprint) = 744da94ebe1fb0b1d556ef5ee250b858f3c019af7af4ca7e98e44b8a8d0370d9
+SHA256 (ffmpeg-7.0.1.tar.xz) = bce9eeb0f17ef8982390b1f37711a61b4290dc8c2a0c1a37b5857e85bfb0e4ff
