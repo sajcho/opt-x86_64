@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrJ/qg9KPeRLWnjmzLhacl3DrDMYkJzKzgcItVszxGaN7nzTE6UQhbzhck5nAhjkTVw84uXkyz6s1PlMp5S1ukAU=
-SHA256 (Pkgfile) = eae7d5cb724cacfe786915e11f0735237e1e81e703ff07e2d67bdd6e74d25379
+RWRkiJhlUJEGrE5ygR4XBX97KXhy5pH4tn0sjVJsBF/lYuwSxoOLGqbtfIShiRp69GDABpca5d4PTkR2S6TRYEINcDyXI7KL8wk=
+SHA256 (Pkgfile) = a1ebcc08af7c4d16870aaeb6438a03bcee91f4808a1d76b3261c358a22ea2c9f
 SHA256 (.footprint) = f77ee9d1a8f84b5c90908dcefe5d173eee7f3c2751196c197a8bd803bf3ea833
-SHA256 (fribidi-1.0.14.tar.xz) = 76ae204a7027652ac3981b9fa5817c083ba23114340284c58e756b259cd2259a
+SHA256 (fribidi-1.0.15.tar.xz) = 0bbc7ff633bfa208ae32d7e369cf5a7d20d5d2557a0b067c9aa98bcbf9967587
