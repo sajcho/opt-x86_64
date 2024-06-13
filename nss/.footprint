@@ -55,6 +55,7 @@ drwxr-xr-x	root/root	usr/include/nss/
 -rw-r--r--	root/root	usr/include/nss/nssckg.h
 -rw-r--r--	root/root	usr/include/nss/nssckmdt.h
 -rw-r--r--	root/root	usr/include/nss/nssckt.h
+-rw-r--r--	root/root	usr/include/nss/nsshash.h
 -rw-r--r--	root/root	usr/include/nss/nssilckt.h
 -rw-r--r--	root/root	usr/include/nss/nssilock.h
 -rw-r--r--	root/root	usr/include/nss/nsslocks.h
