@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrF7GwJO0ToIpa0e2G8RxgA/YlbZZ3TIdOHnWJSHwYrUpOEynZaP6X5zU66U3NIFOOu3zEhrBMaMhxjKgzfWnJgA=
-SHA256 (Pkgfile) = 5666f102ec2ff211a05d6ee62b37b38f538248b62f029549d9e7d06f9ab2247e
+RWRkiJhlUJEGrEde+iz1q8VPknE0e2qB1n3Vzd/mcIKyuZEEW6g6DNybqUxiOhDBOl/BqKuRR8FhgJka1IwWoxie8S4rs59VsAk=
+SHA256 (Pkgfile) = cd64ff79d6e2cf8ec1fd7d57e7a5b5d4d9e9b40c3b5f66a63b7726ae10edf114
 SHA256 (.footprint) = 4c560aa016b9ad0db5ce2ecad4cdb197c86c9ded2f0107d4672480d7a1efc5dc
-SHA256 (dav1d-1.4.2.tar.gz) = fdcf77c191eae67812f5e0f09a146bd8533f10f3f8018a861dca68ea735e73ae
+SHA256 (dav1d-1.4.3.tar.gz) = 88a023e58d955e0886faf49c72940e0e90914a948a8e60c1326ce3e09e7a6099
