@@ -439,9 +439,9 @@ f:bd54b4e32b606a372158e73b9dc7a019:pinentry/.signature
 f:1c9a6a1c990bb87dabb2fd241f8dcf29:pinentry/Pkgfile
 f:265c33bc83a23f509addd4197ac9b13e:alsa-utils/alsa.finish
 f:df7f8b21c7128d1500a2ae4de5b8e50e:alsa-utils/alsa.run
-f:c36ffa302335915a181e2d2932af3683:alsa-utils/.footprint
-f:94c50bf4d96e1e7e2865c070fc9b876a:alsa-utils/.signature
-f:799e7b6939c03d8b2b1a88ecda9892f7:alsa-utils/Pkgfile
+f:bdfff218e10c2c64e528ca5cd68cbbef:alsa-utils/.footprint
+f:ccb70e0ab917f879427210d01d14b406:alsa-utils/.signature
+f:26c22f5e48a6afd465c24b07fa836527:alsa-utils/Pkgfile
 f:1f0d8e1a1e561d8ccb910f8eec097a8a:gpgme/.footprint
 f:d1a4db529c86e44c67500a1101bb0c41:gpgme/.signature
 f:fb78b2170ee1e17df29c8d6358c028de:gpgme/Pkgfile
@@ -647,8 +647,8 @@ f:54e466f558ada268c4452302e8ab7cc6:libogg/.footprint
 f:86948bc43184c3f7e1bfae872bb0a3ce:libogg/.signature
 f:243f8a208bc9f5295c9ee8f6bbd7e0ba:libogg/Pkgfile
 f:82f2fe41400be12ed2d67684771968f7:alsa-lib/.footprint
-f:fa35abc474852c0a97a3dcccaa65420a:alsa-lib/.signature
-f:de5c8e12a1a267fb2c5b2a779f69d42d:alsa-lib/Pkgfile
+f:6642ddfb85b142a7db582fb58f9dd2d5:alsa-lib/.signature
+f:f1884fd7786fac4d520a6d7496c4a6d2:alsa-lib/Pkgfile
 f:43d59374ada8499ea27d7389363e8a2f:libxklavier/.footprint
 f:c2352768644280676134625bafcb1ad4:libxklavier/.signature
 f:f83b4ae05179c5ad82be72459cd1bddc:libxklavier/Pkgfile
