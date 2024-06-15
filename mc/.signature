@@ -1,5 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrNfqNhxswAzfg3AbOsvrEJ1eJHhRehvBYD4MNVLWj5MlLD9UA7Mpi/67LUiatKRVsJ97sB18OkZyYSqifrc3zwE=
-SHA256 (Pkgfile) = eab76a6a0b7a85a0a281060a9a7d21fb59ebcf37fccd19fbf0c12a262532ffe7
+RWRkiJhlUJEGrEZdbzYH6L4U/KxdULHnFbqwdHSjl6WhicRqnPjE+S+y5Fb+ZtZVg8mnynaY9nyimj+d070UqJHWkTzKKrQRHA4=
+SHA256 (Pkgfile) = f7331b2e710d34e359b54070cf51f90d73463df171e315674b01fff4266e5515
 SHA256 (.footprint) = 1f21474376e97071c6116fb25aaa17fefe4b185cdf9c8f040838d7f345ec9dfb
 SHA256 (mc-4.8.31.tar.xz) = 24191cf8667675b8e31fc4a9d18a0a65bdc0598c2c5c4ea092494cd13ab4ab1a
+SHA256 (saux_syntax.patch) = a7139d5a37e22d10b84ee1ac65cb85c4cf6715acdebd11dcd364d8ded93bda6a
