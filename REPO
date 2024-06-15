@@ -722,10 +722,10 @@ f:100e5686ab15fcbcd16c7ab52226c2c5:nfs-utils/Pkgfile
 f:ed41f310f39a6697ff3c8f89faa889d2:nfs-utils/rpcsvcgssd.run
 f:4ca7cdd25e6fb920e201e473e23fda03:nfs-utils/rpcgssd.run
 f:a68528b0fd1e5420b6f851ae579e97a4:rust/.nostrip
-f:0ff70389ba524b363505e888746edb55:rust/.footprint
-f:b0a0e07889dfb819fe7096bb0111b31c:rust/.signature
+f:457a56e5798280ea52c8e6a91eb83cb9:rust/.footprint
+f:f7ceebcc454d1db37e05ff311eda5077:rust/.signature
 f:905228300383957419fa135624928c1b:rust/0002-tool.rs-change-dir-libexec-to-lib.patch
-f:c16944d9c807d8a5d4a031a63a95e940:rust/Pkgfile
+f:fd2463a84a132c7c0046d1bab4b098df:rust/Pkgfile
 f:fa8e466b2e4d33e772904b015a717088:rust/0001-dist.rs-change-dir-libexec-to-lib.patch
 f:23597c500f768a1e0d91d27185e46c32:popt/.footprint
 f:6838f0a1be73bfe1ecef8e9a742571e3:popt/.signature
