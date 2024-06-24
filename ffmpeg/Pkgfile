@@ -5,7 +5,7 @@
 
 name=ffmpeg
 version=7.0.1
-release=1
+release=2
 source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz)
 
 build() {
@@ -35,7 +35,6 @@ build() {
 		--enable-lto \
 		--enable-pthreads \
 		--enable-shared \
-		--enable-libxcb \
 		--enable-libsrt \
 		--enable-libssh \
 		--enable-libopus \
@@ -52,6 +51,7 @@ build() {
 		--disable-vaapi \
 		--disable-vdpau \
 		--disable-vulkan \
+		--disable-libxcb \
 		--disable-xlib \
 		--disable-static
 
