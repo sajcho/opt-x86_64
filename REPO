@@ -47,7 +47,6 @@ d:pulseaudio
 d:libxmlb
 d:libvorbis
 d:rlwrap
-d:python3-tqdm
 d:rpcsvc-proto
 d:wireless-regdb
 d:libxslt
@@ -63,6 +62,7 @@ d:srt
 d:python3-docutils
 d:cbindgen
 d:perl-xml-parser
+d:bindutils
 d:translate-shell
 d:libtasn1
 d:orc
@@ -88,6 +88,7 @@ d:zig
 d:glib
 d:llvm-toolchain
 d:seatd
+d:liburcu
 d:libgcrypt
 d:exiv2
 d:fmt
@@ -135,7 +136,6 @@ d:libxklavier
 d:libgudev
 d:x265
 d:npth
-d:python3-packaging
 d:x264
 d:squashfs-tools
 d:itstool
@@ -362,9 +362,6 @@ f:40221bfb457585ad2b1d832f77cc3b1c:libvorbis/Pkgfile
 f:6706501df57329ce281d68773d35f202:rlwrap/.footprint
 f:88c5c6f6902e5a7fd1953d5821eabbee:rlwrap/.signature
 f:e3c7246d8afc1f224358f56288f4efe6:rlwrap/Pkgfile
-f:765888c15358e3f4f042356e1b6e022e:python3-tqdm/.footprint
-f:089bae8c336f004d43ab9d59a08238ef:python3-tqdm/.signature
-f:be74205d4321ee1117ea62e2f763810c:python3-tqdm/Pkgfile
 f:872247806ba3d91caec018db7cdd4134:rpcsvc-proto/.footprint
 f:449b0a627a430926e82587560864a98e:rpcsvc-proto/.signature
 f:08b8c59891810dfbdaec7c1d0eecba8c:rpcsvc-proto/Pkgfile
@@ -403,15 +400,19 @@ f:2e25829f8aab5d3b0fd7c27511a0383b:srt/.footprint
 f:a67e6cffe3a63911ce88974479eef12c:srt/.signature
 f:3c21c0867acee4b5828887adbc877eb9:srt/Pkgfile
 f:f329ba6c67413624bc980ab137fe1bbc:srt/fix-cmake.patch
-f:70ea69f61a69bba03606096e80d522a3:python3-docutils/.footprint
-f:0f1b43bff87ad333319c7c3e747a649c:python3-docutils/.signature
-f:a54a1d5375843f3257c0482db422ec40:python3-docutils/Pkgfile
+f:9445a8e74d76c136fd5dc534ac68dc72:python3-docutils/.footprint
+f:840804783382a07f4d58ec7f8fb70139:python3-docutils/.signature
+f:b0438db98cb1a9237ca5448706840fa7:python3-docutils/Pkgfile
 f:0038a6c01b767a02e176a3cf00fbd244:cbindgen/.footprint
 f:04a5de3e2af1775a625db6ff0d562b4d:cbindgen/.signature
 f:82349aca268e418e5ec2011daa908821:cbindgen/Pkgfile
 f:d30d48710aa61347c36bf536b148c56d:perl-xml-parser/.footprint
 f:ef3df498958c8100d858263f406f4a4c:perl-xml-parser/.signature
 f:1c7277ac1b16e6e7f510a3b5787f85d7:perl-xml-parser/Pkgfile
+f:0b185986ebb47b94317f5733ae80b7e2:bindutils/.footprint
+f:f435056948a637ec92676bd1781e70ec:bindutils/.signature
+f:fe6a9b68cb1c91686aa4078b526bcdb7:bindutils/Pkgfile
+f:3dc09fe4bf975cc2c3460c94a51f4379:bindutils/utils.patch
 f:0aef8fafecd3aabc559f30d40e4d3031:translate-shell/.footprint
 f:d04cad9de199c21e28af8056460668a5:translate-shell/.signature
 f:868306a4f039e4f8de938257325f2b4d:translate-shell/Pkgfile
@@ -499,6 +500,9 @@ f:f8a4b148ef021871742364d63887004d:seatd/.footprint
 f:ad0cd89a417b7477de845f6d03028280:seatd/.signature
 f:629ae1a42619f4b1c1365185275d46e6:seatd/Pkgfile
 f:a9be0a283a8be2cc0ccb6fdcebbb4ff5:seatd/seatd.run
+f:2a541118c09d5532a6723e4b90f55693:liburcu/.footprint
+f:daca71b961fa87eabbf3e76b05402a35:liburcu/.signature
+f:959f10f7088e0605abd647900c17c2ae:liburcu/Pkgfile
 f:f5e6076ea87ca5218d8db7e53eeabc3c:libgcrypt/.footprint
 f:9059c6dfed8d53efdec74e140ef79aa8:libgcrypt/.signature
 f:6e497f89d1984efb2f392c2ccdb3b08f:libgcrypt/Pkgfile
@@ -661,9 +665,6 @@ f:b53148b61c32276429949fa11e160742:x265/Pkgfile
 f:9fb34d09178ff4f2fa8cc89a2f153e6f:npth/.footprint
 f:d85cc633afb5694de2b6ebe57409ca71:npth/.signature
 f:22766bb91bdf5400777f810ee55263a4:npth/Pkgfile
-f:f254b4f9b3f1b683841be4f3841d5f00:python3-packaging/.footprint
-f:9590389f2eff1c7b21c6aada760014a5:python3-packaging/.signature
-f:5ad1657f465c16aa6b37cf03b9446b57:python3-packaging/Pkgfile
 f:5746bc7819ecdc23e43e094cf8c9e57e:x264/.footprint
 f:5207230e0bf06dc024d42c72718e77f7:x264/.signature
 f:33ffac7b15aaace18a5c1dbaf7ce258f:x264/Pkgfile
