@@ -5,6 +5,7 @@ d:libburn
 d:libsoundio
 d:mpg123
 d:mm-common
+d:qemu-static
 d:libvpx
 d:gnu-efi
 d:libnl
@@ -39,6 +40,7 @@ d:iso-codes
 d:libssh
 d:nodejs
 d:wireless-tools
+d:qemu
 d:libsndfile
 d:libisoburn
 d:libsrtp
@@ -46,6 +48,7 @@ d:p11-kit
 d:pulseaudio
 d:libxmlb
 d:libvorbis
+d:edk2-bin
 d:rlwrap
 d:rpcsvc-proto
 d:wireless-regdb
@@ -87,6 +90,7 @@ d:enca
 d:zig
 d:glib
 d:llvm-toolchain
+d:libslirp
 d:seatd
 d:liburcu
 d:libgcrypt
@@ -182,6 +186,10 @@ f:6e347b04963f1781f66c744d26d48a33:mpg123/Pkgfile
 f:c94797bec2b4663a13152577b86c80d1:mm-common/.footprint
 f:b6921f07ce477c8f5d20f545b78c4d27:mm-common/.signature
 f:8d8221c0e96f0d3e1d07ca4d3e3a130d:mm-common/Pkgfile
+f:c96809a16bd06e717dd20180c5adea43:qemu-static/static-linux-user-stubs.diff
+f:eec36ce9d1f97eab09db07b67ba8c18a:qemu-static/.footprint
+f:dfefad54945f56490b65231e9ae3164d:qemu-static/.signature
+f:edf37eaa074c10a9fac313a4bf1ff2d4:qemu-static/Pkgfile
 f:73bc242687eec197fae4c2475aaa7fdc:libvpx/.footprint
 f:3caf3a9000f899f404575f6d6729ddc6:libvpx/.signature
 f:6e6b3cdfb9a5fa96c94e99707969d53e:libvpx/Pkgfile
@@ -334,6 +342,10 @@ f:8e7fc3017455f40d6ed496b4b010a408:nodejs/Pkgfile
 f:0a4ff1a49b94567ca211ff8e78164cf4:wireless-tools/.footprint
 f:b6053751d5c7e11cd039493d851dcfe5:wireless-tools/.signature
 f:b13a9c8682772e47589816d19aaf7e13:wireless-tools/Pkgfile
+f:7b8e4509b32a2db89cf59f7d8b72c7ff:qemu/.footprint
+f:23ac851c586f32e7eea5678a7f544bcc:qemu/.signature
+f:19ca07d95f1d2768ecd35e30fdc63c24:qemu/pre-install
+f:e8920b9b349b9167f1f198fc8d41ba88:qemu/Pkgfile
 f:dedc314e70dd256556fd7390ed3c67b5:libsndfile/.footprint
 f:13d2344957a784b64e457a09e5593259:libsndfile/.signature
 f:3fcf3a663ca39f44d71246748093a762:libsndfile/Pkgfile
@@ -359,6 +371,9 @@ f:38b91b69d8e64e2408fa8d724a34f606:libxmlb/Pkgfile
 f:84107c4b9217a5bcff4f95c1a6cc03b0:libvorbis/.footprint
 f:c49b6b615d3a004352dddb6ec79daab7:libvorbis/.signature
 f:40221bfb457585ad2b1d832f77cc3b1c:libvorbis/Pkgfile
+f:55bc2cf66340ff95ae691627faefd6bc:edk2-bin/.footprint
+f:6d9f3e2cc6c44e4d1d7db16a687067cf:edk2-bin/.signature
+f:981cb2fca9531bf3940d0150942aa170:edk2-bin/Pkgfile
 f:6706501df57329ce281d68773d35f202:rlwrap/.footprint
 f:88c5c6f6902e5a7fd1953d5821eabbee:rlwrap/.signature
 f:e3c7246d8afc1f224358f56288f4efe6:rlwrap/Pkgfile
@@ -496,6 +511,9 @@ f:8f2fa95ca53f1ec2b2d7136d618f8322:llvm-toolchain/.footprint
 f:13d28d82c2b70aeff8481378af3a787d:llvm-toolchain/.signature
 f:3c00391afe7161fb84daf89797258b58:llvm-toolchain/Pkgfile
 f:3a56a4e09450a4bc9e2a6d17478f8679:llvm-toolchain/README
+f:8921ca87ecc5d03b90cae72cf81f56e9:libslirp/.footprint
+f:c3c68ce80cae7d94def0bed51e6507b9:libslirp/.signature
+f:4fd628fbc3671ed0da39504d0ed52cbc:libslirp/Pkgfile
 f:f8a4b148ef021871742364d63887004d:seatd/.footprint
 f:ad0cd89a417b7477de845f6d03028280:seatd/.signature
 f:629ae1a42619f4b1c1365185275d46e6:seatd/Pkgfile
@@ -637,10 +655,12 @@ f:3026cbdc3cd2f9f8fa9cefd115789500:iniparser/.footprint
 f:616e915b6c2a4d323bc24cded90255a3:iniparser/.signature
 f:449314702cb0ed957d6a104861c89cf5:iniparser/rpath.patch
 f:37390c080fb683394a7c74253ebd0d81:iniparser/Pkgfile
-f:c3fa4aa57480925a809cb1b52ad1ba1d:dtc/.footprint
-f:a1d783861bb208b472d4f0beee1c4e78:dtc/.signature
-f:7fc4c171aed636bef5edcb6ba7264933:dtc/increase_max_srcfile_depth.patch
-f:5a69bcbfbc4999711572e2831f3fe34b:dtc/Pkgfile
+f:8de100bb704d520d3630053c7e3d63c3:dtc/.footprint
+f:c89927513b76287033c2032af96b7a43:dtc/.signature
+f:1d5338ea80641f5fe6d690e955306bfa:dtc/pyscm.patch
+f:8a27498160cbf37df9f945db4c5dafbb:dtc/fix-tests-for-Python3.12.patch
+f:dc1ae0d1926eba97500c469b90d0160b:dtc/Pkgfile
+f:624fc2643abd796897daf6bc2f05ff4e:dtc/install-pylibfdt-to-destdir.patch
 f:79e53fc8da59187011e86e601d5225a0:tiff/.footprint
 f:3148d8def5061f83f53e394bda9de58b:tiff/.signature
 f:7481de221cb7c81269dd19ef04e3a926:tiff/Pkgfile
