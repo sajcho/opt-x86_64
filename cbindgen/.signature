@@ -1,5 +1,5 @@
-untrusted comment: verify with core-x86_64.pub
-RWQ0XEjKMixyZ+JOET3FzuFCZprqKwcdL+x6oZF/YslEULj94OVVeVVNjFS2iSXwqu+q2L8hhvDrng+3BdBEIOgYIj8iDIqNPQo=
-SHA256 (Pkgfile) = 6f1b9d9fe42176aab1030636e8b744337fed10cdee6525029e08083600970a24
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrD06nrRwybQoITlt/aTEkozL3uKcGtu6Pvs5fDbH6Vvi4veFzsa86sA33txDqBvJobEdPnqHNfzWRZ+4ij8Z2wU=
+SHA256 (Pkgfile) = f597ebf49f85af2d900c24b6f1283194d6f4510f066804a04c138ace2268e804
 SHA256 (.footprint) = fd60992957bd0010460d49684c69464200651af797acdb98547f4847fc9f3f3c
-SHA256 (cbindgen-v0.26.0.tar.gz) = b45e1a64875b615702a86ac3084ef69ae32926241cd2b687a30c12474be15105
+SHA256 (cbindgen-v0.27.0.tar.gz) = af74dd0452ace58895088048873a765fffacc3ad55eea00c0f2999cc4bcf9b5d
