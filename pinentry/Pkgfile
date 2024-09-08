@@ -4,7 +4,7 @@
 # Depends on:	libassuan libcap util-linux
 
 name=pinentry
-version=1.3.0
+version=1.3.1
 release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2 \
 	pinentry)
