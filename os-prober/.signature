@@ -1,8 +1,8 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrItVanCcbmje0c6PRQ8r+jFHGiOxq4SfwLWH4nqQwrzPPdnWAoKk2IG5lUHflx2O+k3YPaG2eaGL9kegoVgvywA=
-SHA256 (Pkgfile) = a9be524d8701ca61a8eabc7101e06639c4c19b8fcaf5116ebc0803cbdc76300e
+RWRkiJhlUJEGrJtQPn3+wdLw0J1J+aGnyfvqD2EsBs6nsMKvmnlt44UgHqCSbTw4mqIAgj29HaCDZl1KYPx/sW2tnmWsho/psw0=
+SHA256 (Pkgfile) = 9c0b6ee3a5cb5658ecda1ec2b18e7175a1e3b1d5c971741fbdcf36b3019f0a2b
 SHA256 (.footprint) = 304a8bff621cd9e72899712ff96855b3a777f9f233dcb4820f32fba094becae7
-SHA256 (os-prober_1.82.tar.xz) = 3244125405c44f038b5299312f52dcf826a0d531e1ab97ec749a656d2886cf6e
+SHA256 (os-prober_1.83.tar.xz) = 8c82d5084c2b6f8935f6633612f18d16d04a0deffd6b99c264985fb7204140a6
 SHA256 (os-prober-1.79-btrfs-subvolume-detection.patch) = 15bb651eec5a0ae9bd08fc70f1cc23246cf31e7054838d162020d4806dc67810
 SHA256 (os-prober-1.79-use-fstab-name.patch) = efb22d59db0c60fa1545ae8e18ac5585fda44a8a95ef8c46bca8499f79c7ad27
 SHA256 (os-prober-1.79-mounted-boot-partition-fix.patch) = fc46f47cb10d25387244888780733abfc4c45a7be44e8a49935d054aa5b82749

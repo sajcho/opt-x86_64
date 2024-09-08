@@ -4,7 +4,7 @@
 # Depends on:	grub2-efi
 
 name=os-prober
-version=1.82
+version=1.83
 release=1
 source=(http://ftp.de.debian.org/debian/pool/main/o/${name}/${name}_${version}.tar.xz
 	# from gentoo
@@ -15,7 +15,7 @@ source=(http://ftp.de.debian.org/debian/pool/main/o/${name}/${name}_${version}.t
 	os-prober-1.79-efi-chroot-blkid-fallback.patch)
 
 build() {
-	cd ${name}-${version}
+	cd work
 
 	patch -p1 -i $SRC/os-prober-1.79-btrfs-subvolume-detection.patch
 	patch -p1 -i $SRC/os-prober-1.79-use-fstab-name.patch
