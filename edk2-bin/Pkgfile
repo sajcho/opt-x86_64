@@ -1,0 +1,24 @@
+# Description:	EFI Development Kit II
+# URL:		https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=edk2-bin
+version=20240813-1
+release=1
+source=(https://mirror.karneval.cz/pub/linux/fedora/linux/development/rawhide/Everything/x86_64/os/Packages/e/edk2-aarch64-${version}.fc42.noarch.rpm \
+	https://mirror.karneval.cz/pub/linux/fedora/linux/development/rawhide/Everything/x86_64/os/Packages/e/edk2-experimental-${version}.fc42.noarch.rpm \
+	https://mirror.karneval.cz/pub/linux/fedora/linux/development/rawhide/Everything/x86_64/os/Packages/e/edk2-loongarch64-${version}.fc42.noarch.rpm \
+	https://mirror.karneval.cz/pub/linux/fedora/linux/development/rawhide/Everything/x86_64/os/Packages/e/edk2-ovmf-${version}.fc42.noarch.rpm \
+	https://mirror.karneval.cz/pub/linux/fedora/linux/development/rawhide/Everything/x86_64/os/Packages/e/edk2-riscv64-${version}.fc42.noarch.rpm)
+
+build() {
+	cp -a $SRC/usr -t $PKG
+
+	install -d $PKG/usr/share/edk2/licenses
+	mv $PKG/usr/share/licenses/edk2-ovmf/* $PKG/usr/share/edk2/licenses/
+
+	# remove duplicates licenses files
+	rm -r $PKG/usr/share/licenses
+
+	rm -r $PKG/usr/share/doc
+}

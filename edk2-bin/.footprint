@@ -1,0 +1,85 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/AAVMF/
+lrwxrwxrwx	root/root	usr/share/AAVMF/AAVMF_CODE.fd -> ../edk2/aarch64/QEMU_EFI-silent-pflash.raw
+lrwxrwxrwx	root/root	usr/share/AAVMF/AAVMF_CODE.verbose.fd -> ../edk2/aarch64/QEMU_EFI-pflash.raw
+lrwxrwxrwx	root/root	usr/share/AAVMF/AAVMF_VARS.fd -> ../edk2/aarch64/vars-template-pflash.raw
+drwxr-xr-x	root/root	usr/share/OVMF/
+lrwxrwxrwx	root/root	usr/share/OVMF/OVMF_CODE.fd -> ../edk2/ovmf/OVMF_CODE.fd
+lrwxrwxrwx	root/root	usr/share/OVMF/OVMF_CODE.secboot.fd -> ../edk2/ovmf/OVMF_CODE.secboot.fd
+lrwxrwxrwx	root/root	usr/share/OVMF/OVMF_VARS.fd -> ../edk2/ovmf/OVMF_VARS.fd
+lrwxrwxrwx	root/root	usr/share/OVMF/OVMF_VARS.secboot.fd -> ../edk2/ovmf/OVMF_VARS.secboot.fd
+lrwxrwxrwx	root/root	usr/share/OVMF/UefiShell.iso -> ../edk2/ovmf/UefiShell.iso
+drwxr-xr-x	root/root	usr/share/edk2/
+drwxr-xr-x	root/root	usr/share/edk2/aarch64/
+-rw-r--r--	root/root	usr/share/edk2/aarch64/BL32_AP_MM.fd
+-rw-r--r--	root/root	usr/share/edk2/aarch64/QEMU_EFI-pflash.qcow2
+-rw-r--r--	root/root	usr/share/edk2/aarch64/QEMU_EFI-pflash.raw
+-rw-r--r--	root/root	usr/share/edk2/aarch64/QEMU_EFI-silent-pflash.qcow2
+-rw-r--r--	root/root	usr/share/edk2/aarch64/QEMU_EFI-silent-pflash.raw
+-rw-r--r--	root/root	usr/share/edk2/aarch64/QEMU_EFI.fd
+-rw-r--r--	root/root	usr/share/edk2/aarch64/QEMU_EFI.kernel.fd
+-rw-r--r--	root/root	usr/share/edk2/aarch64/QEMU_EFI.silent.fd
+-rw-r--r--	root/root	usr/share/edk2/aarch64/QEMU_VARS.fd
+-rw-r--r--	root/root	usr/share/edk2/aarch64/vars-template-pflash.qcow2
+-rw-r--r--	root/root	usr/share/edk2/aarch64/vars-template-pflash.raw
+drwxr-xr-x	root/root	usr/share/edk2/experimental/
+-rw-r--r--	root/root	usr/share/edk2/experimental/OVMF.stateless.fd
+-rw-r--r--	root/root	usr/share/edk2/experimental/OVMF.stateless.secboot.fd
+-rw-r--r--	root/root	usr/share/edk2/experimental/OVMF.stateless.secboot.pcrlock
+-rw-r--r--	root/root	usr/share/edk2/experimental/OVMF_CODE_4M.secboot.strictnx.qcow2
+-rw-r--r--	root/root	usr/share/edk2/experimental/QEMU_EFI-secboot-testonly-pflash.raw
+-rw-r--r--	root/root	usr/share/edk2/experimental/QEMU_EFI-strictnx-pflash.raw
+-rw-r--r--	root/root	usr/share/edk2/experimental/QEMU_EFI.secboot.testonly.fd
+-rw-r--r--	root/root	usr/share/edk2/experimental/QEMU_EFI.strictnx.fd
+-rw-r--r--	root/root	usr/share/edk2/experimental/vars-template-secboot-testonly-pflash.raw
+drwxr-xr-x	root/root	usr/share/edk2/licenses/
+-rw-r--r--	root/root	usr/share/edk2/licenses/LICENSE.openssl
+-rw-r--r--	root/root	usr/share/edk2/licenses/License-History.txt
+-rw-r--r--	root/root	usr/share/edk2/licenses/License.OvmfPkg.txt
+-rw-r--r--	root/root	usr/share/edk2/licenses/License.txt
+drwxr-xr-x	root/root	usr/share/edk2/loongarch64/
+-rw-r--r--	root/root	usr/share/edk2/loongarch64/QEMU_EFI.fd
+-rw-r--r--	root/root	usr/share/edk2/loongarch64/QEMU_VARS.fd
+drwxr-xr-x	root/root	usr/share/edk2/ovmf/
+-rw-r--r--	root/root	usr/share/edk2/ovmf/DBXUpdate-20230509.x64.bin
+-rw-r--r--	root/root	usr/share/edk2/ovmf/EnrollDefaultKeys.efi
+-rw-r--r--	root/root	usr/share/edk2/ovmf/MICROVM.fd
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF.amdsev.fd
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF.inteltdx.fd
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF.inteltdx.secboot.fd
+lrwxrwxrwx	root/root	usr/share/edk2/ovmf/OVMF_CODE.cc.fd -> OVMF_CODE.fd
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_CODE.fd
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_CODE.secboot.fd
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_CODE.secboot.pcrlock
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_CODE_4M.qcow2
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_CODE_4M.secboot.pcrlock
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_CODE_4M.secboot.qcow2
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_VARS.fd
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_VARS.secboot.fd
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_VARS_4M.qcow2
+-rw-r--r--	root/root	usr/share/edk2/ovmf/OVMF_VARS_4M.secboot.qcow2
+-rw-r--r--	root/root	usr/share/edk2/ovmf/Shell.efi
+-rw-r--r--	root/root	usr/share/edk2/ovmf/UefiShell.iso
+drwxr-xr-x	root/root	usr/share/edk2/riscv/
+-rw-r--r--	root/root	usr/share/edk2/riscv/RISCV_VIRT_CODE.fd
+-rw-r--r--	root/root	usr/share/edk2/riscv/RISCV_VIRT_CODE.qcow2
+-rw-r--r--	root/root	usr/share/edk2/riscv/RISCV_VIRT_VARS.fd
+-rw-r--r--	root/root	usr/share/edk2/riscv/RISCV_VIRT_VARS.qcow2
+drwxr-xr-x	root/root	usr/share/qemu/
+drwxr-xr-x	root/root	usr/share/qemu/firmware/
+-rw-r--r--	root/root	usr/share/qemu/firmware/30-edk2-ovmf-4m-qcow2-x64-sb-enrolled.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/31-edk2-ovmf-2m-raw-x64-sb-enrolled.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/40-edk2-ovmf-4m-qcow2-x64-sb.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/41-edk2-ovmf-2m-raw-x64-sb.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/50-edk2-aarch64-qcow2.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/50-edk2-loongarch64.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/50-edk2-ovmf-4m-qcow2-x64-nosb.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/50-edk2-ovmf-x64-microvm.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/50-edk2-riscv-qcow2.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/51-edk2-aarch64-raw.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/51-edk2-ovmf-2m-raw-x64-nosb.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/52-edk2-aarch64-verbose-qcow2.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/53-edk2-aarch64-verbose-raw.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/60-edk2-ovmf-x64-amdsev.json
+-rw-r--r--	root/root	usr/share/qemu/firmware/60-edk2-ovmf-x64-inteltdx.json

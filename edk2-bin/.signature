@@ -1,0 +1,9 @@
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrE6QuN4CZ7P1uNwHVtpGULVRvMQq1Zz9YKz+37AQ63B3LRsrUF4M7IEHIxE6gXiorc20b73hhd4BnWT4/F+eFwE=
+SHA256 (Pkgfile) = 84c6ecb0ab7b1a78929b9fceadf88538554d088c0c4f943fe629c1fceef1f448
+SHA256 (.footprint) = 78055880e00d538bc0fe9ae3abcc93516c6b9bd79fba1edab7f35d10608adc5e
+SHA256 (edk2-aarch64-20240813-1.fc42.noarch.rpm) = fd500d9a41d97fd721cbd2f0bd6d7dac3f845bae790cc6a61910969b7511bc3f
+SHA256 (edk2-experimental-20240813-1.fc42.noarch.rpm) = 7b2ccb1757ce245f1697cf5dff902a2b8e7bfb3b9f96e15324e01b814f065cf7
+SHA256 (edk2-loongarch64-20240813-1.fc42.noarch.rpm) = 32ede9aababc9d58990e79e586c964a76bcb6d180a6df47852430ddbdeb25a7f
+SHA256 (edk2-ovmf-20240813-1.fc42.noarch.rpm) = 1044b22e879bf8fb136464f057c31a6c1223d490b6139e02f50e9d8f827883f6
+SHA256 (edk2-riscv64-20240813-1.fc42.noarch.rpm) = bcc39860841e757b18f989faf6bca748f1a3256f3a5e8381689ae716f2d446bd
