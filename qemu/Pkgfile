@@ -1,0 +1,38 @@
+# Description:	Fast CPU emulator and virtualizer for the x86 platform
+# URL:		https://www.qemu.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	dtc glib libslirp libusb linux-pam pixman
+
+name=qemu
+version=9.0.2
+release=1
+source=(https://download.qemu.org/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	_targets="aarch64-linux-user,loongarch64-linux-user,riscv64-linux-user,x86_64-linux-user,aarch64-softmmu,loongarch64-softmmu,riscv64-softmmu,x86_64-softmmu"
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib/qemu \
+		--localstatedir=/var \
+		--enable-kvm \
+		--enable-linux-user \
+		--enable-fdt=system \
+		--enable-slirp \
+		--python=/usr/bin/python3 \
+		--enable-gtk \
+		--target-list=${_targets}
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	install -d $PKG/etc/udev/rules.d/
+	echo 'KERNEL=="kvm", NAME="kvm", OWNER="root", GROUP="kvm", MODE="0660"' > \
+		$PKG/etc/udev/rules.d/60-kvm.rules
+
+	rm -r $PKG/var
+}
