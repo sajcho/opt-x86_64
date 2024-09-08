@@ -4,7 +4,7 @@
 
 name=liburcu
 _realname=userspace-rcu
-version=0.14.0
+version=0.14.1
 release=1
 source=(https://lttng.org/files/urcu/${_realname}-${version}.tar.bz2)
 

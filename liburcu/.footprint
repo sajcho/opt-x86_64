@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/include/urcu/arch/
 -rw-r--r--	root/root	usr/include/urcu/arch/generic.h
 -rw-r--r--	root/root	usr/include/urcu/arch/hppa.h
 -rw-r--r--	root/root	usr/include/urcu/arch/ia64.h
+-rw-r--r--	root/root	usr/include/urcu/arch/loongarch.h
 -rw-r--r--	root/root	usr/include/urcu/arch/m68k.h
 -rw-r--r--	root/root	usr/include/urcu/arch/mips.h
 -rw-r--r--	root/root	usr/include/urcu/arch/nios2.h
@@ -81,6 +82,7 @@ drwxr-xr-x	root/root	usr/include/urcu/uatomic/
 -rw-r--r--	root/root	usr/include/urcu/uatomic/generic.h
 -rw-r--r--	root/root	usr/include/urcu/uatomic/hppa.h
 -rw-r--r--	root/root	usr/include/urcu/uatomic/ia64.h
+-rw-r--r--	root/root	usr/include/urcu/uatomic/loongarch.h
 -rw-r--r--	root/root	usr/include/urcu/uatomic/m68k.h
 -rw-r--r--	root/root	usr/include/urcu/uatomic/mips.h
 -rw-r--r--	root/root	usr/include/urcu/uatomic/nios2.h

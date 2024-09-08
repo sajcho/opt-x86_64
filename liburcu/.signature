@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrAFvdIbb6V+T2FvYLgG139ckuWEixJMO8COklyi/PV/69Powz/V2x+Z22ZsaXVSeDEuFgx74V0tz4kGXeTlWiwg=
-SHA256 (Pkgfile) = 69e7412724ed555093bdee57ac9cab1bd20a385158de3900a4b4d02d3b409b33
-SHA256 (.footprint) = 7c4b506f3c10c9f4906093ab2adfd78509c25814118b4993eca4fce5ab32a5b9
-SHA256 (userspace-rcu-0.14.0.tar.bz2) = ca43bf261d4d392cff20dfae440836603bf009fce24fdc9b2697d837a2239d4f
+RWRkiJhlUJEGrI5r14uUVj02CaTgbwUKqxt7xMRI8zZ1gr/iKfjNYNiWlp1LVts7K7aYxRfaWG0VpDaKYVfMHNK+Bop1Hp4OYw4=
+SHA256 (Pkgfile) = 83c29bd395884b3aa49e674c3d9e827f54650c7afbd78b081e876d26b40b0fa8
+SHA256 (.footprint) = 3a37bd4838e7480ce9c4a04a38260a12418bedd153c133e7768e4cd218c45a83
+SHA256 (userspace-rcu-0.14.1.tar.bz2) = 231acb13dc6ec023e836a0f0666f6aab47dc621ecb1d2cd9d9c22f922678abc0
