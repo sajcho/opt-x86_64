@@ -4,8 +4,8 @@
 # Depends on:	aom dav1d fdk-aac gnutls lame libass libssh libtheora libvpx libwebp pulseaudio srt x264 x265
 
 name=ffmpeg
-version=7.0.1
-release=2
+version=7.0.2
+release=1
 source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz)
 
 build() {
