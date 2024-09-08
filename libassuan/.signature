@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrLuafbv07dsoswFCRUYxGGBUCtFI3yKZ186VLbTTovOrKZg7QAIMTrBnl/QSGziteWmTnDqEyO5oz5ib/repzQk=
-SHA256 (Pkgfile) = 7c562c0142a9a28c8d3cb013356d52ce982ad2e01ae1f69733dbd1b3a2d9d8a9
-SHA256 (.footprint) = 37089fdf8379e05394e8f9171b55580f392c8e62d1581b3f4e9c58fe412a38fe
-SHA256 (libassuan-3.0.0.tar.bz2) = 0b160cbb898b852c6c04314b9a63e90ca87501305ad72a58a010f808665bbaf6
+RWRkiJhlUJEGrNnyJLSe6Mtyh/LSR25qUt0jdpIfjnNzanyHaWeou2doiai5i1JpyOZoQ1ntLZ1ZEmptZicY0g8DdTrkhciHXw8=
+SHA256 (Pkgfile) = c0db12889e02606341ef48b4c676c13f48b4d6a5e5cb69c17e41a78a47c2fe3d
+SHA256 (.footprint) = 64db4dcb5bdca13d1836fb0efc8969ce6ff407f11f226ddafbfc292ee8deb758
+SHA256 (libassuan-3.0.1.tar.bz2) = c8f0f42e6103dea4b1a6a483cb556654e97302c7465308f58363778f95f194b1
