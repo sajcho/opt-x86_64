@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrOgfVPJdckjx1F1kWiP8Y5cKtGHICWlY9f9sNsQXNHNgNjQERkfGrLYxfpDFfe7qm+0jvFboAXW6rCRQq5fFVwY=
-SHA256 (Pkgfile) = 9adccd0dcf730b8f64e4b7f13e874772b2452ed342d27ce9ae95821f7cd7d9d0
-SHA256 (.footprint) = 3fc10321298b1e17b06ab556e9283610621dc1e2ec8673afae06921c146c1292
-SHA256 (ImageMagick-7.1.1-33.tar.xz) = c021effec02d18df2e55fbbe68b10b95366c1869143b08d7e8e16f471a0ddea1
+RWRkiJhlUJEGrOAaMT7+9rusLSr8KNSKCeCgpNJcUx5UCd5bVxM000k+6WsS1A1JWQRGrkfvNU9xoTiTkbmkU5pRa/Q8xyGAlAo=
+SHA256 (Pkgfile) = 01e7e6fca148231dbd7af5a3bfb541fc3c061323e1d00a397e95d71fdff135a8
+SHA256 (.footprint) = 941dde14fe64e54a036f43f3d6ca3722893f0dea3fcbd94c93c625fadee473cd
+SHA256 (ImageMagick-7.1.1-38.tar.xz) = 48de548d4977fc226c982ca03b9d6ad8001b47d8dc142b49fdca69333bc4ad82
