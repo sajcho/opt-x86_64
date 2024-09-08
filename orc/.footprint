@@ -20,7 +20,6 @@ drwxr-xr-x	root/root	usr/include/orc-0.4/orc/
 -rw-r--r--	root/root	usr/include/orc-0.4/orc/orccompiler.h
 -rw-r--r--	root/root	usr/include/orc-0.4/orc/orcconstant.h
 -rw-r--r--	root/root	usr/include/orc-0.4/orc/orccpu.h
--rw-r--r--	root/root	usr/include/orc-0.4/orc/orccpuinsn.h
 -rw-r--r--	root/root	usr/include/orc-0.4/orc/orcdebug.h
 -rw-r--r--	root/root	usr/include/orc-0.4/orc/orcemulateopcodes.h
 -rw-r--r--	root/root	usr/include/orc-0.4/orc/orcexecutor.h
@@ -45,11 +44,11 @@ drwxr-xr-x	root/root	usr/include/orc-0.4/orc/
 -rw-r--r--	root/root	usr/include/orc-0.4/orc/orcx86insn.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/liborc-0.4.so -> liborc-0.4.so.0
-lrwxrwxrwx	root/root	usr/lib/liborc-0.4.so.0 -> liborc-0.4.so.0.38.0
--rwxr-xr-x	root/root	usr/lib/liborc-0.4.so.0.38.0
+lrwxrwxrwx	root/root	usr/lib/liborc-0.4.so.0 -> liborc-0.4.so.0.39.0
+-rwxr-xr-x	root/root	usr/lib/liborc-0.4.so.0.39.0
 lrwxrwxrwx	root/root	usr/lib/liborc-test-0.4.so -> liborc-test-0.4.so.0
-lrwxrwxrwx	root/root	usr/lib/liborc-test-0.4.so.0 -> liborc-test-0.4.so.0.38.0
--rwxr-xr-x	root/root	usr/lib/liborc-test-0.4.so.0.38.0
+lrwxrwxrwx	root/root	usr/lib/liborc-test-0.4.so.0 -> liborc-test-0.4.so.0.39.0
+-rwxr-xr-x	root/root	usr/lib/liborc-test-0.4.so.0.39.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/orc-0.4.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/orc-test-0.4.pc
