@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrJkORSRa12KyPEKejgJ3y2kqG3JZbt+sD/+hU9uRIdudeOLHGDmU6Bfr6oV2MwE9ztsuU6qYPE91QigWCv7IAAg=
-SHA256 (Pkgfile) = 637403fa7cc9760eccb7eb0b9416c1705c7cc19b4b95d778e8180f8b29d14835
+RWRkiJhlUJEGrOZtzfPEmeoVrspIieRBrHnv5Y4XSgwD2sjCfPR+/Icmlka7gDI4JgqJ+RB3FEHuKlsqRvpwRmr8FIqHrK83RQc=
+SHA256 (Pkgfile) = 881943199f07a054ab06ccf548fd62a5030615b052435b8e70721947a75cc767
 SHA256 (.footprint) = bc260e3d2e03ac0b26230d1adbfecc6cf81c07944ecf3f50ab487b93a0d85df8
-SHA256 (qemu-9.0.2.tar.xz) = a8c3f596aece96da3b00cafb74baafa0d14515eafb8ed1ee3f7f5c2d0ebf02b6
+SHA256 (qemu-9.1.0.tar.xz) = 816b7022a8ba7c2ac30e2e0cf973e826f6bcc8505339603212c5ede8e94d7834
 SHA256 (static-linux-user-stubs.diff) = 0af0c78bffe8ca62112be96f096c4a043ab158cd9061516dfda089881b5be53d

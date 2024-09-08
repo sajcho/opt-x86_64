@@ -5,7 +5,7 @@
 
 name=qemu-static
 _realname=qemu
-version=9.0.2
+version=9.1.0
 release=1
 source=(https://download.qemu.org/${_realname}-${version}.tar.xz \
 	static-linux-user-stubs.diff)
