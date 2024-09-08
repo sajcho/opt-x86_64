@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrAKO/zxwwdjmb2+uZwurm7jOEgRW2tRzsl9PbDVLQvuDVxLMD9ppm6+CB+c5tOuufcfpL9O8M/G6/O89mfzhxAs=
-SHA256 (Pkgfile) = ed54f2b937cbb55cd9fa38b23a2f6ae1b8fd959cdd2fa3638020d725e3470ff2
-SHA256 (.footprint) = 2798cc52092c0202178c43387c90ae645536e0b17a082fb76ec2ea61af68322f
-SHA256 (libxslt-1.1.41.tar.xz) = 3ad392af91115b7740f7b50d228cc1c5fc13afc1da7f16cb0213917a37f71bda
+RWRkiJhlUJEGrLntcAEU71kjgtJt8JvdVoGJJGUvmtVqGx1RUslja2fr3zXzBgRBn7to+zMSv5sn6sbA3c0Y+Hpl0iLIB3YNPA4=
+SHA256 (Pkgfile) = 1ed2f94abca6fbf8f6052b8864370817679c026260cbe5847f82700b896718b5
+SHA256 (.footprint) = d495652d5eddbb43e2e3e08a1789fc5dfe509a8cc60a748ff09cd10d145beac4
+SHA256 (libxslt-1.1.42.tar.xz) = 85ca62cac0d41fc77d3f6033da9df6fd73d20ea2fc18b0a3609ffb4110e1baeb
