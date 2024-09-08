@@ -1,6 +1,8 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrG8EWvGFF+9h5+//iKKuiNCJOjtLkp2hEbJeLGiZqJcrwSwxydsb3iVXvqZj4TWzc6lpS9Zf/20zfmnIpavtkw8=
-SHA256 (Pkgfile) = 388bd944749be1a596d3f27434aba31f9a3acf895e6986d7fe863a646f200090
-SHA256 (.footprint) = 30ca1ae46afdd2c8237a54cff822f588231a1993b7a2c2573587797d39770529
-SHA256 (dtc-1.6.0.tar.xz) = 10503b0217e1b07933e29e8d347a00015b2431bea5f59afe0bed3af30340c82d
-SHA256 (increase_max_srcfile_depth.patch) = 41daee3a801d2e3e5b9b782ff9c221e9236723145eafbf1634ffd153ee1db46f
+RWRkiJhlUJEGrEzqh21ObWHz89ivp51pj+jrhXRKVJrAcw0lY3EPbj1e8TXphNgdeQK26v+KS1/rVlhswsgrSAYYk46XhhMh9AQ=
+SHA256 (Pkgfile) = 236058fd83f801f1057f4e5fe50aca090182e5416f917846ca171a52a3b6062c
+SHA256 (.footprint) = f093b436e27bf09f5024733dea61e6299ae2e34cc89476ccc897e346a45dfbab
+SHA256 (dtc-1.7.0.tar.xz) = 29edce3d302a15563d8663198bbc398c5a0554765c83830d0d4c0409d21a16c4
+SHA256 (fix-tests-for-Python3.12.patch) = c2786c6c4bbd7031394ab534ceca2fa6832142dd0cb3c74750388be9374b22fa
+SHA256 (install-pylibfdt-to-destdir.patch) = 6037a618b5b2f518b2121dd005bd2d98825e9d3836d019621d29a33ccc79e68d
+SHA256 (pyscm.patch) = 231cff0a51f85c4b5d2d43d5a94f685375dbfada0d0f2c7f18f2fa54e1ca90b5

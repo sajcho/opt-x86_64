@@ -12,6 +12,18 @@ drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/libfdt.h
 -rw-r--r--	root/root	usr/include/libfdt_env.h
 drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libfdt-1.6.0.so
+-rwxr-xr-x	root/root	usr/lib/libfdt-1.7.0.so
+-rw-r--r--	root/root	usr/lib/libfdt.a
 lrwxrwxrwx	root/root	usr/lib/libfdt.so -> libfdt.so.1
-lrwxrwxrwx	root/root	usr/lib/libfdt.so.1 -> libfdt-1.6.0.so
+lrwxrwxrwx	root/root	usr/lib/libfdt.so.1 -> libfdt-1.7.0.so
+drwxr-xr-x	root/root	usr/lib/python3.12/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/__pycache__/libfdt.cpython-312.pyc
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/_libfdt.cpython-312-x86_64-linux-gnu.so
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/libfdt-1.7.0-py3.12.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/libfdt-1.7.0-py3.12.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/libfdt-1.7.0-py3.12.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/libfdt-1.7.0-py3.12.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/libfdt-1.7.0-py3.12.egg-info/top_level.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/libfdt.py

@@ -1,26 +1,29 @@
 # Description:	Device Tree Compiler
 # URL:		https://git.kernel.org/pub/scm/utils/dtc/dtc.git/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	bison flex
+# Depends on:	bison flex python3-setuptools swig
 
 name=dtc
-version=1.6.0
+version=1.7.0
 release=1
 source=(https://kernel.org/pub/software/utils/${name}/${name}-${version}.tar.xz \
-	increase_max_srcfile_depth.patch)
+	fix-tests-for-Python3.12.patch \
+	install-pylibfdt-to-destdir.patch \
+	pyscm.patch)
 
 build() {
 	cd ${name}-${version}
 
-	patch -p1 -i $SRC/increase_max_srcfile_depth.patch
+	patch -p1 -i $SRC/fix-tests-for-Python3.12.patch
+	patch -p1 -i $SRC/install-pylibfdt-to-destdir.patch
+	patch -p1 -i $SRC/pyscm.patch
 
 	sed -i 's|-Werror||g' Makefile
+	sed -i "s|@VERSION@|${version}|" setup.py
 
 	make -j1
 
-	make -j1 check
+	make check
 
 	make -j1 DESTDIR=$PKG PREFIX=/usr install
-
-	rm $PKG/usr/lib/libfdt.a
 }
