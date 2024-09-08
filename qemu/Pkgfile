@@ -4,7 +4,7 @@
 # Depends on:	dtc glib libslirp libusb linux-pam pixman
 
 name=qemu
-version=9.0.2
+version=9.1.0
 release=1
 source=(https://download.qemu.org/${name}-${version}.tar.xz)
 
