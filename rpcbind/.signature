@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrArAjS4WdX/cmAAE5V/Pd70QFsn7AFCe1uapFZ9mcblppmiMZjZN1OmVyiVdaRc0bZ+K944BN/CXK+/WLnEmCAU=
-SHA256 (Pkgfile) = c6b14c090cc03579337e369ea1ce98c0a47a5bd3965dddb57bc576bca2a76236
+RWRkiJhlUJEGrJQNHKOPPPnSkchlgK70qOUUpSGgl1VeQeExGvc8HXU0qqGi1ZgOWm12g0nlqOe7rpI0hQ2lzgHTiTc+A89hnQ0=
+SHA256 (Pkgfile) = 6927882691bb54f529baae6c297128a17b6e9fd738eb9319931b9724961765b3
 SHA256 (.footprint) = cbb56e9e27e8a5e97be0f0f6cad4c362de2e4f3e071d9e211b0d2b70168f357c
-SHA256 (rpcbind-1.2.6.tar.bz2) = 5613746489cae5ae23a443bb85c05a11741a5f12c8f55d2bb5e83b9defeee8de
+SHA256 (rpcbind-1.2.7.tar.bz2) = f6edf8cdf562aedd5d53b8bf93962d61623292bfc4d47eedd3f427d84d06f37e
 SHA256 (rpcbind.run) = a42130df403e01f50e37c7b9b9980694b6f5da74728cb888e605adb8bf633a7d
