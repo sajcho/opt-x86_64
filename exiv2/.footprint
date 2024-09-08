@@ -21,7 +21,6 @@ drwxr-xr-x	root/root	usr/include/exiv2/
 -rw-r--r--	root/root	usr/include/exiv2/exv_conf.h
 -rw-r--r--	root/root	usr/include/exiv2/futils.hpp
 -rw-r--r--	root/root	usr/include/exiv2/gifimage.hpp
--rw-r--r--	root/root	usr/include/exiv2/http.hpp
 -rw-r--r--	root/root	usr/include/exiv2/image.hpp
 -rw-r--r--	root/root	usr/include/exiv2/image_types.hpp
 -rw-r--r--	root/root	usr/include/exiv2/iptc.hpp
@@ -59,8 +58,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/exiv2/
 -rw-r--r--	root/root	usr/lib/cmake/exiv2/exiv2Export-none.cmake
 -rw-r--r--	root/root	usr/lib/cmake/exiv2/exiv2Export.cmake
 lrwxrwxrwx	root/root	usr/lib/libexiv2.so -> libexiv2.so.28
--rwxr-xr-x	root/root	usr/lib/libexiv2.so.0.28.2
-lrwxrwxrwx	root/root	usr/lib/libexiv2.so.28 -> libexiv2.so.0.28.2
+-rwxr-xr-x	root/root	usr/lib/libexiv2.so.0.28.3
+lrwxrwxrwx	root/root	usr/lib/libexiv2.so.28 -> libexiv2.so.0.28.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/exiv2.pc
 drwxr-xr-x	root/root	usr/share/
