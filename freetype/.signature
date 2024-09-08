@@ -1,8 +1,8 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrOiMOv2EVr7B4GgU6tSxNlaoa9zvo6zZDPOYSFbgu6tjoS4fXdnWVSniLkqFQ4FGd6u+tQlybAaLhSDZyWtT5Q8=
-SHA256 (Pkgfile) = b48e99f6c8518aa87e72379deaac893b48f9490a4641ca5ab66091425d558ca8
-SHA256 (.footprint) = 288132b9bb1281432803f321adc2a736f9d496b9f13cd9253d9d1feecc4e4bfd
-SHA256 (freetype-2.13.2.tar.xz) = 12991c4e55c506dd7f9b765933e62fd2be2e06d421505d7950a132e4f1bb484d
+RWRkiJhlUJEGrCxCyGoYs/AwAFeaJnacG1BOW4YlIiAJtzBZMjpLkZclMzP31hpoQ+qsBgz1Y8DJcJl1K8w533W09ACkSrVgSgw=
+SHA256 (Pkgfile) = 6744d496752f8e4ead80beed6eac0449ad5add8ad08008316cfe1ac70485977b
+SHA256 (.footprint) = fc8bf62f3c687c9aa305e7ea27b76d300bd39c47eb6d7976b7f7ad51c4b1b176
+SHA256 (freetype-2.13.3.tar.xz) = 0550350666d427c74daeb85d5ac7bb353acba5f76956395995311a9c6f063289
 SHA256 (0001-Enable-table-validation-modules.patch) = f41df4f336d5e82e58733c7a4594476c9216cfc85c096327745a7e1b559e17e1
 SHA256 (0002-Enable-subpixel-rendering.patch) = dc77c1cfee4bf8e7e0690628c95d211df09e0d0750e4c8f075b78b5f105514f7
 SHA256 (0004-Enable-long-PCF-family-names.patch) = 266384222f87a02fb02b2179828f6c26fe6d7b1fd09d1f7e3734e7fcb09cda2e
