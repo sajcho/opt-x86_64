@@ -1,0 +1,9 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/qemu-aarch64-static
+-rwxr-xr-x	root/root	usr/bin/qemu-loongarch64-static
+-rwxr-xr-x	root/root	usr/bin/qemu-riscv64-static
+-rwxr-xr-x	root/root	usr/bin/qemu-x86_64-static
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qemu/
+-rwxr-xr-x	root/root	usr/share/qemu/qemu-binfmt-conf.sh
