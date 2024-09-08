@@ -4,12 +4,12 @@
 # Depends on:	libidn2 libseccomp nettle p11-kit
 
 name=gnutls
-version=3.8.5
+version=3.8.7.1
 release=1
 source=(https://www.gnupg.org/ftp/gcrypt/${name}/v3.8/${name}-${version}.tar.xz)
 
 build() {
-	cd ${name}-${version}
+	cd ${name}-3.8.7
 
 	CFLAGS+=" -Wno-missing-include-dirs"
 
