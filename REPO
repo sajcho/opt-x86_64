@@ -38,7 +38,6 @@ d:oniguruma
 d:pamixer
 d:iso-codes
 d:libssh
-d:nodejs
 d:wireless-tools
 d:qemu
 d:libsndfile
@@ -56,6 +55,7 @@ d:libxslt
 d:efivar
 d:opus
 d:libzip
+d:nodejs-lts
 d:rpcbind
 d:harfbuzz
 d:potrace
@@ -81,6 +81,7 @@ d:intltool
 d:libde265
 d:sbc
 d:imagemagick
+d:dracut
 d:libvisual
 d:libsass
 d:libtheora
@@ -200,8 +201,8 @@ f:ca38f3fffa09bca15e313b41584dd75d:libnl/.footprint
 f:12a4d910f54d2ead742175bc49ddaf10:libnl/.signature
 f:abc55807607e8f27f48aef649a4920cd:libnl/Pkgfile
 f:7637a33d9022219769ff7e23b86e8291:libevent/.footprint
-f:0b87bbc82353ed55c72e5a2baee5227d:libevent/.signature
-f:0d5bab222598eb16cf07f2851f24f4e7:libevent/Pkgfile
+f:025c271a72b927a249ddda8dd88bdbb7:libevent/.signature
+f:89f1369c0f0bd700ff2b8d23bb961064:libevent/Pkgfile
 f:f7cfede7c801951a0ff658d78ae3d053:efibootmgr/.footprint
 f:341504d775c5eeb5fc34fc55b8b111d7:efibootmgr/.signature
 f:365a31a30f24535777220c111bc25017:efibootmgr/Pkgfile
@@ -210,8 +211,8 @@ f:7c6ada70cc8c82090a96047dc8266de6:l-smash/.signature
 f:3fa3739d5577de6eb39fd9ec16f2d439:l-smash/Pkgfile
 f:2083f33e11dfe15feb7bf9bca0f6c44b:nspr/nspr.pc.in
 f:40f5422d3bcacfdc5be021a7d377410e:nspr/.footprint
-f:ad2ab8b8f770f77bf431ca4a6159c09b:nspr/.signature
-f:46a9af69f979f15bfc3bb1199ae20fb7:nspr/Pkgfile
+f:baa2beb7814c14c526517edef60d6661:nspr/.signature
+f:2bfb79fd1695dd6e3ca93ed72a1eaaf4:nspr/Pkgfile
 f:704269930d2904b31f36c163e21b668c:unzip/unzip-6.0-cve-2018-1000035-heap-based-overflow.patch
 f:cdc6bfec54d7e6e947f56dbd4782dc74:unzip/unzip-zipbomb-part1.patch
 f:70b5e86edac512437b5d3f5b3f232b95:unzip/unzip-zipbomb-part3.patch
@@ -258,8 +259,8 @@ f:8d9a3f2ecc54da33cfda39d09619402c:libidl/.footprint
 f:624b7e85a006f3c4ef8e152c853dc3f2:libidl/.signature
 f:0a83449c0e48d05bfc718dcbeb5b8a44:libidl/Pkgfile
 f:7234fb41dc6171ac68dcb02681388726:dosfstools/.footprint
-f:2aeaf330709bc3708caa69831ff1bfb5:dosfstools/.signature
-f:cafc3a2b9ee591bfc27dc89b34e04714:dosfstools/Pkgfile
+f:59aa5a2acbc47935e257ea69783dc9c7:dosfstools/.signature
+f:2d6fd288ad46e3ea2381244b1479501f:dosfstools/Pkgfile
 f:2cdab58ecdab300d282f7c1e1fce6cc3:make-ca/.footprint
 f:f2e02bbc00a49f175b119f3f7ae9f669:make-ca/.signature
 f:ea38a8cd71bb4f27bfd726bc97a6b92b:make-ca/Pkgfile
@@ -336,9 +337,6 @@ f:949f39a7ae65dd4fced7c33d418687f1:iso-codes/Pkgfile
 f:c4b3fc8cd286e0174e273ee3da5ad670:libssh/.footprint
 f:af899558b6daba722049f8a18c5b5ab2:libssh/.signature
 f:b37e0fcd2a8f17cc100afd522d9238e0:libssh/Pkgfile
-f:8e3e133575e9820900e5cff14e75ec6c:nodejs/.footprint
-f:07fe1339c6620fcc86436b462935d086:nodejs/.signature
-f:8e7fc3017455f40d6ed496b4b010a408:nodejs/Pkgfile
 f:0a4ff1a49b94567ca211ff8e78164cf4:wireless-tools/.footprint
 f:b6053751d5c7e11cd039493d851dcfe5:wireless-tools/.signature
 f:b13a9c8682772e47589816d19aaf7e13:wireless-tools/Pkgfile
@@ -369,8 +367,8 @@ f:5a69c6987628242eb605b872228f7ed8:libxmlb/.footprint
 f:99117e1c84dbbdd15bfa73dccd0c5f76:libxmlb/.signature
 f:38b91b69d8e64e2408fa8d724a34f606:libxmlb/Pkgfile
 f:84107c4b9217a5bcff4f95c1a6cc03b0:libvorbis/.footprint
-f:c49b6b615d3a004352dddb6ec79daab7:libvorbis/.signature
-f:40221bfb457585ad2b1d832f77cc3b1c:libvorbis/Pkgfile
+f:d76b3bf0ac2ecab49d80ab78b01f1edf:libvorbis/.signature
+f:885e866400365531109ef3d8da1710be:libvorbis/Pkgfile
 f:55bc2cf66340ff95ae691627faefd6bc:edk2-bin/.footprint
 f:6d9f3e2cc6c44e4d1d7db16a687067cf:edk2-bin/.signature
 f:981cb2fca9531bf3940d0150942aa170:edk2-bin/Pkgfile
@@ -395,6 +393,9 @@ f:0c1e695959621ba6e6fb637be312aea1:opus/Pkgfile
 f:431c6b28d0d1effbce50bfe769f02b23:libzip/.footprint
 f:9aa2f475abcaac14198f3a75805b7fbc:libzip/.signature
 f:8f7226e1a22da72a5886b7ae6126c583:libzip/Pkgfile
+f:8d62e10450dbfb8f8d60d9f367231142:nodejs-lts/.footprint
+f:d3aacd5d47072dab9c16f721dc46c0f0:nodejs-lts/.signature
+f:1bcaf401d2e878491c70354f86919f78:nodejs-lts/Pkgfile
 f:f6fe0aa771ab750ac9f690ddf09bc0b0:rpcbind/.footprint
 f:eea73dd7d8ec3296437085e96ff4b22f:rpcbind/.signature
 f:932e6005c0c3a1db3b0ebe2bc67280a1:rpcbind/Pkgfile
@@ -444,8 +445,8 @@ f:f8648dac82ec0b66fb6078c3c14c1bda:argon2/.footprint
 f:705e9a06070335b154530b2f771f99f5:argon2/.signature
 f:f2826f78dfd048c73ef6c25166b1f73f:argon2/Pkgfile
 f:9b7fcaa3d9b09d6c27560ac6905c8899:fftw/.footprint
-f:ba27be6c44962a12dcd77d3938a2b02c:fftw/.signature
-f:c5b10add73540136fb07a4416139b280:fftw/Pkgfile
+f:d7576de9b7c0eaa001032084e31082fe:fftw/.signature
+f:6b14e0786d0971ffdbcd3e787bed48b6:fftw/Pkgfile
 f:626cf275e7009c4ccecbff6b1680d943:c-ares/.footprint
 f:dc67f636b5d86ed9004715647779c634:c-ares/.signature
 f:3f1962db82216d71d08858b6ea11b666:c-ares/Pkgfile
@@ -477,6 +478,9 @@ f:296019fc8ea5df44fd477d3de000961e:sbc/Pkgfile
 f:7fd006dd84ff50e5541feade027696a2:imagemagick/.footprint
 f:f29fd24b7c0044b623dbc9c60fb498cf:imagemagick/.signature
 f:702e9763cedee8156965c385d2ef1926:imagemagick/Pkgfile
+f:45cb597356fd5fef89319d3f7c40cbd8:dracut/.footprint
+f:f4d93c6b509e5662e8e53e3a2c83dede:dracut/.signature
+f:dddecb6507ec17169b0cd1e62756b149:dracut/Pkgfile
 f:d7af0e3de91c0dacfb2bbc2f7e3cdd56:libvisual/.footprint
 f:2855d2d1e297ebd0e3347df98c5001bc:libvisual/.signature
 f:bfa65b48af83e2c0499c7e7e298bea8a:libvisual/Pkgfile
@@ -668,8 +672,8 @@ f:eedaff6af62d232ee2eae691b11faaf6:light/.footprint
 f:522469150ff2ad2a3f9ffe91b49bdf46:light/.signature
 f:bc920d5a5eaf48928db62bea03f54157:light/Pkgfile
 f:54e466f558ada268c4452302e8ab7cc6:libogg/.footprint
-f:86948bc43184c3f7e1bfae872bb0a3ce:libogg/.signature
-f:243f8a208bc9f5295c9ee8f6bbd7e0ba:libogg/Pkgfile
+f:2f89d9d5021b51aa5b9296500419465b:libogg/.signature
+f:81d8fc458b3d708ce15f9d9346b25c1a:libogg/Pkgfile
 f:82f2fe41400be12ed2d67684771968f7:alsa-lib/.footprint
 f:6642ddfb85b142a7db582fb58f9dd2d5:alsa-lib/.signature
 f:f1884fd7786fac4d520a6d7496c4a6d2:alsa-lib/Pkgfile
@@ -749,8 +753,8 @@ f:905228300383957419fa135624928c1b:rust/0002-tool.rs-change-dir-libexec-to-lib.p
 f:37846bc5a7379e953aaae4022cb637a2:rust/Pkgfile
 f:fa8e466b2e4d33e772904b015a717088:rust/0001-dist.rs-change-dir-libexec-to-lib.patch
 f:23597c500f768a1e0d91d27185e46c32:popt/.footprint
-f:6838f0a1be73bfe1ecef8e9a742571e3:popt/.signature
-f:675facec5eeac1ea6a8a1ecefb2c835f:popt/Pkgfile
+f:1352d88c90053861169e333e238a991a:popt/.signature
+f:6964e777701d10ea665fed6b2f20931d:popt/Pkgfile
 f:71b6387d1ca613ed120ee88ef13b5090:yasm/.footprint
 f:221d3c5c66280c24017636318506003c:yasm/.signature
 f:204f8f7989f616e06e28ce0313b1a7f3:yasm/fix-memory-using-gas-processor.patch
