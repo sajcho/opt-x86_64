@@ -34,6 +34,8 @@ build() {
 		printf "Building for $i precision ($_cf)"
 		cd $SRC/$i
 		./configure \
+			--build=$CHOST \
+			--host=$CHOST \
 			--prefix=/usr \
 			--sysconfdir=/etc \
 			--enable-shared \
