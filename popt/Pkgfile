@@ -11,8 +11,13 @@ source=(http://ftp.rpm.org/${name}/releases/${name}-${version%.*}.x/${name}-${ve
 build() {
 	cd ${name}-${version}
 
+	cp -v /usr/share/automake-1.17/config.{guess,sub} build-aux/
+
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
+		--sysconfdir=/etc \
 		--disable-nls \
 		--disable-static
 
