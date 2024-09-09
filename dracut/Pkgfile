@@ -1,0 +1,26 @@
+# Description:	An event-driven initramfs infrastructure
+# URL:		https://github.com/dracut-ng/dracut-ng
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=dracut
+version=103
+release=1
+source=(https://github.com/dracut-ng/dracut-ng/archive/${version}/${name}-${version}.tar.gz \
+	https://crux.nu/files/dracut-man-pages-${version}.tar.xz)
+
+build() {
+	cd dracut-ng-${version}
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--disable-documentation
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	cp -r $SRC/usr $PKG/
+	chmod -R g-w $PKG/usr/lib/dracut/modules.d
+	rm $PKG/usr/lib/dracut/modules.d/*/README*
+}

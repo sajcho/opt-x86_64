@@ -1,0 +1,6 @@
+untrusted comment: verify with opt-x86_64.pub
+RWRkiJhlUJEGrDhLVtFFkQZujOlCAtWgsdhhrTokXWMaz0focfQkfJncV3uvxBjjWvZayK/j709jNQ5wvXWaeknS2yQmNSQD5Ak=
+SHA256 (Pkgfile) = 126e486bc298b75f0a64bf908de1dc64c0512b3d13186ca098d3655fb9f7e5d3
+SHA256 (.footprint) = 6c6523f70c39c816b9eca3face371d49f762a220bc03a30a1af18007ebacf0d9
+SHA256 (dracut-103.tar.gz) = 9a92b4f0643926a65162171d68b9525fc93e6e82f455a4b3938db385a841bda8
+SHA256 (dracut-man-pages-103.tar.xz) = 4175788de2e8b9783d1345ff68ebafebc247aef60450e6274a6b86e9171b30e2
