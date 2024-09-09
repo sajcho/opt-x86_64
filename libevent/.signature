@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrImD6NL9aitgTyry2uhjTKUZ6RtzCOBVvaBHAsAwfDUoIzrE2JpUX2IujRUVJjB0c9q3FMG9OdqmZEAFsvEn9wU=
-SHA256 (Pkgfile) = 75cfbac775994b79cd7cc09d16030218274be630aef74b74c720fafb6902d02e
+RWRkiJhlUJEGrGqzrp3hv7wi0ArgsUYA3iHBHbgoxF8IVplfn0VN8fI5tqWFtwDhfq8NW9xLR/grbyHf3cw23IGnF3ciSLRg8gc=
+SHA256 (Pkgfile) = 11db71714fe948680a450c61821f56e54bbaf685f76395681fa88ca27de0ce4f
 SHA256 (.footprint) = 7729052c9b1ee105ed1afb67e185536921d0885917975c554fd21bfde234905e
 SHA256 (libevent-2.1.12-stable.tar.gz) = 92e6de1be9ec176428fd2367677e61ceffc2ee1cb119035037a27d346b0403bb
