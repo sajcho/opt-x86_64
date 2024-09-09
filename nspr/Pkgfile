@@ -11,9 +11,13 @@ source=(https://ftp.mozilla.org/pub/nspr/releases/v${version}/src/${name}-${vers
 build() {
 	cd ${name}-${version}/nspr
 
+	cp -v /usr/share/automake-1.17/config.{guess,sub} build/autoconf/
+
 	local NSPR_LIBS NSPR_CFLAGS NSPR_VERSION
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--libdir=/usr/lib \
 		--includedir=/usr/include/nspr \
