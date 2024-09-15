@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrE8/0mcVR6nyYkef9z8VbKn4+jWSLFxLpUaXDD4Q0+O2Rz0JUDSyAL2VJnjSdWjzBhnO9ppzLrKssmJJI1S89g4=
-SHA256 (Pkgfile) = 04fead7412cdc10de0cbdad12e2ffde8d6886f2a479c0428c0ba5700dadddfa6
+RWRkiJhlUJEGrOkbHs1Z1K3objM5RP9Td2t9A8SrIjtvC5LK3kaW/4NEdDx8goNXmbyh+LWOH+agd+Qu+dFT33VCp7CIeiZc/QA=
+SHA256 (Pkgfile) = 744924691ae8ef779b5abb2ae51d4689cd7e0da319fccdbed3c9dc364369391d
 SHA256 (.footprint) = ec9ebdda1ff8768cc7bccebf10bfc5f5033c6ca613c84222482d5a7cebd135ad
 SHA256 (glib-2.82.0.tar.xz) = f4c82ada51366bddace49d7ba54b33b4e4d6067afa3008e4847f41cb9b5c38d3
 SHA256 (gobject-introspection-1.80.1.tar.xz) = a1df7c424e15bda1ab639c00e9051b9adf5cea1a9e512f8a603b53cd199bc6d8
