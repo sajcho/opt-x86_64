@@ -6,15 +6,11 @@
 name=boost
 version=1.85.0
 _pkgversion=1_85_0
-release=1
+release=2
 source=(https://boostorg.jfrog.io/artifactory/main/release/${version}/source/${name}_${_pkgversion//./_}.tar.bz2)
 
 build() {
 	cd ${name}_${_pkgversion//./_}
-
-	[ $CARCH = "x86_64" ] && ARCH="x86"
-	[ $CARCH = "aarch64" ] && ARCH="arm"
-	[ $CARCH = "riscv64" ] && ARCH="riscv"
 
 	# Boost breaks the few packages which use the phoenix
 	# module when compiled with current GCC.
@@ -29,7 +25,6 @@ build() {
 		--with-python=python3
 
 	./b2 -q stage \
-		architecture="$ARCH" \
 		variant=release \
 		debug-symbols=off \
 		threading=multi \
@@ -45,7 +40,6 @@ build() {
 		${JOBS:+-j ${JOBS}}
 
 	./b2 -q install \
-		architecture="$ARCH" \
 		variant=release \
 		debug-symbols=off \
 		threading=multi \
