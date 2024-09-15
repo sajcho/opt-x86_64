@@ -5,7 +5,7 @@
 
 name=libvpx
 version=1.14.1
-release=1
+release=2
 source=(https://github.com/webmproject/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
@@ -22,9 +22,12 @@ build() {
 		--enable-vp9-highbitdepth \
 		--enable-vp9-temporal-denoising \
 		--enable-runtime-cpu-detect \
-		--disable-static \
 		--disable-install-docs \
-		--disable-install-srcs
+		--disable-install-srcs \
+		--disable-lsx \
+		--disable-lasx \
+		--disable-static \
+		--disable-unit-tests
 
 	make V=1
 
