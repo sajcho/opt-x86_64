@@ -1,18 +1,21 @@
 # Description:	International Components for Unicode library
 # URL:		http://site.icu-project.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	llvm-toolchain
 
 name=icu
-version=74.2
-release=2
-source=(https://github.com/unicode-org/${name}/releases/download/release-${version//./-}/icu4c-${version/./_}-src.tgz)
+version=75.1
+release=1
+source=(https://github.com/unicode-org/${name}/releases/download/release-${version//./-}/icu4c-${version/./_}-src.tgz \
+	standardize-vtzone-output.patch)
 
 build() {
 	cd ${name}/source
 
-	CC=clang CXX=clang++ \
+	patch -p1 -i $SRC/standardize-vtzone-output.patch
+
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--mandir=/usr/share/man \
 		--disable-static
