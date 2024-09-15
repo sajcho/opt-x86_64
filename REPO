@@ -192,8 +192,8 @@ f:eec36ce9d1f97eab09db07b67ba8c18a:qemu-static/.footprint
 f:e75f816075efc94558a3d5daecaa7781:qemu-static/.signature
 f:1558124aaccf178302ba71175b52350a:qemu-static/Pkgfile
 f:73bc242687eec197fae4c2475aaa7fdc:libvpx/.footprint
-f:3caf3a9000f899f404575f6d6729ddc6:libvpx/.signature
-f:6e6b3cdfb9a5fa96c94e99707969d53e:libvpx/Pkgfile
+f:f4cb4ab85dbaa48651a876898be23955:libvpx/.signature
+f:d555f04306d06e4930162c21999db4c6:libvpx/Pkgfile
 f:4ab57987dced245d150f5b03b6c38f9f:gnu-efi/.footprint
 f:d2f3e3256efa6490d476105ab17e4a20:gnu-efi/.signature
 f:08abdbcfc54c38484706c7913c338b83:gnu-efi/Pkgfile
@@ -508,8 +508,8 @@ f:86a8df02956e678db3ea187f27c8f4aa:zig/Pkgfile
 f:23bf071a0e4a11b21fd6e0a4adfdb7ed:glib/post-install
 f:6009383954b4f9c3c55dcc9b3ba48493:glib/.footprint
 f:ebd1ee90e4f81e6c6cc03c29ab8b6bea:glib/gschemas.compiled
-f:9660f5396497f4fe87e96aa81316462e:glib/.signature
-f:3a4ce2bd71e59d95e58cd7a697bc4ebe:glib/Pkgfile
+f:dff89212f11b6f634563c7111922d1ff:glib/.signature
+f:c4e8b7f757dab4ed9c658c553a1c406d:glib/Pkgfile
 f:08b95225e98724a67fb2c765acea8ef9:glib/deprecated-no-warn.patch
 f:8f2fa95ca53f1ec2b2d7136d618f8322:llvm-toolchain/.footprint
 f:13d28d82c2b70aeff8481378af3a787d:llvm-toolchain/.signature
@@ -532,8 +532,8 @@ f:698ac7658d14f95dc20a7a370e320ea5:exiv2/.footprint
 f:34348af24e2eff2062a87c946aff3786:exiv2/.signature
 f:747cc2b6b192dac2506d1b8eb7e350b8:exiv2/Pkgfile
 f:b7dcbfe9ed1e7093b6c82a366721b3bd:fmt/.footprint
-f:0f8890af7be284c58b3798bed7861c37:fmt/.signature
-f:c604908b393a99868ce9b1ff6e44665e:fmt/Pkgfile
+f:4e0854d1e61df35e9e5d6b838612f8da:fmt/.signature
+f:3c006a740eb1f0982a24fdd04c281bd6:fmt/Pkgfile
 f:1428757b51e5fcc227ed51b875f5d34c:flac/.footprint
 f:c06cd38139839359c81572374c301bb9:flac/.signature
 f:37941708df390b2c33380ba85b4b300c:flac/Pkgfile
@@ -596,8 +596,8 @@ f:03e29f29294455ec5556b61e01e80072:libsigc++2/.footprint
 f:dda80e40024aba22a7762ebd99db4934:libsigc++2/.signature
 f:bb1cd9362713a9b9d1d389aa85741f9e:libsigc++2/Pkgfile
 f:558436893b6842492006ff1dbd75ace8:boost/.footprint
-f:a895263e647c34ae7787e9c4b917ae64:boost/.signature
-f:d4b5619add50a688a948b87bc4f5d487:boost/Pkgfile
+f:6569108686ecd637076bba673a33e7e8:boost/.signature
+f:7f10836349287b627c33770f1f09692e:boost/Pkgfile
 f:04a088d85fde115ef6654c4eecd47283:jq/.footprint
 f:d0e6f59595273928da79ee011eba31ed:jq/.signature
 f:569d2d604fefbae183c4d62de0bee228:jq/Pkgfile
@@ -762,9 +762,10 @@ f:8201f396c7577219987845f9da6a4923:yasm/Pkgfile
 f:41f65843bc87d4edad6884f527761ef5:cxxopts/.footprint
 f:bd8de8857c67769ad85a8aab3f37fde3:cxxopts/.signature
 f:dd7fa87d8dea6ca851b4d633ddeb98ca:cxxopts/Pkgfile
-f:e2117d195a9f5ef84afa75a573564447:icu/.footprint
-f:7406be31ed89acd2ef8efaeed839fe4c:icu/.signature
-f:d0c7150c3180c50f58b34dc84a9012ee:icu/Pkgfile
+f:39e96991212b854c597ae9f539b1c8ff:icu/standardize-vtzone-output.patch
+f:ca644f494ac2f1003f5a25cd1f438d73:icu/.footprint
+f:3ae5ee07d2e1b74ba849f0d3b03f3528:icu/.signature
+f:b4babe38d0556e56b1fd470286e7d88a:icu/Pkgfile
 f:3bf548825196650ea2e3a62679262610:icu/README
 f:b1569c88467151b0d96ad272bf875dea:xdg-user-dirs/.footprint
 f:dea84c0955d77e475357c6ac5a5ce45a:xdg-user-dirs/.signature
