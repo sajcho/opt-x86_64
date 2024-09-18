@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrIKjl/LkIJor0z1OI4JbN3Wffj5qfuLhHRIeq+wVZkOvVMVG86efRuC84Gg6zmFAlrFUwZr6jikNfaro9Nt/FAw=
-SHA256 (Pkgfile) = b2d410bfffa29334c459ab518c108526a1bbbc9680faf6e77b3842a902e92c35
+RWRkiJhlUJEGrFY+tA6fWFi8olLGr51T9Il5z9K+o+8w5/EalFtZ/GJkpJrqQ/tFaFnUatOUinbSiolaphJIfJKhKVwpB/sXCAM=
+SHA256 (Pkgfile) = a74be07d31a104bdecaadd449fa02dae9fe04c386e87e2cdf87b68ccb36a361d
 SHA256 (.footprint) = 08a748c1ed7af0b281888516c512131868a71b99ba18c50a8dfd4919d6cffa49
 SHA256 (shared-mime-info-2.4.tar.gz) = 531291d0387eb94e16e775d7e73788d06d2b2fdd8cd2ac6b6b15287593b6a2de
 SHA256 (no-xmlto.patch) = 7b1b6ddcf10e4bc726131f9de2ffae6c4cab6b0b74459b3391044e74760cd814

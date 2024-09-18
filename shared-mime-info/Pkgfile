@@ -5,7 +5,7 @@
 
 name=shared-mime-info
 version=2.4
-release=1
+release=2
 source=(https://gitlab.freedesktop.org/xdg/${name}/-/archive/${version}/${name}-${version}.tar.gz \
 	no-xmlto.patch)
 
@@ -25,6 +25,8 @@ build() {
 
 	# Builds the initial database
 	/usr/bin/env PKGSYSTEM_ENABLE_FSYNC=0 $PKG/usr/bin/update-mime-database $PKG/usr/share/mime
+
+	find $PKG/usr/share/mime -type f -exec chmod 644 {} ';'
 
 	rm -r $PKG/usr/share/locale
 }
