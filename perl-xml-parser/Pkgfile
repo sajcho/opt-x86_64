@@ -6,7 +6,7 @@
 name=perl-xml-parser
 _realname=XML-Parser
 version=2.46
-release=3
+release=4
 source=(https://cpan.metacpan.org/authors/id/T/TO/TODDR/${_realname}-${version}.tar.gz)
 
 build() {
