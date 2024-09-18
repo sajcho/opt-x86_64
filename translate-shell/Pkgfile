@@ -4,7 +4,7 @@
 # Depends on:	bash curl fribidi gawk less rlwrap
 
 name=translate-shell
-version=0.9.6.12
+version=0.9.7.1
 release=1
 source=(https://github.com/soimort/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
