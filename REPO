@@ -619,8 +619,8 @@ f:ca0f98e2c135c05f325de6654aa7944a:libassuan/Pkgfile
 f:3acebcceab39e17f107be108292bec75:shared-mime-info/no-xmlto.patch
 f:46b641b08b209c773259888b6ad8fefc:shared-mime-info/post-install
 f:f8d2f18e32451d2f7d516ef7fd446dc8:shared-mime-info/.footprint
-f:6158c0dbd5bd480d808bcbd42b362dea:shared-mime-info/.signature
-f:d401b5a0e6495cdf9cd7d72dfe08904a:shared-mime-info/Pkgfile
+f:4565cd8e3867e9bb7b59290b0f2bc02b:shared-mime-info/.signature
+f:a5313d4cf0354d3b35e8cc046ec77076:shared-mime-info/Pkgfile
 f:446fccd7fd3679aafa67b0ffcb0856af:shared-mime-info/README
 f:6807357a87869289ae92809d8a04cba6:grub2-efi/unifont-15.1.01.bdf
 f:43e08eb0137bd7ffafda6bf4c7a9b327:grub2-efi/extra_deps.lst
