@@ -16,8 +16,6 @@ lrwxrwxrwx	root/root	usr/lib/libsensors.so.5 -> libsensors.so.5.0.0
 -rwxr-xr-x	root/root	usr/lib/libsensors.so.5.0.0
 drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/fancontrol
--rwxr-xr-x	root/root	usr/sbin/isadump
--rwxr-xr-x	root/root	usr/sbin/isaset
 -rwxr-xr-x	root/root	usr/sbin/pwmconfig
 -rwxr-xr-x	root/root	usr/sbin/sensors-detect
 drwxr-xr-x	root/root	usr/share/
@@ -31,8 +29,6 @@ drwxr-xr-x	root/root	usr/share/man/man5/
 lrwxrwxrwx	root/root	usr/share/man/man5/sensors3.conf.5.gz -> sensors.conf.5.gz
 drwxr-xr-x	root/root	usr/share/man/man8/
 -rw-r--r--	root/root	usr/share/man/man8/fancontrol.8.gz
--rw-r--r--	root/root	usr/share/man/man8/isadump.8.gz
--rw-r--r--	root/root	usr/share/man/man8/isaset.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/pwmconfig.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/sensors-conf-convert.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/sensors-detect.8.gz

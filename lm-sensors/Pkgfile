@@ -5,7 +5,7 @@
 
 name=lm-sensors
 version=3.6.0
-release=1
+release=2
 source=(https://github.com/lm-sensors/lm-sensors/archive/V${version//./-}/$name-$version.tar.gz)
 
 build() {
@@ -17,4 +17,7 @@ build() {
 		MANDIR=/usr/share/man \
 		DESTDIR=$PKG \
 		install
+
+	rm $PKG/usr/sbin/{isadump,isaset}
+	rm $PKG/usr/share/man/man8/{isadump,isaset}.8
 }
