@@ -494,9 +494,9 @@ f:a456b2ae37b7f0433dd5133cc277596c:libtheora/Pkgfile
 f:e7364c8896b2f082aaf1579001d1bd65:perl-uri/.footprint
 f:f7147c6e2c157ba41380ed58744f7cf6:perl-uri/.signature
 f:22286c5b909ba79349df4a7b7965b5c2:perl-uri/Pkgfile
-f:7eaabe24e8aa1dcdab10d17693f12f75:lm-sensors/.footprint
-f:c8c47976b6130acc213f275f3185d46e:lm-sensors/.signature
-f:cb248bae1ff814f1932f5779c496367a:lm-sensors/Pkgfile
+f:c000a8bfee82f077299fd491e77a3a74:lm-sensors/.footprint
+f:a95f9eb7bb7ea66884d1d6a3f0448447:lm-sensors/.signature
+f:022e7ae55acde27dbed7481d5b264feb:lm-sensors/Pkgfile
 f:c78da831c375e0c2d8d187dc4fabd272:lm-sensors/README
 f:d4e204209bccffea4dcc1aec62d4cadf:enca/enca-bad-file-descriptor.patch
 f:8acfa16b629095235b8b9a25330853d4:enca/.footprint
