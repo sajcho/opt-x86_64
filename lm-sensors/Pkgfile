@@ -18,6 +18,6 @@ build() {
 		DESTDIR=$PKG \
 		install
 
-	rm $PKG/usr/sbin/{isadump,isaset}
-	rm $PKG/usr/share/man/man8/{isadump,isaset}.8
+	rm -f $PKG/usr/sbin/{isadump,isaset}
+	rm -f $PKG/usr/share/man/man8/{isadump,isaset}.8
 }
