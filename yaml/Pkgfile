@@ -5,13 +5,15 @@
 
 name=yaml
 version=0.2.5
-release=1
+release=2
 source=(https://pyyaml.org/download/libyaml/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--disable-static
 
