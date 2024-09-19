@@ -495,8 +495,8 @@ f:e7364c8896b2f082aaf1579001d1bd65:perl-uri/.footprint
 f:f7147c6e2c157ba41380ed58744f7cf6:perl-uri/.signature
 f:22286c5b909ba79349df4a7b7965b5c2:perl-uri/Pkgfile
 f:c000a8bfee82f077299fd491e77a3a74:lm-sensors/.footprint
-f:a95f9eb7bb7ea66884d1d6a3f0448447:lm-sensors/.signature
-f:022e7ae55acde27dbed7481d5b264feb:lm-sensors/Pkgfile
+f:fa5a920125524c357b8842461a539ee9:lm-sensors/.signature
+f:9108951b5448452b67ba8188f7b24e81:lm-sensors/Pkgfile
 f:c78da831c375e0c2d8d187dc4fabd272:lm-sensors/README
 f:d4e204209bccffea4dcc1aec62d4cadf:enca/enca-bad-file-descriptor.patch
 f:8acfa16b629095235b8b9a25330853d4:enca/.footprint
