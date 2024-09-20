@@ -457,8 +457,8 @@ f:cb97f8feb57f4a5dc1e02a730e52d209:pinentry/Pkgfile
 f:265c33bc83a23f509addd4197ac9b13e:alsa-utils/alsa.finish
 f:df7f8b21c7128d1500a2ae4de5b8e50e:alsa-utils/alsa.run
 f:bdfff218e10c2c64e528ca5cd68cbbef:alsa-utils/.footprint
-f:ccb70e0ab917f879427210d01d14b406:alsa-utils/.signature
-f:26c22f5e48a6afd465c24b07fa836527:alsa-utils/Pkgfile
+f:b06e616041386e7308624043e8f22190:alsa-utils/.signature
+f:fd8f169bde317260125b8b3962b8251a:alsa-utils/Pkgfile
 f:1f0d8e1a1e561d8ccb910f8eec097a8a:gpgme/.footprint
 f:d1a4db529c86e44c67500a1101bb0c41:gpgme/.signature
 f:fb78b2170ee1e17df29c8d6358c028de:gpgme/Pkgfile
