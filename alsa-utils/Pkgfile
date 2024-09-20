@@ -5,7 +5,7 @@
 
 name=alsa-utils
 version=1.2.12
-release=1
+release=2
 source=(http://www.alsa-project.org/files/pub/utils/${name}-${version}.tar.bz2 \
 	alsa.finish \
 	alsa.run)
@@ -13,7 +13,12 @@ source=(http://www.alsa-project.org/files/pub/utils/${name}-${version}.tar.bz2 \
 build() {
 	cd ${name}-${version}
 
+	cp -v /usr/share/automake-1.17/config.{guess,sub} \
+		$SRC/${name}-${version}/
+
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--disable-alsaconf \
 		--disable-bat \
