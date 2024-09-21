@@ -4,7 +4,7 @@
 # Depends on:	libgcrypt libksba pinentry npth
 
 name=gnupg
-version=2.5.0
+version=2.5.1
 release=1
 source=(https://gnupg.org/ftp/gcrypt/${name}/${name}-${version}.tar.bz2)
 
