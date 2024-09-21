@@ -1,7 +1,7 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrPYTUruWf7BbK9lCEJb22Ae/z3dlV9fVyIcvPFK6G2h+s0vrYKdxo/QkY+0Mm7X4/p3nkKk2rCpMHsosstkjKgk=
-SHA256 (Pkgfile) = 2078daa6989c3c071b9db05ff1809c8225559206a058eafceeade0ff2dc8b99d
-SHA256 (.footprint) = 0e24ed3cdff37dbd51e6396f6b5255e9bfd55388de60683c26026b8cc86a13bf
-SHA256 (libpng-1.6.43.tar.gz) = e804e465d4b109b5ad285a8fb71f0dd3f74f0068f91ce3cdfde618180c174925
+RWRkiJhlUJEGrOVyYZW0eIs1h2F5Ntpfs/AJXJSWCTcXqvQ02ZaIRe7k2s2PUWjBYN1m1rApvKd/DC8/N7BFDNzEkrVJmDy30gE=
+SHA256 (Pkgfile) = d3c352d5f9c6f8bb46a767063d46cc6dee9496dd0f577d977cd8f27ffd1ae942
+SHA256 (.footprint) = c52f2c3428c7a289193806325312df0b062ffc4899979f02164abec8cc29449d
+SHA256 (libpng-1.6.44.tar.gz) = 8c25a7792099a0089fa1cc76c94260d0bb3f1ec52b93671b572f8bb61577b732
 SHA256 (libpng-1.6.43-apng.patch) = 619362e5f3d5adef3f0e7486a3becf5efacd5e82aa32a1520b176054dee7fbbd
 SHA256 (libpng-fix-arm-neon.patch) = 7a9ba0b862155cda2089fd7306eb2a7b75ca083afa51201cc5bf49ee2039a65a
