@@ -4,14 +4,14 @@
 # Depends on:	cmake nasm
 
 name=x265
-version=3.6
+version=4.0
 release=1
 source=(https://bitbucket.org/multicoreware/${name}_git/downloads/${name}_${version}.tar.gz)
 
 build() {
 	cd $SRC
 
-	cmake -S x265_3.6/source -B build-12 \
+	cmake -S x265_4.0/source -B build-12 \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DHIGH_BIT_DEPTH=TRUE \
@@ -25,7 +25,7 @@ build() {
 
 	make ${JOBS:+-j ${JOBS}} VERBOSE=1 -C build-12
 
-	cmake -S x265_3.6/source -B build-10 \
+	cmake -S x265_4.0/source -B build-10 \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DHIGH_BIT_DEPTH=TRUE \
@@ -38,7 +38,7 @@ build() {
 
 	make ${JOBS:+-j ${JOBS}} VERBOSE=1 -C build-10
 
-	cmake -S x265_3.6/source -B build \
+	cmake -S x265_4.0/source -B build \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DENABLE_SHARED=TRUE \
