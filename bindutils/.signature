@@ -1,6 +1,6 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrMu8NfQxMXI6OL/6WFIK9gTIXDGn8aV9mneGElqwwwri9PfXXFxGTTl/jJrAwQ4cfXlPubNadP39v/FiTVwEhQo=
-SHA256 (Pkgfile) = ac2e72dd5ef2e5cc542dc6301c8f09ac778d9e7abe121649347d9706f84664e0
-SHA256 (.footprint) = 6b94f82d0f4e1461c312f137d3c7ade0dd36470100fee6ba6b3c0d7c3d442f81
-SHA256 (bind-9.20.1.tar.xz) = fe6ddff74921410d33b62b5723ac23912e8d50138ef66d7a30dc2c421129aeb0
+RWRkiJhlUJEGrL9sGXXJtiUDxumLjZx9rItlj86lmzAPRdxa7RX7V+lz4o4TVxjOdKGuPYCmZXmozsi8iI6MnjjpfAGzP7Fz2w8=
+SHA256 (Pkgfile) = b8508539071abfc16e168663d1f11cc5213046616129b93e3e9cd959a2665c04
+SHA256 (.footprint) = ab5c5085c6cb4cb6efe477f2c1899c45e08ca1e706875663a3eab0bad11e41a1
+SHA256 (bind-9.20.2.tar.xz) = a31dba2aaa1b371902dd0474eb3963f47b7ffed2bd9ece7da4834e23210d6067
 SHA256 (utils.patch) = 0aa2f4ce4aa69ebbe8f2ea3e7172bf8e486c40c7dce531921314da0b92198ea7
