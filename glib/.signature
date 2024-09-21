@@ -1,7 +1,7 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrOkbHs1Z1K3objM5RP9Td2t9A8SrIjtvC5LK3kaW/4NEdDx8goNXmbyh+LWOH+agd+Qu+dFT33VCp7CIeiZc/QA=
-SHA256 (Pkgfile) = 744924691ae8ef779b5abb2ae51d4689cd7e0da319fccdbed3c9dc364369391d
-SHA256 (.footprint) = ec9ebdda1ff8768cc7bccebf10bfc5f5033c6ca613c84222482d5a7cebd135ad
-SHA256 (glib-2.82.0.tar.xz) = f4c82ada51366bddace49d7ba54b33b4e4d6067afa3008e4847f41cb9b5c38d3
-SHA256 (gobject-introspection-1.80.1.tar.xz) = a1df7c424e15bda1ab639c00e9051b9adf5cea1a9e512f8a603b53cd199bc6d8
+RWRkiJhlUJEGrBIErP2Zm++PJiD+smtUmXP4dOKR5nKpqDJ2YM9I46/qEGZseAD3Sgy1E2mLnXnf97ZAAvaeUYbQLK7ZAVcWXws=
+SHA256 (Pkgfile) = 1d632f22626642e751f3d5026795de01ab83ba0702f4e8236e4d698ce287ea63
+SHA256 (.footprint) = ad378a9a69c454f2194bda28fcb2ce7b48fdb52ab98525d9d72256038133a585
+SHA256 (glib-2.82.1.tar.xz) = 478634440bf52ee4ec4428d558787398c0be6b043c521beb308334b3db4489a6
+SHA256 (gobject-introspection-1.82.0.tar.xz) = 0f5a4c1908424bf26bc41e9361168c363685080fbdb87a196c891c8401ca2f09
 SHA256 (deprecated-no-warn.patch) = 0f52f456c8c91281fee33d99fc02799faf90d2f374a896b728abd5913aa5f9dc
