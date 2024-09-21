@@ -1,5 +1,5 @@
 untrusted comment: verify with opt-x86_64.pub
-RWRkiJhlUJEGrEoN3nQjAhZtOljHs2k7ILVl9+fXyz5ZZUafaF8PLvIM5JPDV0vQvI4kNDqPoES7OeCIjrPGZ8++fhHElLcUrgA=
-SHA256 (Pkgfile) = e8193f76d18005b3e75a2f8eea7f739fd364e162537be00026bd2c2e10c24b6e
+RWRkiJhlUJEGrCWAV9+FcWLutFinznh/xMpBB/MKP7nijQZRKgegKnPeyY800+EJE47chum45BLrlrVVwcYtz5ONe3U/UG04aww=
+SHA256 (Pkgfile) = ef211e98a416d000ff2cde77c1f099fa133a930e3c349dffbfc725a5407c05ba
 SHA256 (.footprint) = 57a2b4de79f56308ae42a74152563b041151ad9740e1d00e8fcea3397d0ae3c3
-SHA256 (libjpeg-turbo-3.0.3.tar.gz) = 343e789069fc7afbcdfe44dbba7dbbf45afa98a15150e079a38e60e44578865d
+SHA256 (libjpeg-turbo-3.0.4.tar.gz) = 99130559e7d62e8d695f2c0eaeef912c5828d5b84a0537dcb24c9678c9d5b76b
