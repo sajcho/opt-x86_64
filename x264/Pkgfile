@@ -4,9 +4,9 @@
 # Depends on:	nasm
 
 name=x264
-version=0.164.7ed753b
+version=0.164.c24e06c
 release=1
-_commit=7ed753b10a61d0be95f683289dfb925b800b0676
+_commit=c24e06c2e184345ceb33eb20a15d1024d9fd3497
 source=(https://code.videolan.org/videolan/x264/-/archive/${_commit}/${name}-${_commit}.tar.bz2)
 
 build() {
