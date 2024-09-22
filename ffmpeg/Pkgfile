@@ -5,11 +5,14 @@
 
 name=ffmpeg
 version=7.0.2
-release=1
-source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz)
+release=2
+source=(https://ffmpeg.org/releases/${name}-${version}.tar.xz \
+	libavcodec_libx265.c.patch)
 
 build() {
 	cd ${name}-${version}
+
+	patch -p1 -i $SRC/libavcodec_libx265.c.patch
 
 	./configure \
 		--prefix=/usr \
