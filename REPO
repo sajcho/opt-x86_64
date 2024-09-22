@@ -545,8 +545,9 @@ f:55c95a449de5cfce2b46b72c63c44ef3:btop/.footprint
 f:56468ecdf77ad72e9ba4f5f3d4ce356e:btop/.signature
 f:7837c160f53aa269cab96bdc6f42ec7e:btop/Pkgfile
 f:251aa7f0aacff981743a42e11b2dfc55:ffmpeg/.footprint
-f:35aa5ec4abef6569af7eba4d12025b21:ffmpeg/.signature
-f:a7842bda58e86bd05a65a328c01889bb:ffmpeg/Pkgfile
+f:044f41efa893f9b5921c0f1b2a0b3d18:ffmpeg/.signature
+f:2cf7210f59745a41af5998845ac32d34:ffmpeg/libavcodec_libx265.c.patch
+f:2bd5a399459be859682f64d28c3800ef:ffmpeg/Pkgfile
 f:e958def8214e32799b4a4428e19b86d9:lrzsz/.footprint
 f:e73f3db160726cf68ac80c1f7d832236:lrzsz/.signature
 f:332f6e4af9fe0266efecf9d334c4d3db:lrzsz/lrzsz.patch
